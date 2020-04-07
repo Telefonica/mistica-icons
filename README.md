@@ -1,10 +1,29 @@
 | global | name | SVG | PDF | | O2 | name | SVG | PDF |
 | :-: | :- | :-: | :-: | - | :-: | :- | :-: | :-: |
-| ![icn_share](icn_export/Global/icn_share.svg) | `icn_share`  |  [.svg](icn_export/Global/icn_share.svg) | [.pdf](icn_export/Global/icn_share.pdf) |  | ![icn_share](icn_export/O2/icn_share.svg) | `icn_share`  |  [.svg](icn_export/O2/icn_share.svg) | [.pdf](icn_export/O2/icn_share.pdf) |  
-| ![icn_help](icn_export/Global/icn_help.svg) | `icn_help`  |  [.svg](icn_export/Global/icn_help.svg) | [.pdf](icn_export/Global/icn_help.pdf) |  | ![icn_help](icn_export/O2/icn_help.svg) | `icn_help`  |  [.svg](icn_export/O2/icn_help.svg) | [.pdf](icn_export/O2/icn_help.pdf) |  
-| ![icn_delete](icn_export/Global/icn_delete.svg) | `icn_delete`  |  [.svg](icn_export/Global/icn_delete.svg) | [.pdf](icn_export/Global/icn_delete.pdf) |  | ![icn_delete](icn_export/O2/icn_delete.svg) | `icn_delete`  |  [.svg](icn_export/O2/icn_delete.svg) | [.pdf](icn_export/O2/icn_delete.pdf) |  
-| ![icn_new](icn_export/Global/icn_new.svg) | `icn_new`  |  [.svg](icn_export/Global/icn_new.svg) | [.pdf](icn_export/Global/icn_new.pdf) |  | ![icn_new](icn_export/O2/icn_new.svg) | `icn_new`  |  [.svg](icn_export/O2/icn_new.svg) | [.pdf](icn_export/O2/icn_new.pdf) |  
-| ![icn_fav](icn_export/Global/icn_fav.svg) | `icn_fav`  |  [.svg](icn_export/Global/icn_fav.svg) | [.pdf](icn_export/Global/icn_fav.pdf) |  | ![icn_fav](icn_export/O2/icn_fav.svg) | `icn_fav`  |  [.svg](icn_export/O2/icn_fav.svg) | [.pdf](icn_export/O2/icn_fav.pdf) |  
-| ![icn_home](icn_export/Global/icn_home.svg) | `icn_home`  |  [.svg](icn_export/Global/icn_home.svg) | [.pdf](icn_export/Global/icn_home.pdf) |  | ![icn_home](icn_export/O2/icn_home.svg) | `icn_home`  |  [.svg](icn_export/O2/icn_home.svg) | [.pdf](icn_export/O2/icn_home.pdf) |  
-| ![icn_search](icn_export/Global/icn_search.svg) | `icn_search`  |  [.svg](icn_export/Global/icn_search.svg) | [.pdf](icn_export/Global/icn_search.pdf) |  | ![icn_search](icn_export/O2/icn_search.svg) | `icn_search`  |  [.svg](icn_export/O2/icn_search.svg) | [.pdf](icn_export/O2/icn_search.pdf) |  
-| ![icn_back](icn_export/Global/icn_back.svg) | `icn_back`  |  [.svg](icn_export/Global/icn_back.svg) | [.pdf](icn_export/Global/icn_back.pdf) |  
+| ![icn-pin-grey](icn_export/O2/icn-pin-grey.svg) | `icn-pin-grey`  |  [.svg](icn_export/O2/icn-pin-grey.svg) | [.pdf](icn_export/O2/icn-pin-grey.pdf) |  
+| ![icn_notifications](icn_export/Global/icn_notifications.svg) | `icn_notifications`  |  [.svg](icn_export/Global/icn_notifications.svg) | [.pdf](icn_export/Global/icn_notifications.pdf) |  
+| ![icn-instagram](icn_export/O2/icn-instagram.svg) | `icn-instagram`  |  [.svg](icn_export/O2/icn-instagram.svg) | [.pdf](icn_export/O2/icn-instagram.pdf) |  
+| ![icn_widget](icn_export/Global/icn_widget.svg) | `icn_widget`  |  [.svg](icn_export/Global/icn_widget.svg) | [.pdf](icn_export/Global/icn_widget.pdf) |  
+| ![icn_creditcard](icn_export/Global/icn_creditcard.svg) | `icn_creditcard`  |  [.svg](icn_export/Global/icn_creditcard.svg) | [.pdf](icn_export/Global/icn_creditcard.pdf) |  
+| ![data-on-demand](icn_export/O2/data-on-demand.svg) | `data-on-demand`  |  [.svg](icn_export/O2/data-on-demand.svg) | [.pdf](icn_export/O2/data-on-demand.pdf) |  
+| ![icn_phonebooks](icn_export/O2/icn_phonebooks.svg) | `icn_phonebooks`  |  [.svg](icn_export/O2/icn_phonebooks.svg) | [.pdf](icn_export/O2/icn_phonebooks.pdf) |  
+| ![icn-antivirus](icn_export/O2/icn-antivirus.svg) | `icn-antivirus`  |  [.svg](icn_export/O2/icn-antivirus.svg) | [.pdf](icn_export/O2/icn-antivirus.pdf) |  
+| ![icn_lock](icn_export/O2/icn_lock.svg) | `icn_lock`  |  [.svg](icn_export/O2/icn_lock.svg) | [.pdf](icn_export/O2/icn_lock.pdf) |  
+| ![icn_settings_invitations](icn_export/O2/icn_settings_invitations.svg) | `icn_settings_invitations`  |  [.svg](icn_export/O2/icn_settings_invitations.svg) | [.pdf](icn_export/O2/icn_settings_invitations.pdf) |  
+| ![icn_shop](icn_export/O2/icn_shop.svg) | `icn_shop`  |  [.svg](icn_export/O2/icn_shop.svg) | [.pdf](icn_export/O2/icn_shop.pdf) |  
+| ![icn-gallery](icn_export/O2/icn-gallery.svg) | `icn-gallery`  |  [.svg](icn_export/O2/icn-gallery.svg) | [.pdf](icn_export/O2/icn-gallery.pdf) |  
+| ![icn-service-multiplica](icn_export/O2/icn-service-multiplica.svg) | `icn-service-multiplica`  |  [.svg](icn_export/O2/icn-service-multiplica.svg) | [.pdf](icn_export/O2/icn-service-multiplica.pdf) |  
+| ![icn_faq](icn_export/O2/icn_faq.svg) | `icn_faq`  |  [.svg](icn_export/O2/icn_faq.svg) | [.pdf](icn_export/O2/icn_faq.pdf) |  
+| ![icn-credit-card-negative](icn_export/Global/icn-credit-card-negative.svg) | `icn-credit-card-negative`  |  [.svg](icn_export/Global/icn-credit-card-negative.svg) | [.pdf](icn_export/Global/icn-credit-card-negative.pdf) |  
+| ![icn_settings_nt](icn_export/O2/icn_settings_nt.svg) | `icn_settings_nt`  |  [.svg](icn_export/O2/icn_settings_nt.svg) | [.pdf](icn_export/O2/icn_settings_nt.pdf) |  
+| ![icn_settings_rating](icn_export/Global/icn_settings_rating.svg) | `icn_settings_rating`  |  [.svg](icn_export/Global/icn_settings_rating.svg) | [.pdf](icn_export/Global/icn_settings_rating.pdf) |  
+| ![icn_help](icn_export/Global/icn_help.svg) | `icn_help`  |  [.svg](icn_export/Global/icn_help.svg) | [.pdf](icn_export/Global/icn_help.pdf) |  
+| ![icn-gb](icn_export/Global/icn-gb.svg) | `icn-gb`  |  [.svg](icn_export/Global/icn-gb.svg) | [.pdf](icn_export/Global/icn-gb.pdf) |  
+| ![background](icn_export/Global/background.svg) | `background`  |  [.svg](icn_export/Global/background.svg) | [.pdf](icn_export/Global/background.pdf) |  
+| ![icn_settings_device_setup](icn_export/O2/icn_settings_device_setup.svg) | `icn_settings_device_setup`  |  [.svg](icn_export/O2/icn_settings_device_setup.svg) | [.pdf](icn_export/O2/icn_settings_device_setup.pdf) |  
+| ![icn_settings_support_chat](icn_export/O2/icn_settings_support_chat.svg) | `icn_settings_support_chat`  |  [.svg](icn_export/O2/icn_settings_support_chat.svg) | [.pdf](icn_export/O2/icn_settings_support_chat.pdf) |  
+| ![icn_settings_tokens](icn_export/Global/icn_settings_tokens.svg) | `icn_settings_tokens`  |  [.svg](icn_export/Global/icn_settings_tokens.svg) | [.pdf](icn_export/Global/icn_settings_tokens.pdf) |  
+| ![icn-tv-throw-and-watch](icn_export/Global/icn-tv-throw-and-watch.svg) | `icn-tv-throw-and-watch`  |  [.svg](icn_export/Global/icn-tv-throw-and-watch.svg) | [.pdf](icn_export/Global/icn-tv-throw-and-watch.pdf) |  
+| ![icn_settings_logout](icn_export/Global/icn_settings_logout.svg) | `icn_settings_logout`  |  [.svg](icn_export/Global/icn_settings_logout.svg) | [.pdf](icn_export/Global/icn_settings_logout.pdf) |  
+| ![icn-portal-alejandra](icn_export/Global/icn-portal-alejandra.svg) | `icn-portal-alejandra`  |  [.svg](icn_export/Global/icn-portal-alejandra.svg) | [.pdf](icn_export/Global/icn-portal-alejandra.pdf) |  
+| ![icn_settings_device_support](icn_export/Global/icn_settings_device_support.svg) | `icn_settings_device_support`  |  [.svg](icn_export/Global/icn_settings_device_support.svg) | [.pdf](icn_export/Global/icn_settings_device_support.pdf) |  
