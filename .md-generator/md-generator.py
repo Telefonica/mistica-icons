@@ -18,7 +18,7 @@ if __name__ == '__main__':
     files = os.listdir(path)
     root = os.path.basename(path)
     dictionary = {}
-    file_content = "| global | name | SVG | PDF | | O2 | name | SVG | PDF |" + BREAK + "| :-: | :- | :-: | :-: | - | :-: | :- | :-: | :-: |" + BREAK
+    file_content = "##Esto es una pruebita de contenido" + BREAK + "| global | name | SVG | PDF | | O2 | name | SVG | PDF |" + BREAK + "| :-: | :- | :-: | :-: | - | :-: | :- | :-: | :-: |" + BREAK
     for brand in files:
         brand_folder = path + SLASH + brand
         if os.path.isdir(brand_folder) and brand != ".DS_Store":
