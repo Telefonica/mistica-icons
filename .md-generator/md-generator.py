@@ -18,7 +18,7 @@ if __name__ == '__main__':
     files = os.listdir(path)
     root = os.path.basename(path)
     dictionary = {}
-    file_content = "# Esto es un H1" + BREAK + "## Esto es un H2" + BREAK + "### NO PUEDES USAR TILDES ni caracteres rarunos, dará fallo. (DO IT IN ENGLISH ANYWAY)" + BREAK + "[Y aqui tienes una guia de markdown link](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)" + BREAK +"| global | name | SVG | PDF | | O2 | name | SVG | PDF |" + BREAK + "| :-: | :- | :-: | :-: | - | :-: | :- | :-: | :-: |" + BREAK
+    file_content = "# Esto es un H1" + BREAK + "## Esto es un H2" + BREAK + "### NO PUEDES USAR TILDES ni caracteres rarunos, dara fallo. (DO IT IN ENGLISH ANYWAY)" + BREAK + "[Y aqui tienes una guia de markdown link](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)" + BREAK +"| global | name | SVG | PDF | | O2 | name | SVG | PDF |" + BREAK + "| :-: | :- | :-: | :-: | - | :-: | :- | :-: | :-: |" + BREAK
     for brand in files:
         brand_folder = path + SLASH + brand
         if os.path.isdir(brand_folder) and brand != ".DS_Store":
