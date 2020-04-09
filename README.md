@@ -1,4 +1,4 @@
-#Mistica icons
+# Mistica icons
 This is the repo that contains all icons that is working in [Mistica Design Libraries](https://github.com/Telefonica/mistica-design-libraries). 
 | global | name | SVG | PDF | | O2 | name | SVG | PDF |
 | :-: | :- | :-: | :-: | - | :-: | :- | :-: | :-: |
