@@ -1,4 +1,4 @@
-### Mistica icons :art:
+### Mistica icons
 This repo contains all icons that is working in [Mistica Design Libraries](https://github.com/Telefonica/mistica-design-libraries) now.
 ### Documentation
 You can find more information and how to use this repo in the [Wiki](https://github.com/Telefonica/mistica-icons/wiki)
