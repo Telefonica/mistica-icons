@@ -31,7 +31,7 @@ jobs:
     - name: config
       run: |
         git config --global user.name "🤖GeneratorBot"
-        git config --global user.email "yceballost@gmail.com"
+        git config --global user.email "users.noreply.github.com"
     - name: commit changed files
       run: git commit -m "Auto updating Readme"
     - name: fetch from production
