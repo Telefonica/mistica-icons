@@ -1,4 +1,4 @@
-name: Copy-New
+name: Clone folder to other repository
 
 on: push
 
@@ -6,12 +6,12 @@ jobs:
   copy:
     runs-on: ubuntu-latest
     steps:
-    - name: Copy
+    - name: Clone
       uses: andstor/copycat-action@v3
       with:
         personal_token: ${{ secrets.PERSONAL_TOKEN }}
         src_path: icn_export/
         dst_path: ./
-        dst_owner: yceballost
+        dst_owner: mistica-icons
         dst_repo_name: mistica-icons.github.io
         clean: false
