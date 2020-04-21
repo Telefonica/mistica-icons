@@ -1,0 +1,14 @@
+name: Copy-New
+on: push
+jobs:
+  copy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Copy
+      uses: andstor/copycat-action@v3
+      with:
+        personal_token: ${{ secrets.copy_new }}
+        src_path: icn_export/
+        dst_path: ./
+        dst_owner: yceballost
+        dst_repo_name: yceballost.github.io
