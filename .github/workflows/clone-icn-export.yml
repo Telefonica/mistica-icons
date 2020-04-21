@@ -1,4 +1,4 @@
-name: Copy-New
+name: Clone folder to other repository
 
 on: push
 
@@ -6,7 +6,7 @@ jobs:
   copy:
     runs-on: ubuntu-latest
     steps:
-    - name: Copy
+    - name: Clone
       uses: andstor/copycat-action@v3
       with:
         personal_token: ${{ secrets.PERSONAL_TOKEN }}
