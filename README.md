@@ -2,7 +2,7 @@
 ### What is this?
 This is the repo that contains all icons that is working in [Mistica Design Libraries](https://github.com/Telefonica/mistica-design-libraries) now.
 The icons that there is here are **the only source of true** from the design team in icons.
-If you have any question, please you can ask directly in the Slack channel `#designsystem`
+If you have any question, please you can ask directly in the Slack channel [#designsystem](https://tuentitu.slack.com/archives/CH3B76BDW)
 ### Documentation
 You can find more information and how to use this repo in the [Wiki](https://github.com/Telefonica/mistica-icons/wiki).
 ### Search in the repo
