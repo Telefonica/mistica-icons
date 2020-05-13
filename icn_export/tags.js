@@ -2,17 +2,22 @@
 var icnTags = [];
 ///////////////////
 
-// EXAMPLE
+//////////////////////////////////////////////////////////////////////////////
+////                                                                      ////
+//// TEMPLATE                                                             ////
+//// icnTags.iconname = ["tag1", "tag2", "tag3", "..."];                  ////
+////                                                                      ////
+//// ———————————————————————————————————————————————————————————————————— ////
+////                                                                      ////
+//// EXAMPLE                                                              ////
+//// icnTags.lock = ["lock", "candado", "seguridad"];                     ////
+//// icnTags.notifications = ["notification", "notificacion", "mensaje"]; ////
+////                                                                      ////
+//////////////////////////////////////////////////////////////////////////////
+
+
+// PROFILE
 icnTags.lock = ["lock", "candado", "seguridad"];
-icnTags.notifications = ["notification", "notificacion", "mensaje"];
-
-
-// TEMPLATE
-icnTags.iconname = ["tag1", "tag2", "tag3", "..."];
-
-// ICON LIST
-// Profile
-icnTags.lock = ["tag1", "tag2"];
 icnTags.notifications = ["tag1", "tag2"];
 icnTags.phonebooks = ["tag1", "tag2"];
 icnTags.profile = ["tag1", "tag2"];
@@ -41,7 +46,7 @@ icnTags.contact = ["tag1", "tag2"];
 icnTags.request = ["tag1", "tag2"];
 icnTags.protocols = ["tag1", "tag2"];
 
-// Account
+// ACCOUNT
 icnTags.internet = ["tag1", "tag2"];
 icnTags.tv = ["tag1", "tag2"];
 icnTags.landline = ["tag1", "tag2"];
@@ -57,7 +62,7 @@ icnTags.tv_guide = ["tag1", "tag2"];
 icnTags.recomendation_tv = ["tag1", "tag2"];
 icnTags.tv_cinema = ["tag1", "tag2"];
 icnTags.tv_motor = ["tag1", "tag2"];
-icnTags.tv-series = ["tag1", "tag2"];
+// icnTags.tv-series = ["tag1", "tag2"];
 icnTags.tv_promo = ["tag1", "tag2"];
 icnTags.tv_sports = ["tag1", "tag2"];
 icnTags.tv_extra_latino = ["tag1", "tag2"];
@@ -91,7 +96,7 @@ icnTags.others_negative = ["tag1", "tag2"];
 icnTags.sms_positive = ["tag1", "tag2"];
 icnTags.sms_negative = ["tag1", "tag2"];
 
-// Settings
+// SETTINGS
 icnTags.touchid = ["tag1", "tag2"];
 icnTags.faceid = ["tag1", "tag2"];
 icnTags.delete_pin = ["tag1", "tag2"];
@@ -112,7 +117,7 @@ icnTags.assistant_notification = ["tag1", "tag2"];
 icnTags.assistant_sms = ["tag1", "tag2"];
 icnTags.assistant_tv = ["tag1", "tag2"];
 
-// Login
+// LOGIN
 icnTags.eye_disabled = ["tag1", "tag2"];
 icnTags.eye_enabled = ["tag1", "tag2"];
 
