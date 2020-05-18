@@ -1,6 +1,7 @@
-// Don't touch this!
+//////////////////////////////////////////////////////////////////////////////
+//// Don't touch this!                                                    ////
 var icnTags = [];
-///////////////////
+//////////////////////////////////////////////////////////////////////////////
 
 //////////////////////////////////////////////////////////////////////////////
 ////                                                                      ////
@@ -40,86 +41,86 @@ icnTags.settings_errorlog = ["ajustes", "error"];
 icnTags.settings_voicemail = ["ajustes", "buzon", "voz"];
 icnTags.order = ["tag1", "tag2"];
 icnTags.bell = ["campana", "aviso", "notificacion"];
-icnTags.faq = ["tag1", "tag2"];
-icnTags.settings_logout = ["tag1", "tag2"];
-icnTags.contact = ["tag1", "tag2"];
-icnTags.request = ["tag1", "tag2"];
-icnTags.protocols = ["tag1", "tag2"];
+icnTags.faq = ["faq"];
+icnTags.settings_logout = ["ajustes", "cerrar", "sesion"];
+icnTags.contact = ["contacto"];
+icnTags.request = ["peticion"];
+icnTags.protocols = ["protocolo"];
 
 // ACCOUNT
-icnTags.internet = ["tag1", "tag2"];
-icnTags.tv = ["tag1", "tag2"];
+icnTags.internet = ["internet", "red", "fibra"];
+icnTags.tv = ["television", "tele"];
 icnTags.landline = ["tag1", "tag2"];
-icnTags.mobile = ["tag1", "tag2"];
-icnTags.cloud = ["tag1", "tag2"];
-icnTags.nubico = ["tag1", "tag2"];
+icnTags.mobile = ["movil", "telefono"];
+icnTags.cloud = ["nube", "tag2"];
+icnTags.nubico = ["nube", "tag2"];
 icnTags.yavoy = ["tag1", "tag2"];
-icnTags.protect = ["tag1", "tag2"];
-icnTags.data = ["tag1", "tag2"];
+icnTags.protect = ["proteger", "tag2"];
+icnTags.data = ["datos", "tag2"];
 icnTags.premium = ["tag1", "tag2"];
-icnTags.tv_family = ["tag1", "tag2"];
-icnTags.tv_guide = ["tag1", "tag2"];
-icnTags.recomendation_tv = ["tag1", "tag2"];
-icnTags.tv_cinema = ["tag1", "tag2"];
-icnTags.tv_motor = ["tag1", "tag2"];
-// icnTags.tv-series = ["tag1", "tag2"];
-icnTags.tv_promo = ["tag1", "tag2"];
-icnTags.tv_sports = ["tag1", "tag2"];
-icnTags.tv_extra_latino = ["tag1", "tag2"];
+icnTags.tv_family = ["television", "tele"];
+icnTags.tv_guide = ["television", "tele"];
+icnTags.recomendation_tv = ["television", "tele"];
+icnTags.tv_cinema = ["television", "tele", "cine"];
+icnTags.tv_motor = ["television", "tele"];
+// icnTags.tv-series = ["television", "tele"];
+icnTags.tv_promo = ["television", "tele"];
+icnTags.tv_sports = ["television", "tele"];
+icnTags.tv_extra_latino = ["television", "tele"];
 icnTags.mov_balance = ["tag1", "tag2"];
-icnTags.bundle_transactions = ["tag1", "tag2"];
-icnTags.topup_creditcard = ["tag1", "tag2"];
-icnTags.gift = ["tag1", "tag2"];
-icnTags.topup_invoice = ["tag1", "tag2"];
-icnTags.topup_balance_sos = ["tag1", "tag2"];
-icnTags.others = ["tag1", "tag2"];
-icnTags.speed_test = ["tag1", "tag2"];
-icnTags.multi_device = ["tag1", "tag2"];
-icnTags.wifi = ["tag1", "tag2"];
-icnTags.wifi_plus = ["tag1", "tag2"];
-icnTags.mobile_support = ["tag1", "tag2"];
+icnTags.bundle_transactions = ["paquete", "transaccion"];
+icnTags.topup_creditcard = ["recarga", "tarjeta", "credito"];
+icnTags.gift = ["regalo", "premio"];
+icnTags.topup_invoice = ["recarga", "factura"];
+icnTags.topup_balance_sos = ["recarga", "balance"];
+icnTags.others = ["otros", "miscelanea"];
+icnTags.speed_test = ["velocidad", "prueba"];
+icnTags.multi_device = ["dispositivo"];
+icnTags.wifi = ["internet", "fibra"];
+icnTags.wifi_plus = ["internet", "fibra"];
+icnTags.mobile_support = ["movil", "telefono"];
 icnTags.all_positive = ["tag1", "tag2"];
-icnTags.amount_positive = ["tag1", "tag2"];
-icnTags.amount_negative = ["tag1", "tag2"];
+icnTags.amount_positive = ["cantidad"];
+icnTags.amount_negative = ["cantidad"];
 icnTags.all_positive = ["tag1", "tag2"];
 icnTags.all_negative = ["tag1", "tag2"];
 icnTags.balance_positive = ["tag1", "tag2"];
 icnTags.balance_negative = ["tag1", "tag2"];
-icnTags.credit_card_positive = ["tag1", "tag2"];
-icnTags.credit_card_negative = ["tag1", "tag2"];
-icnTags.data_positive = ["tag1", "tag2"];
-icnTags.data_negative = ["tag1", "tag2"];
+icnTags.credit_card_positive = ["tarjeta", "credito", "pago"];
+icnTags.credit_card_negative = ["tarjeta", "credito", "pago"];
+icnTags.data_positive = ["datos", "positivo"];
+icnTags.data_negative = ["datos", "negativo"];
 icnTags.landline_positive = ["tag1", "tag2"];
 icnTags.landline_negative = ["tag1", "tag2"];
 icnTags.others_positive = ["tag1", "tag2"];
 icnTags.others_negative = ["tag1", "tag2"];
-icnTags.sms_positive = ["tag1", "tag2"];
-icnTags.sms_negative = ["tag1", "tag2"];
+icnTags.sms_positive = ["mensaje", "positivo"];
+icnTags.sms_negative = ["mensaje", "negativo"];
 
 // SETTINGS
-icnTags.touchid = ["tag1", "tag2"];
-icnTags.faceid = ["tag1", "tag2"];
-icnTags.delete_pin = ["tag1", "tag2"];
-icnTags.info = ["tag1", "tag2"];
-icnTags.smartphone = ["tag1", "tag2"];
-icnTags.computer = ["tag1", "tag2"];
-icnTags.assistant_balance = ["tag1", "tag2"];
-icnTags.assistant_bill = ["tag1", "tag2"];
-icnTags.assistant_bundle = ["tag1", "tag2"];
-icnTags.assistant_data = ["tag1", "tag2"];
-icnTags.assistant_device_plan = ["tag1", "tag2"];
-icnTags.assistant_internet = ["tag1", "tag2"];
-icnTags.assistant_issue = ["tag1", "tag2"];
-icnTags.assitant_landline = ["tag1", "tag2"];
-icnTags.assitant_minutes = ["tag1", "tag2"];
-icnTags.assistant_mobile = ["tag1", "tag2"];
-icnTags.assistant_notification = ["tag1", "tag2"];
-icnTags.assistant_sms = ["tag1", "tag2"];
-icnTags.assistant_tv = ["tag1", "tag2"];
+icnTags.touchid = ["huella", "seguridad"];
+icnTags.faceid = ["facial", "reconocimiento", "seguridad"];
+icnTags.delete_pin = ["eliminar", "codigo"];
+icnTags.info = ["informacion"];
+icnTags.smartphone = ["telefono", "movil"];
+icnTags.computer = ["ordenador", "pc"];
+icnTags.assistant_balance = ["asistente", "balance"];
+icnTags.assistant_bill = ["asistente", "factura"];
+icnTags.assistant_bundle = ["asistente", "paquete"];
+icnTags.assistant_data = ["asistente", "datos"];
+icnTags.assistant_device_plan = ["asistente", "dispositivo"];
+icnTags.assistant_internet = ["asistente", "fibra"];
+icnTags.assistant_issue = ["asistente", "problema", "error"];
+icnTags.assitant_landline = ["asistente", "tag2"];
+icnTags.assitant_minutes = ["asistente", "minutos"];
+icnTags.assistant_mobile = ["asistente", "telefono", "movil"];
+icnTags.assistant_notification = ["asistente", "alerta", "notificacion"];
+icnTags.assistant_sms = ["asistente", "mensaje"];
+icnTags.assistant_tv = ["asistente", "television", "tele"];
 
 // LOGIN
-icnTags.eye_disabled = ["tag1", "tag2"];
-icnTags.eye_enabled = ["tag1", "tag2"];
+icnTags.eye_disabled = ["ojo", "contraseña", "password"];
+icnTags.eye_enabled = ["ojo", "contraseña", "password"];
 
 // SUBO
 // icn-submotiv-activation-cyan
@@ -168,11 +169,11 @@ icnTags.ticket_OB = ["tag1", "tag2"];
 icnTags.support_chat = ["tag1", "tag2"];
 icnTags.support_tickets = ["tag1", "tag2"];
 icnTags.contact_agent = ["tag1", "tag2"];
-icnTags.ticket_closed = ["tag1", "tag2"];
-icnTags.ticket_received = ["tag1", "tag2"];
-icnTags.ticket_standby = ["tag1", "tag2"];
-icnTags.ticket_technical = ["tag1", "tag2"];
-icnTags.ticket_pending = ["tag1", "tag2"];
-icnTags.service_credit_extension = ["tag1", "tag2"];
-icnTags.service_landline_invoice = ["tag1", "tag2"];
-icnTags.service_exchange_plan = ["tag1", "tag2"];
+icnTags.ticket_closed = ["tiquet", "billete"];
+icnTags.ticket_received = ["tiquet", "billete"];
+icnTags.ticket_standby = ["tiquet", "billete"];
+icnTags.ticket_technical = ["tiquet", "billete"];
+icnTags.ticket_pending = ["tiquet", "billete"];
+icnTags.service_credit_extension = ["servicio", "tag2"];
+icnTags.service_landline_invoice = ["servicio", "tag2"];
+icnTags.service_exchange_plan = ["servicio", "tag2"];
