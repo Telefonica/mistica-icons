@@ -1,4 +1,4 @@
-![Mistica Icons](_resources/misticaicons_logo.svg ){ height: 80px; }
+![Mistica Icons](_resources/misticaicons_logo.svg =250x80)
 ### What is this?
 This is the repo that contains all icons that is working in [Mistica Design Libraries](https://github.com/Telefonica/mistica-design-libraries) now.
 The icons that there is here are **the only source of true** from the design team in icons.
