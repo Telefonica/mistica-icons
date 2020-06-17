@@ -1,4 +1,4 @@
-## Mistica icons
+[Mistica Design Libraries](_resources/misticaicons_logo.svg)
 ### What is this?
 This is the repo that contains all icons that is working in [Mistica Design Libraries](https://github.com/Telefonica/mistica-design-libraries) now.
 The icons that there is here are **the only source of true** from the design team in icons.
