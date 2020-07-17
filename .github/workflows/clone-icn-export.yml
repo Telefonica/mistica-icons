@@ -4,7 +4,7 @@ on: push
 
 jobs:
   copy:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
     - name: Copy
       uses: andstor/copycat-action@v3
