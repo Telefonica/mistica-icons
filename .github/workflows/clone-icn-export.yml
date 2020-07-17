@@ -8,7 +8,8 @@ jobs:
   copy:
     runs-on: self-hosted
     steps:
-    
+    - run: sudo chown -R $USER:$USER /home/pi/actions-runner/_work/mistica-icons
+
     - name: Get branch name
       uses: rlespinasse/github-slug-action@v2.x
     
