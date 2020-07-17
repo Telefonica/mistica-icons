@@ -8,14 +8,19 @@ jobs:
   copy:
     runs-on: self-hosted
     steps:
+    
+    - name: Get branch name
+      uses: rlespinasse/github-slug-action@v2.x
+    
     - name: Copy
       uses: andstor/copycat-action@v3
       with:
         personal_token: ${{ secrets.PERSONAL_TOKEN }}
-        src_branch: production
+        src_branch: ${{ env.GITHUB_REF_SLUG_URL }}
         src_path: icn_export/.
         dst_path: icn_export/.
         dst_branch: master
         dst_owner: Telefonica
         dst_repo_name: mistica-icons-web
         clean: true
+        commit_message: Icons uploaded to ${{ env.GITHUB_REF_SLUG_URL }}
