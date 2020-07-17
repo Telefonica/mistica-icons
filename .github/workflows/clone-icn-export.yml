@@ -11,7 +11,6 @@ jobs:
     
     # Para el self-hosted (Raspi)
     - run: sudo chown -R $USER:$USER /home/pi/actions-runner/_work/mistica-icons
-    - run: rm -r /home/pi/actions-runner/_work/mistica-icons/mistica-icons/
     
     - name: Copy
       uses: andstor/copycat-action@v3
@@ -25,3 +24,5 @@ jobs:
         dst_repo_name: mistica-icons-web
         clean: true
         commit_message: Icons uploaded to master
+
+    - run: rm -r /home/pi/actions-runner/_work/mistica-icons/mistica-icons/
