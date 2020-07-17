@@ -1,6 +1,8 @@
 name: Cloning icn_export to mistica-icon-web
 
-on: push
+on: 
+  push:
+    branches: [ production ]
 
 jobs:
   copy:
