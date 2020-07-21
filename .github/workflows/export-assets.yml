@@ -1,0 +1,51 @@
+name: SketchTool Export Assets
+
+on:
+  push:
+    branches:
+    - auto-export
+    paths:
+    - '**.sketch'
+
+jobs:
+  assets:
+    runs-on: macOS-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: webfactory/ssh-agent@v0.1.1
+      with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+    - name: removed assets
+      run: |
+        git rm assets/*
+
+    - name: Download & Install Sketch
+      run: |
+        curl -OL https://sketch.com/download/sketch.zip
+        unzip sketch.zip
+
+    - name: Run SketchTool
+      run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=assets *.sketch
+
+    - name: checkout
+      run: git checkout -b auto-export
+
+    - name: add assets
+      run: |
+        git show-ref   
+        git add assets/*
+
+    - name: config
+      run: |
+        git config --global user.name "🤖GeneratorBot"
+        git config --global user.email "users.noreply.github.com"     
+    
+    - name: commit
+      run: |    
+        git commit -am "Update Assets"
+
+    - name: push
+      run: |
+        git remote set-url origin git@github.com:yceballost/icons-auto.git
+        git push -u origin auto-export
