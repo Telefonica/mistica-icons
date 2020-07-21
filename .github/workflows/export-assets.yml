@@ -14,9 +14,9 @@ jobs:
       with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-    - name: removed assets
-      run: |
-        git rm -r assets/*
+    # - name: removed assets
+    #   run: |
+    #     git rm -r assets/*
     
     - run: sudo npm install --global kactus-cli
 
