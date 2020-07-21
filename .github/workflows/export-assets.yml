@@ -51,7 +51,10 @@ jobs:
         unzip sketch.zip
 
     - name: fetch
-      run: git fetch origin auto-export
+      run: |
+        git remote set-url origin git@github.com:yceballost/icons-auto.git
+        git fetch origin auto-export
+        
 
     - name: Run SketchTool
       run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=assets *.sketch
