@@ -51,7 +51,15 @@ jobs:
     - name: push
       run: |
         git remote set-url origin git@github.com:yceballost/icons-auto.git
-        git fetch origin auto-export
-        git pull --ff-only origin auto-export
-        git push -u origin auto-export
 
+    - name: push
+      run: |
+        git fetch origin auto-export
+        
+    - name: push
+      run: |
+        git pull --ff-only origin auto-export
+
+    - name: push
+      run: |
+        git push -u origin auto-export
