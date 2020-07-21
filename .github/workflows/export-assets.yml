@@ -19,6 +19,12 @@ jobs:
     - name: removed assets
       run: |
         git rm assets/*
+    
+    - run: sudo npm install --global kactus-cli
+
+    - name: convert folder to sketch file
+      run: |
+        kactus import _library/Icon_Library
 
     - name: Download & Install Sketch
       run: |
