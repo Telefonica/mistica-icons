@@ -58,8 +58,7 @@ jobs:
         
     - name: push
       run: |
-        git config pull.ff only
-        git pull origin auto-export
+        git reset --hard auto-export
 
     - name: push
       run: |
