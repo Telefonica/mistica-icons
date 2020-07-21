@@ -23,6 +23,9 @@ jobs:
     - name: convert folder to sketch file
       run: |
         kactus import _library/Icon_Library
+    
+    - name: checkout
+      run: git checkout -b auto-export
 
     - name: add sketch
       run: |
@@ -49,7 +52,7 @@ jobs:
 
     - name: checkout
       run: git checkout -b auto-export
-      
+
     - name: Run SketchTool
       run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=assets *.sketch
 
