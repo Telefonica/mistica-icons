@@ -58,7 +58,7 @@ jobs:
         
     - name: push
       run: |
-        git pull --ff-only origin auto-export
+        git pull --rebase
 
     - name: push
       run: |
