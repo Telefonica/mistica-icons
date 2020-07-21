@@ -51,7 +51,7 @@ jobs:
         unzip sketch.zip
 
     - name: fetch
-      run: git fetch auto-export
+      run: git fetch origin auto-export
 
     - name: Run SketchTool
       run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=assets *.sketch
