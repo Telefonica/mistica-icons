@@ -58,7 +58,7 @@ jobs:
         
     - name: push
       run: |
-        git config pull.rebase false 
+        git config pull.ff only
         git pull origin auto-export
 
     - name: push
