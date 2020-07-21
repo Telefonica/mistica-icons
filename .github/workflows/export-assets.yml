@@ -40,10 +40,15 @@ jobs:
       run: |    
         git commit -am "add sketch"
 
-    # - name: push
-    #   run: |
-    #     git remote set-url origin git@github.com:yceballost/icons-auto.git
-    #     git push -u origin auto-export
+    - name: fetch
+      run: |
+        git remote set-url origin git@github.com:yceballost/icons-auto.git
+        git fetch origin auto-export
+
+    - name: push
+      run: |
+        git remote set-url origin git@github.com:yceballost/icons-auto.git
+        git push -u origin auto-export
 
     - name: Download & Install Sketch
       run: |
@@ -54,7 +59,6 @@ jobs:
       run: |
         git remote set-url origin git@github.com:yceballost/icons-auto.git
         git fetch origin auto-export
-        
 
     - name: Run SketchTool
       run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=assets *.sketch
