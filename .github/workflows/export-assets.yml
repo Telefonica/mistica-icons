@@ -58,7 +58,7 @@ jobs:
         
     - name: push
       run: |
-        git rebase auto-export
+        git pull origin auto-export
 
     - name: push
       run: |
