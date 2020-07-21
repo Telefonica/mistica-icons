@@ -56,9 +56,9 @@ jobs:
       run: |
         git fetch origin auto-export
         
-    - name: push
-      run: |
-        git reset --hard auto-export
+    # - name: push
+    #   run: |
+    #     git reset --hard auto-export
 
     - name: push
       run: |
