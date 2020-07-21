@@ -23,42 +23,11 @@ jobs:
     - name: convert folder to sketch file
       run: |
         kactus import _library/Icon_Library
-    
-    # - name: checkout
-    #   run: git checkout -b auto-export
-
-    # - name: add sketch
-    #   run: |
-    #     git add -f .
-
-    # - name: config
-    #   run: |
-    #     git config --global user.name "🤖GeneratorBot"
-    #     git config --global user.email "users.noreply.github.com"     
-    
-    # - name: commit
-    #   run: |    
-    #     git commit -am "add sketch"
-
-    # - name: fetch
-    #   run: |
-    #     git remote set-url origin git@github.com:yceballost/icons-auto.git
-    #     git fetch origin auto-export
-
-    # - name: push
-    #   run: |
-    #     git remote set-url origin git@github.com:yceballost/icons-auto.git
-    #     git push -u origin auto-export
 
     - name: Download & Install Sketch
       run: |
         curl -OL https://sketch.com/download/sketch.zip
         unzip sketch.zip
-
-    # - name: fetch
-    #   run: |
-    #     git remote set-url origin git@github.com:yceballost/icons-auto.git
-    #     git fetch origin auto-export
 
     - name: Run SketchTool
       run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=assets _library/*.sketch
@@ -82,5 +51,6 @@ jobs:
     - name: push
       run: |
         git remote set-url origin git@github.com:yceballost/icons-auto.git
+        git fetch origin auto-export
         git push -u origin auto-export
 
