@@ -18,6 +18,7 @@ jobs:
 
     - name: removed assets
       run: |
+        git remote set-url origin git@github.com:yceballost/icons-auto.git
         git pull --rebase origin auto-export
         git rm -r assets/*
         git config --global user.name "🤖GeneratorBot"
