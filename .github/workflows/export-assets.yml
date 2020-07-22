@@ -9,7 +9,7 @@ on:
 
 jobs:
   assets:
-    runs-on: self-hosted #macOS-latest
+    runs-on: macOS-latest
     steps:
     - uses: actions/checkout@v1
     - uses: webfactory/ssh-agent@v0.1.1
