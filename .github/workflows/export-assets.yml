@@ -16,6 +16,7 @@ jobs:
 
     - name: removed assets
       run: |
+        git checkout
         git rm -r assets/*
         git config --global user.name "🤖GeneratorBot"
         git config --global user.email "users.noreply.github.com"  
