@@ -19,7 +19,7 @@ jobs:
     - name: removed assets
       run: |
         git rm -r assets/*
-        git checkout -b auto-export
+        git pull --rebase origin auto-export
         git config --global user.name "🤖GeneratorBot"
         git config --global user.email "users.noreply.github.com"  
         git commit -am "Update Assets"
