@@ -14,9 +14,9 @@ jobs:
       with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-    # - name: removed assets
-    #   run: |
-    #     git rm -r assets/*
+    - name: removed assets
+      run: |
+        git rm -r assets/*
     
     - run: sudo npm install --global kactus-cli
 
@@ -37,7 +37,7 @@ jobs:
 
     - name: add assets
       run: |
-        git add assets/*
+        git add -A assets/*
 
     - name: config
       run: |
@@ -46,7 +46,7 @@ jobs:
     
     - name: commit
       run: |    
-        git commit -am "Update Assets"
+        git commit -m "Update Assets"
         
     # - name: push
     #   run: |
@@ -59,6 +59,4 @@ jobs:
     - name: push
       run: |
         git remote set-url origin git@github.com:yceballost/icons-auto.git
-        git fetch origin
-        git merge origin/auto-export
         git push origin auto-export
