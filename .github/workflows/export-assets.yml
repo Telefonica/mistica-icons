@@ -3,9 +3,9 @@ name: SketchTool Export Assets
 on:
   push:
     branches:
-    - auto-export
-    # paths:
-    # - '_library/*'
+    - production
+    paths:
+    - '_library/*'
 
 jobs:
   assets:
@@ -48,4 +48,4 @@ jobs:
     - name: push
       run: |
         git show-ref
-        git push origin HEAD:auto-export
+        git push origin HEAD:production
