@@ -21,7 +21,6 @@ jobs:
         git config --global user.name "🤖GeneratorBot"
         git config --global user.email "users.noreply.github.com"  
         git remote set-url origin git@github.com:yceballost/icons-auto.git
-        git pull --rebase origin auto-export
         git rm -r assets/*
         git config --global user.name "🤖GeneratorBot"
         git config --global user.email "users.noreply.github.com"  
