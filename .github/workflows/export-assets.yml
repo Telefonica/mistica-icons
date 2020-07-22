@@ -15,14 +15,14 @@ jobs:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
     - name: removed assets
-      run: |
-        git checkout
-        git rm -r assets/*
-        git config --global user.name "🤖GeneratorBot"
-        git config --global user.email "users.noreply.github.com"  
-        git commit -am "Update Assets"
-        git remote set-url origin git@github.com:yceballost/icons-auto.git
-        git push origin auto-export
+        run: |
+          git rm -r assets/*
+          git checkout -b migration
+          git config --global user.name "🤖GeneratorBot"
+          git config --global user.email "users.noreply.github.com"  
+          git commit -am "Update Assets"
+          git remote set-url origin git@github.com:yceballost/icons-auto.git
+          git push origin migration
     
     - run: sudo npm install --global kactus-cli
 
