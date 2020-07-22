@@ -47,11 +47,7 @@ jobs:
     - name: commit
       run: |    
         git commit -am "Update Assets"
-
-    - name: push
-      run: |
-        git remote set-url origin git@github.com:yceballost/icons-auto.git
-
+        
     # - name: push
     #   run: |
     #     git fetch origin auto-export
@@ -62,4 +58,5 @@ jobs:
 
     - name: push
       run: |
+        git remote set-url origin git@github.com:yceballost/icons-auto.git
         git push -u origin auto-export
