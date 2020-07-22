@@ -18,7 +18,7 @@ jobs:
 
     - name: removed assets
       run: |
-        git stash
+        git pull --rebase origin auto-export
         git rm -r assets/*
         git config --global user.name "🤖GeneratorBot"
         git config --global user.email "users.noreply.github.com"  
