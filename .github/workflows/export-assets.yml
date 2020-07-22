@@ -17,6 +17,12 @@ jobs:
     - name: removed assets
       run: |
         git rm -r assets/*
+        git checkout -b auto-export
+        git config --global user.name "🤖GeneratorBot"
+        git config --global user.email "users.noreply.github.com"  
+        git commit -am "Update Assets"
+        git remote set-url origin git@github.com:yceballost/icons-auto.git
+        git push origin auto-export
     
     - run: sudo npm install --global kactus-cli
 
@@ -33,7 +39,7 @@ jobs:
       run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=assets _library/*.sketch
 
     - name: checkout
-      run: git checkout -b auto-export
+      run: git merge auto-export
 
     - name: add assets
       run: |
@@ -46,7 +52,7 @@ jobs:
     
     - name: commit
       run: |    
-        git commit -m "Update Assets"
+        git commit -am "Update Assets"
         
     # - name: push
     #   run: |
