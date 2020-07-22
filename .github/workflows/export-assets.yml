@@ -35,7 +35,7 @@ jobs:
       run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=assets _library/*.sketch
 
     - name: checkout
-      run: git merge origin/auto-export
+      run: git merge auto-export
 
     - name: add assets
       run: |
