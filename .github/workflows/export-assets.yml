@@ -61,4 +61,4 @@ jobs:
     - name: push
       run: |
         git remote set-url origin git@github.com:yceballost/icons-auto.git
-        git push origin/auto-export
+        git push origin/auto-export HEAD:auto-export
