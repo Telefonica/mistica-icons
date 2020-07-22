@@ -10,9 +10,6 @@ jobs:
     runs-on: macOS-latest
     steps:
     - uses: actions/checkout@v1
-    - uses: webfactory/ssh-agent@v0.1.1
-      with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
     # - name: removed assets
     #   run: |
@@ -58,6 +55,4 @@ jobs:
 
     - name: push
       run: |
-        git remote set-url origin git@github.com:yceballost/icons-auto.git
-        git fetch
-        git push -u origin auto-export
+        git push origin HEAD:auto-export
