@@ -62,4 +62,4 @@ jobs:
       run: |
         git show-ref
         git remote set-url origin git@github.com:yceballost/icons-auto.git
-        git push origin auto-export --force
+        git push origin refs/remotes/origin/auto-export
