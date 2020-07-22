@@ -12,6 +12,10 @@ jobs:
     runs-on: macOS-latest
     steps:
     - uses: actions/checkout@v1
+    - uses: actions/checkout@v2
+    - uses: webfactory/ssh-agent@v0.1.1
+      with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
     - name: removed assets
       run: |
@@ -31,9 +35,10 @@ jobs:
     - name: Run SketchTool
       run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=assets _library/*.sketch
 
-    - name: checkout
-      run: |
-        git checkout auto-export
+    # - name: checkout
+    #   run: |
+    #     git checkout auto-export
+    #     git merge auto-export
 
     - name: add assets
       run: |
@@ -47,8 +52,16 @@ jobs:
     - name: commit
       run: |    
         git commit -am "Update Assets"
+        
+    # - name: push
+    #   run: |
+    #     git fetch origin auto-export
+        
+    # - name: push
+    #   run: |
+    #     git reset --hard auto-export
 
     - name: push
       run: |
         git show-ref
-        git push origin auto-export
+        git push origin HEAD:auto-export
