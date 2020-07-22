@@ -34,10 +34,10 @@ jobs:
     - name: Run SketchTool
       run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=assets _library/*.sketch
 
-    - name: checkout
-      run: |
-        git checkout auto-export
-        git merge auto-export
+    # - name: checkout
+    #   run: |
+    #     git checkout auto-export
+    #     git merge auto-export
 
     - name: add assets
       run: |
@@ -63,5 +63,7 @@ jobs:
     - name: push
       run: |
         git show-ref
+        git checkout auto-export
+        git merge auto-export
         git remote set-url origin git@github.com:yceballost/icons-auto.git
         git push origin auto-export
