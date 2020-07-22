@@ -12,9 +12,6 @@ jobs:
     runs-on: macOS-latest
     steps:
     - uses: actions/checkout@v1
-    - uses: webfactory/ssh-agent@v0.1.1
-      with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
     - name: removed assets
       run: |
@@ -51,14 +48,6 @@ jobs:
     - name: commit
       run: |    
         git commit -am "Update Assets"
-        
-    # - name: push
-    #   run: |
-    #     git fetch origin auto-export
-        
-    # - name: push
-    #   run: |
-    #     git reset --hard auto-export
 
     - name: push
       run: |
