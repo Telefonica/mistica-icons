@@ -19,7 +19,7 @@ jobs:
 
     - name: removed assets
       run: |
-        git rm -r asset_auto_exported/*
+        git rm -r asset_auto_exported/**
     
     - run: sudo npm install --global kactus-cli
 
