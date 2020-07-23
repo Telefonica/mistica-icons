@@ -7,7 +7,7 @@ on:
     # paths:
     # - '_library/**'
     
-    
+
 jobs:
   assets:
     runs-on: [self-hosted, macOS]
@@ -20,7 +20,7 @@ jobs:
     - name: Removed assets
       run: git rm -r asset_auto_exported/*
     
-    - run: sudo npm install --global kactus-cli
+    - run: npm install --global kactus-cli
 
     - name: Convert folder to sketch file
       run: kactus import _library/Icon_Library
