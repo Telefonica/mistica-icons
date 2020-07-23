@@ -13,8 +13,11 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+    #  Comando solo para Self-Hosted machines
+    - run: sudo chown -R $USER:$USER ./actions-runner/_work/test-action
+
     - name: Install svgo
-      run: ssh yayo@192.168.1.35 sudo shutdown -h now
+      run: ssh yayo@192.168.1.35 sudo npm install -g svgo
 
     - name: Removed assets
       run: git rm -r asset_auto_exported/*
