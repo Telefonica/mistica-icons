@@ -1,0 +1,50 @@
+name: SketchTool Export Assets
+
+on:
+  push:
+    branches:
+    - production
+    paths:
+    - '_library/**'
+    
+jobs:
+  assets:
+    runs-on: [self-hosted, macOS]
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Install svgo
+      run: sudo npm install -g svgo
+
+    - name: Removed assets
+      run: git rm -r asset_auto_exported/*
+    
+    - run: sudo npm install --global kactus-cli
+
+    - name: Convert folder to sketch file
+      run: kactus import _library/Icon_Library
+
+    - name: Download & Install Sketch
+      run: |
+        curl -OL https://sketch.com/download/sketch.zip
+        unzip sketch.zip
+
+    - name: Run SketchTool
+      run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=asset_auto_exported _library/*.sketch
+
+    - name: SVGO
+      run: svgo asset_auto_exported/*.svg --disable=removeViewBox
+
+    - name: Add assets
+      run: git add -A asset_auto_exported/*
+
+    - name: Commit
+      run: |    
+        git config --global user.name "🤖GeneratorBot"
+        git config --global user.email "users.noreply.github.com"  
+        git commit -am "Update Assets"
+
+    - name: Push
+      run: |
+        git show-ref
+        git push origin HEAD:production
