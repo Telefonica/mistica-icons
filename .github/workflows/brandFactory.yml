@@ -1,0 +1,46 @@
+name: Cloning icn_export to mistica-icon-web
+
+on:
+  schedule:
+    - cron:  "0 10 1 * 1"
+    - branches: [ production ]
+
+jobs:
+  Download-BrandFactory:
+    runs-on: [self-hosted, macOS]
+    steps:
+    
+    - uses: actions/checkout@v2
+    
+    - name: Removed assets
+      run: git rm -r BrandFactoryIcons/*
+    
+    - name: Download a file
+      uses: carlosperate/download-file-action@v1.0.3
+      id: download-poetry
+      with:
+        file-url: 'https://brandfactory.telefonica.com/api/icons/download/?project_token=eyJpZCI6MTgxNCwidGltZXN0YW1wIjoxNTk1NTI5MjQ5fQ:telefonica:4rFPtMrWzVK1m3nv_65AgA3_qH6DjNxAAk3mhvPqfmU&format=svg&track'
+        file-name: 'BrandFactory.zip'
+        location: 'BrandFactoryIcons/'
+
+    - name: Unzip
+      run: unzip -o BrandFactoryIcons/BrandFactory.zip -d BrandFactoryIcons/ && rm BrandFactoryIcons/BrandFactory.zip
+
+    - name: Add assets
+      run: git add .
+
+    - name: Commit
+      run: |    
+        git config --global user.name "🤖MísticaBot"
+        git config --global user.email "users.noreply.github.com"  
+        git commit -m "Update Assets"
+
+    - name: Push
+      run: |
+        git show-ref
+        git push origin HEAD:autodownload-brandFactory
+
+
+
+
+
