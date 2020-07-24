@@ -3,7 +3,6 @@ name: Cloning icn_export to mistica-icon-web
 on:
   schedule:
     - cron:  "0 10 1 * 1"
-    - branches: [ production ]
 
 jobs:
   Download-BrandFactory:
