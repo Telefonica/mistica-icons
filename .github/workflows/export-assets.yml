@@ -6,26 +6,23 @@ on:
     - production
     paths:
     - '_library/**'
-
+    
 jobs:
   assets:
-    runs-on: macOS-latest
+    runs-on: [self-hosted, macOS]
     steps:
-    - uses: actions/checkout@v1
     - uses: actions/checkout@v2
 
-    - name: install svgo
-      run: sudo npm install -g svgo
+    - name: Install svgo
+      run: npm install -g svgo
 
-    - name: removed assets
-      run: |
-        git rm -r asset_auto_exported/**
+    - name: Removed assets
+      run: git rm -r asset_auto_exported/*
     
-    - run: sudo npm install --global kactus-cli
+    - run: npm install --global kactus-cli
 
-    - name: convert folder to sketch file
-      run: |
-        kactus import _library/Icon_Library
+    - name: Convert folder to sketch file
+      run: kactus import _library/Icon_Library
 
     - name: Download & Install Sketch
       run: |
@@ -35,25 +32,19 @@ jobs:
     - name: Run SketchTool
       run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=asset_auto_exported _library/*.sketch
 
-
-    - name: add assets
+    - name: SVGO
       run: svgo asset_auto_exported/*.svg --disable=removeViewBox
 
+    - name: Add assets
+      run: git add -A asset_auto_exported/*
 
-    - name: add assets
-      run: |
-        git add -A asset_auto_exported/*
-
-    - name: config
-      run: |
-        git config --global user.name "🤖GeneratorBot"
-        git config --global user.email "users.noreply.github.com"     
-    
-    - name: commit
+    - name: Commit
       run: |    
+        git config --global user.name "🤖MísticaBot"
+        git config --global user.email "users.noreply.github.com"  
         git commit -am "Update Assets"
 
-    - name: push
+    - name: Push
       run: |
         git show-ref
         git push origin HEAD:production
