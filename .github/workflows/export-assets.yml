@@ -33,7 +33,10 @@ jobs:
       run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=brandFactory_export _library/*.sketch
 
     - name: SVGO
-      run: svgo -o /exp/ -f /brandFactory_export/ -i *.svg --disable=removeViewBox
+      run: |
+        svgo -f /brandFactory_export/1. Light *.svg --disable=removeViewBox
+        svgo -f /brandFactory_export/2. Regular *.svg --disable=removeViewBox
+        svgo -f /brandFactory_export/3. Masa *.svg --disable=removeViewBox
 
     - name: Add assets
       run: git add -A brandFactory_export/*
