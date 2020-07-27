@@ -17,7 +17,7 @@ jobs:
       run: npm install -g svgo
 
     - name: Removed assets
-      run: git rm -r asset_auto_exported/*
+      run: git rm -r brandFactory_export/*
     
     - run: npm install --global kactus-cli
 
@@ -30,13 +30,13 @@ jobs:
         unzip sketch.zip
 
     - name: Run SketchTool
-      run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=asset_auto_exported _library/*.sketch
+      run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=brandFactory_export _library/*.sketch
 
     - name: SVGO
-      run: svgo asset_auto_exported/*.svg --disable=removeViewBox
+      run: svgo brandFactory_export/*.svg --disable=removeViewBox
 
     - name: Add assets
-      run: git add -A asset_auto_exported/*
+      run: git add -A brandFactory_export/*
 
     - name: Commit
       run: |    
