@@ -16,13 +16,13 @@ jobs:
     - name: Install svgo
       run: npm install -g svgo
 
-    # - name: Removed assets
-    #   run: git rm -r brandFactory_export/*
+    - name: Removed assets
+      run: git rm -r brandFactory_export/*
     
     - run: npm install --global kactus-cli
 
     - name: Convert folder to sketch file
-      run: kactus import _library/Icon_Library
+      run: kactus import _library/POC_MisticaIcons_BF
 
     - name: Download & Install Sketch
       run: |
