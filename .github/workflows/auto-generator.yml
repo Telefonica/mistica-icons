@@ -7,8 +7,8 @@ name: Readme Auto Generator
 on:
   push:
     branches: [ production ]
-    paths:
-    - 'icn_export/**'
+    # paths:
+    # - 'icn_export/**'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -21,9 +21,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-python@v2
-      with:
-        python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
-        architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
+      
     - run: sudo python .github/md-generator/md-generator.py icn_export
 
     - name: check for changes
