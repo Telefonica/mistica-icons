@@ -3,7 +3,7 @@ name: SketchTool Export Assets
 on:
   push:
     branches:
-    - production
+    - brandFactory-icons
     paths:
     - '_library/**'
     
@@ -47,4 +47,4 @@ jobs:
     - name: Push
       run: |
         git show-ref
-        git push origin HEAD:production
+        git push origin HEAD:brandFactory-icons
