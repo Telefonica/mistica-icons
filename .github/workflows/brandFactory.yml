@@ -12,8 +12,8 @@ jobs:
     
     - uses: actions/checkout@v2
     
-    - name: Removed assets
-      run: git rm -r BrandFactoryIcons/*
+    #- name: Removed assets
+    #  run: git rm -r BrandFactoryIcons/*
     
     - name: Download a file
       uses: carlosperate/download-file-action@v1.0.3
