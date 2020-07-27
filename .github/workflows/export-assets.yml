@@ -34,9 +34,9 @@ jobs:
 
     - name: SVGO
       run: |
-        svgo -f /brandFactory_export/1. Light *.svg --disable=removeViewBox
-        svgo -f /brandFactory_export/2. Regular *.svg --disable=removeViewBox
-        svgo -f /brandFactory_export/3. Masa *.svg --disable=removeViewBox
+        svgo -f /brandFactory_export/1.Light *.svg --disable=removeViewBox
+        svgo -f /brandFactory_export/2.Regular *.svg --disable=removeViewBox
+        svgo -f /brandFactory_export/3.Masa *.svg --disable=removeViewBox
 
     - name: Add assets
       run: git add -A brandFactory_export/*
