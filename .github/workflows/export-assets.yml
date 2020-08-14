@@ -33,7 +33,7 @@ jobs:
       run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=brandFactory_export _library/*.sketch
 
     - name: SVGO
-      run: svgo -f brandFactory_export -r -o brandFactory_export
+      run: svgo -f brandFactory_export -r -o brandFactory_export --disable=removeViewBox
 
         # svgo -f brandFactory_export/1.Light --disable=removeViewBox
         # svgo -f brandFactory_export/2.Regular --disable=removeViewBox
