@@ -9,7 +9,7 @@ on:
 
 jobs:
   copy:
-    runs-on: self-hosted
+    runs-on: [self-hosted, Linux]
     steps:
     
     - name: Copy
