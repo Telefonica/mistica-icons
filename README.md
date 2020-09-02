@@ -295,7 +295,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![hospital_3Masa](icn_export/3.Masa/hospital_3Masa.svg) | `hospital_3Masa`  |  [.svg](icn_export/3.Masa/hospital_3Masa.svg) | [.pdf](icn_export/3.Masa/hospital_3Masa.pdf) |  
 | ![hamburguesa_2Regular](icn_export/2.Regular/hamburguesa_2Regular.svg) | `hamburguesa_2Regular`  |  [.svg](icn_export/2.Regular/hamburguesa_2Regular.svg) | [.pdf](icn_export/2.Regular/hamburguesa_2Regular.pdf) |  
 | ![lengua_3Masa](icn_export/3.Masa/lengua_3Masa.svg) | `lengua_3Masa`  |  [.svg](icn_export/3.Masa/lengua_3Masa.svg) | [.pdf](icn_export/3.Masa/lengua_3Masa.pdf) |  
-| ![telefoniAFijaTeleFonoLlamar_3Masa](icn_export/3.Masa/telefoniAFijaTeleFonoLlamar_3Masa.svg) | `telefoniAFijaTeleFonoLlamar_3Masa`  |  [.svg](icn_export/3.Masa/telefoniAFijaTeleFonoLlamar_3Masa.svg) | [.pdf](icn_export/3.Masa/telefoniAFijaTeleFonoLlamar_3Masa.pdf) |  
+| ![notas_1Light](icn_export/1.Light/notas_1Light.svg) | `notas_1Light`  |  [.svg](icn_export/1.Light/notas_1Light.svg) | [.pdf](icn_export/1.Light/notas_1Light.pdf) |  
 | ![bateriaCompletaLlena_2Regular](icn_export/2.Regular/bateriaCompletaLlena_2Regular.svg) | `bateriaCompletaLlena_2Regular`  |  [.svg](icn_export/2.Regular/bateriaCompletaLlena_2Regular.svg) | [.pdf](icn_export/2.Regular/bateriaCompletaLlena_2Regular.pdf) |  
 | ![archivoBloqueado_2Regular](icn_export/2.Regular/archivoBloqueado_2Regular.svg) | `archivoBloqueado_2Regular`  |  [.svg](icn_export/2.Regular/archivoBloqueado_2Regular.svg) | [.pdf](icn_export/2.Regular/archivoBloqueado_2Regular.pdf) |  
 | ![web_3Masa](icn_export/3.Masa/web_3Masa.svg) | `web_3Masa`  |  [.svg](icn_export/3.Masa/web_3Masa.svg) | [.pdf](icn_export/3.Masa/web_3Masa.pdf) |  
@@ -625,7 +625,6 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![urgenciaUrgenteSirena_1Light](icn_export/1.Light/urgenciaUrgenteSirena_1Light.svg) | `urgenciaUrgenteSirena_1Light`  |  [.svg](icn_export/1.Light/urgenciaUrgenteSirena_1Light.svg) | [.pdf](icn_export/1.Light/urgenciaUrgenteSirena_1Light.pdf) |  
 | ![manoIzquierda_1Light](icn_export/1.Light/manoIzquierda_1Light.svg) | `manoIzquierda_1Light`  |  [.svg](icn_export/1.Light/manoIzquierda_1Light.svg) | [.pdf](icn_export/1.Light/manoIzquierda_1Light.pdf) |  
 | ![dataAlert_2Regular](icn_export/2.Regular/dataAlert_2Regular.svg) | `dataAlert_2Regular`  |  [.svg](icn_export/2.Regular/dataAlert_2Regular.svg) | [.pdf](icn_export/2.Regular/dataAlert_2Regular.pdf) |  
-| ![notas_1Light](icn_export/1.Light/notas_1Light.svg) | `notas_1Light`  |  [.svg](icn_export/1.Light/notas_1Light.svg) | [.pdf](icn_export/1.Light/notas_1Light.pdf) |  
 | ![servicioTecnicoTv_3Masa](icn_export/3.Masa/servicioTecnicoTv_3Masa.svg) | `servicioTecnicoTv_3Masa`  |  [.svg](icn_export/3.Masa/servicioTecnicoTv_3Masa.svg) | [.pdf](icn_export/3.Masa/servicioTecnicoTv_3Masa.pdf) |  
 | ![arbol_2_2Regular](icn_export/2.Regular/arbol_2_2Regular.svg) | `arbol_2_2Regular`  |  [.svg](icn_export/2.Regular/arbol_2_2Regular.svg) | [.pdf](icn_export/2.Regular/arbol_2_2Regular.pdf) |  
 | ![datoMCompartidos_1Light](icn_export/1.Light/datoMCompartidos_1Light.svg) | `datoMCompartidos_1Light`  |  [.svg](icn_export/1.Light/datoMCompartidos_1Light.svg) | [.pdf](icn_export/1.Light/datoMCompartidos_1Light.pdf) |  
@@ -1047,6 +1046,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![datoMCompartidos_3Masa](icn_export/3.Masa/datoMCompartidos_3Masa.svg) | `datoMCompartidos_3Masa`  |  [.svg](icn_export/3.Masa/datoMCompartidos_3Masa.svg) | [.pdf](icn_export/3.Masa/datoMCompartidos_3Masa.pdf) |  
 | ![cuidar_2Regular](icn_export/2.Regular/cuidar_2Regular.svg) | `cuidar_2Regular`  |  [.svg](icn_export/2.Regular/cuidar_2Regular.svg) | [.pdf](icn_export/2.Regular/cuidar_2Regular.pdf) |  
 | ![mapaPlano_3Masa](icn_export/3.Masa/mapaPlano_3Masa.svg) | `mapaPlano_3Masa`  |  [.svg](icn_export/3.Masa/mapaPlano_3Masa.svg) | [.pdf](icn_export/3.Masa/mapaPlano_3Masa.pdf) |  
+| ![telefoniaFijaTelefonoLlamar_3Masa](icn_export/3.Masa/telefoniaFijaTelefonoLlamar_3Masa.svg) | `telefoniaFijaTelefonoLlamar_3Masa`  |  [.svg](icn_export/3.Masa/telefoniaFijaTelefonoLlamar_3Masa.svg) | [.pdf](icn_export/3.Masa/telefoniaFijaTelefonoLlamar_3Masa.pdf) |  
 | ![manoArriba_3Masa](icn_export/3.Masa/manoArriba_3Masa.svg) | `manoArriba_3Masa`  |  [.svg](icn_export/3.Masa/manoArriba_3Masa.svg) | [.pdf](icn_export/3.Masa/manoArriba_3Masa.pdf) |  
 | ![metro_1Light](icn_export/1.Light/metro_1Light.svg) | `metro_1Light`  |  [.svg](icn_export/1.Light/metro_1Light.svg) | [.pdf](icn_export/1.Light/metro_1Light.pdf) |  
 | ![microfono_1Light](icn_export/1.Light/microfono_1Light.svg) | `microfono_1Light`  |  [.svg](icn_export/1.Light/microfono_1Light.svg) | [.pdf](icn_export/1.Light/microfono_1Light.pdf) |  
