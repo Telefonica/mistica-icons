@@ -5,11 +5,10 @@ import sys
 
 PIPE = "|"
 SLASH = "/"
-
 SVG_FOLDER = "SVG"
-
+PDF_FOLDER = "PDF"
 SVG_EXTENSION = ".svg"
-
+PDF_EXTENSION = ".pdf"
 BREAK = "\n"
 
 if __name__ == '__main__':
@@ -42,7 +41,7 @@ if __name__ == '__main__':
         for brand in dictionary[icon]:
             path_icon = root + SLASH + brand + SLASH + icon + SVG_EXTENSION
             svg_icon = root + SLASH + brand + SLASH + icon + SVG_EXTENSION
-            
+            pdf_icon = root + SLASH + brand + SLASH + icon + PDF_EXTENSION
             row = row + "| ![" + icon + "](" + path_icon + ") | `" + icon + "`  |  [.svg](" + svg_icon + ") | [.pdf](" + pdf_icon + ") |  "
         file_content += row + BREAK
 
