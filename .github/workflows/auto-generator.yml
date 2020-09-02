@@ -15,13 +15,13 @@ jobs:
   # This workflow contains a single job called "build"
   regenerating:
     # The type of runner that the job will run on
-    runs-on: [self-hosted, Linux]
+    runs-on: [self-hosted, macOS]
 
     steps:
     - uses: actions/checkout@v2
     - uses: actions/setup-python@v2
       with:
-        python-version: '2.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
+        python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
         architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
     
     - run: sudo python .github/md-generator/md-generator.py icn_export
