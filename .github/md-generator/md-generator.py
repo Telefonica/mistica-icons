@@ -5,8 +5,10 @@ import sys
 
 PIPE = "|"
 SLASH = "/"
+PNG_FOLDER = "PNG"
 SVG_FOLDER = "SVG"
 PDF_FOLDER = "PDF"
+PNG_EXTENSION = ".png"
 SVG_EXTENSION = ".svg"
 PDF_EXTENSION = ".pdf"
 BREAK = "\n"
