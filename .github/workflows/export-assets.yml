@@ -38,7 +38,7 @@ jobs:
     - name: Add assets
       run: git add -A icn_export/*
 
-    - name: Commit
+    - name: Commit & Push
       run: |    
         git config --global user.name "Yayo"
         git config --global user.email "yceballost@gmail.com"  
