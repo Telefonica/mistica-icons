@@ -1,11 +1,11 @@
 name: Cloning icn_export to mistica-icon-web
 
 on: 
-  push:
-    # branches:
-    # - production
-    paths:
-    - 'icn_export/**'
+  workflow_run:
+    workflows: ["SketchTool Export Assets"]
+    branches: [production]
+    types: 
+      - completed
 
 jobs:
   copy:
