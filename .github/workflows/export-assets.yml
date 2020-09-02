@@ -3,7 +3,7 @@ name: SketchTool Export Assets
 on:
   push:
     branches:
-    - production
+    - brandFactory-icons
     paths:
     - '_library/**'
     
@@ -17,12 +17,12 @@ jobs:
       run: npm install -g svgo
 
     - name: Removed assets
-      run: git rm -r asset_auto_exported/*
+      run: git rm -r brandFactory_export/*
     
     - run: npm install --global kactus-cli
 
     - name: Convert folder to sketch file
-      run: kactus import _library/Icon_Library
+      run: kactus import _library/Mistica_Icons
 
     - name: Download & Install Sketch
       run: |
@@ -30,13 +30,13 @@ jobs:
         unzip sketch.zip
 
     - name: Run SketchTool
-      run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=asset_auto_exported _library/*.sketch
+      run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=brandFactory_export _library/*.sketch
 
     - name: SVGO
-      run: svgo asset_auto_exported/*.svg --disable=removeViewBox
+      run: svgo -f brandFactory_export -r -o brandFactory_export --disable=removeViewBox
 
     - name: Add assets
-      run: git add -A asset_auto_exported/*
+      run: git add -A brandFactory_export/*
 
     - name: Commit
       run: |    
@@ -47,4 +47,4 @@ jobs:
     - name: Push
       run: |
         git show-ref
-        git push origin HEAD:production
+        git push origin HEAD:brandFactory-icons
