@@ -6,7 +6,7 @@ name: Readme Generator
 # events but only for the master branch
 on:
   workflow_run:
-    workflows: ["Cloning icn_export to mistica-icon-web"]
+    workflows: ["SketchTool Export Assets"]
     branches: [production]
     types: 
       - completed
