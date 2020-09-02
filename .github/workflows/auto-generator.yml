@@ -15,6 +15,7 @@ jobs:
   # This workflow contains a single job called "build"
   regenerating:
     # The type of runner that the job will run on
+    # runs-on: [self-hosted, Linux]
     runs-on: ubuntu-latest
 
     steps:
@@ -23,6 +24,8 @@ jobs:
       with:
         python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
         architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
+      # env:
+      #   AGENT_TOOLSDIRECTORY: /opt/hostedtoolcache
     
     - run: sudo python .github/md-generator/md-generator.py icn_export
 
@@ -40,3 +43,4 @@ jobs:
       run: git fetch origin production
     - name: push code to production
       run: git push origin HEAD:production
+  
