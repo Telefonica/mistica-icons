@@ -1,11 +1,11 @@
 name: Cloning icn_export to mistica-icon-web
 
 on: 
-  # workflow_run:
-  #   workflows: ["Readme Generator"]
-  #   branches: [production]
-  #   types: 
-  #     - completed
+  workflow_run:
+    workflows: ["Readme Generator"]
+    branches: [production]
+    types: 
+      - completed
 
 jobs:
   copy:
