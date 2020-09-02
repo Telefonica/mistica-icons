@@ -7,8 +7,8 @@ name: Readme Generator
 on:
   push:
     branches: [ production ]
-    # paths:
-    # - 'icn_export/**'
+    paths:
+    - 'icn_export/**'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
