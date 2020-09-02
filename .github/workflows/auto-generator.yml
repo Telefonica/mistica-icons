@@ -5,11 +5,12 @@ name: Readme Generator
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
-  workflow_run:
-    workflows: ["SketchTool Export Assets"]
-    branches: [production]
-    types: 
-      - completed
+  push:
+  # workflow_run:
+  #   workflows: ["SketchTool Export Assets"]
+  #   branches: [production]
+  #   types: 
+  #     - completed
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
