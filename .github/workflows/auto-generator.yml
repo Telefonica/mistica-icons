@@ -24,7 +24,7 @@ jobs:
         python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
         architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
       env:
-        AGENT_TOOLSDIRECTORY: /opt/hostedtoolcache
+        AGENT_TOOLSDIRECTORY: /Users/runner/hostedtoolcache
     
     - run: sudo python .github/md-generator/md-generator.py icn_export
 
@@ -42,4 +42,3 @@ jobs:
       run: git fetch origin production
     - name: push code to production
       run: git push origin HEAD:production
-      
