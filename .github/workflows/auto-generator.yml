@@ -7,10 +7,10 @@ name: Readme Generator
 on:
   push:
     workflow_run:
-      workflows: ["SketchTool Export Assets"]
+      workflows: ["Cloning icn_export to mistica-icon-web"]
       branches: [production]
       types: 
-        - completed
+        - requested
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
