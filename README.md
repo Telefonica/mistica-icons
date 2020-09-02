@@ -9,7 +9,7 @@ You can find more information and how to use this repo in the [Wiki](https://git
 The best way to search in this repo is using your browser's search engine (CMD + F):
 ![Image of search engine](https://github.com/Telefonica/mistica-icons/blob/production/_resources/_imgs_github/github_img_1.png?raw=true)
 # Icons 
-| global | name | SVG | PDF | | O2 | name | SVG | PDF |
+| Icon | name | SVG | PDF | | | | | |
 | :-: | :- | :-: | :-: | - | :-: | :- | :-: | :-: |
 | ![biblioteca_1Light](icn_export/1.Light/biblioteca_1Light.svg) | `biblioteca_1Light`  |  [.svg](icn_export/1.Light/biblioteca_1Light.svg) | [.pdf](icn_export/1.Light/biblioteca_1Light.pdf) |  
 | ![ecoloGico_1Light](icn_export/1.Light/ecoloGico_1Light.svg) | `ecoloGico_1Light`  |  [.svg](icn_export/1.Light/ecoloGico_1Light.svg) | [.pdf](icn_export/1.Light/ecoloGico_1Light.pdf) |  
@@ -646,6 +646,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![cambiarMiClaveWifi_2Regular](icn_export/2.Regular/cambiarMiClaveWifi_2Regular.svg) | `cambiarMiClaveWifi_2Regular`  |  [.svg](icn_export/2.Regular/cambiarMiClaveWifi_2Regular.svg) | [.pdf](icn_export/2.Regular/cambiarMiClaveWifi_2Regular.pdf) |  
 | ![electrocardiograma_2Regular](icn_export/2.Regular/electrocardiograma_2Regular.svg) | `electrocardiograma_2Regular`  |  [.svg](icn_export/2.Regular/electrocardiograma_2Regular.svg) | [.pdf](icn_export/2.Regular/electrocardiograma_2Regular.pdf) |  
 | ![accesibilidad_1Light](icn_export/1.Light/accesibilidad_1Light.svg) | `accesibilidad_1Light`  |  [.svg](icn_export/1.Light/accesibilidad_1Light.svg) | [.pdf](icn_export/1.Light/accesibilidad_1Light.pdf) |  
+| ![cartera_2Regular](icn_export/2.Regular/cartera_2Regular.svg) | `cartera_2Regular`  |  [.svg](icn_export/2.Regular/cartera_2Regular.svg) | [.pdf](icn_export/2.Regular/cartera_2Regular.pdf) |  
 | ![rewindMasa](icn_export/3.Masa/rewindMasa.svg) | `rewindMasa`  |  [.svg](icn_export/3.Masa/rewindMasa.svg) | [.pdf](icn_export/3.Masa/rewindMasa.pdf) |  
 | ![biblioteca_2Regular](icn_export/2.Regular/biblioteca_2Regular.svg) | `biblioteca_2Regular`  |  [.svg](icn_export/2.Regular/biblioteca_2Regular.svg) | [.pdf](icn_export/2.Regular/biblioteca_2Regular.pdf) |  
 | ![router_2Regular](icn_export/2.Regular/router_2Regular.svg) | `router_2Regular`  |  [.svg](icn_export/2.Regular/router_2Regular.svg) | [.pdf](icn_export/2.Regular/router_2Regular.pdf) |  
@@ -664,7 +665,6 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![editar2_2Regular](icn_export/2.Regular/editar2_2Regular.svg) | `editar2_2Regular`  |  [.svg](icn_export/2.Regular/editar2_2Regular.svg) | [.pdf](icn_export/2.Regular/editar2_2Regular.pdf) |  
 | ![puzzle_1Light](icn_export/1.Light/puzzle_1Light.svg) | `puzzle_1Light`  |  [.svg](icn_export/1.Light/puzzle_1Light.svg) | [.pdf](icn_export/1.Light/puzzle_1Light.pdf) |  
 | ![regalo_3Masa](icn_export/3.Masa/regalo_3Masa.svg) | `regalo_3Masa`  |  [.svg](icn_export/3.Masa/regalo_3Masa.svg) | [.pdf](icn_export/3.Masa/regalo_3Masa.pdf) |  
-| ![telefoniAFijaTeleFonoLlamar_1Light](icn_export/1.Light/telefoniAFijaTeleFonoLlamar_1Light.svg) | `telefoniAFijaTeleFonoLlamar_1Light`  |  [.svg](icn_export/1.Light/telefoniAFijaTeleFonoLlamar_1Light.svg) | [.pdf](icn_export/1.Light/telefoniAFijaTeleFonoLlamar_1Light.pdf) |  
 | ![mailCorreoVirus_2Regular](icn_export/2.Regular/mailCorreoVirus_2Regular.svg) | `mailCorreoVirus_2Regular`  |  [.svg](icn_export/2.Regular/mailCorreoVirus_2Regular.svg) | [.pdf](icn_export/2.Regular/mailCorreoVirus_2Regular.pdf) |  
 | ![balanzaJusticiaLegal_2Regular](icn_export/2.Regular/balanzaJusticiaLegal_2Regular.svg) | `balanzaJusticiaLegal_2Regular`  |  [.svg](icn_export/2.Regular/balanzaJusticiaLegal_2Regular.svg) | [.pdf](icn_export/2.Regular/balanzaJusticiaLegal_2Regular.pdf) |  
 | ![tk_3Masa](icn_export/3.Masa/tk_3Masa.svg) | `tk_3Masa`  |  [.svg](icn_export/3.Masa/tk_3Masa.svg) | [.pdf](icn_export/3.Masa/tk_3Masa.pdf) |  
@@ -693,13 +693,13 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![enviar_3Masa](icn_export/3.Masa/enviar_3Masa.svg) | `enviar_3Masa`  |  [.svg](icn_export/3.Masa/enviar_3Masa.svg) | [.pdf](icn_export/3.Masa/enviar_3Masa.pdf) |  
 | ![biblioteca_3Masa](icn_export/3.Masa/biblioteca_3Masa.svg) | `biblioteca_3Masa`  |  [.svg](icn_export/3.Masa/biblioteca_3Masa.svg) | [.pdf](icn_export/3.Masa/biblioteca_3Masa.pdf) |  
 | ![documentoEncriptado_1Light](icn_export/1.Light/documentoEncriptado_1Light.svg) | `documentoEncriptado_1Light`  |  [.svg](icn_export/1.Light/documentoEncriptado_1Light.svg) | [.pdf](icn_export/1.Light/documentoEncriptado_1Light.pdf) |  
-| ![cartera_2Regular](icn_export/2.Regular/cartera_2Regular.svg) | `cartera_2Regular`  |  [.svg](icn_export/2.Regular/cartera_2Regular.svg) | [.pdf](icn_export/2.Regular/cartera_2Regular.pdf) |  
+| ![notas_2Regular](icn_export/2.Regular/notas_2Regular.svg) | `notas_2Regular`  |  [.svg](icn_export/2.Regular/notas_2Regular.svg) | [.pdf](icn_export/2.Regular/notas_2Regular.pdf) |  
 | ![maletasCarro_1Light](icn_export/1.Light/maletasCarro_1Light.svg) | `maletasCarro_1Light`  |  [.svg](icn_export/1.Light/maletasCarro_1Light.svg) | [.pdf](icn_export/1.Light/maletasCarro_1Light.pdf) |  
 | ![chatHablar_3Masa](icn_export/3.Masa/chatHablar_3Masa.svg) | `chatHablar_3Masa`  |  [.svg](icn_export/3.Masa/chatHablar_3Masa.svg) | [.pdf](icn_export/3.Masa/chatHablar_3Masa.pdf) |  
 | ![virus_2regular](icn_export/2.Regular/virus_2regular.svg) | `virus_2regular`  |  [.svg](icn_export/2.Regular/virus_2regular.svg) | [.pdf](icn_export/2.Regular/virus_2regular.pdf) |  
 | ![programarAlarma_3Masa](icn_export/3.Masa/programarAlarma_3Masa.svg) | `programarAlarma_3Masa`  |  [.svg](icn_export/3.Masa/programarAlarma_3Masa.svg) | [.pdf](icn_export/3.Masa/programarAlarma_3Masa.pdf) |  
 | ![manoDerecha_1Light](icn_export/1.Light/manoDerecha_1Light.svg) | `manoDerecha_1Light`  |  [.svg](icn_export/1.Light/manoDerecha_1Light.svg) | [.pdf](icn_export/1.Light/manoDerecha_1Light.pdf) |  
-| ![notas_2Regular](icn_export/2.Regular/notas_2Regular.svg) | `notas_2Regular`  |  [.svg](icn_export/2.Regular/notas_2Regular.svg) | [.pdf](icn_export/2.Regular/notas_2Regular.pdf) |  
+| ![telefoniaFijaTelefonoLlamar_1Light](icn_export/1.Light/telefoniaFijaTelefonoLlamar_1Light.svg) | `telefoniaFijaTelefonoLlamar_1Light`  |  [.svg](icn_export/1.Light/telefoniaFijaTelefonoLlamar_1Light.svg) | [.pdf](icn_export/1.Light/telefoniaFijaTelefonoLlamar_1Light.pdf) |  
 | ![dataNetwork_1Light](icn_export/1.Light/dataNetwork_1Light.svg) | `dataNetwork_1Light`  |  [.svg](icn_export/1.Light/dataNetwork_1Light.svg) | [.pdf](icn_export/1.Light/dataNetwork_1Light.pdf) |  
 | ![largaDistancia_2Regular](icn_export/2.Regular/largaDistancia_2Regular.svg) | `largaDistancia_2Regular`  |  [.svg](icn_export/2.Regular/largaDistancia_2Regular.svg) | [.pdf](icn_export/2.Regular/largaDistancia_2Regular.pdf) |  
 | ![diamante_1Light](icn_export/1.Light/diamante_1Light.svg) | `diamante_1Light`  |  [.svg](icn_export/1.Light/diamante_1Light.svg) | [.pdf](icn_export/1.Light/diamante_1Light.pdf) |  
