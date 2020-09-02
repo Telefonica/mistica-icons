@@ -43,8 +43,10 @@ jobs:
         git config --global user.name "Yayo"
         git config --global user.email "yceballost@gmail.com"  
         git commit -am "Update Assets"
-
-    - name: Push
-      run: |
-        git show-ref
         git push origin production
+
+    # - name: Push
+    #   run: |
+    #     git show-ref
+    #     git commit -m 'icon exported'
+        
