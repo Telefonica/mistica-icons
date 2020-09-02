@@ -5,12 +5,11 @@ name: Readme Generator
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
-  push:
-    workflow_run:
-      workflows: ["Cloning icn_export to mistica-icon-web"]
-      branches: [production]
-      types: 
-        - requested
+  workflow_run:
+    workflows: ["Cloning icn_export to mistica-icon-web"]
+    branches: [production]
+    types: 
+      - completed
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
