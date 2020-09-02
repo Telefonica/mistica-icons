@@ -6,8 +6,8 @@ name: Readme Generator
 # events but only for the master branch
 on:
   push:
-    branches:
-    - production
+    # branches:
+    # - production
     paths:
     - 'icn_export/**'
 
