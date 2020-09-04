@@ -78,15 +78,13 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![formacion_Masa_1](icn_export/3.Masa/formacion_Masa_1.svg) | `formacion_Masa_1`  |  [.svg](icn_export/3.Masa/formacion_Masa_1.svg) | [.pdf](icn_export/3.Masa/formacion_Masa_1.pdf) |  
 | ![documentoArchivo_Masa](icn_export/3.Masa/documentoArchivo_Masa.svg) | `documentoArchivo_Masa`  |  [.svg](icn_export/3.Masa/documentoArchivo_Masa.svg) | [.pdf](icn_export/3.Masa/documentoArchivo_Masa.pdf) |  
 | ![prepago_Light](icn_export/1.Light/prepago_Light.svg) | `prepago_Light`  |  [.svg](icn_export/1.Light/prepago_Light.svg) | [.pdf](icn_export/1.Light/prepago_Light.pdf) |  
-| ![tienda_Regular](icn_export/2.Regular/tienda_Regular.svg) | `tienda_Regular`  |  [.svg](icn_export/2.Regular/tienda_Regular.svg) | [.pdf](icn_export/2.Regular/tienda_Regular.pdf) |  
+| ![descuento_Regular](icn_export/2.Regular/descuento_Regular.svg) | `descuento_Regular`  |  [.svg](icn_export/2.Regular/descuento_Regular.svg) | [.pdf](icn_export/2.Regular/descuento_Regular.pdf) |  
 | ![caraEmojiTriste_Regular](icn_export/2.Regular/caraEmojiTriste_Regular.svg) | `caraEmojiTriste_Regular`  |  [.svg](icn_export/2.Regular/caraEmojiTriste_Regular.svg) | [.pdf](icn_export/2.Regular/caraEmojiTriste_Regular.pdf) |  
 | ![arbol_Regular](icn_export/2.Regular/arbol_Regular.svg) | `arbol_Regular`  |  [.svg](icn_export/2.Regular/arbol_Regular.svg) | [.pdf](icn_export/2.Regular/arbol_Regular.pdf) |  
 | ![anAdirBloqueConsulta_Light](icn_export/1.Light/anAdirBloqueConsulta_Light.svg) | `anAdirBloqueConsulta_Light`  |  [.svg](icn_export/1.Light/anAdirBloqueConsulta_Light.svg) | [.pdf](icn_export/1.Light/anAdirBloqueConsulta_Light.pdf) |  
-| ![agenda_Regular](icn_export/2.Regular/agenda_Regular.svg) | `agenda_Regular`  |  [.svg](icn_export/2.Regular/agenda_Regular.svg) | [.pdf](icn_export/2.Regular/agenda_Regular.pdf) |  
 | ![manoDerecha_Regular](icn_export/2.Regular/manoDerecha_Regular.svg) | `manoDerecha_Regular`  |  [.svg](icn_export/2.Regular/manoDerecha_Regular.svg) | [.pdf](icn_export/2.Regular/manoDerecha_Regular.pdf) |  
 | ![api_Masa](icn_export/3.Masa/api_Masa.svg) | `api_Masa`  |  [.svg](icn_export/3.Masa/api_Masa.svg) | [.pdf](icn_export/3.Masa/api_Masa.pdf) |  
 | ![facturaDigital_Masa](icn_export/3.Masa/facturaDigital_Masa.svg) | `facturaDigital_Masa`  |  [.svg](icn_export/3.Masa/facturaDigital_Masa.svg) | [.pdf](icn_export/3.Masa/facturaDigital_Masa.pdf) |  
-| ![movilDispositivoTerminales_Regular](icn_export/2.Regular/movilDispositivoTerminales_Regular.svg) | `movilDispositivoTerminales_Regular`  |  [.svg](icn_export/2.Regular/movilDispositivoTerminales_Regular.svg) | [.pdf](icn_export/2.Regular/movilDispositivoTerminales_Regular.pdf) |  
 | ![nieveCopoDeNieve_Light](icn_export/1.Light/nieveCopoDeNieve_Light.svg) | `nieveCopoDeNieve_Light`  |  [.svg](icn_export/1.Light/nieveCopoDeNieve_Light.svg) | [.pdf](icn_export/1.Light/nieveCopoDeNieve_Light.pdf) |  
 | ![wifiHogarHomeCasa_Masa](icn_export/3.Masa/wifiHogarHomeCasa_Masa.svg) | `wifiHogarHomeCasa_Masa`  |  [.svg](icn_export/3.Masa/wifiHogarHomeCasa_Masa.svg) | [.pdf](icn_export/3.Masa/wifiHogarHomeCasa_Masa.pdf) |  
 | ![2AiInteligenciaArtificial_Masa](icn_export/3.Masa/2AiInteligenciaArtificial_Masa.svg) | `2AiInteligenciaArtificial_Masa`  |  [.svg](icn_export/3.Masa/2AiInteligenciaArtificial_Masa.svg) | [.pdf](icn_export/3.Masa/2AiInteligenciaArtificial_Masa.pdf) |  
@@ -301,7 +299,6 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![lapizBoligrafo_Light](icn_export/1.Light/lapizBoligrafo_Light.svg) | `lapizBoligrafo_Light`  |  [.svg](icn_export/1.Light/lapizBoligrafo_Light.svg) | [.pdf](icn_export/1.Light/lapizBoligrafo_Light.pdf) |  
 | ![programarAlarma_Masa](icn_export/3.Masa/programarAlarma_Masa.svg) | `programarAlarma_Masa`  |  [.svg](icn_export/3.Masa/programarAlarma_Masa.svg) | [.pdf](icn_export/3.Masa/programarAlarma_Masa.pdf) |  
 | ![ecoloGico_Masa](icn_export/3.Masa/ecoloGico_Masa.svg) | `ecoloGico_Masa`  |  [.svg](icn_export/3.Masa/ecoloGico_Masa.svg) | [.pdf](icn_export/3.Masa/ecoloGico_Masa.pdf) |  
-| ![sol_Light](icn_export/1.Light/sol_Light.svg) | `sol_Light`  |  [.svg](icn_export/1.Light/sol_Light.svg) | [.pdf](icn_export/1.Light/sol_Light.pdf) |  
 | ![premioPrimeroGanador_Masa](icn_export/3.Masa/premioPrimeroGanador_Masa.svg) | `premioPrimeroGanador_Masa`  |  [.svg](icn_export/3.Masa/premioPrimeroGanador_Masa.svg) | [.pdf](icn_export/3.Masa/premioPrimeroGanador_Masa.pdf) |  
 | ![cohete_Masa](icn_export/3.Masa/cohete_Masa.svg) | `cohete_Masa`  |  [.svg](icn_export/3.Masa/cohete_Masa.svg) | [.pdf](icn_export/3.Masa/cohete_Masa.pdf) |  
 | ![kit_Masa](icn_export/3.Masa/kit_Masa.svg) | `kit_Masa`  |  [.svg](icn_export/3.Masa/kit_Masa.svg) | [.pdf](icn_export/3.Masa/kit_Masa.pdf) |  
@@ -370,7 +367,6 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![foro_Masa](icn_export/3.Masa/foro_Masa.svg) | `foro_Masa`  |  [.svg](icn_export/3.Masa/foro_Masa.svg) | [.pdf](icn_export/3.Masa/foro_Masa.pdf) |  
 | ![pulmones_Masa](icn_export/3.Masa/pulmones_Masa.svg) | `pulmones_Masa`  |  [.svg](icn_export/3.Masa/pulmones_Masa.svg) | [.pdf](icn_export/3.Masa/pulmones_Masa.pdf) |  
 | ![balanzaJusticiaLegal_Masa](icn_export/3.Masa/balanzaJusticiaLegal_Masa.svg) | `balanzaJusticiaLegal_Masa`  |  [.svg](icn_export/3.Masa/balanzaJusticiaLegal_Masa.svg) | [.pdf](icn_export/3.Masa/balanzaJusticiaLegal_Masa.pdf) |  
-| ![envioEnvioGratis_Regular](icn_export/2.Regular/envioEnvioGratis_Regular.svg) | `envioEnvioGratis_Regular`  |  [.svg](icn_export/2.Regular/envioEnvioGratis_Regular.svg) | [.pdf](icn_export/2.Regular/envioEnvioGratis_Regular.pdf) |  
 | ![cuidadoPrecaucion_Regular](icn_export/2.Regular/cuidadoPrecaucion_Regular.svg) | `cuidadoPrecaucion_Regular`  |  [.svg](icn_export/2.Regular/cuidadoPrecaucion_Regular.svg) | [.pdf](icn_export/2.Regular/cuidadoPrecaucion_Regular.pdf) |  
 | ![reglaMedirMedida_Regular](icn_export/2.Regular/reglaMedirMedida_Regular.svg) | `reglaMedirMedida_Regular`  |  [.svg](icn_export/2.Regular/reglaMedirMedida_Regular.svg) | [.pdf](icn_export/2.Regular/reglaMedirMedida_Regular.pdf) |  
 | ![salirPantallaCompleta_Regular](icn_export/2.Regular/salirPantallaCompleta_Regular.svg) | `salirPantallaCompleta_Regular`  |  [.svg](icn_export/2.Regular/salirPantallaCompleta_Regular.svg) | [.pdf](icn_export/2.Regular/salirPantallaCompleta_Regular.pdf) |  
@@ -523,7 +519,6 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![museo_Regular](icn_export/2.Regular/museo_Regular.svg) | `museo_Regular`  |  [.svg](icn_export/2.Regular/museo_Regular.svg) | [.pdf](icn_export/2.Regular/museo_Regular.pdf) |  
 | ![chica_Regular](icn_export/2.Regular/chica_Regular.svg) | `chica_Regular`  |  [.svg](icn_export/2.Regular/chica_Regular.svg) | [.pdf](icn_export/2.Regular/chica_Regular.pdf) |  
 | ![servicioTecnicoTelefoniaFija_Light](icn_export/1.Light/servicioTecnicoTelefoniaFija_Light.svg) | `servicioTecnicoTelefoniaFija_Light`  |  [.svg](icn_export/1.Light/servicioTecnicoTelefoniaFija_Light.svg) | [.pdf](icn_export/1.Light/servicioTecnicoTelefoniaFija_Light.pdf) |  
-| ![descuento_Regular](icn_export/2.Regular/descuento_Regular.svg) | `descuento_Regular`  |  [.svg](icn_export/2.Regular/descuento_Regular.svg) | [.pdf](icn_export/2.Regular/descuento_Regular.pdf) |  
 | ![pastillas_Regular](icn_export/2.Regular/pastillas_Regular.svg) | `pastillas_Regular`  |  [.svg](icn_export/2.Regular/pastillas_Regular.svg) | [.pdf](icn_export/2.Regular/pastillas_Regular.pdf) |  
 | ![buscarAnalizarVirus_Light](icn_export/1.Light/buscarAnalizarVirus_Light.svg) | `buscarAnalizarVirus_Light`  |  [.svg](icn_export/1.Light/buscarAnalizarVirus_Light.svg) | [.pdf](icn_export/1.Light/buscarAnalizarVirus_Light.pdf) |  
 | ![cocheAcelerandoVelocidad_Masa](icn_export/3.Masa/cocheAcelerandoVelocidad_Masa.svg) | `cocheAcelerandoVelocidad_Masa`  |  [.svg](icn_export/3.Masa/cocheAcelerandoVelocidad_Masa.svg) | [.pdf](icn_export/3.Masa/cocheAcelerandoVelocidad_Masa.pdf) |  
@@ -572,7 +567,6 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![carpetaEncriptada_Light](icn_export/1.Light/carpetaEncriptada_Light.svg) | `carpetaEncriptada_Light`  |  [.svg](icn_export/1.Light/carpetaEncriptada_Light.svg) | [.pdf](icn_export/1.Light/carpetaEncriptada_Light.pdf) |  
 | ![documentoArchivoIllustrator_Regular](icn_export/2.Regular/documentoArchivoIllustrator_Regular.svg) | `documentoArchivoIllustrator_Regular`  |  [.svg](icn_export/2.Regular/documentoArchivoIllustrator_Regular.svg) | [.pdf](icn_export/2.Regular/documentoArchivoIllustrator_Regular.pdf) |  
 | ![autobus_Light](icn_export/1.Light/autobus_Light.svg) | `autobus_Light`  |  [.svg](icn_export/1.Light/autobus_Light.svg) | [.pdf](icn_export/1.Light/autobus_Light.pdf) |  
-| ![configurarCelular_Regular](icn_export/2.Regular/configurarCelular_Regular.svg) | `configurarCelular_Regular`  |  [.svg](icn_export/2.Regular/configurarCelular_Regular.svg) | [.pdf](icn_export/2.Regular/configurarCelular_Regular.pdf) |  
 | ![casino_Regular](icn_export/2.Regular/casino_Regular.svg) | `casino_Regular`  |  [.svg](icn_export/2.Regular/casino_Regular.svg) | [.pdf](icn_export/2.Regular/casino_Regular.pdf) |  
 | ![escudoAntivirus_Light](icn_export/1.Light/escudoAntivirus_Light.svg) | `escudoAntivirus_Light`  |  [.svg](icn_export/1.Light/escudoAntivirus_Light.svg) | [.pdf](icn_export/1.Light/escudoAntivirus_Light.pdf) |  
 | ![1AiInteligenciaArtificial_Regular](icn_export/2.Regular/1AiInteligenciaArtificial_Regular.svg) | `1AiInteligenciaArtificial_Regular`  |  [.svg](icn_export/2.Regular/1AiInteligenciaArtificial_Regular.svg) | [.pdf](icn_export/2.Regular/1AiInteligenciaArtificial_Regular.pdf) |  
@@ -661,7 +655,6 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![manoAbajo_Masa](icn_export/3.Masa/manoAbajo_Masa.svg) | `manoAbajo_Masa`  |  [.svg](icn_export/3.Masa/manoAbajo_Masa.svg) | [.pdf](icn_export/3.Masa/manoAbajo_Masa.pdf) |  
 | ![casaHogar_Masa](icn_export/3.Masa/casaHogar_Masa.svg) | `casaHogar_Masa`  |  [.svg](icn_export/3.Masa/casaHogar_Masa.svg) | [.pdf](icn_export/3.Masa/casaHogar_Masa.pdf) |  
 | ![filtros_Regular](icn_export/2.Regular/filtros_Regular.svg) | `filtros_Regular`  |  [.svg](icn_export/2.Regular/filtros_Regular.svg) | [.pdf](icn_export/2.Regular/filtros_Regular.pdf) |  
-| ![eliminarPapelera_Regular](icn_export/2.Regular/eliminarPapelera_Regular.svg) | `eliminarPapelera_Regular`  |  [.svg](icn_export/2.Regular/eliminarPapelera_Regular.svg) | [.pdf](icn_export/2.Regular/eliminarPapelera_Regular.pdf) |  
 | ![cartera_Regular](icn_export/2.Regular/cartera_Regular.svg) | `cartera_Regular`  |  [.svg](icn_export/2.Regular/cartera_Regular.svg) | [.pdf](icn_export/2.Regular/cartera_Regular.pdf) |  
 | ![tablet_Regular](icn_export/2.Regular/tablet_Regular.svg) | `tablet_Regular`  |  [.svg](icn_export/2.Regular/tablet_Regular.svg) | [.pdf](icn_export/2.Regular/tablet_Regular.pdf) |  
 | ![urgenciaUrgenteSirena_Masa](icn_export/3.Masa/urgenciaUrgenteSirena_Masa.svg) | `urgenciaUrgenteSirena_Masa`  |  [.svg](icn_export/3.Masa/urgenciaUrgenteSirena_Masa.svg) | [.pdf](icn_export/3.Masa/urgenciaUrgenteSirena_Masa.pdf) |  
@@ -687,7 +680,6 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![ajustesWeb_Regular](icn_export/2.Regular/ajustesWeb_Regular.svg) | `ajustesWeb_Regular`  |  [.svg](icn_export/2.Regular/ajustesWeb_Regular.svg) | [.pdf](icn_export/2.Regular/ajustesWeb_Regular.pdf) |  
 | ![puzzle_Regular](icn_export/2.Regular/puzzle_Regular.svg) | `puzzle_Regular`  |  [.svg](icn_export/2.Regular/puzzle_Regular.svg) | [.pdf](icn_export/2.Regular/puzzle_Regular.pdf) |  
 | ![tarjetaDeCredito_Masa](icn_export/3.Masa/tarjetaDeCredito_Masa.svg) | `tarjetaDeCredito_Masa`  |  [.svg](icn_export/3.Masa/tarjetaDeCredito_Masa.svg) | [.pdf](icn_export/3.Masa/tarjetaDeCredito_Masa.pdf) |  
-| ![usuarioMicuentaPersona_Regular](icn_export/2.Regular/usuarioMicuentaPersona_Regular.svg) | `usuarioMicuentaPersona_Regular`  |  [.svg](icn_export/2.Regular/usuarioMicuentaPersona_Regular.svg) | [.pdf](icn_export/2.Regular/usuarioMicuentaPersona_Regular.pdf) |  
 | ![bandera_Masa](icn_export/3.Masa/bandera_Masa.svg) | `bandera_Masa`  |  [.svg](icn_export/3.Masa/bandera_Masa.svg) | [.pdf](icn_export/3.Masa/bandera_Masa.pdf) |  
 | ![bacteria_Masa](icn_export/3.Masa/bacteria_Masa.svg) | `bacteria_Masa`  |  [.svg](icn_export/3.Masa/bacteria_Masa.svg) | [.pdf](icn_export/3.Masa/bacteria_Masa.pdf) |  
 | ![pastillas_Masa](icn_export/3.Masa/pastillas_Masa.svg) | `pastillas_Masa`  |  [.svg](icn_export/3.Masa/pastillas_Masa.svg) | [.pdf](icn_export/3.Masa/pastillas_Masa.pdf) |  
@@ -900,7 +892,6 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![facturaPlanDocumento_Masa](icn_export/3.Masa/facturaPlanDocumento_Masa.svg) | `facturaPlanDocumento_Masa`  |  [.svg](icn_export/3.Masa/facturaPlanDocumento_Masa.svg) | [.pdf](icn_export/3.Masa/facturaPlanDocumento_Masa.pdf) |  
 | ![penDrivePendrive_Masa](icn_export/3.Masa/penDrivePendrive_Masa.svg) | `penDrivePendrive_Masa`  |  [.svg](icn_export/3.Masa/penDrivePendrive_Masa.svg) | [.pdf](icn_export/3.Masa/penDrivePendrive_Masa.pdf) |  
 | ![tienda_Light](icn_export/1.Light/tienda_Light.svg) | `tienda_Light`  |  [.svg](icn_export/1.Light/tienda_Light.svg) | [.pdf](icn_export/1.Light/tienda_Light.pdf) |  
-| ![caja_Regular](icn_export/2.Regular/caja_Regular.svg) | `caja_Regular`  |  [.svg](icn_export/2.Regular/caja_Regular.svg) | [.pdf](icn_export/2.Regular/caja_Regular.pdf) |  
 | ![perdidaORoboDeCelulares_Regular](icn_export/2.Regular/perdidaORoboDeCelulares_Regular.svg) | `perdidaORoboDeCelulares_Regular`  |  [.svg](icn_export/2.Regular/perdidaORoboDeCelulares_Regular.svg) | [.pdf](icn_export/2.Regular/perdidaORoboDeCelulares_Regular.pdf) |  
 | ![dataSettings_Light](icn_export/1.Light/dataSettings_Light.svg) | `dataSettings_Light`  |  [.svg](icn_export/1.Light/dataSettings_Light.svg) | [.pdf](icn_export/1.Light/dataSettings_Light.pdf) |  
 | ![microchip_Light](icn_export/1.Light/microchip_Light.svg) | `microchip_Light`  |  [.svg](icn_export/1.Light/microchip_Light.svg) | [.pdf](icn_export/1.Light/microchip_Light.pdf) |  
@@ -1052,7 +1043,6 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![pc_Light](icn_export/1.Light/pc_Light.svg) | `pc_Light`  |  [.svg](icn_export/1.Light/pc_Light.svg) | [.pdf](icn_export/1.Light/pc_Light.pdf) |  
 | ![otros_Regular](icn_export/2.Regular/otros_Regular.svg) | `otros_Regular`  |  [.svg](icn_export/2.Regular/otros_Regular.svg) | [.pdf](icn_export/2.Regular/otros_Regular.pdf) |  
 | ![prepago_Regular](icn_export/2.Regular/prepago_Regular.svg) | `prepago_Regular`  |  [.svg](icn_export/2.Regular/prepago_Regular.svg) | [.pdf](icn_export/2.Regular/prepago_Regular.pdf) |  
-| ![callCenterAtencionAlCliente_Regular](icn_export/2.Regular/callCenterAtencionAlCliente_Regular.svg) | `callCenterAtencionAlCliente_Regular`  |  [.svg](icn_export/2.Regular/callCenterAtencionAlCliente_Regular.svg) | [.pdf](icn_export/2.Regular/callCenterAtencionAlCliente_Regular.pdf) |  
 | ![anular_Light](icn_export/1.Light/anular_Light.svg) | `anular_Light`  |  [.svg](icn_export/1.Light/anular_Light.svg) | [.pdf](icn_export/1.Light/anular_Light.pdf) |  
 | ![academic_Masa](icn_export/3.Masa/academic_Masa.svg) | `academic_Masa`  |  [.svg](icn_export/3.Masa/academic_Masa.svg) | [.pdf](icn_export/3.Masa/academic_Masa.pdf) |  
 | ![archivador_Light](icn_export/1.Light/archivador_Light.svg) | `archivador_Light`  |  [.svg](icn_export/1.Light/archivador_Light.svg) | [.pdf](icn_export/1.Light/archivador_Light.pdf) |  
@@ -1149,7 +1139,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![calavera_Light](icn_export/1.Light/calavera_Light.svg) | `calavera_Light`  |  [.svg](icn_export/1.Light/calavera_Light.svg) | [.pdf](icn_export/1.Light/calavera_Light.pdf) |  
 | ![barco_Regular](icn_export/2.Regular/barco_Regular.svg) | `barco_Regular`  |  [.svg](icn_export/2.Regular/barco_Regular.svg) | [.pdf](icn_export/2.Regular/barco_Regular.pdf) |  
 | ![ratoN_Regular](icn_export/2.Regular/ratoN_Regular.svg) | `ratoN_Regular`  |  [.svg](icn_export/2.Regular/ratoN_Regular.svg) | [.pdf](icn_export/2.Regular/ratoN_Regular.pdf) |  
-| ![huella_Light](icn_export/1.Light/huella_Light.svg) | `huella_Light`  |  [.svg](icn_export/1.Light/huella_Light.svg) | [.pdf](icn_export/1.Light/huella_Light.pdf) |  
+| ![sol_Light](icn_export/1.Light/sol_Light.svg) | `sol_Light`  |  [.svg](icn_export/1.Light/sol_Light.svg) | [.pdf](icn_export/1.Light/sol_Light.pdf) |  
 | ![buscar_Regular](icn_export/2.Regular/buscar_Regular.svg) | `buscar_Regular`  |  [.svg](icn_export/2.Regular/buscar_Regular.svg) | [.pdf](icn_export/2.Regular/buscar_Regular.pdf) |  
 | ![estomago_Light](icn_export/1.Light/estomago_Light.svg) | `estomago_Light`  |  [.svg](icn_export/1.Light/estomago_Light.svg) | [.pdf](icn_export/1.Light/estomago_Light.pdf) |  
 | ![cita_Light](icn_export/1.Light/cita_Light.svg) | `cita_Light`  |  [.svg](icn_export/1.Light/cita_Light.svg) | [.pdf](icn_export/1.Light/cita_Light.pdf) |  
