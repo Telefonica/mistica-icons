@@ -212,7 +212,6 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![tormenta-filled](icn_export/Masa/tormenta-filled.svg) | `tormenta-filled`  |  [.svg](icn_export/Masa/tormenta-filled.svg) | [.pdf](icn_export/Masa/tormenta-filled.pdf) |  
 | ![money-filled](icn_export/Masa/money-filled.svg) | `money-filled`  |  [.svg](icn_export/Masa/money-filled.svg) | [.pdf](icn_export/Masa/money-filled.pdf) |  
 | ![mapaPlano-filled](icn_export/Masa/mapaPlano-filled.svg) | `mapaPlano-filled`  |  [.svg](icn_export/Masa/mapaPlano-filled.svg) | [.pdf](icn_export/Masa/mapaPlano-filled.pdf) |  
-| ![documentoEncriptado-filled](icn_export/Masa/documentoEncriptado-filled.svg) | `documentoEncriptado-filled`  |  [.svg](icn_export/Masa/documentoEncriptado-filled.svg) | [.pdf](icn_export/Masa/documentoEncriptado-filled.pdf) |  
 | ![informacion-filled](icn_export/Masa/informacion-filled.svg) | `informacion-filled`  |  [.svg](icn_export/Masa/informacion-filled.svg) | [.pdf](icn_export/Masa/informacion-filled.pdf) |  
 | ![car-filled](icn_export/Masa/car-filled.svg) | `car-filled`  |  [.svg](icn_export/Masa/car-filled.svg) | [.pdf](icn_export/Masa/car-filled.pdf) |  
 | ![file-box-filled](icn_export/Masa/file-box-filled.svg) | `file-box-filled`  |  [.svg](icn_export/Masa/file-box-filled.svg) | [.pdf](icn_export/Masa/file-box-filled.pdf) |  
@@ -245,6 +244,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![calendar-filled](icn_export/Masa/calendar-filled.svg) | `calendar-filled`  |  [.svg](icn_export/Masa/calendar-filled.svg) | [.pdf](icn_export/Masa/calendar-filled.pdf) |  
 | ![listaDeProyectos-filled](icn_export/Masa/listaDeProyectos-filled.svg) | `listaDeProyectos-filled`  |  [.svg](icn_export/Masa/listaDeProyectos-filled.svg) | [.pdf](icn_export/Masa/listaDeProyectos-filled.pdf) |  
 | ![puzzle-filled](icn_export/Masa/puzzle-filled.svg) | `puzzle-filled`  |  [.svg](icn_export/Masa/puzzle-filled.svg) | [.pdf](icn_export/Masa/puzzle-filled.pdf) |  
+| ![file-encrypted-filled](icn_export/Masa/file-encrypted-filled.svg) | `file-encrypted-filled`  |  [.svg](icn_export/Masa/file-encrypted-filled.svg) | [.pdf](icn_export/Masa/file-encrypted-filled.pdf) |  
 | ![pastilla-filled](icn_export/Masa/pastilla-filled.svg) | `pastilla-filled`  |  [.svg](icn_export/Masa/pastilla-filled.svg) | [.pdf](icn_export/Masa/pastilla-filled.pdf) |  
 | ![lock-open-filled](icn_export/Masa/lock-open-filled.svg) | `lock-open-filled`  |  [.svg](icn_export/Masa/lock-open-filled.svg) | [.pdf](icn_export/Masa/lock-open-filled.pdf) |  
 | ![fibra-filled](icn_export/Masa/fibra-filled.svg) | `fibra-filled`  |  [.svg](icn_export/Masa/fibra-filled.svg) | [.pdf](icn_export/Masa/fibra-filled.pdf) |  
