@@ -366,7 +366,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![certificate-light](icn_export/Light/certificate-light.svg) | `certificate-light`  |  [.svg](icn_export/Light/certificate-light.svg) | [.pdf](icn_export/Light/certificate-light.pdf) |  
 | ![emergency-cross-with-circle-light](icn_export/Light/emergency-cross-with-circle-light.svg) | `emergency-cross-with-circle-light`  |  [.svg](icn_export/Light/emergency-cross-with-circle-light.svg) | [.pdf](icn_export/Light/emergency-cross-with-circle-light.pdf) |  
 | ![search-money-light](icn_export/Light/search-money-light.svg) | `search-money-light`  |  [.svg](icn_export/Light/search-money-light.svg) | [.pdf](icn_export/Light/search-money-light.pdf) |  
-| ![infinity-regular](icn_export/Regular/infinity-regular.svg) | `infinity-regular`  |  [.svg](icn_export/Regular/infinity-regular.svg) | [.pdf](icn_export/Regular/infinity-regular.pdf) |  
+| ![call-center-user-support-regular](icn_export/Regular/call-center-user-support-regular.svg) | `call-center-user-support-regular`  |  [.svg](icn_export/Regular/call-center-user-support-regular.svg) | [.pdf](icn_export/Regular/call-center-user-support-regular.pdf) |  
 | ![lock-de-data-light](icn_export/Light/lock-de-data-light.svg) | `lock-de-data-light`  |  [.svg](icn_export/Light/lock-de-data-light.svg) | [.pdf](icn_export/Light/lock-de-data-light.pdf) |  
 | ![checked-regular](icn_export/Regular/checked-regular.svg) | `checked-regular`  |  [.svg](icn_export/Regular/checked-regular.svg) | [.pdf](icn_export/Regular/checked-regular.pdf) |  
 | ![download-regular](icn_export/Regular/download-regular.svg) | `download-regular`  |  [.svg](icn_export/Regular/download-regular.svg) | [.pdf](icn_export/Regular/download-regular.pdf) |  
@@ -401,6 +401,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![process-loading-regular](icn_export/Regular/process-loading-regular.svg) | `process-loading-regular`  |  [.svg](icn_export/Regular/process-loading-regular.svg) | [.pdf](icn_export/Regular/process-loading-regular.pdf) |  
 | ![documents-regular](icn_export/Regular/documents-regular.svg) | `documents-regular`  |  [.svg](icn_export/Regular/documents-regular.svg) | [.pdf](icn_export/Regular/documents-regular.pdf) |  
 | ![file-psd-light](icn_export/Light/file-psd-light.svg) | `file-psd-light`  |  [.svg](icn_export/Light/file-psd-light.svg) | [.pdf](icn_export/Light/file-psd-light.pdf) |  
+| ![infinity-regular](icn_export/Regular/infinity-regular.svg) | `infinity-regular`  |  [.svg](icn_export/Regular/infinity-regular.svg) | [.pdf](icn_export/Regular/infinity-regular.pdf) |  
 | ![data-light](icn_export/Light/data-light.svg) | `data-light`  |  [.svg](icn_export/Light/data-light.svg) | [.pdf](icn_export/Light/data-light.pdf) |  
 | ![storm-filled](icn_export/Filled/storm-filled.svg) | `storm-filled`  |  [.svg](icn_export/Filled/storm-filled.svg) | [.pdf](icn_export/Filled/storm-filled.pdf) |  
 | ![list-light](icn_export/Light/list-light.svg) | `list-light`  |  [.svg](icn_export/Light/list-light.svg) | [.pdf](icn_export/Light/list-light.pdf) |  
@@ -968,7 +969,6 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![internet-pendrive-filled](icn_export/Filled/internet-pendrive-filled.svg) | `internet-pendrive-filled`  |  [.svg](icn_export/Filled/internet-pendrive-filled.svg) | [.pdf](icn_export/Filled/internet-pendrive-filled.pdf) |  
 | ![contact-book-regular](icn_export/Regular/contact-book-regular.svg) | `contact-book-regular`  |  [.svg](icn_export/Regular/contact-book-regular.svg) | [.pdf](icn_export/Regular/contact-book-regular.pdf) |  
 | ![postpay-filled](icn_export/Filled/postpay-filled.svg) | `postpay-filled`  |  [.svg](icn_export/Filled/postpay-filled.svg) | [.pdf](icn_export/Filled/postpay-filled.pdf) |  
-| ![call-center-user-support-regular](icn_export/Regular/call-center-user-support-regular.svg) | `call-center-user-support-regular`  |  [.svg](icn_export/Regular/call-center-user-support-regular.svg) | [.pdf](icn_export/Regular/call-center-user-support-regular.pdf) |  
 | ![buy-plans-filled](icn_export/Filled/buy-plans-filled.svg) | `buy-plans-filled`  |  [.svg](icn_export/Filled/buy-plans-filled.svg) | [.pdf](icn_export/Filled/buy-plans-filled.pdf) |  
 | ![open-email-regular](icn_export/Regular/open-email-regular.svg) | `open-email-regular`  |  [.svg](icn_export/Regular/open-email-regular.svg) | [.pdf](icn_export/Regular/open-email-regular.pdf) |  
 | ![trend-down-regular](icn_export/Regular/trend-down-regular.svg) | `trend-down-regular`  |  [.svg](icn_export/Regular/trend-down-regular.svg) | [.pdf](icn_export/Regular/trend-down-regular.pdf) |  
