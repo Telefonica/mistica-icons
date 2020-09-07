@@ -259,7 +259,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![edit-light](icn_export/Light/edit-light.svg) | `edit-light`  |  [.svg](icn_export/Light/edit-light.svg) | [.pdf](icn_export/Light/edit-light.pdf) |  
 | ![arrow-down-right-light](icn_export/Light/arrow-down-right-light.svg) | `arrow-down-right-light`  |  [.svg](icn_export/Light/arrow-down-right-light.svg) | [.pdf](icn_export/Light/arrow-down-right-light.pdf) |  
 | ![on-regular](icn_export/Regular/on-regular.svg) | `on-regular`  |  [.svg](icn_export/Regular/on-regular.svg) | [.pdf](icn_export/Regular/on-regular.pdf) |  
-| ![hand-up-regular](icn_export/Regular/hand-up-regular.svg) | `hand-up-regular`  |  [.svg](icn_export/Regular/hand-up-regular.svg) | [.pdf](icn_export/Regular/hand-up-regular.pdf) |  
+| ![virus-light](icn_export/Light/virus-light.svg) | `virus-light`  |  [.svg](icn_export/Light/virus-light.svg) | [.pdf](icn_export/Light/virus-light.pdf) |  
 | ![audio-filled](icn_export/Filled/audio-filled.svg) | `audio-filled`  |  [.svg](icn_export/Filled/audio-filled.svg) | [.pdf](icn_export/Filled/audio-filled.pdf) |  
 | ![justice-light](icn_export/Light/justice-light.svg) | `justice-light`  |  [.svg](icn_export/Light/justice-light.svg) | [.pdf](icn_export/Light/justice-light.pdf) |  
 | ![tickets-regular](icn_export/Regular/tickets-regular.svg) | `tickets-regular`  |  [.svg](icn_export/Regular/tickets-regular.svg) | [.pdf](icn_export/Regular/tickets-regular.pdf) |  
@@ -716,6 +716,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![lock-open-light](icn_export/Light/lock-open-light.svg) | `lock-open-light`  |  [.svg](icn_export/Light/lock-open-light.svg) | [.pdf](icn_export/Light/lock-open-light.pdf) |  
 | ![care-light](icn_export/Light/care-light.svg) | `care-light`  |  [.svg](icn_export/Light/care-light.svg) | [.pdf](icn_export/Light/care-light.pdf) |  
 | ![blog-light](icn_export/Light/blog-light.svg) | `blog-light`  |  [.svg](icn_export/Light/blog-light.svg) | [.pdf](icn_export/Light/blog-light.pdf) |  
+| ![pacifier-regular](icn_export/Regular/pacifier-regular.svg) | `pacifier-regular`  |  [.svg](icn_export/Regular/pacifier-regular.svg) | [.pdf](icn_export/Regular/pacifier-regular.pdf) |  
 | ![shield-antivirus-regular](icn_export/Regular/shield-antivirus-regular.svg) | `shield-antivirus-regular`  |  [.svg](icn_export/Regular/shield-antivirus-regular.svg) | [.pdf](icn_export/Regular/shield-antivirus-regular.pdf) |  
 | ![time-light](icn_export/Light/time-light.svg) | `time-light`  |  [.svg](icn_export/Light/time-light.svg) | [.pdf](icn_export/Light/time-light.pdf) |  
 | ![file-encrypted-filled](icn_export/Filled/file-encrypted-filled.svg) | `file-encrypted-filled`  |  [.svg](icn_export/Filled/file-encrypted-filled.svg) | [.pdf](icn_export/Filled/file-encrypted-filled.pdf) |  
@@ -794,7 +795,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![supermarket-light](icn_export/Light/supermarket-light.svg) | `supermarket-light`  |  [.svg](icn_export/Light/supermarket-light.svg) | [.pdf](icn_export/Light/supermarket-light.pdf) |  
 | ![car-with-clock-light](icn_export/Light/car-with-clock-light.svg) | `car-with-clock-light`  |  [.svg](icn_export/Light/car-with-clock-light.svg) | [.pdf](icn_export/Light/car-with-clock-light.pdf) |  
 | ![device-filled](icn_export/Filled/device-filled.svg) | `device-filled`  |  [.svg](icn_export/Filled/device-filled.svg) | [.pdf](icn_export/Filled/device-filled.pdf) |  
-| ![virus-light](icn_export/Light/virus-light.svg) | `virus-light`  |  [.svg](icn_export/Light/virus-light.svg) | [.pdf](icn_export/Light/virus-light.pdf) |  
+| ![rewind-filled](icn_export/Filled/rewind-filled.svg) | `rewind-filled`  |  [.svg](icn_export/Filled/rewind-filled.svg) | [.pdf](icn_export/Filled/rewind-filled.pdf) |  
 | ![pendrive-regular](icn_export/Regular/pendrive-regular.svg) | `pendrive-regular`  |  [.svg](icn_export/Regular/pendrive-regular.svg) | [.pdf](icn_export/Regular/pendrive-regular.pdf) |  
 | ![document-other-filled](icn_export/Filled/document-other-filled.svg) | `document-other-filled`  |  [.svg](icn_export/Filled/document-other-filled.svg) | [.pdf](icn_export/Filled/document-other-filled.pdf) |  
 | ![ambulance-filled](icn_export/Filled/ambulance-filled.svg) | `ambulance-filled`  |  [.svg](icn_export/Filled/ambulance-filled.svg) | [.pdf](icn_export/Filled/ambulance-filled.pdf) |  
@@ -829,7 +830,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![virus-regular](icn_export/Regular/virus-regular.svg) | `virus-regular`  |  [.svg](icn_export/Regular/virus-regular.svg) | [.pdf](icn_export/Regular/virus-regular.pdf) |  
 | ![flower-light](icn_export/Light/flower-light.svg) | `flower-light`  |  [.svg](icn_export/Light/flower-light.svg) | [.pdf](icn_export/Light/flower-light.pdf) |  
 | ![invoice-plan-file-filled](icn_export/Filled/invoice-plan-file-filled.svg) | `invoice-plan-file-filled`  |  [.svg](icn_export/Filled/invoice-plan-file-filled.svg) | [.pdf](icn_export/Filled/invoice-plan-file-filled.pdf) |  
-| ![pacifier-regular](icn_export/Regular/pacifier-regular.svg) | `pacifier-regular`  |  [.svg](icn_export/Regular/pacifier-regular.svg) | [.pdf](icn_export/Regular/pacifier-regular.pdf) |  
+| ![hand-up-regular](icn_export/Regular/hand-up-regular.svg) | `hand-up-regular`  |  [.svg](icn_export/Regular/hand-up-regular.svg) | [.pdf](icn_export/Regular/hand-up-regular.pdf) |  
 | ![safety-belt-light](icn_export/Light/safety-belt-light.svg) | `safety-belt-light`  |  [.svg](icn_export/Light/safety-belt-light.svg) | [.pdf](icn_export/Light/safety-belt-light.pdf) |  
 | ![videogames-regular](icn_export/Regular/videogames-regular.svg) | `videogames-regular`  |  [.svg](icn_export/Regular/videogames-regular.svg) | [.pdf](icn_export/Regular/videogames-regular.pdf) |  
 | ![infinity-light](icn_export/Light/infinity-light.svg) | `infinity-light`  |  [.svg](icn_export/Light/infinity-light.svg) | [.pdf](icn_export/Light/infinity-light.pdf) |  
@@ -958,6 +959,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![bicycle-bike-regular](icn_export/Regular/bicycle-bike-regular.svg) | `bicycle-bike-regular`  |  [.svg](icn_export/Regular/bicycle-bike-regular.svg) | [.pdf](icn_export/Regular/bicycle-bike-regular.pdf) |  
 | ![invoice-digital-filled](icn_export/Filled/invoice-digital-filled.svg) | `invoice-digital-filled`  |  [.svg](icn_export/Filled/invoice-digital-filled.svg) | [.pdf](icn_export/Filled/invoice-digital-filled.pdf) |  
 | ![trophy-light](icn_export/Light/trophy-light.svg) | `trophy-light`  |  [.svg](icn_export/Light/trophy-light.svg) | [.pdf](icn_export/Light/trophy-light.pdf) |  
+| ![arrow-drop-up-filled](icn_export/Filled/arrow-drop-up-filled.svg) | `arrow-drop-up-filled`  |  [.svg](icn_export/Filled/arrow-drop-up-filled.svg) | [.pdf](icn_export/Filled/arrow-drop-up-filled.pdf) |  
 | ![call-center-user-support-filled](icn_export/Filled/call-center-user-support-filled.svg) | `call-center-user-support-filled`  |  [.svg](icn_export/Filled/call-center-user-support-filled.svg) | [.pdf](icn_export/Filled/call-center-user-support-filled.pdf) |  
 | ![arrow-up-left-light](icn_export/Light/arrow-up-left-light.svg) | `arrow-up-left-light`  |  [.svg](icn_export/Light/arrow-up-left-light.svg) | [.pdf](icn_export/Light/arrow-up-left-light.pdf) |  
 | ![email-virus-filled](icn_export/Filled/email-virus-filled.svg) | `email-virus-filled`  |  [.svg](icn_export/Filled/email-virus-filled.svg) | [.pdf](icn_export/Filled/email-virus-filled.pdf) |  
