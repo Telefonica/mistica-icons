@@ -12,19 +12,16 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | Icon | name | SVG | PDF | | | | | |
 | :-: | :- | :-: | :-: | - | :-: | :- | :-: | :-: |
 | ![rayo-filled](icn_export/Masa/rayo-filled.svg) | `rayo-filled`  |  [.svg](icn_export/Masa/rayo-filled.svg) | [.pdf](icn_export/Masa/rayo-filled.pdf) |  
-| ![electrocardiograma-filled](icn_export/Masa/electrocardiograma-filled.svg) | `electrocardiograma-filled`  |  [.svg](icn_export/Masa/electrocardiograma-filled.svg) | [.pdf](icn_export/Masa/electrocardiograma-filled.pdf) |  
-| ![eliminarPapelera-filled](icn_export/Masa/eliminarPapelera-filled.svg) | `eliminarPapelera-filled`  |  [.svg](icn_export/Masa/eliminarPapelera-filled.svg) | [.pdf](icn_export/Masa/eliminarPapelera-filled.pdf) |  
+| ![flag-filled](icn_export/Masa/flag-filled.svg) | `flag-filled`  |  [.svg](icn_export/Masa/flag-filled.svg) | [.pdf](icn_export/Masa/flag-filled.pdf) |  
 | ![tooth-filled](icn_export/Masa/tooth-filled.svg) | `tooth-filled`  |  [.svg](icn_export/Masa/tooth-filled.svg) | [.pdf](icn_export/Masa/tooth-filled.pdf) |  
 | ![music-filled](icn_export/Masa/music-filled.svg) | `music-filled`  |  [.svg](icn_export/Masa/music-filled.svg) | [.pdf](icn_export/Masa/music-filled.pdf) |  
 | ![lapizBoligrafo-filled](icn_export/Masa/lapizBoligrafo-filled.svg) | `lapizBoligrafo-filled`  |  [.svg](icn_export/Masa/lapizBoligrafo-filled.svg) | [.pdf](icn_export/Masa/lapizBoligrafo-filled.pdf) |  
 | ![telefoniaFijaTelefonoLlamar-filled](icn_export/Masa/telefoniaFijaTelefonoLlamar-filled.svg) | `telefoniaFijaTelefonoLlamar-filled`  |  [.svg](icn_export/Masa/telefoniaFijaTelefonoLlamar-filled.svg) | [.pdf](icn_export/Masa/telefoniaFijaTelefonoLlamar-filled.pdf) |  
 | ![power-filled](icn_export/Masa/power-filled.svg) | `power-filled`  |  [.svg](icn_export/Masa/power-filled.svg) | [.pdf](icn_export/Masa/power-filled.pdf) |  
 | ![shared-mobile-data-filled](icn_export/Masa/shared-mobile-data-filled.svg) | `shared-mobile-data-filled`  |  [.svg](icn_export/Masa/shared-mobile-data-filled.svg) | [.pdf](icn_export/Masa/shared-mobile-data-filled.pdf) |  
-| ![portatilCargando-filled](icn_export/Masa/portatilCargando-filled.svg) | `portatilCargando-filled`  |  [.svg](icn_export/Masa/portatilCargando-filled.svg) | [.pdf](icn_export/Masa/portatilCargando-filled.pdf) |  
 | ![headphones-filled](icn_export/Masa/headphones-filled.svg) | `headphones-filled`  |  [.svg](icn_export/Masa/headphones-filled.svg) | [.pdf](icn_export/Masa/headphones-filled.pdf) |  
 | ![hard-disk-filled](icn_export/Masa/hard-disk-filled.svg) | `hard-disk-filled`  |  [.svg](icn_export/Masa/hard-disk-filled.svg) | [.pdf](icn_export/Masa/hard-disk-filled.pdf) |  
 | ![jeringuilla-filled](icn_export/Masa/jeringuilla-filled.svg) | `jeringuilla-filled`  |  [.svg](icn_export/Masa/jeringuilla-filled.svg) | [.pdf](icn_export/Masa/jeringuilla-filled.pdf) |  
-| ![flag-filled](icn_export/Masa/flag-filled.svg) | `flag-filled`  |  [.svg](icn_export/Masa/flag-filled.svg) | [.pdf](icn_export/Masa/flag-filled.pdf) |  
 | ![accesibility-filled](icn_export/Masa/accesibility-filled.svg) | `accesibility-filled`  |  [.svg](icn_export/Masa/accesibility-filled.svg) | [.pdf](icn_export/Masa/accesibility-filled.pdf) |  
 | ![movilPlay-filled](icn_export/Masa/movilPlay-filled.svg) | `movilPlay-filled`  |  [.svg](icn_export/Masa/movilPlay-filled.svg) | [.pdf](icn_export/Masa/movilPlay-filled.pdf) |  
 | ![file-psd-filled](icn_export/Masa/file-psd-filled.svg) | `file-psd-filled`  |  [.svg](icn_export/Masa/file-psd-filled.svg) | [.pdf](icn_export/Masa/file-psd-filled.pdf) |  
@@ -46,11 +43,10 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![flechaArribaIzquierda-filled](icn_export/Masa/flechaArribaIzquierda-filled.svg) | `flechaArribaIzquierda-filled`  |  [.svg](icn_export/Masa/flechaArribaIzquierda-filled.svg) | [.pdf](icn_export/Masa/flechaArribaIzquierda-filled.pdf) |  
 | ![miembros-filled](icn_export/Masa/miembros-filled.svg) | `miembros-filled`  |  [.svg](icn_export/Masa/miembros-filled.svg) | [.pdf](icn_export/Masa/miembros-filled.pdf) |  
 | ![intranet-filled](icn_export/Masa/intranet-filled.svg) | `intranet-filled`  |  [.svg](icn_export/Masa/intranet-filled.svg) | [.pdf](icn_export/Masa/intranet-filled.pdf) |  
-| ![envioEnvioGratis-filled](icn_export/Masa/envioEnvioGratis-filled.svg) | `envioEnvioGratis-filled`  |  [.svg](icn_export/Masa/envioEnvioGratis-filled.svg) | [.pdf](icn_export/Masa/envioEnvioGratis-filled.pdf) |  
 | ![tk-filled](icn_export/Masa/tk-filled.svg) | `tk-filled`  |  [.svg](icn_export/Masa/tk-filled.svg) | [.pdf](icn_export/Masa/tk-filled.pdf) |  
 | ![water-drop-filled](icn_export/Masa/water-drop-filled.svg) | `water-drop-filled`  |  [.svg](icn_export/Masa/water-drop-filled.svg) | [.pdf](icn_export/Masa/water-drop-filled.pdf) |  
 | ![persona-filled](icn_export/Masa/persona-filled.svg) | `persona-filled`  |  [.svg](icn_export/Masa/persona-filled.svg) | [.pdf](icn_export/Masa/persona-filled.pdf) |  
-| ![emergenciaCruzSalud-filled](icn_export/Masa/emergenciaCruzSalud-filled.svg) | `emergenciaCruzSalud-filled`  |  [.svg](icn_export/Masa/emergenciaCruzSalud-filled.svg) | [.pdf](icn_export/Masa/emergenciaCruzSalud-filled.pdf) |  
+| ![portatilCargando-filled](icn_export/Masa/portatilCargando-filled.svg) | `portatilCargando-filled`  |  [.svg](icn_export/Masa/portatilCargando-filled.svg) | [.pdf](icn_export/Masa/portatilCargando-filled.pdf) |  
 | ![layers-filled](icn_export/Masa/layers-filled.svg) | `layers-filled`  |  [.svg](icn_export/Masa/layers-filled.svg) | [.pdf](icn_export/Masa/layers-filled.pdf) |  
 | ![internet-filled](icn_export/Masa/internet-filled.svg) | `internet-filled`  |  [.svg](icn_export/Masa/internet-filled.svg) | [.pdf](icn_export/Masa/internet-filled.pdf) |  
 | ![pastillas-filled](icn_export/Masa/pastillas-filled.svg) | `pastillas-filled`  |  [.svg](icn_export/Masa/pastillas-filled.svg) | [.pdf](icn_export/Masa/pastillas-filled.pdf) |  
@@ -58,6 +54,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![buy-data-filled](icn_export/Masa/buy-data-filled.svg) | `buy-data-filled`  |  [.svg](icn_export/Masa/buy-data-filled.svg) | [.pdf](icn_export/Masa/buy-data-filled.pdf) |  
 | ![clip-filled](icn_export/Masa/clip-filled.svg) | `clip-filled`  |  [.svg](icn_export/Masa/clip-filled.svg) | [.pdf](icn_export/Masa/clip-filled.pdf) |  
 | ![flechasIzquierdaYDerecha-filled](icn_export/Masa/flechasIzquierdaYDerecha-filled.svg) | `flechasIzquierdaYDerecha-filled`  |  [.svg](icn_export/Masa/flechasIzquierdaYDerecha-filled.svg) | [.pdf](icn_export/Masa/flechasIzquierdaYDerecha-filled.pdf) |  
+| ![plug-filled](icn_export/Masa/plug-filled.svg) | `plug-filled`  |  [.svg](icn_export/Masa/plug-filled.svg) | [.pdf](icn_export/Masa/plug-filled.pdf) |  
 | ![virus-filled](icn_export/Masa/virus-filled.svg) | `virus-filled`  |  [.svg](icn_export/Masa/virus-filled.svg) | [.pdf](icn_export/Masa/virus-filled.pdf) |  
 | ![maletin-filled](icn_export/Masa/maletin-filled.svg) | `maletin-filled`  |  [.svg](icn_export/Masa/maletin-filled.svg) | [.pdf](icn_export/Masa/maletin-filled.pdf) |  
 | ![gimnasioGym-filled](icn_export/Masa/gimnasioGym-filled.svg) | `gimnasioGym-filled`  |  [.svg](icn_export/Masa/gimnasioGym-filled.svg) | [.pdf](icn_export/Masa/gimnasioGym-filled.pdf) |  
@@ -74,8 +71,8 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![shared-data-filled](icn_export/Masa/shared-data-filled.svg) | `shared-data-filled`  |  [.svg](icn_export/Masa/shared-data-filled.svg) | [.pdf](icn_export/Masa/shared-data-filled.pdf) |  
 | ![file-zip-filled](icn_export/Masa/file-zip-filled.svg) | `file-zip-filled`  |  [.svg](icn_export/Masa/file-zip-filled.svg) | [.pdf](icn_export/Masa/file-zip-filled.pdf) |  
 | ![id-card-filled](icn_export/Masa/id-card-filled.svg) | `id-card-filled`  |  [.svg](icn_export/Masa/id-card-filled.svg) | [.pdf](icn_export/Masa/id-card-filled.pdf) |  
+| ![buy-devices-filled](icn_export/Masa/buy-devices-filled.svg) | `buy-devices-filled`  |  [.svg](icn_export/Masa/buy-devices-filled.svg) | [.pdf](icn_export/Masa/buy-devices-filled.pdf) |  
 | ![manoArriba-filled](icn_export/Masa/manoArriba-filled.svg) | `manoArriba-filled`  |  [.svg](icn_export/Masa/manoArriba-filled.svg) | [.pdf](icn_export/Masa/manoArriba-filled.pdf) |  
-| ![duchaBanOBanEra-filled](icn_export/Masa/duchaBanOBanEra-filled.svg) | `duchaBanOBanEra-filled`  |  [.svg](icn_export/Masa/duchaBanOBanEra-filled.svg) | [.pdf](icn_export/Masa/duchaBanOBanEra-filled.pdf) |  
 | ![adn-filled](icn_export/Masa/adn-filled.svg) | `adn-filled`  |  [.svg](icn_export/Masa/adn-filled.svg) | [.pdf](icn_export/Masa/adn-filled.pdf) |  
 | ![movilInterrogacion-filled](icn_export/Masa/movilInterrogacion-filled.svg) | `movilInterrogacion-filled`  |  [.svg](icn_export/Masa/movilInterrogacion-filled.svg) | [.pdf](icn_export/Masa/movilInterrogacion-filled.pdf) |  
 | ![portabilidad-filled](icn_export/Masa/portabilidad-filled.svg) | `portabilidad-filled`  |  [.svg](icn_export/Masa/portabilidad-filled.svg) | [.pdf](icn_export/Masa/portabilidad-filled.pdf) |  
@@ -84,7 +81,6 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![add-moreRutaUbicacion-filled](icn_export/Masa/add-moreRutaUbicacion-filled.svg) | `add-moreRutaUbicacion-filled`  |  [.svg](icn_export/Masa/add-moreRutaUbicacion-filled.svg) | [.pdf](icn_export/Masa/add-moreRutaUbicacion-filled.pdf) |  
 | ![file-mp-3-filled](icn_export/Masa/file-mp-3-filled.svg) | `file-mp-3-filled`  |  [.svg](icn_export/Masa/file-mp-3-filled.svg) | [.pdf](icn_export/Masa/file-mp-3-filled.pdf) |  
 | ![home-filled](icn_export/Masa/home-filled.svg) | `home-filled`  |  [.svg](icn_export/Masa/home-filled.svg) | [.pdf](icn_export/Masa/home-filled.pdf) |  
-| ![entradasTickets-filled](icn_export/Masa/entradasTickets-filled.svg) | `entradasTickets-filled`  |  [.svg](icn_export/Masa/entradasTickets-filled.svg) | [.pdf](icn_export/Masa/entradasTickets-filled.pdf) |  
 | ![escudookSeguridadok-filled](icn_export/Masa/escudookSeguridadok-filled.svg) | `escudookSeguridadok-filled`  |  [.svg](icn_export/Masa/escudookSeguridadok-filled.svg) | [.pdf](icn_export/Masa/escudookSeguridadok-filled.pdf) |  
 | ![audio-filled](icn_export/Masa/audio-filled.svg) | `audio-filled`  |  [.svg](icn_export/Masa/audio-filled.svg) | [.pdf](icn_export/Masa/audio-filled.pdf) |  
 | ![router-filled](icn_export/Masa/router-filled.svg) | `router-filled`  |  [.svg](icn_export/Masa/router-filled.svg) | [.pdf](icn_export/Masa/router-filled.pdf) |  
@@ -96,6 +92,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![wifiHogarHomeCasa-filled](icn_export/Masa/wifiHogarHomeCasa-filled.svg) | `wifiHogarHomeCasa-filled`  |  [.svg](icn_export/Masa/wifiHogarHomeCasa-filled.svg) | [.pdf](icn_export/Masa/wifiHogarHomeCasa-filled.pdf) |  
 | ![presentacion-filled](icn_export/Masa/presentacion-filled.svg) | `presentacion-filled`  |  [.svg](icn_export/Masa/presentacion-filled.svg) | [.pdf](icn_export/Masa/presentacion-filled.pdf) |  
 | ![proyectos-filled](icn_export/Masa/proyectos-filled.svg) | `proyectos-filled`  |  [.svg](icn_export/Masa/proyectos-filled.svg) | [.pdf](icn_export/Masa/proyectos-filled.pdf) |  
+| ![trash-can-filled](icn_export/Masa/trash-can-filled.svg) | `trash-can-filled`  |  [.svg](icn_export/Masa/trash-can-filled.svg) | [.pdf](icn_export/Masa/trash-can-filled.pdf) |  
 | ![ubicacion-filled](icn_export/Masa/ubicacion-filled.svg) | `ubicacion-filled`  |  [.svg](icn_export/Masa/ubicacion-filled.svg) | [.pdf](icn_export/Masa/ubicacion-filled.pdf) |  
 | ![checked-filled](icn_export/Masa/checked-filled.svg) | `checked-filled`  |  [.svg](icn_export/Masa/checked-filled.svg) | [.pdf](icn_export/Masa/checked-filled.pdf) |  
 | ![servicioTecnicoTelefoniaFija-filled](icn_export/Masa/servicioTecnicoTelefoniaFija-filled.svg) | `servicioTecnicoTelefoniaFija-filled`  |  [.svg](icn_export/Masa/servicioTecnicoTelefoniaFija-filled.svg) | [.pdf](icn_export/Masa/servicioTecnicoTelefoniaFija-filled.pdf) |  
@@ -105,6 +102,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![safety-belt-filled](icn_export/Masa/safety-belt-filled.svg) | `safety-belt-filled`  |  [.svg](icn_export/Masa/safety-belt-filled.svg) | [.pdf](icn_export/Masa/safety-belt-filled.pdf) |  
 | ![file-enex-filled](icn_export/Masa/file-enex-filled.svg) | `file-enex-filled`  |  [.svg](icn_export/Masa/file-enex-filled.svg) | [.pdf](icn_export/Masa/file-enex-filled.pdf) |  
 | ![reglaMedirMedida-filled](icn_export/Masa/reglaMedirMedida-filled.svg) | `reglaMedirMedida-filled`  |  [.svg](icn_export/Masa/reglaMedirMedida-filled.svg) | [.pdf](icn_export/Masa/reglaMedirMedida-filled.pdf) |  
+| ![apartment-building-filled](icn_export/Masa/apartment-building-filled.svg) | `apartment-building-filled`  |  [.svg](icn_export/Masa/apartment-building-filled.svg) | [.pdf](icn_export/Masa/apartment-building-filled.pdf) |  
 | ![metro-filled](icn_export/Masa/metro-filled.svg) | `metro-filled`  |  [.svg](icn_export/Masa/metro-filled.svg) | [.pdf](icn_export/Masa/metro-filled.pdf) |  
 | ![download-cloud-filled](icn_export/Masa/download-cloud-filled.svg) | `download-cloud-filled`  |  [.svg](icn_export/Masa/download-cloud-filled.svg) | [.pdf](icn_export/Masa/download-cloud-filled.pdf) |  
 | ![blog-filled](icn_export/Masa/blog-filled.svg) | `blog-filled`  |  [.svg](icn_export/Masa/blog-filled.svg) | [.pdf](icn_export/Masa/blog-filled.pdf) |  
@@ -123,17 +121,16 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![marcador-filled](icn_export/Masa/marcador-filled.svg) | `marcador-filled`  |  [.svg](icn_export/Masa/marcador-filled.svg) | [.pdf](icn_export/Masa/marcador-filled.pdf) |  
 | ![sms-filled](icn_export/Masa/sms-filled.svg) | `sms-filled`  |  [.svg](icn_export/Masa/sms-filled.svg) | [.pdf](icn_export/Masa/sms-filled.pdf) |  
 | ![servicioTecnicoParaMovil-filled](icn_export/Masa/servicioTecnicoParaMovil-filled.svg) | `servicioTecnicoParaMovil-filled`  |  [.svg](icn_export/Masa/servicioTecnicoParaMovil-filled.svg) | [.pdf](icn_export/Masa/servicioTecnicoParaMovil-filled.pdf) |  
-| ![file-sketch-filled](icn_export/Masa/file-sketch-filled.svg) | `file-sketch-filled`  |  [.svg](icn_export/Masa/file-sketch-filled.svg) | [.pdf](icn_export/Masa/file-sketch-filled.pdf) |  
+| ![dolar-symbol-light-filled](icn_export/Masa/dolar-symbol-light-filled.svg) | `dolar-symbol-light-filled`  |  [.svg](icn_export/Masa/dolar-symbol-light-filled.svg) | [.pdf](icn_export/Masa/dolar-symbol-light-filled.pdf) |  
 | ![grupo-filled](icn_export/Masa/grupo-filled.svg) | `grupo-filled`  |  [.svg](icn_export/Masa/grupo-filled.svg) | [.pdf](icn_export/Masa/grupo-filled.pdf) |  
 | ![cooking-filled](icn_export/Masa/cooking-filled.svg) | `cooking-filled`  |  [.svg](icn_export/Masa/cooking-filled.svg) | [.pdf](icn_export/Masa/cooking-filled.pdf) |  
 | ![saldo-filled](icn_export/Masa/saldo-filled.svg) | `saldo-filled`  |  [.svg](icn_export/Masa/saldo-filled.svg) | [.pdf](icn_export/Masa/saldo-filled.pdf) |  
 | ![pulmones-filled](icn_export/Masa/pulmones-filled.svg) | `pulmones-filled`  |  [.svg](icn_export/Masa/pulmones-filled.svg) | [.pdf](icn_export/Masa/pulmones-filled.pdf) |  
 | ![notas-filled](icn_export/Masa/notas-filled.svg) | `notas-filled`  |  [.svg](icn_export/Masa/notas-filled.svg) | [.pdf](icn_export/Masa/notas-filled.pdf) |  
 | ![support-agent-filled](icn_export/Masa/support-agent-filled.svg) | `support-agent-filled`  |  [.svg](icn_export/Masa/support-agent-filled.svg) | [.pdf](icn_export/Masa/support-agent-filled.pdf) |  
-| ![enviar-filled](icn_export/Masa/enviar-filled.svg) | `enviar-filled`  |  [.svg](icn_export/Masa/enviar-filled.svg) | [.pdf](icn_export/Masa/enviar-filled.pdf) |  
 | ![farmacia-filled](icn_export/Masa/farmacia-filled.svg) | `farmacia-filled`  |  [.svg](icn_export/Masa/farmacia-filled.svg) | [.pdf](icn_export/Masa/farmacia-filled.pdf) |  
-| ![documentoError-filled](icn_export/Masa/documentoError-filled.svg) | `documentoError-filled`  |  [.svg](icn_export/Masa/documentoError-filled.svg) | [.pdf](icn_export/Masa/documentoError-filled.pdf) |  
 | ![flechaArribaDerecha-filled](icn_export/Masa/flechaArribaDerecha-filled.svg) | `flechaArribaDerecha-filled`  |  [.svg](icn_export/Masa/flechaArribaDerecha-filled.svg) | [.pdf](icn_export/Masa/flechaArribaDerecha-filled.pdf) |  
+| ![send-filled](icn_export/Masa/send-filled.svg) | `send-filled`  |  [.svg](icn_export/Masa/send-filled.svg) | [.pdf](icn_export/Masa/send-filled.pdf) |  
 | ![turismoMaleta-filled](icn_export/Masa/turismoMaleta-filled.svg) | `turismoMaleta-filled`  |  [.svg](icn_export/Masa/turismoMaleta-filled.svg) | [.pdf](icn_export/Masa/turismoMaleta-filled.pdf) |  
 | ![open-file-filled](icn_export/Masa/open-file-filled.svg) | `open-file-filled`  |  [.svg](icn_export/Masa/open-file-filled.svg) | [.pdf](icn_export/Masa/open-file-filled.pdf) |  
 | ![microfono-filled](icn_export/Masa/microfono-filled.svg) | `microfono-filled`  |  [.svg](icn_export/Masa/microfono-filled.svg) | [.pdf](icn_export/Masa/microfono-filled.pdf) |  
@@ -142,7 +139,6 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![add-more-query-filled](icn_export/Masa/add-more-query-filled.svg) | `add-more-query-filled`  |  [.svg](icn_export/Masa/add-more-query-filled.svg) | [.pdf](icn_export/Masa/add-more-query-filled.pdf) |  
 | ![noticias-filled](icn_export/Masa/noticias-filled.svg) | `noticias-filled`  |  [.svg](icn_export/Masa/noticias-filled.svg) | [.pdf](icn_export/Masa/noticias-filled.pdf) |  
 | ![quimica-filled](icn_export/Masa/quimica-filled.svg) | `quimica-filled`  |  [.svg](icn_export/Masa/quimica-filled.svg) | [.pdf](icn_export/Masa/quimica-filled.pdf) |  
-| ![dolarDineroMoneda-filled](icn_export/Masa/dolarDineroMoneda-filled.svg) | `dolarDineroMoneda-filled`  |  [.svg](icn_export/Masa/dolarDineroMoneda-filled.svg) | [.pdf](icn_export/Masa/dolarDineroMoneda-filled.pdf) |  
 | ![justice-filled](icn_export/Masa/justice-filled.svg) | `justice-filled`  |  [.svg](icn_export/Masa/justice-filled.svg) | [.pdf](icn_export/Masa/justice-filled.pdf) |  
 | ![insecto-filled](icn_export/Masa/insecto-filled.svg) | `insecto-filled`  |  [.svg](icn_export/Masa/insecto-filled.svg) | [.pdf](icn_export/Masa/insecto-filled.pdf) |  
 | ![flechaArriba-filled](icn_export/Masa/flechaArriba-filled.svg) | `flechaArriba-filled`  |  [.svg](icn_export/Masa/flechaArriba-filled.svg) | [.pdf](icn_export/Masa/flechaArriba-filled.pdf) |  
@@ -182,7 +178,6 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![fuegoLlama-filled](icn_export/Masa/fuegoLlama-filled.svg) | `fuegoLlama-filled`  |  [.svg](icn_export/Masa/fuegoLlama-filled.svg) | [.pdf](icn_export/Masa/fuegoLlama-filled.pdf) |  
 | ![manoAbajo-filled](icn_export/Masa/manoAbajo-filled.svg) | `manoAbajo-filled`  |  [.svg](icn_export/Masa/manoAbajo-filled.svg) | [.pdf](icn_export/Masa/manoAbajo-filled.pdf) |  
 | ![tirita-filled](icn_export/Masa/tirita-filled.svg) | `tirita-filled`  |  [.svg](icn_export/Masa/tirita-filled.svg) | [.pdf](icn_export/Masa/tirita-filled.pdf) |  
-| ![enchufe-filled](icn_export/Masa/enchufe-filled.svg) | `enchufe-filled`  |  [.svg](icn_export/Masa/enchufe-filled.svg) | [.pdf](icn_export/Masa/enchufe-filled.pdf) |  
 | ![disable-filled](icn_export/Masa/disable-filled.svg) | `disable-filled`  |  [.svg](icn_export/Masa/disable-filled.svg) | [.pdf](icn_export/Masa/disable-filled.pdf) |  
 | ![robot-filled](icn_export/Masa/robot-filled.svg) | `robot-filled`  |  [.svg](icn_export/Masa/robot-filled.svg) | [.pdf](icn_export/Masa/robot-filled.pdf) |  
 | ![hamburguesa-filled](icn_export/Masa/hamburguesa-filled.svg) | `hamburguesa-filled`  |  [.svg](icn_export/Masa/hamburguesa-filled.svg) | [.pdf](icn_export/Masa/hamburguesa-filled.pdf) |  
@@ -192,6 +187,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![appointment-filled](icn_export/Masa/appointment-filled.svg) | `appointment-filled`  |  [.svg](icn_export/Masa/appointment-filled.svg) | [.pdf](icn_export/Masa/appointment-filled.pdf) |  
 | ![rocket-filled](icn_export/Masa/rocket-filled.svg) | `rocket-filled`  |  [.svg](icn_export/Masa/rocket-filled.svg) | [.pdf](icn_export/Masa/rocket-filled.pdf) |  
 | ![library-filled](icn_export/Masa/library-filled.svg) | `library-filled`  |  [.svg](icn_export/Masa/library-filled.svg) | [.pdf](icn_export/Masa/library-filled.pdf) |  
+| ![shower-filled](icn_export/Masa/shower-filled.svg) | `shower-filled`  |  [.svg](icn_export/Masa/shower-filled.svg) | [.pdf](icn_export/Masa/shower-filled.pdf) |  
 | ![usuarioMicuentaPersona-filled](icn_export/Masa/usuarioMicuentaPersona-filled.svg) | `usuarioMicuentaPersona-filled`  |  [.svg](icn_export/Masa/usuarioMicuentaPersona-filled.svg) | [.pdf](icn_export/Masa/usuarioMicuentaPersona-filled.pdf) |  
 | ![add-more-alarm-filled](icn_export/Masa/add-more-alarm-filled.svg) | `add-more-alarm-filled`  |  [.svg](icn_export/Masa/add-more-alarm-filled.svg) | [.pdf](icn_export/Masa/add-more-alarm-filled.pdf) |  
 | ![perdidaORoboDeCelulares-filled](icn_export/Masa/perdidaORoboDeCelulares-filled.svg) | `perdidaORoboDeCelulares-filled`  |  [.svg](icn_export/Masa/perdidaORoboDeCelulares-filled.svg) | [.pdf](icn_export/Masa/perdidaORoboDeCelulares-filled.pdf) |  
@@ -207,7 +203,6 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![rewindMasa](icn_export/Masa/rewindMasa.svg) | `rewindMasa`  |  [.svg](icn_export/Masa/rewindMasa.svg) | [.pdf](icn_export/Masa/rewindMasa.pdf) |  
 | ![llamadaSaliente-filled](icn_export/Masa/llamadaSaliente-filled.svg) | `llamadaSaliente-filled`  |  [.svg](icn_export/Masa/llamadaSaliente-filled.svg) | [.pdf](icn_export/Masa/llamadaSaliente-filled.pdf) |  
 | ![teatro-filled](icn_export/Masa/teatro-filled.svg) | `teatro-filled`  |  [.svg](icn_export/Masa/teatro-filled.svg) | [.pdf](icn_export/Masa/teatro-filled.pdf) |  
-| ![flechaAbajoDerecha-filled](icn_export/Masa/flechaAbajoDerecha-filled.svg) | `flechaAbajoDerecha-filled`  |  [.svg](icn_export/Masa/flechaAbajoDerecha-filled.svg) | [.pdf](icn_export/Masa/flechaAbajoDerecha-filled.pdf) |  
 | ![tree-filled](icn_export/Masa/tree-filled.svg) | `tree-filled`  |  [.svg](icn_export/Masa/tree-filled.svg) | [.pdf](icn_export/Masa/tree-filled.pdf) |  
 | ![tormenta-filled](icn_export/Masa/tormenta-filled.svg) | `tormenta-filled`  |  [.svg](icn_export/Masa/tormenta-filled.svg) | [.pdf](icn_export/Masa/tormenta-filled.pdf) |  
 | ![money-filled](icn_export/Masa/money-filled.svg) | `money-filled`  |  [.svg](icn_export/Masa/money-filled.svg) | [.pdf](icn_export/Masa/money-filled.pdf) |  
@@ -224,10 +219,11 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![web-filled](icn_export/Masa/web-filled.svg) | `web-filled`  |  [.svg](icn_export/Masa/web-filled.svg) | [.pdf](icn_export/Masa/web-filled.pdf) |  
 | ![parking-filled](icn_export/Masa/parking-filled.svg) | `parking-filled`  |  [.svg](icn_export/Masa/parking-filled.svg) | [.pdf](icn_export/Masa/parking-filled.pdf) |  
 | ![pospago-filled](icn_export/Masa/pospago-filled.svg) | `pospago-filled`  |  [.svg](icn_export/Masa/pospago-filled.svg) | [.pdf](icn_export/Masa/pospago-filled.pdf) |  
-| ![emergenciaCruzCirculoSalud-filled](icn_export/Masa/emergenciaCruzCirculoSalud-filled.svg) | `emergenciaCruzCirculoSalud-filled`  |  [.svg](icn_export/Masa/emergenciaCruzCirculoSalud-filled.svg) | [.pdf](icn_export/Masa/emergenciaCruzCirculoSalud-filled.pdf) |  
+| ![flechaAbajoDerecha-filled](icn_export/Masa/flechaAbajoDerecha-filled.svg) | `flechaAbajoDerecha-filled`  |  [.svg](icn_export/Masa/flechaAbajoDerecha-filled.svg) | [.pdf](icn_export/Masa/flechaAbajoDerecha-filled.pdf) |  
 | ![formacion-filled](icn_export/Masa/formacion-filled.svg) | `formacion-filled`  |  [.svg](icn_export/Masa/formacion-filled.svg) | [.pdf](icn_export/Masa/formacion-filled.pdf) |  
 | ![urgenciaUrgenteSirena-filled](icn_export/Masa/urgenciaUrgenteSirena-filled.svg) | `urgenciaUrgenteSirena-filled`  |  [.svg](icn_export/Masa/urgenciaUrgenteSirena-filled.svg) | [.pdf](icn_export/Masa/urgenciaUrgenteSirena-filled.pdf) |  
 | ![senAlCarretera-filled](icn_export/Masa/senAlCarretera-filled.svg) | `senAlCarretera-filled`  |  [.svg](icn_export/Masa/senAlCarretera-filled.svg) | [.pdf](icn_export/Masa/senAlCarretera-filled.pdf) |  
+| ![tickets-filled](icn_export/Masa/tickets-filled.svg) | `tickets-filled`  |  [.svg](icn_export/Masa/tickets-filled.svg) | [.pdf](icn_export/Masa/tickets-filled.pdf) |  
 | ![car-moving-filled](icn_export/Masa/car-moving-filled.svg) | `car-moving-filled`  |  [.svg](icn_export/Masa/car-moving-filled.svg) | [.pdf](icn_export/Masa/car-moving-filled.pdf) |  
 | ![settings-filled](icn_export/Masa/settings-filled.svg) | `settings-filled`  |  [.svg](icn_export/Masa/settings-filled.svg) | [.pdf](icn_export/Masa/settings-filled.pdf) |  
 | ![lanzar-filled](icn_export/Masa/lanzar-filled.svg) | `lanzar-filled`  |  [.svg](icn_export/Masa/lanzar-filled.svg) | [.pdf](icn_export/Masa/lanzar-filled.pdf) |  
@@ -242,6 +238,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![formacion-filled_](icn_export/Masa/formacion-filled_.svg) | `formacion-filled_`  |  [.svg](icn_export/Masa/formacion-filled_.svg) | [.pdf](icn_export/Masa/formacion-filled_.pdf) |  
 | ![lengua-filled](icn_export/Masa/lengua-filled.svg) | `lengua-filled`  |  [.svg](icn_export/Masa/lengua-filled.svg) | [.pdf](icn_export/Masa/lengua-filled.pdf) |  
 | ![calendar-filled](icn_export/Masa/calendar-filled.svg) | `calendar-filled`  |  [.svg](icn_export/Masa/calendar-filled.svg) | [.pdf](icn_export/Masa/calendar-filled.pdf) |  
+| ![balonDeporte-filled](icn_export/Masa/balonDeporte-filled.svg) | `balonDeporte-filled`  |  [.svg](icn_export/Masa/balonDeporte-filled.svg) | [.pdf](icn_export/Masa/balonDeporte-filled.pdf) |  
 | ![listaDeProyectos-filled](icn_export/Masa/listaDeProyectos-filled.svg) | `listaDeProyectos-filled`  |  [.svg](icn_export/Masa/listaDeProyectos-filled.svg) | [.pdf](icn_export/Masa/listaDeProyectos-filled.pdf) |  
 | ![puzzle-filled](icn_export/Masa/puzzle-filled.svg) | `puzzle-filled`  |  [.svg](icn_export/Masa/puzzle-filled.svg) | [.pdf](icn_export/Masa/puzzle-filled.pdf) |  
 | ![file-encrypted-filled](icn_export/Masa/file-encrypted-filled.svg) | `file-encrypted-filled`  |  [.svg](icn_export/Masa/file-encrypted-filled.svg) | [.pdf](icn_export/Masa/file-encrypted-filled.pdf) |  
@@ -253,6 +250,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![search-file-filled](icn_export/Masa/search-file-filled.svg) | `search-file-filled`  |  [.svg](icn_export/Masa/search-file-filled.svg) | [.pdf](icn_export/Masa/search-file-filled.pdf) |  
 | ![file-pdf-filled](icn_export/Masa/file-pdf-filled.svg) | `file-pdf-filled`  |  [.svg](icn_export/Masa/file-pdf-filled.svg) | [.pdf](icn_export/Masa/file-pdf-filled.pdf) |  
 | ![database-filled](icn_export/Masa/database-filled.svg) | `database-filled`  |  [.svg](icn_export/Masa/database-filled.svg) | [.pdf](icn_export/Masa/database-filled.pdf) |  
+| ![emergency-cross-with-circle-filled](icn_export/Masa/emergency-cross-with-circle-filled.svg) | `emergency-cross-with-circle-filled`  |  [.svg](icn_export/Masa/emergency-cross-with-circle-filled.svg) | [.pdf](icn_export/Masa/emergency-cross-with-circle-filled.pdf) |  
 | ![configure-tv-decoder-filled](icn_export/Masa/configure-tv-decoder-filled.svg) | `configure-tv-decoder-filled`  |  [.svg](icn_export/Masa/configure-tv-decoder-filled.svg) | [.pdf](icn_export/Masa/configure-tv-decoder-filled.pdf) |  
 | ![cancelar-filled](icn_export/Masa/cancelar-filled.svg) | `cancelar-filled`  |  [.svg](icn_export/Masa/cancelar-filled.svg) | [.pdf](icn_export/Masa/cancelar-filled.pdf) |  
 | ![multicontenido-filled](icn_export/Masa/multicontenido-filled.svg) | `multicontenido-filled`  |  [.svg](icn_export/Masa/multicontenido-filled.svg) | [.pdf](icn_export/Masa/multicontenido-filled.pdf) |  
@@ -261,13 +259,14 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![click-to-call-filled](icn_export/Masa/click-to-call-filled.svg) | `click-to-call-filled`  |  [.svg](icn_export/Masa/click-to-call-filled.svg) | [.pdf](icn_export/Masa/click-to-call-filled.pdf) |  
 | ![open-email-filled](icn_export/Masa/open-email-filled.svg) | `open-email-filled`  |  [.svg](icn_export/Masa/open-email-filled.svg) | [.pdf](icn_export/Masa/open-email-filled.pdf) |  
 | ![promocionesOfertas-filled](icn_export/Masa/promocionesOfertas-filled.svg) | `promocionesOfertas-filled`  |  [.svg](icn_export/Masa/promocionesOfertas-filled.svg) | [.pdf](icn_export/Masa/promocionesOfertas-filled.pdf) |  
-| ![buy-devices-filled](icn_export/Masa/buy-devices-filled.svg) | `buy-devices-filled`  |  [.svg](icn_export/Masa/buy-devices-filled.svg) | [.pdf](icn_export/Masa/buy-devices-filled.pdf) |  
+| ![file-error-filled](icn_export/Masa/file-error-filled.svg) | `file-error-filled`  |  [.svg](icn_export/Masa/file-error-filled.svg) | [.pdf](icn_export/Masa/file-error-filled.pdf) |  
 | ![plane-filled](icn_export/Masa/plane-filled.svg) | `plane-filled`  |  [.svg](icn_export/Masa/plane-filled.svg) | [.pdf](icn_export/Masa/plane-filled.pdf) |  
 | ![ambulance-filled](icn_export/Masa/ambulance-filled.svg) | `ambulance-filled`  |  [.svg](icn_export/Masa/ambulance-filled.svg) | [.pdf](icn_export/Masa/ambulance-filled.pdf) |  
 | ![urgenciaUrgenteSirenta_-filled](icn_export/Masa/urgenciaUrgenteSirenta_-filled.svg) | `urgenciaUrgenteSirenta_-filled`  |  [.svg](icn_export/Masa/urgenciaUrgenteSirenta_-filled.svg) | [.pdf](icn_export/Masa/urgenciaUrgenteSirenta_-filled.pdf) |  
 | ![recargaOnline-filled](icn_export/Masa/recargaOnline-filled.svg) | `recargaOnline-filled`  |  [.svg](icn_export/Masa/recargaOnline-filled.svg) | [.pdf](icn_export/Masa/recargaOnline-filled.pdf) |  
 | ![hospital-filled](icn_export/Masa/hospital-filled.svg) | `hospital-filled`  |  [.svg](icn_export/Masa/hospital-filled.svg) | [.pdf](icn_export/Masa/hospital-filled.pdf) |  
 | ![noMeGustaDislike-filled](icn_export/Masa/noMeGustaDislike-filled.svg) | `noMeGustaDislike-filled`  |  [.svg](icn_export/Masa/noMeGustaDislike-filled.svg) | [.pdf](icn_export/Masa/noMeGustaDislike-filled.pdf) |  
+| ![eco-filled](icn_export/Masa/eco-filled.svg) | `eco-filled`  |  [.svg](icn_export/Masa/eco-filled.svg) | [.pdf](icn_export/Masa/eco-filled.pdf) |  
 | ![tantoPorCiento-filled](icn_export/Masa/tantoPorCiento-filled.svg) | `tantoPorCiento-filled`  |  [.svg](icn_export/Masa/tantoPorCiento-filled.svg) | [.pdf](icn_export/Masa/tantoPorCiento-filled.pdf) |  
 | ![virus-scan-filled](icn_export/Masa/virus-scan-filled.svg) | `virus-scan-filled`  |  [.svg](icn_export/Masa/virus-scan-filled.svg) | [.pdf](icn_export/Masa/virus-scan-filled.pdf) |  
 | ![file-comp-3ressed-filled](icn_export/Masa/file-comp-3ressed-filled.svg) | `file-comp-3ressed-filled`  |  [.svg](icn_export/Masa/file-comp-3ressed-filled.svg) | [.pdf](icn_export/Masa/file-comp-3ressed-filled.pdf) |  
@@ -283,6 +282,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![maletasCarro-filled](icn_export/Masa/maletasCarro-filled.svg) | `maletasCarro-filled`  |  [.svg](icn_export/Masa/maletasCarro-filled.svg) | [.pdf](icn_export/Masa/maletasCarro-filled.pdf) |  
 | ![bicycle-bike-filled](icn_export/Masa/bicycle-bike-filled.svg) | `bicycle-bike-filled`  |  [.svg](icn_export/Masa/bicycle-bike-filled.svg) | [.pdf](icn_export/Masa/bicycle-bike-filled.pdf) |  
 | ![add-more-circle-filled](icn_export/Masa/add-more-circle-filled.svg) | `add-more-circle-filled`  |  [.svg](icn_export/Masa/add-more-circle-filled.svg) | [.pdf](icn_export/Masa/add-more-circle-filled.pdf) |  
+| ![delivery-van-moving-filled](icn_export/Masa/delivery-van-moving-filled.svg) | `delivery-van-moving-filled`  |  [.svg](icn_export/Masa/delivery-van-moving-filled.svg) | [.pdf](icn_export/Masa/delivery-van-moving-filled.pdf) |  
 | ![prepago-filled](icn_export/Masa/prepago-filled.svg) | `prepago-filled`  |  [.svg](icn_export/Masa/prepago-filled.svg) | [.pdf](icn_export/Masa/prepago-filled.pdf) |  
 | ![regalo-filled](icn_export/Masa/regalo-filled.svg) | `regalo-filled`  |  [.svg](icn_export/Masa/regalo-filled.svg) | [.pdf](icn_export/Masa/regalo-filled.pdf) |  
 | ![internetPendrive-filled](icn_export/Masa/internetPendrive-filled.svg) | `internetPendrive-filled`  |  [.svg](icn_export/Masa/internetPendrive-filled.svg) | [.pdf](icn_export/Masa/internetPendrive-filled.pdf) |  
@@ -294,7 +294,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![search-cloud-filled](icn_export/Masa/search-cloud-filled.svg) | `search-cloud-filled`  |  [.svg](icn_export/Masa/search-cloud-filled.svg) | [.pdf](icn_export/Masa/search-cloud-filled.pdf) |  
 | ![flechaDesplegableArriba_M](icn_export/Masa/flechaDesplegableArriba_M.svg) | `flechaDesplegableArriba_M`  |  [.svg](icn_export/Masa/flechaDesplegableArriba_M.svg) | [.pdf](icn_export/Masa/flechaDesplegableArriba_M.pdf) |  
 | ![facturaPlanDocumento-filled](icn_export/Masa/facturaPlanDocumento-filled.svg) | `facturaPlanDocumento-filled`  |  [.svg](icn_export/Masa/facturaPlanDocumento-filled.svg) | [.pdf](icn_export/Masa/facturaPlanDocumento-filled.pdf) |  
-| ![balonDeporte-filled](icn_export/Masa/balonDeporte-filled.svg) | `balonDeporte-filled`  |  [.svg](icn_export/Masa/balonDeporte-filled.svg) | [.pdf](icn_export/Masa/balonDeporte-filled.pdf) |  
+| ![emergency-cross-filled](icn_export/Masa/emergency-cross-filled.svg) | `emergency-cross-filled`  |  [.svg](icn_export/Masa/emergency-cross-filled.svg) | [.pdf](icn_export/Masa/emergency-cross-filled.pdf) |  
 | ![boat-filled](icn_export/Masa/boat-filled.svg) | `boat-filled`  |  [.svg](icn_export/Masa/boat-filled.svg) | [.pdf](icn_export/Masa/boat-filled.pdf) |  
 | ![servidorCloud-filled](icn_export/Masa/servidorCloud-filled.svg) | `servidorCloud-filled`  |  [.svg](icn_export/Masa/servidorCloud-filled.svg) | [.pdf](icn_export/Masa/servidorCloud-filled.pdf) |  
 | ![buy-home-products-filled](icn_export/Masa/buy-home-products-filled.svg) | `buy-home-products-filled`  |  [.svg](icn_export/Masa/buy-home-products-filled.svg) | [.pdf](icn_export/Masa/buy-home-products-filled.pdf) |  
@@ -338,12 +338,12 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![search-filled](icn_export/Masa/search-filled.svg) | `search-filled`  |  [.svg](icn_export/Masa/search-filled.svg) | [.pdf](icn_export/Masa/search-filled.pdf) |  
 | ![historialMedico-filled](icn_export/Masa/historialMedico-filled.svg) | `historialMedico-filled`  |  [.svg](icn_export/Masa/historialMedico-filled.svg) | [.pdf](icn_export/Masa/historialMedico-filled.pdf) |  
 | ![supermercado-filled](icn_export/Masa/supermercado-filled.svg) | `supermercado-filled`  |  [.svg](icn_export/Masa/supermercado-filled.svg) | [.pdf](icn_export/Masa/supermercado-filled.pdf) |  
-| ![ecoloGico-filled](icn_export/Masa/ecoloGico-filled.svg) | `ecoloGico-filled`  |  [.svg](icn_export/Masa/ecoloGico-filled.svg) | [.pdf](icn_export/Masa/ecoloGico-filled.pdf) |  
 | ![play-filled](icn_export/Masa/play-filled.svg) | `play-filled`  |  [.svg](icn_export/Masa/play-filled.svg) | [.pdf](icn_export/Masa/play-filled.pdf) |  
 | ![shopping-cart-filled](icn_export/Masa/shopping-cart-filled.svg) | `shopping-cart-filled`  |  [.svg](icn_export/Masa/shopping-cart-filled.svg) | [.pdf](icn_export/Masa/shopping-cart-filled.pdf) |  
 | ![fireware-filled](icn_export/Masa/fireware-filled.svg) | `fireware-filled`  |  [.svg](icn_export/Masa/fireware-filled.svg) | [.pdf](icn_export/Masa/fireware-filled.pdf) |  
 | ![familia-filled](icn_export/Masa/familia-filled.svg) | `familia-filled`  |  [.svg](icn_export/Masa/familia-filled.svg) | [.pdf](icn_export/Masa/familia-filled.pdf) |  
 | ![ofertaOnline-filled](icn_export/Masa/ofertaOnline-filled.svg) | `ofertaOnline-filled`  |  [.svg](icn_export/Masa/ofertaOnline-filled.svg) | [.pdf](icn_export/Masa/ofertaOnline-filled.pdf) |  
+| ![electrocardiogram-filled](icn_export/Masa/electrocardiogram-filled.svg) | `electrocardiogram-filled`  |  [.svg](icn_export/Masa/electrocardiogram-filled.svg) | [.pdf](icn_export/Masa/electrocardiogram-filled.pdf) |  
 | ![data-shield-filled](icn_export/Masa/data-shield-filled.svg) | `data-shield-filled`  |  [.svg](icn_export/Masa/data-shield-filled.svg) | [.pdf](icn_export/Masa/data-shield-filled.pdf) |  
 | ![data-settings-filled](icn_export/Masa/data-settings-filled.svg) | `data-settings-filled`  |  [.svg](icn_export/Masa/data-settings-filled.svg) | [.pdf](icn_export/Masa/data-settings-filled.pdf) |  
 | ![perfume-filled](icn_export/Masa/perfume-filled.svg) | `perfume-filled`  |  [.svg](icn_export/Masa/perfume-filled.svg) | [.pdf](icn_export/Masa/perfume-filled.pdf) |  
@@ -367,7 +367,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![visaTarjetaCredito-filled](icn_export/Masa/visaTarjetaCredito-filled.svg) | `visaTarjetaCredito-filled`  |  [.svg](icn_export/Masa/visaTarjetaCredito-filled.svg) | [.pdf](icn_export/Masa/visaTarjetaCredito-filled.pdf) |  
 | ![price-drop-filled](icn_export/Masa/price-drop-filled.svg) | `price-drop-filled`  |  [.svg](icn_export/Masa/price-drop-filled.svg) | [.pdf](icn_export/Masa/price-drop-filled.pdf) |  
 | ![folder-encrypted-filled](icn_export/Masa/folder-encrypted-filled.svg) | `folder-encrypted-filled`  |  [.svg](icn_export/Masa/folder-encrypted-filled.svg) | [.pdf](icn_export/Masa/folder-encrypted-filled.pdf) |  
-| ![edificioCasa-filled](icn_export/Masa/edificioCasa-filled.svg) | `edificioCasa-filled`  |  [.svg](icn_export/Masa/edificioCasa-filled.svg) | [.pdf](icn_export/Masa/edificioCasa-filled.pdf) |  
+| ![file-sketch-filled](icn_export/Masa/file-sketch-filled.svg) | `file-sketch-filled`  |  [.svg](icn_export/Masa/file-sketch-filled.svg) | [.pdf](icn_export/Masa/file-sketch-filled.pdf) |  
 | ![foro-filled](icn_export/Masa/foro-filled.svg) | `foro-filled`  |  [.svg](icn_export/Masa/foro-filled.svg) | [.pdf](icn_export/Masa/foro-filled.pdf) |  
 | ![valoracion-filled](icn_export/Masa/valoracion-filled.svg) | `valoracion-filled`  |  [.svg](icn_export/Masa/valoracion-filled.svg) | [.pdf](icn_export/Masa/valoracion-filled.pdf) |  
 | ![vasoBarBeber-filled](icn_export/Masa/vasoBarBeber-filled.svg) | `vasoBarBeber-filled`  |  [.svg](icn_export/Masa/vasoBarBeber-filled.svg) | [.pdf](icn_export/Masa/vasoBarBeber-filled.pdf) |  
