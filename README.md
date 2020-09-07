@@ -160,7 +160,6 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![millenials_Light](icn_export/1.Light/millenials_Light.svg) | `millenials_Light`  |  [.svg](icn_export/1.Light/millenials_Light.svg) | [.pdf](icn_export/1.Light/millenials_Light.pdf) |  
 | ![escudoOkSeguridadOk_Masa](icn_export/3.Masa/escudoOkSeguridadOk_Masa.svg) | `escudoOkSeguridadOk_Masa`  |  [.svg](icn_export/3.Masa/escudoOkSeguridadOk_Masa.svg) | [.pdf](icn_export/3.Masa/escudoOkSeguridadOk_Masa.pdf) |  
 | ![edificioCasa_Light](icn_export/1.Light/edificioCasa_Light.svg) | `edificioCasa_Light`  |  [.svg](icn_export/1.Light/edificioCasa_Light.svg) | [.pdf](icn_export/1.Light/edificioCasa_Light.pdf) |  
-| ![ubicacion_Regular](icn_export/2.Regular/ubicacion_Regular.svg) | `ubicacion_Regular`  |  [.svg](icn_export/2.Regular/ubicacion_Regular.svg) | [.pdf](icn_export/2.Regular/ubicacion_Regular.pdf) |  
 | ![maletasCarro_Masa](icn_export/3.Masa/maletasCarro_Masa.svg) | `maletasCarro_Masa`  |  [.svg](icn_export/3.Masa/maletasCarro_Masa.svg) | [.pdf](icn_export/3.Masa/maletasCarro_Masa.pdf) |  
 | ![portabilidad_Regular_1](icn_export/2.Regular/portabilidad_Regular_1.svg) | `portabilidad_Regular_1`  |  [.svg](icn_export/2.Regular/portabilidad_Regular_1.svg) | [.pdf](icn_export/2.Regular/portabilidad_Regular_1.pdf) |  
 | ![servicioTecnicoTv_Regular](icn_export/2.Regular/servicioTecnicoTv_Regular.svg) | `servicioTecnicoTv_Regular`  |  [.svg](icn_export/2.Regular/servicioTecnicoTv_Regular.svg) | [.pdf](icn_export/2.Regular/servicioTecnicoTv_Regular.pdf) |  
@@ -384,7 +383,6 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![1EuroMoneda_Light](icn_export/1.Light/1EuroMoneda_Light.svg) | `1EuroMoneda_Light`  |  [.svg](icn_export/1.Light/1EuroMoneda_Light.svg) | [.pdf](icn_export/1.Light/1EuroMoneda_Light.pdf) |  
 | ![dataSettings_Masa](icn_export/3.Masa/dataSettings_Masa.svg) | `dataSettings_Masa`  |  [.svg](icn_export/3.Masa/dataSettings_Masa.svg) | [.pdf](icn_export/3.Masa/dataSettings_Masa.pdf) |  
 | ![play_Regular](icn_export/2.Regular/play_Regular.svg) | `play_Regular`  |  [.svg](icn_export/2.Regular/play_Regular.svg) | [.pdf](icn_export/2.Regular/play_Regular.pdf) |  
-| ![alerta_Regular](icn_export/2.Regular/alerta_Regular.svg) | `alerta_Regular`  |  [.svg](icn_export/2.Regular/alerta_Regular.svg) | [.pdf](icn_export/2.Regular/alerta_Regular.pdf) |  
 | ![estomago_Masa](icn_export/3.Masa/estomago_Masa.svg) | `estomago_Masa`  |  [.svg](icn_export/3.Masa/estomago_Masa.svg) | [.pdf](icn_export/3.Masa/estomago_Masa.pdf) |  
 | ![documentoArchivoPdf_Regular](icn_export/2.Regular/documentoArchivoPdf_Regular.svg) | `documentoArchivoPdf_Regular`  |  [.svg](icn_export/2.Regular/documentoArchivoPdf_Regular.svg) | [.pdf](icn_export/2.Regular/documentoArchivoPdf_Regular.pdf) |  
 | ![dineroPagarCobroSaldo_Regular](icn_export/2.Regular/dineroPagarCobroSaldo_Regular.svg) | `dineroPagarCobroSaldo_Regular`  |  [.svg](icn_export/2.Regular/dineroPagarCobroSaldo_Regular.svg) | [.pdf](icn_export/2.Regular/dineroPagarCobroSaldo_Regular.pdf) |  
@@ -571,7 +569,6 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![escudoAntivirus_Light](icn_export/1.Light/escudoAntivirus_Light.svg) | `escudoAntivirus_Light`  |  [.svg](icn_export/1.Light/escudoAntivirus_Light.svg) | [.pdf](icn_export/1.Light/escudoAntivirus_Light.pdf) |  
 | ![1AiInteligenciaArtificial_Regular](icn_export/2.Regular/1AiInteligenciaArtificial_Regular.svg) | `1AiInteligenciaArtificial_Regular`  |  [.svg](icn_export/2.Regular/1AiInteligenciaArtificial_Regular.svg) | [.pdf](icn_export/2.Regular/1AiInteligenciaArtificial_Regular.pdf) |  
 | ![kit_Light](icn_export/1.Light/kit_Light.svg) | `kit_Light`  |  [.svg](icn_export/1.Light/kit_Light.svg) | [.pdf](icn_export/1.Light/kit_Light.pdf) |  
-| ![seguridad_Regular](icn_export/2.Regular/seguridad_Regular.svg) | `seguridad_Regular`  |  [.svg](icn_export/2.Regular/seguridad_Regular.svg) | [.pdf](icn_export/2.Regular/seguridad_Regular.pdf) |  
 | ![flotadorSocorristaPiscina_Light](icn_export/1.Light/flotadorSocorristaPiscina_Light.svg) | `flotadorSocorristaPiscina_Light`  |  [.svg](icn_export/1.Light/flotadorSocorristaPiscina_Light.svg) | [.pdf](icn_export/1.Light/flotadorSocorristaPiscina_Light.pdf) |  
 | ![anAdirAlarma_Light](icn_export/1.Light/anAdirAlarma_Light.svg) | `anAdirAlarma_Light`  |  [.svg](icn_export/1.Light/anAdirAlarma_Light.svg) | [.pdf](icn_export/1.Light/anAdirAlarma_Light.pdf) |  
 | ![enchufe_Light](icn_export/1.Light/enchufe_Light.svg) | `enchufe_Light`  |  [.svg](icn_export/1.Light/enchufe_Light.svg) | [.pdf](icn_export/1.Light/enchufe_Light.pdf) |  
