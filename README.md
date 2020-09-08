@@ -2,15 +2,15 @@
 ### What is this?
 This is the repo that contains all icons that is working in [Mistica Design Libraries](https://github.com/Telefonica/mistica-design-libraries) now.
 The icons that there is here are **the only source of true** from the design team in icons.
-If you have any question, please you can ask directly in the Team  [#Mistica](https://teams.microsoft.com/l/team/19%3ad2e3607a32ec411b8bf492f43cd0fe0c%40thread.tacv2/conversations?groupId=e265fe99-929f-45d1-8154-699649674a40&tenantId=9744600e-3e04-492e-baa1-25ec245c6f10) inside of MicrosoftTeam.
+If you have any question, please you can ask directly in the Slack channel [#designsystem](https://tuentitu.slack.com/archives/CH3B76BDW)
 ### Documentation
-You can find more information and how to use this repo in the [Wiki](#) —WIP—.
+You can find more information and how to use this repo in the [Wiki](https://github.com/Telefonica/mistica-icons/wiki).
 ### Search in the repo
 The best way to search in this repo is using your browser's search engine (CMD + F):
 ![Image of search engine](https://github.com/Telefonica/mistica-icons/blob/production/_resources/_imgs_github/github_img_1.png?raw=true)
 # Icons 
-| Icon | name | SVG | PDF 
-| :-: | :- | :-: | :-: 
+| Icon | name | SVG | PDF | | | | | |
+| :-: | :- | :-: | :-: | - | :-: | :- | :-: | :-: |
 | ![cooking-regular](icn_export/Regular/cooking-regular.svg) | `cooking-regular`  |  [.svg](icn_export/Regular/cooking-regular.svg) | [.pdf](icn_export/Regular/cooking-regular.pdf) |  
 | ![shield-antivirus-filled](icn_export/Filled/shield-antivirus-filled.svg) | `shield-antivirus-filled`  |  [.svg](icn_export/Filled/shield-antivirus-filled.svg) | [.pdf](icn_export/Filled/shield-antivirus-filled.pdf) |  
 | ![arrow-down-left-filled](icn_export/Filled/arrow-down-left-filled.svg) | `arrow-down-left-filled`  |  [.svg](icn_export/Filled/arrow-down-left-filled.svg) | [.pdf](icn_export/Filled/arrow-down-left-filled.pdf) |  
@@ -795,7 +795,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![supermarket-light](icn_export/Light/supermarket-light.svg) | `supermarket-light`  |  [.svg](icn_export/Light/supermarket-light.svg) | [.pdf](icn_export/Light/supermarket-light.pdf) |  
 | ![car-with-clock-light](icn_export/Light/car-with-clock-light.svg) | `car-with-clock-light`  |  [.svg](icn_export/Light/car-with-clock-light.svg) | [.pdf](icn_export/Light/car-with-clock-light.pdf) |  
 | ![device-filled](icn_export/Filled/device-filled.svg) | `device-filled`  |  [.svg](icn_export/Filled/device-filled.svg) | [.pdf](icn_export/Filled/device-filled.pdf) |  
-| ![rewind-filled](icn_export/3.Filled/rewind-filled.svg) | `rewind-filled`  |  [.svg](icn_export/3.Filled/rewind-filled.svg) | [.pdf](icn_export/3.Filled/rewind-filled.pdf) |  
+| ![rewind-filled](icn_export/Filled/rewind-filled.svg) | `rewind-filled`  |  [.svg](icn_export/Filled/rewind-filled.svg) | [.pdf](icn_export/Filled/rewind-filled.pdf) |  
 | ![pendrive-regular](icn_export/Regular/pendrive-regular.svg) | `pendrive-regular`  |  [.svg](icn_export/Regular/pendrive-regular.svg) | [.pdf](icn_export/Regular/pendrive-regular.pdf) |  
 | ![document-other-filled](icn_export/Filled/document-other-filled.svg) | `document-other-filled`  |  [.svg](icn_export/Filled/document-other-filled.svg) | [.pdf](icn_export/Filled/document-other-filled.pdf) |  
 | ![ambulance-filled](icn_export/Filled/ambulance-filled.svg) | `ambulance-filled`  |  [.svg](icn_export/Filled/ambulance-filled.svg) | [.pdf](icn_export/Filled/ambulance-filled.pdf) |  
