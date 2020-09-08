@@ -2,14 +2,14 @@
 ### What is this?
 This is the repo that contains all icons that is working in [Mistica Design Libraries](https://github.com/Telefonica/mistica-design-libraries) now.
 The icons that there is here are **the only source of true** from the design team in icons.
-If you have any question, please you can ask directly in the Team  [#Mistica](https://teams.microsoft.com/l/team/19%3ad2e3607a32ec411b8bf492f43cd0fe0c%40thread.tacv2/conversations?groupId=e265fe99-929f-45d1-8154-699649674a40&tenantId=9744600e-3e04-492e-baa1-25ec245c6f10)inside of MicrosoftTeam
+If you have any question, please you can ask directly in the Team  [#Mistica](https://teams.microsoft.com/l/team/19%3ad2e3607a32ec411b8bf492f43cd0fe0c%40thread.tacv2/conversations?groupId=e265fe99-929f-45d1-8154-699649674a40&tenantId=9744600e-3e04-492e-baa1-25ec245c6f10) inside of MicrosoftTeam.
 ### Documentation
 You can find more information and how to use this repo in the [Wiki](#) —WIP—.
 ### Search in the repo
 The best way to search in this repo is using your browser's search engine (CMD + F):
 ![Image of search engine](https://github.com/Telefonica/mistica-icons/blob/production/_resources/_imgs_github/github_img_1.png?raw=true)
 # Icons 
-| Icon | name | SVG | PDF | | | | | |
+| Icon | name | SVG | PDF |
 | :-: | :- | :-: | :-: | - | :-: | :- | :-: | :-: |
 | ![cooking-regular](icn_export/Regular/cooking-regular.svg) | `cooking-regular`  |  [.svg](icn_export/Regular/cooking-regular.svg) | [.pdf](icn_export/Regular/cooking-regular.pdf) |  
 | ![shield-antivirus-filled](icn_export/Filled/shield-antivirus-filled.svg) | `shield-antivirus-filled`  |  [.svg](icn_export/Filled/shield-antivirus-filled.svg) | [.pdf](icn_export/Filled/shield-antivirus-filled.pdf) |  
