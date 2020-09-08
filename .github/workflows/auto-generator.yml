@@ -7,6 +7,8 @@ name: Readme Generator
 on:
   workflow_run:
     workflows: ["SketchTool Export Assets"]
+    branches:
+      - production
     types: 
       - completed
 

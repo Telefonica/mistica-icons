@@ -2,8 +2,9 @@ name: Cloning icn_export to mistica-icon-web
 
 on: 
   workflow_run:
-    workflows: ["Readme Generator"]
-    branches: [production]
+    workflows: ["SketchTool Export Assets"]
+    branches:
+      - production
     types: 
       - completed
 
