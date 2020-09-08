@@ -959,7 +959,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![bicycle-bike-regular](icn_export/Regular/bicycle-bike-regular.svg) | `bicycle-bike-regular`  |  [.svg](icn_export/Regular/bicycle-bike-regular.svg) | [.pdf](icn_export/Regular/bicycle-bike-regular.pdf) |  
 | ![invoice-digital-filled](icn_export/Filled/invoice-digital-filled.svg) | `invoice-digital-filled`  |  [.svg](icn_export/Filled/invoice-digital-filled.svg) | [.pdf](icn_export/Filled/invoice-digital-filled.pdf) |  
 | ![trophy-light](icn_export/Light/trophy-light.svg) | `trophy-light`  |  [.svg](icn_export/Light/trophy-light.svg) | [.pdf](icn_export/Light/trophy-light.pdf) |  
-| ![arrow-drop-up-filled](icn_export/3.Filled/arrow-drop-up-filled.svg) | `arrow-drop-up-filled`  |  [.svg](icn_export/3.Filled/arrow-drop-up-filled.svg) | [.pdf](icn_export/3.Filled/arrow-drop-up-filled.pdf) |  
+| ![arrow-drop-up-filled](icn_export/Filled/arrow-drop-up-filled.svg) | `arrow-drop-up-filled`  |  [.svg](icn_export/Filled/arrow-drop-up-filled.svg) | [.pdf](icn_export/Filled/arrow-drop-up-filled.pdf) |  
 | ![call-center-user-support-filled](icn_export/Filled/call-center-user-support-filled.svg) | `call-center-user-support-filled`  |  [.svg](icn_export/Filled/call-center-user-support-filled.svg) | [.pdf](icn_export/Filled/call-center-user-support-filled.pdf) |  
 | ![arrow-up-left-light](icn_export/Light/arrow-up-left-light.svg) | `arrow-up-left-light`  |  [.svg](icn_export/Light/arrow-up-left-light.svg) | [.pdf](icn_export/Light/arrow-up-left-light.pdf) |  
 | ![email-virus-filled](icn_export/Filled/email-virus-filled.svg) | `email-virus-filled`  |  [.svg](icn_export/Filled/email-virus-filled.svg) | [.pdf](icn_export/Filled/email-virus-filled.pdf) |  
