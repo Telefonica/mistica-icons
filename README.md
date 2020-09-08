@@ -9,8 +9,8 @@ You can find more information and how to use this repo in the [Wiki](#) â€”WIPâ€
 The best way to search in this repo is using your browser's search engine (CMD + F):
 ![Image of search engine](https://github.com/Telefonica/mistica-icons/blob/production/_resources/_imgs_github/github_img_1.png?raw=true)
 # Icons 
-| Icon | name | SVG | PDF |
-| :-: | :- | :-: | :-: | - | :-: | :- | :-: | :-: |
+| Icon | name | SVG | PDF 
+| :-: | :- | :-: | :-: 
 | ![cooking-regular](icn_export/Regular/cooking-regular.svg) | `cooking-regular`  |  [.svg](icn_export/Regular/cooking-regular.svg) | [.pdf](icn_export/Regular/cooking-regular.pdf) |  
 | ![shield-antivirus-filled](icn_export/Filled/shield-antivirus-filled.svg) | `shield-antivirus-filled`  |  [.svg](icn_export/Filled/shield-antivirus-filled.svg) | [.pdf](icn_export/Filled/shield-antivirus-filled.pdf) |  
 | ![arrow-down-left-filled](icn_export/Filled/arrow-down-left-filled.svg) | `arrow-down-left-filled`  |  [.svg](icn_export/Filled/arrow-down-left-filled.svg) | [.pdf](icn_export/Filled/arrow-down-left-filled.pdf) |  
