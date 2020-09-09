@@ -2,15 +2,10 @@
 ### What is this?
 This is the repo that contains all icons that is working in [Mistica Design Libraries](https://github.com/Telefonica/mistica-design-libraries) now.
 The icons that there is here are **the only source of true** from the design team in icons.
-If you have any question, please you can ask directly in the Slack channel [#designsystem](https://tuentitu.slack.com/archives/CH3B76BDW)
-### Documentation
-You can find more information and how to use this repo in the [Wiki](https://github.com/Telefonica/mistica-icons/wiki).
-### Search in the repo
-The best way to search in this repo is using your browser's search engine (CMD + F):
-![Image of search engine](https://github.com/Telefonica/mistica-icons/blob/production/_resources/_imgs_github/github_img_1.png?raw=true)
+If you have any question, please you can ask directly in the app of Microsoft Teams, in [Mistica Team](https://teams.microsoft.com/l/team/19%3ad2e3607a32ec411b8bf492f43cd0fe0c%40thread.tacv2/conversations?groupId=e265fe99-929f-45d1-8154-699649674a40&tenantId=9744600e-3e04-492e-baa1-25ec245c6f10)
 # Icons 
-| Icon | name | SVG | PDF | | | | | |
-| :-: | :- | :-: | :-: | - | :-: | :- | :-: | :-: |
+| Icon | name | SVG | PDF |
+| :-: | :- | :-: | :-: |
 | ![cooking-regular](icn_export/Regular/cooking-regular.svg) | `cooking-regular`  |  [.svg](icn_export/Regular/cooking-regular.svg) | [.pdf](icn_export/Regular/cooking-regular.pdf) |  
 | ![shield-antivirus-filled](icn_export/Filled/shield-antivirus-filled.svg) | `shield-antivirus-filled`  |  [.svg](icn_export/Filled/shield-antivirus-filled.svg) | [.pdf](icn_export/Filled/shield-antivirus-filled.pdf) |  
 | ![arrow-down-left-filled](icn_export/Filled/arrow-down-left-filled.svg) | `arrow-down-left-filled`  |  [.svg](icn_export/Filled/arrow-down-left-filled.svg) | [.pdf](icn_export/Filled/arrow-down-left-filled.pdf) |  
@@ -895,6 +890,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![umbrella-light](icn_export/Light/umbrella-light.svg) | `umbrella-light`  |  [.svg](icn_export/Light/umbrella-light.svg) | [.pdf](icn_export/Light/umbrella-light.pdf) |  
 | ![open-file-regular](icn_export/Regular/open-file-regular.svg) | `open-file-regular`  |  [.svg](icn_export/Regular/open-file-regular.svg) | [.pdf](icn_export/Regular/open-file-regular.pdf) |  
 | ![rating-regular](icn_export/Regular/rating-regular.svg) | `rating-regular`  |  [.svg](icn_export/Regular/rating-regular.svg) | [.pdf](icn_export/Regular/rating-regular.pdf) |  
+| ![data-alert-regular](icn_export/Regular/data-alert-regular.svg) | `data-alert-regular`  |  [.svg](icn_export/Regular/data-alert-regular.svg) | [.pdf](icn_export/Regular/data-alert-regular.pdf) |  
 | ![tow-truck-regular](icn_export/Regular/tow-truck-regular.svg) | `tow-truck-regular`  |  [.svg](icn_export/Regular/tow-truck-regular.svg) | [.pdf](icn_export/Regular/tow-truck-regular.pdf) |  
 | ![gift-light](icn_export/Light/gift-light.svg) | `gift-light`  |  [.svg](icn_export/Light/gift-light.svg) | [.pdf](icn_export/Light/gift-light.pdf) |  
 | ![file-avi-light](icn_export/Light/file-avi-light.svg) | `file-avi-light`  |  [.svg](icn_export/Light/file-avi-light.svg) | [.pdf](icn_export/Light/file-avi-light.pdf) |  
@@ -1089,7 +1085,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![like-regular](icn_export/Regular/like-regular.svg) | `like-regular`  |  [.svg](icn_export/Regular/like-regular.svg) | [.pdf](icn_export/Regular/like-regular.pdf) |  
 | ![parking-regular](icn_export/Regular/parking-regular.svg) | `parking-regular`  |  [.svg](icn_export/Regular/parking-regular.svg) | [.pdf](icn_export/Regular/parking-regular.pdf) |  
 | ![file-css-filled](icn_export/Filled/file-css-filled.svg) | `file-css-filled`  |  [.svg](icn_export/Filled/file-css-filled.svg) | [.pdf](icn_export/Filled/file-css-filled.pdf) |  
-| ![data-alert-regular](icn_export/Regular/data-alert-regular.svg) | `data-alert-regular`  |  [.svg](icn_export/Regular/data-alert-regular.svg) | [.pdf](icn_export/Regular/data-alert-regular.pdf) |  
+| ![test](icn_export/Light/test.svg) | `test`  |  [.svg](icn_export/Light/test.svg) | [.pdf](icn_export/Light/test.pdf) |  
 | ![pen-light](icn_export/Light/pen-light.svg) | `pen-light`  |  [.svg](icn_export/Light/pen-light.svg) | [.pdf](icn_export/Light/pen-light.pdf) |  
 | ![shop-filled](icn_export/Filled/shop-filled.svg) | `shop-filled`  |  [.svg](icn_export/Filled/shop-filled.svg) | [.pdf](icn_export/Filled/shop-filled.pdf) |  
 | ![file-compressed-filled](icn_export/Filled/file-compressed-filled.svg) | `file-compressed-filled`  |  [.svg](icn_export/Filled/file-compressed-filled.svg) | [.pdf](icn_export/Filled/file-compressed-filled.pdf) |  
