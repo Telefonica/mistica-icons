@@ -17,7 +17,7 @@ jobs:
       run: npm install -g svgo
 
     - name: Removed assets
-      run: git rm -r icn_export/*
+      run: git rm -r icn-export/*
     
     - run: npm install --global kactus-cli
 
@@ -30,13 +30,13 @@ jobs:
         unzip sketch.zip
 
     - name: Run SketchTool
-      run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=icn_export libs/*.sketch
+      run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=icn-export libs/*.sketch
 
     - name: SVGO
-      run: svgo -f icn_export -r -o icn_export --disable=removeViewBox
+      run: svgo -f icn-export -r -o icn-export --disable=removeViewBox
 
     - name: Add assets
-      run: git add -A icn_export/*
+      run: git add -A icn-export/*
 
     - name: Commit & Push
       run: |    
