@@ -32,7 +32,7 @@ jobs:
       # env:
       #   AGENT_TOOLSDIRECTORY: /opt/hostedtoolcache
     
-    - run: sudo python .github/md-generator/md-generator.py icn_export
+    - run: sudo python .github/md-generator/md-generator.py icons
 
     - name: check for changes
       run: git status
