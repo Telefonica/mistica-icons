@@ -1,4 +1,4 @@
-<br/><br/>![Mistica Icons](../resources/misticaicons_logo.png)<br/><br/>
+<br/><br/>![Mistica Icons](.github/resources/misticaicons-logo.png)<br/><br/>
 ### What is this?
 This is the repo that contains all icons that is working in [Mistica Design Libraries](https://github.com/Telefonica/mistica-design-libraries) now.
 The icons that there is here are **the only source of true** from the design team in icons.
@@ -7,7 +7,7 @@ If you have any question, please you can ask directly in the app of Microsoft Te
 You can find more information and how to use this repo in the [Wiki](#). WIP
 ### Search in the repo
 The best way to search in this repo is using your browser's search engine (CMD + F):
-![Image of search engine](.github/resources/imgs_github/github_img_1.png)
+![Image of search engine](.github/resources/imgs-github/github-img-1.png)
 # Icons 
 | Icon | name | SVG | PDF |
 | :-: | :- | :-: | :-: |
