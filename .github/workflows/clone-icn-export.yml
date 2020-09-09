@@ -1,7 +1,6 @@
 name: Cloning icn_export to mistica-icon-web
 
 on: 
-  push:
   workflow_run:
     workflows: ["SketchTool Export Assets"]
     branches:
