@@ -22,7 +22,7 @@ if __name__ == '__main__':
     for brand in files:
         brand_folder = path + SLASH + brand
         if os.path.isdir(brand_folder) and brand != ".DS_Store":
-            for icon in os.listdir(brand_folder):
+            for icon in sorted(os.listdir(brand_folder)):
                 if icon != ".DS_Store":
                     icon_name = os.path.splitext(icon)[0]
                     icon_extension = os.path.splitext(icon)[1]
