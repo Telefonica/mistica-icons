@@ -8,6 +8,7 @@ on:
   push:
     paths:
       - '.github/md-generator/md-generator.py'
+      - '.github/resources/*'
   workflow_run:
     workflows: ["SketchTool Export Assets"]
     branches:
