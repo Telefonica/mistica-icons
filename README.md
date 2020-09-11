@@ -12,6 +12,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | Icon | name | SVG | PDF |
 | :-: | :- | :-: | :-: |
 | ![cooking-regular](icons/Regular/cooking-regular.svg) | `cooking-regular`  |  [.svg](icons/Regular/cooking-regular.svg) | [.pdf](icons/Regular/cooking-regular.pdf) |  
+| ![check-filled](icons/Filled/check-filled.svg) | `check-filled`  |  [.svg](icons/Filled/check-filled.svg) | [.pdf](icons/Filled/check-filled.pdf) |  
 | ![shield-antivirus-filled](icons/Filled/shield-antivirus-filled.svg) | `shield-antivirus-filled`  |  [.svg](icons/Filled/shield-antivirus-filled.svg) | [.pdf](icons/Filled/shield-antivirus-filled.pdf) |  
 | ![arrow-down-left-filled](icons/Filled/arrow-down-left-filled.svg) | `arrow-down-left-filled`  |  [.svg](icons/Filled/arrow-down-left-filled.svg) | [.pdf](icons/Filled/arrow-down-left-filled.pdf) |  
 | ![alarm-light-cross-light](icons/Light/alarm-light-cross-light.svg) | `alarm-light-cross-light`  |  [.svg](icons/Light/alarm-light-cross-light.svg) | [.pdf](icons/Light/alarm-light-cross-light.pdf) |  
@@ -208,7 +209,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![shared-data-filled](icons/Filled/shared-data-filled.svg) | `shared-data-filled`  |  [.svg](icons/Filled/shared-data-filled.svg) | [.pdf](icons/Filled/shared-data-filled.pdf) |  
 | ![robot-light](icons/Light/robot-light.svg) | `robot-light`  |  [.svg](icons/Light/robot-light.svg) | [.pdf](icons/Light/robot-light.pdf) |  
 | ![file-zip-filled](icons/Filled/file-zip-filled.svg) | `file-zip-filled`  |  [.svg](icons/Filled/file-zip-filled.svg) | [.pdf](icons/Filled/file-zip-filled.pdf) |  
-| ![gas-station-filled](icons/Filled/gas-station-filled.svg) | `gas-station-filled`  |  [.svg](icons/Filled/gas-station-filled.svg) | [.pdf](icons/Filled/gas-station-filled.pdf) |  
+| ![offer-filled](icons/Filled/offer-filled.svg) | `offer-filled`  |  [.svg](icons/Filled/offer-filled.svg) | [.pdf](icons/Filled/offer-filled.pdf) |  
 | ![question-regular](icons/Regular/question-regular.svg) | `question-regular`  |  [.svg](icons/Regular/question-regular.svg) | [.pdf](icons/Regular/question-regular.pdf) |  
 | ![information-user-filled](icons/Filled/information-user-filled.svg) | `information-user-filled`  |  [.svg](icons/Filled/information-user-filled.svg) | [.pdf](icons/Filled/information-user-filled.pdf) |  
 | ![id-card-filled](icons/Filled/id-card-filled.svg) | `id-card-filled`  |  [.svg](icons/Filled/id-card-filled.svg) | [.pdf](icons/Filled/id-card-filled.pdf) |  
@@ -227,7 +228,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![heart-bubble-light](icons/Light/heart-bubble-light.svg) | `heart-bubble-light`  |  [.svg](icons/Light/heart-bubble-light.svg) | [.pdf](icons/Light/heart-bubble-light.pdf) |  
 | ![medical-history-light](icons/Light/medical-history-light.svg) | `medical-history-light`  |  [.svg](icons/Light/medical-history-light.svg) | [.pdf](icons/Light/medical-history-light.pdf) |  
 | ![online-offer-filled](icons/Filled/online-offer-filled.svg) | `online-offer-filled`  |  [.svg](icons/Filled/online-offer-filled.svg) | [.pdf](icons/Filled/online-offer-filled.pdf) |  
-| ![clip-light](icons/Light/clip-light.svg) | `clip-light`  |  [.svg](icons/Light/clip-light.svg) | [.pdf](icons/Light/clip-light.pdf) |  
+| ![hard-disk-light](icons/Light/hard-disk-light.svg) | `hard-disk-light`  |  [.svg](icons/Light/hard-disk-light.svg) | [.pdf](icons/Light/hard-disk-light.pdf) |  
 | ![gift-filled](icons/Filled/gift-filled.svg) | `gift-filled`  |  [.svg](icons/Filled/gift-filled.svg) | [.pdf](icons/Filled/gift-filled.pdf) |  
 | ![people-network-regular](icons/Regular/people-network-regular.svg) | `people-network-regular`  |  [.svg](icons/Regular/people-network-regular.svg) | [.pdf](icons/Regular/people-network-regular.pdf) |  
 | ![autentication-success-light](icons/Light/autentication-success-light.svg) | `autentication-success-light`  |  [.svg](icons/Light/autentication-success-light.svg) | [.pdf](icons/Light/autentication-success-light.pdf) |  
@@ -241,7 +242,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![cancel-light](icons/Light/cancel-light.svg) | `cancel-light`  |  [.svg](icons/Light/cancel-light.svg) | [.pdf](icons/Light/cancel-light.pdf) |  
 | ![talk-filled](icons/Filled/talk-filled.svg) | `talk-filled`  |  [.svg](icons/Filled/talk-filled.svg) | [.pdf](icons/Filled/talk-filled.pdf) |  
 | ![bicycle-bike-light](icons/Light/bicycle-bike-light.svg) | `bicycle-bike-light`  |  [.svg](icons/Light/bicycle-bike-light.svg) | [.pdf](icons/Light/bicycle-bike-light.pdf) |  
-| ![hard-disk-light](icons/Light/hard-disk-light.svg) | `hard-disk-light`  |  [.svg](icons/Light/hard-disk-light.svg) | [.pdf](icons/Light/hard-disk-light.pdf) |  
+| ![add-more-alarm-filled](icons/Filled/add-more-alarm-filled.svg) | `add-more-alarm-filled`  |  [.svg](icons/Filled/add-more-alarm-filled.svg) | [.pdf](icons/Filled/add-more-alarm-filled.pdf) |  
 | ![contact-book-filled](icons/Filled/contact-book-filled.svg) | `contact-book-filled`  |  [.svg](icons/Filled/contact-book-filled.svg) | [.pdf](icons/Filled/contact-book-filled.pdf) |  
 | ![data-network-filled](icons/Filled/data-network-filled.svg) | `data-network-filled`  |  [.svg](icons/Filled/data-network-filled.svg) | [.pdf](icons/Filled/data-network-filled.pdf) |  
 | ![delivery-van-moving-light](icons/Light/delivery-van-moving-light.svg) | `delivery-van-moving-light`  |  [.svg](icons/Light/delivery-van-moving-light.svg) | [.pdf](icons/Light/delivery-van-moving-light.pdf) |  
@@ -505,6 +506,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![restaurant-regular](icons/Regular/restaurant-regular.svg) | `restaurant-regular`  |  [.svg](icons/Regular/restaurant-regular.svg) | [.pdf](icons/Regular/restaurant-regular.pdf) |  
 | ![notes-light](icons/Light/notes-light.svg) | `notes-light`  |  [.svg](icons/Light/notes-light.svg) | [.pdf](icons/Light/notes-light.pdf) |  
 | ![target-light](icons/Light/target-light.svg) | `target-light`  |  [.svg](icons/Light/target-light.svg) | [.pdf](icons/Light/target-light.pdf) |  
+| ![clip-light](icons/Light/clip-light.svg) | `clip-light`  |  [.svg](icons/Light/clip-light.svg) | [.pdf](icons/Light/clip-light.pdf) |  
 | ![configure-modem-filled](icons/Filled/configure-modem-filled.svg) | `configure-modem-filled`  |  [.svg](icons/Filled/configure-modem-filled.svg) | [.pdf](icons/Filled/configure-modem-filled.pdf) |  
 | ![rating-filled](icons/Filled/rating-filled.svg) | `rating-filled`  |  [.svg](icons/Filled/rating-filled.svg) | [.pdf](icons/Filled/rating-filled.pdf) |  
 | ![computer-regular](icons/Regular/computer-regular.svg) | `computer-regular`  |  [.svg](icons/Regular/computer-regular.svg) | [.pdf](icons/Regular/computer-regular.pdf) |  
@@ -599,7 +601,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![car-with-clock-regular](icons/Regular/car-with-clock-regular.svg) | `car-with-clock-regular`  |  [.svg](icons/Regular/car-with-clock-regular.svg) | [.pdf](icons/Regular/car-with-clock-regular.pdf) |  
 | ![numeric-keypad-light](icons/Light/numeric-keypad-light.svg) | `numeric-keypad-light`  |  [.svg](icons/Light/numeric-keypad-light.svg) | [.pdf](icons/Light/numeric-keypad-light.pdf) |  
 | ![care-shield-filled](icons/Filled/care-shield-filled.svg) | `care-shield-filled`  |  [.svg](icons/Filled/care-shield-filled.svg) | [.pdf](icons/Filled/care-shield-filled.pdf) |  
-| ![add-more-alarm-filled](icons/Filled/add-more-alarm-filled.svg) | `add-more-alarm-filled`  |  [.svg](icons/Filled/add-more-alarm-filled.svg) | [.pdf](icons/Filled/add-more-alarm-filled.pdf) |  
+| ![info-regular](icons/Reglar/info-regular.svg) | `info-regular`  |  [.svg](icons/Reglar/info-regular.svg) | [.pdf](icons/Reglar/info-regular.pdf) |  
 | ![ruler-filled](icons/Filled/ruler-filled.svg) | `ruler-filled`  |  [.svg](icons/Filled/ruler-filled.svg) | [.pdf](icons/Filled/ruler-filled.pdf) |  
 | ![appointment-regular](icons/Regular/appointment-regular.svg) | `appointment-regular`  |  [.svg](icons/Regular/appointment-regular.svg) | [.pdf](icons/Regular/appointment-regular.pdf) |  
 | ![connections-light](icons/Light/connections-light.svg) | `connections-light`  |  [.svg](icons/Light/connections-light.svg) | [.pdf](icons/Light/connections-light.pdf) |  
@@ -1126,7 +1128,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![arrow-up-right-filled](icons/Filled/arrow-up-right-filled.svg) | `arrow-up-right-filled`  |  [.svg](icons/Filled/arrow-up-right-filled.svg) | [.pdf](icons/Filled/arrow-up-right-filled.pdf) |  
 | ![change-wifi-password-filled](icons/Filled/change-wifi-password-filled.svg) | `change-wifi-password-filled`  |  [.svg](icons/Filled/change-wifi-password-filled.svg) | [.pdf](icons/Filled/change-wifi-password-filled.pdf) |  
 | ![data-data-sereye-light](icons/Light/data-data-sereye-light.svg) | `data-data-sereye-light`  |  [.svg](icons/Light/data-data-sereye-light.svg) | [.pdf](icons/Light/data-data-sereye-light.pdf) |  
-| ![offer-filled](icons/Filled/offer-filled.svg) | `offer-filled`  |  [.svg](icons/Filled/offer-filled.svg) | [.pdf](icons/Filled/offer-filled.pdf) |  
+| ![gas-station-filled](icons/Filled/gas-station-filled.svg) | `gas-station-filled`  |  [.svg](icons/Filled/gas-station-filled.svg) | [.pdf](icons/Filled/gas-station-filled.pdf) |  
 | ![importar-regular](icons/Regular/importar-regular.svg) | `importar-regular`  |  [.svg](icons/Regular/importar-regular.svg) | [.pdf](icons/Regular/importar-regular.pdf) |  
 | ![sport-ball-light](icons/Light/sport-ball-light.svg) | `sport-ball-light`  |  [.svg](icons/Light/sport-ball-light.svg) | [.pdf](icons/Light/sport-ball-light.pdf) |  
 | ![wifi-regular](icons/Regular/wifi-regular.svg) | `wifi-regular`  |  [.svg](icons/Regular/wifi-regular.svg) | [.pdf](icons/Regular/wifi-regular.pdf) |  
