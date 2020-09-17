@@ -39,7 +39,7 @@ if __name__ == '__main__':
         line_name = BREAK + PIPE
         row = ""
         counter = 0
-        dictionary[icon].sort()
+        dictionary[icon].sorted()
         for brand in dictionary[icon]:
             path_icon = root + SLASH + brand + SLASH + icon + SVG_EXTENSION
             svg_icon = root + SLASH + brand + SLASH + icon + SVG_EXTENSION
