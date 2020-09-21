@@ -28,10 +28,10 @@ jobs:
     - run: sudo chown -R $USER:$USER /home/pi/actions-runner/_work/
 
     - uses: actions/checkout@v2
-    - uses: actions/setup-python@v2
-      with:
-        python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
-        architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
+    # - uses: actions/setup-python@v2
+    #   with:
+    #     python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
+    #     architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
       # env:
       #   AGENT_TOOLSDIRECTORY: /opt/hostedtoolcache
     
