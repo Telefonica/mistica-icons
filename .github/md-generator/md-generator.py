@@ -33,7 +33,7 @@ if __name__ == '__main__':
                     else:
                         dictionary[icon_name] = [brand]
 
-    for icon in dictionary:
+    for icon in sorted(dictionary.keys()):
         line_image = PIPE
         line_separator = BREAK + PIPE
         line_name = BREAK + PIPE
