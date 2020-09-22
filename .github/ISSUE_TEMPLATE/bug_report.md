@@ -1,6 +1,6 @@
 ---
-name: 🐛 Bug report
-about: Create a report to help us improve the libraries
+name: 🐛 Bug report (Test)
+about: Create a report to help us improve the icons
 title: ''
 labels: Bug
 assignees: 'yceballost'
@@ -11,21 +11,12 @@ assignees: 'yceballost'
 **Describe the bug**
 A clear and concise description of what the bug is.
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. See error
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.
 
-**Details (please complete the following information):**
-_Mark with [x] or [ ] to which library is applying the issue._
-- [x] iOS Library 
-- [ ] Android Library
 
-Component name: `e.g. bars/navBar/regular`
+icon name: `e.g. help.png`
 Sketch version: [e.g. 67.2]
 
 **Sketch file**
