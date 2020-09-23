@@ -44,6 +44,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![alarm-off-regular](icons/2.Regular/alarm-off-regular.svg) | `alarm-off-regular`  |  [.svg](icons/2.Regular/alarm-off-regular.svg) | [.pdf](icons/2.Regular/alarm-off-regular.pdf) |  
 | ![alert-filled](icons/3.Filled/alert-filled.svg) | `alert-filled`  |  [.svg](icons/3.Filled/alert-filled.svg) | [.pdf](icons/3.Filled/alert-filled.pdf) |  
 | ![alert-light](icons/1.Light/alert-light.svg) | `alert-light`  |  [.svg](icons/1.Light/alert-light.svg) | [.pdf](icons/1.Light/alert-light.pdf) |  
+| ![alert-regular](icons/2.Regular/alert-regular.svg) | `alert-regular`  |  [.svg](icons/2.Regular/alert-regular.svg) | [.pdf](icons/2.Regular/alert-regular.pdf) |  
 | ![ambulance-filled](icons/3.Filled/ambulance-filled.svg) | `ambulance-filled`  |  [.svg](icons/3.Filled/ambulance-filled.svg) | [.pdf](icons/3.Filled/ambulance-filled.pdf) |  
 | ![ambulance-light](icons/1.Light/ambulance-light.svg) | `ambulance-light`  |  [.svg](icons/1.Light/ambulance-light.svg) | [.pdf](icons/1.Light/ambulance-light.pdf) |  
 | ![ambulance-regular](icons/2.Regular/ambulance-regular.svg) | `ambulance-regular`  |  [.svg](icons/2.Regular/ambulance-regular.svg) | [.pdf](icons/2.Regular/ambulance-regular.pdf) |  
@@ -646,6 +647,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![location-map-filled](icons/3.Filled/location-map-filled.svg) | `location-map-filled`  |  [.svg](icons/3.Filled/location-map-filled.svg) | [.pdf](icons/3.Filled/location-map-filled.pdf) |  
 | ![location-map-light](icons/1.Light/location-map-light.svg) | `location-map-light`  |  [.svg](icons/1.Light/location-map-light.svg) | [.pdf](icons/1.Light/location-map-light.pdf) |  
 | ![location-map-regular](icons/2.Regular/location-map-regular.svg) | `location-map-regular`  |  [.svg](icons/2.Regular/location-map-regular.svg) | [.pdf](icons/2.Regular/location-map-regular.pdf) |  
+| ![location-regular](icons/2.Regular/location-regular.svg) | `location-regular`  |  [.svg](icons/2.Regular/location-regular.svg) | [.pdf](icons/2.Regular/location-regular.pdf) |  
 | ![lock-de-data-filled](icons/3.Filled/lock-de-data-filled.svg) | `lock-de-data-filled`  |  [.svg](icons/3.Filled/lock-de-data-filled.svg) | [.pdf](icons/3.Filled/lock-de-data-filled.pdf) |  
 | ![lock-de-data-light](icons/1.Light/lock-de-data-light.svg) | `lock-de-data-light`  |  [.svg](icons/1.Light/lock-de-data-light.svg) | [.pdf](icons/1.Light/lock-de-data-light.pdf) |  
 | ![lock-de-data-regular](icons/2.Regular/lock-de-data-regular.svg) | `lock-de-data-regular`  |  [.svg](icons/2.Regular/lock-de-data-regular.svg) | [.pdf](icons/2.Regular/lock-de-data-regular.pdf) |  
@@ -795,7 +797,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![pharmacy-filled](icons/3.Filled/pharmacy-filled.svg) | `pharmacy-filled`  |  [.svg](icons/3.Filled/pharmacy-filled.svg) | [.pdf](icons/3.Filled/pharmacy-filled.pdf) |  
 | ![pharmacy-light](icons/1.Light/pharmacy-light.svg) | `pharmacy-light`  |  [.svg](icons/1.Light/pharmacy-light.svg) | [.pdf](icons/1.Light/pharmacy-light.pdf) |  
 | ![pharmacy-regular](icons/2.Regular/pharmacy-regular.svg) | `pharmacy-regular`  |  [.svg](icons/2.Regular/pharmacy-regular.svg) | [.pdf](icons/2.Regular/pharmacy-regular.pdf) |  
-| ![photo-camera-light](icons/1.Light/photo-camera-light.svg) | `photo-camera-light`  |  [.svg](icons/1.Light/photo-camera-light.svg) | [.pdf](icons/1.Light/photo-camera-light.pdf) |  
+| ![photo-camera-regular](icons/2.Regular/photo-camera-regular.svg) | `photo-camera-regular`  |  [.svg](icons/2.Regular/photo-camera-regular.svg) | [.pdf](icons/2.Regular/photo-camera-regular.pdf) |  
 | ![pill-filled](icons/3.Filled/pill-filled.svg) | `pill-filled`  |  [.svg](icons/3.Filled/pill-filled.svg) | [.pdf](icons/3.Filled/pill-filled.pdf) |  
 | ![pill-light](icons/1.Light/pill-light.svg) | `pill-light`  |  [.svg](icons/1.Light/pill-light.svg) | [.pdf](icons/1.Light/pill-light.pdf) |  
 | ![pill-regular](icons/2.Regular/pill-regular.svg) | `pill-regular`  |  [.svg](icons/2.Regular/pill-regular.svg) | [.pdf](icons/2.Regular/pill-regular.pdf) |  
@@ -914,6 +916,7 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![search-regular](icons/2.Regular/search-regular.svg) | `search-regular`  |  [.svg](icons/2.Regular/search-regular.svg) | [.pdf](icons/2.Regular/search-regular.pdf) |  
 | ![segurity-filled](icons/3.Filled/segurity-filled.svg) | `segurity-filled`  |  [.svg](icons/3.Filled/segurity-filled.svg) | [.pdf](icons/3.Filled/segurity-filled.pdf) |  
 | ![segurity-light](icons/1.Light/segurity-light.svg) | `segurity-light`  |  [.svg](icons/1.Light/segurity-light.svg) | [.pdf](icons/1.Light/segurity-light.pdf) |  
+| ![segurity-regular](icons/2.Regular/segurity-regular.svg) | `segurity-regular`  |  [.svg](icons/2.Regular/segurity-regular.svg) | [.pdf](icons/2.Regular/segurity-regular.pdf) |  
 | ![send-filled](icons/3.Filled/send-filled.svg) | `send-filled`  |  [.svg](icons/3.Filled/send-filled.svg) | [.pdf](icons/3.Filled/send-filled.pdf) |  
 | ![send-light](icons/1.Light/send-light.svg) | `send-light`  |  [.svg](icons/1.Light/send-light.svg) | [.pdf](icons/1.Light/send-light.pdf) |  
 | ![settings-cloud-filled](icons/3.Filled/settings-cloud-filled.svg) | `settings-cloud-filled`  |  [.svg](icons/3.Filled/settings-cloud-filled.svg) | [.pdf](icons/3.Filled/settings-cloud-filled.pdf) |  
