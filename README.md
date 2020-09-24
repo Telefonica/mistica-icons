@@ -655,6 +655,9 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![location-map-light](icons/1.Light/location-map-light.svg) | `location-map-light`  |  [.svg](icons/1.Light/location-map-light.svg) | [.pdf](icons/1.Light/location-map-light.pdf) |  
 | ![location-map-regular](icons/2.Regular/location-map-regular.svg) | `location-map-regular`  |  [.svg](icons/2.Regular/location-map-regular.svg) | [.pdf](icons/2.Regular/location-map-regular.pdf) |  
 | ![location-regular](icons/2.Regular/location-regular.svg) | `location-regular`  |  [.svg](icons/2.Regular/location-regular.svg) | [.pdf](icons/2.Regular/location-regular.pdf) |  
+| ![lock-closed-filled](icons/3.Filled/lock-closed-filled.svg) | `lock-closed-filled`  |  [.svg](icons/3.Filled/lock-closed-filled.svg) | [.pdf](icons/3.Filled/lock-closed-filled.pdf) |  
+| ![lock-closed-light](icons/1.Light/lock-closed-light.svg) | `lock-closed-light`  |  [.svg](icons/1.Light/lock-closed-light.svg) | [.pdf](icons/1.Light/lock-closed-light.pdf) |  
+| ![lock-closed-regular](icons/2.Regular/lock-closed-regular.svg) | `lock-closed-regular`  |  [.svg](icons/2.Regular/lock-closed-regular.svg) | [.pdf](icons/2.Regular/lock-closed-regular.pdf) |  
 | ![lock-de-data-filled](icons/3.Filled/lock-de-data-filled.svg) | `lock-de-data-filled`  |  [.svg](icons/3.Filled/lock-de-data-filled.svg) | [.pdf](icons/3.Filled/lock-de-data-filled.pdf) |  
 | ![lock-de-data-light](icons/1.Light/lock-de-data-light.svg) | `lock-de-data-light`  |  [.svg](icons/1.Light/lock-de-data-light.svg) | [.pdf](icons/1.Light/lock-de-data-light.pdf) |  
 | ![lock-de-data-regular](icons/2.Regular/lock-de-data-regular.svg) | `lock-de-data-regular`  |  [.svg](icons/2.Regular/lock-de-data-regular.svg) | [.pdf](icons/2.Regular/lock-de-data-regular.pdf) |  
@@ -921,9 +924,6 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![search-money-light](icons/1.Light/search-money-light.svg) | `search-money-light`  |  [.svg](icons/1.Light/search-money-light.svg) | [.pdf](icons/1.Light/search-money-light.pdf) |  
 | ![search-money-regular](icons/2.Regular/search-money-regular.svg) | `search-money-regular`  |  [.svg](icons/2.Regular/search-money-regular.svg) | [.pdf](icons/2.Regular/search-money-regular.pdf) |  
 | ![search-regular](icons/2.Regular/search-regular.svg) | `search-regular`  |  [.svg](icons/2.Regular/search-regular.svg) | [.pdf](icons/2.Regular/search-regular.pdf) |  
-| ![segurity-filled](icons/3.Filled/segurity-filled.svg) | `segurity-filled`  |  [.svg](icons/3.Filled/segurity-filled.svg) | [.pdf](icons/3.Filled/segurity-filled.pdf) |  
-| ![segurity-light](icons/1.Light/segurity-light.svg) | `segurity-light`  |  [.svg](icons/1.Light/segurity-light.svg) | [.pdf](icons/1.Light/segurity-light.pdf) |  
-| ![segurity-regular](icons/2.Regular/segurity-regular.svg) | `segurity-regular`  |  [.svg](icons/2.Regular/segurity-regular.svg) | [.pdf](icons/2.Regular/segurity-regular.pdf) |  
 | ![send-filled](icons/3.Filled/send-filled.svg) | `send-filled`  |  [.svg](icons/3.Filled/send-filled.svg) | [.pdf](icons/3.Filled/send-filled.pdf) |  
 | ![send-light](icons/1.Light/send-light.svg) | `send-light`  |  [.svg](icons/1.Light/send-light.svg) | [.pdf](icons/1.Light/send-light.pdf) |  
 | ![settings-cloud-filled](icons/3.Filled/settings-cloud-filled.svg) | `settings-cloud-filled`  |  [.svg](icons/3.Filled/settings-cloud-filled.svg) | [.pdf](icons/3.Filled/settings-cloud-filled.pdf) |  
