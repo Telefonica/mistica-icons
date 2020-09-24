@@ -9,6 +9,8 @@ If you have any question, please you can ask directly in the app of Microsoft Te
 You can get .pdf or .svg files from this repo.
 ##### Web
 Visit [Mistica Playroom](https://mistica-web.now.sh/?path=/story/icons-mistica-icons--catalog) to get all the detail about using Mistica Icons Library
+#### Design
+Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonica.github.io/mistica/docs/design/start-using)
 You can find more information and how to use this repo in the [Wiki](#). WIP
 ### Search in the repo
 The best way to search in this repo is using your browser's search engine (CMD + F):
