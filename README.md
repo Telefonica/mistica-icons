@@ -12,9 +12,6 @@ Visit [Mistica Playroom](https://mistica-web.now.sh/?path=/story/icons-mistica-i
 #### Design
 Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonica.github.io/mistica/docs/design/start-using)
 You can find more information and how to use this repo in the [Wiki](#). WIP
-### Search in the repo
-The best way to search in this repo is using your browser's search engine (CMD + F):
-![Image of search engine](.github/resources/imgs-github/github-img-1.png)
 # Icons 
 | Icon | name | SVG | PDF |
 | :-: | :- | :-: | :-: |
@@ -1116,8 +1113,8 @@ The best way to search in this repo is using your browser's search engine (CMD +
 | ![video-filled](icons/3.Filled/video-filled.svg) | `video-filled`  |  [.svg](icons/3.Filled/video-filled.svg) | [.pdf](icons/3.Filled/video-filled.pdf) |  
 | ![video-light](icons/1.Light/video-light.svg) | `video-light`  |  [.svg](icons/1.Light/video-light.svg) | [.pdf](icons/1.Light/video-light.pdf) |  
 | ![video-regular](icons/2.Regular/video-regular.svg) | `video-regular`  |  [.svg](icons/2.Regular/video-regular.svg) | [.pdf](icons/2.Regular/video-regular.pdf) |  
-| ![video-surveillance-segurity-filled](icons/3.Filled/video-surveillance-segurity-filled.svg) | `video-surveillance-segurity-filled`  |  [.svg](icons/3.Filled/video-surveillance-segurity-filled.svg) | [.pdf](icons/3.Filled/video-surveillance-segurity-filled.pdf) |  
-| ![video-surveillance-segurity-light](icons/1.Light/video-surveillance-segurity-light.svg) | `video-surveillance-segurity-light`  |  [.svg](icons/1.Light/video-surveillance-segurity-light.svg) | [.pdf](icons/1.Light/video-surveillance-segurity-light.pdf) |  
+| ![video-surveillance-security-filled](icons/3.Filled/video-surveillance-security-filled.svg) | `video-surveillance-security-filled`  |  [.svg](icons/3.Filled/video-surveillance-security-filled.svg) | [.pdf](icons/3.Filled/video-surveillance-security-filled.pdf) |  
+| ![video-surveillance-security-light](icons/1.Light/video-surveillance-security-light.svg) | `video-surveillance-security-light`  |  [.svg](icons/1.Light/video-surveillance-security-light.svg) | [.pdf](icons/1.Light/video-surveillance-security-light.pdf) |  
 | ![videogames-filled](icons/3.Filled/videogames-filled.svg) | `videogames-filled`  |  [.svg](icons/3.Filled/videogames-filled.svg) | [.pdf](icons/3.Filled/videogames-filled.pdf) |  
 | ![videogames-light](icons/1.Light/videogames-light.svg) | `videogames-light`  |  [.svg](icons/1.Light/videogames-light.svg) | [.pdf](icons/1.Light/videogames-light.pdf) |  
 | ![videogames-regular](icons/2.Regular/videogames-regular.svg) | `videogames-regular`  |  [.svg](icons/2.Regular/videogames-regular.svg) | [.pdf](icons/2.Regular/videogames-regular.pdf) |  
