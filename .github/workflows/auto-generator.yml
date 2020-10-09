@@ -25,7 +25,7 @@ jobs:
 
     steps:
     # comando solo para Self-Hosted machines
-    - run: sudo chown -R $USER:$USER /home/pi/actions-runner/_work/
+    # - run: sudo chown -R $USER:$USER /home/pi/actions-runner/_work/
 
     - uses: actions/checkout@v2
     
