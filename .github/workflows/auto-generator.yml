@@ -6,8 +6,8 @@ name: Readme Generator
 # events but only for the master branch
 on:
   push:
-    paths:
-      - '.github/md-generator/md-generator.py'
+    # paths:
+    #   - '.github/md-generator/md-generator.py'
   workflow_run:
     workflows: ["SketchTool Export Assets"]
     branches:
@@ -37,7 +37,7 @@ jobs:
       # env:
       #   AGENT_TOOLSDIRECTORY: /opt/hostedtoolcache
     
-    - run: sudo python .github/md-generator/md-generator.py icons
+    - run: python .github/md-generator/md-generator.py icons
 
     - name: check for changes
       run: git status
