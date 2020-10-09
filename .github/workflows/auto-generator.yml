@@ -6,8 +6,8 @@ name: Readme Generator
 # events but only for the master branch
 on:
   push:
-    paths:
-      - '.github/md-generator/md-generator.py'
+    # paths:
+    #   - '.github/md-generator/md-generator.py'
   workflow_run:
     workflows: ["SketchTool Export Assets"]
     branches:
@@ -25,18 +25,15 @@ jobs:
 
     steps:
     # comando solo para Self-Hosted machines
-    - run: sudo chown -R $USER:$USER /home/pi/actions-runner/_work/
+    # - run: sudo chown -R $USER:$USER /home/pi/actions-runner/_work/
 
     - uses: actions/checkout@v2
     
     # no se necesita actions/python en self-hosted
-    # - uses: actions/setup-python@v2
-    #   with:
-    #     python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
-    #     architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
-      # env:
-      #   AGENT_TOOLSDIRECTORY: /opt/hostedtoolcache
-    
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
+        architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified    
     - run: sudo python .github/md-generator/md-generator.py icons
 
     - name: check for changes
