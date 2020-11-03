@@ -78,6 +78,7 @@ You can find more information and how to use this repo in the [Wiki](#). WIP
 | ![arrow-down-right-regular](icons/2.Regular/arrow-down-right-regular.svg) | `arrow-down-right-regular`  |  [.svg](icons/2.Regular/arrow-down-right-regular.svg) | [.pdf](icons/2.Regular/arrow-down-right-regular.pdf) |  
 | ![arrow-drop-down-filled](icons/3.Filled/arrow-drop-down-filled.svg) | `arrow-drop-down-filled`  |  [.svg](icons/3.Filled/arrow-drop-down-filled.svg) | [.pdf](icons/3.Filled/arrow-drop-down-filled.pdf) |  
 | ![arrow-drop-up-filled](icons/3.Filled/arrow-drop-up-filled.svg) | `arrow-drop-up-filled`  |  [.svg](icons/3.Filled/arrow-drop-up-filled.svg) | [.pdf](icons/3.Filled/arrow-drop-up-filled.pdf) |  
+| ![arrow-forward-regular](icons/2.Regular/arrow-forward-regular.svg) | `arrow-forward-regular`  |  [.svg](icons/2.Regular/arrow-forward-regular.svg) | [.pdf](icons/2.Regular/arrow-forward-regular.pdf) |  
 | ![arrow-left-filled](icons/3.Filled/arrow-left-filled.svg) | `arrow-left-filled`  |  [.svg](icons/3.Filled/arrow-left-filled.svg) | [.pdf](icons/3.Filled/arrow-left-filled.pdf) |  
 | ![arrow-right-filled](icons/3.Filled/arrow-right-filled.svg) | `arrow-right-filled`  |  [.svg](icons/3.Filled/arrow-right-filled.svg) | [.pdf](icons/3.Filled/arrow-right-filled.pdf) |  
 | ![arrow-right-light](icons/1.Light/arrow-right-light.svg) | `arrow-right-light`  |  [.svg](icons/1.Light/arrow-right-light.svg) | [.pdf](icons/1.Light/arrow-right-light.pdf) |  
@@ -514,7 +515,6 @@ You can find more information and how to use this repo in the [Wiki](#). WIP
 | ![flag-filled](icons/3.Filled/flag-filled.svg) | `flag-filled`  |  [.svg](icons/3.Filled/flag-filled.svg) | [.pdf](icons/3.Filled/flag-filled.pdf) |  
 | ![flag-light](icons/1.Light/flag-light.svg) | `flag-light`  |  [.svg](icons/1.Light/flag-light.svg) | [.pdf](icons/1.Light/flag-light.pdf) |  
 | ![flag-regular](icons/2.Regular/flag-regular.svg) | `flag-regular`  |  [.svg](icons/2.Regular/flag-regular.svg) | [.pdf](icons/2.Regular/flag-regular.pdf) |  
-| ![flechaAdelante-regular](icons/2.Regular/flechaAdelante-regular.svg) | `flechaAdelante-regular`  |  [.svg](icons/2.Regular/flechaAdelante-regular.svg) | [.pdf](icons/2.Regular/flechaAdelante-regular.pdf) |  
 | ![flower-filled](icons/3.Filled/flower-filled.svg) | `flower-filled`  |  [.svg](icons/3.Filled/flower-filled.svg) | [.pdf](icons/3.Filled/flower-filled.pdf) |  
 | ![flower-light](icons/1.Light/flower-light.svg) | `flower-light`  |  [.svg](icons/1.Light/flower-light.svg) | [.pdf](icons/1.Light/flower-light.pdf) |  
 | ![flower-regular](icons/2.Regular/flower-regular.svg) | `flower-regular`  |  [.svg](icons/2.Regular/flower-regular.svg) | [.pdf](icons/2.Regular/flower-regular.pdf) |  
