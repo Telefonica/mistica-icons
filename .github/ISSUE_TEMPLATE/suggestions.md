@@ -1,6 +1,6 @@
 ---
 name: Suggestions
-about: Suggest an idea for Mistica Icons
+about: Suggest an idea for Mística
 title: ''
 labels: Suggestions
 assignees: ''
