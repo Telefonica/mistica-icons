@@ -28,15 +28,16 @@ jobs:
       run: |
         sudo chown -R $USER:$USER $GITHUB_WORKSPACE
 
+    - name: Get branch name
+      uses: rlespinasse/github-slug-action@v3.x
+
     - uses: actions/checkout@v2
     
     # no se necesita actions/python en self-hosted
-    # - uses: actions/setup-python@v2
-    #   with:
-    #     python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
-    #     architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
-      # env:
-      #   AGENT_TOOLSDIRECTORY: /opt/hostedtoolcache
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
+        architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
     
     - run: sudo python .github/md-generator/md-generator.py icons
 
@@ -50,7 +51,7 @@ jobs:
         git config --global user.email "users.noreply.github.com"
     - name: commit changed files
       run: git commit -m "Auto updating Readme"
-    - name: fetch from production
-      run: git fetch origin production
-    - name: push code to production
-      run: git push origin HEAD:production
+    - name: fetch from ${{ env.GITHUB_REF_SLUG_URL }}
+      run: git fetch origin ${{ env.GITHUB_REF_SLUG_URL }}
+    - name: push code to ${{ env.GITHUB_REF_SLUG_URL }}
+      run: git push origin HEAD:${{ env.GITHUB_REF_SLUG_URL }}
