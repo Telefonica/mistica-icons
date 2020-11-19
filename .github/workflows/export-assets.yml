@@ -1,13 +1,13 @@
 name: SketchTool Export Assets
 
 on:
-  branches:
-    - production
-    - develop
   push:
+    branches:
+      - production
+      - develop
     paths:
-    - 'libs/**'
-    - 'icons/**'
+      - 'libs/**'
+      - 'icons/**'
     
 jobs:
   assets:
