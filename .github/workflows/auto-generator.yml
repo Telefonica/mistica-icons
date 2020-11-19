@@ -6,8 +6,8 @@ on:
       - production
       - develop
     paths:
-      - '.github/md-generator/md-generator.py'
-      - 'icons/**'
+      # - '.github/md-generator/md-generator.py'
+      - 'README.md'
   workflow_run:
     workflows: ["SketchTool Export Assets"]
     types: 
@@ -38,7 +38,7 @@ jobs:
     - run: sudo python .github/md-generator/md-generator.py icons
 
     - name: stage changed files
-      run: git add -f .
+      run: git add .
 
     - name: config
       run: |
