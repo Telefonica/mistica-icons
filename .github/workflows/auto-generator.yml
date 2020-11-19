@@ -7,7 +7,7 @@ name: Readme Generator
 on:
   push:
     paths:
-      - '.github/md-generator/md-generator.py'
+      # - '.github/md-generator/md-generator.py'
       - 'icons/**'
   workflow_run:
     workflows: ["SketchTool Export Assets"]
