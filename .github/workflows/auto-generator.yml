@@ -10,8 +10,6 @@ on:
       - '.github/md-generator/md-generator.py'
   workflow_run:
     workflows: ["SketchTool Export Assets"]
-    branches:
-      - production
     types: 
       - completed
 
@@ -25,7 +23,10 @@ jobs:
 
     steps:
     # comando solo para Self-Hosted machines
-    - run: sudo chown -R $USER:$USER /home/pi/actions-runner/_work/
+    # - run: sudo chown -R $USER:$USER /home/pi/actions-runner/_work/
+    - name: Cleanup
+      run: |
+        sudo chown -R $USER:$USER $GITHUB_WORKSPACE
 
     - uses: actions/checkout@v2
     
@@ -53,4 +54,3 @@ jobs:
       run: git fetch origin production
     - name: push code to production
       run: git push origin HEAD:production
-      
