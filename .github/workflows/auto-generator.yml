@@ -2,6 +2,9 @@ name: Readme Generator
 
 on:
   push:
+    branches:
+      - production
+      - develop
     paths:
       - '.github/md-generator/md-generator.py'
       - 'icons/**'
