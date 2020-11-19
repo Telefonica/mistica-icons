@@ -38,7 +38,7 @@ jobs:
     
     - run: sudo python .github/md-generator/md-generator.py icons
 
-       - name: Add assets
+    - name: Add assets
       run: git add .
 
     - name: Commit & Push
