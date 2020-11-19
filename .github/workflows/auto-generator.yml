@@ -6,9 +6,7 @@ on:
       - production
       - develop
     paths:
-      # - '.github/md-generator/md-generator.py'
-      - '.github/workflows/auto-generator.yml'
-      - 'README.md'
+      - '.github/md-generator/md-generator.py'
   workflow_run:
     workflows: ["SketchTool Export Assets"]
     types: 
