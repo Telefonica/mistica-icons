@@ -37,16 +37,16 @@ jobs:
     
     - run: sudo python .github/md-generator/md-generator.py icons
 
-    - name: stage changed files
+       - name: Add assets
       run: git add .
 
-    - name: config
-      run: |
-        git config --global user.name "🤖GeneratorBot"
-        git config --global user.email "users.noreply.github.com"
+    - name: Commit & Push
+      run: |    
+        git config --global user.name "Yayo"
+        git config --global user.email "yceballost@gmail.com"  
+        git commit -am "Update readme"
+        git push origin ${{ env.GITHUB_REF_SLUG_URL }}
 
-    - name: commit changed files
-      run: git commit -m "Auto updating Readme"
 
     - name: push code to ${{ env.GITHUB_REF_SLUG_URL }}
       run: git push origin HEAD:${{ env.GITHUB_REF_SLUG_URL }}
