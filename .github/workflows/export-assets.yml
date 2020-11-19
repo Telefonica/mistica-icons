@@ -38,7 +38,7 @@ jobs:
       run: svgo -f icons -r -o icons --disable=removeViewBox
 
     - name: Add assets
-      run: git add -u icons/*
+      run: git add -A icons/*
 
     - name: Commit & Push
       run: |    
