@@ -23,7 +23,7 @@ jobs:
     - run: npm install --global kactus-cli --force
 
     - name: Convert folder to sketch file
-      run: kactus import libs/Mistica_Icons
+      run: kactus import libs/Mistica\ Icons
 
     - name: Download & Install Sketch
       run: |
