@@ -36,9 +36,6 @@ jobs:
     
     - run: sudo python .github/md-generator/md-generator.py icons
 
-    - name: Add assets
-      run: git add .
-
     - name: Commit & Push
       run: |    
         git config --global user.name "Yayo"
@@ -47,5 +44,5 @@ jobs:
         git push origin ${{ env.GITHUB_REF_SLUG_URL }}
 
 
-    - name: push code to ${{ env.GITHUB_REF_SLUG_URL }}
-      run: git push origin HEAD:${{ env.GITHUB_REF_SLUG_URL }}
+    # - name: push code to ${{ env.GITHUB_REF_SLUG_URL }}
+    #   run: git push origin HEAD:${{ env.GITHUB_REF_SLUG_URL }}
