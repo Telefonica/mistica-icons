@@ -7,7 +7,7 @@ on:
       - develop
     paths:
       - '.github/md-generator/md-generator.py'
-      - '.github/workflows/auto-generator.yml'
+      # - '.github/workflows/auto-generator.yml'
   workflow_run:
     workflows: ["SketchTool Export Assets"]
     types: 
@@ -46,4 +46,3 @@ jobs:
 
     # - name: push code to ${{ env.GITHUB_REF_SLUG_URL }}
     #   run: git push origin HEAD:${{ env.GITHUB_REF_SLUG_URL }}
-    
