@@ -1,9 +1,9 @@
 name: Readme Generator
 
 on:
+  pull_request:
   push:
     branches:
-      - production
       - develop
     paths:
       - '.github/md-generator/md-generator.py'
