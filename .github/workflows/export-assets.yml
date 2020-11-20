@@ -1,14 +1,13 @@
 name: SketchTool Export Assets
 
 on:
-  pull_request:
   push:
     branches:
-      - develop
+      - production
     paths:
       - 'libs/**'
       - 'icons/**'
-    
+
 jobs:
   assets:
     runs-on: [self-hosted, macOS]
