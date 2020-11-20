@@ -1,24 +1,20 @@
-# This is a basic workflow to help you get started with Actions
-
 name: Readme Generator
 
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
 on:
   push:
+    branches:
+      - production
+      - develop
     paths:
       - '.github/md-generator/md-generator.py'
+      # - '.github/workflows/auto-generator.yml'
   workflow_run:
     workflows: ["SketchTool Export Assets"]
     types: 
       - completed
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   regenerating:
-    # The type of runner that the job will run on
-    # runs-on: [self-hosted, Linux]
     runs-on: [self-hosted, Linux]
 
     steps:
@@ -28,29 +24,25 @@ jobs:
       run: |
         sudo chown -R $USER:$USER $GITHUB_WORKSPACE
 
+    - name: Get branch name
+      uses: rlespinasse/github-slug-action@v3.x
+
     - uses: actions/checkout@v2
     
     # no se necesita actions/python en self-hosted
-    # - uses: actions/setup-python@v2
-    #   with:
-    #     python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
-    #     architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
-      # env:
-      #   AGENT_TOOLSDIRECTORY: /opt/hostedtoolcache
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
+        architecture: 'x64' # optional x64 or x86. Defaults to x64 if not specified
     
     - run: sudo python .github/md-generator/md-generator.py icons
 
-    - name: check for changes
-      run: git status
-    - name: stage changed files
-      run: git add .
-    - name: config
-      run: |
-        git config --global user.name "🤖GeneratorBot"
-        git config --global user.email "users.noreply.github.com"
-    - name: commit changed files
-      run: git commit -m "Auto updating Readme"
-    - name: fetch from production
-      run: git fetch origin production
-    - name: push code to production
-      run: git push origin HEAD:production
+    - name: Commit & Push
+      run: |    
+        git config --global user.name "Yayo"
+        git config --global user.email "yceballost@gmail.com"  
+        git commit -am "Update readme"
+        git push origin ${{ env.GITHUB_REF_SLUG_URL }}
+
+    # - name: push code to ${{ env.GITHUB_REF_SLUG_URL }}
+    #   run: git push origin HEAD:${{ env.GITHUB_REF_SLUG_URL }}

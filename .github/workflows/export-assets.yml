@@ -2,15 +2,21 @@ name: SketchTool Export Assets
 
 on:
   push:
+    branches:
+      - production
+      - develop
     paths:
-    - 'libs/**'
-    - 'icons/**'
+      - 'libs/**'
+      - 'icons/**'
     
 jobs:
   assets:
     runs-on: [self-hosted, macOS]
     steps:
     - uses: actions/checkout@v2
+
+    - name: Get branch name
+      uses: rlespinasse/github-slug-action@v3.x
 
     - name: Install svgo
       run: npm install -g svgo
@@ -42,7 +48,7 @@ jobs:
         git config --global user.name "Yayo"
         git config --global user.email "yceballost@gmail.com"  
         git commit -am "Update Assets"
-        git push origin production
+        git push origin ${{ env.GITHUB_REF_SLUG_URL }}
 
     # - name: Push
     #   run: |
