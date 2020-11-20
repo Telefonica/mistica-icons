@@ -1,9 +1,9 @@
 name: SketchTool Export Assets
 
 on:
+  pull_request:
   push:
     branches:
-      - production
       - develop
     paths:
       - 'libs/**'
