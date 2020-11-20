@@ -15,6 +15,7 @@ You can find more information and how to use this repo in the [Wiki](#). WIP
 # Icons 
 | Icon | name | SVG | PDF |
 | :-: | :- | :-: | :-: |
+| ![AAAA](icons/3.Filled/AAAA.svg) | `AAAA`  |  [.svg](icons/3.Filled/AAAA.svg) | [.pdf](icons/3.Filled/AAAA.pdf) |  
 | ![academic-filled](icons/3.Filled/academic-filled.svg) | `academic-filled`  |  [.svg](icons/3.Filled/academic-filled.svg) | [.pdf](icons/3.Filled/academic-filled.pdf) |  
 | ![academic-light](icons/1.Light/academic-light.svg) | `academic-light`  |  [.svg](icons/1.Light/academic-light.svg) | [.pdf](icons/1.Light/academic-light.pdf) |  
 | ![academic-regular](icons/2.Regular/academic-regular.svg) | `academic-regular`  |  [.svg](icons/2.Regular/academic-regular.svg) | [.pdf](icons/2.Regular/academic-regular.pdf) |  
