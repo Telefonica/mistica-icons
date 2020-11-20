@@ -6,10 +6,11 @@ on:
     paths:
       - '.github/md-generator/md-generator.py'
       # - '.github/workflows/auto-generator.yml'
-  workflow_run:
-    workflows: ["SketchTool Export Assets"]
-    types: 
-      - completed
+       - 'icons/**'
+  # workflow_run:
+  #   workflows: ["SketchTool Export Assets"]
+  #   types: 
+  #     - completed
 
 jobs:
   regenerating:
