@@ -10,6 +10,7 @@ on:
       # - '.github/workflows/auto-generator.yml'
   workflow_run:
     workflows: ["SketchTool Export Assets"]
+    branches: [develop]
     types: 
       - completed
 
