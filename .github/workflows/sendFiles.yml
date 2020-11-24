@@ -19,7 +19,7 @@ jobs:
         sudo chown -R $USER:$USER $GITHUB_WORKSPACE
 
     # Checkout para self-hosted Telefonica
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3.x
 
     - name: Get branch name
       uses: rlespinasse/github-slug-action@v2.x
