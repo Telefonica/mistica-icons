@@ -593,7 +593,7 @@ You can find more information and how to use this repo in the [Wiki](#). WIP
 | ![importar-regular](icons/2.Regular/importar-regular.svg) | `importar-regular`  |  [.svg](icons/2.Regular/importar-regular.svg) | [.pdf](icons/2.Regular/importar-regular.pdf) |  
 | ![infinity-light](icons/1.Light/infinity-light.svg) | `infinity-light`  |  [.svg](icons/1.Light/infinity-light.svg) | [.pdf](icons/1.Light/infinity-light.pdf) |  
 | ![infinity-regular](icons/2.Regular/infinity-regular.svg) | `infinity-regular`  |  [.svg](icons/2.Regular/infinity-regular.svg) | [.pdf](icons/2.Regular/infinity-regular.pdf) |  
-| ![infomation-regular](icons/2.Regular/infomation-regular.svg) | `infomation-regular`  |  [.svg](icons/2.Regular/infomation-regular.svg) | [.pdf](icons/2.Regular/infomation-regular.pdf) |  
+| ![information-regular](icons/2.Regular/information-regular.svg) | `information-regular`  |  [.svg](icons/2.Regular/information-regular.svg) | [.pdf](icons/2.Regular/information-regular.pdf) |  
 | ![information-user-filled](icons/3.Filled/information-user-filled.svg) | `information-user-filled`  |  [.svg](icons/3.Filled/information-user-filled.svg) | [.pdf](icons/3.Filled/information-user-filled.pdf) |  
 | ![information-user-light](icons/1.Light/information-user-light.svg) | `information-user-light`  |  [.svg](icons/1.Light/information-user-light.svg) | [.pdf](icons/1.Light/information-user-light.pdf) |  
 | ![information-user-regular](icons/2.Regular/information-user-regular.svg) | `information-user-regular`  |  [.svg](icons/2.Regular/information-user-regular.svg) | [.pdf](icons/2.Regular/information-user-regular.pdf) |  
