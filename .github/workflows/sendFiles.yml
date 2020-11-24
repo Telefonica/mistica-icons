@@ -6,6 +6,7 @@ on:
       - production
     paths:
       - 'libs/**'
+      - '.github/workflows/sendFiles.yml'
 
 jobs:
   send-files:
@@ -19,10 +20,10 @@ jobs:
         sudo chown -R $USER:$USER $GITHUB_WORKSPACE
 
     # Checkout para self-hosted Telefonica
-    - uses: actions/checkout@v3.x
+    - uses: actions/checkout@v2
 
     - name: Get branch name
-      uses: rlespinasse/github-slug-action@v2.x
+      uses: rlespinasse/github-slug-action@v3.x
 
     - name: Copy Brands to ${{ env.GITHUB_REF_SLUG_URL }}
       uses: andstor/copycat-action@v3.2.3
