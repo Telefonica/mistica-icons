@@ -8,7 +8,7 @@ If you have any question, please you can ask directly in the app of Microsoft Te
 ##### iOS and Android
 You can get .pdf or .svg files from this repo.
 ##### Web
-Visit [Mistica Playroom](https://mistica-web.now.sh/?path=/story/icons-mistica-icons--catalog) to get all the detail about using Mistica Icons Library
+Visit [Mistica Storybook](https://mistica-web.now.sh/?path=/story/icons-mistica-icons--catalog) to get all the detail about using Mistica Icons Library
 #### Design
 Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonica.github.io/mistica/docs/design/start-using)
 # Icons 
