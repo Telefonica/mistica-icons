@@ -44,8 +44,8 @@ jobs:
 
     - name: Commit & Push
       run: |    
-        git config --global user.name "Yayo"
-        git config --global user.email "yceballost@gmail.com"  
+        git config user.name "Bot"
+        git config user.email "nobody@nowhere"  
         git commit -am "Update Assets"
         git push origin ${{ env.GITHUB_REF_SLUG_URL }}
 
