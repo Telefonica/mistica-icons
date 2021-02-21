@@ -1,0 +1,16 @@
+name: Readme Generator
+
+on:
+  push:
+    branches:
+      - production
+
+jobs:
+  regenerating:
+    runs-on: [self-hosted, Linux]
+
+    - name: Get branch name
+      uses: heinrichreimer/github-changelog-generator-action@v2.1.1
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
