@@ -1,4 +1,4 @@
-name: Readme Generator
+name: Generating Changelog
 
 on:
   push:
@@ -6,10 +6,11 @@ on:
       - production
 
 jobs:
-  regenerating:
+  changelog:
     runs-on: [self-hosted, Linux]
-
-    - name: Get branch name
+    
+    steps:
+    - name: Generating Changelog
       uses: heinrichreimer/github-changelog-generator-action@v2.1.1
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
