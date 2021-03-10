@@ -10,7 +10,7 @@ on:
 
 jobs:
   send-files:
-    runs-on: [self-hosted, Linux]
+    runs-on: ubutu-latest
     steps:
     # comando solo para Self-Hosted machines
     # - run: sudo chown -R $USER:$USER /home/pi/actions-github/mistica-design-libraries/_work/
