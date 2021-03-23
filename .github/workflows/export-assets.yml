@@ -4,9 +4,9 @@ on:
   push:
     branches:
       - production
-    # paths:
-    #   - 'libs/**'
-    #   - 'icons/**'
+    paths:
+      - 'libs/**'
+      - 'icons/**'
 
 jobs:
   assets:
