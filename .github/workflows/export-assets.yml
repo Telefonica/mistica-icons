@@ -4,9 +4,9 @@ on:
   push:
     branches:
       - production
-    paths:
-      - 'libs/**'
-      - 'icons/**'
+    # paths:
+    #   - 'libs/**'
+    #   - 'icons/**'
 
 jobs:
   assets:
@@ -37,8 +37,7 @@ jobs:
       run: Sketch.app/Contents/Resources/sketchtool/bin/sketchtool export layers --output=icons libs/*.sketch
 
     - name: SVGO
-      run: svgo -f icons -r -o icons --disable=removeViewBox
-
+      run: svgo -f icons -r -o icons
     - name: Add assets
       run: git add -A icons/*
 
