@@ -589,7 +589,7 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonic
 | ![image-light](icons/1.Light/image-light.svg) | `image-light`  |  [.svg](icons/1.Light/image-light.svg) | [.pdf](icons/1.Light/image-light.pdf) |  
 | ![image-regular](icons/2.Regular/image-regular.svg) | `image-regular`  |  [.svg](icons/2.Regular/image-regular.svg) | [.pdf](icons/2.Regular/image-regular.pdf) |  
 | ![import-light](icons/1.Light/import-light.svg) | `import-light`  |  [.svg](icons/1.Light/import-light.svg) | [.pdf](icons/1.Light/import-light.pdf) |  
-| ![importar-regular](icons/2.Regular/importar-regular.svg) | `importar-regular`  |  [.svg](icons/2.Regular/importar-regular.svg) | [.pdf](icons/2.Regular/importar-regular.pdf) |  
+| ![import-regular](icons/2.Regular/import-regular.svg) | `import-regular`  |  [.svg](icons/2.Regular/import-regular.svg) | [.pdf](icons/2.Regular/import-regular.pdf) |  
 | ![infinity-light](icons/1.Light/infinity-light.svg) | `infinity-light`  |  [.svg](icons/1.Light/infinity-light.svg) | [.pdf](icons/1.Light/infinity-light.pdf) |  
 | ![infinity-regular](icons/2.Regular/infinity-regular.svg) | `infinity-regular`  |  [.svg](icons/2.Regular/infinity-regular.svg) | [.pdf](icons/2.Regular/infinity-regular.pdf) |  
 | ![information-regular](icons/2.Regular/information-regular.svg) | `information-regular`  |  [.svg](icons/2.Regular/information-regular.svg) | [.pdf](icons/2.Regular/information-regular.pdf) |  
