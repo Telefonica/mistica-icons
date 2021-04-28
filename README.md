@@ -346,9 +346,6 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonic
 | ![delivery-van-moving-filled](icons/3.Filled/delivery-van-moving-filled.svg) | `delivery-van-moving-filled`  |  [.svg](icons/3.Filled/delivery-van-moving-filled.svg) | [.pdf](icons/3.Filled/delivery-van-moving-filled.pdf) |  
 | ![delivery-van-moving-light](icons/1.Light/delivery-van-moving-light.svg) | `delivery-van-moving-light`  |  [.svg](icons/1.Light/delivery-van-moving-light.svg) | [.pdf](icons/1.Light/delivery-van-moving-light.pdf) |  
 | ![delivery-van-moving-regular](icons/2.Regular/delivery-van-moving-regular.svg) | `delivery-van-moving-regular`  |  [.svg](icons/2.Regular/delivery-van-moving-regular.svg) | [.pdf](icons/2.Regular/delivery-van-moving-regular.pdf) |  
-| ![device-filled](icons/3.Filled/device-filled.svg) | `device-filled`  |  [.svg](icons/3.Filled/device-filled.svg) | [.pdf](icons/3.Filled/device-filled.pdf) |  
-| ![device-light](icons/1.Light/device-light.svg) | `device-light`  |  [.svg](icons/1.Light/device-light.svg) | [.pdf](icons/1.Light/device-light.pdf) |  
-| ![device-regular](icons/2.Regular/device-regular.svg) | `device-regular`  |  [.svg](icons/2.Regular/device-regular.svg) | [.pdf](icons/2.Regular/device-regular.pdf) |  
 | ![diamond-filled](icons/3.Filled/diamond-filled.svg) | `diamond-filled`  |  [.svg](icons/3.Filled/diamond-filled.svg) | [.pdf](icons/3.Filled/diamond-filled.pdf) |  
 | ![diamond-light](icons/1.Light/diamond-light.svg) | `diamond-light`  |  [.svg](icons/1.Light/diamond-light.svg) | [.pdf](icons/1.Light/diamond-light.pdf) |  
 | ![diamond-regular](icons/2.Regular/diamond-regular.svg) | `diamond-regular`  |  [.svg](icons/2.Regular/diamond-regular.svg) | [.pdf](icons/2.Regular/diamond-regular.pdf) |  
@@ -1024,6 +1021,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonic
 | ![target-filled](icons/3.Filled/target-filled.svg) | `target-filled`  |  [.svg](icons/3.Filled/target-filled.svg) | [.pdf](icons/3.Filled/target-filled.pdf) |  
 | ![target-light](icons/1.Light/target-light.svg) | `target-light`  |  [.svg](icons/1.Light/target-light.svg) | [.pdf](icons/1.Light/target-light.pdf) |  
 | ![target-regular](icons/2.Regular/target-regular.svg) | `target-regular`  |  [.svg](icons/2.Regular/target-regular.svg) | [.pdf](icons/2.Regular/target-regular.pdf) |  
+| ![team-filled](icons/3.Filled/team-filled.svg) | `team-filled`  |  [.svg](icons/3.Filled/team-filled.svg) | [.pdf](icons/3.Filled/team-filled.pdf) |  
+| ![team-light](icons/1.Light/team-light.svg) | `team-light`  |  [.svg](icons/1.Light/team-light.svg) | [.pdf](icons/1.Light/team-light.pdf) |  
+| ![team-regular](icons/2.Regular/team-regular.svg) | `team-regular`  |  [.svg](icons/2.Regular/team-regular.svg) | [.pdf](icons/2.Regular/team-regular.pdf) |  
 | ![tech-service-filled](icons/3.Filled/tech-service-filled.svg) | `tech-service-filled`  |  [.svg](icons/3.Filled/tech-service-filled.svg) | [.pdf](icons/3.Filled/tech-service-filled.pdf) |  
 | ![tech-service-internet-filled](icons/3.Filled/tech-service-internet-filled.svg) | `tech-service-internet-filled`  |  [.svg](icons/3.Filled/tech-service-internet-filled.svg) | [.pdf](icons/3.Filled/tech-service-internet-filled.pdf) |  
 | ![tech-service-internet-light](icons/1.Light/tech-service-internet-light.svg) | `tech-service-internet-light`  |  [.svg](icons/1.Light/tech-service-internet-light.svg) | [.pdf](icons/1.Light/tech-service-internet-light.pdf) |  
