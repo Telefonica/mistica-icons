@@ -222,10 +222,14 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonic
 | ![chemistry-filled](icons/3.Filled/chemistry-filled.svg) | `chemistry-filled`  |  [.svg](icons/3.Filled/chemistry-filled.svg) | [.pdf](icons/3.Filled/chemistry-filled.pdf) |  
 | ![chemistry-light](icons/1.Light/chemistry-light.svg) | `chemistry-light`  |  [.svg](icons/1.Light/chemistry-light.svg) | [.pdf](icons/1.Light/chemistry-light.pdf) |  
 | ![chemistry-regular](icons/2.Regular/chemistry-regular.svg) | `chemistry-regular`  |  [.svg](icons/2.Regular/chemistry-regular.svg) | [.pdf](icons/2.Regular/chemistry-regular.pdf) |  
+| ![chevron-down-light](icons/1.Light/chevron-down-light.svg) | `chevron-down-light`  |  [.svg](icons/1.Light/chevron-down-light.svg) | [.pdf](icons/1.Light/chevron-down-light.pdf) |  
+| ![chevron-down-regular](icons/2.Regular/chevron-down-regular.svg) | `chevron-down-regular`  |  [.svg](icons/2.Regular/chevron-down-regular.svg) | [.pdf](icons/2.Regular/chevron-down-regular.pdf) |  
 | ![chevron-left-light](icons/1.Light/chevron-left-light.svg) | `chevron-left-light`  |  [.svg](icons/1.Light/chevron-left-light.svg) | [.pdf](icons/1.Light/chevron-left-light.pdf) |  
 | ![chevron-left-regular](icons/2.Regular/chevron-left-regular.svg) | `chevron-left-regular`  |  [.svg](icons/2.Regular/chevron-left-regular.svg) | [.pdf](icons/2.Regular/chevron-left-regular.pdf) |  
 | ![chevron-right-light](icons/1.Light/chevron-right-light.svg) | `chevron-right-light`  |  [.svg](icons/1.Light/chevron-right-light.svg) | [.pdf](icons/1.Light/chevron-right-light.pdf) |  
 | ![chevron-right-regular](icons/2.Regular/chevron-right-regular.svg) | `chevron-right-regular`  |  [.svg](icons/2.Regular/chevron-right-regular.svg) | [.pdf](icons/2.Regular/chevron-right-regular.pdf) |  
+| ![chevron-up-light](icons/1.Light/chevron-up-light.svg) | `chevron-up-light`  |  [.svg](icons/1.Light/chevron-up-light.svg) | [.pdf](icons/1.Light/chevron-up-light.pdf) |  
+| ![chevron-up-regular](icons/2.Regular/chevron-up-regular.svg) | `chevron-up-regular`  |  [.svg](icons/2.Regular/chevron-up-regular.svg) | [.pdf](icons/2.Regular/chevron-up-regular.pdf) |  
 | ![child-filled](icons/3.Filled/child-filled.svg) | `child-filled`  |  [.svg](icons/3.Filled/child-filled.svg) | [.pdf](icons/3.Filled/child-filled.pdf) |  
 | ![child-light](icons/1.Light/child-light.svg) | `child-light`  |  [.svg](icons/1.Light/child-light.svg) | [.pdf](icons/1.Light/child-light.pdf) |  
 | ![child-regular](icons/2.Regular/child-regular.svg) | `child-regular`  |  [.svg](icons/2.Regular/child-regular.svg) | [.pdf](icons/2.Regular/child-regular.pdf) |  
