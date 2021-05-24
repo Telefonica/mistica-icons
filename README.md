@@ -100,6 +100,7 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonic
 | ![audio-filled](icons/3.Filled/audio-filled.svg) | `audio-filled`  |  [.svg](icons/3.Filled/audio-filled.svg) | [.pdf](icons/3.Filled/audio-filled.pdf) |  
 | ![audio-light](icons/1.Light/audio-light.svg) | `audio-light`  |  [.svg](icons/1.Light/audio-light.svg) | [.pdf](icons/1.Light/audio-light.pdf) |  
 | ![audio-regular](icons/2.Regular/audio-regular.svg) | `audio-regular`  |  [.svg](icons/2.Regular/audio-regular.svg) | [.pdf](icons/2.Regular/audio-regular.pdf) |  
+| ![aura-regular](icons/2.Regular/aura-regular.svg) | `aura-regular`  |  [.svg](icons/2.Regular/aura-regular.svg) | [.pdf](icons/2.Regular/aura-regular.pdf) |  
 | ![autentication-success-filled](icons/3.Filled/autentication-success-filled.svg) | `autentication-success-filled`  |  [.svg](icons/3.Filled/autentication-success-filled.svg) | [.pdf](icons/3.Filled/autentication-success-filled.pdf) |  
 | ![autentication-success-light](icons/1.Light/autentication-success-light.svg) | `autentication-success-light`  |  [.svg](icons/1.Light/autentication-success-light.svg) | [.pdf](icons/1.Light/autentication-success-light.pdf) |  
 | ![autentication-success-regular](icons/2.Regular/autentication-success-regular.svg) | `autentication-success-regular`  |  [.svg](icons/2.Regular/autentication-success-regular.svg) | [.pdf](icons/2.Regular/autentication-success-regular.pdf) |  
