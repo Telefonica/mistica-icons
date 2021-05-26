@@ -2378,8 +2378,8 @@
           }
         }
       ],
-      "name": "alarm-off-light",
-      "nameIsFixed": false,
+      "name": "bell-off-light",
+      "nameIsFixed": true,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
@@ -2487,9 +2487,14 @@
       "windingRule": 0
     }
   ],
-  "name": "1.Light/alarm-off-light",
-  "nameIsFixed": false,
+  "name": "1.Light/bell-off-light",
+  "nameIsFixed": true,
   "overrideProperties": [
+    {
+      "_class": "MSImmutableOverrideProperty",
+      "canOverride": true,
+      "overrideName": "FF352C2D-A073-4D65-BC80-75AA45733999_layerStyle"
+    },
     {
       "_class": "MSImmutableOverrideProperty",
       "canOverride": true,
