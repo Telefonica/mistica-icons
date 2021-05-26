@@ -42,9 +42,6 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonic
 | ![alarm-light-filled](icons/3.Filled/alarm-light-filled.svg) | `alarm-light-filled`  |  [.svg](icons/3.Filled/alarm-light-filled.svg) | [.pdf](icons/3.Filled/alarm-light-filled.pdf) |  
 | ![alarm-light-light](icons/1.Light/alarm-light-light.svg) | `alarm-light-light`  |  [.svg](icons/1.Light/alarm-light-light.svg) | [.pdf](icons/1.Light/alarm-light-light.pdf) |  
 | ![alarm-light-regular](icons/2.Regular/alarm-light-regular.svg) | `alarm-light-regular`  |  [.svg](icons/2.Regular/alarm-light-regular.svg) | [.pdf](icons/2.Regular/alarm-light-regular.pdf) |  
-| ![alarm-off-filled](icons/3.Filled/alarm-off-filled.svg) | `alarm-off-filled`  |  [.svg](icons/3.Filled/alarm-off-filled.svg) | [.pdf](icons/3.Filled/alarm-off-filled.pdf) |  
-| ![alarm-off-light](icons/1.Light/alarm-off-light.svg) | `alarm-off-light`  |  [.svg](icons/1.Light/alarm-off-light.svg) | [.pdf](icons/1.Light/alarm-off-light.pdf) |  
-| ![alarm-off-regular](icons/2.Regular/alarm-off-regular.svg) | `alarm-off-regular`  |  [.svg](icons/2.Regular/alarm-off-regular.svg) | [.pdf](icons/2.Regular/alarm-off-regular.pdf) |  
 | ![alert-filled](icons/3.Filled/alert-filled.svg) | `alert-filled`  |  [.svg](icons/3.Filled/alert-filled.svg) | [.pdf](icons/3.Filled/alert-filled.pdf) |  
 | ![alert-light](icons/1.Light/alert-light.svg) | `alert-light`  |  [.svg](icons/1.Light/alert-light.svg) | [.pdf](icons/1.Light/alert-light.pdf) |  
 | ![alert-regular](icons/2.Regular/alert-regular.svg) | `alert-regular`  |  [.svg](icons/2.Regular/alert-regular.svg) | [.pdf](icons/2.Regular/alert-regular.pdf) |  
@@ -126,6 +123,12 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonic
 | ![beach-umbrella-filled](icons/3.Filled/beach-umbrella-filled.svg) | `beach-umbrella-filled`  |  [.svg](icons/3.Filled/beach-umbrella-filled.svg) | [.pdf](icons/3.Filled/beach-umbrella-filled.pdf) |  
 | ![beach-umbrella-light](icons/1.Light/beach-umbrella-light.svg) | `beach-umbrella-light`  |  [.svg](icons/1.Light/beach-umbrella-light.svg) | [.pdf](icons/1.Light/beach-umbrella-light.pdf) |  
 | ![beach-umbrella-regular](icons/2.Regular/beach-umbrella-regular.svg) | `beach-umbrella-regular`  |  [.svg](icons/2.Regular/beach-umbrella-regular.svg) | [.pdf](icons/2.Regular/beach-umbrella-regular.pdf) |  
+| ![bell-filled](icons/3.Filled/bell-filled.svg) | `bell-filled`  |  [.svg](icons/3.Filled/bell-filled.svg) | [.pdf](icons/3.Filled/bell-filled.pdf) |  
+| ![bell-light](icons/1.Light/bell-light.svg) | `bell-light`  |  [.svg](icons/1.Light/bell-light.svg) | [.pdf](icons/1.Light/bell-light.pdf) |  
+| ![bell-off-filled](icons/3.Filled/bell-off-filled.svg) | `bell-off-filled`  |  [.svg](icons/3.Filled/bell-off-filled.svg) | [.pdf](icons/3.Filled/bell-off-filled.pdf) |  
+| ![bell-off-light](icons/1.Light/bell-off-light.svg) | `bell-off-light`  |  [.svg](icons/1.Light/bell-off-light.svg) | [.pdf](icons/1.Light/bell-off-light.pdf) |  
+| ![bell-off-regular](icons/2.Regular/bell-off-regular.svg) | `bell-off-regular`  |  [.svg](icons/2.Regular/bell-off-regular.svg) | [.pdf](icons/2.Regular/bell-off-regular.pdf) |  
+| ![bell-regular](icons/2.Regular/bell-regular.svg) | `bell-regular`  |  [.svg](icons/2.Regular/bell-regular.svg) | [.pdf](icons/2.Regular/bell-regular.pdf) |  
 | ![bicycle-bike-filled](icons/3.Filled/bicycle-bike-filled.svg) | `bicycle-bike-filled`  |  [.svg](icons/3.Filled/bicycle-bike-filled.svg) | [.pdf](icons/3.Filled/bicycle-bike-filled.pdf) |  
 | ![bicycle-bike-light](icons/1.Light/bicycle-bike-light.svg) | `bicycle-bike-light`  |  [.svg](icons/1.Light/bicycle-bike-light.svg) | [.pdf](icons/1.Light/bicycle-bike-light.pdf) |  
 | ![bicycle-bike-regular](icons/2.Regular/bicycle-bike-regular.svg) | `bicycle-bike-regular`  |  [.svg](icons/2.Regular/bicycle-bike-regular.svg) | [.pdf](icons/2.Regular/bicycle-bike-regular.pdf) |  
