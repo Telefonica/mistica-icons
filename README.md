@@ -20,9 +20,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonic
 | ![accesibility-filled](icons/3.Filled/accesibility-filled.svg) | `accesibility-filled`  |  [.svg](icons/3.Filled/accesibility-filled.svg) | [.pdf](icons/3.Filled/accesibility-filled.pdf) |  
 | ![accesibility-light](icons/1.Light/accesibility-light.svg) | `accesibility-light`  |  [.svg](icons/1.Light/accesibility-light.svg) | [.pdf](icons/1.Light/accesibility-light.pdf) |  
 | ![accesibility-regular](icons/2.Regular/accesibility-regular.svg) | `accesibility-regular`  |  [.svg](icons/2.Regular/accesibility-regular.svg) | [.pdf](icons/2.Regular/accesibility-regular.pdf) |  
-| ![add-more-alarm-filled](icons/3.Filled/add-more-alarm-filled.svg) | `add-more-alarm-filled`  |  [.svg](icons/3.Filled/add-more-alarm-filled.svg) | [.pdf](icons/3.Filled/add-more-alarm-filled.pdf) |  
 | ![add-more-alarm-light](icons/1.Light/add-more-alarm-light.svg) | `add-more-alarm-light`  |  [.svg](icons/1.Light/add-more-alarm-light.svg) | [.pdf](icons/1.Light/add-more-alarm-light.pdf) |  
-| ![add-more-alarm-regular](icons/2.Regular/add-more-alarm-regular.svg) | `add-more-alarm-regular`  |  [.svg](icons/2.Regular/add-more-alarm-regular.svg) | [.pdf](icons/2.Regular/add-more-alarm-regular.pdf) |  
+| ![add-more-bell-filled](icons/3.Filled/add-more-bell-filled.svg) | `add-more-bell-filled`  |  [.svg](icons/3.Filled/add-more-bell-filled.svg) | [.pdf](icons/3.Filled/add-more-bell-filled.pdf) |  
+| ![add-more-bell-regular](icons/2.Regular/add-more-bell-regular.svg) | `add-more-bell-regular`  |  [.svg](icons/2.Regular/add-more-bell-regular.svg) | [.pdf](icons/2.Regular/add-more-bell-regular.pdf) |  
 | ![add-more-circle-filled](icons/3.Filled/add-more-circle-filled.svg) | `add-more-circle-filled`  |  [.svg](icons/3.Filled/add-more-circle-filled.svg) | [.pdf](icons/3.Filled/add-more-circle-filled.pdf) |  
 | ![add-more-circle-light](icons/1.Light/add-more-circle-light.svg) | `add-more-circle-light`  |  [.svg](icons/1.Light/add-more-circle-light.svg) | [.pdf](icons/1.Light/add-more-circle-light.pdf) |  
 | ![add-more-circle-regular](icons/2.Regular/add-more-circle-regular.svg) | `add-more-circle-regular`  |  [.svg](icons/2.Regular/add-more-circle-regular.svg) | [.pdf](icons/2.Regular/add-more-circle-regular.pdf) |  
@@ -863,9 +863,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonic
 | ![process-loading-filled](icons/3.Filled/process-loading-filled.svg) | `process-loading-filled`  |  [.svg](icons/3.Filled/process-loading-filled.svg) | [.pdf](icons/3.Filled/process-loading-filled.pdf) |  
 | ![process-loading-light](icons/1.Light/process-loading-light.svg) | `process-loading-light`  |  [.svg](icons/1.Light/process-loading-light.svg) | [.pdf](icons/1.Light/process-loading-light.pdf) |  
 | ![process-loading-regular](icons/2.Regular/process-loading-regular.svg) | `process-loading-regular`  |  [.svg](icons/2.Regular/process-loading-regular.svg) | [.pdf](icons/2.Regular/process-loading-regular.pdf) |  
-| ![program-alarm-filled](icons/3.Filled/program-alarm-filled.svg) | `program-alarm-filled`  |  [.svg](icons/3.Filled/program-alarm-filled.svg) | [.pdf](icons/3.Filled/program-alarm-filled.pdf) |  
 | ![program-alarm-light](icons/1.Light/program-alarm-light.svg) | `program-alarm-light`  |  [.svg](icons/1.Light/program-alarm-light.svg) | [.pdf](icons/1.Light/program-alarm-light.pdf) |  
-| ![program-alarm-regular](icons/2.Regular/program-alarm-regular.svg) | `program-alarm-regular`  |  [.svg](icons/2.Regular/program-alarm-regular.svg) | [.pdf](icons/2.Regular/program-alarm-regular.pdf) |  
+| ![program-bell-filled](icons/3.Filled/program-bell-filled.svg) | `program-bell-filled`  |  [.svg](icons/3.Filled/program-bell-filled.svg) | [.pdf](icons/3.Filled/program-bell-filled.pdf) |  
+| ![program-bell-regular](icons/2.Regular/program-bell-regular.svg) | `program-bell-regular`  |  [.svg](icons/2.Regular/program-bell-regular.svg) | [.pdf](icons/2.Regular/program-bell-regular.pdf) |  
 | ![puzzle-filled](icons/3.Filled/puzzle-filled.svg) | `puzzle-filled`  |  [.svg](icons/3.Filled/puzzle-filled.svg) | [.pdf](icons/3.Filled/puzzle-filled.pdf) |  
 | ![puzzle-light](icons/1.Light/puzzle-light.svg) | `puzzle-light`  |  [.svg](icons/1.Light/puzzle-light.svg) | [.pdf](icons/1.Light/puzzle-light.pdf) |  
 | ![puzzle-regular](icons/2.Regular/puzzle-regular.svg) | `puzzle-regular`  |  [.svg](icons/2.Regular/puzzle-regular.svg) | [.pdf](icons/2.Regular/puzzle-regular.pdf) |  
