@@ -71,6 +71,7 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonic
 | ![arrow-down-right-regular](icons/2.Regular/arrow-down-right-regular.svg) | `arrow-down-right-regular`  |  [.svg](icons/2.Regular/arrow-down-right-regular.svg) | [.pdf](icons/2.Regular/arrow-down-right-regular.pdf) |  
 | ![arrow-drop-down-filled](icons/3.Filled/arrow-drop-down-filled.svg) | `arrow-drop-down-filled`  |  [.svg](icons/3.Filled/arrow-drop-down-filled.svg) | [.pdf](icons/3.Filled/arrow-drop-down-filled.pdf) |  
 | ![arrow-drop-up-filled](icons/3.Filled/arrow-drop-up-filled.svg) | `arrow-drop-up-filled`  |  [.svg](icons/3.Filled/arrow-drop-up-filled.svg) | [.pdf](icons/3.Filled/arrow-drop-up-filled.pdf) |  
+| ![arrow-forward-light](icons/2.Regular/arrow-forward-light.svg) | `arrow-forward-light`  |  [.svg](icons/2.Regular/arrow-forward-light.svg) | [.pdf](icons/2.Regular/arrow-forward-light.pdf) |  
 | ![arrow-forward-regular](icons/2.Regular/arrow-forward-regular.svg) | `arrow-forward-regular`  |  [.svg](icons/2.Regular/arrow-forward-regular.svg) | [.pdf](icons/2.Regular/arrow-forward-regular.pdf) |  
 | ![arrow-left-filled](icons/3.Filled/arrow-left-filled.svg) | `arrow-left-filled`  |  [.svg](icons/3.Filled/arrow-left-filled.svg) | [.pdf](icons/3.Filled/arrow-left-filled.pdf) |  
 | ![arrow-right-filled](icons/3.Filled/arrow-right-filled.svg) | `arrow-right-filled`  |  [.svg](icons/3.Filled/arrow-right-filled.svg) | [.pdf](icons/3.Filled/arrow-right-filled.pdf) |  
