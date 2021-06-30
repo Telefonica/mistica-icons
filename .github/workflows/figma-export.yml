@@ -1,0 +1,16 @@
+name: Export SVG from Figma
+
+on: [push]
+
+jobs:
+  all:
+    name: Figma Export
+    runs-on: ubuntu-latest    
+    steps:
+      - uses: primer/figma-action@v1.0.0-alpha.2
+        with:
+          args: "format=svg outputDir=./build/"
+        env:
+          FIGMA_FILE_URL: "https://www.figma.com/file/JHuzksh01yxExMeMQBvymq/%5BBeta%5D-Mistica-Icons"
+          FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
+
