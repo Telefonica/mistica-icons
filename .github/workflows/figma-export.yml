@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: primer/figma-action@v1.0.0-alpha.2
         with:
-          args: "format=svg outputDir=./build/"
+          args: "format=svg outputDir=./test/"
         env:
           FIGMA_FILE_URL: "https://www.figma.com/file/6QV4elWZVBUlzCLSCpJ7Ti/Untitled"
           FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
