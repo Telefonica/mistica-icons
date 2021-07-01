@@ -7,7 +7,7 @@ jobs:
     name: Figma Export
     runs-on: ubuntu-latest    
     steps:
-      - uses: primer/figma-action@v1.0.0-alpha.5
+      - uses: chasemccoy/figma-action@v1.0.0-alpha.5
         with:
           args: "format=svg outputDir=./test/"
         env:
