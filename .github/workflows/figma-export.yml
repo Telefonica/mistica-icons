@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: chasemccoy/figma-action@v1.0.0-alpha.5
         with:
-          args: "format=svg outputDir=./test/"
+          args: "format=svg outputDir=./figma-icons-test/"
         env:
-          FIGMA_FILE_URL: "https://www.figma.com/file/6QV4elWZVBUlzCLSCpJ7Ti/Untitled"
+          FIGMA_FILE_URL: "https://www.figma.com/file/JHuzksh01yxExMeMQBvymq/Beta-Mistica-Icons"
           FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
