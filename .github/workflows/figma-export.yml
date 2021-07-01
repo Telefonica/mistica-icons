@@ -7,7 +7,7 @@ jobs:
     name: Figma Export
     runs-on: ubuntu-latest
     steps:
-      - uses: chasemccoy/figma-action@v1.0.0-alpha.5
+      - uses: chasemccoy/figma-action@v1.0.0-alpha.4
         with:
           args: "format=svg outputDir=./figma-icons-test/"
         env:
