@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: "production"
+          ref: "figma-export"
       - uses: actions/setup-node@v1
         with:
           node-version: "10.x"
@@ -46,7 +46,7 @@ jobs:
           commit-message: "chore: sync icons with Figma"
           title: "Sync icons from Figma"
           branch: "figma-icon-sync"
-          base: "main"
+          base: "figma-export"
           body: |
             🚨 **This pull request has been created automatically** 🚨
 
