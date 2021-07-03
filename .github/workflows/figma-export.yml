@@ -38,7 +38,6 @@ jobs:
       - run: |
           sudo cp -R ./figma/svg/. ./fig-icons/
           sudo rm -r ./figma
-
       # Create a PR if there are any file diffs
       - uses: peter-evans/create-pull-request@v3
         with:
