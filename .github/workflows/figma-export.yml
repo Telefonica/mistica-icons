@@ -1,8 +1,8 @@
 name: Sync icons from Figma
 on:
   schedule:
-    # Every day at 9
-    - cron: "0 9 * * *"
+    # At 09:00 on every day-of-week from Monday through Friday
+    - cron: "0 9 * * 1-5"
 jobs:
   all:
     name: Sync icons
