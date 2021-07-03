@@ -1,9 +1,8 @@
 name: Sync icons from Figma
 on:
-  [push]
-  # schedule:
-  #   # Every 30 minutes
-  #   - cron: "*/30 * * * *"
+  schedule:
+    # Every day at 9
+    - cron: "0 9 * * *"
 jobs:
   all:
     name: Sync icons
@@ -46,7 +45,7 @@ jobs:
           sudo rm -r ./figma
 
       # Create a PR if there are any file diffs
-      - uses: peter-evans/create-pull-request@v3
+      - uses: peter-evans/create-pull-request@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "chore: sync icons with Figma"
