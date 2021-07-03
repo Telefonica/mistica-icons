@@ -27,7 +27,7 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: Install Dependencies
         run: |
-          yarn clean cache
+          yarn start
           yarn install
       - uses: chasemccoy/figma-action@1.0.0-alpha.5
         with:
