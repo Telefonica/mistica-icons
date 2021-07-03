@@ -10,7 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-
+        with:
+          ref: "production"
       - uses: actions/setup-node@v1
         with:
           node-version: "10.x"
@@ -37,7 +38,7 @@ jobs:
       - run: |
           sudo cp -R ./figma/svg/. ./fig-icons/
           sudo rm -r ./figma
-          sudo yarn icon-lint write "./fig-icons/*.svg"
+
       # Create a PR if there are any file diffs
       - uses: peter-evans/create-pull-request@v2
         with:
