@@ -14,24 +14,24 @@ jobs:
         with:
           ref: "production"
 
-      - uses: actions/setup-node@v1
-        with:
-          node-version: "10.x"
+      # - uses: actions/setup-node@v1
+      #   with:
+      #     node-version: "10.x"
 
-      # Persist the yarn cache between builds, unless yarn.lock changes
-      - name: Get yarn cache
-        id: yarn-cache
-        run: echo "::set-output name=dir::$(yarn cache dir)"
+      # # Persist the yarn cache between builds, unless yarn.lock changes
+      # - name: Get yarn cache
+      #   id: yarn-cache
+      #   run: echo "::set-output name=dir::$(yarn cache dir)"
 
-      - uses: actions/cache@v1
-        with:
-          path: ${{ steps.yarn-cache.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
+      # - uses: actions/cache@v1
+      #   with:
+      #     path: ${{ steps.yarn-cache.outputs.dir }}
+      #     key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+      #     restore-keys: |
+      #       ${{ runner.os }}-yarn-
 
-      - name: Install Dependencies
-        run: yarn install
+      # - name: Install Dependencies
+      #   run: yarn install
 
       - uses: chasemccoy/figma-action@1.0.0-alpha.5
         with:
