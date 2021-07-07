@@ -1,4 +1,5 @@
 name: Sync icons from Figma
+
 on:
   schedule:
     # At 09:00 on every day-of-week from Monday through Friday
@@ -38,7 +39,7 @@ jobs:
           args: "format=svg outputDir=./figma"
         env:
           # This points to the Figma URL of our current icon kit
-          FIGMA_FILE_URL: "https://www.figma.com/file/xE9n1mWdBoHScrCeVlNkIN/Free-Icon-Pack-820-icons-Community"
+          FIGMA_FILE_URL: "https://www.figma.com/file/JHuzksh01yxExMeMQBvymq/Beta-Mistica-Icons"
           FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
 
       # Move the output files to our icons folder and run the icon linter on them
