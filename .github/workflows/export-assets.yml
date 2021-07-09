@@ -48,7 +48,6 @@ jobs:
           git config user.email "nobody@nowhere"  
           git commit -am "Update Assets"
           git push origin ${{ env.GITHUB_REF_SLUG_URL }}
-
     # - name: Push
     #   run: |
     #     git show-ref
