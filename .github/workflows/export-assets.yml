@@ -21,6 +21,7 @@ jobs:
       - name: Install svgo
         run: |
           rm -rf node_modules
+          npm cache clean --force
           npm install
           npm install -g svgo
 
