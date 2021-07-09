@@ -19,11 +19,7 @@ jobs:
         uses: rlespinasse/github-slug-action@v3.x
 
       - name: Install svgo
-        run: |
-          rm -rf node_modules
-          npm cache clean --force
-          npm install
-          npm install -g svgo
+        run: npm install -g svgo
 
       - name: Removed assets
         run: git rm -r icons/*
