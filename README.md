@@ -203,6 +203,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonic
 | ![car-with-clock-light](icons/1.Light/car-with-clock-light.svg) | `car-with-clock-light`  |  [.svg](icons/1.Light/car-with-clock-light.svg) | [.pdf](icons/1.Light/car-with-clock-light.pdf) |  
 | ![car-with-clock-regular](icons/2.Regular/car-with-clock-regular.svg) | `car-with-clock-regular`  |  [.svg](icons/2.Regular/car-with-clock-regular.svg) | [.pdf](icons/2.Regular/car-with-clock-regular.pdf) |  
 | ![care-filled](icons/3.Filled/care-filled.svg) | `care-filled`  |  [.svg](icons/3.Filled/care-filled.svg) | [.pdf](icons/3.Filled/care-filled.pdf) |  
+| ![care-health-filled](icons/3.Filled/care-health-filled.svg) | `care-health-filled`  |  [.svg](icons/3.Filled/care-health-filled.svg) | [.pdf](icons/3.Filled/care-health-filled.pdf) |  
+| ![care-health-light](icons/1.Light/care-health-light.svg) | `care-health-light`  |  [.svg](icons/1.Light/care-health-light.svg) | [.pdf](icons/1.Light/care-health-light.pdf) |  
+| ![care-health-regular](icons/2.Regular/care-health-regular.svg) | `care-health-regular`  |  [.svg](icons/2.Regular/care-health-regular.svg) | [.pdf](icons/2.Regular/care-health-regular.pdf) |  
 | ![care-light](icons/1.Light/care-light.svg) | `care-light`  |  [.svg](icons/1.Light/care-light.svg) | [.pdf](icons/1.Light/care-light.pdf) |  
 | ![care-regular](icons/2.Regular/care-regular.svg) | `care-regular`  |  [.svg](icons/2.Regular/care-regular.svg) | [.pdf](icons/2.Regular/care-regular.pdf) |  
 | ![care-shield-filled](icons/3.Filled/care-shield-filled.svg) | `care-shield-filled`  |  [.svg](icons/3.Filled/care-shield-filled.svg) | [.pdf](icons/3.Filled/care-shield-filled.pdf) |  
