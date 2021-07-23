@@ -279,6 +279,8 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonic
 | ![code-filled](icons/3.Filled/code-filled.svg) | `code-filled`  |  [.svg](icons/3.Filled/code-filled.svg) | [.pdf](icons/3.Filled/code-filled.pdf) |  
 | ![code-light](icons/1.Light/code-light.svg) | `code-light`  |  [.svg](icons/1.Light/code-light.svg) | [.pdf](icons/1.Light/code-light.pdf) |  
 | ![code-regular](icons/2.Regular/code-regular.svg) | `code-regular`  |  [.svg](icons/2.Regular/code-regular.svg) | [.pdf](icons/2.Regular/code-regular.pdf) |  
+| ![computer-academic-filled](icons/3.Filled/computer-academic-filled.svg) | `computer-academic-filled`  |  [.svg](icons/3.Filled/computer-academic-filled.svg) | [.pdf](icons/3.Filled/computer-academic-filled.pdf) |  
+| ![computer-academic-regular](icons/2.Regular/computer-academic-regular.svg) | `computer-academic-regular`  |  [.svg](icons/2.Regular/computer-academic-regular.svg) | [.pdf](icons/2.Regular/computer-academic-regular.pdf) |  
 | ![computer-filled](icons/3.Filled/computer-filled.svg) | `computer-filled`  |  [.svg](icons/3.Filled/computer-filled.svg) | [.pdf](icons/3.Filled/computer-filled.pdf) |  
 | ![computer-light](icons/1.Light/computer-light.svg) | `computer-light`  |  [.svg](icons/1.Light/computer-light.svg) | [.pdf](icons/1.Light/computer-light.pdf) |  
 | ![computer-regular](icons/2.Regular/computer-regular.svg) | `computer-regular`  |  [.svg](icons/2.Regular/computer-regular.svg) | [.pdf](icons/2.Regular/computer-regular.pdf) |  
@@ -425,9 +427,11 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonic
 | ![error-filled](icons/3.Filled/error-filled.svg) | `error-filled`  |  [.svg](icons/3.Filled/error-filled.svg) | [.pdf](icons/3.Filled/error-filled.pdf) |  
 | ![error-light](icons/1.Light/error-light.svg) | `error-light`  |  [.svg](icons/1.Light/error-light.svg) | [.pdf](icons/1.Light/error-light.pdf) |  
 | ![error-regular](icons/2.Regular/error-regular.svg) | `error-regular`  |  [.svg](icons/2.Regular/error-regular.svg) | [.pdf](icons/2.Regular/error-regular.pdf) |  
+| ![euro-symbol-circle-filled](icons/3.Filled/euro-symbol-circle-filled.svg) | `euro-symbol-circle-filled`  |  [.svg](icons/3.Filled/euro-symbol-circle-filled.svg) | [.pdf](icons/3.Filled/euro-symbol-circle-filled.pdf) |  
+| ![euro-symbol-circle-light](icons/1.Light/euro-symbol-circle-light.svg) | `euro-symbol-circle-light`  |  [.svg](icons/1.Light/euro-symbol-circle-light.svg) | [.pdf](icons/1.Light/euro-symbol-circle-light.pdf) |  
+| ![euro-symbol-circle-regular](icons/2.Regular/euro-symbol-circle-regular.svg) | `euro-symbol-circle-regular`  |  [.svg](icons/2.Regular/euro-symbol-circle-regular.svg) | [.pdf](icons/2.Regular/euro-symbol-circle-regular.pdf) |  
 | ![euro-symbol-filled](icons/3.Filled/euro-symbol-filled.svg) | `euro-symbol-filled`  |  [.svg](icons/3.Filled/euro-symbol-filled.svg) | [.pdf](icons/3.Filled/euro-symbol-filled.pdf) |  
 | ![euro-symbol-light](icons/1.Light/euro-symbol-light.svg) | `euro-symbol-light`  |  [.svg](icons/1.Light/euro-symbol-light.svg) | [.pdf](icons/1.Light/euro-symbol-light.pdf) |  
-| ![euro-symbol-regular](icons/2.Regular/euro-symbol-regular.svg) | `euro-symbol-regular`  |  [.svg](icons/2.Regular/euro-symbol-regular.svg) | [.pdf](icons/2.Regular/euro-symbol-regular.pdf) |  
 | ![exchange-filled](icons/3.Filled/exchange-filled.svg) | `exchange-filled`  |  [.svg](icons/3.Filled/exchange-filled.svg) | [.pdf](icons/3.Filled/exchange-filled.pdf) |  
 | ![exchange-light](icons/1.Light/exchange-light.svg) | `exchange-light`  |  [.svg](icons/1.Light/exchange-light.svg) | [.pdf](icons/1.Light/exchange-light.pdf) |  
 | ![exchange-regular](icons/2.Regular/exchange-regular.svg) | `exchange-regular`  |  [.svg](icons/2.Regular/exchange-regular.svg) | [.pdf](icons/2.Regular/exchange-regular.pdf) |  
@@ -739,6 +743,8 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonic
 | ![music-light](icons/1.Light/music-light.svg) | `music-light`  |  [.svg](icons/1.Light/music-light.svg) | [.pdf](icons/1.Light/music-light.pdf) |  
 | ![music-regular](icons/2.Regular/music-regular.svg) | `music-regular`  |  [.svg](icons/2.Regular/music-regular.svg) | [.pdf](icons/2.Regular/music-regular.pdf) |  
 | ![neural-network-filled](icons/3.Filled/neural-network-filled.svg) | `neural-network-filled`  |  [.svg](icons/3.Filled/neural-network-filled.svg) | [.pdf](icons/3.Filled/neural-network-filled.pdf) |  
+| ![neural-network-human-filled](icons/3.Filled/neural-network-human-filled.svg) | `neural-network-human-filled`  |  [.svg](icons/3.Filled/neural-network-human-filled.svg) | [.pdf](icons/3.Filled/neural-network-human-filled.pdf) |  
+| ![neural-network-human-regular](icons/2.Regular/neural-network-human-regular.svg) | `neural-network-human-regular`  |  [.svg](icons/2.Regular/neural-network-human-regular.svg) | [.pdf](icons/2.Regular/neural-network-human-regular.pdf) |  
 | ![neural-network-light](icons/1.Light/neural-network-light.svg) | `neural-network-light`  |  [.svg](icons/1.Light/neural-network-light.svg) | [.pdf](icons/1.Light/neural-network-light.pdf) |  
 | ![neural-network-regular](icons/2.Regular/neural-network-regular.svg) | `neural-network-regular`  |  [.svg](icons/2.Regular/neural-network-regular.svg) | [.pdf](icons/2.Regular/neural-network-regular.pdf) |  
 | ![not-conexion-filled](icons/3.Filled/not-conexion-filled.svg) | `not-conexion-filled`  |  [.svg](icons/3.Filled/not-conexion-filled.svg) | [.pdf](icons/3.Filled/not-conexion-filled.pdf) |  
@@ -1093,6 +1099,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonic
 | ![travel-bag-filled](icons/3.Filled/travel-bag-filled.svg) | `travel-bag-filled`  |  [.svg](icons/3.Filled/travel-bag-filled.svg) | [.pdf](icons/3.Filled/travel-bag-filled.pdf) |  
 | ![travel-bag-light](icons/1.Light/travel-bag-light.svg) | `travel-bag-light`  |  [.svg](icons/1.Light/travel-bag-light.svg) | [.pdf](icons/1.Light/travel-bag-light.pdf) |  
 | ![travel-bag-regular](icons/2.Regular/travel-bag-regular.svg) | `travel-bag-regular`  |  [.svg](icons/2.Regular/travel-bag-regular.svg) | [.pdf](icons/2.Regular/travel-bag-regular.pdf) |  
+| ![tree-2-filled](icons/3.Filled/tree-2-filled.svg) | `tree-2-filled`  |  [.svg](icons/3.Filled/tree-2-filled.svg) | [.pdf](icons/3.Filled/tree-2-filled.pdf) |  
+| ![tree-2-light](icons/1.Light/tree-2-light.svg) | `tree-2-light`  |  [.svg](icons/1.Light/tree-2-light.svg) | [.pdf](icons/1.Light/tree-2-light.pdf) |  
+| ![tree-2-regular](icons/2.Regular/tree-2-regular.svg) | `tree-2-regular`  |  [.svg](icons/2.Regular/tree-2-regular.svg) | [.pdf](icons/2.Regular/tree-2-regular.pdf) |  
 | ![tree-filled](icons/3.Filled/tree-filled.svg) | `tree-filled`  |  [.svg](icons/3.Filled/tree-filled.svg) | [.pdf](icons/3.Filled/tree-filled.pdf) |  
 | ![tree-light](icons/1.Light/tree-light.svg) | `tree-light`  |  [.svg](icons/1.Light/tree-light.svg) | [.pdf](icons/1.Light/tree-light.pdf) |  
 | ![tree-regular](icons/2.Regular/tree-regular.svg) | `tree-regular`  |  [.svg](icons/2.Regular/tree-regular.svg) | [.pdf](icons/2.Regular/tree-regular.pdf) |  
