@@ -21,7 +21,7 @@ jobs:
       - run: npm install --global figma-export-icons --force
 
       - name: Run export icons
-        run: npm run export-icons
+        run: export-icons
 
       - name: Add icons
         run: git add -A figma-icons/*
