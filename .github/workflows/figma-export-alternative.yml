@@ -1,0 +1,39 @@
+name: SketchTool Export Assets
+
+on:
+  push:
+    # branches:
+    #   - production
+    # paths:
+    #   - "libs/**"
+    #   - "icons/**"
+    #   # - ".github/workflows/export-assets.yml"
+
+jobs:
+  assets:
+    runs-on: [self-hosted, macOS]
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Get branch name
+        uses: rlespinasse/github-slug-action@v3.x
+
+      - run: npm install -g figma-export-icons
+
+      - name: Run export icons
+        run: npm run export-icons
+
+      - name: Add icons
+        run: git add -A figma-icons/*
+
+      - name: Commit & Push
+        run: |
+          git config user.name "Bot"
+          git config user.email "nobody@nowhere"  
+          git commit -am "Update figma icons"
+          git push origin ${{ env.GITHUB_REF_SLUG_URL }}
+
+    # - name: Push
+    #   run: |
+    #     git show-ref
+    #     git commit -m 'icon exported'
