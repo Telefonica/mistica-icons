@@ -1103,7 +1103,7 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonic
 | ![travel-bag-filled](icons/3.Filled/travel-bag-filled.svg) | `travel-bag-filled`  |  [.svg](icons/3.Filled/travel-bag-filled.svg) | [.pdf](icons/3.Filled/travel-bag-filled.pdf) |  
 | ![travel-bag-light](icons/1.Light/travel-bag-light.svg) | `travel-bag-light`  |  [.svg](icons/1.Light/travel-bag-light.svg) | [.pdf](icons/1.Light/travel-bag-light.pdf) |  
 | ![travel-bag-regular](icons/2.Regular/travel-bag-regular.svg) | `travel-bag-regular`  |  [.svg](icons/2.Regular/travel-bag-regular.svg) | [.pdf](icons/2.Regular/travel-bag-regular.pdf) |  
-| ![tree-2-filled](icons/3.Filled/tree-2-filled.svg) | `tree-2-filled`  |  [.svg](icons/3.Filled/tree-2-filled.svg) | [.pdf](icons/3.Filled/tree-2-filled.pdf) |  
+| ![tree-filled](icons/3.Filled/tree-filled.svg) | `tree-filled`  |  [.svg](icons/3.Filled/tree-filled.svg) | [.pdf](icons/3.Filled/tree-filled.pdf) |  
 | ![tree-light](icons/1.Light/tree-light.svg) | `tree-light`  |  [.svg](icons/1.Light/tree-light.svg) | [.pdf](icons/1.Light/tree-light.pdf) |  
 | ![tree-regular](icons/2.Regular/tree-regular.svg) | `tree-regular`  |  [.svg](icons/2.Regular/tree-regular.svg) | [.pdf](icons/2.Regular/tree-regular.pdf) |  
 | ![trend-down-light](icons/1.Light/trend-down-light.svg) | `trend-down-light`  |  [.svg](icons/1.Light/trend-down-light.svg) | [.pdf](icons/1.Light/trend-down-light.pdf) |  
