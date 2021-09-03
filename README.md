@@ -163,6 +163,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonic
 | ![bus-filled](icons/3.Filled/bus-filled.svg) | `bus-filled`  |  [.svg](icons/3.Filled/bus-filled.svg) | [.pdf](icons/3.Filled/bus-filled.pdf) |  
 | ![bus-light](icons/1.Light/bus-light.svg) | `bus-light`  |  [.svg](icons/1.Light/bus-light.svg) | [.pdf](icons/1.Light/bus-light.pdf) |  
 | ![bus-regular](icons/2.Regular/bus-regular.svg) | `bus-regular`  |  [.svg](icons/2.Regular/bus-regular.svg) | [.pdf](icons/2.Regular/bus-regular.pdf) |  
+| ![bush-filled](icons/3.Filled/bush-filled.svg) | `bush-filled`  |  [.svg](icons/3.Filled/bush-filled.svg) | [.pdf](icons/3.Filled/bush-filled.pdf) |  
+| ![bush-light](icons/1.Light/bush-light.svg) | `bush-light`  |  [.svg](icons/1.Light/bush-light.svg) | [.pdf](icons/1.Light/bush-light.pdf) |  
+| ![bush-regular](icons/2.Regular/bush-regular.svg) | `bush-regular`  |  [.svg](icons/2.Regular/bush-regular.svg) | [.pdf](icons/2.Regular/bush-regular.pdf) |  
 | ![buy-data-filled](icons/3.Filled/buy-data-filled.svg) | `buy-data-filled`  |  [.svg](icons/3.Filled/buy-data-filled.svg) | [.pdf](icons/3.Filled/buy-data-filled.pdf) |  
 | ![buy-data-light](icons/1.Light/buy-data-light.svg) | `buy-data-light`  |  [.svg](icons/1.Light/buy-data-light.svg) | [.pdf](icons/1.Light/buy-data-light.pdf) |  
 | ![buy-data-regular](icons/2.Regular/buy-data-regular.svg) | `buy-data-regular`  |  [.svg](icons/2.Regular/buy-data-regular.svg) | [.pdf](icons/2.Regular/buy-data-regular.pdf) |  
@@ -432,6 +435,7 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonic
 | ![euro-symbol-circle-regular](icons/2.Regular/euro-symbol-circle-regular.svg) | `euro-symbol-circle-regular`  |  [.svg](icons/2.Regular/euro-symbol-circle-regular.svg) | [.pdf](icons/2.Regular/euro-symbol-circle-regular.pdf) |  
 | ![euro-symbol-filled](icons/3.Filled/euro-symbol-filled.svg) | `euro-symbol-filled`  |  [.svg](icons/3.Filled/euro-symbol-filled.svg) | [.pdf](icons/3.Filled/euro-symbol-filled.pdf) |  
 | ![euro-symbol-light](icons/1.Light/euro-symbol-light.svg) | `euro-symbol-light`  |  [.svg](icons/1.Light/euro-symbol-light.svg) | [.pdf](icons/1.Light/euro-symbol-light.pdf) |  
+| ![euro-symbol-regular](icons/2.Regular/euro-symbol-regular.svg) | `euro-symbol-regular`  |  [.svg](icons/2.Regular/euro-symbol-regular.svg) | [.pdf](icons/2.Regular/euro-symbol-regular.pdf) |  
 | ![exchange-filled](icons/3.Filled/exchange-filled.svg) | `exchange-filled`  |  [.svg](icons/3.Filled/exchange-filled.svg) | [.pdf](icons/3.Filled/exchange-filled.pdf) |  
 | ![exchange-light](icons/1.Light/exchange-light.svg) | `exchange-light`  |  [.svg](icons/1.Light/exchange-light.svg) | [.pdf](icons/1.Light/exchange-light.pdf) |  
 | ![exchange-regular](icons/2.Regular/exchange-regular.svg) | `exchange-regular`  |  [.svg](icons/2.Regular/exchange-regular.svg) | [.pdf](icons/2.Regular/exchange-regular.pdf) |  
@@ -1100,9 +1104,6 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonic
 | ![travel-bag-light](icons/1.Light/travel-bag-light.svg) | `travel-bag-light`  |  [.svg](icons/1.Light/travel-bag-light.svg) | [.pdf](icons/1.Light/travel-bag-light.pdf) |  
 | ![travel-bag-regular](icons/2.Regular/travel-bag-regular.svg) | `travel-bag-regular`  |  [.svg](icons/2.Regular/travel-bag-regular.svg) | [.pdf](icons/2.Regular/travel-bag-regular.pdf) |  
 | ![tree-2-filled](icons/3.Filled/tree-2-filled.svg) | `tree-2-filled`  |  [.svg](icons/3.Filled/tree-2-filled.svg) | [.pdf](icons/3.Filled/tree-2-filled.pdf) |  
-| ![tree-2-light](icons/1.Light/tree-2-light.svg) | `tree-2-light`  |  [.svg](icons/1.Light/tree-2-light.svg) | [.pdf](icons/1.Light/tree-2-light.pdf) |  
-| ![tree-2-regular](icons/2.Regular/tree-2-regular.svg) | `tree-2-regular`  |  [.svg](icons/2.Regular/tree-2-regular.svg) | [.pdf](icons/2.Regular/tree-2-regular.pdf) |  
-| ![tree-filled](icons/3.Filled/tree-filled.svg) | `tree-filled`  |  [.svg](icons/3.Filled/tree-filled.svg) | [.pdf](icons/3.Filled/tree-filled.pdf) |  
 | ![tree-light](icons/1.Light/tree-light.svg) | `tree-light`  |  [.svg](icons/1.Light/tree-light.svg) | [.pdf](icons/1.Light/tree-light.pdf) |  
 | ![tree-regular](icons/2.Regular/tree-regular.svg) | `tree-regular`  |  [.svg](icons/2.Regular/tree-regular.svg) | [.pdf](icons/2.Regular/tree-regular.pdf) |  
 | ![trend-down-light](icons/1.Light/trend-down-light.svg) | `trend-down-light`  |  [.svg](icons/1.Light/trend-down-light.svg) | [.pdf](icons/1.Light/trend-down-light.pdf) |  
