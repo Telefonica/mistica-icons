@@ -14,7 +14,7 @@ PDF_EXTENSION = ".pdf"
 BREAK = "\n"
 
 if __name__ == '__main__':
-    path = sys.argv[1]
+    path = sys.argv[2]
     files = os.listdir(path)
     root = os.path.basename(path)
     dictionary = {}
