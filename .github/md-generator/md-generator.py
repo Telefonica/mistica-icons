@@ -24,7 +24,7 @@ if __name__ == '__main__':
         if os.path.isdir(brand_folder) and brand != ".DS_Store":
             for icon in os.listdir(brand_folder):
                 if icon != ".DS_Store":
-                    icon_name = os.path.splitext(icon)[0]
+                    icon_name = os.path.splitext(icon)[1]
                     icon_extension = os.path.splitext(icon)[1]
                     if icon_name in dictionary:
                         brands = dictionary[icon_name]
@@ -44,7 +44,7 @@ if __name__ == '__main__':
             path_icon = root + SLASH + brand + SLASH + icon + SVG_EXTENSION
             svg_icon = root + SLASH + brand + SLASH + icon + SVG_EXTENSION
             pdf_icon = root + SLASH + brand + SLASH + icon + PDF_EXTENSION
-            row = row + "| ![" + icon + "](" + path_icon + ") | `" + icon + "`  |  [.svg](" + svg_icon + ") | [.pdf](" + pdf_icon + ") |  "
+            row = row + "| ![" + icon + "](" + path_icon + ") | ![" + icon + "](" + path_icon + ") | `" + icon + "`  |  [.svg](" + svg_icon + ") | [.pdf](" + pdf_icon + ") |  "
         file_content += row + BREAK
 
     output_file_path = "./README.md"
