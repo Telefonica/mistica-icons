@@ -24,8 +24,8 @@ if __name__ == '__main__':
         if os.path.isdir(brand_folder) and brand != ".DS_Store":
             for icon in os.listdir(brand_folder):
                 if icon != ".DS_Store":
-                    icon_name = os.path.splitext(icon)[1]
-                    icon_extension = os.path.splitext(icon)[1]
+                    icon_name = os.path.splitext(icon)[0]
+                    icon_extension = os.path.splitext(icon)[2]
                     if icon_name in dictionary:
                         brands = dictionary[icon_name]
                         if brand not in brands:
