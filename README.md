@@ -14,6 +14,6 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonic
 # Icons 
 | Icon | name 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　 | SVG | PDF |
 | :-: | :- | :-: | :-: |
-| ![1](icons/default/1.svg) | `1`  |  [.svg](icons/default/1.svg) | [.pdf](icons/default/1.pdf) |  | ![1](icons/o2/1.svg) | `1`  |  [.svg](icons/o2/1.svg) | [.pdf](icons/o2/1.pdf) |  
-| ![2](icons/default/2.svg) | `2`  |  [.svg](icons/default/2.svg) | [.pdf](icons/default/2.pdf) |  | ![2](icons/o2/2.svg) | `2`  |  [.svg](icons/o2/2.svg) | [.pdf](icons/o2/2.pdf) |  
-| ![3](icons/default/3.svg) | `3`  |  [.svg](icons/default/3.svg) | [.pdf](icons/default/3.pdf) |  | ![3](icons/o2/3.svg) | `3`  |  [.svg](icons/o2/3.svg) | [.pdf](icons/o2/3.pdf) |  
+| ![.Filled](icons/default/.Filled.svg) | ![.Filled](icons/default/.Filled.svg) | `.Filled`  |  [.svg](icons/default/.Filled.svg) | [.pdf](icons/default/.Filled.pdf) |  | ![.Filled](icons/o2/.Filled.svg) | ![.Filled](icons/o2/.Filled.svg) | `.Filled`  |  [.svg](icons/o2/.Filled.svg) | [.pdf](icons/o2/.Filled.pdf) |  
+| ![.Light](icons/default/.Light.svg) | ![.Light](icons/default/.Light.svg) | `.Light`  |  [.svg](icons/default/.Light.svg) | [.pdf](icons/default/.Light.pdf) |  | ![.Light](icons/o2/.Light.svg) | ![.Light](icons/o2/.Light.svg) | `.Light`  |  [.svg](icons/o2/.Light.svg) | [.pdf](icons/o2/.Light.pdf) |  
+| ![.Regular](icons/default/.Regular.svg) | ![.Regular](icons/default/.Regular.svg) | `.Regular`  |  [.svg](icons/default/.Regular.svg) | [.pdf](icons/default/.Regular.pdf) |  | ![.Regular](icons/o2/.Regular.svg) | ![.Regular](icons/o2/.Regular.svg) | `.Regular`  |  [.svg](icons/o2/.Regular.svg) | [.pdf](icons/o2/.Regular.pdf) |  
