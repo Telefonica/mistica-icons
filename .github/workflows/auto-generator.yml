@@ -1,9 +1,9 @@
 name: Readme Generator
 
 on:
-  branches:
-    - multibrand-icons
   push:
+    branches:
+      - multibrand-icons
     paths:
       - ".github/md-generator/md-generator.py"
   workflow_run:
