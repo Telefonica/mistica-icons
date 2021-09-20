@@ -2,9 +2,6 @@ name: SketchTool Export Assets
 
 on:
   push:
-    branches:
-      - production
-      - ${{ env.GITHUB_REF_SLUG_URL }}
     paths:
       - "libs/**"
       - "icons/**"
