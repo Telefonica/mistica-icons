@@ -737,9 +737,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonic
 | ![mouse-filled](icons/3.Filled/mouse-filled.svg) | `mouse-filled`  |  [.svg](icons/3.Filled/mouse-filled.svg) | [.pdf](icons/3.Filled/mouse-filled.pdf) |  
 | ![mouse-light](icons/1.Light/mouse-light.svg) | `mouse-light`  |  [.svg](icons/1.Light/mouse-light.svg) | [.pdf](icons/1.Light/mouse-light.pdf) |  
 | ![mouse-regular](icons/2.Regular/mouse-regular.svg) | `mouse-regular`  |  [.svg](icons/2.Regular/mouse-regular.svg) | [.pdf](icons/2.Regular/mouse-regular.pdf) |  
+| ![multidevice-filled](icons/3.Filled/multidevice-filled.svg) | `multidevice-filled`  |  [.svg](icons/3.Filled/multidevice-filled.svg) | [.pdf](icons/3.Filled/multidevice-filled.pdf) |  
 | ![multidevice-light](icons/1.Light/multidevice-light.svg) | `multidevice-light`  |  [.svg](icons/1.Light/multidevice-light.svg) | [.pdf](icons/1.Light/multidevice-light.pdf) |  
-| ![multideviceo-filled](icons/3.Filled/multideviceo-filled.svg) | `multideviceo-filled`  |  [.svg](icons/3.Filled/multideviceo-filled.svg) | [.pdf](icons/3.Filled/multideviceo-filled.pdf) |  
-| ![multideviceo-regular](icons/2.Regular/multideviceo-regular.svg) | `multideviceo-regular`  |  [.svg](icons/2.Regular/multideviceo-regular.svg) | [.pdf](icons/2.Regular/multideviceo-regular.pdf) |  
+| ![multidevice-regular](icons/2.Regular/multidevice-regular.svg) | `multidevice-regular`  |  [.svg](icons/2.Regular/multidevice-regular.svg) | [.pdf](icons/2.Regular/multidevice-regular.pdf) |  
 | ![museum-filled](icons/3.Filled/museum-filled.svg) | `museum-filled`  |  [.svg](icons/3.Filled/museum-filled.svg) | [.pdf](icons/3.Filled/museum-filled.pdf) |  
 | ![museum-light](icons/1.Light/museum-light.svg) | `museum-light`  |  [.svg](icons/1.Light/museum-light.svg) | [.pdf](icons/1.Light/museum-light.pdf) |  
 | ![museum-regular](icons/2.Regular/museum-regular.svg) | `museum-regular`  |  [.svg](icons/2.Regular/museum-regular.svg) | [.pdf](icons/2.Regular/museum-regular.pdf) |  
