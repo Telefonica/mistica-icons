@@ -1,13 +1,13 @@
-name: SketchTool Export Assets
+name: Figma Export Icons
 
 on:
   push:
-    # branches:
-    #   - production
-    # paths:
-    #   - "libs/**"
-    #   - "icons/**"
-    #   # - ".github/workflows/export-assets.yml"
+    branches:
+      - figma-export-alternative
+    paths:
+      - "libs/**"
+      - "icons/**"
+      - ".github/workflows/figma-export-alternative.yml"
 
 jobs:
   assets:
