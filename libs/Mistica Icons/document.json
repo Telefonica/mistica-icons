@@ -82,7 +82,7 @@
       "do_objectID": "27E30FF3-7A55-4B15-8B88-078CFB7759D4",
       "fontFamilyName": "Nexa",
       "fontFileName": "Nexa Bold 650.otf",
-      "options": 0,
+      "options": 2,
       "postscriptNames": [
         "Nexa-Bold"
       ]
@@ -1219,6 +1219,118 @@
       "remoteStyleID": "B88E10DD-4475-40A8-AE40-8328C93856FD",
       "sourceLibraryName": "Movistar",
       "symbolPrivate": false
+    },
+    {
+      "_class": "MSImmutableForeignLayerStyle",
+      "do_objectID": "493D053B-A8A7-4616-8220-37101B269823",
+      "libraryID": "43F5A5A4-9D23-4B91-8DEE-1508D339C8AB",
+      "localSharedStyle": {
+        "_class": "sharedStyle",
+        "do_objectID": "BE423259-0AA7-4D48-8FCD-455064FDAAFD",
+        "name": "Global/neutralHigh",
+        "value": {
+          "_class": "style",
+          "blur": {
+            "_class": "blur",
+            "center": "{0.5, 0.5}",
+            "isEnabled": false,
+            "motionAngle": 0,
+            "radius": 10,
+            "saturation": 1,
+            "type": 0
+          },
+          "borderOptions": {
+            "_class": "borderOptions",
+            "dashPattern": [
+            ],
+            "isEnabled": true,
+            "lineCapStyle": 0,
+            "lineJoinStyle": 0
+          },
+          "borders": [
+          ],
+          "colorControls": {
+            "_class": "colorControls",
+            "brightness": 0,
+            "contrast": 1,
+            "hue": 0,
+            "isEnabled": true,
+            "saturation": 1
+          },
+          "contextSettings": {
+            "_class": "graphicsContextSettings",
+            "blendMode": 0,
+            "opacity": 1
+          },
+          "do_objectID": "D70093D8-6208-423C-B2FF-6CA6DD6E8854",
+          "endMarkerType": 0,
+          "fills": [
+            {
+              "_class": "fill",
+              "color": {
+                "_class": "color",
+                "alpha": 1,
+                "blue": 0.2,
+                "green": 0,
+                "red": 0,
+                "swatchID": "3FA9A1AF-2E72-41E9-B5B4-A1370BCA35EA"
+              },
+              "contextSettings": {
+                "_class": "graphicsContextSettings",
+                "blendMode": 0,
+                "opacity": 1
+              },
+              "fillType": 0,
+              "gradient": {
+                "_class": "gradient",
+                "elipseLength": 0,
+                "from": "{0.5, 0}",
+                "gradientType": 0,
+                "stops": [
+                  {
+                    "_class": "gradientStop",
+                    "color": {
+                      "_class": "color",
+                      "alpha": 1,
+                      "blue": 1,
+                      "green": 1,
+                      "red": 1
+                    },
+                    "position": 0
+                  },
+                  {
+                    "_class": "gradientStop",
+                    "color": {
+                      "_class": "color",
+                      "alpha": 1,
+                      "blue": 0,
+                      "green": 0,
+                      "red": 0
+                    },
+                    "position": 1
+                  }
+                ],
+                "to": "{0.5, 1}"
+              },
+              "isEnabled": true,
+              "noiseIndex": 0,
+              "noiseIntensity": 0,
+              "patternFillType": 1,
+              "patternTileScale": 1
+            }
+          ],
+          "innerShadows": [
+          ],
+          "miterLimit": 10,
+          "shadows": [
+          ],
+          "startMarkerType": 0,
+          "windingRule": 0
+        }
+      },
+      "remoteStyleID": "09030933-3CFD-45FA-9EE4-41E7521A5941",
+      "sourceLibraryName": "O2",
+      "symbolPrivate": false
     }
   ],
   "foreignSwatches": [
@@ -1281,6 +1393,26 @@
       "remoteSwatchID": "58B7B1FB-2EA2-4967-ABB6-514588D4F638",
       "sourceLibraryName": "Movistar",
       "symbolPrivate": false
+    },
+    {
+      "_class": "MSImmutableForeignSwatch",
+      "do_objectID": "BD12E838-6AD8-4A27-8D68-A9501E3EC190",
+      "libraryID": "43F5A5A4-9D23-4B91-8DEE-1508D339C8AB",
+      "localSwatch": {
+        "_class": "swatch",
+        "do_objectID": "3FA9A1AF-2E72-41E9-B5B4-A1370BCA35EA",
+        "name": "3. Neutrals/grey6",
+        "value": {
+          "_class": "color",
+          "alpha": 1,
+          "blue": 0.2,
+          "green": 0,
+          "red": 0
+        }
+      },
+      "remoteSwatchID": "4D6143C6-98F3-47AE-8CDB-BD86EA0B50A5",
+      "sourceLibraryName": "O2",
+      "symbolPrivate": false
     }
   ],
   "foreignSymbols": [
@@ -1294,8 +1426,8 @@
     ]
   },
   "meta": {
-    "appVersion": "77",
-    "build": 131065,
+    "appVersion": "76.1",
+    "build": 130273,
     "version": 136
   },
   "pages": [
