@@ -24,7 +24,7 @@ jobs:
         run: export-icons
 
       - name: Add icons
-        run: git add -A
+        run: git add .
 
       - name: Commit & Push
         run: |
