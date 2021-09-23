@@ -7,7 +7,9 @@
   "author": "Yayo <yceballost@gmail.com>",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "export-icons": "export-icons --config=./icons-config-filled.json"
+    "export-icons-light": "export-icons --config=icons-config/default-light.json",
+    "export-icons-regular": "export-icons --config=icons-config/default-regular.json",
+    "export-icons-filled": "export-icons --config=icons-config/default-filled.json"
   },
   "license": "MIT"
 }
