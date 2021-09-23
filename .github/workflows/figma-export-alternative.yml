@@ -18,7 +18,7 @@ jobs:
       - name: Get branch name
         uses: rlespinasse/github-slug-action@v3.x
 
-      - run: npm install figma-export-icons --save
+      - run: npm install --global figma-export-icons --force
 
       - name: npm run export-icons-filled
         run: export-icons-filled
