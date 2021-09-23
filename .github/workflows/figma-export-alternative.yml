@@ -20,13 +20,13 @@ jobs:
 
       - run: npm install figma-export-icons --save
 
-      - name: Run npm run export-icons-filled
+      - name: npm run export-icons-filled
         run: export-icons-filled
 
-      - name: Run npm run export-icons-regular
+      - name: npm run export-icons-regular
         run: export-icons-regular
 
-      - name: Run npm run export-icons-light
+      - name: npm run export-icons-light
         run: export-icons-light
 
       - name: Add icons
