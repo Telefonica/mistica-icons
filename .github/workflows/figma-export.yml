@@ -7,11 +7,7 @@ on:
 
   push:
     branches:
-      - production
-    paths:
-      - "libs/**"
-      - "icons/**"
-      - ".github/workflows/figma-export-alternative.yml"
+      - figma-export-alternative
 
 jobs:
   assets:
