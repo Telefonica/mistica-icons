@@ -16,17 +16,14 @@ jobs:
     runs-on: [self-hosted, Linux]
     steps:
       # comando solo para Self-Hosted machines
-      - run: sudo chown -R $USER:$USER /usr/local/lib/node_modules
-      - name: Cleanup
-        run: |
-          sudo chown -R $USER:$USER $GITHUB_WORKSPACE
+      - run: sudo chown -R $USER:$USER /home/pi/Actions/mistica-icons/_work/
 
       - uses: actions/checkout@v2
 
       - name: Get branch name
         uses: rlespinasse/github-slug-action@v3.x
 
-      - run: npm install -g figma-export-icons
+      - run: npm install --global figma-export-icons --force
 
       - name: export icons filled
         run: npm run export-icons-filled
