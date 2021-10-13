@@ -4,7 +4,8 @@ on:
   schedule:
     # At 09:45 on every day-of-week from Monday through Friday
     - cron: "45 9 * * 1-5"
-
+  issues:
+    types: [closed]
   push:
     branches:
       - figma-export-alternative
@@ -44,7 +45,39 @@ jobs:
           git commit -am "Update figma icons"
           git push origin ${{ env.GITHUB_REF_SLUG_URL }}
 
-    # - name: Push
-    #   run: |
-    #     git show-ref
-    #     git commit -m 'icon exported'
+# Action for Hackintosh
+
+# jobs:
+#   assets:
+#     runs-on: [self-hosted, macOS]
+#     steps:
+#       - uses: actions/checkout@v2
+
+#       - name: Get branch name
+#         uses: rlespinasse/github-slug-action@v3.x
+
+#       - run: npm install --global figma-export-icons --force
+
+#       - name: export icons filled
+#         run: npm run export-icons-filled
+
+#       - name: export icons regular
+#         run: npm run export-icons-regular
+
+#       - name: export icons light
+#         run: npm run export-icons-light
+
+#       - name: Add icons
+#         run: git add -A
+
+#       - name: Commit & Push
+#         run: |
+#           git config user.name "Bot"
+#           git config user.email "nobody@nowhere"
+#           git commit -am "Update figma icons"
+#           git push origin ${{ env.GITHUB_REF_SLUG_URL }}
+
+#     # - name: Push
+#     #   run: |
+#     #     git show-ref
+#     #     git commit -m 'icon exported'
