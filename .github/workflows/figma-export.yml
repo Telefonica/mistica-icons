@@ -8,6 +8,8 @@ on:
   push:
     branches:
       - figma-export-alternative
+    paths:
+      - ".github/workflows/figma-export-alternative.yml"
 
 jobs:
   assets:
