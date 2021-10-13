@@ -33,7 +33,7 @@ if __name__ == '__main__':
             icons = read_folder(style_folder)
             for icon in icons:
                 icon_name = os.path.splitext(icon)[0]
-                file_path = root + SLASH + brand + SLASH + style + SLASH + "`" + icon_name + "`" + SVG_EXTENSION
+                file_path = root + SLASH + brand + SLASH + style + SLASH + icon_name + SVG_EXTENSION
                 if icon_name in dictionary:
                     if style not in dictionary[icon_name]:
                         dictionary[icon_name][style] = {brand: file_path}
@@ -58,7 +58,7 @@ if __name__ == '__main__':
                 icon_image = " ![" + icon_name + "](" + icon[style][brand] + ") " if brand in icon[style] else " "
                 icon_images.append(icon_image)
             # row = "| default | O2 | my_icon_light |
-            row = PIPE + PIPE.join(icon_images) + PIPE + icon_name + PIPE
+            row = PIPE + PIPE.join(icon_images) + PIPE + "`" + icon_name + "`" + PIPE
             file_content += row + BREAK
 
     output_file_path = "./README.md"
