@@ -1,15 +1,15 @@
 name: Figma Export Icons
 
 on:
-  # schedule:
-  #   # At 09:45 on every day-of-week from Monday through Friday
-  #   - cron: "45 9 * * 1-5"
+  schedule:
+    # At 09:45 on every day-of-week from Monday through Friday
+    - cron: "45 9 * * 1-5"
 
   push:
     branches:
       - figma-export-alternative
     paths:
-      - ".github/workflows/figma-export-alternative.yml"
+      - ".github/workflows/figma-export.yml"
 
 jobs:
   assets:
