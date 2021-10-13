@@ -15,6 +15,12 @@ jobs:
   assets:
     runs-on: [self-hosted, Linux]
     steps:
+      # comando solo para Self-Hosted machines
+      - run: sudo chown -R $USER:$USER /home/pi/Actions/mistica-icons/_work/
+      - name: Cleanup
+        run: |
+          sudo chown -R $USER:$USER $GITHUB_WORKSPACE
+
       - uses: actions/checkout@v2
 
       - name: Get branch name
