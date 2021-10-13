@@ -5,8 +5,8 @@ on:
     branches:
       - multibrand-icons
     paths:
-      - '.github/md-generator/md-generator.py'
-      - '.github/workflows/auto-generator.yml'
+      - ".github/md-generator/md-generator.py"
+      - ".github/workflows/auto-generator.yml"
   workflow_run:
     workflows: ["SketchTool Export Assets"]
     types:
@@ -14,7 +14,7 @@ on:
 
 jobs:
   regenerating:
-    runs-on: [self-hosted, Linux]
+    runs-on: [self-hosted, macos]
 
     steps:
       # comando solo para Self-Hosted machines
@@ -34,7 +34,7 @@ jobs:
           python-version: "3.x" # Version range or exact version of a Python version to use, using SemVer's version range syntax
           architecture: "x64" # optional x64 or x86. Defaults to x64 if not specified
 
-      - run: sudo python .github/md-generator/md-generator.py icons
+      - run: sudo python3 .github/md-generator/md-generator.py icons
 
       - name: Commit & Push
         run: |
