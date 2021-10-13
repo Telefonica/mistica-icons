@@ -12,8 +12,8 @@ Visit [Mistica Storybook](https://mistica-web.now.sh/?path=/story/icons-mistica-
 #### Design
 Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonica.github.io/mistica/docs/design/start-using)
 # Icons 
-| default | o2 | name  | 
-| --- | --- | --- |
+| default | o2 | name | 
+| :---: | :---: |:--- |
 | ![academic-filled](icons/default/3.Filled/academic-filled.svg) | |`academic-filled`|
 | ![academic-light](icons/default/1.Light/academic-light.svg) | |`academic-light`|
 | ![academic-regular](icons/default/2.Regular/academic-regular.svg) | |`academic-regular`|
