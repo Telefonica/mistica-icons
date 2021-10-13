@@ -16,7 +16,7 @@ jobs:
     runs-on: [self-hosted, Linux]
     steps:
       # comando solo para Self-Hosted machines
-      - run: sudo chown -R $USER:$USER /home/pi/Actions/mistica-icons/_work/
+      - run: sudo chown -R $USER:$USER /usr/local/lib/node_modules
       - name: Cleanup
         run: |
           sudo chown -R $USER:$USER $GITHUB_WORKSPACE
