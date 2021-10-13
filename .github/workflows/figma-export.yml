@@ -13,7 +13,7 @@ on:
 
 jobs:
   assets:
-    runs-on: [self-hosted, macOS]
+    runs-on: [self-hosted, Linux]
     steps:
       - uses: actions/checkout@v2
 
