@@ -14,7 +14,7 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonic
 # Icons 
 | default | o2 | icon name <img width=596> | 
 | :---: | :---: |:--- |
-| ![academic-filled](icons/default/3.Filled/academic-filled.svg) | |`academic-filled`|
+| ![academic-filled](icons/default/3.Filled/academic-filled.svg) <img src=".github/resources/svg.png" /> <img src=".github/resources/pdf.png" /> | |`academic-filled`|
 | ![academic-light](icons/default/1.Light/academic-light.svg) | |`academic-light`|
 | ![academic-regular](icons/default/2.Regular/academic-regular.svg) | |`academic-regular`|
 | ![accesibility-filled](icons/default/3.Filled/accesibility-filled.svg) | ![accesibility-filled](icons/o2/3.Filled/accesibility-filled.svg) |`accesibility-filled`|
