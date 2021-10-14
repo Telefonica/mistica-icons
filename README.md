@@ -12,11 +12,11 @@ Visit [Mistica Storybook](https://mistica-web.now.sh/?path=/story/icons-mistica-
 #### Design
 Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonica.github.io/mistica/docs/design/start-using)
 # Icons 
-| default | o2 | icon name <img width=500> | 
-| :---: | :---: |:--- |
-| ![academic-filled](icons/default/3.Filled/academic-filled.svg) <img src=".github/resources/svg.png" /> <img src=".github/resources/pdf.png" /> | |`academic-filled`|
-| ![academic-light](icons/default/1.Light/academic-light.svg) | |`academic-light`|
-| ![academic-regular](icons/default/2.Regular/academic-regular.svg) | |`academic-regular`|
+| default | o2 | icon name <img width=500> | Default | O2 | 
+| :---: | :---: |:--- | :--- | :--- |
+| ![academic-filled](icons/default/3.Filled/academic-filled.svg) | |`academic-filled`|
+| ![academic-light](icons/default/1.Light/academic-light.svg) | |`academic-light`| <img src=".github/resources/svg5.png" /> <img src=".github/resources/pdf5.png" /> |<img src=".github/resources/svg5.png" /> <img src=".github/resources/pdf5.png" /> |
+| ![academic-regular](icons/default/2.Regular/academic-regular.svg) | |`academic-regular`|<div><img src=".github/resources/svg5.png" /> <img src=".github/resources/pdf5.png" /></div> |<img src=".github/resources/svg5.png" /> <img src=".github/resources/pdf5.png" /> |
 | ![accesibility-filled](icons/default/3.Filled/accesibility-filled.svg) | ![accesibility-filled](icons/o2/3.Filled/accesibility-filled.svg) |`accesibility-filled`|
 | ![accesibility-light](icons/default/1.Light/accesibility-light.svg) | ![accesibility-light](icons/o2/1.Light/accesibility-light.svg) |`accesibility-light`|
 | ![accesibility-regular](icons/default/2.Regular/accesibility-regular.svg) | ![accesibility-regular](icons/o2/2.Regular/accesibility-regular.svg) |`accesibility-regular`|
