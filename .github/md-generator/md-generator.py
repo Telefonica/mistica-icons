@@ -1,6 +1,7 @@
 # !/usr/bin/python
 
 import os
+import os.path
 import sys
 
 PIPE = "|"
@@ -19,12 +20,45 @@ def read_folder(folder):
     return []
 
 
+def count_files(path):
+    return sum(len(files) for _, _, files in os.walk(path))
+
+icons_default_light = count_files(r'../../icons/default/1.Light')
+icons_default_regular = count_files(r'../../icons/default/2.Regular')
+icons_default_filled = count_files(r'../../icons/default/3.Filled')
+total_default = icons_default_light + icons_default_regular + icons_default_filled
+
+icons_o2_light = count_files(r'../../icons/o2/1.Light')
+icons_o2_regular = count_files(r'../../icons/o2/2.Regular')
+icons_o2_filled = count_files(r'../../icons/o2/3.Filled')
+total_o2 = icons_o2_light + icons_o2_regular + icons_o2_filled
+
+icons_blau_light = count_files(r'../../icons/blau/1.Light')
+icons_blau_regular = count_files(r'../../icons/blau/2.Regular')
+icons_blau_filled = count_files(r'../../icons/blau/3.Filled')
+total_blau = icons_blau_light + icons_blau_regular + icons_blau_filled
+
+default_percent = 100
+o2_percent = (int((total_o2 * 100) / total_default))
+blau_percent = (int((total_blau * 100) / total_default))
+
+default_bar = ("Default set  " + (int(default_percent / 10) * 2) * "█" + "░" * (
+            abs(int(default_percent / 10) - 10) * 2) + "  " + str(int(default_percent))
+      + "%")
+o2_bar = ("O2 set       " + (int(o2_percent / 10) * 2) * "█" + "░" * (abs(int(o2_percent / 10) - 10) * 2) + "  " + str(
+    int(o2_percent))
+      + "%")
+blau_bar = ("Blau set     " + (int(blau_percent / 10) * 2) * "█" + "░" * (abs(int(blau_percent / 10) - 10) * 2) + "  " + str(
+    int(blau_percent))
+      + "%")
+
+
 if __name__ == '__main__':
     path = sys.argv[1]
     brands = read_folder(path)
     root = os.path.basename(path)
     dictionary = {}
-    file_content = "<br/><br/>![Mistica Icons](.github/resources/misticaicons-logo.png)<br/><br/>" + BREAK + "### What is this?" + BREAK + "This is the repo that contains all icons that is working in [Mistica Design](https://github.com/Telefonica/mistica-design) now." + BREAK + "Mistica support [Brand Factory icons](https://brandfactory.telefonica.com/document/1086#/nuestra-identidad/iconos). This set of icons are a big list of different icons and style that Brand Team worked to be used through Telefonica applications." + BREAK + "If you have any question, please you can ask directly in the app of Microsoft Teams, in [Mistica Team](https://teams.microsoft.com/l/team/19%3ad2e3607a32ec411b8bf492f43cd0fe0c%40thread.tacv2/conversations?groupId=e265fe99-929f-45d1-8154-699649674a40&tenantId=9744600e-3e04-492e-baa1-25ec245c6f10)." + BREAK + "### Documentation" + BREAK + "#### Develop" + BREAK + "##### iOS and Android" + BREAK + "You can get .pdf or .svg files from this repo." + BREAK + "##### Web" + BREAK + "Visit [Mistica Storybook](https://mistica-web.now.sh/?path=/story/icons-mistica-icons--catalog) to get all the detail about using Mistica Icons Library" + BREAK + "#### Design" + BREAK + "Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonica.github.io/mistica/docs/design/start-using)" + BREAK + "# Icons " + BREAK + "| ---BRANDS--- | icon name <img width=596> | " + BREAK + "| ---HEADER-BREAK--- |" + ":--- |" + BREAK
+    file_content = "<br/><br/>![Mistica Icons](.github/resources/misticaicons-logo.png)<br/><br/>" + BREAK + "### What is this?" + BREAK + "This is the repo that contains all icons that is working in [Mistica Design](https://github.com/Telefonica/mistica-design) now." + BREAK + "Mistica support [Brand Factory icons](https://brandfactory.telefonica.com/document/1086#/nuestra-identidad/iconos). This set of icons are a big list of different icons and style that Brand Team worked to be used through Telefonica applications." + BREAK + "If you have any question, please you can ask directly in the app of Microsoft Teams, in [Mistica Team](https://teams.microsoft.com/l/team/19%3ad2e3607a32ec411b8bf492f43cd0fe0c%40thread.tacv2/conversations?groupId=e265fe99-929f-45d1-8154-699649674a40&tenantId=9744600e-3e04-492e-baa1-25ec245c6f10)." + BREAK + "### Documentation" + BREAK + "#### Develop" + BREAK + "##### iOS and Android" + BREAK + "You can get .pdf or .svg files from this repo." + BREAK + "##### Web" + BREAK + "Visit [Mistica Storybook](https://mistica-web.now.sh/?path=/story/icons-mistica-icons--catalog) to get all the detail about using Mistica Icons Library" + BREAK + "#### Design" + BREAK + "Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonica.github.io/mistica/docs/design/start-using)" + BREAK + "# Icon set status" + BREAK + "This is the percentage of completeness of the packs by brands" + BREAK + "---DEFAULT_BAR---" + BREAK + "---O2_BAR---" + BREAK + "---BLAU_BAR---" + BREAK + "# Icons " + BREAK + "| ---BRANDS--- | icon name <img width=596> | " + BREAK + "| ---HEADER-BREAK--- |" + ":--- |" + BREAK
     for brand in brands:
         brand_folder = path + SLASH + brand
         styles = read_folder(brand_folder)
@@ -47,6 +81,9 @@ if __name__ == '__main__':
     brands.remove("default")
     brands = ["default"] + sorted(brands)
     separator = " " + PIPE + " "
+    file_content = file_content.replace("---DEFAULT_BAR---", separator.join(default_bar))
+    file_content = file_content.replace("---O2_BAR---", separator.join(o2_bar))
+    file_content = file_content.replace("---BLAU_BAR---", separator.join(blau_bar))
     file_content = file_content.replace("---BRANDS---", separator.join(brands))
     file_content = file_content.replace("---HEADER-BREAK---", separator.join([":---:"] * (len(brands))))
 
