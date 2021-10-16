@@ -1,4 +1,4 @@
-import os.path
+import os
 
 
 def count_files(path):
@@ -34,6 +34,9 @@ default_bar = ("Default set  " + (int(default_percent / 10) * 2) * "█" + "░"
 o2_bar = ("O2 set       " + (int(o2_percent / 10) * 2) * "█" + "░" * (abs(int(o2_percent / 10) - 10) * 2) + "  " + str(
     int(o2_percent))
       + "%")
-blau_bar = ("Blau set     " + (int(blau_percent / 10) * 2) * "█" + "░" * (abs(int(blau_percent / 10) - 10) * 2) + "  " + str(
-    int(blau_percent))
-      + "%")
+# blau_bar = ("Blau set     " + (int(blau_percent / 10) * 2) * "█" + "░" * (abs(int(blau_percent / 10) - 10) * 2) + "  " + str(
+#     int(blau_percent))
+#       + "%")
+
+print(default_bar)
+print(o2_bar)
