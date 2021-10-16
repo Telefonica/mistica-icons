@@ -14,11 +14,6 @@ icons_o2_regular = count_files(r'/Users/yayo/Kactus/mistica-icons/icons/o2/2.Reg
 icons_o2_filled = count_files(r'/Users/yayo/Kactus/mistica-icons/icons/o2/3.Filled')
 total_o2 = icons_o2_light + icons_o2_regular + icons_o2_filled
 
-# icons_blau_light = count_files(r'/Users/yayo/Kactus/mistica-icons/icons/blau/1.Light')
-# icons_blau_regular = count_files(r'/Users/yayo/Kactus/mistica-icons/icons/blau/2.Regular')
-# icons_blau_filled = count_files(r'/Users/yayo/Kactus/mistica-icons/icons/blau/3.Filled')
-# total_blau = icons_blau_light + icons_blau_regular + icons_blau_filled
-
 # print(int(total_default))
 # print(int(total_o2))
 # print(icons_o2)
@@ -33,9 +28,6 @@ default_bar = ("Default set  " + (int(default_percent / 10) * 2) * "█" + "░"
 o2_bar = ("O2 set       " + (int(o2_percent / 10) * 2) * "█" + "░" * (abs(int(o2_percent / 10) - 10) * 2) + "  " + str(
     int(o2_percent))
       + "%")
-# blau_bar = ("Blau set     " + (int(blau_percent / 10) * 2) * "█" + "░" * (abs(int(blau_percent / 10) - 10) * 2) + "  " + str(
-#     int(blau_percent))
-#       + "%")
 
 print(default_bar)
 print(o2_bar)
