@@ -23,14 +23,14 @@ def count_files(path):
     return len(os.listdir(path))
 
 
-icons_default_light = count_files(r'/Users/yayo/Kactus/mistica-icons/icons/default/1.Light')
-icons_default_regular = count_files(r'/Users/yayo/Kactus/mistica-icons/icons/default/2.Regular')
-icons_default_filled = count_files(r'/Users/yayo/Kactus/mistica-icons/icons/default/3.Filled')
+icons_default_light = count_files(r'icons/default/1.Light')
+icons_default_regular = count_files(r'icons/default/2.Regular')
+icons_default_filled = count_files(r'icons/default/3.Filled')
 total_default = icons_default_light + icons_default_regular + icons_default_filled
 
-icons_o2_light = count_files(r'/Users/yayo/Kactus/mistica-icons/icons/o2/1.Light')
-icons_o2_regular = count_files(r'/Users/yayo/Kactus/mistica-icons/icons/o2/2.Regular')
-icons_o2_filled = count_files(r'/Users/yayo/Kactus/mistica-icons/icons/o2/3.Filled')
+icons_o2_light = count_files(r'icons/o2/1.Light')
+icons_o2_regular = count_files(r'icons/o2/2.Regular')
+icons_o2_filled = count_files(r'icons/o2/3.Filled')
 total_o2 = icons_o2_light + icons_o2_regular + icons_o2_filled
 
 icons_blau_light = 0
