@@ -74,6 +74,7 @@ if __name__ == '__main__':
             for icon in icons:
                 icon_name = os.path.splitext(icon)[0]
                 file_path = root + SLASH + brand + SLASH + style + SLASH + icon_name + SVG_EXTENSION
+                file_path_pdf = root + SLASH + brand + SLASH + style + SLASH + icon_name + PDF_EXTENSION
                 if icon_name in dictionary:
                     if style not in dictionary[icon_name]:
                         dictionary[icon_name][style] = {brand: file_path}
@@ -91,7 +92,8 @@ if __name__ == '__main__':
     file_content = file_content.replace("---O2_BAR---", (o2_bar))
     file_content = file_content.replace("---BLAU_BAR---", (blau_bar))
     file_content = file_content.replace("---BRANDS---", separator.join(brands))
-    file_content = file_content.replace("---HEADER-BREAK---", separator.join([":---:"] * (len(brands))))
+    file_content = file_content.replace("---HEADER-BREAK---", separator.join([":---:"] * (len(brands) + 2)))
+    
 
     for icon_name in sorted(dictionary.keys()):
         icon = dictionary[icon_name]
@@ -101,7 +103,7 @@ if __name__ == '__main__':
                 icon_image = " ![" + icon_name + "](" + icon[style][brand] + ") " if brand in icon[style] else " "
                 icon_images.append(icon_image)
             # row = "| default | O2 | my_icon_light |
-            row = PIPE + PIPE.join(icon_images) + PIPE + "`" + icon_name + "`" + PIPE
+            row = PIPE + PIPE.join(icon_images) + PIPE + "`" + icon_name + "`" + PIPE + "[<img src='.github/resources/svg.png'>]" + "(" + file_path + ")" + "[<img src='.github/resources/pdf.png'>]" + "(" + file_path_pdf + ")" + PIPE + "[<img src='.github/resources/svg.png'>]" + "(" + file_path + ")" + "[<img src='.github/resources/pdf.png'>]" + "(" + file_path_pdf + ")"
             file_content += row + BREAK
 
     output_file_path = "./README.md"
