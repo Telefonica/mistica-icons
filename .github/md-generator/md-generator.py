@@ -103,7 +103,8 @@ if __name__ == '__main__':
                 icon_image = " ![" + icon_name + "](" + icon[style][brand] + ") " if brand in icon[style] else " "
                 icon_images.append(icon_image)
             # row = "| default | O2 | my_icon_light |
-            row = PIPE + PIPE.join(icon_images) + PIPE + "`" + icon_name + "`" + PIPE + "[<img src='.github/resources/svg.png'>]" + "(" + file_path + ")" + "[<img src='.github/resources/pdf.png'>]" + "(" + file_path_pdf + ")" + PIPE + "[<img src='.github/resources/svg.png'>]" + "(" + file_path + ")" + "[<img src='.github/resources/pdf.png'>]" + "(" + file_path_pdf + ")"
+            row = PIPE + PIPE.join(icon_images) + PIPE + "`" + icon_name + "`" + PIPE 
+            # + "[<img src='.github/resources/svg.png'>]" + "(" + file_path + ")" + "[<img src='.github/resources/pdf.png'>]" + "(" + file_path_pdf + ")" + PIPE + "[<img src='.github/resources/svg.png'>]" + "(" + file_path + ")" + "[<img src='.github/resources/pdf.png'>]" + "(" + file_path_pdf + ")"
             file_content += row + BREAK
 
     output_file_path = "./README.md"
