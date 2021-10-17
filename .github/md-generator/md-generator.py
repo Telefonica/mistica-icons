@@ -34,7 +34,7 @@ icons_o2_filled = count_files(r'icons/o2/3.Filled')
 total_o2 = icons_o2_light + icons_o2_regular + icons_o2_filled
 
 icons_blau_light = 0
-icons_blau_regular = 0
+icons_blau_regular = count_files(r'icons/blau/2.Regular')
 icons_blau_filled = 0
 total_blau = icons_blau_light + icons_blau_regular + icons_blau_filled
 
