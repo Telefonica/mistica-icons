@@ -51,13 +51,13 @@ BAR_EMPTY = "<img src='https://i.imgur.com/BLjOoR0.png' />"
 
 default_bar = ("`" + "default set‎‎‎" + "`" + "    " + (int(default_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (
             abs(int(default_percent / 10) - 10) * 2) + "    " + str(int(default_percent))
-      + "%" + "  ")
+      + " %" + "  ")
 o2_bar = ("`" + "o2 set‎‎‎" + "`" + "              " + (int(o2_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(o2_percent / 10) - 10) * 2) + "    " + str(
     int(o2_percent))
-      + "%" + "  ")
+      + " %" + "  ")
 blau_bar = ("`" + "blau set‎‎‎" + "`" + "          " + (int(blau_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(blau_percent / 10) - 10) * 2) + "    " + str(
     int(blau_percent))
-      + "%" + "  ")
+      + " %" + "  ")
 
 if __name__ == '__main__':
     path = sys.argv[1]
