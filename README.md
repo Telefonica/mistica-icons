@@ -751,9 +751,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonic
 | ![notes-filled](icons/default/3.Filled/notes-filled.svg) | | |`notes-filled`|
 | ![notes-light](icons/default/1.Light/notes-light.svg) | | |`notes-light`|
 | ![notes-regular](icons/default/2.Regular/notes-regular.svg) | | |`notes-regular`|
-| ![numeric-keypad-filled](icons/default/3.Filled/numeric-keypad-filled.svg) | | ![numeric-keypad-filled](icons/o2/3.Filled/numeric-keypad-filled.svg) |`numeric-keypad-filled`|
-| ![numeric-keypad-light](icons/default/1.Light/numeric-keypad-light.svg) | | ![numeric-keypad-light](icons/o2/1.Light/numeric-keypad-light.svg) |`numeric-keypad-light`|
-| ![numeric-keypad-regular](icons/default/2.Regular/numeric-keypad-regular.svg) | | ![numeric-keypad-regular](icons/o2/2.Regular/numeric-keypad-regular.svg) |`numeric-keypad-regular`|
+| ![numeric-keypad-filled](icons/default/3.Filled/numeric-keypad-filled.svg) | | |`numeric-keypad-filled`|
+| ![numeric-keypad-light](icons/default/1.Light/numeric-keypad-light.svg) | | |`numeric-keypad-light`|
+| ![numeric-keypad-regular](icons/default/2.Regular/numeric-keypad-regular.svg) | | |`numeric-keypad-regular`|
 | ![offer-filled](icons/default/3.Filled/offer-filled.svg) | | ![offer-filled](icons/o2/3.Filled/offer-filled.svg) |`offer-filled`|
 | ![offer-light](icons/default/1.Light/offer-light.svg) | | ![offer-light](icons/o2/1.Light/offer-light.svg) |`offer-light`|
 | ![offer-percent-filled](icons/default/3.Filled/offer-percent-filled.svg) | | ![offer-percent-filled](icons/o2/3.Filled/offer-percent-filled.svg) |`offer-percent-filled`|
