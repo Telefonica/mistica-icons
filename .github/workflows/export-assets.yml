@@ -27,10 +27,7 @@ jobs:
       - name: Removed assets
         run: git rm -r icons/*
 
-      # comando solo para Self-Hosted machines
-      - run: sudo chown -R $USER /usr/local/lib/node_modules
-
-      - run: npm install --global kactus-cli --force
+      - run: npm install --save kactus-cli
 
       - name: Convert folder to sketch file
         run: kactus import libs/Mistica\ Icons
