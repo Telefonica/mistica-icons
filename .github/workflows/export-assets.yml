@@ -45,7 +45,7 @@ jobs:
 
       - name: SVGO
         run: svgo -f icons -r -o icons
-        
+      
       - name: Add assets
         run: git add -A icons/*
 
