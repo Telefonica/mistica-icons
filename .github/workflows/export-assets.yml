@@ -3,12 +3,11 @@ name: SketchTool Export Assets
 on:
   push:
     branches:
-      - production
-      - multibrand-icons
+      - '**'
     paths:
       - "libs/**"
       - "icons/**"
-      # - ".github/workflows/export-assets.yml"
+      - ".github/workflows/export-assets.yml"
 
 jobs:
   assets:
@@ -19,13 +18,16 @@ jobs:
       - name: Get branch name
         uses: rlespinasse/github-slug-action@v3.x
 
+      # - name: Install svgo
+      #   run: npm install -g svgo
+
       - name: Install svgo
-        run: npm install -g svgo
+        run: yarn global add svgo
 
       - name: Removed assets
         run: git rm -r icons/*
 
-      - run: npm install --global kactus-cli --force
+      - run: npm install --save kactus-cli
 
       - name: Convert folder to sketch file
         run: kactus import libs/Mistica\ Icons
@@ -40,6 +42,7 @@ jobs:
 
       - name: SVGO
         run: svgo -f icons -r -o icons
+      
       - name: Add assets
         run: git add -A icons/*
 
