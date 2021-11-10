@@ -69,10 +69,10 @@
   "layerListExpandedType": 2,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "F8098C21-8076-47D3-B145-1ECE3B5DD908",
+      "do_objectID": "87319013-5FC4-4010-B8FC-5CA4149572B1",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -84,8 +84,8 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
-        "height": 21,
+        "constrainProportions": false,
+        "height": 21.00000000000002,
         "width": 20,
         "x": 2,
         "y": 1
@@ -104,7 +104,7 @@
       "layers": [
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "B1B3F28A-177A-4A8D-9F09-E645D9706DDB",
           "exportOptions": {
@@ -738,7 +738,7 @@
         },
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "A92286A3-6A31-4A92-B144-D4357EFDE017",
           "exportOptions": {
@@ -755,8 +755,8 @@
             "constrainProportions": false,
             "height": 19.75688596881272,
             "width": 19.19783300535389,
-            "x": 0.4010834973230579,
-            "y": 1.243114031187279
+            "x": 0.401083497323043,
+            "y": 1.243114031187304
           },
           "groupLayout": {
             "_class": "MSImmutableFreeformGroupLayout"
@@ -1254,11 +1254,12 @@
           "windingRule": 0
         }
       ],
-      "name": "alarm _2secondary",
+      "name": "alarm-light-regular",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -1286,17 +1287,70 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
           "_class": "graphicsContextSettings",
           "blendMode": 0,
-          "opacity": 1
+          "opacity": 0.9000000357627869
         },
-        "do_objectID": "4B20AD00-2C90-4949-96BE-F023F26479B6",
+        "do_objectID": "91DCD3D7-4014-49C4-8092-BDF2DDEAD12E",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -1304,8 +1358,9 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/2.Regular/alarm-light-regular",
@@ -1314,7 +1369,7 @@
     {
       "_class": "MSImmutableOverrideProperty",
       "canOverride": true,
-      "overrideName": "84B4A279-7F79-4152-80CA-385594241888_layerStyle"
+      "overrideName": "87319013-5FC4-4010-B8FC-5CA4149572B1_layerStyle"
     }
   ],
   "presetDictionary": {

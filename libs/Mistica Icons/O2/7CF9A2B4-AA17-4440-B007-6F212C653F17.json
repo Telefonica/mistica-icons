@@ -69,10 +69,10 @@
   "layerListExpandedType": 2,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "C59BEDB7-B071-4899-B897-49BB5961A3C6",
+      "do_objectID": "E1CC08F8-8518-4FA6-AA4A-8608E691B078",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -84,8 +84,8 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
-        "height": 22,
+        "constrainProportions": false,
+        "height": 22.00000000000002,
         "width": 20,
         "x": 2,
         "y": 1
@@ -104,7 +104,7 @@
       "layers": [
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "4B9D19DF-2FE6-47DC-8A15-BF4197C4DD65",
           "edited": true,
@@ -122,7 +122,7 @@
             "constrainProportions": false,
             "height": 12.15175175175175,
             "width": 0.8152756919116086,
-            "x": 9.594507616391335,
+            "x": 9.594507616391297,
             "y": 0
           },
           "hasClippingMask": false,
@@ -315,7 +315,7 @@
         },
         {
           "_class": "oval",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "E666A1FD-E703-4D99-B9CB-2AFCF7EF9E32",
           "edited": false,
@@ -333,8 +333,8 @@
             "constrainProportions": false,
             "height": 1.673673673673672,
             "width": 1.630551383823217,
-            "x": 15.71765715511693,
-            "y": 18.01841841841842
+            "x": 15.71765715511697,
+            "y": 18.01841841841843
           },
           "hasClippingMask": false,
           "isClosed": true,
@@ -496,7 +496,7 @@
         },
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "3C36D391-4B09-44B6-A9D8-DC6904AB8980",
           "exportOptions": {
@@ -514,7 +514,7 @@
             "height": 20.22059289102403,
             "width": 20,
             "x": 0,
-            "y": 1.77940710897597
+            "y": 1.779407108975988
           },
           "groupLayout": {
             "_class": "MSImmutableFreeformGroupLayout"
@@ -1012,11 +1012,12 @@
           "windingRule": 0
         }
       ],
-      "name": "power _1primary",
+      "name": "power-light",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -1044,17 +1045,70 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
           "_class": "graphicsContextSettings",
           "blendMode": 0,
-          "opacity": 1
+          "opacity": 0.9000000357627869
         },
-        "do_objectID": "006E8905-661B-4D1B-B0DC-929C64618EDE",
+        "do_objectID": "3BD58540-9804-4C5D-AA06-AE861205D3F6",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -1062,8 +1116,9 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/1.Light/power-light",
@@ -1072,7 +1127,7 @@
     {
       "_class": "MSImmutableOverrideProperty",
       "canOverride": true,
-      "overrideName": "4E070BA6-9A6B-4A9D-B10E-F76BA13992D2_layerStyle"
+      "overrideName": "E1CC08F8-8518-4FA6-AA4A-8608E691B078_layerStyle"
     }
   ],
   "presetDictionary": {

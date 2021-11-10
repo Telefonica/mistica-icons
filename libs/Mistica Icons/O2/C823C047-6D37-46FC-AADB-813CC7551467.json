@@ -69,10 +69,10 @@
   "layerListExpandedType": 2,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "9B1E605B-836E-478E-8653-1C9005E91F92",
+      "do_objectID": "A09B5128-463F-4F4E-ADCC-593F5DF37DBD",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -84,7 +84,7 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
+        "constrainProportions": false,
         "height": 20,
         "width": 15,
         "x": 5,
@@ -104,7 +104,7 @@
       "layers": [
         {
           "_class": "oval",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "410B9D30-3C90-4A26-B8B8-130850FC5C66",
           "edited": false,
@@ -122,8 +122,8 @@
             "constrainProportions": false,
             "height": 1.432000000000001,
             "width": 1.367105301344812,
-            "x": 1.703153531842973,
-            "y": 4.280000000000001
+            "x": 1.703153531842948,
+            "y": 4.280000000000009
           },
           "hasClippingMask": false,
           "isClosed": true,
@@ -285,7 +285,7 @@
         },
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "E5BA16A6-DFB1-4690-BE81-6C7E8FB83535",
           "exportOptions": {
@@ -871,11 +871,12 @@
           "windingRule": 0
         }
       ],
-      "name": "Unlock _1primary",
+      "name": "lock-open-light",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -884,7 +885,7 @@
           "center": "{0.5, 0.5}",
           "isEnabled": false,
           "motionAngle": 0,
-          "radius": 7.692307692307693,
+          "radius": 10,
           "saturation": 1,
           "type": 0
         },
@@ -903,17 +904,70 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
           "_class": "graphicsContextSettings",
           "blendMode": 0,
-          "opacity": 1
+          "opacity": 0.9000000357627869
         },
-        "do_objectID": "F0CEC1F1-E505-494F-BA95-114C98237846",
+        "do_objectID": "02EC1ED8-3028-44A5-97BF-B009477F9F3D",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -921,8 +975,9 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/1.Light/lock-open-light",
@@ -931,7 +986,7 @@
     {
       "_class": "MSImmutableOverrideProperty",
       "canOverride": true,
-      "overrideName": "C1997844-95F1-4358-85FE-BD473A825164_layerStyle"
+      "overrideName": "A09B5128-463F-4F4E-ADCC-593F5DF37DBD_layerStyle"
     }
   ],
   "presetDictionary": {

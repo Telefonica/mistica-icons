@@ -69,10 +69,10 @@
   "layerListExpandedType": 2,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "8BF32926-00EC-44EE-855B-FEAD093F0930",
+      "do_objectID": "E70A96CE-1A04-40BC-B032-68A24C9C5668",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -84,8 +84,8 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
-        "height": 16,
+        "constrainProportions": false,
+        "height": 15.99999999999996,
         "width": 20,
         "x": 2,
         "y": 4
@@ -100,11 +100,11 @@
       "isFlippedVertical": false,
       "isLocked": false,
       "isVisible": true,
-      "layerListExpandedType": 0,
+      "layerListExpandedType": 1,
       "layers": [
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "9A5D08A5-391D-4E32-A192-E1C6109FB508",
           "edited": true,
@@ -122,7 +122,7 @@
             "constrainProportions": false,
             "height": 10.42898545356901,
             "width": 12.32153569286143,
-            "x": 7.678464307138573,
+            "x": 7.678464307138569,
             "y": 0
           },
           "hasClippingMask": false,
@@ -365,7 +365,7 @@
         },
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "C05B70EA-8E3C-418A-96D4-4FA02D81D2F3",
           "edited": true,
@@ -384,7 +384,7 @@
             "height": 10.43268919156659,
             "width": 12.3255348930214,
             "x": 0,
-            "y": 5.567310808433412
+            "y": 5.567310808433376
           },
           "hasClippingMask": false,
           "isClosed": true,
@@ -625,11 +625,12 @@
           }
         }
       ],
-      "name": "arrow double 1 _3solid",
+      "name": "arrows-left-and-right-filled",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -657,17 +658,70 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
           "_class": "graphicsContextSettings",
           "blendMode": 0,
-          "opacity": 1
+          "opacity": 0.9000000357627869
         },
-        "do_objectID": "98CE4C1C-023F-4265-9ED0-47F409552326",
+        "do_objectID": "11D51808-B2E3-4893-B164-0476156CB456",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -675,13 +729,19 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/3.Filled/arrows-left-and-right-filled",
   "nameIsFixed": false,
   "overrideProperties": [
+    {
+      "_class": "MSImmutableOverrideProperty",
+      "canOverride": true,
+      "overrideName": "E70A96CE-1A04-40BC-B032-68A24C9C5668_layerStyle"
+    }
   ],
   "presetDictionary": {
   },

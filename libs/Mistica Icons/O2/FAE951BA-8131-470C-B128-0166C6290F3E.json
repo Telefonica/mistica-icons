@@ -69,10 +69,10 @@
   "layerListExpandedType": 2,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "D45C5618-2E7F-4406-809C-D316F4C918CE",
+      "do_objectID": "F0C45D3B-0413-42C3-9132-865EA146FCC2",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -84,7 +84,7 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
+        "constrainProportions": false,
         "height": 20,
         "width": 15,
         "x": 5,
@@ -104,7 +104,7 @@
       "layers": [
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "C67B6640-9091-45C1-854E-25EB1E0397C0",
           "exportOptions": {
@@ -658,7 +658,7 @@
         },
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "DBCB76DC-2261-4FEA-A3A8-8C35915171D0",
           "exportOptions": {
@@ -675,8 +675,8 @@
             "constrainProportions": false,
             "height": 5.004000000000001,
             "width": 9.288000000000002,
-            "x": 2.855999999999998,
-            "y": 11.072
+            "x": 2.855999999999999,
+            "y": 11.07200000000001
           },
           "groupLayout": {
             "_class": "MSImmutableFreeformGroupLayout"
@@ -1104,11 +1104,12 @@
           "windingRule": 0
         }
       ],
-      "name": "Document _2Secondary",
+      "name": "invoice-plan-file-regular",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -1117,7 +1118,7 @@
           "center": "{0.5, 0.5}",
           "isEnabled": false,
           "motionAngle": 0,
-          "radius": 7.407407407407407,
+          "radius": 10,
           "saturation": 1,
           "type": 0
         },
@@ -1136,17 +1137,70 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
           "_class": "graphicsContextSettings",
           "blendMode": 0,
-          "opacity": 1
+          "opacity": 0.9000000357627869
         },
-        "do_objectID": "A07A0C44-FC37-48FF-8B5C-B8C3E80A487A",
+        "do_objectID": "3F374501-232E-43C4-B0A5-0526962D42C8",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -1154,8 +1208,9 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/2.Regular/invoice-plan-file-regular",
@@ -1164,7 +1219,7 @@
     {
       "_class": "MSImmutableOverrideProperty",
       "canOverride": true,
-      "overrideName": "963025E9-EABC-4C82-8155-2497C3282B2F_layerStyle"
+      "overrideName": "F0C45D3B-0413-42C3-9132-865EA146FCC2_layerStyle"
     }
   ],
   "presetDictionary": {

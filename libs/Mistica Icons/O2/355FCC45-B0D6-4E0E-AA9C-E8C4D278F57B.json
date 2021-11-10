@@ -69,10 +69,10 @@
   "layerListExpandedType": 2,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "B5BF1CF0-5C5C-4AF3-B87B-1D5D73FB2D96",
+      "do_objectID": "93AA351B-94CA-4772-AE63-2C485A81297C",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -84,7 +84,7 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
+        "constrainProportions": false,
         "height": 21,
         "width": 20,
         "x": 2,
@@ -104,7 +104,7 @@
       "layers": [
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "22C52909-873B-4440-A73B-1CEFD760830F",
           "exportOptions": {
@@ -868,7 +868,7 @@
         },
         {
           "_class": "oval",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "43129CF7-F454-4A3D-B242-CB631C12021A",
           "edited": false,
@@ -886,8 +886,8 @@
             "constrainProportions": false,
             "height": 1.515713498070273,
             "width": 1.443571995395511,
-            "x": 7.004844599783319,
-            "y": 16.68021653049972
+            "x": 7.004844599783326,
+            "y": 16.68021653049971
           },
           "hasClippingMask": false,
           "isClosed": true,
@@ -1048,11 +1048,12 @@
           }
         }
       ],
-      "name": "Edit _1 Primary",
+      "name": "pen-light",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -1080,17 +1081,70 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
           "_class": "graphicsContextSettings",
           "blendMode": 0,
-          "opacity": 1
+          "opacity": 0.9000000357627869
         },
-        "do_objectID": "B4740892-1065-47A2-A1E3-32D5C4CE8C96",
+        "do_objectID": "E60C6F19-AB4A-402A-B639-8E9EC8C0A119",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -1098,8 +1152,9 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/1.Light/pen-light",
@@ -1108,7 +1163,7 @@
     {
       "_class": "MSImmutableOverrideProperty",
       "canOverride": true,
-      "overrideName": "AA4D1FD3-FBED-4C34-BCA0-FF2F1A73B4FB_layerStyle"
+      "overrideName": "93AA351B-94CA-4772-AE63-2C485A81297C_layerStyle"
     }
   ],
   "presetDictionary": {

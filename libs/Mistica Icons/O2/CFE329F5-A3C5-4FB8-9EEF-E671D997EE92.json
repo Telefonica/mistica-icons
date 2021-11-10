@@ -69,10 +69,10 @@
   "layerListExpandedType": 2,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "468AB7AF-0B0C-41BB-AF8E-A130EF2DAA5B",
+      "do_objectID": "49589412-0C36-408D-B627-7EE97A311548",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -84,7 +84,7 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
+        "constrainProportions": false,
         "height": 20,
         "width": 10,
         "x": 7,
@@ -104,7 +104,7 @@
       "layers": [
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "DD2009D6-715B-43AA-80E9-DB388A55C288",
           "exportOptions": {
@@ -961,7 +961,7 @@
         },
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "36C6B795-DAB4-4563-B0DD-B15E9B127C00",
           "edited": true,
@@ -979,8 +979,8 @@
             "constrainProportions": false,
             "height": 1.426285714285715,
             "width": 1.425959780621574,
-            "x": 6.435100548446059,
-            "y": 18.57371428571428
+            "x": 6.435100548446049,
+            "y": 18.57371428571426
           },
           "hasClippingMask": false,
           "isClosed": true,
@@ -1141,11 +1141,12 @@
           }
         }
       ],
-      "name": "Female _1Primary",
+      "name": "woman-light",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -1154,7 +1155,7 @@
           "center": "{0.5, 0.5}",
           "isEnabled": false,
           "motionAngle": 0,
-          "radius": 5,
+          "radius": 10,
           "saturation": 1,
           "type": 0
         },
@@ -1173,17 +1174,70 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
           "_class": "graphicsContextSettings",
           "blendMode": 0,
-          "opacity": 1
+          "opacity": 0.9000000357627869
         },
-        "do_objectID": "A98AA04F-9737-46F0-9841-EBF1FA6635CA",
+        "do_objectID": "5C6F6FC4-7E52-4DA4-BB90-6AB67AC2C777",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -1191,13 +1245,19 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/1.Light/woman-light",
   "nameIsFixed": false,
   "overrideProperties": [
+    {
+      "_class": "MSImmutableOverrideProperty",
+      "canOverride": true,
+      "overrideName": "49589412-0C36-408D-B627-7EE97A311548_layerStyle"
+    }
   ],
   "presetDictionary": {
   },

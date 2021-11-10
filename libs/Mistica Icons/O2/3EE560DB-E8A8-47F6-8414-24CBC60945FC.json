@@ -69,10 +69,10 @@
   "layerListExpandedType": 2,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "BEE0E0A5-8641-4EF4-9B3E-22427A8C46CB",
+      "do_objectID": "468D4560-4232-4E40-9A7E-617BB4FDA561",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -84,7 +84,7 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
+        "constrainProportions": false,
         "height": 20,
         "width": 20,
         "x": 2,
@@ -104,7 +104,7 @@
       "layers": [
         {
           "_class": "oval",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "C07B6612-BEC8-40C2-8A6D-6C0D5F9D4991",
           "edited": false,
@@ -122,7 +122,7 @@
             "constrainProportions": false,
             "height": 1.48,
             "width": 1.479999999999999,
-            "x": 12.96,
+            "x": 12.95999999999999,
             "y": 13.332
           },
           "hasClippingMask": false,
@@ -285,7 +285,7 @@
         },
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "ABF459D7-7813-43E4-8701-B3C72D4E9D8C",
           "exportOptions": {
@@ -1602,7 +1602,7 @@
         },
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "EAF399AD-B4F0-4EC9-9D7E-1CDE3D6AE276",
           "edited": true,
@@ -1620,8 +1620,8 @@
             "constrainProportions": false,
             "height": 11.852,
             "width": 11.852,
-            "x": 4.072000000000001,
-            "y": 4.072000000000002
+            "x": 4.07199999999999,
+            "y": 4.072000000000047
           },
           "hasClippingMask": false,
           "isClosed": true,
@@ -1892,11 +1892,12 @@
           }
         }
       ],
-      "name": "settings _1primary",
+      "name": "settings-light",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -1924,17 +1925,70 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
           "_class": "graphicsContextSettings",
           "blendMode": 0,
-          "opacity": 1
+          "opacity": 0.9000000357627869
         },
-        "do_objectID": "0C6D3C03-0B3B-42A2-8E94-EE19A55ADB8E",
+        "do_objectID": "6F77C755-2009-4E95-A001-A4C6CAAE1D41",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -1942,8 +1996,9 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/1.Light/settings-light",
@@ -1952,7 +2007,7 @@
     {
       "_class": "MSImmutableOverrideProperty",
       "canOverride": true,
-      "overrideName": "210C061A-29EB-43E5-9583-E902E0EE3219_layerStyle"
+      "overrideName": "468D4560-4232-4E40-9A7E-617BB4FDA561_layerStyle"
     }
   ],
   "presetDictionary": {

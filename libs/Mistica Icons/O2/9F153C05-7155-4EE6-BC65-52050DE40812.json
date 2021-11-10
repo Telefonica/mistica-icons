@@ -69,10 +69,10 @@
   "layerListExpandedType": 2,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "3CD5C8D0-8D3B-46B0-9772-B2053D9E8AC5",
+      "do_objectID": "3BE489BA-FE45-48FC-A388-1E358DC6236D",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -84,7 +84,7 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
+        "constrainProportions": false,
         "height": 20,
         "width": 20,
         "x": 2,
@@ -104,7 +104,7 @@
       "layers": [
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "BAB496D5-0C64-4070-A6FC-D59B1DC44FB3",
           "exportOptions": {
@@ -868,7 +868,7 @@
         },
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "7E72995B-78D5-446D-8F2A-08BD1DD847AA",
           "exportOptions": {
@@ -885,8 +885,8 @@
             "constrainProportions": false,
             "height": 8.284000000000008,
             "width": 8.954422535211268,
-            "x": 4.977577464788731,
-            "y": 9.252
+            "x": 4.977577464788743,
+            "y": 9.252000000000002
           },
           "groupLayout": {
             "_class": "MSImmutableFreeformGroupLayout"
@@ -1534,11 +1534,12 @@
           "windingRule": 0
         }
       ],
-      "name": "Calendar _2Secondary",
+      "name": "calendar-regular",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -1566,17 +1567,70 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
           "_class": "graphicsContextSettings",
           "blendMode": 0,
-          "opacity": 1
+          "opacity": 0.9000000357627869
         },
-        "do_objectID": "D4279D21-A4E7-4CFB-8C06-6A8F3851A3BC",
+        "do_objectID": "E704C03C-517C-40D1-BE28-E7A98C273B9A",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -1584,8 +1638,9 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/2.Regular/calendar-regular",
@@ -1594,12 +1649,7 @@
     {
       "_class": "MSImmutableOverrideProperty",
       "canOverride": true,
-      "overrideName": "B6AA84C9-C0EC-42A1-89DD-657885E56933_layerStyle"
-    },
-    {
-      "_class": "MSImmutableOverrideProperty",
-      "canOverride": true,
-      "overrideName": "B6AA84C9-C0EC-42A1-89DD-657885E56933_fillColor"
+      "overrideName": "3BE489BA-FE45-48FC-A388-1E358DC6236D_layerStyle"
     }
   ],
   "presetDictionary": {

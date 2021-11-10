@@ -69,10 +69,10 @@
   "layerListExpandedType": 2,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "3C8E539D-9F11-458E-8F34-8C857950A5C7",
+      "do_objectID": "D27E1068-20F7-4AE7-A8D6-C49AA91AF783",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -84,7 +84,7 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
+        "constrainProportions": false,
         "height": 20,
         "width": 15,
         "x": 5,
@@ -104,7 +104,7 @@
       "layers": [
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "1EEA7870-7C18-4F98-865C-893CFF9E9806",
           "exportOptions": {
@@ -121,7 +121,7 @@
             "constrainProportions": false,
             "height": 9.283999999999999,
             "width": 9.0703125,
-            "x": 2.792968749999972,
+            "x": 2.79296875,
             "y": 7.860000000000014
           },
           "groupLayout": {
@@ -561,7 +561,7 @@
         },
         {
           "_class": "oval",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "BA019AFB-C9A9-4290-991F-94968F6498EB",
           "edited": false,
@@ -579,7 +579,7 @@
             "constrainProportions": false,
             "height": 1.432000000000006,
             "width": 1.3984375,
-            "x": 13.60156250000002,
+            "x": 13.6015625,
             "y": 16.78399999999999
           },
           "hasClippingMask": false,
@@ -742,7 +742,7 @@
         },
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "B77A4639-144F-4264-8042-9B0374A55DB8",
           "edited": true,
@@ -1082,11 +1082,12 @@
           }
         }
       ],
-      "name": "Plastic sim _1Primary",
+      "name": "chip-sim-card-light",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -1095,7 +1096,7 @@
           "center": "{0.5, 0.5}",
           "isEnabled": false,
           "motionAngle": 0,
-          "radius": 7.407407407407407,
+          "radius": 10,
           "saturation": 1,
           "type": 0
         },
@@ -1114,17 +1115,70 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
           "_class": "graphicsContextSettings",
           "blendMode": 0,
-          "opacity": 1
+          "opacity": 0.9000000357627869
         },
-        "do_objectID": "79BA543A-FE4E-41B3-B7D5-73EE0D18F439",
+        "do_objectID": "EF5FCAA5-AB54-4973-BC51-9975946C8F04",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -1132,8 +1186,9 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/1.Light/chip-sim-card-light",
@@ -1142,7 +1197,7 @@
     {
       "_class": "MSImmutableOverrideProperty",
       "canOverride": true,
-      "overrideName": "80685677-0669-4B49-A5C8-A68BE9B50F46_layerStyle"
+      "overrideName": "D27E1068-20F7-4AE7-A8D6-C49AA91AF783_layerStyle"
     }
   ],
   "presetDictionary": {

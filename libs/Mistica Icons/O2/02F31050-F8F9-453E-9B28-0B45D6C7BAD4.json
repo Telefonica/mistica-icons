@@ -69,10 +69,10 @@
   "layerListExpandedType": 2,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "33E22149-2FE0-4B1C-AB0D-D2FE0E642F79",
+      "do_objectID": "936F5BC4-CF69-4226-AA5B-2E92C7A24430",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -84,7 +84,7 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
+        "constrainProportions": false,
         "height": 19,
         "width": 20,
         "x": 2,
@@ -100,11 +100,11 @@
       "isFlippedVertical": false,
       "isLocked": false,
       "isVisible": true,
-      "layerListExpandedType": 0,
+      "layerListExpandedType": 1,
       "layers": [
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "2EBB2572-5B0A-4AB2-B581-72FDED302374",
           "edited": true,
@@ -685,7 +685,7 @@
         },
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "B294277E-1725-487F-92E0-48C0B5376266",
           "edited": true,
@@ -703,7 +703,7 @@
             "constrainProportions": false,
             "height": 1.515337423312886,
             "width": 1.479023465276134,
-            "x": 12.2209054278265,
+            "x": 12.22090542782644,
             "y": 12.14212678936605
           },
           "hasClippingMask": false,
@@ -875,11 +875,12 @@
           }
         }
       ],
-      "name": "Airplane _1Primary",
+      "name": "plane-light",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -907,17 +908,70 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
           "_class": "graphicsContextSettings",
           "blendMode": 0,
-          "opacity": 1
+          "opacity": 0.9000000357627869
         },
-        "do_objectID": "4B16336D-F0B2-435F-B1F8-DCBB40D4A2A6",
+        "do_objectID": "27F4ED7B-DD1C-4D60-9335-FEF172625474",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -925,8 +979,9 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/1.Light/plane-light",
@@ -935,7 +990,7 @@
     {
       "_class": "MSImmutableOverrideProperty",
       "canOverride": true,
-      "overrideName": "3301CE3F-56D3-461D-AAE6-C8371A6EB563_layerStyle"
+      "overrideName": "936F5BC4-CF69-4226-AA5B-2E92C7A24430_layerStyle"
     }
   ],
   "presetDictionary": {

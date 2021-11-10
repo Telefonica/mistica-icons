@@ -69,10 +69,10 @@
   "layerListExpandedType": 2,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "7ECBD89F-87C8-41C1-9114-F31D6C28C0C7",
+      "do_objectID": "EC5CD101-85FE-4D82-8890-EC24DE9503C6",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -84,11 +84,11 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
-        "height": 16,
+        "constrainProportions": false,
+        "height": 15.99999999999994,
         "width": 8,
-        "x": 8,
-        "y": 4
+        "x": 8.000000000000002,
+        "y": 4.000000000000001
       },
       "groupLayout": {
         "_class": "MSImmutableFreeformGroupLayout"
@@ -96,15 +96,15 @@
       "hasClickThrough": false,
       "hasClippingMask": false,
       "isFixedToViewport": false,
-      "isFlippedHorizontal": true,
+      "isFlippedHorizontal": false,
       "isFlippedVertical": false,
       "isLocked": false,
       "isVisible": true,
-      "layerListExpandedType": 0,
+      "layerListExpandedType": 1,
       "layers": [
         {
           "_class": "oval",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "E8E4D2C0-15AA-4C53-A66B-1E026F3C671A",
           "edited": false,
@@ -122,13 +122,13 @@
             "constrainProportions": false,
             "height": 1.1456,
             "width": 1.105791505791506,
-            "x": 0,
-            "y": 14.8544
+            "x": 6.894208494208495,
+            "y": 14.85439999999994
           },
           "hasClippingMask": false,
           "isClosed": true,
           "isFixedToViewport": false,
-          "isFlippedHorizontal": false,
+          "isFlippedHorizontal": true,
           "isFlippedVertical": false,
           "isLocked": false,
           "isVisible": true,
@@ -285,7 +285,7 @@
         },
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "6192CCC7-E5E5-484A-AC4B-24C6350154F7",
           "edited": true,
@@ -309,7 +309,7 @@
           "hasClippingMask": false,
           "isClosed": true,
           "isFixedToViewport": false,
-          "isFlippedHorizontal": false,
+          "isFlippedHorizontal": true,
           "isFlippedVertical": false,
           "isLocked": false,
           "isVisible": true,
@@ -525,11 +525,12 @@
           }
         }
       ],
-      "name": "Next _1Primary",
+      "name": "chevron-left-light",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -538,7 +539,7 @@
           "center": "{0.5, 0.5}",
           "isEnabled": false,
           "motionAngle": 0,
-          "radius": 4.102564102564102,
+          "radius": 10,
           "saturation": 1,
           "type": 0
         },
@@ -557,17 +558,70 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
           "_class": "graphicsContextSettings",
           "blendMode": 0,
-          "opacity": 1
+          "opacity": 0.9000000357627869
         },
-        "do_objectID": "499E8FE6-FBF1-4677-BE34-746924865C3B",
+        "do_objectID": "20C53B5C-8AB4-4E7B-889C-52BAD643FBD4",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -575,13 +629,19 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/1.Light/chevron-left-light",
   "nameIsFixed": true,
   "overrideProperties": [
+    {
+      "_class": "MSImmutableOverrideProperty",
+      "canOverride": true,
+      "overrideName": "EC5CD101-85FE-4D82-8890-EC24DE9503C6_layerStyle"
+    }
   ],
   "presetDictionary": {
   },

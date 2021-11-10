@@ -69,10 +69,10 @@
   "layerListExpandedType": 2,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "8B2473C8-E778-44BD-9853-13271CEE90BE",
+      "do_objectID": "AEBF3EAC-6E03-4D37-91ED-CED1852F6A66",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -84,7 +84,7 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
+        "constrainProportions": false,
         "height": 19,
         "width": 15,
         "x": 5,
@@ -104,7 +104,7 @@
       "layers": [
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "C1BFE9C9-0284-4A1C-B5B7-E6ABB8D96528",
           "exportOptions": {
@@ -121,8 +121,8 @@
             "constrainProportions": false,
             "height": 9.500000000000002,
             "width": 9.546843177189412,
-            "x": 2.726578411405296,
-            "y": 6.786800000000001
+            "x": 2.726578411405294,
+            "y": 6.78679999999997
           },
           "groupLayout": {
             "_class": "MSImmutableFreeformGroupLayout"
@@ -541,7 +541,7 @@
         },
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "2F73001A-3F60-457B-BEDD-D4FA52435527",
           "exportOptions": {
@@ -1027,11 +1027,12 @@
           "windingRule": 0
         }
       ],
-      "name": "Plastic sim _2Secondary",
+      "name": "chip-sim-card-regular",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -1040,7 +1041,7 @@
           "center": "{0.5, 0.5}",
           "isEnabled": false,
           "motionAngle": 0,
-          "radius": 7.407407407407407,
+          "radius": 10,
           "saturation": 1,
           "type": 0
         },
@@ -1059,17 +1060,70 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
           "_class": "graphicsContextSettings",
           "blendMode": 0,
-          "opacity": 1
+          "opacity": 0.9000000357627869
         },
-        "do_objectID": "90C651AB-3E02-448C-92E8-04D983B2CC62",
+        "do_objectID": "73238DF7-8D2E-4A41-B923-8175B0464AEB",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -1077,8 +1131,9 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/2.Regular/chip-sim-card-regular",
@@ -1087,7 +1142,7 @@
     {
       "_class": "MSImmutableOverrideProperty",
       "canOverride": true,
-      "overrideName": "BC45D6FB-D671-4F33-AE9B-4CA8BC398564_layerStyle"
+      "overrideName": "AEBF3EAC-6E03-4D37-91ED-CED1852F6A66_layerStyle"
     }
   ],
   "presetDictionary": {

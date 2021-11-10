@@ -69,10 +69,10 @@
   "layerListExpandedType": 2,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "813CD5DA-5279-4B56-A05C-2765E9EC52C3",
+      "do_objectID": "1ACECF8D-F8FE-4F26-9CC5-D3AA06FEDD91",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -84,8 +84,8 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
-        "height": 20,
+        "constrainProportions": false,
+        "height": 20.00000000000003,
         "width": 20,
         "x": 2,
         "y": 2
@@ -104,7 +104,7 @@
       "layers": [
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "23FB25BF-C99F-4F37-8D65-6C8ECD78A409",
           "exportOptions": {
@@ -591,7 +591,7 @@
         },
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "35267D1B-CE8F-4ABE-8076-7F3651C8D801",
           "exportOptions": {
@@ -608,8 +608,8 @@
             "constrainProportions": false,
             "height": 17.02117756574355,
             "width": 9.952960154094354,
-            "x": 6.49933414344984e-16,
-            "y": 2.550616709332093
+            "x": 0,
+            "y": 2.550616709332076
           },
           "groupLayout": {
             "_class": "MSImmutableFreeformGroupLayout"
@@ -1088,7 +1088,7 @@
         },
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "34C64D32-2D24-4CE6-BE4A-010AF1BF7BB3",
           "exportOptions": {
@@ -1105,8 +1105,8 @@
             "constrainProportions": false,
             "height": 8.72236444030719,
             "width": 7.500539699315492,
-            "x": 6.073607756518887,
-            "y": 11.27763555969281
+            "x": 6.073607756518896,
+            "y": 11.27763555969284
           },
           "groupLayout": {
             "_class": "MSImmutableFreeformGroupLayout"
@@ -1605,7 +1605,7 @@
         },
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "7C5EA5C7-7EA2-4B2D-B637-5F3C81858C75",
           "exportOptions": {
@@ -1623,7 +1623,7 @@
             "height": 7.814754479869679,
             "width": 6.887461690566427,
             "x": 13.11253830943357,
-            "y": 9.63928322085176
+            "y": 9.63928322085178
           },
           "groupLayout": {
             "_class": "MSImmutableFreeformGroupLayout"
@@ -2111,11 +2111,12 @@
           "windingRule": 0
         }
       ],
-      "name": "Family _2Secondary",
+      "name": "family-regular",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -2143,17 +2144,70 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
           "_class": "graphicsContextSettings",
           "blendMode": 0,
-          "opacity": 1
+          "opacity": 0.9000000357627869
         },
-        "do_objectID": "807CBBEC-5F67-44B5-8FC2-E22DDEFB145E",
+        "do_objectID": "0BFBFEFF-256D-43FC-B719-F126A782C568",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -2161,8 +2215,9 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/2.Regular/family-regular",
@@ -2171,7 +2226,7 @@
     {
       "_class": "MSImmutableOverrideProperty",
       "canOverride": true,
-      "overrideName": "B19722B0-2F95-470D-986B-0A2421715F72_layerStyle"
+      "overrideName": "1ACECF8D-F8FE-4F26-9CC5-D3AA06FEDD91_layerStyle"
     }
   ],
   "presetDictionary": {

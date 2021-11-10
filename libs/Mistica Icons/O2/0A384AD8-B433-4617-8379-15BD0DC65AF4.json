@@ -69,10 +69,10 @@
   "layerListExpandedType": 2,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "5FBCD448-6DAC-4BC3-81F4-A259CE279E04",
+      "do_objectID": "6BE76CFD-5477-4656-8526-E16E48959A80",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -84,9 +84,9 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
-        "height": 19,
-        "width": 20,
+        "constrainProportions": false,
+        "height": 19.00000000000001,
+        "width": 20.00000000000011,
         "x": 2,
         "y": 3
       },
@@ -104,7 +104,7 @@
       "layers": [
         {
           "_class": "oval",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "723CAF4E-ED0C-4317-BACD-F8F79CBA3667",
           "edited": false,
@@ -123,7 +123,7 @@
             "height": 1.465316673847479,
             "width": 1.432,
             "x": 0,
-            "y": 4.383670831538129
+            "y": 4.38367083153814
           },
           "hasClippingMask": false,
           "isClosed": true,
@@ -285,7 +285,7 @@
         },
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "F939FAD6-64AF-46E7-BC76-53A8E63A8287",
           "exportOptions": {
@@ -302,7 +302,7 @@
             "constrainProportions": false,
             "height": 19,
             "width": 18.572,
-            "x": 1.428000000000001,
+            "x": 1.428000000000111,
             "y": 0
           },
           "groupLayout": {
@@ -2635,11 +2635,12 @@
           "windingRule": 0
         }
       ],
-      "name": "Loading _1Primary",
+      "name": "process-loading-light",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -2667,17 +2668,70 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
           "_class": "graphicsContextSettings",
           "blendMode": 0,
-          "opacity": 1
+          "opacity": 0.9000000357627869
         },
-        "do_objectID": "D6115890-8227-4FE8-916B-C26638959047",
+        "do_objectID": "CD0F925F-03E1-49F6-9E68-1B4DC7E206A0",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -2685,8 +2739,9 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/1.Light/process-loading-light",
@@ -2695,7 +2750,7 @@
     {
       "_class": "MSImmutableOverrideProperty",
       "canOverride": true,
-      "overrideName": "6B818DEB-EA2C-4BBA-B9F0-63667F16DE93_layerStyle"
+      "overrideName": "6BE76CFD-5477-4656-8526-E16E48959A80_layerStyle"
     }
   ],
   "presetDictionary": {

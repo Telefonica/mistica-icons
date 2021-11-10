@@ -69,10 +69,10 @@
   "layerListExpandedType": 2,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "283465E9-A542-405B-BFB2-64B953A5563F",
+      "do_objectID": "63C261A0-1821-46A5-A507-DA6DBFD18A1E",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -84,7 +84,7 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
+        "constrainProportions": false,
         "height": 20,
         "width": 20,
         "x": 2,
@@ -104,7 +104,7 @@
       "layers": [
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "CF900FA5-1BC1-4494-8858-2E1504699C0A",
           "exportOptions": {
@@ -818,7 +818,7 @@
         },
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "0724EF7F-47A3-4068-A8E5-71751BC4C166",
           "exportOptions": {
@@ -836,7 +836,7 @@
             "height": 4.362525458248473,
             "width": 7.140000000000001,
             "x": 0,
-            "y": 7.637474541751527
+            "y": 7.637474541751544
           },
           "groupLayout": {
             "_class": "MSImmutableFreeformGroupLayout"
@@ -1255,7 +1255,7 @@
         },
         {
           "_class": "oval",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "5B2D4F65-93C9-468B-BDDB-39D36FD7DAE9",
           "edited": false,
@@ -1274,7 +1274,7 @@
             "height": 1.458248472505097,
             "width": 1.432,
             "x": 0,
-            "y": 16.36252545824847
+            "y": 16.36252545824846
           },
           "hasClippingMask": false,
           "isClosed": true,
@@ -1435,11 +1435,12 @@
           }
         }
       ],
-      "name": "Delivery _1 Primary",
+      "name": "truck-light",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -1467,17 +1468,70 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
           "_class": "graphicsContextSettings",
           "blendMode": 0,
-          "opacity": 1
+          "opacity": 0.9000000357627869
         },
-        "do_objectID": "53BC5181-052F-41B6-8EEC-1372361D93A0",
+        "do_objectID": "CDE6A81B-69C0-4A51-BCEF-8B53C27FF0EB",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -1485,8 +1539,9 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/1.Light/truck-light",
@@ -1495,7 +1550,7 @@
     {
       "_class": "MSImmutableOverrideProperty",
       "canOverride": true,
-      "overrideName": "39039CFC-D7B9-4938-AB87-1A20ACC5DA64_layerStyle"
+      "overrideName": "63C261A0-1821-46A5-A507-DA6DBFD18A1E_layerStyle"
     }
   ],
   "presetDictionary": {

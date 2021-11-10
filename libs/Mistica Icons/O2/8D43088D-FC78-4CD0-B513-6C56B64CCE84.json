@@ -69,10 +69,10 @@
   "layerListExpandedType": 2,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "9B4791EB-5FE3-43B2-B6ED-69BCE075A9AB",
+      "do_objectID": "C5CB4EE9-06A4-4796-B8C7-FE0DF7D2CA24",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -84,10 +84,10 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
+        "constrainProportions": false,
         "height": 20,
         "width": 12.14,
-        "x": 5.932000000000001,
+        "x": 5.932000000000009,
         "y": 2
       },
       "groupLayout": {
@@ -100,11 +100,11 @@
       "isFlippedVertical": false,
       "isLocked": false,
       "isVisible": true,
-      "layerListExpandedType": 2,
+      "layerListExpandedType": 0,
       "layers": [
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "128B2202-F2C5-4959-88B3-BABC8C0B1666",
           "exportOptions": {
@@ -671,7 +671,7 @@
         },
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "AEAAB2F6-4DDB-4084-822E-0355C5026D82",
           "edited": true,
@@ -689,7 +689,7 @@
             "constrainProportions": false,
             "height": 10.0029650401086,
             "width": 4.999011538916743,
-            "x": 3.576494230541627,
+            "x": 3.576494230541613,
             "y": 5.353034959891374
           },
           "hasClippingMask": false,
@@ -961,11 +961,12 @@
           }
         }
       ],
-      "name": "Battery Charged _2 Secondary",
+      "name": "battery-charging-regular",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -993,17 +994,70 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
           "_class": "graphicsContextSettings",
           "blendMode": 0,
-          "opacity": 1
+          "opacity": 0.9000000357627869
         },
-        "do_objectID": "C80BC9F5-4BC1-4D62-AE53-14C2F18C2983",
+        "do_objectID": "90F6988A-49E9-450B-A82F-BEC4F49C127B",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -1011,8 +1065,9 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/2.Regular/battery-charging-regular",
@@ -1021,17 +1076,7 @@
     {
       "_class": "MSImmutableOverrideProperty",
       "canOverride": true,
-      "overrideName": "AEAAB2F6-4DDB-4084-822E-0355C5026D82_layerStyle"
-    },
-    {
-      "_class": "MSImmutableOverrideProperty",
-      "canOverride": true,
-      "overrideName": "128B2202-F2C5-4959-88B3-BABC8C0B1666_layerStyle"
-    },
-    {
-      "_class": "MSImmutableOverrideProperty",
-      "canOverride": true,
-      "overrideName": "29AE1114-290A-4AD1-8DEC-7480FF4597AD_layerStyle"
+      "overrideName": "C5CB4EE9-06A4-4796-B8C7-FE0DF7D2CA24_layerStyle"
     }
   ],
   "presetDictionary": {

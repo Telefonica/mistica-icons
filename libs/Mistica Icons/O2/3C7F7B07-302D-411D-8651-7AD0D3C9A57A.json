@@ -69,10 +69,10 @@
   "layerListExpandedType": 2,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "543B8448-6DAE-44A0-82C6-6DE8058A14EE",
+      "do_objectID": "DB7014CA-B8E0-4B1D-94BB-70FC29716D0C",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -84,9 +84,9 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
-        "height": 14,
-        "width": 20,
+        "constrainProportions": false,
+        "height": 14.00000000000011,
+        "width": 20.00000000000003,
         "x": 2,
         "y": 5
       },
@@ -104,7 +104,7 @@
       "layers": [
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "B30F3063-1EE3-4537-9B4A-FA8873D57F63",
           "exportOptions": {
@@ -121,8 +121,8 @@
             "constrainProportions": false,
             "height": 12.56069996354356,
             "width": 8.146040777619728,
-            "x": 5.926979611190139,
-            "y": 1.434196135617935
+            "x": 5.926979611190148,
+            "y": 1.434196135617867
           },
           "groupLayout": {
             "_class": "MSImmutableFreeformGroupLayout"
@@ -621,7 +621,7 @@
         },
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "0299668B-C2A8-4CD1-8863-B7BEE2847935",
           "exportOptions": {
@@ -638,7 +638,7 @@
             "constrainProportions": false,
             "height": 13.98979219832301,
             "width": 6.663713774602855,
-            "x": 6.738195692367001e-16,
+            "x": 0,
             "y": 0
           },
           "groupLayout": {
@@ -1118,7 +1118,7 @@
         },
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "FB18F857-7041-4353-A353-95D122767A98",
           "exportOptions": {
@@ -1135,8 +1135,8 @@
             "constrainProportions": false,
             "height": 13.98979219832301,
             "width": 6.666990286953958,
-            "x": 13.33300971304604,
-            "y": 0.01020780167699396
+            "x": 13.33300971304607,
+            "y": 0.01020780167709745
           },
           "groupLayout": {
             "_class": "MSImmutableFreeformGroupLayout"
@@ -1614,11 +1614,12 @@
           "windingRule": 0
         }
       ],
-      "name": "Friends Customers People _2Secondary",
+      "name": "team-regular",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -1646,17 +1647,70 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
           "_class": "graphicsContextSettings",
           "blendMode": 0,
-          "opacity": 1
+          "opacity": 0.9000000357627869
         },
-        "do_objectID": "2AD41740-EF02-4635-9D45-BFB8CCF25F95",
+        "do_objectID": "69E232F1-2C21-4E55-8F4D-03AB0EFA6BCA",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -1664,8 +1718,9 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/2.Regular/team-regular",
@@ -1674,7 +1729,7 @@
     {
       "_class": "MSImmutableOverrideProperty",
       "canOverride": true,
-      "overrideName": "B2AAC460-3627-41BA-A7DF-895766AEAB7D_layerStyle"
+      "overrideName": "DB7014CA-B8E0-4B1D-94BB-70FC29716D0C_layerStyle"
     }
   ],
   "presetDictionary": {

@@ -69,10 +69,10 @@
   "layerListExpandedType": 2,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "D40BB702-2533-4249-AF94-B0C46DFB0543",
+      "do_objectID": "7117E38F-ECBA-4E5A-A36A-9AB6D39C01ED",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -84,7 +84,7 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
+        "constrainProportions": false,
         "height": 21,
         "width": 20,
         "x": 2,
@@ -104,7 +104,7 @@
       "layers": [
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "24DDE8B0-8B24-4E1E-B55A-8579F6B93CD5",
           "exportOptions": {
@@ -122,7 +122,7 @@
             "height": 5.377884929067395,
             "width": 20,
             "x": 0,
-            "y": -5.977480011232926e-16
+            "y": 0
           },
           "groupLayout": {
             "_class": "MSImmutableFreeformGroupLayout"
@@ -571,7 +571,7 @@
         },
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "2B648CCD-4BE7-4847-BF99-E8D5E060261A",
           "exportOptions": {
@@ -588,8 +588,8 @@
             "constrainProportions": false,
             "height": 19.75688596881272,
             "width": 19.20339407506103,
-            "x": 0.3996616376711642,
-            "y": 1.243114031187276
+            "x": 0.3996616376712154,
+            "y": 1.243114031187275
           },
           "groupLayout": {
             "_class": "MSImmutableFreeformGroupLayout"
@@ -1127,11 +1127,12 @@
           "windingRule": 0
         }
       ],
-      "name": "alarm _3solid",
+      "name": "alarm-light-filled",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -1159,17 +1160,70 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
           "_class": "graphicsContextSettings",
           "blendMode": 0,
-          "opacity": 1
+          "opacity": 0.9000000357627869
         },
-        "do_objectID": "F501FADC-E019-4788-BA07-E3C2B3A40DCA",
+        "do_objectID": "327A8FB8-1F18-4BC0-A9FB-66D20E6F89DF",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -1177,8 +1231,9 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/3.Filled/alarm-light-filled",
@@ -1187,7 +1242,7 @@
     {
       "_class": "MSImmutableOverrideProperty",
       "canOverride": true,
-      "overrideName": "CA33963B-EFE6-4262-94F3-7D71EA60F43E_layerStyle"
+      "overrideName": "7117E38F-ECBA-4E5A-A36A-9AB6D39C01ED_layerStyle"
     }
   ],
   "presetDictionary": {

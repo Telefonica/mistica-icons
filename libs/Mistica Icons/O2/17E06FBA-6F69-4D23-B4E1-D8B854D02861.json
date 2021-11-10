@@ -69,10 +69,10 @@
   "layerListExpandedType": 2,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "B0B08100-09D0-4040-A75B-7144A7B80336",
+      "do_objectID": "5F3BDC27-05EB-4745-8017-1E9A76A37F16",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -84,8 +84,8 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
-        "height": 19,
+        "constrainProportions": false,
+        "height": 19.0000000000001,
         "width": 14,
         "x": 5,
         "y": 3
@@ -100,11 +100,11 @@
       "isFlippedVertical": false,
       "isLocked": false,
       "isVisible": true,
-      "layerListExpandedType": 0,
+      "layerListExpandedType": 1,
       "layers": [
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "A32F0D0E-5C47-44A5-BB55-E9FE87D57600",
           "edited": true,
@@ -122,7 +122,7 @@
             "constrainProportions": false,
             "height": 9.16032290196725,
             "width": 13.99608702443001,
-            "x": 0,
+            "x": 2.842170943040401e-14,
             "y": 0
           },
           "hasClippingMask": false,
@@ -415,7 +415,7 @@
         },
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "805194D8-F663-47A1-80AC-397677FAE780",
           "edited": true,
@@ -434,7 +434,7 @@
             "height": 16.6160943501735,
             "width": 14,
             "x": 0,
-            "y": 2.383905649826498
+            "y": 2.383905649826602
           },
           "hasClippingMask": false,
           "isClosed": false,
@@ -905,11 +905,12 @@
           }
         }
       ],
-      "name": "Talk To Person _3 Solid",
+      "name": "support-agent-filled",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -918,7 +919,7 @@
           "center": "{0.5, 0.5}",
           "isEnabled": false,
           "motionAngle": 0,
-          "radius": 6.896551724137931,
+          "radius": 10,
           "saturation": 1,
           "type": 0
         },
@@ -937,17 +938,70 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
           "_class": "graphicsContextSettings",
           "blendMode": 0,
-          "opacity": 1
+          "opacity": 0.9000000357627869
         },
-        "do_objectID": "F0945ED7-5015-4967-900D-FAC51D74C142",
+        "do_objectID": "329D8479-FBC7-4600-8294-FEA56084FE2F",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -955,8 +1009,9 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/3.Filled/support-agent-filled",
@@ -965,7 +1020,7 @@
     {
       "_class": "MSImmutableOverrideProperty",
       "canOverride": true,
-      "overrideName": "FF29D763-37CE-49EA-82EA-4044630FC275_layerStyle"
+      "overrideName": "5F3BDC27-05EB-4745-8017-1E9A76A37F16_layerStyle"
     }
   ],
   "presetDictionary": {

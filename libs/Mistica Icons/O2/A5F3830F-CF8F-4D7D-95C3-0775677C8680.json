@@ -69,10 +69,10 @@
   "layerListExpandedType": 2,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "D803D270-BC14-4E37-B6CD-7759EA3110B5",
+      "do_objectID": "3AFF217B-D238-429F-AEEC-195DBFBA80E8",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -84,9 +84,9 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
+        "constrainProportions": false,
         "height": 18,
-        "width": 20,
+        "width": 20.00000000000008,
         "x": 2,
         "y": 3
       },
@@ -100,11 +100,11 @@
       "isFlippedVertical": false,
       "isLocked": false,
       "isVisible": true,
-      "layerListExpandedType": 0,
+      "layerListExpandedType": 1,
       "layers": [
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "CEB08DFE-D75A-4895-8F20-582807F78C0A",
           "edited": true,
@@ -122,7 +122,7 @@
             "constrainProportions": false,
             "height": 13.8768,
             "width": 13.33333333333334,
-            "x": 6.666666666666666,
+            "x": 6.666666666666742,
             "y": 0
           },
           "hasClippingMask": false,
@@ -375,7 +375,7 @@
         },
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "65F00859-D06D-484C-A783-2350E9897086",
           "edited": true,
@@ -394,7 +394,7 @@
             "height": 13.8768,
             "width": 13.33333333333333,
             "x": 0,
-            "y": 4.123199999999999
+            "y": 4.123199999999997
           },
           "hasClippingMask": false,
           "isClosed": false,
@@ -675,11 +675,12 @@
           }
         }
       ],
-      "name": "chat _3solid",
+      "name": "chat-filled",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -707,17 +708,70 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
           "_class": "graphicsContextSettings",
           "blendMode": 0,
-          "opacity": 1
+          "opacity": 0.9000000357627869
         },
-        "do_objectID": "21F91411-728A-4DE3-8DFA-D3A6D6C6F35F",
+        "do_objectID": "8A4BA471-4880-4443-BD80-A3A9C44D3360",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -725,8 +779,9 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/3.Filled/chat-filled",
@@ -735,7 +790,7 @@
     {
       "_class": "MSImmutableOverrideProperty",
       "canOverride": true,
-      "overrideName": "D7B2FB38-2042-44DD-AB35-FE647E6F91A8_layerStyle"
+      "overrideName": "3AFF217B-D238-429F-AEEC-195DBFBA80E8_layerStyle"
     }
   ],
   "presetDictionary": {

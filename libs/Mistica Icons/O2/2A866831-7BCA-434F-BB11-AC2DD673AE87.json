@@ -69,10 +69,10 @@
   "layerListExpandedType": 2,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "6B802783-BCBE-4E74-9C47-44A7D8DC2BF5",
+      "do_objectID": "4ACE741F-8A7A-40DE-AA81-EAAA159055BF",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -84,11 +84,11 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
-        "height": 20,
+        "constrainProportions": false,
+        "height": 19.99999999999999,
         "width": 20,
         "x": 2,
-        "y": 2
+        "y": 2.000000000000002
       },
       "groupLayout": {
         "_class": "MSImmutableFreeformGroupLayout"
@@ -100,11 +100,11 @@
       "isFlippedVertical": false,
       "isLocked": false,
       "isVisible": true,
-      "layerListExpandedType": 0,
+      "layerListExpandedType": 1,
       "layers": [
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "CB7AAB84-BAD5-4102-ACEC-E24627E356FE",
           "edited": true,
@@ -122,7 +122,7 @@
             "constrainProportions": false,
             "height": 17.072,
             "width": 12.66729795084908,
-            "x": 3.661745009347318,
+            "x": 3.661745009347314,
             "y": 0
           },
           "hasClippingMask": false,
@@ -485,7 +485,7 @@
         },
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "F72EE6E0-4E05-47AD-A7D8-5D4715E497B1",
           "edited": true,
@@ -504,7 +504,7 @@
             "height": 10.716,
             "width": 20,
             "x": 0,
-            "y": 9.283999999999999
+            "y": 9.283999999999992
           },
           "hasClippingMask": false,
           "isClosed": true,
@@ -765,11 +765,12 @@
           }
         }
       ],
-      "name": "Download _2Secondary",
+      "name": "import-regular",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -797,17 +798,70 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
           "_class": "graphicsContextSettings",
           "blendMode": 0,
-          "opacity": 1
+          "opacity": 0.9000000357627869
         },
-        "do_objectID": "168F37E7-DA16-425B-9A37-461C458CCEDF",
+        "do_objectID": "E464EA27-0E20-4711-9610-387F2C4B7E14",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -815,8 +869,9 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/2.Regular/import-regular",
@@ -825,7 +880,7 @@
     {
       "_class": "MSImmutableOverrideProperty",
       "canOverride": true,
-      "overrideName": "9C05D728-EB09-41B1-8FD6-9DD41F6DDB9D_layerStyle"
+      "overrideName": "4ACE741F-8A7A-40DE-AA81-EAAA159055BF_layerStyle"
     }
   ],
   "presetDictionary": {

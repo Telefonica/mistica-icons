@@ -69,10 +69,10 @@
   "layerListExpandedType": 2,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "C488F4F1-F062-4E57-B066-8A567D88882F",
+      "do_objectID": "72991353-C536-4DA8-8BBD-52F65CC54446",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -84,9 +84,9 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
-        "height": 20,
-        "width": 20,
+        "constrainProportions": false,
+        "height": 20.00000000000001,
+        "width": 19.99999999999997,
         "x": 2,
         "y": 2
       },
@@ -104,7 +104,7 @@
       "layers": [
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "98011CC3-4F5D-4378-818D-3BB397088C6F",
           "edited": true,
@@ -123,7 +123,7 @@
             "height": 7.485066941297633,
             "width": 9.033932135728541,
             "x": 0,
-            "y": 0.6591143151390315
+            "y": 0.6591143151390497
           },
           "hasClippingMask": false,
           "isClosed": false,
@@ -395,7 +395,7 @@
         },
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "A9D1E5D7-3399-4AC2-B06B-262790FDDD63",
           "exportOptions": {
@@ -412,7 +412,7 @@
             "constrainProportions": false,
             "height": 20,
             "width": 19.37967318477362,
-            "x": 0.6187624750498979,
+            "x": 0.6187624750499197,
             "y": 0
           },
           "groupLayout": {
@@ -952,7 +952,7 @@
         },
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "7CF1E1BF-251E-4DA7-9094-13F15B004CA8",
           "edited": true,
@@ -970,8 +970,8 @@
             "constrainProportions": false,
             "height": 14.48815653964985,
             "width": 9.900199600798402,
-            "x": 10.09980039920159,
-            "y": 3.369721936148301
+            "x": 10.09980039920157,
+            "y": 3.369721936148267
           },
           "hasClippingMask": false,
           "isClosed": false,
@@ -1212,11 +1212,12 @@
           }
         }
       ],
-      "name": "Young People _3 Solid",
+      "name": "millenials-filled",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -1244,17 +1245,70 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
           "_class": "graphicsContextSettings",
           "blendMode": 0,
-          "opacity": 1
+          "opacity": 0.9000000357627869
         },
-        "do_objectID": "2AC67E49-B748-4EC7-B6BE-13C6AD75A615",
+        "do_objectID": "91155A56-5632-4419-B247-B0D85F3806A8",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -1262,8 +1316,9 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/3.Filled/millenials-filled",
@@ -1272,7 +1327,7 @@
     {
       "_class": "MSImmutableOverrideProperty",
       "canOverride": true,
-      "overrideName": "1F28CAF1-77AA-4EF2-8B10-263D15F77BB7_layerStyle"
+      "overrideName": "72991353-C536-4DA8-8BBD-52F65CC54446_layerStyle"
     }
   ],
   "presetDictionary": {

@@ -69,10 +69,10 @@
   "layerListExpandedType": 2,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "2818107A-ADF3-4E09-8610-4B35F75B92B0",
+      "do_objectID": "500E10D7-D321-4186-8D98-E406AC20B433",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -84,9 +84,9 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
-        "height": 19,
-        "width": 20,
+        "constrainProportions": false,
+        "height": 18.99999999999992,
+        "width": 20.00000000000002,
         "x": 2,
         "y": 2
       },
@@ -104,7 +104,7 @@
       "layers": [
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "341E58A9-CD93-4389-8EA1-148D0B2612D2",
           "exportOptions": {
@@ -121,7 +121,7 @@
             "constrainProportions": false,
             "height": 14.0770533446232,
             "width": 9.713172200860335,
-            "x": 9.934827799139665,
+            "x": 9.934827799139669,
             "y": 0
           },
           "groupLayout": {
@@ -798,7 +798,7 @@
         },
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "2A77504B-E206-46D5-8388-A05A2AD302BC",
           "exportOptions": {
@@ -816,7 +816,7 @@
             "height": 18.3645215918713,
             "width": 11.24406277278757,
             "x": 0,
-            "y": 0.6354784081287027
+            "y": 0.6354784081286198
           },
           "groupLayout": {
             "_class": "MSImmutableFreeformGroupLayout"
@@ -1789,7 +1789,7 @@
         },
         {
           "_class": "oval",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "561907C8-1CFD-4BAA-ADA5-8A93C7138C50",
           "edited": false,
@@ -1807,7 +1807,7 @@
             "constrainProportions": false,
             "height": 1.407705334462321,
             "width": 1.399999999999999,
-            "x": 18.6,
+            "x": 18.60000000000002,
             "y": 15.13082133784928
           },
           "hasClippingMask": false,
@@ -1969,11 +1969,12 @@
           }
         }
       ],
-      "name": "Young People _1 Primary",
+      "name": "millenials-light",
       "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -2001,17 +2002,70 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
           "_class": "graphicsContextSettings",
           "blendMode": 0,
-          "opacity": 1
+          "opacity": 0.9000000357627869
         },
-        "do_objectID": "DD198B9A-A0B8-4BA3-8B14-8751E40F733C",
+        "do_objectID": "430AE18B-8C75-4986-9FD5-D4FFAACEF479",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -2019,8 +2073,9 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/1.Light/millenials-light",
@@ -2029,7 +2084,7 @@
     {
       "_class": "MSImmutableOverrideProperty",
       "canOverride": true,
-      "overrideName": "22CA904F-EF39-41FF-802F-E8FD1D1EE1B4_layerStyle"
+      "overrideName": "500E10D7-D321-4186-8D98-E406AC20B433_layerStyle"
     }
   ],
   "presetDictionary": {
