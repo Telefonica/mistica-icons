@@ -32,7 +32,7 @@
     "_class": "MSImmutableFreeformGroupLayout"
   },
   "hasBackgroundColor": false,
-  "hasClickThrough": false,
+  "hasClickThrough": true,
   "hasClippingMask": false,
   "horizontalRulerData": {
     "_class": "rulerData",
@@ -48,13 +48,13 @@
   "isFlowHome": false,
   "isLocked": false,
   "isVisible": true,
-  "layerListExpandedType": 2,
+  "layerListExpandedType": 0,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "58C7399B-F393-47AF-BFF5-8D922C24C0FF",
+      "do_objectID": "2C87AEE5-C108-4FF4-A3F6-4ACCECD52DC4",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -66,7 +66,7 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
+        "constrainProportions": false,
         "height": 20,
         "width": 20,
         "x": 2,
@@ -86,7 +86,7 @@
       "layers": [
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "E7AAA7B9-E097-4038-910B-0AEDD8378D16",
           "edited": true,
@@ -104,8 +104,8 @@
             "constrainProportions": false,
             "height": 10.90611577009613,
             "width": 4.266879049793257,
-            "x": 9.071995128610844,
-            "y": 2.728574350582942
+            "x": 9.071995128610752,
+            "y": 2.72857435058296
           },
           "hasClippingMask": false,
           "isClosed": true,
@@ -337,7 +337,7 @@
         },
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "03E93060-B717-47C2-BF77-C581865CB5B2",
           "edited": true,
@@ -677,11 +677,12 @@
           }
         }
       ],
-      "name": "o2/3.Filled/wait-filled",
-      "nameIsFixed": true,
+      "name": "wait-filled",
+      "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -709,7 +710,7 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
@@ -717,9 +718,62 @@
           "blendMode": 0,
           "opacity": 1
         },
-        "do_objectID": "AEB97D2E-DA28-402B-865B-D37222DB1D2E",
+        "do_objectID": "2E1D11DC-EFE0-4828-965E-5321C32985C9",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -727,8 +781,9 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/3.Filled/wait-filled",
@@ -737,12 +792,7 @@
     {
       "_class": "MSImmutableOverrideProperty",
       "canOverride": true,
-      "overrideName": "03E93060-B717-47C2-BF77-C581865CB5B2_layerStyle"
-    },
-    {
-      "_class": "MSImmutableOverrideProperty",
-      "canOverride": true,
-      "overrideName": "E7AAA7B9-E097-4038-910B-0AEDD8378D16_layerStyle"
+      "overrideName": "2C87AEE5-C108-4FF4-A3F6-4ACCECD52DC4_layerStyle"
     }
   ],
   "presetDictionary": {

@@ -48,13 +48,13 @@
   "isFlowHome": false,
   "isLocked": false,
   "isVisible": true,
-  "layerListExpandedType": 2,
+  "layerListExpandedType": 0,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "88A8F4B2-5E1F-4852-A2EB-BB58BF27D198",
+      "do_objectID": "5D2E736B-5867-4DE3-BD34-E372A0002495",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -66,8 +66,8 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
-        "height": 20,
+        "constrainProportions": false,
+        "height": 19.99999999999999,
         "width": 20,
         "x": 2,
         "y": 2
@@ -86,7 +86,7 @@
       "layers": [
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "D3142FCF-2E4B-400E-B9DD-530284789514",
           "edited": true,
@@ -104,8 +104,8 @@
             "constrainProportions": false,
             "height": 10.716,
             "width": 1.432,
-            "x": 9.284,
-            "y": 9.284
+            "x": 9.284000000000106,
+            "y": 9.283999999999992
           },
           "hasClippingMask": false,
           "isClosed": true,
@@ -297,7 +297,7 @@
         },
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "7300829E-2BD4-4245-B639-12DD5B65CFCB",
           "edited": true,
@@ -315,8 +315,8 @@
             "constrainProportions": false,
             "height": 7.36,
             "width": 8.564000000000007,
-            "x": 5.715999999999995,
-            "y": 5.712000000000002
+            "x": 5.715999999999894,
+            "y": 5.711999999999989
           },
           "hasClippingMask": false,
           "isClosed": true,
@@ -568,7 +568,7 @@
         },
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "5DD0B9CA-1E53-4A63-A645-AAEC12D47629",
           "edited": true,
@@ -586,8 +586,8 @@
             "constrainProportions": false,
             "height": 12.23344362203934,
             "width": 14.292,
-            "x": 2.851999999999999,
-            "y": 2.856000000000001
+            "x": 2.851999999999862,
+            "y": 2.855999999999995
           },
           "hasClippingMask": false,
           "isClosed": true,
@@ -839,7 +839,7 @@
         },
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "FA498A4E-CE1C-4E4F-BCC7-6030B87B6BD9",
           "edited": true,
@@ -1109,11 +1109,12 @@
           }
         }
       ],
-      "name": "o2/3.Filled/network-status-filled",
-      "nameIsFixed": true,
+      "name": "network-status-filled",
+      "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -1141,7 +1142,7 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
@@ -1149,9 +1150,62 @@
           "blendMode": 0,
           "opacity": 1
         },
-        "do_objectID": "8A45A09A-258F-45A5-96EB-29461BC7DB42",
+        "do_objectID": "99B4FA98-1B7E-4C09-9856-921359A69BF7",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -1159,8 +1213,9 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/3.Filled/network-status-filled",
@@ -1169,22 +1224,7 @@
     {
       "_class": "MSImmutableOverrideProperty",
       "canOverride": true,
-      "overrideName": "FA498A4E-CE1C-4E4F-BCC7-6030B87B6BD9_layerStyle"
-    },
-    {
-      "_class": "MSImmutableOverrideProperty",
-      "canOverride": true,
-      "overrideName": "5DD0B9CA-1E53-4A63-A645-AAEC12D47629_layerStyle"
-    },
-    {
-      "_class": "MSImmutableOverrideProperty",
-      "canOverride": true,
-      "overrideName": "7300829E-2BD4-4245-B639-12DD5B65CFCB_layerStyle"
-    },
-    {
-      "_class": "MSImmutableOverrideProperty",
-      "canOverride": true,
-      "overrideName": "D3142FCF-2E4B-400E-B9DD-530284789514_layerStyle"
+      "overrideName": "5D2E736B-5867-4DE3-BD34-E372A0002495_layerStyle"
     }
   ],
   "presetDictionary": {

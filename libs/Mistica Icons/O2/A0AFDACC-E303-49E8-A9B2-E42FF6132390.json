@@ -48,13 +48,13 @@
   "isFlowHome": false,
   "isLocked": false,
   "isVisible": true,
-  "layerListExpandedType": 2,
+  "layerListExpandedType": 0,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "0C1A9988-BFE5-4CD2-9D62-877F61616FE0",
+      "do_objectID": "934D423F-8B00-4EE1-AFCB-88FCA4137020",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -66,7 +66,7 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
+        "constrainProportions": false,
         "height": 20,
         "width": 16,
         "x": 4,
@@ -86,7 +86,7 @@
       "layers": [
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "1A49D3A2-1985-4672-8183-AF9469D1A41F",
           "exportOptions": {
@@ -103,7 +103,7 @@
             "constrainProportions": false,
             "height": 6.782713085234096,
             "width": 10.77574872169467,
-            "x": 2.610177745312853,
+            "x": 2.610177745312895,
             "y": 10.17607042817127
           },
           "groupLayout": {
@@ -116,7 +116,7 @@
           "isFlippedVertical": false,
           "isLocked": false,
           "isVisible": true,
-          "layerListExpandedType": 1,
+          "layerListExpandedType": 0,
           "layers": [
             {
               "_class": "shapePath",
@@ -513,7 +513,7 @@
         },
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "5F23CEB2-5CBA-46A8-A52C-F0C3C62D74DD",
           "exportOptions": {
@@ -530,7 +530,7 @@
             "constrainProportions": false,
             "height": 3.937575030012004,
             "width": 3.833455076698319,
-            "x": 6.081324567811066,
+            "x": 6.081324567811071,
             "y": 11.60064025610245
           },
           "groupLayout": {
@@ -543,7 +543,7 @@
           "isFlippedVertical": false,
           "isLocked": false,
           "isVisible": true,
-          "layerListExpandedType": 1,
+          "layerListExpandedType": 0,
           "layers": [
             {
               "_class": "shapePath",
@@ -910,7 +910,7 @@
         },
         {
           "_class": "shapeGroup",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "DCB6F3F6-3B4A-42F2-BBCA-ED3BAC30904B",
           "exportOptions": {
@@ -940,7 +940,7 @@
           "isFlippedVertical": false,
           "isLocked": false,
           "isVisible": true,
-          "layerListExpandedType": 1,
+          "layerListExpandedType": 0,
           "layers": [
             {
               "_class": "shapePath",
@@ -1568,6 +1568,7 @@
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -1576,7 +1577,7 @@
           "center": "{0.5, 0.5}",
           "isEnabled": false,
           "motionAngle": 0,
-          "radius": 8,
+          "radius": 10,
           "saturation": 1,
           "type": 0
         },
@@ -1595,7 +1596,7 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
@@ -1603,9 +1604,62 @@
           "blendMode": 0,
           "opacity": 1
         },
-        "do_objectID": "9E21B207-E8D5-4E69-B9AC-B7196AEA94B0",
+        "do_objectID": "003E5EB5-11F8-41E5-A851-1C5E05002A06",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -1613,8 +1667,9 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/2.regular/cyber-security-regular",
@@ -1623,17 +1678,7 @@
     {
       "_class": "MSImmutableOverrideProperty",
       "canOverride": true,
-      "overrideName": "DCB6F3F6-3B4A-42F2-BBCA-ED3BAC30904B_layerStyle"
-    },
-    {
-      "_class": "MSImmutableOverrideProperty",
-      "canOverride": true,
-      "overrideName": "5F23CEB2-5CBA-46A8-A52C-F0C3C62D74DD_layerStyle"
-    },
-    {
-      "_class": "MSImmutableOverrideProperty",
-      "canOverride": true,
-      "overrideName": "1A49D3A2-1985-4672-8183-AF9469D1A41F_layerStyle"
+      "overrideName": "934D423F-8B00-4EE1-AFCB-88FCA4137020_layerStyle"
     }
   ],
   "presetDictionary": {

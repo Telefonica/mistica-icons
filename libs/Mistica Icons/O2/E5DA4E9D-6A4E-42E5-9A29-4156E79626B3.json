@@ -32,7 +32,7 @@
     "_class": "MSImmutableFreeformGroupLayout"
   },
   "hasBackgroundColor": false,
-  "hasClickThrough": false,
+  "hasClickThrough": true,
   "hasClippingMask": false,
   "horizontalRulerData": {
     "_class": "rulerData",
@@ -48,13 +48,13 @@
   "isFlowHome": false,
   "isLocked": false,
   "isVisible": true,
-  "layerListExpandedType": 2,
+  "layerListExpandedType": 0,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "47B1CD67-873C-4A27-8E01-B0F5B960E94C",
+      "do_objectID": "FCC78E46-8359-4DD5-8464-96ECE679B2E8",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -66,7 +66,7 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
+        "constrainProportions": false,
         "height": 20,
         "width": 20,
         "x": 2,
@@ -86,7 +86,7 @@
       "layers": [
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "DAD9E200-9D14-4F6D-B4D1-5B82583D9C85",
           "edited": true,
@@ -104,8 +104,8 @@
             "constrainProportions": false,
             "height": 10.91020910209102,
             "width": 4.267415102033713,
-            "x": 9.066126892833664,
-            "y": 2.726527265272654
+            "x": 9.066126892833609,
+            "y": 2.726527265272637
           },
           "hasClippingMask": false,
           "isClosed": true,
@@ -327,7 +327,7 @@
         },
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "A0EFD186-0B20-43B8-81DE-24B560D48683",
           "edited": true,
@@ -678,10 +678,11 @@
         }
       ],
       "name": "o2/2.regular/wait-regular",
-      "nameIsFixed": true,
+      "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -709,7 +710,7 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
@@ -717,9 +718,62 @@
           "blendMode": 0,
           "opacity": 1
         },
-        "do_objectID": "3F6A4D20-CF19-4CF2-9B59-18CDB2809C50",
+        "do_objectID": "A978F53E-B310-492A-B464-C3F05AC109ED",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -727,8 +781,9 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/2.regular/wait-regular",
@@ -737,12 +792,7 @@
     {
       "_class": "MSImmutableOverrideProperty",
       "canOverride": true,
-      "overrideName": "A0EFD186-0B20-43B8-81DE-24B560D48683_layerStyle"
-    },
-    {
-      "_class": "MSImmutableOverrideProperty",
-      "canOverride": true,
-      "overrideName": "DAD9E200-9D14-4F6D-B4D1-5B82583D9C85_layerStyle"
+      "overrideName": "FCC78E46-8359-4DD5-8464-96ECE679B2E8_layerStyle"
     }
   ],
   "presetDictionary": {

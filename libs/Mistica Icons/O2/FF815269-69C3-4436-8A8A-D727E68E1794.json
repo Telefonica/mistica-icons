@@ -48,13 +48,13 @@
   "isFlowHome": false,
   "isLocked": false,
   "isVisible": true,
-  "layerListExpandedType": 2,
+  "layerListExpandedType": 0,
   "layers": [
     {
-      "_class": "group",
+      "_class": "shapeGroup",
       "booleanOperation": -1,
       "clippingMaskMode": 0,
-      "do_objectID": "55E4CF9F-52AE-49C6-A2A0-240A8F0D3B32",
+      "do_objectID": "EA23D7D8-CE63-4850-8A5D-0EF3308ED2AF",
       "exportOptions": {
         "_class": "exportOptions",
         "exportFormats": [
@@ -66,8 +66,8 @@
       },
       "frame": {
         "_class": "rect",
-        "constrainProportions": true,
-        "height": 20,
+        "constrainProportions": false,
+        "height": 20.00000000000002,
         "width": 13.33333333333341,
         "x": 5,
         "y": 2
@@ -86,7 +86,7 @@
       "layers": [
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "0B45C1FA-CD34-4B2B-A731-886C77FEF52C",
           "edited": true,
@@ -104,7 +104,7 @@
             "constrainProportions": false,
             "height": 3.392678535707142,
             "width": 13.32940135653199,
-            "x": 0.003931976801292573,
+            "x": 0.003931976801368364,
             "y": 0
           },
           "hasClippingMask": false,
@@ -277,7 +277,7 @@
         },
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "1E9A0B2A-BF46-4334-B3D4-B19FB223377D",
           "edited": true,
@@ -295,8 +295,8 @@
             "constrainProportions": false,
             "height": 3.392678535707141,
             "width": 6.141747763688194,
-            "x": 7.191585569645214,
-            "y": 16.60332066413283
+            "x": 7.191585569645213,
+            "y": 16.60332066413284
           },
           "hasClippingMask": false,
           "isClosed": true,
@@ -458,7 +458,7 @@
         },
         {
           "_class": "shapePath",
-          "booleanOperation": -1,
+          "booleanOperation": 0,
           "clippingMaskMode": 0,
           "do_objectID": "72F42AF2-4F04-4AA0-8815-25DFA5CD95C7",
           "edited": true,
@@ -477,7 +477,7 @@
             "height": 15.53510702140428,
             "width": 13.33333333333333,
             "x": 0,
-            "y": 4.464892978595723
+            "y": 4.464892978595742
           },
           "hasClippingMask": false,
           "isClosed": true,
@@ -808,11 +808,12 @@
           }
         }
       ],
-      "name": "o2/3.Filled/top-up-filled",
-      "nameIsFixed": true,
+      "name": "top-up-filled",
+      "nameIsFixed": false,
       "resizingConstraint": 63,
       "resizingType": 0,
       "rotation": 0,
+      "sharedStyleID": "7CC1D7C4-C87F-48CA-8C27-01876E1C884D",
       "shouldBreakMaskChain": false,
       "style": {
         "_class": "style",
@@ -840,7 +841,7 @@
           "brightness": 0,
           "contrast": 1,
           "hue": 0,
-          "isEnabled": false,
+          "isEnabled": true,
           "saturation": 1
         },
         "contextSettings": {
@@ -848,9 +849,62 @@
           "blendMode": 0,
           "opacity": 1
         },
-        "do_objectID": "75B5E240-D66C-4B48-9AD2-69F54318E1DD",
+        "do_objectID": "696C9A70-8468-4F08-B032-18A7271B633E",
         "endMarkerType": 0,
         "fills": [
+          {
+            "_class": "fill",
+            "color": {
+              "_class": "color",
+              "alpha": 1,
+              "blue": 0.2078431372549019,
+              "green": 0.196078431372549,
+              "red": 0.192156862745098,
+              "swatchID": "90F34D3E-F0D5-4A91-9C81-24D135129CB1"
+            },
+            "contextSettings": {
+              "_class": "graphicsContextSettings",
+              "blendMode": 0,
+              "opacity": 1
+            },
+            "fillType": 0,
+            "gradient": {
+              "_class": "gradient",
+              "elipseLength": 0,
+              "from": "{0.5, 0}",
+              "gradientType": 0,
+              "stops": [
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 1,
+                    "green": 1,
+                    "red": 1
+                  },
+                  "position": 0
+                },
+                {
+                  "_class": "gradientStop",
+                  "color": {
+                    "_class": "color",
+                    "alpha": 1,
+                    "blue": 0,
+                    "green": 0,
+                    "red": 0
+                  },
+                  "position": 1
+                }
+              ],
+              "to": "{0.5, 1}"
+            },
+            "isEnabled": true,
+            "noiseIndex": 0,
+            "noiseIntensity": 0,
+            "patternFillType": 1,
+            "patternTileScale": 1
+          }
         ],
         "innerShadows": [
         ],
@@ -858,8 +912,9 @@
         "shadows": [
         ],
         "startMarkerType": 0,
-        "windingRule": 1
-      }
+        "windingRule": 0
+      },
+      "windingRule": 0
     }
   ],
   "name": "o2/3.Filled/top-up-filled",
@@ -868,17 +923,7 @@
     {
       "_class": "MSImmutableOverrideProperty",
       "canOverride": true,
-      "overrideName": "72F42AF2-4F04-4AA0-8815-25DFA5CD95C7_layerStyle"
-    },
-    {
-      "_class": "MSImmutableOverrideProperty",
-      "canOverride": true,
-      "overrideName": "1E9A0B2A-BF46-4334-B3D4-B19FB223377D_layerStyle"
-    },
-    {
-      "_class": "MSImmutableOverrideProperty",
-      "canOverride": true,
-      "overrideName": "0B45C1FA-CD34-4B2B-A731-886C77FEF52C_layerStyle"
+      "overrideName": "EA23D7D8-CE63-4850-8A5D-0EF3308ED2AF_layerStyle"
     }
   ],
   "presetDictionary": {
