@@ -11,7 +11,7 @@ on:
     workflows: ["SketchTool Export Assets"]
     branches: [multibrand-icons]
     types:
-      - completed
+      - completed 
 
 jobs:
   regenerating:
@@ -24,10 +24,10 @@ jobs:
         run: |
           sudo chown -R $USER:$USER $GITHUB_WORKSPACE
 
+      - uses: actions/checkout@v2
+
       - name: Get branch name
         uses: rlespinasse/github-slug-action@v3.x
-
-      - uses: actions/checkout@v2
 
       - run: sudo python3 .github/md-generator/md-generator.py icons
 
