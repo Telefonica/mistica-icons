@@ -37,12 +37,15 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![adn-filled](icons/telefonica/3.Filled/adn-filled.svg) | | |`adn-filled`|
 | ![adn-light](icons/telefonica/1.Light/adn-light.svg) | | |`adn-light`|
 | ![adn-regular](icons/telefonica/2.Regular/adn-regular.svg) | | |`adn-regular`|
+| | | ![alarm-clock-filled](icons/o2/3.Filled/alarm-clock-filled.svg) |`alarm-clock-filled`|
+| | | ![alarm-clock-light](icons/o2/1.Light/alarm-clock-light.svg) |`alarm-clock-light`|
+| | | ![alarm-clock-regular](icons/o2/2.Regular/alarm-clock-regular.svg) |`alarm-clock-regular`|
 | ![alarm-light-cross-filled](icons/telefonica/3.Filled/alarm-light-cross-filled.svg) | | |`alarm-light-cross-filled`|
 | ![alarm-light-cross-light](icons/telefonica/1.Light/alarm-light-cross-light.svg) | | |`alarm-light-cross-light`|
 | ![alarm-light-cross-regular](icons/telefonica/2.Regular/alarm-light-cross-regular.svg) | | |`alarm-light-cross-regular`|
-| ![alarm-light-filled](icons/telefonica/3.Filled/alarm-light-filled.svg) | | ![alarm-light-filled](icons/o2/3.Filled/alarm-light-filled.svg) |`alarm-light-filled`|
-| ![alarm-light-light](icons/telefonica/1.Light/alarm-light-light.svg) | | ![alarm-light-light](icons/o2/1.Light/alarm-light-light.svg) |`alarm-light-light`|
-| ![alarm-light-regular](icons/telefonica/2.Regular/alarm-light-regular.svg) | | ![alarm-light-regular](icons/o2/2.Regular/alarm-light-regular.svg) |`alarm-light-regular`|
+| ![alarm-light-filled](icons/telefonica/3.Filled/alarm-light-filled.svg) | | |`alarm-light-filled`|
+| ![alarm-light-light](icons/telefonica/1.Light/alarm-light-light.svg) | | |`alarm-light-light`|
+| ![alarm-light-regular](icons/telefonica/2.Regular/alarm-light-regular.svg) | | |`alarm-light-regular`|
 | ![alert-filled](icons/telefonica/3.Filled/alert-filled.svg) | | ![alert-filled](icons/o2/3.Filled/alert-filled.svg) |`alert-filled`|
 | ![alert-light](icons/telefonica/1.Light/alert-light.svg) | | ![alert-light](icons/o2/1.Light/alert-light.svg) |`alert-light`|
 | ![alert-regular](icons/telefonica/2.Regular/alert-regular.svg) | | ![alert-regular](icons/o2/2.Regular/alert-regular.svg) |`alert-regular`|
