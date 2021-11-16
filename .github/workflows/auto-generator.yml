@@ -18,23 +18,17 @@ jobs:
 
     steps:
       # comando solo para Self-Hosted machines
-      # - run: sudo chown -R $USER:$USER /home/pi/actions-runner/_work/
+      - run: sudo chown -R $USER:$USER /home/pi/Actions/mistica-icons/_work/
       - name: Cleanup
         run: |
           sudo chown -R $USER:$USER $GITHUB_WORKSPACE
 
+      - uses: actions/checkout@v2
+
       - name: Get branch name
         uses: rlespinasse/github-slug-action@v3.x
 
-      - uses: actions/checkout@v2
-
-      # no se necesita actions/python en self-hosted
-      - uses: actions/setup-python@v2
-        with:
-          python-version: "3.x" # Version range or exact version of a Python version to use, using SemVer's version range syntax
-          architecture: "x64" # optional x64 or x86. Defaults to x64 if not specified
-
-      - run: sudo python .github/md-generator/md-generator.py icons
+      - run: sudo python3 .github/md-generator/md-generator.py icons
 
       - name: Commit & Push
         run: |
