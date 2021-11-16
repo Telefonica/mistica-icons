@@ -24,6 +24,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![accesibility-filled](icons/telefonica/3.Filled/accesibility-filled.svg) | | ![accesibility-filled](icons/o2/3.Filled/accesibility-filled.svg) |`accesibility-filled`|
 | ![accesibility-light](icons/telefonica/1.Light/accesibility-light.svg) | | ![accesibility-light](icons/o2/1.Light/accesibility-light.svg) |`accesibility-light`|
 | ![accesibility-regular](icons/telefonica/2.Regular/accesibility-regular.svg) | | ![accesibility-regular](icons/o2/2.Regular/accesibility-regular.svg) |`accesibility-regular`|
+| | | ![add-bolton-filled](icons/o2/3.Filled/add-bolton-filled.svg) |`add-bolton-filled`|
+| | | ![add-bolton-light](icons/o2/1.Light/add-bolton-light.svg) |`add-bolton-light`|
+| | | ![add-bolton-regular](icons/o2/2.Regular/add-bolton-regular.svg) |`add-bolton-regular`|
 | ![add-more-circle-filled](icons/telefonica/3.Filled/add-more-circle-filled.svg) | | ![add-more-circle-filled](icons/o2/3.Filled/add-more-circle-filled.svg) |`add-more-circle-filled`|
 | ![add-more-circle-light](icons/telefonica/1.Light/add-more-circle-light.svg) | | ![add-more-circle-light](icons/o2/1.Light/add-more-circle-light.svg) |`add-more-circle-light`|
 | ![add-more-circle-regular](icons/telefonica/2.Regular/add-more-circle-regular.svg) | ![add-more-circle-regular](icons/blau/2.Regular/add-more-circle-regular.svg) | ![add-more-circle-regular](icons/o2/2.Regular/add-more-circle-regular.svg) |`add-more-circle-regular`|
@@ -149,9 +152,6 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![boat-filled](icons/telefonica/3.Filled/boat-filled.svg) | | |`boat-filled`|
 | ![boat-light](icons/telefonica/1.Light/boat-light.svg) | | |`boat-light`|
 | ![boat-regular](icons/telefonica/2.Regular/boat-regular.svg) | | |`boat-regular`|
-| | | ![boltons-filled](icons/o2/3.Filled/boltons-filled.svg) |`boltons-filled`|
-| | | ![boltons-light](icons/o2/1.Light/boltons-light.svg) |`boltons-light`|
-| | | ![boltons-regular](icons/o2/2.Regular/boltons-regular.svg) |`boltons-regular`|
 | ![bookmark-filled](icons/telefonica/3.Filled/bookmark-filled.svg) | | |`bookmark-filled`|
 | ![bookmark-light](icons/telefonica/1.Light/bookmark-light.svg) | | |`bookmark-light`|
 | ![bookmark-regular](icons/telefonica/2.Regular/bookmark-regular.svg) | | |`bookmark-regular`|
