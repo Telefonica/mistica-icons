@@ -24,9 +24,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![accesibility-filled](icons/telefonica/3.Filled/accesibility-filled.svg) | | ![accesibility-filled](icons/o2/3.Filled/accesibility-filled.svg) |`accesibility-filled`|
 | ![accesibility-light](icons/telefonica/1.Light/accesibility-light.svg) | | ![accesibility-light](icons/o2/1.Light/accesibility-light.svg) |`accesibility-light`|
 | ![accesibility-regular](icons/telefonica/2.Regular/accesibility-regular.svg) | | ![accesibility-regular](icons/o2/2.Regular/accesibility-regular.svg) |`accesibility-regular`|
-| ![add-more-circle-filled](icons/telefonica/3.Filled/add-more-circle-filled.svg) | | |`add-more-circle-filled`|
-| ![add-more-circle-light](icons/telefonica/1.Light/add-more-circle-light.svg) | | |`add-more-circle-light`|
-| ![add-more-circle-regular](icons/telefonica/2.Regular/add-more-circle-regular.svg) | ![add-more-circle-regular](icons/blau/2.Regular/add-more-circle-regular.svg) | |`add-more-circle-regular`|
+| ![add-more-circle-filled](icons/telefonica/3.Filled/add-more-circle-filled.svg) | | ![add-more-circle-filled](icons/o2/3.Filled/add-more-circle-filled.svg) |`add-more-circle-filled`|
+| ![add-more-circle-light](icons/telefonica/1.Light/add-more-circle-light.svg) | | ![add-more-circle-light](icons/o2/1.Light/add-more-circle-light.svg) |`add-more-circle-light`|
+| ![add-more-circle-regular](icons/telefonica/2.Regular/add-more-circle-regular.svg) | ![add-more-circle-regular](icons/blau/2.Regular/add-more-circle-regular.svg) | ![add-more-circle-regular](icons/o2/2.Regular/add-more-circle-regular.svg) |`add-more-circle-regular`|
 | ![add-more-light](icons/telefonica/1.Light/add-more-light.svg) | | ![add-more-light](icons/o2/1.Light/add-more-light.svg) |`add-more-light`|
 | ![add-more-location-filled](icons/telefonica/3.Filled/add-more-location-filled.svg) | | |`add-more-location-filled`|
 | ![add-more-location-regular](icons/telefonica/2.Regular/add-more-location-regular.svg) | | |`add-more-location-regular`|
