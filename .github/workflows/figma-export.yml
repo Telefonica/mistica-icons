@@ -1,18 +1,20 @@
-name: Figma Export Icons
+name: 🚀 Release (Figma)
 
 on:
-  # schedule:
-  #   # At 09:45 on every day-of-week from Monday through Friday
-  #   - cron: "45 9 * * 1-5"
+# schedule:
+#   # At 09:45 on every day-of-week from Monday through Friday
+#   - cron: "45 9 * * 1-5"
   workflow_dispatch:
     inputs:
-      tags:
-        description: 'Release description' 
+      release:
+        description: 'Release version'
+        required: true 
   issues:
     types: [closed]
-  # push:
-  #   paths:
-  #     - ".github/workflows/figma-export.yml"
+
+# push:
+#   paths:
+#     - ".github/workflows/figma-export.yml"
 
 jobs:
   assets:
