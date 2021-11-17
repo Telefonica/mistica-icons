@@ -49,15 +49,11 @@ jobs:
           git push origin ${{ github.event.inputs.release }}
           
         # git push origin ${{ env.GITHUB_REF_SLUG_URL }}
-
-      - name: Create Pull Request
-        uses: repo-sync/pull-request@v2
-        with:
-          destination_branch: "production"
-          github_token: ${{ secrets.GITHUB_TOKEN }}
       
-    # - name: Create PR
-    #   run : git request-pull origin/production release/${{ github.event.inputs.release }}
+      - name: Create PR
+        run : |
+          git status
+          git request-pull origin/production release/${{ github.event.inputs.release }}
 
 # Action for Hackintosh
 
