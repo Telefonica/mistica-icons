@@ -49,9 +49,9 @@ jobs:
           git push origin ${{ github.event.inputs.release }}
           
         # git push origin ${{ env.GITHUB_REF_SLUG_URL }}
-
-      - run : hub pull-request
-      # - run : git request-pull origin/production release/${{ github.event.inputs.release }}
+      
+      - name: Create PR
+        run : git request-pull origin/production release/${{ github.event.inputs.release }}
 
 # Action for Hackintosh
 
