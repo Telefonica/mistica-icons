@@ -5,107 +5,47 @@ import sys
 
 PIPE = "|"
 SLASH = "/"
+PNG_FOLDER = "PNG"
+SVG_FOLDER = "SVG"
+PDF_FOLDER = "PDF"
+PNG_EXTENSION = ".png"
 SVG_EXTENSION = ".svg"
 PDF_EXTENSION = ".pdf"
 BREAK = "\n"
 
-
-def read_folder(folder):
-    if os.path.isdir(folder):
-        files = os.listdir(folder)
-        if ".DS_Store" in files:
-            files.remove(".DS_Store")
-        return files
-    return []
-
-
-def count_files(path):
-    return len(os.listdir(path))
-
-
-icons_telefonica_light = count_files(r'icons/telefonica/1.Light')
-icons_telefonica_regular = count_files(r'icons/telefonica/2.Regular')
-icons_telefonica_filled = count_files(r'icons/telefonica/3.Filled')
-total_telefonica = icons_telefonica_light + icons_telefonica_regular + icons_telefonica_filled
-
-icons_o2_light = count_files(r'icons/o2/1.Light')
-icons_o2_regular = count_files(r'icons/o2/2.Regular')
-icons_o2_filled = count_files(r'icons/o2/3.Filled')
-total_o2 = icons_o2_light + icons_o2_regular + icons_o2_filled
-
-icons_blau_light = 0
-icons_blau_regular = count_files(r'icons/blau/2.Regular')
-icons_blau_filled = 0
-total_blau = icons_blau_light + icons_blau_regular + icons_blau_filled
-
-# print(int(total_telefonica))
-# print(int(total_o2))
-# print(icons_o2)
-
-telefonica_percent = 100
-o2_percent = (int((total_o2 * 100) / total_telefonica))
-blau_percent = (int((total_blau * 100) / total_telefonica))
-
-BAR_FILLED = "<img src='https://i.imgur.com/8pLUSBF.png' />"
-BAR_EMPTY = "<img src='https://i.imgur.com/BLjOoR0.png' />"
-
-telefonica_bar = ("`" + "telefonica set‎‎‎" + "`" + "    " + (int(telefonica_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (
-            abs(int(telefonica_percent / 10) - 10) * 2) + "    " + str(int(telefonica_percent))
-      + " %" + "  ")
-o2_bar = ("`" + "o2 set‎‎‎" + "`" + "              " + (int(o2_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(o2_percent / 10) - 10) * 2) + "    " + str(
-    int(o2_percent))
-      + " %" + "  ")
-blau_bar = ("`" + "blau set‎‎‎" + "`" + "          " + (int(blau_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(blau_percent / 10) - 10) * 2) + "    " + str(
-    int(blau_percent))
-      + " %" + "  ")
-
 if __name__ == '__main__':
     path = sys.argv[1]
-    brands = read_folder(path)
+    files = os.listdir(path)
     root = os.path.basename(path)
     dictionary = {}
-    file_content = "<br/><br/>![Mistica Icons](.github/resources/misticaicons-logo.png)<br/><br/>" + BREAK + "### What is this?" + BREAK + "This is the repo that contains all icons that is working in [Mistica Design](https://github.com/Telefonica/mistica-design) now." + BREAK + "Mistica support [Brand Factory icons](https://brandfactory.telefonica.com/document/1086#/nuestra-identidad/iconos). This set of icons are a big list of different icons and style that Brand Team worked to be used through Telefonica applications." + BREAK + "If you have any question, please you can ask directly in the app of Microsoft Teams, in [Mistica Team](https://teams.microsoft.com/l/team/19%3ad2e3607a32ec411b8bf492f43cd0fe0c%40thread.tacv2/conversations?groupId=e265fe99-929f-45d1-8154-699649674a40&tenantId=9744600e-3e04-492e-baa1-25ec245c6f10)." + BREAK + "### Documentation" + BREAK + "#### Develop" + BREAK + "##### iOS and Android" + BREAK + "You can get .pdf or .svg files from this repo." + BREAK + "##### Web" + BREAK + "Visit [Mistica Storybook](https://mistica-web.now.sh/?path=/story/icons-mistica-icons--catalog) to get all the detail about using Mistica Icons Library" + BREAK + "#### Design" + BREAK + "Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfactory.telefonica.com/document/1846#/get-started/start-to-design/mistica-manager)" + BREAK + "### Icon set status" + BREAK + "---telefonica_BAR---" + BREAK + "---O2_BAR---" + BREAK + "---BLAU_BAR---" + BREAK + "# Icons " + BREAK + "| ---BRANDS--- | icon name <img width=500> | " + BREAK + "| ---HEADER-BREAK--- |" + ":--- |" + BREAK
-    for brand in brands:
+    file_content = "<br/><br/>![Mistica Icons](.github/resources/misticaicons-logo.png)<br/><br/>" + BREAK + "### What is this?" + BREAK + "This is the repo that contains all icons that is working in [Mistica Design](https://github.com/Telefonica/mistica-design) now." + BREAK + "Mistica support [Brand Factory icons](https://brandfactory.telefonica.com/document/1086#/nuestra-identidad/iconos). This set of icons are a big list of different icons and style that Brand Team worked to be used through Telefonica applications." + BREAK + "If you have any question, please you can ask directly in the app of Microsoft Teams, in [Mistica Team](https://teams.microsoft.com/l/team/19%3ad2e3607a32ec411b8bf492f43cd0fe0c%40thread.tacv2/conversations?groupId=e265fe99-929f-45d1-8154-699649674a40&tenantId=9744600e-3e04-492e-baa1-25ec245c6f10)." + BREAK + "### Documentation" + BREAK + "#### Develop" + BREAK + "##### iOS and Android" + BREAK + "You can get .pdf or .svg files from this repo." + BREAK + "##### Web" + BREAK + "Visit [Mistica Storybook](https://mistica-web.now.sh/?path=/story/icons-mistica-icons--catalog) to get all the detail about using Mistica Icons Library" + BREAK + "#### Design" + BREAK + "Install Mistica Icons Library in Sketch from [Mistica Manager](https://telefonica.github.io/mistica/docs/design/start-using)" + BREAK + "# Icons " + BREAK + "| Default | O2 |name 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　| SVG | PDF |" + BREAK + "| :-: | :- | :-: | :-: |" + BREAK
+    for brand in files:
         brand_folder = path + SLASH + brand
-        styles = read_folder(brand_folder)
-        for style in styles:
-            style_folder = brand_folder + SLASH + style
-            icons = read_folder(style_folder)
-            for icon in icons:
-                icon_name = os.path.splitext(icon)[0]
-                file_path = root + SLASH + brand + SLASH + style + SLASH + icon_name + SVG_EXTENSION
-                # file_path_pdf = root + SLASH + brand + SLASH + style + SLASH + icon_name + PDF_EXTENSION
-                if icon_name in dictionary:
-                    if style not in dictionary[icon_name]:
-                        dictionary[icon_name][style] = {brand: file_path}
+        if os.path.isdir(brand_folder) and brand != ".DS_Store":
+            for icon in os.listdir(brand_folder):
+                if icon != ".DS_Store":
+                    icon_name = os.path.splitext(icon)[0]
+                    icon_extension = os.path.splitext(icon)[1]
+                    if icon_name in dictionary:
+                        brands = dictionary[icon_name]
+                        if brand not in brands:
+                            brands.append(brand)
                     else:
-                        dictionary[icon_name][style][brand] = file_path
-                else:
-                    dictionary[icon_name] = {
-                        style: {brand: file_path}
-                    }
+                        dictionary[icon_name] = [brand]
 
-    brands.remove("telefonica")
-    brands = ["telefonica"] + sorted(brands)
-    separator = " " + PIPE + " "
-    file_content = file_content.replace("---telefonica_BAR---", (telefonica_bar))
-    file_content = file_content.replace("---O2_BAR---", (o2_bar))
-    file_content = file_content.replace("---BLAU_BAR---", (blau_bar))
-    file_content = file_content.replace("---BRANDS---", separator.join(brands))
-    file_content = file_content.replace("---HEADER-BREAK---", separator.join([":---:"] * (len(brands)))) # add (len(brands) + 2) to add svg & pdf download
-    
-
-    for icon_name in sorted(dictionary.keys()):
-        icon = dictionary[icon_name]
-        for style in sorted(icon.keys()):
-            icon_images = []
-            for brand in brands:
-                icon_image = " ![" + icon_name + "](" + icon[style][brand] + ") " if brand in icon[style] else " "
-                icon_images.append(icon_image)
-            # row = "| telefonica | O2 | my_icon_light |
-            row = PIPE + PIPE.join(icon_images) + PIPE + "`" + icon_name + "`" + PIPE 
-            # + "[<img src='.github/resources/svg.png'>]" + "(" + file_path + ")" + "[<img src='.github/resources/pdf.png'>]" + "(" + file_path_pdf + ")" + PIPE + "[<img src='.github/resources/svg.png'>]" + "(" + file_path + ")" + "[<img src='.github/resources/pdf.png'>]" + "(" + file_path_pdf + ")"
-            file_content += row + BREAK
+    for icon in sorted(dictionary.keys()):
+        line_image = PIPE
+        line_separator = BREAK + PIPE
+        line_name = BREAK + PIPE
+        row = ""
+        counter = 0
+        dictionary[icon].sort()
+        for brand in dictionary[icon]:
+            path_icon = root + SLASH + brand + SLASH + icon + SVG_EXTENSION
+            svg_icon = root + SLASH + brand + SLASH + icon + SVG_EXTENSION
+            pdf_icon = root + SLASH + brand + SLASH + icon + PDF_EXTENSION
+            row = row + "| ![" + icon + "](" + path_icon + ") | `" + icon + "`  |  [.svg](" + svg_icon + ") | [.pdf](" + pdf_icon + ") |  "
+        file_content += row + BREAK
 
     output_file_path = "./README.md"
     print(output_file_path)
