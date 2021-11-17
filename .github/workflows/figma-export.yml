@@ -30,6 +30,8 @@ jobs:
 
       - run: npm install figma-export-icons --save
 
+      - run: git checkout -b ${{ github.event.inputs.release }}
+
       - name: export icons filled
         run: npm run export-icons-filled
 
@@ -47,7 +49,11 @@ jobs:
           git config user.name "Bot"
           git config user.email "nobody@nowhere"  
           git commit -am "Update figma icons"
-          git push origin ${{ env.GITHUB_REF_SLUG_URL }}
+          git push origin ${{ github.event.inputs.release }}
+          
+        # git push origin ${{ env.GITHUB_REF_SLUG_URL }}
+
+      - run : gh pr create --title ${{ github.event.inputs.release }}
 
 # Action for Hackintosh
 
