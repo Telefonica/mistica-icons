@@ -15,8 +15,6 @@ on:
   issues:
     types: [closed]
   push:
-    branches:
-      - figma-export-alternative
     paths:
       - ".github/workflows/figma-export.yml"
 
