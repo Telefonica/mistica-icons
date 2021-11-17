@@ -1,64 +1,91 @@
-name: Sync icons from Figma
+name: Figma Export Icons
+
 on:
   # schedule:
-  # At 09:00 on every day-of-week from Monday through Friday
-  # - cron: "0 9 * * 1-5"
-  # push:
+  #   # At 09:45 on every day-of-week from Monday through Friday
+  #   - cron: "45 9 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'     
+        required: true
+        default: 'warning'
+      tags:
+        description: 'Test scenario tags' 
+  issues:
+    types: [closed]
+  push:
+    branches:
+      - figma-export-alternative
+    paths:
+      - ".github/workflows/figma-export.yml"
 
 jobs:
-  all:
-    name: Sync icons
-    runs-on: ubuntu-latest
+  assets:
+    runs-on: [self-hosted, Linux]
     steps:
+      # comando solo para Self-Hosted machines
+      - run: sudo chown -R $USER:$USER /home/pi/Actions/mistica-icons/_work/
+
       - uses: actions/checkout@v2
-        with:
-          ref: "production"
 
-      # - uses: actions/setup-node@v1
-      #   with:
-      #     node-version: "10.x"
+      - name: Get branch name
+        uses: rlespinasse/github-slug-action@v3.x
 
-      # # Persist the yarn cache between builds, unless yarn.lock changes
-      # - name: Get yarn cache
-      #   id: yarn-cache
-      #   run: echo "::set-output name=dir::$(yarn cache dir)"
+      - run: npm install figma-export-icons --save
 
-      # - uses: actions/cache@v1
-      #   with:
-      #     path: ${{ steps.yarn-cache.outputs.dir }}
-      #     key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-      #     restore-keys: |
-      #       ${{ runner.os }}-yarn-
+      - name: export icons filled
+        run: npm run export-icons-filled
 
-      # - name: Install Dependencies
-      #   run: yarn install
+      - name: export icons regular
+        run: npm run export-icons-regular
 
-      - uses: chasemccoy/figma-action@1.0.0-alpha.5
-        with:
-          args: "format=svg outputDir=./figma"
-        env:
-          # This points to the Figma URL of our current icon kit
-          FIGMA_FILE_URL: "https://www.figma.com/file/24t2Qvzhiga5K1oDCQJbLp/Mistica-Icons"
-          FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
+      - name: export icons light
+        run: npm run export-icons-light
 
-      # Move the output files to our icons folder and run the icon linter on them
-      - run: |
-          sudo cp -R ./figma/svg/. ./fig-icons/
-          sudo rm -r ./figma
+      - name: Add icons
+        run: git add -A
 
-      # Create a PR if there are any file diffs
-      - uses: peter-evans/create-pull-request@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "chore: sync icons with Figma"
-          title: "Sync icons from Figma"
-          branch: "figma-icon-sync"
-          base: "production"
-          body: |
-            🚨 **This pull request has been created automatically** 🚨
+      - name: Commit & Push
+        run: |
+          git config user.name "Bot"
+          git config user.email "nobody@nowhere"  
+          git commit -am "Update figma icons"
+          git push origin ${{ env.GITHUB_REF_SLUG_URL }}
 
-            Racine uses a GitHub action to sync the svg files for our icons from our [Mística Icons in Figma](https://www.figma.com/file/JHuzksh01yxExMeMQBvymq/Beta-Mistica-Icons). This script runs everyday at 09:00.
+# Action for Hackintosh
 
-            Whenever you need to release any icon changes into Mística Icons, you can merge this PR publishing a new version in production branch.
+# jobs:
+#   assets:
+#     runs-on: [self-hosted, macOS]
+#     steps:
+#       - uses: actions/checkout@v2
 
-            **Be sure to take a look at the changes files to make sure everything is in order before merging.**
+#       - name: Get branch name
+#         uses: rlespinasse/github-slug-action@v3.x
+
+#       - run: npm install --global figma-export-icons --force
+
+#       - name: export icons filled
+#         run: npm run export-icons-filled
+
+#       - name: export icons regular
+#         run: npm run export-icons-regular
+
+#       - name: export icons light
+#         run: npm run export-icons-light
+
+#       - name: Add icons
+#         run: git add -A
+
+#       - name: Commit & Push
+#         run: |
+#           git config user.name "Bot"
+#           git config user.email "nobody@nowhere"
+#           git commit -am "Update figma icons"
+#           git push origin ${{ env.GITHUB_REF_SLUG_URL }}
+
+#     # - name: Push
+#     #   run: |
+#     #     git show-ref
+#     #     git commit -m 'icon exported'
