@@ -16,7 +16,6 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 `o2 set‎‎‎`              <img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' />    35 %  
 `blau set‎‎‎`          <img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' />    2 %  
 # Icons 
-<<<<<<< HEAD
 | telefonica | blau | o2 | icon name <img width=500> | 
 | :---: | :---: | :---: |:--- |
 | ![academic-filled](icons/telefonica/3.Filled/academic-filled.svg) | | |`academic-filled`|
@@ -1170,10 +1169,3 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![woman-filled](icons/telefonica/3.Filled/woman-filled.svg) | | ![woman-filled](icons/o2/3.Filled/woman-filled.svg) |`woman-filled`|
 | ![woman-light](icons/telefonica/1.Light/woman-light.svg) | | ![woman-light](icons/o2/1.Light/woman-light.svg) |`woman-light`|
 | ![woman-regular](icons/telefonica/2.Regular/woman-regular.svg) | | ![woman-regular](icons/o2/2.Regular/woman-regular.svg) |`woman-regular`|
-=======
-| Default | O2 |name 　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　| SVG | PDF |
-| :-: | :- | :-: | :-: |
-| ![1](icons/o2/1.svg) | `1`  |  [.svg](icons/o2/1.svg) | [.pdf](icons/o2/1.pdf) |  | ![1](icons/telefonica/1.svg) | `1`  |  [.svg](icons/telefonica/1.svg) | [.pdf](icons/telefonica/1.pdf) |  
-| ![2](icons/blau/2.svg) | `2`  |  [.svg](icons/blau/2.svg) | [.pdf](icons/blau/2.pdf) |  | ![2](icons/o2/2.svg) | `2`  |  [.svg](icons/o2/2.svg) | [.pdf](icons/o2/2.pdf) |  | ![2](icons/telefonica/2.svg) | `2`  |  [.svg](icons/telefonica/2.svg) | [.pdf](icons/telefonica/2.pdf) |  
-| ![3](icons/o2/3.svg) | `3`  |  [.svg](icons/o2/3.svg) | [.pdf](icons/o2/3.pdf) |  | ![3](icons/telefonica/3.svg) | `3`  |  [.svg](icons/telefonica/3.svg) | [.pdf](icons/telefonica/3.pdf) |  
->>>>>>> production
