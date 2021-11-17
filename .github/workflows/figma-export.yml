@@ -50,7 +50,12 @@ jobs:
           
         # git push origin ${{ env.GITHUB_REF_SLUG_URL }}
 
-      - run : git pull 'production' '${{ github.event.inputs.release }}'
+      - name: pull-request-action
+        uses: vsoch/pull-request-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH_PREFIX: "release/"
+          PULL_REQUEST_BRANCH: "production"
 
 # Action for Hackintosh
 
