@@ -28,6 +28,7 @@ jobs:
         run: |
           echo "MESSAGE ---> '${{ github.event.inputs.message }}'"
           echo "VERSION ---> '${{ github.event.inputs.version }}'"
+          
       - name: Checkout
         id: checkout
         uses: actions/checkout@v2
