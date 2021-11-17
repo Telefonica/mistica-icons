@@ -5,8 +5,15 @@
   "main": "index.js",
   "repository": "https://github.com/Telefonica/mistica-icons.git",
   "author": "Yayo <yceballost@gmail.com>",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "export-icons-light": "export-icons --config=icons-config/default-light.json",
+    "export-icons-regular": "export-icons --config=icons-config/default-regular.json",
+    "export-icons-filled": "export-icons --config=icons-config/default-filled.json"
+  },
   "license": "MIT",
   "dependencies": {
+    "figma-export-icons": "^1.5.0",
     "kactus-cli": "^0.6.1"
   }
 }
