@@ -1,9 +1,6 @@
 name: 🚀 Release (Figma)
 
 on:
-# schedule:
-#   # At 09:45 on every day-of-week from Monday through Friday
-#   - cron: "45 9 * * 1-5"
   workflow_dispatch:
     inputs:
       release:
@@ -53,7 +50,7 @@ jobs:
           
         # git push origin ${{ env.GITHUB_REF_SLUG_URL }}
 
-      - run : gh pr create --title ${{ github.event.inputs.release }}
+      - run : gh pr create --title "${{ github.event.inputs.release }}"
 
 # Action for Hackintosh
 
