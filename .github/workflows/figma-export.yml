@@ -10,9 +10,9 @@ on:
         description: 'Release description' 
   issues:
     types: [closed]
-  push:
-    paths:
-      - ".github/workflows/figma-export.yml"
+  # push:
+  #   paths:
+  #     - ".github/workflows/figma-export.yml"
 
 jobs:
   assets:
