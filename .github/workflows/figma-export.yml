@@ -52,8 +52,8 @@ jobs:
       
       - name: Create PR
         run : |
-          git status
-          git request-pull origin/production release/${{ github.event.inputs.release }}
+          git checkout ${{ github.event.inputs.release }}
+          git request-pull origin/production ${{ github.event.inputs.release }}
 
 # Action for Hackintosh
 
