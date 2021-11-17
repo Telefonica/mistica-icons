@@ -1,9 +1,17 @@
 name: Figma Export Icons
 
 on:
-  schedule:
-    # At 09:45 on every day-of-week from Monday through Friday
-    - cron: "45 9 * * 1-5"
+  # schedule:
+  #   # At 09:45 on every day-of-week from Monday through Friday
+  #   - cron: "45 9 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'     
+        required: true
+        default: 'warning'
+      tags:
+        description: 'Test scenario tags' 
   issues:
     types: [closed]
   push:
