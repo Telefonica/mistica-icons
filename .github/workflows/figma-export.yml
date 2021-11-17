@@ -1,4 +1,4 @@
-name: Release (Figma)
+name: 🚀 Release (Figma)
 
 on:
   # schedule:
@@ -6,9 +6,9 @@ on:
   #   - cron: "45 9 * * 1-5"
   workflow_dispatch:
     inputs:
-      logLevel:
+      release:
         description: 'Release version'
-        required: 'true' 
+        required: true 
   issues:
     types: [closed]
   # push:
