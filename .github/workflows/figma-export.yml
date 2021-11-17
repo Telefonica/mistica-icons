@@ -6,7 +6,7 @@ on:
   #   - cron: "45 9 * * 1-5"
   workflow_dispatch:
     inputs:
-      release:
+      name:
         description: 'Release version'
         required: 'true' 
   issues:
