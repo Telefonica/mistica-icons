@@ -21,6 +21,7 @@ jobs:
       - run: sudo chown -R $USER:$USER /home/pi/Actions/mistica-icons/_work/
 
       - uses: actions/checkout@v2
+      - uses: geertvdc/setup-hub@master
 
       - name: Get branch name
         uses: rlespinasse/github-slug-action@v3.x
@@ -49,11 +50,14 @@ jobs:
           git push origin ${{ github.event.inputs.release }}
           
         # git push origin ${{ env.GITHUB_REF_SLUG_URL }}
-      
+          
       - name: Create PR
-        run : |
-          git status
-          git request-pull origin/production release/${{ github.event.inputs.release }}
+        run: hub pull-request --base origin:production --head ${{ github.event.inputs.release }}
+      
+    # - name: Create PR
+    #   run : |
+    #     git status
+    #     git request-pull origin/production release/${{ github.event.inputs.release }}
 
 # Action for Hackintosh
 
