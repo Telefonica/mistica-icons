@@ -50,7 +50,7 @@ jobs:
           
         # git push origin ${{ env.GITHUB_REF_SLUG_URL }}
 
-      - run : gh pr create --title "${{ github.event.inputs.release }}"
+      - run : git pull '${{ github.event.inputs.release }}' 'production'
 
 # Action for Hackintosh
 
