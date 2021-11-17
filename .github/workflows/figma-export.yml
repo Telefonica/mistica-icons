@@ -53,6 +53,7 @@ jobs:
       - name: Create PR
         run : |
           git checkout ${{ github.event.inputs.release }}
+          git fetch origin
           git request-pull origin/production origin/${{ github.event.inputs.release }}
 
 # Action for Hackintosh
