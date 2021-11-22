@@ -24,10 +24,13 @@ jobs:
 
       - run: git checkout -b ${{ github.event.inputs.release }}
 
-      - name: export icons
-        run: | 
+      - name: Export icons
+        run: |
+          sed -e "s/YOUR_PERSONAL_TOKEN/$FIGMA_TOKEN/" -e "s/ICON_FRAME/Filled/" -e "s/ICON_PATH/icons-figma/Default/filled" .github/figma-export-icons.template.json > ./default-filled.json
           npm run export-icons-filled
+          sed -e "s/YOUR_PERSONAL_TOKEN/$FIGMA_TOKEN/" -e "s/ICON_FRAME/Regular/" -e "s/ICON_PATH/icons-figma/Default/regular" .github/figma-export-icons.template.json > ./default-regular.json
           npm run export-icons-regular
+          sed -e "s/YOUR_PERSONAL_TOKEN/$FIGMA_TOKEN/" -e "s/ICON_FRAME/Light/" -e "s/ICON_PATH/icons-figma/Default/light" .github/figma-export-icons.template.json > ./default-light.json
           npm run export-icons-light
 
       - name: Commit & Push
@@ -45,85 +48,3 @@ jobs:
           branch: ${{ github.event.inputs.release }}
           base: production
           assignees: yceballost
-
-
-# Para Raspberry
-
-# jobs:
-#   assets:
-#     runs-on: [self-hosted, Linux]
-#     steps:
-#       # comando solo para Self-Hosted machines
-#       - run: sudo chown -R $USER:$USER /home/pi/Actions/mistica-icons/_work/
-
-#       - uses: actions/checkout@v2
-
-#       - name: Get branch name
-#         uses: rlespinasse/github-slug-action@v3.x
-
-#       - run: npm install figma-export-icons --save
-
-#       - run: git checkout -b ${{ github.event.inputs.release }}
-
-#       - name: export icons filled
-#         run: npm run export-icons-filled
-
-#       - name: export icons regular
-#         run: npm run export-icons-regular
-
-#       - name: export icons light
-#         run: npm run export-icons-light
-
-#       - name: Add icons
-#         run: git add -A
-
-#       - name: Commit & Push
-#         run: |
-#           git config user.name "Bot"
-#           git config user.email "nobody@nowhere"  
-#           git commit -am "Update figma icons"
-#           git push origin ${{ github.event.inputs.release }}
-          
-#         # git push origin ${{ env.GITHUB_REF_SLUG_URL }}
-#       - name: Create PR
-#         run : |
-#           git checkout ${{ github.event.inputs.release }}
-#           git fetch origin
-#           git request-pull origin/production origin/${{ github.event.inputs.release }}
-
-# Action for Hackintosh
-
-# jobs:
-#   assets:
-#     runs-on: [self-hosted, macOS]
-#     steps:
-#       - uses: actions/checkout@v2
-
-#       - name: Get branch name
-#         uses: rlespinasse/github-slug-action@v3.x
-
-#       - run: npm install --global figma-export-icons --force
-
-#       - name: export icons filled
-#         run: npm run export-icons-filled
-
-#       - name: export icons regular
-#         run: npm run export-icons-regular
-
-#       - name: export icons light
-#         run: npm run export-icons-light
-
-#       - name: Add icons
-#         run: git add -A
-
-#       - name: Commit & Push
-#         run: |
-#           git config user.name "Bot"
-#           git config user.email "nobody@nowhere"
-#           git commit -am "Update figma icons"
-#           git push origin ${{ env.GITHUB_REF_SLUG_URL }}
-
-#     # - name: Push
-#     #   run: |
-#     #     git show-ref
-#     #     git commit -m 'icon exported'
