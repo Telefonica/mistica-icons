@@ -26,29 +26,28 @@ jobs:
 
       - run: git checkout -b ${{ github.event.inputs.release }}
 
-      - name: export icons filled
-        run: npm run export-icons-filled
-
-      - name: export icons regular
-        run: npm run export-icons-regular
-
-      - name: export icons light
-        run: npm run export-icons-light
-
-      - name: Add icons
-        run: git add -A
+      - name: export icons
+        run: | 
+          npm run export-icons-filled
+          npm run export-icons-regular
+          npm run export-icons-light
 
       - name: Commit & Push
         run: |
           git config user.name "Bot"
           git config user.email "nobody@nowhere"  
           git commit -am "Update figma icons"
+          git add -A
           git push origin ${{ github.event.inputs.release }}
           
         # git push origin ${{ env.GITHUB_REF_SLUG_URL }}
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
+        with:
+          title: '${{ github.event.inputs.release }}'
+          branch: ${{ github.event.inputs.release }}
+          base: production
 
 
 # Para Raspberry
