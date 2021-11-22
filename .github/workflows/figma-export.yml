@@ -27,6 +27,8 @@ jobs:
       - name: Export icons
         run: |
           sed 's/YOUR_PERSONAL_TOKEN/$FIGMA_TOKEN/' figma-export-icons.template.json > default-filled.json
+          sed 's/ICON_FRAME/Filled/' figma-export-icons.template.json > default-filled.json
+          sed 's/ICON_PATH/icons-figma/Default/filled'  figma-export-icons.template.json > default-filled.json
           npm run export-icons-filled
 
   
