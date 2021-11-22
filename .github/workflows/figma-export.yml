@@ -15,7 +15,7 @@ on:
 
 jobs:
   assets:
-    runs-on: [self-hosted, Linux]
+    runs-on: ubuntu-latest
     steps:
       # comando solo para Self-Hosted machines
       - run: sudo chown -R $USER:$USER /home/pi/Actions/mistica-icons/_work/
@@ -49,12 +49,54 @@ jobs:
           git push origin ${{ github.event.inputs.release }}
           
         # git push origin ${{ env.GITHUB_REF_SLUG_URL }}
-      
+
       - name: Create PR
-        run : |
-          git checkout ${{ github.event.inputs.release }}
-          git fetch origin
-          git request-pull origin/production origin/${{ github.event.inputs.release }}
+        run : gh pr create -B production -t ${{ github.event.inputs.release }} -a @yceballost
+
+
+# Para Raspberry
+
+# jobs:
+#   assets:
+#     runs-on: [self-hosted, Linux]
+#     steps:
+#       # comando solo para Self-Hosted machines
+#       - run: sudo chown -R $USER:$USER /home/pi/Actions/mistica-icons/_work/
+
+#       - uses: actions/checkout@v2
+
+#       - name: Get branch name
+#         uses: rlespinasse/github-slug-action@v3.x
+
+#       - run: npm install figma-export-icons --save
+
+#       - run: git checkout -b ${{ github.event.inputs.release }}
+
+#       - name: export icons filled
+#         run: npm run export-icons-filled
+
+#       - name: export icons regular
+#         run: npm run export-icons-regular
+
+#       - name: export icons light
+#         run: npm run export-icons-light
+
+#       - name: Add icons
+#         run: git add -A
+
+#       - name: Commit & Push
+#         run: |
+#           git config user.name "Bot"
+#           git config user.email "nobody@nowhere"  
+#           git commit -am "Update figma icons"
+#           git push origin ${{ github.event.inputs.release }}
+          
+#         # git push origin ${{ env.GITHUB_REF_SLUG_URL }}
+#       - name: Create PR
+#         run : |
+#           git checkout ${{ github.event.inputs.release }}
+#           git fetch origin
+#           git request-pull origin/production origin/${{ github.event.inputs.release }}
 
 # Action for Hackintosh
 
