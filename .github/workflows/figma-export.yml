@@ -26,11 +26,11 @@ jobs:
 
       - name: Export icons
         run: |
-          sed -e "s/YOUR_PERSONAL_TOKEN/$FIGMA_TOKEN/" -e "s/ICON_FRAME/Filled/" -e "s/ICON_PATH/icons-figma/Default/filled" .github/figma-export-icons.template.json > ./default-filled.json
+          sed -e "s/YOUR_PERSONAL_TOKEN/$FIGMA_TOKEN/" -e "s/ICON_FRAME/Filled/" -e "s/ICON_PATH/icons-figma/Default/filled" figma-export-icons.template.json > ./default-filled.json
           npm run export-icons-filled
-          sed -e "s/YOUR_PERSONAL_TOKEN/$FIGMA_TOKEN/" -e "s/ICON_FRAME/Regular/" -e "s/ICON_PATH/icons-figma/Default/regular" .github/figma-export-icons.template.json > ./default-regular.json
+          sed -e "s/YOUR_PERSONAL_TOKEN/$FIGMA_TOKEN/" -e "s/ICON_FRAME/Regular/" -e "s/ICON_PATH/icons-figma/Default/regular" figma-export-icons.template.json > ./default-regular.json
           npm run export-icons-regular
-          sed -e "s/YOUR_PERSONAL_TOKEN/$FIGMA_TOKEN/" -e "s/ICON_FRAME/Light/" -e "s/ICON_PATH/icons-figma/Default/light" .github/figma-export-icons.template.json > ./default-light.json
+          sed -e "s/YOUR_PERSONAL_TOKEN/$FIGMA_TOKEN/" -e "s/ICON_FRAME/Light/" -e "s/ICON_PATH/icons-figma/Default/light" figma-export-icons.template.json > ./default-light.json
           npm run export-icons-light
 
       - name: Commit & Push
