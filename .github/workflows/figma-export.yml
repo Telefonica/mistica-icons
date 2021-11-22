@@ -47,10 +47,8 @@ jobs:
           
         # git push origin ${{ env.GITHUB_REF_SLUG_URL }}
 
-      - name: Create PR
-        run : |
-          gh auth login --with-token process.env.NOVUM_PRIVATE_REPOS
-          gh pr create -B production -t ${{ github.event.inputs.release }} -a @yceballost
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v3
 
 
 # Para Raspberry
