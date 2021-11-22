@@ -6,7 +6,7 @@ on:
       release:
         description: 'Release version'
         required: true 
-        
+
 # push:
 #   paths:
 #     - ".github/workflows/figma-export.yml"
@@ -44,6 +44,7 @@ jobs:
           title: '${{ github.event.inputs.release }}'
           branch: ${{ github.event.inputs.release }}
           base: production
+          assignees: yceballost
 
 
 # Para Raspberry
