@@ -6,9 +6,7 @@ on:
       release:
         description: 'Release version'
         required: true 
-  issues:
-    types: [closed]
-
+        
 # push:
 #   paths:
 #     - ".github/workflows/figma-export.yml"
@@ -39,8 +37,6 @@ jobs:
           git commit -am "Update figma icons"
           git add -A
           git push origin ${{ github.event.inputs.release }}
-          
-        # git push origin ${{ env.GITHUB_REF_SLUG_URL }}
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v3
