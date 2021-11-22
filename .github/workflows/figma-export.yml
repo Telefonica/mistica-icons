@@ -17,9 +17,6 @@ jobs:
   assets:
     runs-on: ubuntu-latest
     steps:
-      # comando solo para Self-Hosted machines
-      - run: sudo chown -R $USER:$USER /home/pi/Actions/mistica-icons/_work/
-
       - uses: actions/checkout@v2
 
       - name: Get branch name
