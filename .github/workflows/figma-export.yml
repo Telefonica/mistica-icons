@@ -26,12 +26,12 @@ jobs:
 
       - name: Export icons
         run: |
-          sed -e "YOUR_PERSONAL_TOKEN/$FIGMA_TOKEN/" -e "ICON_FRAME/Filled/" -e "ICON_PATH/icons-figma/Default/filled" figma-export-icons.template.json > ./default-filled.json
+          sed -e "s/YOUR_PERSONAL_TOKEN/$FIGMA_TOKEN/" figma-export-icons.template.json > ./default-filled.json
+          sed -e "s/ICON_FRAME/Filled/" figma-export-icons.template.json > ./default-filled.json
+          sed -e "s/ICON_PATH/icons-figma/Default/filled"  figma-export-icons.template.json > ./default-filled.json
           npm run export-icons-filled
-          sed -e "YOUR_PERSONAL_TOKEN/$FIGMA_TOKEN/" -e "ICON_FRAME/Regular/" -e "ICON_PATH/icons-figma/Default/regular" figma-export-icons.template.json > ./default-regular.json
-          npm run export-icons-regular
-          sed -e "YOUR_PERSONAL_TOKEN/$FIGMA_TOKEN/" -e "ICON_FRAME/Light/" -e "ICON_PATH/icons-figma/Default/light" figma-export-icons.template.json > ./default-light.json
-          npm run export-icons-light
+
+  
 
       - name: Commit & Push
         run: |
