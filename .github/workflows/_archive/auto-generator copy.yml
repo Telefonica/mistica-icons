@@ -14,9 +14,15 @@ on:
 
 jobs:
   regenerating:
-    runs-on: ubuntu-latest
+    runs-on: [self-hosted, Linux]
 
     steps:
+      # comando solo para Self-Hosted machines
+      - run: sudo chown -R $USER:$USER /home/pi/Actions/mistica-icons/_work/
+      - name: Cleanup
+        run: |
+          sudo chown -R $USER:$USER $GITHUB_WORKSPACE
+
       - uses: actions/checkout@v2
 
       - name: Get branch name
@@ -30,3 +36,6 @@ jobs:
           git config user.email "nobody@nowhere"  
           git commit -am "Update readme"
           git push origin ${{ env.GITHUB_REF_SLUG_URL }}
+
+    # - name: push code to ${{ env.GITHUB_REF_SLUG_URL }}
+    #   run: git push origin HEAD:${{ env.GITHUB_REF_SLUG_URL }}
