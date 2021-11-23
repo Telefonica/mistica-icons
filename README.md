@@ -84,6 +84,10 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![arrow-forward-light](icons/telefonica/2.Regular/arrow-forward-light.svg) | | |`arrow-forward-light`|
 | ![arrow-forward-regular](icons/telefonica/2.Regular/arrow-forward-regular.svg) | | |`arrow-forward-regular`|
 | ![arrow-left-filled](icons/telefonica/3.Filled/arrow-left-filled.svg) | | ![arrow-left-filled](icons/o2/3.Filled/arrow-left-filled.svg) |`arrow-left-filled`|
+| ![arrow-line-down-left-light](icons/telefonica/1.Light/arrow-line-down-left-light.svg) | | |`arrow-line-down-left-light`|
+| ![arrow-line-down-left-regular](icons/telefonica/2.Regular/arrow-line-down-left-regular.svg) | | |`arrow-line-down-left-regular`|
+| ![arrow-line-up-right-light](icons/telefonica/1.Light/arrow-line-up-right-light.svg) | | |`arrow-line-up-right-light`|
+| ![arrow-line-up-right-regular](icons/telefonica/2.Regular/arrow-line-up-right-regular.svg) | | |`arrow-line-up-right-regular`|
 | ![arrow-right-filled](icons/telefonica/3.Filled/arrow-right-filled.svg) | | ![arrow-right-filled](icons/o2/3.Filled/arrow-right-filled.svg) |`arrow-right-filled`|
 | ![arrow-right-light](icons/telefonica/1.Light/arrow-right-light.svg) | | ![arrow-right-light](icons/o2/1.Light/arrow-right-light.svg) |`arrow-right-light`|
 | ![arrow-right-regular](icons/telefonica/2.Regular/arrow-right-regular.svg) | | ![arrow-right-regular](icons/o2/2.Regular/arrow-right-regular.svg) |`arrow-right-regular`|
