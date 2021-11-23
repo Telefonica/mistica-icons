@@ -27,7 +27,7 @@ jobs:
       - name: Removed assets
         run: git rm -r icons/*
 
-      - run: npm install --save kactus-cli
+      - run: npm install --global --save kactus-cli
 
       - name: Convert folder to sketch file
         run: kactus import libs/Mistica\ Icons
