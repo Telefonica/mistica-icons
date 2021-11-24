@@ -52,10 +52,10 @@ BAR_EMPTY = "<img src='https://i.imgur.com/BLjOoR0.png' />"
 telefonica_bar = ("`" + "telefonica set‎‎‎" + "`" + "    " + (int(telefonica_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (
             abs(int(telefonica_percent / 10) - 10) * 2) + "    " + str(int(telefonica_percent))
       + " %" + "  ")
-o2_bar = ("`" + "o2 set‎‎‎" + "`" + "                  " + (int(o2_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(o2_percent / 10) - 10) * 2) + "    " + str(
+o2_bar = ("`" + "o2 set‎‎‎" + "`" + "                    " + (int(o2_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(o2_percent / 10) - 10) * 2) + "    " + str(
     int(o2_percent))
       + " %" + "  ")
-blau_bar = ("`" + "blau set‎‎‎" + "`" + "              " + (int(blau_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(blau_percent / 10) - 10) * 2) + "    " + str(
+blau_bar = ("`" + "blau set‎‎‎" + "`" + "                " + (int(blau_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(blau_percent / 10) - 10) * 2) + "    " + str(
     int(blau_percent))
       + " %" + "  ")
 
