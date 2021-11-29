@@ -156,6 +156,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![boat-filled](icons/telefonica/3.Filled/boat-filled.svg) | | |`boat-filled`|
 | ![boat-light](icons/telefonica/1.Light/boat-light.svg) | | |`boat-light`|
 | ![boat-regular](icons/telefonica/2.Regular/boat-regular.svg) | | |`boat-regular`|
+| ![book-filled](icons/telefonica/3.Filled/book-filled.svg) | | |`book-filled`|
+| ![book-light](icons/telefonica/1.Light/book-light.svg) | | |`book-light`|
+| ![book-regular](icons/telefonica/2.Regular/book-regular.svg) | | |`book-regular`|
 | ![bookmark-filled](icons/telefonica/3.Filled/bookmark-filled.svg) | | |`bookmark-filled`|
 | ![bookmark-light](icons/telefonica/1.Light/bookmark-light.svg) | | |`bookmark-light`|
 | ![bookmark-regular](icons/telefonica/2.Regular/bookmark-regular.svg) | | |`bookmark-regular`|
@@ -869,9 +872,6 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![pound-symbol-circle-filled](icons/telefonica/3.Filled/pound-symbol-circle-filled.svg) | | ![pound-symbol-circle-filled](icons/o2/3.Filled/pound-symbol-circle-filled.svg) |`pound-symbol-circle-filled`|
 | ![pound-symbol-circle-light](icons/telefonica/1.Light/pound-symbol-circle-light.svg) | | ![pound-symbol-circle-light](icons/o2/1.Light/pound-symbol-circle-light.svg) |`pound-symbol-circle-light`|
 | ![pound-symbol-circle-regular](icons/telefonica/2.Regular/pound-symbol-circle-regular.svg) | | ![pound-symbol-circle-regular](icons/o2/2.Regular/pound-symbol-circle-regular.svg) |`pound-symbol-circle-regular`|
-| ![poundry-filled](icons/telefonica/3.Filled/poundry-filled.svg) | | |`poundry-filled`|
-| ![poundry-light](icons/telefonica/1.Light/poundry-light.svg) | | |`poundry-light`|
-| ![poundry-regular](icons/telefonica/2.Regular/poundry-regular.svg) | | |`poundry-regular`|
 | ![power-filled](icons/telefonica/3.Filled/power-filled.svg) | | ![power-filled](icons/o2/3.Filled/power-filled.svg) |`power-filled`|
 | ![power-light](icons/telefonica/1.Light/power-light.svg) | | ![power-light](icons/o2/1.Light/power-light.svg) |`power-light`|
 | ![power-regular](icons/telefonica/2.Regular/power-regular.svg) | | ![power-regular](icons/o2/2.Regular/power-regular.svg) |`power-regular`|
