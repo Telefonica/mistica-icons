@@ -866,12 +866,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![postpay-filled](icons/telefonica/3.Filled/postpay-filled.svg) | | |`postpay-filled`|
 | ![postpay-light](icons/telefonica/1.Light/postpay-light.svg) | | |`postpay-light`|
 | ![postpay-regular](icons/telefonica/2.Regular/postpay-regular.svg) | | |`postpay-regular`|
-| ![pound-filled](icons/telefonica/3.Filled/pound-filled.svg) | | |`pound-filled`|
-| ![pound-light](icons/telefonica/1.Light/pound-light.svg) | | |`pound-light`|
-| ![pound-regular](icons/telefonica/2.Regular/pound-regular.svg) | | |`pound-regular`|
-| | | ![pound-symbol-circle-filled](icons/o2/3.Filled/pound-symbol-circle-filled.svg) |`pound-symbol-circle-filled`|
-| | | ![pound-symbol-circle-light](icons/o2/1.Light/pound-symbol-circle-light.svg) |`pound-symbol-circle-light`|
-| | | ![pound-symbol-circle-regular](icons/o2/2.Regular/pound-symbol-circle-regular.svg) |`pound-symbol-circle-regular`|
+| ![pound-symbol-circle-filled](icons/telefonica/3.Filled/pound-symbol-circle-filled.svg) | | ![pound-symbol-circle-filled](icons/o2/3.Filled/pound-symbol-circle-filled.svg) |`pound-symbol-circle-filled`|
+| ![pound-symbol-circle-light](icons/telefonica/1.Light/pound-symbol-circle-light.svg) | | ![pound-symbol-circle-light](icons/o2/1.Light/pound-symbol-circle-light.svg) |`pound-symbol-circle-light`|
+| ![pound-symbol-circle-regular](icons/telefonica/2.Regular/pound-symbol-circle-regular.svg) | | ![pound-symbol-circle-regular](icons/o2/2.Regular/pound-symbol-circle-regular.svg) |`pound-symbol-circle-regular`|
 | ![poundry-filled](icons/telefonica/3.Filled/poundry-filled.svg) | | |`poundry-filled`|
 | ![poundry-light](icons/telefonica/1.Light/poundry-light.svg) | | |`poundry-light`|
 | ![poundry-regular](icons/telefonica/2.Regular/poundry-regular.svg) | | |`poundry-regular`|
