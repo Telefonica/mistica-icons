@@ -8,11 +8,11 @@ assignees: "yceballost"
 
 <!-- _English or Spanish is ok._ -->
 
-## Describe the bug
+### Describe or attach a screenshot of the bug
 A clear and concise description of what the bug is.
 
-## Name of the icon
+### Name of the icon
 Please, tell us what is the name of the bugged icon:
 
-## Additional info?
+### Additional info?
 Add any other context about the problem here.
