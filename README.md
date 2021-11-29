@@ -396,9 +396,12 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![documents-filled](icons/telefonica/3.Filled/documents-filled.svg) | | |`documents-filled`|
 | ![documents-light](icons/telefonica/1.Light/documents-light.svg) | | |`documents-light`|
 | ![documents-regular](icons/telefonica/2.Regular/documents-regular.svg) | | |`documents-regular`|
-| ![dolar-symbol-filled](icons/telefonica/3.Filled/dolar-symbol-filled.svg) | | |`dolar-symbol-filled`|
-| ![dolar-symbol-light](icons/telefonica/1.Light/dolar-symbol-light.svg) | | |`dolar-symbol-light`|
-| ![dolar-symbol-regular](icons/telefonica/2.Regular/dolar-symbol-regular.svg) | | |`dolar-symbol-regular`|
+| ![dollar-symbol-circle-filled](icons/telefonica/3.Filled/dollar-symbol-circle-filled.svg) | | |`dollar-symbol-circle-filled`|
+| ![dollar-symbol-circle-light](icons/telefonica/1.Light/dollar-symbol-circle-light.svg) | | |`dollar-symbol-circle-light`|
+| ![dollar-symbol-circle-regular](icons/telefonica/2.Regular/dollar-symbol-circle-regular.svg) | | |`dollar-symbol-circle-regular`|
+| ![dollar-symbol-filled](icons/telefonica/3.Filled/dollar-symbol-filled.svg) | | |`dollar-symbol-filled`|
+| ![dollar-symbol-light](icons/telefonica/1.Light/dollar-symbol-light.svg) | | |`dollar-symbol-light`|
+| ![dollar-symbol-regular](icons/telefonica/2.Regular/dollar-symbol-regular.svg) | | |`dollar-symbol-regular`|
 | ![download-app-filled](icons/telefonica/3.Filled/download-app-filled.svg) | | |`download-app-filled`|
 | ![download-app-light](icons/telefonica/1.Light/download-app-light.svg) | | |`download-app-light`|
 | ![download-app-regular](icons/telefonica/2.Regular/download-app-regular.svg) | | |`download-app-regular`|
@@ -737,9 +740,6 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![money-drop-filled](icons/telefonica/3.Filled/money-drop-filled.svg) | | |`money-drop-filled`|
 | ![money-drop-light](icons/telefonica/1.Light/money-drop-light.svg) | | |`money-drop-light`|
 | ![money-drop-regular](icons/telefonica/2.Regular/money-drop-regular.svg) | | |`money-drop-regular`|
-| ![money-filled](icons/telefonica/3.Filled/money-filled.svg) | | |`money-filled`|
-| ![money-light](icons/telefonica/1.Light/money-light.svg) | | |`money-light`|
-| ![money-regular](icons/telefonica/2.Regular/money-regular.svg) | | |`money-regular`|
 | ![money-rise-filled](icons/telefonica/3.Filled/money-rise-filled.svg) | | |`money-rise-filled`|
 | ![money-rise-light](icons/telefonica/1.Light/money-rise-light.svg) | | |`money-rise-light`|
 | ![money-rise-regular](icons/telefonica/2.Regular/money-rise-regular.svg) | | |`money-rise-regular`|
