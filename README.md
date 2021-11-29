@@ -439,9 +439,12 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![error-filled](icons/telefonica/3.Filled/error-filled.svg) | | |`error-filled`|
 | ![error-light](icons/telefonica/1.Light/error-light.svg) | | |`error-light`|
 | ![error-regular](icons/telefonica/2.Regular/error-regular.svg) | | |`error-regular`|
-| ![euro-symbol-filled](icons/telefonica/3.Filled/euro-symbol-filled.svg) | | ![euro-symbol-filled](icons/o2/3.Filled/euro-symbol-filled.svg) |`euro-symbol-filled`|
-| ![euro-symbol-light](icons/telefonica/1.Light/euro-symbol-light.svg) | | ![euro-symbol-light](icons/o2/1.Light/euro-symbol-light.svg) |`euro-symbol-light`|
-| ![euro-symbol-regular](icons/telefonica/2.Regular/euro-symbol-regular.svg) | ![euro-symbol-regular](icons/blau/2.Regular/euro-symbol-regular.svg) | ![euro-symbol-regular](icons/o2/2.Regular/euro-symbol-regular.svg) |`euro-symbol-regular`|
+| ![euro-symbol-circle-filled](icons/telefonica/3.Filled/euro-symbol-circle-filled.svg) | | ![euro-symbol-circle-filled](icons/o2/3.Filled/euro-symbol-circle-filled.svg) |`euro-symbol-circle-filled`|
+| ![euro-symbol-circle-light](icons/telefonica/1.Light/euro-symbol-circle-light.svg) | | ![euro-symbol-circle-light](icons/o2/1.Light/euro-symbol-circle-light.svg) |`euro-symbol-circle-light`|
+| ![euro-symbol-circle-regular](icons/telefonica/2.Regular/euro-symbol-circle-regular.svg) | | ![euro-symbol-circle-regular](icons/o2/2.Regular/euro-symbol-circle-regular.svg) |`euro-symbol-circle-regular`|
+| ![euro-symbol-filled](icons/telefonica/3.Filled/euro-symbol-filled.svg) | | |`euro-symbol-filled`|
+| ![euro-symbol-light](icons/telefonica/1.Light/euro-symbol-light.svg) | | |`euro-symbol-light`|
+| ![euro-symbol-regular](icons/telefonica/2.Regular/euro-symbol-regular.svg) | ![euro-symbol-regular](icons/blau/2.Regular/euro-symbol-regular.svg) | |`euro-symbol-regular`|
 | ![exchange-filled](icons/telefonica/3.Filled/exchange-filled.svg) | | |`exchange-filled`|
 | ![exchange-light](icons/telefonica/1.Light/exchange-light.svg) | | |`exchange-light`|
 | ![exchange-regular](icons/telefonica/2.Regular/exchange-regular.svg) | | |`exchange-regular`|
@@ -866,9 +869,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![pound-filled](icons/telefonica/3.Filled/pound-filled.svg) | | |`pound-filled`|
 | ![pound-light](icons/telefonica/1.Light/pound-light.svg) | | |`pound-light`|
 | ![pound-regular](icons/telefonica/2.Regular/pound-regular.svg) | | |`pound-regular`|
-| | | ![pound-symbol-filled](icons/o2/3.Filled/pound-symbol-filled.svg) |`pound-symbol-filled`|
-| | | ![pound-symbol-light](icons/o2/1.Light/pound-symbol-light.svg) |`pound-symbol-light`|
-| | | ![pound-symbol-regular](icons/o2/2.Regular/pound-symbol-regular.svg) |`pound-symbol-regular`|
+| | | ![pound-symbol-circle-filled](icons/o2/3.Filled/pound-symbol-circle-filled.svg) |`pound-symbol-circle-filled`|
+| | | ![pound-symbol-circle-light](icons/o2/1.Light/pound-symbol-circle-light.svg) |`pound-symbol-circle-light`|
+| | | ![pound-symbol-circle-regular](icons/o2/2.Regular/pound-symbol-circle-regular.svg) |`pound-symbol-circle-regular`|
 | ![poundry-filled](icons/telefonica/3.Filled/poundry-filled.svg) | | |`poundry-filled`|
 | ![poundry-light](icons/telefonica/1.Light/poundry-light.svg) | | |`poundry-light`|
 | ![poundry-regular](icons/telefonica/2.Regular/poundry-regular.svg) | | |`poundry-regular`|
