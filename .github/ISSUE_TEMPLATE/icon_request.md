@@ -16,14 +16,14 @@ If you think there is a icon missing in Mística and you feel it is worthy to cr
 
 ---
 
-## Is your icon request related to a problem? Please describe.
-A clear and concise description of what the problem is. Ex. I need to symbolize [...]
+### Is your icon request related to a need? Please describe.
+A clear and concise description of what the need is. Ex. I need an icon to symbolize rain [...]
 
-## Describe the solution you'd like and needs
+### Describe or attach a screenshot of the solution you'd like and needs
 A clear and concise description of what you want to happen.
 
-## Describe icon alternatives you've considered
-A clear and concise description of any alternative solutions or features you've considered.
+### Describe icon alternatives you've considered
+Attach a screenshot of other alternatives for the same icon concept.
 
-## Additional context
-Add any other context or screenshots about the feature request here.
+### Additional context?
+Add any other information about the icon if exists.
