@@ -354,9 +354,6 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![credit-card-visa-regular](icons/telefonica/2.Regular/credit-card-visa-regular.svg) | | |`credit-card-visa-regular`|
 | ![cut-filled](icons/telefonica/3.Filled/cut-filled.svg) | | |`cut-filled`|
 | ![cut-light](icons/telefonica/1.Light/cut-light.svg) | | |`cut-light`|
-| | | ![cyber-security-filled](icons/o2/3.Filled/cyber-security-filled.svg) |`cyber-security-filled`|
-| | | ![cyber-security-light](icons/o2/1.Light/cyber-security-light.svg) |`cyber-security-light`|
-| | | ![cyber-security-regular](icons/o2/2.Regular/cyber-security-regular.svg) |`cyber-security-regular`|
 | ![dartboard-filled](icons/telefonica/3.Filled/dartboard-filled.svg) | | ![dartboard-filled](icons/o2/3.Filled/dartboard-filled.svg) |`dartboard-filled`|
 | ![dartboard-light](icons/telefonica/1.Light/dartboard-light.svg) | | ![dartboard-light](icons/o2/1.Light/dartboard-light.svg) |`dartboard-light`|
 | ![dartboard-regular](icons/telefonica/2.Regular/dartboard-regular.svg) | | ![dartboard-regular](icons/o2/2.Regular/dartboard-regular.svg) |`dartboard-regular`|
@@ -722,6 +719,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![lock-de-data-filled](icons/telefonica/3.Filled/lock-de-data-filled.svg) | | |`lock-de-data-filled`|
 | ![lock-de-data-light](icons/telefonica/1.Light/lock-de-data-light.svg) | | |`lock-de-data-light`|
 | ![lock-de-data-regular](icons/telefonica/2.Regular/lock-de-data-regular.svg) | | |`lock-de-data-regular`|
+| | | ![lock-eye-closed-filled](icons/o2/3.Filled/lock-eye-closed-filled.svg) |`lock-eye-closed-filled`|
+| | | ![lock-eye-closed-light](icons/o2/1.Light/lock-eye-closed-light.svg) |`lock-eye-closed-light`|
+| | | ![lock-eye-closed-regular](icons/o2/2.Regular/lock-eye-closed-regular.svg) |`lock-eye-closed-regular`|
 | ![lock-open-filled](icons/telefonica/3.Filled/lock-open-filled.svg) | | ![lock-open-filled](icons/o2/3.Filled/lock-open-filled.svg) |`lock-open-filled`|
 | ![lock-open-light](icons/telefonica/1.Light/lock-open-light.svg) | | ![lock-open-light](icons/o2/1.Light/lock-open-light.svg) |`lock-open-light`|
 | ![lock-open-regular](icons/telefonica/2.Regular/lock-open-regular.svg) | ![lock-open-regular](icons/blau/2.Regular/lock-open-regular.svg) | ![lock-open-regular](icons/o2/2.Regular/lock-open-regular.svg) |`lock-open-regular`|
@@ -946,9 +946,6 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![restaurant-filled](icons/telefonica/3.Filled/restaurant-filled.svg) | | ![restaurant-filled](icons/o2/3.Filled/restaurant-filled.svg) |`restaurant-filled`|
 | ![restaurant-light](icons/telefonica/1.Light/restaurant-light.svg) | | ![restaurant-light](icons/o2/1.Light/restaurant-light.svg) |`restaurant-light`|
 | ![restaurant-regular](icons/telefonica/2.Regular/restaurant-regular.svg) | | ![restaurant-regular](icons/o2/2.Regular/restaurant-regular.svg) |`restaurant-regular`|
-| | | ![rewards-filled](icons/o2/3.Filled/rewards-filled.svg) |`rewards-filled`|
-| | | ![rewards-light](icons/o2/1.Light/rewards-light.svg) |`rewards-light`|
-| | | ![rewards-regular](icons/o2/2.Regular/rewards-regular.svg) |`rewards-regular`|
 | ![rewind-filled](icons/telefonica/3.Filled/rewind-filled.svg) | | ![rewind-filled](icons/o2/3.Filled/rewind-filled.svg) |`rewind-filled`|
 | ![rewind-light](icons/telefonica/1.Light/rewind-light.svg) | | ![rewind-light](icons/o2/1.Light/rewind-light.svg) |`rewind-light`|
 | ![rewind-regular](icons/telefonica/2.Regular/rewind-regular.svg) | | ![rewind-regular](icons/o2/2.Regular/rewind-regular.svg) |`rewind-regular`|
@@ -1212,10 +1209,10 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![water-drop-filled](icons/telefonica/3.Filled/water-drop-filled.svg) | | ![water-drop-filled](icons/o2/3.Filled/water-drop-filled.svg) |`water-drop-filled`|
 | ![water-drop-light](icons/telefonica/1.Light/water-drop-light.svg) | | ![water-drop-light](icons/o2/1.Light/water-drop-light.svg) |`water-drop-light`|
 | ![water-drop-regular](icons/telefonica/2.Regular/water-drop-regular.svg) | | ![water-drop-regular](icons/o2/2.Regular/water-drop-regular.svg) |`water-drop-regular`|
+| | | ![wearable-regular](icons/o2/2.Regular/wearable-regular.svg) |`wearable-regular`|
 | ![web-filled](icons/telefonica/3.Filled/web-filled.svg) | | |`web-filled`|
 | ![web-light](icons/telefonica/1.Light/web-light.svg) | | |`web-light`|
 | ![web-regular](icons/telefonica/2.Regular/web-regular.svg) | | |`web-regular`|
-| | | ![wereable-regular](icons/o2/2.Regular/wereable-regular.svg) |`wereable-regular`|
 | ![wifi-filled](icons/telefonica/3.Filled/wifi-filled.svg) | | ![wifi-filled](icons/o2/3.Filled/wifi-filled.svg) |`wifi-filled`|
 | ![wifi-light](icons/telefonica/1.Light/wifi-light.svg) | | ![wifi-light](icons/o2/1.Light/wifi-light.svg) |`wifi-light`|
 | ![wifi-regular](icons/telefonica/2.Regular/wifi-regular.svg) | | ![wifi-regular](icons/o2/2.Regular/wifi-regular.svg) |`wifi-regular`|
