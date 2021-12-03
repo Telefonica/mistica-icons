@@ -26,15 +26,21 @@ jobs:
 
       - name: Generate icon config
         run: |
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons-figma/Default/filled|g' figma-export-icons.template.json > default-filled.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons-figma/Default/regular|g' figma-export-icons.template.json > default-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons-figma/Default/light|g' figma-export-icons.template.json > default-light.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons-figma/telefonica/filled|g' figma-export-icons.template.json > telefonica-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons-figma/telefonica/regular|g' figma-export-icons.template.json > telefonica-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons-figma/telefonica/light|g' figma-export-icons.template.json > telefonica-light.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons-figma/o2/filled|g' figma-export-icons.template.json > o2-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons-figma/o2/regular|g' figma-export-icons.template.json > o2-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons-figma/o2/light|g' figma-export-icons.template.json > o2-light.json
 
       - name: Export icons
         run: |
-          npm run export-icons-filled
-          npm run export-icons-regular
-          npm run export-icons-light
+          npm run export-telefonica-filled
+          npm run export-telefonica-regular
+          npm run export-telefonica-light
+          npm run export-o2-filled
+          npm run export-o2-regular
+          npm run export-o2-light
 
       - name: Commit & Push
         run: |
