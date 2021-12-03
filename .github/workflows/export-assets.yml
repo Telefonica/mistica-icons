@@ -46,6 +46,9 @@ jobs:
       - name: Add assets
         run: git add -A icons/*
 
+      - name: Readme generator
+        run: sudo python3 .github/md-generator/md-generator.py icons
+
       - name: Commit & Push
         run: |
           git config user.name "Bot"
