@@ -8,6 +8,8 @@ on:
       - '.github/md-generator/md-generator.py'
       - '.github/workflows/auto-generator.yml'
       - 'icons/**'
+  workflow_dispatch:
+
 
 jobs:
   regenerating:
@@ -27,4 +29,3 @@ jobs:
           git config user.email "nobody@nowhere"  
           git commit -am "Update readme"
           git push origin ${{ env.GITHUB_REF_SLUG_URL }}
-          
