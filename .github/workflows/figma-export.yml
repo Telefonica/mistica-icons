@@ -26,7 +26,7 @@ jobs:
 
       - name: Generate icon config
         run: |
-          sed 's/YOUR_PERSONAL_TOKEN/${{ secrets.FIGMA_TOKEN }}/g;t;s/ICON_FRAME/Filled/g;t;s|ICON_PATH|icons-figma/Default/filled/|g' figma-export-icons.template.json > default-filled.json
+          sed 's/YOUR_PERSONAL_TOKEN/${{ secrets.FIGMA_TOKEN }}/g;t;s/ICON_FRAME/Filled/g' figma-export-icons.template.json > default-filled.json
 
       - name: Export icons
         run: |
