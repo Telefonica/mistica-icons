@@ -20,7 +20,7 @@ jobs:
       - name: Get branch name
         uses: rlespinasse/github-slug-action@v3.x
 
-      - run: npm install -g figma-export-icons
+      - run: npm install figma-export-icons --save
 
       - run: git checkout -b ${{ github.event.inputs.release }}
 
@@ -32,9 +32,9 @@ jobs:
 
       - name: Export icons
         run: |
-          export-icons-filled
-          export-icons-regular
-          export-icons-light
+          npm run export-icons-filled
+          npm run export-icons-regular
+          npm run export-icons-light
 
       - name: Commit & Push
         run: |
