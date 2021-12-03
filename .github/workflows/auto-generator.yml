@@ -9,6 +9,11 @@ on:
       - '.github/workflows/auto-generator.yml'
       - 'icons/**'
   workflow_dispatch:
+  workflow_run:
+    workflows: ["💎 Sketch Export"]
+    branches: '**'
+    types:
+      - completed
 
 
 jobs:
