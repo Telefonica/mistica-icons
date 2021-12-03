@@ -26,9 +26,9 @@ jobs:
 
       - name: Generate icon config
         run: |
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secret.FIGMA_TOKEN}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons-figma/Default/filled|g' figma-export-icons.template.json > default-filled.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secret.FIGMA_TOKEN}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons-figma/Default/regular|g' figma-export-icons.template.json > default-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secret.FIGMA_TOKEN}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons-figma/Default/light|g' figma-export-icons.template.json > default-light.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{ secret.FIGMA_TOKEN }}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons-figma/Default/filled|g' figma-export-icons.template.json > default-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{ secret.FIGMA_TOKEN }}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons-figma/Default/regular|g' figma-export-icons.template.json > default-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{ secret.FIGMA_TOKEN }}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons-figma/Default/light|g' figma-export-icons.template.json > default-light.json
 
       - name: Export icons
         run: |
