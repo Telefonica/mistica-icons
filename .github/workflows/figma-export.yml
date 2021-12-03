@@ -44,8 +44,8 @@ jobs:
 
       - name: Convert SVG to PDF
         run: |
-          npm install -g svg2pdf
-          svg2pdf icons/ icons/
+          sudo apt-get install librsvg2-bin
+          for i in icons/*.svg;do rsvg-convert -f pdf -o ${i%.*}.pdf $i;done
 
       - name: Readme generator
         run: sudo python3 .github/md-generator/md-generator.py icons
