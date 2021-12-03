@@ -788,7 +788,7 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | | | ![network-hotspot-filled](icons/o2/3.Filled/network-hotspot-filled.svg) |`network-hotspot-filled`|
 | | | ![network-hotspot-light](icons/o2/1.Light/network-hotspot-light.svg) |`network-hotspot-light`|
 | | | ![network-hotspot-regular](icons/o2/2.Regular/network-hotspot-regular.svg) |`network-hotspot-regular`|
-| ![neural-network-filled](icons/telefonica/3.Filled/neural-network-filled.svg) | | ![neural-network-filled](icons/o2/3.Filled/neural-network-filled.svg) |`neural-network-filled`|
+| ![neural-network-filled](icons/telefonica/3.Filled/neural-network-filled.svg) | | |`neural-network-filled`|
 | ![neural-network-light](icons/telefonica/1.Light/neural-network-light.svg) | | |`neural-network-light`|
 | ![neural-network-regular](icons/telefonica/2.Regular/neural-network-regular.svg) | | |`neural-network-regular`|
 | | | ![newsletter-filled](icons/o2/3.Filled/newsletter-filled.svg) |`newsletter-filled`|
