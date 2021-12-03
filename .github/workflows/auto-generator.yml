@@ -2,6 +2,8 @@ name: Readme Generator
 
 on:
   push:
+    branches:
+      - '**'
     paths:
       - '.github/md-generator/md-generator.py'
       - '.github/workflows/auto-generator.yml'
