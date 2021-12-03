@@ -484,7 +484,6 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![fast-forward-filled](icons/telefonica/3.Filled/fast-forward-filled.svg) | | ![fast-forward-filled](icons/o2/3.Filled/fast-forward-filled.svg) |`fast-forward-filled`|
 | ![fast-forward-light](icons/telefonica/1.Light/fast-forward-light.svg) | | ![fast-forward-light](icons/o2/1.Light/fast-forward-light.svg) |`fast-forward-light`|
 | ![fast-forward-regular](icons/telefonica/2.Regular/fast-forward-regular.svg) | | ![fast-forward-regular](icons/o2/2.Regular/fast-forward-regular.svg) |`fast-forward-regular`|
-| ![file--filled](icons/telefonica/3.Filled/file--filled.svg) | | |`file--filled`|
 | ![file-avi-filled](icons/telefonica/3.Filled/file-avi-filled.svg) | | |`file-avi-filled`|
 | ![file-avi-light](icons/telefonica/1.Light/file-avi-light.svg) | | |`file-avi-light`|
 | ![file-avi-regular](icons/telefonica/2.Regular/file-avi-regular.svg) | | |`file-avi-regular`|
@@ -512,8 +511,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![file-html-filled](icons/telefonica/3.Filled/file-html-filled.svg) | | |`file-html-filled`|
 | ![file-html-light](icons/telefonica/1.Light/file-html-light.svg) | | |`file-html-light`|
 | ![file-html-regular](icons/telefonica/2.Regular/file-html-regular.svg) | | |`file-html-regular`|
-| ![file-ilustrator-light](icons/telefonica/1.Light/file-ilustrator-light.svg) | | |`file-ilustrator-light`|
-| ![file-ilustrator-regular](icons/telefonica/2.Regular/file-ilustrator-regular.svg) | | |`file-ilustrator-regular`|
+| ![file-illustrator-filled](icons/telefonica/3.Filled/file-illustrator-filled.svg) | | |`file-illustrator-filled`|
+| ![file-illustrator-light](icons/telefonica/1.Light/file-illustrator-light.svg) | | |`file-illustrator-light`|
+| ![file-illustrator-regular](icons/telefonica/2.Regular/file-illustrator-regular.svg) | | |`file-illustrator-regular`|
 | ![file-image-filled](icons/telefonica/3.Filled/file-image-filled.svg) | | |`file-image-filled`|
 | ![file-image-light](icons/telefonica/1.Light/file-image-light.svg) | | |`file-image-light`|
 | ![file-image-regular](icons/telefonica/2.Regular/file-image-regular.svg) | | |`file-image-regular`|
