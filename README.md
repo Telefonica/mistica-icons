@@ -553,9 +553,6 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![files-digital-filled](icons/telefonica/3.Filled/files-digital-filled.svg) | | |`files-digital-filled`|
 | ![files-digital-light](icons/telefonica/1.Light/files-digital-light.svg) | | |`files-digital-light`|
 | ![files-digital-regular](icons/telefonica/2.Regular/files-digital-regular.svg) | | |`files-digital-regular`|
-| | | ![filter-pound-filled](icons/o2/3.Filled/filter-pound-filled.svg) |`filter-pound-filled`|
-| | | ![filter-pound-light](icons/o2/1.Light/filter-pound-light.svg) |`filter-pound-light`|
-| | | ![filter-pound-regular](icons/o2/2.Regular/filter-pound-regular.svg) |`filter-pound-regular`|
 | ![fingerprint-filled](icons/telefonica/3.Filled/fingerprint-filled.svg) | | |`fingerprint-filled`|
 | ![fingerprint-regular](icons/telefonica/2.Regular/fingerprint-regular.svg) | | |`fingerprint-regular`|
 | ![fire-filled](icons/telefonica/3.Filled/fire-filled.svg) | | |`fire-filled`|
