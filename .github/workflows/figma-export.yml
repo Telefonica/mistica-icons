@@ -42,6 +42,11 @@ jobs:
           npm run export-o2-regular
           npm run export-o2-light
 
+      - name: Convert SVG to PDF
+        run: |
+          npm install -g svg2pdf
+          svg2pdf icons/ icons/
+
       - name: Readme generator
         run: sudo python3 .github/md-generator/md-generator.py icons
 
