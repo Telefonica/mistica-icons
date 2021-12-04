@@ -2,13 +2,13 @@
 
 import os
 import sys
+from os import walk
 
 PIPE = "|"
 SLASH = "/"
 SVG_EXTENSION = ".svg"
 PDF_EXTENSION = ".pdf"
 BREAK = "\n"
-
 
 def read_folder(folder):
     if os.path.isdir(folder):
@@ -21,8 +21,6 @@ def read_folder(folder):
 
 # def count_files(path):
 #     return len(os.listdir(path))
-
-from os import walk
 
 def get_filenames(path):
     return set(next(walk(path), (None, None, []))[2])
@@ -47,15 +45,12 @@ total_blau = len(set.union(icons_blau_light, icons_blau_regular, icons_blau_fill
 
 total_icons = total_telefonica + total_o2 + total_blau
 
-BAR_FILLED = "B"
-BAR_EMPTY = "0"
-
 print(total_icons)
 print(total_telefonica)
 
 telefonica_percent = (100 * total_telefonica) / total_icons
-o2_percent = (total_o2 * 100) / total_telefonica
-blau_percent = (int((total_blau * 100) / total_telefonica))
+o2_percent = (total_o2 * 100) / total_icons
+blau_percent = (int((total_blau * 100) / total_icons))
 
 BAR_FILLED = "<img src='https://i.imgur.com/8pLUSBF.png' />"
 BAR_EMPTY = "<img src='https://i.imgur.com/BLjOoR0.png' />"
