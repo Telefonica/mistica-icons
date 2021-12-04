@@ -2,13 +2,13 @@
 
 import os
 import sys
+from os import walk
 
 PIPE = "|"
 SLASH = "/"
 SVG_EXTENSION = ".svg"
 PDF_EXTENSION = ".pdf"
 BREAK = "\n"
-
 
 def read_folder(folder):
     if os.path.isdir(folder):
@@ -21,8 +21,6 @@ def read_folder(folder):
 
 # def count_files(path):
 #     return len(os.listdir(path))
-
-from os import walk
 
 def get_filenames(path):
     return set(next(walk(path), (None, None, []))[2])
