@@ -19,45 +19,59 @@ def read_folder(folder):
     return []
 
 
-def count_files(path):
-    return len(os.listdir(path))
+# def count_files(path):
+#     return len(os.listdir(path))
 
+from os import walk
 
-icons_telefonica_light = count_files(r'icons/telefonica/1.Light')
-icons_telefonica_regular = count_files(r'icons/telefonica/2.Regular')
-icons_telefonica_filled = count_files(r'icons/telefonica/3.Filled')
-total_telefonica = icons_telefonica_light + icons_telefonica_regular + icons_telefonica_filled
+def get_filenames(path):
+    return set(next(walk(path), (None, None, []))[2])
 
-icons_o2_light = count_files(r'icons/o2/1.Light')
-icons_o2_regular = count_files(r'icons/o2/2.Regular')
-icons_o2_filled = count_files(r'icons/o2/3.Filled')
-total_o2 = icons_o2_light + icons_o2_regular + icons_o2_filled
+icons_telefonica_light = get_filenames(r'icons/telefonica/1.Light')
+icons_telefonica_regular = get_filenames(r'icons/telefonica/2.Regular')
+icons_telefonica_filled = get_filenames(r'icons/telefonica/3.Filled')
 
-icons_blau_light = 0
-icons_blau_regular = count_files(r'icons/blau/2.Regular')
-icons_blau_filled = 0
-total_blau = icons_blau_light + icons_blau_regular + icons_blau_filled
+total_telefonica = len(set.union(icons_telefonica_light, icons_telefonica_regular, icons_telefonica_filled))
 
-# print(int(total_telefonica))
-# print(int(total_o2))
-# print(icons_o2)
+icons_o2_light = get_filenames(r'icons/o2/1.Light')
+icons_o2_regular = get_filenames(r'icons/o2/2.Regular')
+icons_o2_filled = get_filenames(r'icons/o2/3.Filled')
 
-telefonica_percent = 100
-o2_percent = (int((total_o2 * 100) / total_telefonica))
+total_o2 = len(set.union(icons_o2_light, icons_o2_regular, icons_o2_filled))
+
+icons_blau_light = get_filenames(r'icons/blau/1.Light')
+icons_blau_regular = get_filenames(r'icons/blau/2.Regular')
+icons_blau_filled = get_filenames(r'icons/blau/3.Filled')
+
+total_blau = len(set.union(icons_blau_light, icons_blau_regular, icons_blau_filled))
+
+total_icons = total_telefonica + total_o2 + total_blau
+
+BAR_FILLED = "B"
+BAR_EMPTY = "0"
+
+print(total_icons)
+print(total_telefonica)
+
+telefonica_percent = (100 * total_telefonica) / total_icons
+o2_percent = (total_o2 * 100) / total_telefonica
 blau_percent = (int((total_blau * 100) / total_telefonica))
 
 BAR_FILLED = "<img src='https://i.imgur.com/8pLUSBF.png' />"
 BAR_EMPTY = "<img src='https://i.imgur.com/BLjOoR0.png' />"
 
-telefonica_bar = ("`" + "telefonica set‎‎‎" + "`" + "    " + (int(telefonica_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (
-            abs(int(telefonica_percent / 10) - 10) * 2) + "    " + str(int(telefonica_percent))
+telefonica_bar = ("Telefónica set" + "<br/>" + (int(telefonica_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(telefonica_percent / 10) - 10) * 2) + "    " + str(
+    int(telefonica_percent))
       + " %" + "  ")
-o2_bar = ("`" + "o2 set‎‎‎" + "`" + "                    " + (int(o2_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(o2_percent / 10) - 10) * 2) + "    " + str(
+
+o2_bar = ("O2 set" + "<br/>" + (int(o2_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(o2_percent / 10) - 10) * 2) + "    " + str(
     int(o2_percent))
       + " %" + "  ")
-blau_bar = ("`" + "blau set‎‎‎" + "`" + "                " + (int(blau_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(blau_percent / 10) - 10) * 2) + "    " + str(
+
+blau_bar = ("Blau set" + "<br/>" + (int(blau_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(blau_percent / 10) - 10) * 2) + "    " + str(
     int(blau_percent))
       + " %" + "  ")
+
 
 if __name__ == '__main__':
     path = sys.argv[1]
