@@ -67,7 +67,7 @@ jobs:
             - [ ] [Review readme ${{ github.event.inputs.release }}][readme]
 
             [mistica-icons]: https://www.figma.com/file/JHuzksh01yxExMeMQBvymq/Mistica-Icons?node-id=0%3A71
-            [o2]: https://www.figma.com/file/wHTqJ7KDhGKrNSNpmMb9nW/?node-id=611%3A3298
+            [o2-icons]: https://www.figma.com/file/wHTqJ7KDhGKrNSNpmMb9nW/?node-id=611%3A3298
             [readme]: https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }}
           branch: ${{ github.event.inputs.release }}
           base: production
