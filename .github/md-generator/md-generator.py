@@ -47,9 +47,6 @@ total_blau = len(set.union(icons_blau_light, icons_blau_regular, icons_blau_fill
 
 total_icons = total_telefonica + total_o2 + total_blau
 
-BAR_FILLED = "B"
-BAR_EMPTY = "0"
-
 print(total_icons)
 print(total_telefonica)
 
