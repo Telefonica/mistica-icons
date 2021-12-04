@@ -51,8 +51,8 @@ print(total_icons)
 print(total_telefonica)
 
 telefonica_percent = (100 * total_telefonica) / total_icons
-o2_percent = (total_o2 * 100) / total_telefonica
-blau_percent = (int((total_blau * 100) / total_telefonica))
+o2_percent = (total_o2 * 100) / total_icons
+blau_percent = (int((total_blau * 100) / total_icons))
 
 BAR_FILLED = "<img src='https://i.imgur.com/8pLUSBF.png' />"
 BAR_EMPTY = "<img src='https://i.imgur.com/BLjOoR0.png' />"
