@@ -55,15 +55,15 @@ print(telefonica_percent)
 
 telefonica_bar = ("Telefónica set" + "<br/>" + (int(telefonica_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(telefonica_percent / 10) - 10) * 2) + "    " + str(
     int(telefonica_percent))
-      + " %" + "  ")
+      + "%" + "  ")
 
 o2_bar = ("O2 set" + "<br/>" + (int(o2_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(o2_percent / 10) - 10) * 2) + "    " + str(
     int(o2_percent))
-      + " %" + "  ")
+      + "%" + "  ")
 
 blau_bar = ("Blau set" + "<br/>" + (int(blau_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(blau_percent / 10) - 10) * 2) + "    " + str(
     int(blau_percent))
-      + " %" + "  ")
+      + "%" + "  ")
 
 
 if __name__ == '__main__':
