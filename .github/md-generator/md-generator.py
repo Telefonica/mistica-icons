@@ -63,7 +63,7 @@ o2_bar = ("O2 set" + "<br/>" + (int(o2_percent / 10) * 2) * BAR_FILLED + BAR_EMP
 
 blau_bar = ("Blau set" + "<br/>" + (int(blau_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(blau_percent / 10) - 10) * 2) + "    " + str(
     int(blau_percent))
-      + "%  (⚠️ not available yet)" + "  ")
+      + "%  ⚠️ not available yet" + "  ")
 
 
 if __name__ == '__main__':
