@@ -12,9 +12,9 @@ Visit [Mistica Storybook](https://mistica-web.now.sh/?path=/story/icons-mistica-
 #### Design
 Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfactory.telefonica.com/document/1846#/get-started/start-to-design/mistica-manager)
 ### Icon set status
-`telefonica set‎‎‎`    <img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' />    100 %  
-`o2 set‎‎‎`                    <img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' />    35 %  
-`blau set‎‎‎`                <img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' />    2 %  
+Telefónica set<br/><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' />    95%  
+O2 set<br/><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' />    38%  
+Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' />    2% ⚠️  not available yet  
 # Icons 
 | telefonica | blau | o2 | icon name <img width=500> | 
 | :---: | :---: | :---: |:--- |
@@ -150,6 +150,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![bicycle-bike-filled](icons/telefonica/3.Filled/bicycle-bike-filled.svg) | | |`bicycle-bike-filled`|
 | ![bicycle-bike-light](icons/telefonica/1.Light/bicycle-bike-light.svg) | | |`bicycle-bike-light`|
 | ![bicycle-bike-regular](icons/telefonica/2.Regular/bicycle-bike-regular.svg) | | |`bicycle-bike-regular`|
+| | | ![bill-invoice-pound-filled](icons/o2/3.Filled/bill-invoice-pound-filled.svg) |`bill-invoice-pound-filled`|
+| | | ![bill-invoice-pound-light](icons/o2/1.Light/bill-invoice-pound-light.svg) |`bill-invoice-pound-light`|
+| | | ![bill-invoice-pound-regular](icons/o2/2.Regular/bill-invoice-pound-regular.svg) |`bill-invoice-pound-regular`|
 | ![blog-filled](icons/telefonica/3.Filled/blog-filled.svg) | | |`blog-filled`|
 | ![blog-light](icons/telefonica/1.Light/blog-light.svg) | | |`blog-light`|
 | ![blog-regular](icons/telefonica/2.Regular/blog-regular.svg) | | |`blog-regular`|
@@ -164,6 +167,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![bookmark-regular](icons/telefonica/2.Regular/bookmark-regular.svg) | | |`bookmark-regular`|
 | ![box-filled](icons/telefonica/3.Filled/box-filled.svg) | | ![box-filled](icons/o2/3.Filled/box-filled.svg) |`box-filled`|
 | ![box-light](icons/telefonica/1.Light/box-light.svg) | | ![box-light](icons/o2/1.Light/box-light.svg) |`box-light`|
+| | | ![box-location-filled](icons/o2/3.Filled/box-location-filled.svg) |`box-location-filled`|
+| | | ![box-location-light](icons/o2/1.Light/box-location-light.svg) |`box-location-light`|
+| | | ![box-location-regular](icons/o2/2.Regular/box-location-regular.svg) |`box-location-regular`|
 | ![box-regular](icons/telefonica/2.Regular/box-regular.svg) | | ![box-regular](icons/o2/2.Regular/box-regular.svg) |`box-regular`|
 | ![brain-filled](icons/telefonica/3.Filled/brain-filled.svg) | | |`brain-filled`|
 | ![brain-light](icons/telefonica/1.Light/brain-light.svg) | | |`brain-light`|
@@ -197,6 +203,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![cafe-regular](icons/telefonica/2.Regular/cafe-regular.svg) | | |`cafe-regular`|
 | ![calendar-filled](icons/telefonica/3.Filled/calendar-filled.svg) | | ![calendar-filled](icons/o2/3.Filled/calendar-filled.svg) |`calendar-filled`|
 | ![calendar-light](icons/telefonica/1.Light/calendar-light.svg) | | ![calendar-light](icons/o2/1.Light/calendar-light.svg) |`calendar-light`|
+| | | ![calendar-pound-filled](icons/o2/3.Filled/calendar-pound-filled.svg) |`calendar-pound-filled`|
+| | | ![calendar-pound-light](icons/o2/1.Light/calendar-pound-light.svg) |`calendar-pound-light`|
+| | | ![calendar-pound-regular](icons/o2/2.Regular/calendar-pound-regular.svg) |`calendar-pound-regular`|
 | ![calendar-regular](icons/telefonica/2.Regular/calendar-regular.svg) | | ![calendar-regular](icons/o2/2.Regular/calendar-regular.svg) |`calendar-regular`|
 | ![call-center-user-support-filled](icons/telefonica/3.Filled/call-center-user-support-filled.svg) | | ![call-center-user-support-filled](icons/o2/3.Filled/call-center-user-support-filled.svg) |`call-center-user-support-filled`|
 | ![call-center-user-support-light](icons/telefonica/1.Light/call-center-user-support-light.svg) | | ![call-center-user-support-light](icons/o2/1.Light/call-center-user-support-light.svg) |`call-center-user-support-light`|
@@ -296,6 +305,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![code-filled](icons/telefonica/3.Filled/code-filled.svg) | | |`code-filled`|
 | ![code-light](icons/telefonica/1.Light/code-light.svg) | | |`code-light`|
 | ![code-regular](icons/telefonica/2.Regular/code-regular.svg) | | |`code-regular`|
+| | | ![comment-filled](icons/o2/3.Filled/comment-filled.svg) |`comment-filled`|
+| | | ![comment-light](icons/o2/1.Light/comment-light.svg) |`comment-light`|
+| | | ![comment-regular](icons/o2/2.Regular/comment-regular.svg) |`comment-regular`|
 | ![computer-filled](icons/telefonica/3.Filled/computer-filled.svg) | | ![computer-filled](icons/o2/3.Filled/computer-filled.svg) |`computer-filled`|
 | ![computer-light](icons/telefonica/1.Light/computer-light.svg) | | ![computer-light](icons/o2/1.Light/computer-light.svg) |`computer-light`|
 | ![computer-regular](icons/telefonica/2.Regular/computer-regular.svg) | ![computer-regular](icons/blau/2.Regular/computer-regular.svg) | ![computer-regular](icons/o2/2.Regular/computer-regular.svg) |`computer-regular`|
@@ -348,6 +360,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![data-alert-filled](icons/telefonica/3.Filled/data-alert-filled.svg) | | |`data-alert-filled`|
 | ![data-alert-light](icons/telefonica/1.Light/data-alert-light.svg) | | |`data-alert-light`|
 | ![data-alert-regular](icons/telefonica/2.Regular/data-alert-regular.svg) | | |`data-alert-regular`|
+| | | ![data-bonus-filled](icons/o2/3.Filled/data-bonus-filled.svg) |`data-bonus-filled`|
+| | | ![data-bonus-light](icons/o2/1.Light/data-bonus-light.svg) |`data-bonus-light`|
+| | | ![data-bonus-regular](icons/o2/2.Regular/data-bonus-regular.svg) |`data-bonus-regular`|
 | ![data-checked-filled](icons/telefonica/3.Filled/data-checked-filled.svg) | | |`data-checked-filled`|
 | ![data-checked-light](icons/telefonica/1.Light/data-checked-light.svg) | | |`data-checked-light`|
 | ![data-checked-regular](icons/telefonica/2.Regular/data-checked-regular.svg) | | |`data-checked-regular`|
@@ -378,6 +393,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![delivery-van-moving-filled](icons/telefonica/3.Filled/delivery-van-moving-filled.svg) | | |`delivery-van-moving-filled`|
 | ![delivery-van-moving-light](icons/telefonica/1.Light/delivery-van-moving-light.svg) | | |`delivery-van-moving-light`|
 | ![delivery-van-moving-regular](icons/telefonica/2.Regular/delivery-van-moving-regular.svg) | | |`delivery-van-moving-regular`|
+| | | ![device-signal-filled](icons/o2/3.Filled/device-signal-filled.svg) |`device-signal-filled`|
+| | | ![device-signal-light](icons/o2/1.Light/device-signal-light.svg) |`device-signal-light`|
+| | | ![device-signal-regular](icons/o2/2.Regular/device-signal-regular.svg) |`device-signal-regular`|
 | ![diamond-filled](icons/telefonica/3.Filled/diamond-filled.svg) | | |`diamond-filled`|
 | ![diamond-light](icons/telefonica/1.Light/diamond-light.svg) | | |`diamond-light`|
 | ![diamond-regular](icons/telefonica/2.Regular/diamond-regular.svg) | | |`diamond-regular`|
@@ -466,7 +484,6 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![fast-forward-filled](icons/telefonica/3.Filled/fast-forward-filled.svg) | | ![fast-forward-filled](icons/o2/3.Filled/fast-forward-filled.svg) |`fast-forward-filled`|
 | ![fast-forward-light](icons/telefonica/1.Light/fast-forward-light.svg) | | ![fast-forward-light](icons/o2/1.Light/fast-forward-light.svg) |`fast-forward-light`|
 | ![fast-forward-regular](icons/telefonica/2.Regular/fast-forward-regular.svg) | | ![fast-forward-regular](icons/o2/2.Regular/fast-forward-regular.svg) |`fast-forward-regular`|
-| ![file--filled](icons/telefonica/3.Filled/file--filled.svg) | | |`file--filled`|
 | ![file-avi-filled](icons/telefonica/3.Filled/file-avi-filled.svg) | | |`file-avi-filled`|
 | ![file-avi-light](icons/telefonica/1.Light/file-avi-light.svg) | | |`file-avi-light`|
 | ![file-avi-regular](icons/telefonica/2.Regular/file-avi-regular.svg) | | |`file-avi-regular`|
@@ -494,20 +511,21 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![file-html-filled](icons/telefonica/3.Filled/file-html-filled.svg) | | |`file-html-filled`|
 | ![file-html-light](icons/telefonica/1.Light/file-html-light.svg) | | |`file-html-light`|
 | ![file-html-regular](icons/telefonica/2.Regular/file-html-regular.svg) | | |`file-html-regular`|
-| ![file-ilustrator-light](icons/telefonica/1.Light/file-ilustrator-light.svg) | | |`file-ilustrator-light`|
-| ![file-ilustrator-regular](icons/telefonica/2.Regular/file-ilustrator-regular.svg) | | |`file-ilustrator-regular`|
+| ![file-illustrator-filled](icons/telefonica/3.Filled/file-illustrator-filled.svg) | | |`file-illustrator-filled`|
+| ![file-illustrator-light](icons/telefonica/1.Light/file-illustrator-light.svg) | | |`file-illustrator-light`|
+| ![file-illustrator-regular](icons/telefonica/2.Regular/file-illustrator-regular.svg) | | |`file-illustrator-regular`|
 | ![file-image-filled](icons/telefonica/3.Filled/file-image-filled.svg) | | |`file-image-filled`|
 | ![file-image-light](icons/telefonica/1.Light/file-image-light.svg) | | |`file-image-light`|
 | ![file-image-regular](icons/telefonica/2.Regular/file-image-regular.svg) | | |`file-image-regular`|
 | ![file-jpeg-filled](icons/telefonica/3.Filled/file-jpeg-filled.svg) | | |`file-jpeg-filled`|
 | ![file-jpeg-light](icons/telefonica/1.Light/file-jpeg-light.svg) | | |`file-jpeg-light`|
 | ![file-jpeg-regular](icons/telefonica/2.Regular/file-jpeg-regular.svg) | | |`file-jpeg-regular`|
-| ![file-mp-3-filled](icons/telefonica/3.Filled/file-mp-3-filled.svg) | | |`file-mp-3-filled`|
-| ![file-mp-3-light](icons/telefonica/1.Light/file-mp-3-light.svg) | | |`file-mp-3-light`|
-| ![file-mp-3-regular](icons/telefonica/2.Regular/file-mp-3-regular.svg) | | |`file-mp-3-regular`|
-| ![file-mp-4-filled](icons/telefonica/3.Filled/file-mp-4-filled.svg) | | |`file-mp-4-filled`|
-| ![file-mp-4-light](icons/telefonica/1.Light/file-mp-4-light.svg) | | |`file-mp-4-light`|
-| ![file-mp-4-regular](icons/telefonica/2.Regular/file-mp-4-regular.svg) | | |`file-mp-4-regular`|
+| ![file-mp3-filled](icons/telefonica/3.Filled/file-mp3-filled.svg) | | |`file-mp3-filled`|
+| ![file-mp3-light](icons/telefonica/1.Light/file-mp3-light.svg) | | |`file-mp3-light`|
+| ![file-mp3-regular](icons/telefonica/2.Regular/file-mp3-regular.svg) | | |`file-mp3-regular`|
+| ![file-mp4-filled](icons/telefonica/3.Filled/file-mp4-filled.svg) | | |`file-mp4-filled`|
+| ![file-mp4-light](icons/telefonica/1.Light/file-mp4-light.svg) | | |`file-mp4-light`|
+| ![file-mp4-regular](icons/telefonica/2.Regular/file-mp4-regular.svg) | | |`file-mp4-regular`|
 | ![file-music-filled](icons/telefonica/3.Filled/file-music-filled.svg) | | |`file-music-filled`|
 | ![file-music-light](icons/telefonica/1.Light/file-music-light.svg) | | |`file-music-light`|
 | ![file-music-regular](icons/telefonica/2.Regular/file-music-regular.svg) | | |`file-music-regular`|
@@ -566,6 +584,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![fragrance-regular](icons/telefonica/2.Regular/fragrance-regular.svg) | | |`fragrance-regular`|
 | ![fullscreen-light](icons/telefonica/1.Light/fullscreen-light.svg) | | |`fullscreen-light`|
 | ![fullscreen-regular](icons/telefonica/2.Regular/fullscreen-regular.svg) | | |`fullscreen-regular`|
+| | | ![funnel-filled](icons/o2/3.Filled/funnel-filled.svg) |`funnel-filled`|
+| | | ![funnel-light](icons/o2/1.Light/funnel-light.svg) |`funnel-light`|
+| | | ![funnel-regular](icons/o2/2.Regular/funnel-regular.svg) |`funnel-regular`|
 | ![garaje-filled](icons/telefonica/3.Filled/garaje-filled.svg) | | |`garaje-filled`|
 | ![garaje-light](icons/telefonica/1.Light/garaje-light.svg) | | |`garaje-light`|
 | ![garaje-regular](icons/telefonica/2.Regular/garaje-regular.svg) | | |`garaje-regular`|
@@ -631,6 +652,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![information-user-filled](icons/telefonica/3.Filled/information-user-filled.svg) | | ![information-user-filled](icons/o2/3.Filled/information-user-filled.svg) |`information-user-filled`|
 | ![information-user-light](icons/telefonica/1.Light/information-user-light.svg) | | ![information-user-light](icons/o2/1.Light/information-user-light.svg) |`information-user-light`|
 | ![information-user-regular](icons/telefonica/2.Regular/information-user-regular.svg) | ![information-user-regular](icons/blau/2.Regular/information-user-regular.svg) | ![information-user-regular](icons/o2/2.Regular/information-user-regular.svg) |`information-user-regular`|
+| | | ![internet-device-filled](icons/o2/3.Filled/internet-device-filled.svg) |`internet-device-filled`|
+| | | ![internet-device-light](icons/o2/1.Light/internet-device-light.svg) |`internet-device-light`|
+| | | ![internet-device-regular](icons/o2/2.Regular/internet-device-regular.svg) |`internet-device-regular`|
 | ![internet-filled](icons/telefonica/3.Filled/internet-filled.svg) | | ![internet-filled](icons/o2/3.Filled/internet-filled.svg) |`internet-filled`|
 | ![internet-light](icons/telefonica/1.Light/internet-light.svg) | | ![internet-light](icons/o2/1.Light/internet-light.svg) |`internet-light`|
 | ![internet-pendrive-filled](icons/telefonica/3.Filled/internet-pendrive-filled.svg) | | |`internet-pendrive-filled`|
@@ -692,6 +716,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![lock-de-data-filled](icons/telefonica/3.Filled/lock-de-data-filled.svg) | | |`lock-de-data-filled`|
 | ![lock-de-data-light](icons/telefonica/1.Light/lock-de-data-light.svg) | | |`lock-de-data-light`|
 | ![lock-de-data-regular](icons/telefonica/2.Regular/lock-de-data-regular.svg) | | |`lock-de-data-regular`|
+| | | ![lock-eye-closed-filled](icons/o2/3.Filled/lock-eye-closed-filled.svg) |`lock-eye-closed-filled`|
+| | | ![lock-eye-closed-light](icons/o2/1.Light/lock-eye-closed-light.svg) |`lock-eye-closed-light`|
+| | | ![lock-eye-closed-regular](icons/o2/2.Regular/lock-eye-closed-regular.svg) |`lock-eye-closed-regular`|
 | ![lock-open-filled](icons/telefonica/3.Filled/lock-open-filled.svg) | | ![lock-open-filled](icons/o2/3.Filled/lock-open-filled.svg) |`lock-open-filled`|
 | ![lock-open-light](icons/telefonica/1.Light/lock-open-light.svg) | | ![lock-open-light](icons/o2/1.Light/lock-open-light.svg) |`lock-open-light`|
 | ![lock-open-regular](icons/telefonica/2.Regular/lock-open-regular.svg) | ![lock-open-regular](icons/blau/2.Regular/lock-open-regular.svg) | ![lock-open-regular](icons/o2/2.Regular/lock-open-regular.svg) |`lock-open-regular`|
@@ -758,9 +785,15 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![music-filled](icons/telefonica/3.Filled/music-filled.svg) | | ![music-filled](icons/o2/3.Filled/music-filled.svg) |`music-filled`|
 | ![music-light](icons/telefonica/1.Light/music-light.svg) | | ![music-light](icons/o2/1.Light/music-light.svg) |`music-light`|
 | ![music-regular](icons/telefonica/2.Regular/music-regular.svg) | | ![music-regular](icons/o2/2.Regular/music-regular.svg) |`music-regular`|
-| ![neural-network-filled](icons/telefonica/3.Filled/neural-network-filled.svg) | | ![neural-network-filled](icons/o2/3.Filled/neural-network-filled.svg) |`neural-network-filled`|
+| | | ![network-hotspot-filled](icons/o2/3.Filled/network-hotspot-filled.svg) |`network-hotspot-filled`|
+| | | ![network-hotspot-light](icons/o2/1.Light/network-hotspot-light.svg) |`network-hotspot-light`|
+| | | ![network-hotspot-regular](icons/o2/2.Regular/network-hotspot-regular.svg) |`network-hotspot-regular`|
+| ![neural-network-filled](icons/telefonica/3.Filled/neural-network-filled.svg) | | |`neural-network-filled`|
 | ![neural-network-light](icons/telefonica/1.Light/neural-network-light.svg) | | |`neural-network-light`|
 | ![neural-network-regular](icons/telefonica/2.Regular/neural-network-regular.svg) | | |`neural-network-regular`|
+| | | ![newsletter-filled](icons/o2/3.Filled/newsletter-filled.svg) |`newsletter-filled`|
+| | | ![newsletter-light](icons/o2/1.Light/newsletter-light.svg) |`newsletter-light`|
+| | | ![newsletter-regular](icons/o2/2.Regular/newsletter-regular.svg) |`newsletter-regular`|
 | ![not-conexion-filled](icons/telefonica/3.Filled/not-conexion-filled.svg) | | |`not-conexion-filled`|
 | ![not-conexion-light](icons/telefonica/1.Light/not-conexion-light.svg) | | |`not-conexion-light`|
 | ![not-conexion-regular](icons/telefonica/2.Regular/not-conexion-regular.svg) | | |`not-conexion-regular`|
@@ -813,6 +846,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![pause-regular](icons/telefonica/2.Regular/pause-regular.svg) | | ![pause-regular](icons/o2/2.Regular/pause-regular.svg) |`pause-regular`|
 | ![pay-invoice-filled](icons/telefonica/3.Filled/pay-invoice-filled.svg) | | ![pay-invoice-filled](icons/o2/3.Filled/pay-invoice-filled.svg) |`pay-invoice-filled`|
 | ![pay-invoice-light](icons/telefonica/1.Light/pay-invoice-light.svg) | | ![pay-invoice-light](icons/o2/1.Light/pay-invoice-light.svg) |`pay-invoice-light`|
+| | | ![pay-invoice-pound-filled](icons/o2/3.Filled/pay-invoice-pound-filled.svg) |`pay-invoice-pound-filled`|
+| | | ![pay-invoice-pound-light](icons/o2/1.Light/pay-invoice-pound-light.svg) |`pay-invoice-pound-light`|
+| | | ![pay-invoice-pound-regular](icons/o2/2.Regular/pay-invoice-pound-regular.svg) |`pay-invoice-pound-regular`|
 | ![pay-invoice-regular](icons/telefonica/2.Regular/pay-invoice-regular.svg) | | ![pay-invoice-regular](icons/o2/2.Regular/pay-invoice-regular.svg) |`pay-invoice-regular`|
 | ![pen-filled](icons/telefonica/3.Filled/pen-filled.svg) | | ![pen-filled](icons/o2/3.Filled/pen-filled.svg) |`pen-filled`|
 | ![pen-light](icons/telefonica/1.Light/pen-light.svg) | | ![pen-light](icons/o2/1.Light/pen-light.svg) |`pen-light`|
@@ -842,9 +878,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![pills-filled](icons/telefonica/3.Filled/pills-filled.svg) | | |`pills-filled`|
 | ![pills-light](icons/telefonica/1.Light/pills-light.svg) | | |`pills-light`|
 | ![pills-regular](icons/telefonica/2.Regular/pills-regular.svg) | | |`pills-regular`|
-| ![pin-filled](icons/telefonica/3.Filled/pin-filled.svg) | | |`pin-filled`|
-| ![pin-light](icons/telefonica/1.Light/pin-light.svg) | | |`pin-light`|
-| ![pin-regular](icons/telefonica/2.Regular/pin-regular.svg) | | |`pin-regular`|
+| ![pin-filled](icons/telefonica/3.Filled/pin-filled.svg) | | ![pin-filled](icons/o2/3.Filled/pin-filled.svg) |`pin-filled`|
+| ![pin-light](icons/telefonica/1.Light/pin-light.svg) | | ![pin-light](icons/o2/1.Light/pin-light.svg) |`pin-light`|
+| ![pin-regular](icons/telefonica/2.Regular/pin-regular.svg) | | ![pin-regular](icons/o2/2.Regular/pin-regular.svg) |`pin-regular`|
 | ![plane-filled](icons/telefonica/3.Filled/plane-filled.svg) | | ![plane-filled](icons/o2/3.Filled/plane-filled.svg) |`plane-filled`|
 | ![plane-light](icons/telefonica/1.Light/plane-light.svg) | | ![plane-light](icons/o2/1.Light/plane-light.svg) |`plane-light`|
 | ![plane-regular](icons/telefonica/2.Regular/plane-regular.svg) | ![plane-regular](icons/blau/2.Regular/plane-regular.svg) | ![plane-regular](icons/o2/2.Regular/plane-regular.svg) |`plane-regular`|
@@ -901,6 +937,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![renovate-device-change-mobile-filled](icons/telefonica/3.Filled/renovate-device-change-mobile-filled.svg) | | ![renovate-device-change-mobile-filled](icons/o2/3.Filled/renovate-device-change-mobile-filled.svg) |`renovate-device-change-mobile-filled`|
 | ![renovate-device-change-mobile-light](icons/telefonica/1.Light/renovate-device-change-mobile-light.svg) | | ![renovate-device-change-mobile-light](icons/o2/1.Light/renovate-device-change-mobile-light.svg) |`renovate-device-change-mobile-light`|
 | ![renovate-device-change-mobile-regular](icons/telefonica/2.Regular/renovate-device-change-mobile-regular.svg) | | ![renovate-device-change-mobile-regular](icons/o2/2.Regular/renovate-device-change-mobile-regular.svg) |`renovate-device-change-mobile-regular`|
+| | | ![repeat-filled](icons/o2/3.Filled/repeat-filled.svg) |`repeat-filled`|
+| | | ![repeat-light](icons/o2/1.Light/repeat-light.svg) |`repeat-light`|
+| | | ![repeat-regular](icons/o2/2.Regular/repeat-regular.svg) |`repeat-regular`|
 | ![restaurant-filled](icons/telefonica/3.Filled/restaurant-filled.svg) | | ![restaurant-filled](icons/o2/3.Filled/restaurant-filled.svg) |`restaurant-filled`|
 | ![restaurant-light](icons/telefonica/1.Light/restaurant-light.svg) | | ![restaurant-light](icons/o2/1.Light/restaurant-light.svg) |`restaurant-light`|
 | ![restaurant-regular](icons/telefonica/2.Regular/restaurant-regular.svg) | | ![restaurant-regular](icons/o2/2.Regular/restaurant-regular.svg) |`restaurant-regular`|
@@ -1095,6 +1134,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![tooth-filled](icons/telefonica/3.Filled/tooth-filled.svg) | | |`tooth-filled`|
 | ![tooth-light](icons/telefonica/1.Light/tooth-light.svg) | | |`tooth-light`|
 | ![tooth-regular](icons/telefonica/2.Regular/tooth-regular.svg) | | |`tooth-regular`|
+| | | ![top-up-filled](icons/o2/3.Filled/top-up-filled.svg) |`top-up-filled`|
+| | | ![top-up-light](icons/o2/1.Light/top-up-light.svg) |`top-up-light`|
+| | | ![top-up-regular](icons/o2/2.Regular/top-up-regular.svg) |`top-up-regular`|
 | ![tow-truck-filled](icons/telefonica/3.Filled/tow-truck-filled.svg) | | |`tow-truck-filled`|
 | ![tow-truck-light](icons/telefonica/1.Light/tow-truck-light.svg) | | |`tow-truck-light`|
 | ![tow-truck-regular](icons/telefonica/2.Regular/tow-truck-regular.svg) | | |`tow-truck-regular`|
@@ -1152,6 +1194,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![virus-scan-filled](icons/telefonica/3.Filled/virus-scan-filled.svg) | | |`virus-scan-filled`|
 | ![virus-scan-light](icons/telefonica/1.Light/virus-scan-light.svg) | | |`virus-scan-light`|
 | ![virus-scan-regular](icons/telefonica/2.Regular/virus-scan-regular.svg) | | |`virus-scan-regular`|
+| | | ![wait-clock-filled](icons/o2/3.Filled/wait-clock-filled.svg) |`wait-clock-filled`|
+| | | ![wait-clock-light](icons/o2/1.Light/wait-clock-light.svg) |`wait-clock-light`|
+| | | ![wait-clock-regular](icons/o2/2.Regular/wait-clock-regular.svg) |`wait-clock-regular`|
 | ![wallet-filled](icons/telefonica/3.Filled/wallet-filled.svg) | | |`wallet-filled`|
 | ![wallet-light](icons/telefonica/1.Light/wallet-light.svg) | | |`wallet-light`|
 | ![wallet-regular](icons/telefonica/2.Regular/wallet-regular.svg) | | |`wallet-regular`|
@@ -1161,6 +1206,7 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![water-drop-filled](icons/telefonica/3.Filled/water-drop-filled.svg) | | ![water-drop-filled](icons/o2/3.Filled/water-drop-filled.svg) |`water-drop-filled`|
 | ![water-drop-light](icons/telefonica/1.Light/water-drop-light.svg) | | ![water-drop-light](icons/o2/1.Light/water-drop-light.svg) |`water-drop-light`|
 | ![water-drop-regular](icons/telefonica/2.Regular/water-drop-regular.svg) | | ![water-drop-regular](icons/o2/2.Regular/water-drop-regular.svg) |`water-drop-regular`|
+| | | ![wearable-regular](icons/o2/2.Regular/wearable-regular.svg) |`wearable-regular`|
 | ![web-filled](icons/telefonica/3.Filled/web-filled.svg) | | |`web-filled`|
 | ![web-light](icons/telefonica/1.Light/web-light.svg) | | |`web-light`|
 | ![web-regular](icons/telefonica/2.Regular/web-regular.svg) | | |`web-regular`|
@@ -1169,6 +1215,9 @@ Install Mistica Icons Library in Sketch from [Mistica Manager](https://brandfact
 | ![wifi-regular](icons/telefonica/2.Regular/wifi-regular.svg) | | ![wifi-regular](icons/o2/2.Regular/wifi-regular.svg) |`wifi-regular`|
 | ![winner-filled](icons/telefonica/3.Filled/winner-filled.svg) | | ![winner-filled](icons/o2/3.Filled/winner-filled.svg) |`winner-filled`|
 | ![winner-light](icons/telefonica/1.Light/winner-light.svg) | | ![winner-light](icons/o2/1.Light/winner-light.svg) |`winner-light`|
+| | | ![winner-pound-filled](icons/o2/3.Filled/winner-pound-filled.svg) |`winner-pound-filled`|
+| | | ![winner-pound-light](icons/o2/1.Light/winner-pound-light.svg) |`winner-pound-light`|
+| | | ![winner-pound-regular](icons/o2/2.Regular/winner-pound-regular.svg) |`winner-pound-regular`|
 | ![winner-regular](icons/telefonica/2.Regular/winner-regular.svg) | | ![winner-regular](icons/o2/2.Regular/winner-regular.svg) |`winner-regular`|
 | ![woman-filled](icons/telefonica/3.Filled/woman-filled.svg) | | ![woman-filled](icons/o2/3.Filled/woman-filled.svg) |`woman-filled`|
 | ![woman-light](icons/telefonica/1.Light/woman-light.svg) | | ![woman-light](icons/o2/1.Light/woman-light.svg) |`woman-light`|
