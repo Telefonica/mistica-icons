@@ -42,6 +42,12 @@ jobs:
           npm run export-o2-regular
           npm run export-o2-light
 
+      - name: Install svgo
+        run: yarn global add svgo
+
+      - name: SVGO
+        run: svgo -f icons -r -o icons
+
       # - name: Convert SVG to PDF
       #   run: |
       #     sudo apt-get install librsvg2-bin
