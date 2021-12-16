@@ -52,10 +52,10 @@ jobs:
       #     sudo apt-get install librsvg2-bin
       #     for i in icons/*.svg;do rsvg-convert -f pdf -o ${i%.*}.pdf $i;done
 
-      - name: Convert to PDF
-        run: |
-          sudo apt-get install inkscape
-          inkscape -A icons/*.pdf *.svg
+      # - name: Convert to PDF
+      #   run: |
+      #     sudo apt-get install inkscape
+      #     inkscape -A icons/*.pdf *.svg
 
       - name: Readme generator
         run: sudo python3 .github/md-generator/md-generator.py icons
