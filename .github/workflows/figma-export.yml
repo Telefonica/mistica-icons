@@ -42,11 +42,10 @@ jobs:
           npm run export-o2-regular
           npm run export-o2-light
 
-      - name: Install svgo
-        run: yarn global add svgo
-
-      - name: SVGO
-        run: svgo -f icons -r -o icons
+      - name: Install SVGO & convert
+        run: |
+          yarn global add svgo
+          svgo -f icons -r -o icons
 
       # - name: Convert SVG to PDF
       #   run: |
@@ -54,7 +53,9 @@ jobs:
       #     for i in icons/*.svg;do rsvg-convert -f pdf -o ${i%.*}.pdf $i;done
 
       - name: Convert to PDF
-        run: inkscape -A icons/*.pdf *.svg
+        run: |
+          sudo apt-get install inkscape
+          inkscape -A icons/*.pdf *.svg
 
       - name: Readme generator
         run: sudo python3 .github/md-generator/md-generator.py icons
