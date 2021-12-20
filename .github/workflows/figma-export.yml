@@ -47,10 +47,10 @@ jobs:
           yarn global add svgo
           svgo -f icons -r -o icons
 
-      # - name: Convert SVG to PDF
-      #   run: |
-      #     sudo apt-get install librsvg2-bin
-      #     for i in icons/*.svg;do rsvg-convert -f pdf -o ${i%.*}.pdf $i;done
+      - name: Convert SVG to PDF
+        run: |
+          sudo apt-get install librsvg2-bin
+          for i in icons/*.svg; do rsvg-convert -f pdf -o ${i%.*}.pdf $i;done
 
       # - name: Convert to PDF
       #   run: |
