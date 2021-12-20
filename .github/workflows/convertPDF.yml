@@ -11,6 +11,6 @@ jobs:
 
       - name: Convert to PDF
         run: |
-          yarn global add svg2pdf
-          svg2pdf icons/o2/1.Light icons-pdf/
+          brew install librsvg
+          ./svg-resizer.js -e pdf -o icons/resized/ icons/*.svg
           git add -A
