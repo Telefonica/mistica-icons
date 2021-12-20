@@ -11,6 +11,8 @@ jobs:
 
       - name: Convert to PDF
         run: |
-          sudo apt-get install librsvg2-bin
-          ./svg-resizer.js -e pdf -o icons/resized/ icons/*.svg
+          sudo apt-get install inkscape
+          sudo ln -s /Applications/Inkscape.app/Contents/MacOS/inkscape /usr/local/bin/inkscape
+          chmod +x .github/md-generator/svg2pdf.sh
+          bash svg2pdf.sh ./icons
           git add -A
