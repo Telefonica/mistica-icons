@@ -13,5 +13,5 @@ jobs:
         run: |
           sudo apt-get install inkscape
           chmod +x .github/md-generator/svg2pdf.sh
-          bash .github/md-generator/svg2pdf.sh ./icons
+          bash .github/md-generator/svg2pdf.sh ./icons/*.svg
           git add -A
