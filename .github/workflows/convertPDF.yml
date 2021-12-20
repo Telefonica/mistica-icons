@@ -11,6 +11,6 @@ jobs:
 
       - name: Convert to PDF
         run: |
-          npm install -g svg2pdf-cli
-          svg2pdf icons/*.svg icons/*.pdf
+          npm install -g svg2pdf
+          svg2pdf icons/ icons-pdf/
           git add -A
