@@ -11,6 +11,6 @@ jobs:
 
       - name: Convert to PDF
         run: |
-          npm install -g svg2pdf
+          yarn global add svg2pdf
           svg2pdf icons/o2/1.Light icons-pdf/
           git add -A
