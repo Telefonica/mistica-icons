@@ -11,6 +11,6 @@ jobs:
 
       - name: Convert to PDF
         run: |
-          sudo apt-get install inkscape
-          find ./icons/* -name "*.svg" -exec sh -c 'inkscape $1 --export-pdf=${1%.svg}.pdf' _ {} \;
+          sudo apt-get install -y libgbm-dev
+          svg2pdf icons/*.svg icons/*.pdf
           git add -A
