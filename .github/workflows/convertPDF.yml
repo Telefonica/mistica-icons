@@ -12,4 +12,5 @@ jobs:
       - name: Convert to PDF
         run: |
           sudo apt-get install inkscape
-          find ./icons/ -name "*.svg" -exec sh -c 'inkscape $1 --export-pdf=${1%.svg}.pdf' _ {} \;
+          find ./icons/* -name "*.svg" -exec sh -c 'inkscape $1 --export-pdf=${1%.svg}.pdf' _ {} \;
+          git add -A
