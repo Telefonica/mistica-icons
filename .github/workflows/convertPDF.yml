@@ -11,6 +11,6 @@ jobs:
 
       - name: Convert to PDF
         run: |
-          sudo apt-get install -y libgbm-dev
+          npm install -g svg2pdf-cli
           svg2pdf icons/*.svg icons/*.pdf
           git add -A
