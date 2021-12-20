@@ -11,6 +11,6 @@ jobs:
 
       - name: Convert to PDF
         run: |
-          brew install librsvg
+          sudo apt-get install librsvg2-bin
           ./svg-resizer.js -e pdf -o icons/resized/ icons/*.svg
           git add -A
