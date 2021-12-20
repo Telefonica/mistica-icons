@@ -12,7 +12,6 @@ jobs:
       - name: Convert to PDF
         run: |
           sudo apt-get install inkscape
-          sudo ln -s /Applications/Inkscape.app/Contents/MacOS/inkscape /usr/local/bin/inkscape
           chmod +x .github/md-generator/svg2pdf.sh
           bash svg2pdf.sh ./icons
           git add -A
