@@ -42,6 +42,11 @@ jobs:
           npm run export-o2-regular
           npm run export-o2-light
 
+      - name: Convert to PDF
+        run: |
+          sudo apt-get install librsvg2-bin
+          find ./icons/ -type f -name "*.svg"; rsvg-convert -f pdf -o *.pdf
+
       - name: Install SVGO & convert
         run: |
           yarn global add svgo
@@ -51,11 +56,6 @@ jobs:
       #   run: |
       #     sudo apt-get install librsvg2-bin
       #     for i in icons/*.svg; do rsvg-convert -f pdf -o ${i%.*}.pdf $i;done
-
-      # - name: Convert to PDF
-      #   run: |
-      #     sudo apt-get install inkscape
-      #     inkscape -A icons/*.pdf --export-type=pdf *.svg
 
       - name: Readme generator
         run: sudo python3 .github/md-generator/md-generator.py icons
