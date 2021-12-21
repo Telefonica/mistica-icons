@@ -17,6 +17,7 @@ jobs:
       #     git add -A
 
       - name: Convert SVG to PDF
-      #   run: |
-      #     sudo apt-get install librsvg2-bin
-      #     for i in icons/*.svg; do rsvg-convert -f pdf -o ${i%.*}.pdf $i;done
+        run: |
+          sudo apt-get install librsvg2-bin
+          for i in icons/*.svg; do rsvg-convert -f pdf -o ${i%.*}.pdf $i;done
+          git add -A
