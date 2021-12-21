@@ -23,5 +23,5 @@ jobs:
           git config user.name "Bot"
           git config user.email "nobody@nowhere"  
           git commit -am "Update figma icons"
-          git add -A
+          git add .
           git push origin figma-export-workflow
