@@ -19,10 +19,9 @@ jobs:
       - name: Convert SVG to PDF
         run: |
           sudo apt-get install librsvg2-bin
-          for i in $(find ./icons/*.svg); do rsvg-convert -f pdf -o ${i%.*}.pdf $i;done
+          for i in $(find ./icons/ -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i;done
           git config user.name "Bot"
           git config user.email "nobody@nowhere"  
           git commit -am "Update figma icons"
           git add -A
           git push origin figma-export-workflow
-          
