@@ -22,6 +22,6 @@ jobs:
           for i in $(find ./icons/ -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i;done
           git config user.name "Bot"
           git config user.email "nobody@nowhere"  
+          git add -A
           git commit -am "Update figma icons"
-          git add .
           git push origin figma-export-workflow
