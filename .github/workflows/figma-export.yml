@@ -64,6 +64,7 @@ jobs:
         run: |
           git config user.name "Bot"
           git config user.email "nobody@nowhere"  
+          git checkout -b ${{ github.event.inputs.release }}
           git commit -am "Update figma icons"
           git add -A
           git push origin ${{ github.event.inputs.release }}
