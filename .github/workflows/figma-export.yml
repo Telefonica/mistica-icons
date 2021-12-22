@@ -20,11 +20,12 @@ jobs:
       - name: Get branch name
         uses: rlespinasse/github-slug-action@v3.x
 
-      - name: Install packages & checkout
+      - name: Install packages
         run: |
           npm install figma-export-icons --save
           sudo apt-get install librsvg2-bin
-          git checkout -b ${{ github.event.inputs.release }}
+
+      - run: git checkout -b ${{ github.event.inputs.release }}
 
       - name: Generate icon config
         run: |
