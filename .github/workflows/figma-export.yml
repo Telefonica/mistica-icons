@@ -49,7 +49,7 @@ jobs:
         run: |
           yarn global add svgo
           svgo -f icons-fig -r -o icons-fig
-      
+
       - name: Convert to PDF
         run: for i in $(find icons-fig -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
 
