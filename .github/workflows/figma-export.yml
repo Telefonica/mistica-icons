@@ -48,6 +48,7 @@ jobs:
         run: |
           yarn global add svgo
           svgo -f icons -r -o icons
+          git add -A
       
       - name: Convert to PDF
         run: |
