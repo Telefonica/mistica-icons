@@ -52,8 +52,8 @@ jobs:
 
       - name: Convert to PDF
         run: |
-          ls -a
-          for i in $(find icons-fig -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
+          ls -a icons-fig/o2/light
+          for i in icons-fig/**/*.svg; do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
 
       - name: Readme generator
         run: sudo python3 .github/md-generator/md-generator.py icons
