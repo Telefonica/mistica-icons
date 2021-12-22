@@ -1,6 +1,7 @@
 name: Readme Generator
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - '.github/md-generator/md-generator.py'
