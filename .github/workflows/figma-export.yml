@@ -15,17 +15,16 @@ jobs:
   assets:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Preparing actions (Checkout & Get branch name)
+        uses: |
+          actions/checkout@v2
+          rlespinasse/github-slug-action@v3.x
 
-      - name: Get branch name
-        uses: rlespinasse/github-slug-action@v3.x
-
-      - name: Install packages
+      - name: Install packages && checkout
         run: |
           npm install figma-export-icons --save
           sudo apt-get install librsvg2-bin
-
-      - run: git checkout -b ${{ github.event.inputs.release }}
+          git checkout -b ${{ github.event.inputs.release }}
 
       - name: Generate icon config
         run: |
@@ -50,13 +49,12 @@ jobs:
           yarn global add svgo
           svgo -f icons-fig -r -o icons-fig
       
-
-      - name: Readme generator
-        run: sudo python3 .github/md-generator/md-generator.py icons
-
       - name: Convert to PDF
         run: |
           for i in $(find icons-fig -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
+
+      - name: Readme generator
+        run: sudo python3 .github/md-generator/md-generator.py icons
 
       - name: Commit & Push
         run: |
