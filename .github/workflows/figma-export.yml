@@ -52,7 +52,7 @@ jobs:
 
       - name: Convert to PDF
         run: |
-          ls -a icons-fig/o2/light
+          ls -a icons-fig/telefonica/light
           for i in $(find icons-fig -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
 
       - name: Readme generator
