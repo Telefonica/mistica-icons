@@ -23,7 +23,8 @@ jobs:
       - name: Install packages
         run: |
           npm install figma-export-icons --save
-          sudo apt-get install librsvg2-bin
+
+      # sudo apt-get install librsvg2-bin
 
       - run: git checkout -b ${{ github.event.inputs.release }}
 
@@ -46,13 +47,6 @@ jobs:
           npm run export-o2-regular
           npm run export-o2-light
           npm run export-blau-regular
-
-      # - name: Commit & Push
-      #   run: |
-      #     git config user.name "Bot"
-      #     git config user.email "nobody@nowhere"
-      #     git commit -am "Figma icons updated"
-      #     git push origin ${{ github.event.inputs.release }}
 
       - name: Install SVGO & convert
         run: |
