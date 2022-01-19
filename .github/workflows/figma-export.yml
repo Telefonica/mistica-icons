@@ -63,7 +63,6 @@ jobs:
           git config user.name "Bot"
           git config user.email "nobody@nowhere"
           git commit -am "Update figma icons"
-          git add -A
           git push origin ${{ github.event.inputs.release }}
 
       - name: Create Pull Request
