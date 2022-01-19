@@ -1222,7 +1222,9 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | ![water-drop-filled](icons/telefonica/filled/water-drop-filled.svg) | | ![water-drop-filled](icons/o2/filled/water-drop-filled.svg) |`water-drop-filled`|
 | ![water-drop-light](icons/telefonica/light/water-drop-light.svg) | | ![water-drop-light](icons/o2/light/water-drop-light.svg) |`water-drop-light`|
 | ![water-drop-regular](icons/telefonica/regular/water-drop-regular.svg) | | ![water-drop-regular](icons/o2/regular/water-drop-regular.svg) |`water-drop-regular`|
-| | | ![wearable-regular](icons/o2/regular/wearable-regular.svg) |`wearable-regular`|
+| ![wearable-filled](icons/telefonica/filled/wearable-filled.svg) | | |`wearable-filled`|
+| ![wearable-light](icons/telefonica/light/wearable-light.svg) | | |`wearable-light`|
+| ![wearable-regular](icons/telefonica/regular/wearable-regular.svg) | | ![wearable-regular](icons/o2/regular/wearable-regular.svg) |`wearable-regular`|
 | ![web-filled](icons/telefonica/filled/web-filled.svg) | | |`web-filled`|
 | ![web-light](icons/telefonica/light/web-light.svg) | | |`web-light`|
 | ![web-regular](icons/telefonica/regular/web-regular.svg) | | |`web-regular`|
