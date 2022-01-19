@@ -27,9 +27,6 @@ jobs:
 
       - run: git checkout -b ${{ github.event.inputs.release }}
 
-      - name: Removed assets
-        run: git rm -r icons/*
-
       - name: Generate icon config
         run: |
           sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/telefonica/filled|g' figma-export-icons.template.json > telefonica-filled.json
