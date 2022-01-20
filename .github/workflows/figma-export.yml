@@ -80,3 +80,14 @@ jobs:
       #     branch: ${{ github.event.inputs.release }}
       #     base: production
       #     reviewers: yceballost
+
+      - name: creating pull-request
+        uses: repo-sync/pull-request@v2
+        with:
+          source_branch: ${{ github.event.inputs.release }}
+          destination_branch: "production"
+          pr_title: "Pulling ${{ github.ref }} into main"
+          pr_body: "👑 *An automated PR*"
+          pr_reviewer: "yceballost"
+          pr_draft: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
