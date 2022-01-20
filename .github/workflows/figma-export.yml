@@ -73,12 +73,12 @@ jobs:
           destination_branch: "production"
           pr_title: "${{ github.event.inputs.release }}"
           pr_body: "
-            New version of icons exported from [Mistica Icons][mistica-icons] & [O2][o2-icons]
-            - [ ] [Review readme ${{ github.event.inputs.release }}][readme]
+            New version of icons exported from [Mistica Icons][mistica-icons] & [O2][o2-icons]  
+            - [ ] [Review readme ${{ github.event.inputs.release }}][readme]  
 
-            [mistica-icons]: https://www.figma.com/file/JHuzksh01yxExMeMQBvymq/Mistica-Icons?node-id=0%3A71
-            [o2-icons]: https://www.figma.com/file/wHTqJ7KDhGKrNSNpmMb9nW/?node-id=611%3A3298
-            [readme]: https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }}  "
+            [mistica-icons]: https://www.figma.com/file/JHuzksh01yxExMeMQBvymq/Mistica-Icons?node-id=0%3A71  
+            [o2-icons]: https://www.figma.com/file/wHTqJ7KDhGKrNSNpmMb9nW/?node-id=611%3A3298  
+            [readme]: https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }}"
           pr_reviewer: "yceballost"
           pr_draft: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
