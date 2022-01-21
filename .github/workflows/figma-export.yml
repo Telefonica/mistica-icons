@@ -23,8 +23,7 @@ jobs:
       - name: Install packages
         run: |
           npm install figma-export-icons --save
-          
-        # sudo apt-get install librsvg2-bin
+          sudo apt-get install librsvg2-bin
 
       - run: git checkout -b ${{ github.event.inputs.release }}
 
@@ -53,8 +52,8 @@ jobs:
           yarn global add svgo
           svgo -f icons -r -o icons
 
-      # - name: Convert to PDF
-      #   run: for i in $(find icons -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
+      - name: Convert to PDF
+        run: for i in $(find icons -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
 
       - name: Readme generator
         run: sudo python3 .github/md-generator/md-generator.py icons
