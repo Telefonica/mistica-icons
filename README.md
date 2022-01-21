@@ -18,6 +18,7 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 # Icons 
 | telefonica | blau | o2 | icon name <img width=500> | 
 | :---: | :---: | :---: |:--- |
+| ![TEST-ICON](icons/telefonica/regular/TEST-ICON.svg) | | |`TEST-ICON`|
 | ![academic-filled](icons/telefonica/filled/academic-filled.svg) | | |`academic-filled`|
 | ![academic-light](icons/telefonica/light/academic-light.svg) | | |`academic-light`|
 | ![academic-regular](icons/telefonica/regular/academic-regular.svg) | | |`academic-regular`|
