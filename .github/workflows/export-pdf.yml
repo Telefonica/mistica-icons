@@ -1,0 +1,26 @@
+name: 🚀 Release (Figma)
+
+on:
+  push:
+    branches:
+      - production
+
+jobs:
+  export-figma:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Install packages
+        run: sudo apt-get install librsvg2-bin
+
+      - name: Convert to PDF
+        run: for i in $(find icons -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
+
+      - name: Commit & Push
+        run: |
+          git config user.name "Bot"
+          git config user.email "nobody@nowhere"
+          git add .
+          git commit -m "SVG to PDF conversion"
+          git push origin ${{ github.event.inputs.release }}
