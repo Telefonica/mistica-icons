@@ -1213,9 +1213,9 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | | | ![wait-clock-filled](icons/o2/filled/wait-clock-filled.svg) |`wait-clock-filled`|
 | | | ![wait-clock-light](icons/o2/light/wait-clock-light.svg) |`wait-clock-light`|
 | | | ![wait-clock-regular](icons/o2/regular/wait-clock-regular.svg) |`wait-clock-regular`|
-| ![wallet-filled](icons/telefonica/filled/wallet-filled.svg) | | |`wallet-filled`|
-| ![wallet-light](icons/telefonica/light/wallet-light.svg) | | |`wallet-light`|
-| ![wallet-regular](icons/telefonica/regular/wallet-regular.svg) | | |`wallet-regular`|
+| ![wallet-filled](icons/telefonica/filled/wallet-filled.svg) | | ![wallet-filled](icons/o2/filled/wallet-filled.svg) |`wallet-filled`|
+| ![wallet-light](icons/telefonica/light/wallet-light.svg) | | ![wallet-light](icons/o2/light/wallet-light.svg) |`wallet-light`|
+| ![wallet-regular](icons/telefonica/regular/wallet-regular.svg) | | ![wallet-regular](icons/o2/regular/wallet-regular.svg) |`wallet-regular`|
 | ![warning-filled](icons/telefonica/filled/warning-filled.svg) | | ![warning-filled](icons/o2/filled/warning-filled.svg) |`warning-filled`|
 | ![warning-light](icons/telefonica/light/warning-light.svg) | | ![warning-light](icons/o2/light/warning-light.svg) |`warning-light`|
 | ![warning-regular](icons/telefonica/regular/warning-regular.svg) | | ![warning-regular](icons/o2/regular/warning-regular.svg) |`warning-regular`|
