@@ -374,9 +374,9 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | ![data-cloud-filled](icons/telefonica/filled/data-cloud-filled.svg) | | ![data-cloud-filled](icons/o2/filled/data-cloud-filled.svg) |`data-cloud-filled`|
 | ![data-cloud-light](icons/telefonica/light/data-cloud-light.svg) | | ![data-cloud-light](icons/o2/light/data-cloud-light.svg) |`data-cloud-light`|
 | ![data-cloud-regular](icons/telefonica/regular/data-cloud-regular.svg) | | ![data-cloud-regular](icons/o2/regular/data-cloud-regular.svg) |`data-cloud-regular`|
-| ![data-data-sereye-filled](icons/telefonica/filled/data-data-sereye-filled.svg) | | |`data-data-sereye-filled`|
-| ![data-data-sereye-light](icons/telefonica/light/data-data-sereye-light.svg) | | |`data-data-sereye-light`|
-| ![data-data-sereye-regular](icons/telefonica/regular/data-data-sereye-regular.svg) | | |`data-data-sereye-regular`|
+| ![data-distribution-filled](icons/telefonica/filled/data-distribution-filled.svg) | | |`data-distribution-filled`|
+| ![data-distribution-light](icons/telefonica/light/data-distribution-light.svg) | | |`data-distribution-light`|
+| ![data-distribution-regular](icons/telefonica/regular/data-distribution-regular.svg) | | |`data-distribution-regular`|
 | ![data-filled](icons/telefonica/filled/data-filled.svg) | | |`data-filled`|
 | ![data-light](icons/telefonica/light/data-light.svg) | | |`data-light`|
 | ![data-network-filled](icons/telefonica/filled/data-network-filled.svg) | | |`data-network-filled`|
