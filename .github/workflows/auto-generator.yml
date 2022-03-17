@@ -20,6 +20,13 @@ jobs:
 
       - run: sudo python3 .github/md-generator/md-generator.py icons
 
+      - name: Push to protected branch
+        uses: CasperWA/push-protected@v2
+        with:
+          token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
+          branch: production
+          unprotect_reviews: true
+
       - name: Commit & Push
         run: |
           git config user.name "Bot"
