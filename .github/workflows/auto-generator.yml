@@ -23,7 +23,7 @@ jobs:
       - name: Commit & Push
         run: |
           git config user.name "Mística Bot"
-          git config user.email "nobody@nowhere"  
+          git config user.email "mistica@bot"  
           git commit -am "Update readme"
 
       - name: Push to protected branch
