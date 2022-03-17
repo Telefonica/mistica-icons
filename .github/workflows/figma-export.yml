@@ -61,7 +61,7 @@ jobs:
       - name: Commit & Push
         run: |
           git config user.name "Mística Bot"
-          git config user.email "nobody@nowhere"
+          git config user.email "mistica@bot"
           git add .
           git commit -m "Figma icons updated"
           git push origin ${{ github.event.inputs.release }}
