@@ -947,6 +947,9 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | ![rating-filled](icons/telefonica/filled/rating-filled.svg) | | ![rating-filled](icons/o2/filled/rating-filled.svg) |`rating-filled`|
 | ![rating-light](icons/telefonica/light/rating-light.svg) | | ![rating-light](icons/o2/light/rating-light.svg) |`rating-light`|
 | ![rating-regular](icons/telefonica/regular/rating-regular.svg) | | ![rating-regular](icons/o2/regular/rating-regular.svg) |`rating-regular`|
+| | | ![recycle-filled](icons/o2/filled/recycle-filled.svg) |`recycle-filled`|
+| | | ![recycle-light](icons/o2/light/recycle-light.svg) |`recycle-light`|
+| | | ![recycle-regular](icons/o2/regular/recycle-regular.svg) |`recycle-regular`|
 | ![reload-light](icons/telefonica/light/reload-light.svg) | | ![reload-light](icons/o2/light/reload-light.svg) |`reload-light`|
 | ![reload-regular](icons/telefonica/regular/reload-regular.svg) | | ![reload-regular](icons/o2/regular/reload-regular.svg) |`reload-regular`|
 | ![renovate-device-change-mobile-filled](icons/telefonica/filled/renovate-device-change-mobile-filled.svg) | | ![renovate-device-change-mobile-filled](icons/o2/filled/renovate-device-change-mobile-filled.svg) |`renovate-device-change-mobile-filled`|
