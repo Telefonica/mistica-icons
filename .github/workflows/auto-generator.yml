@@ -20,16 +20,15 @@ jobs:
 
       - run: sudo python3 .github/md-generator/md-generator.py icons
 
+      - name: Commit & Push
+        run: |
+          git config user.name "Bot"
+          git config user.email "nobody@nowhere"  
+          git commit -am "Update readme"
+
       - name: Push to protected branch
         uses: CasperWA/push-protected@v2
         with:
           token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
           branch: production
           unprotect_reviews: true
-
-      - name: Commit & Push
-        run: |
-          git config user.name "Bot"
-          git config user.email "nobody@nowhere"  
-          git commit -am "Update readme"
-          git push origin ${{ env.GITHUB_REF_SLUG_URL }}
