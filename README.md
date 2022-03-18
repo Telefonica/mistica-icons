@@ -320,7 +320,6 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | ![computer-filled](icons/telefonica/filled/computer-filled.svg) | | ![computer-filled](icons/o2/filled/computer-filled.svg) |`computer-filled`|
 | ![computer-light](icons/telefonica/light/computer-light.svg) | | ![computer-light](icons/o2/light/computer-light.svg) |`computer-light`|
 | ![computer-regular](icons/telefonica/regular/computer-regular.svg) | ![computer-regular](icons/blau/regular/computer-regular.svg) | ![computer-regular](icons/o2/regular/computer-regular.svg) |`computer-regular`|
-| | | ![computer-regular-duplicate-name](icons/o2/regular/computer-regular-duplicate-name.svg) |`computer-regular-duplicate-name`|
 | ![computer-user-filled](icons/telefonica/filled/computer-user-filled.svg) | | |`computer-user-filled`|
 | ![computer-user-light](icons/telefonica/light/computer-user-light.svg) | | |`computer-user-light`|
 | ![computer-user-regular](icons/telefonica/regular/computer-user-regular.svg) | | |`computer-user-regular`|
