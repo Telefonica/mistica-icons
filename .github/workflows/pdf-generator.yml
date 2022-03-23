@@ -22,7 +22,7 @@ jobs:
       - run: git checkout -b production
 
       - name: Convert to PDF
-        run: for i in $(find icons -type f -name "*.svg"); do rsvg-convert -f pdf -o pdf/${i%.*}.pdf $i; done
+        run: for i in $(find icons -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%/pdf.*}.pdf $i; done
 
       - name: Readme generator
         run: sudo python3 .github/md-generator/md-generator.py icons
