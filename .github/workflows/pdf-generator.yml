@@ -3,10 +3,10 @@ name: PDF Generator
 on:
   push:
     branches:
-      - production
-    pull_request:
-      types: 
-        - closed
+      - test-pdf
+  pull_request:
+    types: 
+      - closed
 
 jobs:
   export-figma:
