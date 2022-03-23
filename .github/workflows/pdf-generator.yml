@@ -15,6 +15,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - name: Install packages
+        run: |
+          sudo apt-get install librsvg2-bin
+
       - run: git checkout -b production
 
       - name: Convert to PDF
