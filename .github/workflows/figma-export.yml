@@ -1,88 +1,85 @@
 name: 🚀 Release (Figma)
 
 on:
-    workflow_dispatch:
-        inputs:
-            release:
-                description: 'Little description (No spaces!)'
-                required: true
+  workflow_dispatch:
+    inputs:
+      release:
+        description: "Little description (No spaces!)"
+        required: true
 
 # push:
 #   paths:
 #     - ".github/workflows/figma-export.yml"
 
 jobs:
-    export-figma:
-        runs-on: ubuntu-latest
-        steps:
-            - uses: actions/checkout@v2
+  export-figma:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
 
-            - name: Get branch name
-              uses: rlespinasse/github-slug-action@v3.x
+      - name: Get branch name
+        uses: rlespinasse/github-slug-action@v3.x
 
-            - name: Install packages
-              run: |
-                  npm install figma-export-icons --save
-                  sudo apt-get install librsvg2-bin
+      - name: Install packages
+        run: |
+          npm install figma-export-icons --save
+          sudo apt-get install librsvg2-bin
 
-            - run: git checkout -b ${{ github.event.inputs.release }}
+      - run: git checkout -b ${{ github.event.inputs.release }}
 
-            - name: Generate icon config
-              run: |
-                  sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/telefonica/filled|g' figma-export-icons.template.json > telefonica-filled.json
-                  sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/telefonica/regular|g' figma-export-icons.template.json > telefonica-regular.json
-                  sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/telefonica/light|g' figma-export-icons.template.json > telefonica-light.json
-                  sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/o2/filled|g' figma-export-icons.template.json > o2-filled.json
-                  sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/o2/regular|g' figma-export-icons.template.json > o2-regular.json
-                  sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/o2/light|g' figma-export-icons.template.json > o2-light.json
-                  sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/6TYIfq6EZJl7NcSbbYAo79/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/blau/regular|g' figma-export-icons.template.json > blau-regular.json
+      - name: Generate icon config
+        run: |
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/telefonica/filled|g' figma-export-icons.template.json > telefonica-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/telefonica/regular|g' figma-export-icons.template.json > telefonica-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/telefonica/light|g' figma-export-icons.template.json > telefonica-light.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/o2/filled|g' figma-export-icons.template.json > o2-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/o2/regular|g' figma-export-icons.template.json > o2-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/o2/light|g' figma-export-icons.template.json > o2-light.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/6TYIfq6EZJl7NcSbbYAo79/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/blau/regular|g' figma-export-icons.template.json > blau-regular.json
 
-            - name: Export icons
-              run: |
-                  npm run export-telefonica-filled
-                  npm run export-telefonica-regular
-                  npm run export-telefonica-light
-                  npm run export-o2-filled
-                  npm run export-o2-regular
-                  npm run export-o2-light
-                  npm run export-blau-regular
+      - name: Export icons
+        run: |
+          npm run export-telefonica-filled
+          npm run export-telefonica-regular
+          npm run export-telefonica-light
+          npm run export-o2-filled
+          npm run export-o2-regular
+          npm run export-o2-light
+          npm run export-blau-regular
 
-            - name: Install SVGO & convert
-              run: |
-                  yarn global add svgo
-                  svgo -f icons -r -o icons
+      - name: Install SVGO & convert
+        run: |
+          yarn global add svgo
+          svgo -f icons -r -o icons
 
-            - name: Convert to PDF
-              run: |
-                  sudo apt-get update && sudo apt-get install -y mat2
-                  for i in $(find icons -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
+      - name: Convert to PDF
+        run: |
+          sudo apt-get update && sudo apt-get install -y mat2
+          for i in $(find icons -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
 
-            - name: Readme generator
-              run: sudo python3 .github/md-generator/md-generator.py icons
+      - name: Readme generator
+        run: sudo python3 .github/md-generator/md-generator.py icons
 
-            - name: Commit & Push
-              run: |
-                  git config user.name "github-actions"
-                  git config user.email "github-actions[bot]@users.noreply.github.com"
-                  git add .
-                  git commit -m "Figma icons updated"
-                  git push origin ${{ github.event.inputs.release }}
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Figma icons updated"
+          git push origin ${{ github.event.inputs.release }}
 
-            - name: Create Pull-Request
-              uses: repo-sync/pull-request@v2
-              with:
-                  source_branch: ${{ github.event.inputs.release }}
-                  destination_branch: 'production'
-                  pr_title: '${{ github.event.inputs.release }}'
-                  pr_body: "
-                      New version of icons exported from [Mistica
-                      Icons](https://www.figma.com/file/JHuzksh01yxExMeMQBvymq/Mistica-Icons?node-id=0%3A71) &
-                      [O2](https://www.figma.com/file/wHTqJ7KDhGKrNSNpmMb9nW/?node-id=611%3A3298) \
-                      - [ ] [Review readme ${{ github.event.inputs.release
-                      }}](https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }})"
-                  pr_reviewer: 'yceballost'
-                  pr_draft: false
-                  github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create Pull-Request
+        uses: repo-sync/pull-request@v2
+        with:
+          source_branch: ${{ github.event.inputs.release }}
+          destination_branch: "production"
+          pr_title: "${{ github.event.inputs.release }}"
+          pr_body: "
+            New version of icons exported from [Mistica Icons](https://www.figma.com/file/JHuzksh01yxExMeMQBvymq/Mistica-Icons?node-id=0%3A71) & [O2](https://www.figma.com/file/wHTqJ7KDhGKrNSNpmMb9nW/?node-id=611%3A3298) \
+            - [ ] [Review readme ${{ github.event.inputs.release }}](https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }})"
+          pr_reviewer: "yceballost"
+          pr_draft: false
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 # pr_body: "
 #             New version of icons exported from [Mistica Icons][mistica-icons] & [O2][o2-icons] \
 #             - [ ] [Review readme ${{ github.event.inputs.release }}][readme] \
