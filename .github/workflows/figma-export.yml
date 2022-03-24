@@ -56,6 +56,7 @@ jobs:
         run: |
           sudo apt-get update && sudo apt-get install -y mat2
           for i in $(find icons -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
+          for i in $(find icons -type f -name "*.pdf"); do mat2 -v --inplace $i; done # remove PDF metadata
 
       - name: Readme generator
         run: sudo python3 .github/md-generator/md-generator.py icons
