@@ -213,9 +213,6 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | | | ![calendar-pound-light](icons/o2/light/calendar-pound-light.svg) |`calendar-pound-light`|
 | | | ![calendar-pound-regular](icons/o2/regular/calendar-pound-regular.svg) |`calendar-pound-regular`|
 | ![calendar-regular](icons/telefonica/regular/calendar-regular.svg) | | ![calendar-regular](icons/o2/regular/calendar-regular.svg) |`calendar-regular`|
-| ![call-center-user-support-filled](icons/telefonica/filled/call-center-user-support-filled.svg) | | ![call-center-user-support-filled](icons/o2/filled/call-center-user-support-filled.svg) |`call-center-user-support-filled`|
-| ![call-center-user-support-light](icons/telefonica/light/call-center-user-support-light.svg) | | ![call-center-user-support-light](icons/o2/light/call-center-user-support-light.svg) |`call-center-user-support-light`|
-| ![call-center-user-support-regular](icons/telefonica/regular/call-center-user-support-regular.svg) | | ![call-center-user-support-regular](icons/o2/regular/call-center-user-support-regular.svg) |`call-center-user-support-regular`|
 | ![call-details-filled](icons/telefonica/filled/call-details-filled.svg) | | |`call-details-filled`|
 | ![call-details-light](icons/telefonica/light/call-details-light.svg) | | |`call-details-light`|
 | ![call-details-regular](icons/telefonica/regular/call-details-regular.svg) | | |`call-details-regular`|
