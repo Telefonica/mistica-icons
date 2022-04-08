@@ -14,7 +14,7 @@ Use Mística icons library in Figma!
 ### Icon equivalence status
 Telefónica set<br/><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' />    71%  
 O2 set<br/><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' />    53%  
-Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' />    1% ⚠️  not available yet  
+Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.imgur.com/BLjOoR0.png' />    3% ⚠️  not available yet  
 # Icons 
 | telefonica | blau | o2 | icon name <img width=500> | 
 | :---: | :---: | :---: |:--- |
@@ -135,13 +135,13 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | ![arrow-right-regular](icons/telefonica/regular/arrow-right-regular.svg) | | ![arrow-right-regular](icons/o2/regular/arrow-right-regular.svg) |`arrow-right-regular`|
 | ![arrow-up-down-filled](icons/telefonica/filled/arrow-up-down-filled.svg) | | ![arrow-up-down-filled](icons/o2/filled/arrow-up-down-filled.svg) |`arrow-up-down-filled`|
 | ![arrow-up-down-light](icons/telefonica/light/arrow-up-down-light.svg) | | ![arrow-up-down-light](icons/o2/light/arrow-up-down-light.svg) |`arrow-up-down-light`|
-| ![arrow-up-down-regular](icons/telefonica/regular/arrow-up-down-regular.svg) | | ![arrow-up-down-regular](icons/o2/regular/arrow-up-down-regular.svg) |`arrow-up-down-regular`|
+| ![arrow-up-down-regular](icons/telefonica/regular/arrow-up-down-regular.svg) | ![arrow-up-down-regular](icons/blau/regular/arrow-up-down-regular.svg) | ![arrow-up-down-regular](icons/o2/regular/arrow-up-down-regular.svg) |`arrow-up-down-regular`|
 | ![arrow-up-filled](icons/telefonica/filled/arrow-up-filled.svg) | | ![arrow-up-filled](icons/o2/filled/arrow-up-filled.svg) |`arrow-up-filled`|
 | ![arrow-up-left-filled](icons/telefonica/filled/arrow-up-left-filled.svg) | | ![arrow-up-left-filled](icons/o2/filled/arrow-up-left-filled.svg) |`arrow-up-left-filled`|
 | ![arrow-up-left-light](icons/telefonica/light/arrow-up-left-light.svg) | | ![arrow-up-left-light](icons/o2/light/arrow-up-left-light.svg) |`arrow-up-left-light`|
 | ![arrow-up-left-regular](icons/telefonica/regular/arrow-up-left-regular.svg) | ![arrow-up-left-regular](icons/blau/regular/arrow-up-left-regular.svg) | ![arrow-up-left-regular](icons/o2/regular/arrow-up-left-regular.svg) |`arrow-up-left-regular`|
 | ![arrow-up-light](icons/telefonica/light/arrow-up-light.svg) | | ![arrow-up-light](icons/o2/light/arrow-up-light.svg) |`arrow-up-light`|
-| ![arrow-up-regular](icons/telefonica/regular/arrow-up-regular.svg) | | ![arrow-up-regular](icons/o2/regular/arrow-up-regular.svg) |`arrow-up-regular`|
+| ![arrow-up-regular](icons/telefonica/regular/arrow-up-regular.svg) | ![arrow-up-regular](icons/blau/regular/arrow-up-regular.svg) | ![arrow-up-regular](icons/o2/regular/arrow-up-regular.svg) |`arrow-up-regular`|
 | ![arrow-up-right-filled](icons/telefonica/filled/arrow-up-right-filled.svg) | | ![arrow-up-right-filled](icons/o2/filled/arrow-up-right-filled.svg) |`arrow-up-right-filled`|
 | ![arrow-up-right-light](icons/telefonica/light/arrow-up-right-light.svg) | | ![arrow-up-right-light](icons/o2/light/arrow-up-right-light.svg) |`arrow-up-right-light`|
 | ![arrow-up-right-regular](icons/telefonica/regular/arrow-up-right-regular.svg) | | ![arrow-up-right-regular](icons/o2/regular/arrow-up-right-regular.svg) |`arrow-up-right-regular`|
@@ -194,7 +194,7 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | ![bell-program-filled](icons/telefonica/filled/bell-program-filled.svg) | | |`bell-program-filled`|
 | ![bell-program-light](icons/telefonica/light/bell-program-light.svg) | | |`bell-program-light`|
 | ![bell-program-regular](icons/telefonica/regular/bell-program-regular.svg) | | |`bell-program-regular`|
-| ![bell-regular](icons/telefonica/regular/bell-regular.svg) | | ![bell-regular](icons/o2/regular/bell-regular.svg) |`bell-regular`|
+| ![bell-regular](icons/telefonica/regular/bell-regular.svg) | ![bell-regular](icons/blau/regular/bell-regular.svg) | ![bell-regular](icons/o2/regular/bell-regular.svg) |`bell-regular`|
 | ![bicycle-bike-filled](icons/telefonica/filled/bicycle-bike-filled.svg) | | |`bicycle-bike-filled`|
 | ![bicycle-bike-light](icons/telefonica/light/bicycle-bike-light.svg) | | |`bicycle-bike-light`|
 | ![bicycle-bike-regular](icons/telefonica/regular/bicycle-bike-regular.svg) | | |`bicycle-bike-regular`|
@@ -233,7 +233,7 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | | | ![briefcase-business-regular](icons/o2/regular/briefcase-business-regular.svg) |`briefcase-business-regular`|
 | ![briefcase-filled](icons/telefonica/filled/briefcase-filled.svg) | | ![briefcase-filled](icons/o2/filled/briefcase-filled.svg) |`briefcase-filled`|
 | ![briefcase-light](icons/telefonica/light/briefcase-light.svg) | | ![briefcase-light](icons/o2/light/briefcase-light.svg) |`briefcase-light`|
-| ![briefcase-regular](icons/telefonica/regular/briefcase-regular.svg) | | ![briefcase-regular](icons/o2/regular/briefcase-regular.svg) |`briefcase-regular`|
+| ![briefcase-regular](icons/telefonica/regular/briefcase-regular.svg) | ![briefcase-regular](icons/blau/regular/briefcase-regular.svg) | ![briefcase-regular](icons/o2/regular/briefcase-regular.svg) |`briefcase-regular`|
 | ![broadband-filled](icons/telefonica/filled/broadband-filled.svg) | | |`broadband-filled`|
 | ![broadband-light](icons/telefonica/light/broadband-light.svg) | | |`broadband-light`|
 | ![broadband-regular](icons/telefonica/regular/broadband-regular.svg) | | |`broadband-regular`|
@@ -281,7 +281,7 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | | | ![callback-regular](icons/o2/regular/callback-regular.svg) |`callback-regular`|
 | ![cancel-filled](icons/telefonica/filled/cancel-filled.svg) | | ![cancel-filled](icons/o2/filled/cancel-filled.svg) |`cancel-filled`|
 | ![cancel-light](icons/telefonica/light/cancel-light.svg) | | ![cancel-light](icons/o2/light/cancel-light.svg) |`cancel-light`|
-| ![cancel-regular](icons/telefonica/regular/cancel-regular.svg) | | ![cancel-regular](icons/o2/regular/cancel-regular.svg) |`cancel-regular`|
+| ![cancel-regular](icons/telefonica/regular/cancel-regular.svg) | ![cancel-regular](icons/blau/regular/cancel-regular.svg) | ![cancel-regular](icons/o2/regular/cancel-regular.svg) |`cancel-regular`|
 | | | ![cancellation-filled](icons/o2/filled/cancellation-filled.svg) |`cancellation-filled`|
 | | | ![cancellation-light](icons/o2/light/cancellation-light.svg) |`cancellation-light`|
 | | | ![cancellation-regular](icons/o2/regular/cancellation-regular.svg) |`cancellation-regular`|
@@ -320,13 +320,13 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | | | ![chart-device-regular](icons/o2/regular/chart-device-regular.svg) |`chart-device-regular`|
 | ![chat-filled](icons/telefonica/filled/chat-filled.svg) | | ![chat-filled](icons/o2/filled/chat-filled.svg) |`chat-filled`|
 | ![chat-light](icons/telefonica/light/chat-light.svg) | | ![chat-light](icons/o2/light/chat-light.svg) |`chat-light`|
-| ![chat-regular](icons/telefonica/regular/chat-regular.svg) | | ![chat-regular](icons/o2/regular/chat-regular.svg) |`chat-regular`|
+| ![chat-regular](icons/telefonica/regular/chat-regular.svg) | ![chat-regular](icons/blau/regular/chat-regular.svg) | ![chat-regular](icons/o2/regular/chat-regular.svg) |`chat-regular`|
 | | | ![check-filled](icons/o2/filled/check-filled.svg) |`check-filled`|
 | | | ![check-light](icons/o2/light/check-light.svg) |`check-light`|
 | ![check-regular](icons/telefonica/regular/check-regular.svg) | ![check-regular](icons/blau/regular/check-regular.svg) | ![check-regular](icons/o2/regular/check-regular.svg) |`check-regular`|
 | ![checked-filled](icons/telefonica/filled/checked-filled.svg) | | ![checked-filled](icons/o2/filled/checked-filled.svg) |`checked-filled`|
 | ![checked-light](icons/telefonica/light/checked-light.svg) | | ![checked-light](icons/o2/light/checked-light.svg) |`checked-light`|
-| ![checked-regular](icons/telefonica/regular/checked-regular.svg) | | ![checked-regular](icons/o2/regular/checked-regular.svg) |`checked-regular`|
+| ![checked-regular](icons/telefonica/regular/checked-regular.svg) | ![checked-regular](icons/blau/regular/checked-regular.svg) | ![checked-regular](icons/o2/regular/checked-regular.svg) |`checked-regular`|
 | ![chemistry-filled](icons/telefonica/filled/chemistry-filled.svg) | | |`chemistry-filled`|
 | ![chemistry-light](icons/telefonica/light/chemistry-light.svg) | | |`chemistry-light`|
 | ![chemistry-regular](icons/telefonica/regular/chemistry-regular.svg) | | |`chemistry-regular`|
@@ -467,7 +467,7 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | | | ![credit-balance-pound-regular](icons/o2/regular/credit-balance-pound-regular.svg) |`credit-balance-pound-regular`|
 | ![credit-card-filled](icons/telefonica/filled/credit-card-filled.svg) | | ![credit-card-filled](icons/o2/filled/credit-card-filled.svg) |`credit-card-filled`|
 | ![credit-card-light](icons/telefonica/light/credit-card-light.svg) | | ![credit-card-light](icons/o2/light/credit-card-light.svg) |`credit-card-light`|
-| ![credit-card-regular](icons/telefonica/regular/credit-card-regular.svg) | | ![credit-card-regular](icons/o2/regular/credit-card-regular.svg) |`credit-card-regular`|
+| ![credit-card-regular](icons/telefonica/regular/credit-card-regular.svg) | ![credit-card-regular](icons/blau/regular/credit-card-regular.svg) | ![credit-card-regular](icons/o2/regular/credit-card-regular.svg) |`credit-card-regular`|
 | ![credit-card-visa-filled](icons/telefonica/filled/credit-card-visa-filled.svg) | | |`credit-card-visa-filled`|
 | ![credit-card-visa-light](icons/telefonica/light/credit-card-visa-light.svg) | | |`credit-card-visa-light`|
 | ![credit-card-visa-regular](icons/telefonica/regular/credit-card-visa-regular.svg) | | |`credit-card-visa-regular`|
@@ -517,7 +517,7 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | ![data-settings-regular](icons/telefonica/regular/data-settings-regular.svg) | | |`data-settings-regular`|
 | ![data-shield-filled](icons/telefonica/filled/data-shield-filled.svg) | | ![data-shield-filled](icons/o2/filled/data-shield-filled.svg) |`data-shield-filled`|
 | ![data-shield-light](icons/telefonica/light/data-shield-light.svg) | | ![data-shield-light](icons/o2/light/data-shield-light.svg) |`data-shield-light`|
-| ![data-shield-regular](icons/telefonica/regular/data-shield-regular.svg) | | ![data-shield-regular](icons/o2/regular/data-shield-regular.svg) |`data-shield-regular`|
+| ![data-shield-regular](icons/telefonica/regular/data-shield-regular.svg) | ![data-shield-regular](icons/blau/regular/data-shield-regular.svg) | ![data-shield-regular](icons/o2/regular/data-shield-regular.svg) |`data-shield-regular`|
 | | | ![data-unlimited-filled](icons/o2/filled/data-unlimited-filled.svg) |`data-unlimited-filled`|
 | | | ![data-unlimited-light](icons/o2/light/data-unlimited-light.svg) |`data-unlimited-light`|
 | | | ![data-unlimited-regular](icons/o2/regular/data-unlimited-regular.svg) |`data-unlimited-regular`|
@@ -577,7 +577,7 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | ![download-cloud-regular](icons/telefonica/regular/download-cloud-regular.svg) | ![download-cloud-regular](icons/blau/regular/download-cloud-regular.svg) | |`download-cloud-regular`|
 | ![download-filled](icons/telefonica/filled/download-filled.svg) | | |`download-filled`|
 | ![download-light](icons/telefonica/light/download-light.svg) | | |`download-light`|
-| ![download-regular](icons/telefonica/regular/download-regular.svg) | | |`download-regular`|
+| ![download-regular](icons/telefonica/regular/download-regular.svg) | ![download-regular](icons/blau/regular/download-regular.svg) | |`download-regular`|
 | ![drink-filled](icons/telefonica/filled/drink-filled.svg) | | |`drink-filled`|
 | ![drink-light](icons/telefonica/light/drink-light.svg) | | |`drink-light`|
 | ![drink-regular](icons/telefonica/regular/drink-regular.svg) | | |`drink-regular`|
@@ -599,7 +599,7 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | ![electrocardiogram-regular](icons/telefonica/regular/electrocardiogram-regular.svg) | | ![electrocardiogram-regular](icons/o2/regular/electrocardiogram-regular.svg) |`electrocardiogram-regular`|
 | ![email-filled](icons/telefonica/filled/email-filled.svg) | | ![email-filled](icons/o2/filled/email-filled.svg) |`email-filled`|
 | ![email-light](icons/telefonica/light/email-light.svg) | | ![email-light](icons/o2/light/email-light.svg) |`email-light`|
-| ![email-regular](icons/telefonica/regular/email-regular.svg) | | ![email-regular](icons/o2/regular/email-regular.svg) |`email-regular`|
+| ![email-regular](icons/telefonica/regular/email-regular.svg) | ![email-regular](icons/blau/regular/email-regular.svg) | ![email-regular](icons/o2/regular/email-regular.svg) |`email-regular`|
 | | | ![email-send-filled](icons/o2/filled/email-send-filled.svg) |`email-send-filled`|
 | | | ![email-send-light](icons/o2/light/email-send-light.svg) |`email-send-light`|
 | | | ![email-send-regular](icons/o2/regular/email-send-regular.svg) |`email-send-regular`|
@@ -877,7 +877,7 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | | | ![invoice-euro-regular](icons/o2/regular/invoice-euro-regular.svg) |`invoice-euro-regular`|
 | ![invoice-plan-file-filled](icons/telefonica/filled/invoice-plan-file-filled.svg) | | ![invoice-plan-file-filled](icons/o2/filled/invoice-plan-file-filled.svg) |`invoice-plan-file-filled`|
 | ![invoice-plan-file-light](icons/telefonica/light/invoice-plan-file-light.svg) | | ![invoice-plan-file-light](icons/o2/light/invoice-plan-file-light.svg) |`invoice-plan-file-light`|
-| ![invoice-plan-file-regular](icons/telefonica/regular/invoice-plan-file-regular.svg) | | ![invoice-plan-file-regular](icons/o2/regular/invoice-plan-file-regular.svg) |`invoice-plan-file-regular`|
+| ![invoice-plan-file-regular](icons/telefonica/regular/invoice-plan-file-regular.svg) | ![invoice-plan-file-regular](icons/blau/regular/invoice-plan-file-regular.svg) | ![invoice-plan-file-regular](icons/o2/regular/invoice-plan-file-regular.svg) |`invoice-plan-file-regular`|
 | | | ![iot-sensor-co2-filled](icons/o2/filled/iot-sensor-co2-filled.svg) |`iot-sensor-co2-filled`|
 | | | ![iot-sensor-co2-light](icons/o2/light/iot-sensor-co2-light.svg) |`iot-sensor-co2-light`|
 | | | ![iot-sensor-co2-regular](icons/o2/regular/iot-sensor-co2-regular.svg) |`iot-sensor-co2-regular`|
@@ -953,7 +953,7 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | ![location-regular](icons/telefonica/regular/location-regular.svg) | | ![location-regular](icons/o2/regular/location-regular.svg) |`location-regular`|
 | ![lock-closed-filled](icons/telefonica/filled/lock-closed-filled.svg) | | ![lock-closed-filled](icons/o2/filled/lock-closed-filled.svg) |`lock-closed-filled`|
 | ![lock-closed-light](icons/telefonica/light/lock-closed-light.svg) | | ![lock-closed-light](icons/o2/light/lock-closed-light.svg) |`lock-closed-light`|
-| ![lock-closed-regular](icons/telefonica/regular/lock-closed-regular.svg) | | ![lock-closed-regular](icons/o2/regular/lock-closed-regular.svg) |`lock-closed-regular`|
+| ![lock-closed-regular](icons/telefonica/regular/lock-closed-regular.svg) | ![lock-closed-regular](icons/blau/regular/lock-closed-regular.svg) | ![lock-closed-regular](icons/o2/regular/lock-closed-regular.svg) |`lock-closed-regular`|
 | ![lock-de-data-filled](icons/telefonica/filled/lock-de-data-filled.svg) | | |`lock-de-data-filled`|
 | ![lock-de-data-light](icons/telefonica/light/lock-de-data-light.svg) | | |`lock-de-data-light`|
 | ![lock-de-data-regular](icons/telefonica/regular/lock-de-data-regular.svg) | | |`lock-de-data-regular`|
@@ -1047,6 +1047,7 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | ![mouse-light](icons/telefonica/light/mouse-light.svg) | | |`mouse-light`|
 | ![mouse-regular](icons/telefonica/regular/mouse-regular.svg) | | |`mouse-regular`|
 | ![multidevice-light](icons/telefonica/light/multidevice-light.svg) | | ![multidevice-light](icons/o2/light/multidevice-light.svg) |`multidevice-light`|
+| | ![multidevice-regular](icons/blau/regular/multidevice-regular.svg) | |`multidevice-regular`|
 | ![multideviceo-filled](icons/telefonica/filled/multideviceo-filled.svg) | | ![multideviceo-filled](icons/o2/filled/multideviceo-filled.svg) |`multideviceo-filled`|
 | ![multideviceo-regular](icons/telefonica/regular/multideviceo-regular.svg) | | ![multideviceo-regular](icons/o2/regular/multideviceo-regular.svg) |`multideviceo-regular`|
 | | | ![multisave-filled](icons/o2/filled/multisave-filled.svg) |`multisave-filled`|
@@ -1089,7 +1090,7 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | ![notes-regular](icons/telefonica/regular/notes-regular.svg) | | |`notes-regular`|
 | ![numeric-keypad-filled](icons/telefonica/filled/numeric-keypad-filled.svg) | | |`numeric-keypad-filled`|
 | ![numeric-keypad-light](icons/telefonica/light/numeric-keypad-light.svg) | | |`numeric-keypad-light`|
-| ![numeric-keypad-regular](icons/telefonica/regular/numeric-keypad-regular.svg) | | |`numeric-keypad-regular`|
+| ![numeric-keypad-regular](icons/telefonica/regular/numeric-keypad-regular.svg) | ![numeric-keypad-regular](icons/blau/regular/numeric-keypad-regular.svg) | |`numeric-keypad-regular`|
 | | | ![offer-euro-filled](icons/o2/filled/offer-euro-filled.svg) |`offer-euro-filled`|
 | | | ![offer-euro-light](icons/o2/light/offer-euro-light.svg) |`offer-euro-light`|
 | | | ![offer-euro-regular](icons/o2/regular/offer-euro-regular.svg) |`offer-euro-regular`|
@@ -1238,7 +1239,7 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | ![puzzle-regular](icons/telefonica/regular/puzzle-regular.svg) | | |`puzzle-regular`|
 | ![question-filled](icons/telefonica/filled/question-filled.svg) | | ![question-filled](icons/o2/filled/question-filled.svg) |`question-filled`|
 | ![question-light](icons/telefonica/light/question-light.svg) | | ![question-light](icons/o2/light/question-light.svg) |`question-light`|
-| ![question-regular](icons/telefonica/regular/question-regular.svg) | | ![question-regular](icons/o2/regular/question-regular.svg) |`question-regular`|
+| ![question-regular](icons/telefonica/regular/question-regular.svg) | ![question-regular](icons/blau/regular/question-regular.svg) | ![question-regular](icons/o2/regular/question-regular.svg) |`question-regular`|
 | | | ![queue-filled](icons/o2/filled/queue-filled.svg) |`queue-filled`|
 | | | ![queue-light](icons/o2/light/queue-light.svg) |`queue-light`|
 | | | ![queue-regular](icons/o2/regular/queue-regular.svg) |`queue-regular`|
@@ -1419,7 +1420,7 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | | | ![support-agent-premium-filled](icons/o2/filled/support-agent-premium-filled.svg) |`support-agent-premium-filled`|
 | | | ![support-agent-premium-light](icons/o2/light/support-agent-premium-light.svg) |`support-agent-premium-light`|
 | | | ![support-agent-premium-regular](icons/o2/regular/support-agent-premium-regular.svg) |`support-agent-premium-regular`|
-| ![support-agent-regular](icons/telefonica/regular/support-agent-regular.svg) | | ![support-agent-regular](icons/o2/regular/support-agent-regular.svg) |`support-agent-regular`|
+| ![support-agent-regular](icons/telefonica/regular/support-agent-regular.svg) | ![support-agent-regular](icons/blau/regular/support-agent-regular.svg) | ![support-agent-regular](icons/o2/regular/support-agent-regular.svg) |`support-agent-regular`|
 | ![syringe-filled](icons/telefonica/filled/syringe-filled.svg) | | |`syringe-filled`|
 | ![syringe-light](icons/telefonica/light/syringe-light.svg) | | |`syringe-light`|
 | ![syringe-regular](icons/telefonica/regular/syringe-regular.svg) | | |`syringe-regular`|
@@ -1494,7 +1495,7 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | ![thumb-down-regular](icons/telefonica/regular/thumb-down-regular.svg) | | |`thumb-down-regular`|
 | ![tickets-filled](icons/telefonica/filled/tickets-filled.svg) | | ![tickets-filled](icons/o2/filled/tickets-filled.svg) |`tickets-filled`|
 | ![tickets-light](icons/telefonica/light/tickets-light.svg) | | ![tickets-light](icons/o2/light/tickets-light.svg) |`tickets-light`|
-| ![tickets-regular](icons/telefonica/regular/tickets-regular.svg) | | ![tickets-regular](icons/o2/regular/tickets-regular.svg) |`tickets-regular`|
+| ![tickets-regular](icons/telefonica/regular/tickets-regular.svg) | ![tickets-regular](icons/blau/regular/tickets-regular.svg) | ![tickets-regular](icons/o2/regular/tickets-regular.svg) |`tickets-regular`|
 | ![time-filled](icons/telefonica/filled/time-filled.svg) | | ![time-filled](icons/o2/filled/time-filled.svg) |`time-filled`|
 | ![time-light](icons/telefonica/light/time-light.svg) | | ![time-light](icons/o2/light/time-light.svg) |`time-light`|
 | ![time-regular](icons/telefonica/regular/time-regular.svg) | | ![time-regular](icons/o2/regular/time-regular.svg) |`time-regular`|
@@ -1613,7 +1614,7 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | ![wallet-regular](icons/telefonica/regular/wallet-regular.svg) | | ![wallet-regular](icons/o2/regular/wallet-regular.svg) |`wallet-regular`|
 | ![warning-filled](icons/telefonica/filled/warning-filled.svg) | | ![warning-filled](icons/o2/filled/warning-filled.svg) |`warning-filled`|
 | ![warning-light](icons/telefonica/light/warning-light.svg) | | ![warning-light](icons/o2/light/warning-light.svg) |`warning-light`|
-| ![warning-regular](icons/telefonica/regular/warning-regular.svg) | | ![warning-regular](icons/o2/regular/warning-regular.svg) |`warning-regular`|
+| ![warning-regular](icons/telefonica/regular/warning-regular.svg) | ![warning-regular](icons/blau/regular/warning-regular.svg) | ![warning-regular](icons/o2/regular/warning-regular.svg) |`warning-regular`|
 | ![water-drop-filled](icons/telefonica/filled/water-drop-filled.svg) | | ![water-drop-filled](icons/o2/filled/water-drop-filled.svg) |`water-drop-filled`|
 | ![water-drop-light](icons/telefonica/light/water-drop-light.svg) | | ![water-drop-light](icons/o2/light/water-drop-light.svg) |`water-drop-light`|
 | ![water-drop-regular](icons/telefonica/regular/water-drop-regular.svg) | | ![water-drop-regular](icons/o2/regular/water-drop-regular.svg) |`water-drop-regular`|
@@ -1625,7 +1626,7 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | ![web-regular](icons/telefonica/regular/web-regular.svg) | | |`web-regular`|
 | ![wifi-filled](icons/telefonica/filled/wifi-filled.svg) | | ![wifi-filled](icons/o2/filled/wifi-filled.svg) |`wifi-filled`|
 | ![wifi-light](icons/telefonica/light/wifi-light.svg) | | ![wifi-light](icons/o2/light/wifi-light.svg) |`wifi-light`|
-| ![wifi-regular](icons/telefonica/regular/wifi-regular.svg) | | ![wifi-regular](icons/o2/regular/wifi-regular.svg) |`wifi-regular`|
+| ![wifi-regular](icons/telefonica/regular/wifi-regular.svg) | ![wifi-regular](icons/blau/regular/wifi-regular.svg) | ![wifi-regular](icons/o2/regular/wifi-regular.svg) |`wifi-regular`|
 | | | ![winner-check-filled](icons/o2/filled/winner-check-filled.svg) |`winner-check-filled`|
 | | | ![winner-check-regular](icons/o2/regular/winner-check-regular.svg) |`winner-check-regular`|
 | | | ![winner-check-regular-duplicate-name](icons/o2/regular/winner-check-regular-duplicate-name.svg) |`winner-check-regular-duplicate-name`|
