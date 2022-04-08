@@ -4,9 +4,15 @@ on:
   workflow_dispatch:
     inputs:
       brand:
-        description: Choose library "all" / "telefonica" / "o2" / "blau"
+        type: choice
+        description: Choose library
         required: true
         default: "all"
+        options:
+          - all
+          - telefonica
+          - o2
+          - blau
       release:
         description: "Little description (No spaces!)"
         required: true
