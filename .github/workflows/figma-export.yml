@@ -285,7 +285,7 @@ jobs:
           destination_branch: "production"
           pr_title: "${{ github.event.inputs.release }}"
           pr_body: "
-            New version of icons exported from [Mistica Icons](https://www.figma.com/file/JHuzksh01yxExMeMQBvymq/Mistica-Icons?node-id=0%3A71) & [O2](https://www.figma.com/file/wHTqJ7KDhGKrNSNpmMb9nW/?node-id=611%3A3298) \  <br>
+            New version of icons exported from [Mistica Icons](https://www.figma.com/file/JHuzksh01yxExMeMQBvymq/Mistica-Icons?node-id=0%3A71) & [O2](https://www.figma.com/file/wHTqJ7KDhGKrNSNpmMb9nW/?node-id=611%3A3298)
             - [ ] [Review readme ${{ github.event.inputs.release }}](https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }})"
           pr_reviewer: "yceballost"
           pr_draft: false
