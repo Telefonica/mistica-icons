@@ -90,7 +90,7 @@ jobs:
           pr_draft: false
           github_token: ${{ secrets.GITHUB_TOKEN }}
     
-    export-all:
+  export-all:
     if: ${{ github.event.inputs.home }} == 'all'
     runs-on: ubuntu-latest
     steps:
