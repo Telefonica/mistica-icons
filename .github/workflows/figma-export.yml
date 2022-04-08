@@ -3,13 +3,13 @@ name: 🚀 Release (Figma)
 on:
   workflow_dispatch:
     inputs:
+      brand:
+        description: Choose library "all" / "telefonica" / "o2" / "blau"
+        required: true
+        default: "all"
       release:
         description: "Little description (No spaces!)"
         required: true
-      brand:
-        description: write "all" / "telefonica" / "o2" / "blau" to export this library
-        required: true
-        default: "all"
 
 # push:
 #   paths:
