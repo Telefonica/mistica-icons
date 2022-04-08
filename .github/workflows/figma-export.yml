@@ -182,9 +182,9 @@ jobs:
 
       - name: Export icons
         run: |
-          npm run export-telefonica-filled
-          npm run export-telefonica-regular
-          npm run export-telefonica-light
+          npm run export-o2-filled
+          npm run export-o2-regular
+          npm run export-o2-light
 
       - name: Install SVGO & convert
         run: |
@@ -248,10 +248,7 @@ jobs:
           sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/6TYIfq6EZJl7NcSbbYAo79/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/blau/regular|g' figma-export-icons.template.json > blau-regular.json
 
       - name: Export icons
-        run: |
-          npm run export-telefonica-filled
-          npm run export-telefonica-regular
-          npm run export-telefonica-light
+        run: npm run export-blau-regular
 
       - name: Install SVGO & convert
         run: |
