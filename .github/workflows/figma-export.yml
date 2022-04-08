@@ -122,7 +122,7 @@ jobs:
       - name: Install SVGO & convert
         run: |
           yarn global add svgo
-          svgo -f icons -r -o icons
+          svgo -f icons/telefonica -r -o icons/telefonica
 
       - name: Convert to PDF
         run: |
@@ -189,7 +189,7 @@ jobs:
       - name: Install SVGO & convert
         run: |
           yarn global add svgo
-          svgo -f icons -r -o icons
+          svgo -f icons/o2 -r -o icons/o2
 
       - name: Convert to PDF
         run: |
@@ -253,7 +253,7 @@ jobs:
       - name: Install SVGO & convert
         run: |
           yarn global add svgo
-          svgo -f icons -r -o icons
+          svgo -f icons/blau -r -o icons/blau
 
       - name: Convert to PDF
         run: |
