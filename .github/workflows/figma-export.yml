@@ -6,6 +6,10 @@ on:
       release:
         description: "Little description (No spaces!)"
         required: true
+      brand export:
+        description: write "all" / "telefonica" / "o2" / "blau" to export this library
+        required: true
+        default: "all"
 
 # push:
 #   paths:
@@ -37,6 +41,10 @@ jobs:
           sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/o2/light|g' figma-export-icons.template.json > o2-light.json
           sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/6TYIfq6EZJl7NcSbbYAo79/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/blau/regular|g' figma-export-icons.template.json > blau-regular.json
 
+  export-all:
+    if: ${{ github.event.inputs.home }} == 'all'
+    runs-on: ubuntu-latest
+    steps:
       - name: Export icons
         run: |
           npm run export-telefonica-filled
@@ -46,6 +54,101 @@ jobs:
           npm run export-o2-regular
           npm run export-o2-light
           npm run export-blau-regular
+
+      - name: Install SVGO & convert
+        run: |
+          yarn global add svgo
+          svgo -f icons -r -o icons
+
+      - name: Convert to PDF
+        run: |
+          sudo apt-get update && sudo apt-get install -y mat2
+          for i in $(find icons -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
+          for i in $(find icons -type f -name "*.pdf"); do echo $i && exiftool -overwrite_original_in_place -all:all= $i > /dev/null 2>&1 && qpdf --replace-input --deterministic-id $i; done # remove PDF metadata
+
+      - name: Readme generator
+        run: sudo python3 .github/md-generator/md-generator.py icons
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Figma icons updated"
+          git push origin ${{ github.event.inputs.release }}
+
+      - name: Create Pull-Request
+        uses: repo-sync/pull-request@v2
+        with:
+          source_branch: ${{ github.event.inputs.release }}
+          destination_branch: "production"
+          pr_title: "${{ github.event.inputs.release }}"
+          pr_body: "
+            New version of icons exported from [Mistica Icons](https://www.figma.com/file/JHuzksh01yxExMeMQBvymq/Mistica-Icons?node-id=0%3A71) & [O2](https://www.figma.com/file/wHTqJ7KDhGKrNSNpmMb9nW/?node-id=611%3A3298) \
+            - [ ] [Review readme ${{ github.event.inputs.release }}](https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }})"
+          pr_reviewer: "yceballost"
+          pr_draft: false
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+    
+    export-all:
+    if: ${{ github.event.inputs.home }} == 'all'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Export icons
+        run: |
+          npm run export-telefonica-filled
+          npm run export-telefonica-regular
+          npm run export-telefonica-light
+          npm run export-o2-filled
+          npm run export-o2-regular
+          npm run export-o2-light
+          npm run export-blau-regular
+
+      - name: Install SVGO & convert
+        run: |
+          yarn global add svgo
+          svgo -f icons -r -o icons
+
+      - name: Convert to PDF
+        run: |
+          sudo apt-get update && sudo apt-get install -y mat2
+          for i in $(find icons -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
+          for i in $(find icons -type f -name "*.pdf"); do echo $i && exiftool -overwrite_original_in_place -all:all= $i > /dev/null 2>&1 && qpdf --replace-input --deterministic-id $i; done # remove PDF metadata
+
+      - name: Readme generator
+        run: sudo python3 .github/md-generator/md-generator.py icons
+
+      - name: Commit & Push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Figma icons updated"
+          git push origin ${{ github.event.inputs.release }}
+
+      - name: Create Pull-Request
+        uses: repo-sync/pull-request@v2
+        with:
+          source_branch: ${{ github.event.inputs.release }}
+          destination_branch: "production"
+          pr_title: "${{ github.event.inputs.release }}"
+          pr_body: "
+            New version of icons exported from [Mistica Icons](https://www.figma.com/file/JHuzksh01yxExMeMQBvymq/Mistica-Icons?node-id=0%3A71) & [O2](https://www.figma.com/file/wHTqJ7KDhGKrNSNpmMb9nW/?node-id=611%3A3298) \
+            - [ ] [Review readme ${{ github.event.inputs.release }}](https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }})"
+          pr_reviewer: "yceballost"
+          pr_draft: false
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+
+    export-telefonica:
+    if: ${{ github.event.inputs.home }} == 'telefonica'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Export icons
+        run: |
+          npm run export-telefonica-filled
+          npm run export-telefonica-regular
+          npm run export-telefonica-light
 
       - name: Install SVGO & convert
         run: |
