@@ -468,9 +468,9 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | ![credit-card-filled](icons/telefonica/filled/credit-card-filled.svg) | | ![credit-card-filled](icons/o2/filled/credit-card-filled.svg) |`credit-card-filled`|
 | ![credit-card-light](icons/telefonica/light/credit-card-light.svg) | | ![credit-card-light](icons/o2/light/credit-card-light.svg) |`credit-card-light`|
 | ![credit-card-regular](icons/telefonica/regular/credit-card-regular.svg) | ![credit-card-regular](icons/blau/regular/credit-card-regular.svg) | ![credit-card-regular](icons/o2/regular/credit-card-regular.svg) |`credit-card-regular`|
-| ![credit-card-visa-filled](icons/telefonica/filled/credit-card-visa-filled.svg) | | |`credit-card-visa-filled`|
-| ![credit-card-visa-light](icons/telefonica/light/credit-card-visa-light.svg) | | |`credit-card-visa-light`|
-| ![credit-card-visa-regular](icons/telefonica/regular/credit-card-visa-regular.svg) | | |`credit-card-visa-regular`|
+| ![credit-card-visa-filled](icons/telefonica/filled/credit-card-visa-filled.svg) | | ![credit-card-visa-filled](icons/o2/filled/credit-card-visa-filled.svg) |`credit-card-visa-filled`|
+| ![credit-card-visa-light](icons/telefonica/light/credit-card-visa-light.svg) | | ![credit-card-visa-light](icons/o2/light/credit-card-visa-light.svg) |`credit-card-visa-light`|
+| ![credit-card-visa-regular](icons/telefonica/regular/credit-card-visa-regular.svg) | | ![credit-card-visa-regular](icons/o2/regular/credit-card-visa-regular.svg) |`credit-card-visa-regular`|
 | ![cut-filled](icons/telefonica/filled/cut-filled.svg) | | |`cut-filled`|
 | ![cut-light](icons/telefonica/light/cut-light.svg) | | |`cut-light`|
 | ![dartboard-filled](icons/telefonica/filled/dartboard-filled.svg) | | ![dartboard-filled](icons/o2/filled/dartboard-filled.svg) |`dartboard-filled`|
@@ -1569,6 +1569,9 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | ![user-support-filled](icons/telefonica/filled/user-support-filled.svg) | | ![user-support-filled](icons/o2/filled/user-support-filled.svg) |`user-support-filled`|
 | ![user-support-light](icons/telefonica/light/user-support-light.svg) | | ![user-support-light](icons/o2/light/user-support-light.svg) |`user-support-light`|
 | ![user-support-regular](icons/telefonica/regular/user-support-regular.svg) | | ![user-support-regular](icons/o2/regular/user-support-regular.svg) |`user-support-regular`|
+| | | ![video-camera-filled](icons/o2/filled/video-camera-filled.svg) |`video-camera-filled`|
+| | | ![video-camera-light](icons/o2/light/video-camera-light.svg) |`video-camera-light`|
+| | | ![video-camera-regular](icons/o2/regular/video-camera-regular.svg) |`video-camera-regular`|
 | | | ![video-chat-filled](icons/o2/filled/video-chat-filled.svg) |`video-chat-filled`|
 | | | ![video-chat-light](icons/o2/light/video-chat-light.svg) |`video-chat-light`|
 | | | ![video-chat-regular](icons/o2/regular/video-chat-regular.svg) |`video-chat-regular`|
@@ -1576,11 +1579,8 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | | | ![video-disabled-light](icons/o2/light/video-disabled-light.svg) |`video-disabled-light`|
 | | | ![video-disabled-regular](icons/o2/regular/video-disabled-regular.svg) |`video-disabled-regular`|
 | ![video-filled](icons/telefonica/filled/video-filled.svg) | | ![video-filled](icons/o2/filled/video-filled.svg) |`video-filled`|
-| | | ![video-filled-duplicate-name](icons/o2/filled/video-filled-duplicate-name.svg) |`video-filled-duplicate-name`|
 | ![video-light](icons/telefonica/light/video-light.svg) | | ![video-light](icons/o2/light/video-light.svg) |`video-light`|
-| | | ![video-light-duplicate-name](icons/o2/light/video-light-duplicate-name.svg) |`video-light-duplicate-name`|
 | ![video-regular](icons/telefonica/regular/video-regular.svg) | | ![video-regular](icons/o2/regular/video-regular.svg) |`video-regular`|
-| | | ![video-regular-duplicate-name](icons/o2/regular/video-regular-duplicate-name.svg) |`video-regular-duplicate-name`|
 | ![video-surveillance-security-filled](icons/telefonica/filled/video-surveillance-security-filled.svg) | | |`video-surveillance-security-filled`|
 | ![video-surveillance-security-light](icons/telefonica/light/video-surveillance-security-light.svg) | | |`video-surveillance-security-light`|
 | ![videogames-filled](icons/telefonica/filled/videogames-filled.svg) | | |`videogames-filled`|
