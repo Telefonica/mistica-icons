@@ -468,9 +468,9 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | ![credit-card-filled](icons/telefonica/filled/credit-card-filled.svg) | | ![credit-card-filled](icons/o2/filled/credit-card-filled.svg) |`credit-card-filled`|
 | ![credit-card-light](icons/telefonica/light/credit-card-light.svg) | | ![credit-card-light](icons/o2/light/credit-card-light.svg) |`credit-card-light`|
 | ![credit-card-regular](icons/telefonica/regular/credit-card-regular.svg) | ![credit-card-regular](icons/blau/regular/credit-card-regular.svg) | ![credit-card-regular](icons/o2/regular/credit-card-regular.svg) |`credit-card-regular`|
-| ![credit-card-visa-filled](icons/telefonica/filled/credit-card-visa-filled.svg) | | |`credit-card-visa-filled`|
-| ![credit-card-visa-light](icons/telefonica/light/credit-card-visa-light.svg) | | |`credit-card-visa-light`|
-| ![credit-card-visa-regular](icons/telefonica/regular/credit-card-visa-regular.svg) | | |`credit-card-visa-regular`|
+| ![credit-card-visa-filled](icons/telefonica/filled/credit-card-visa-filled.svg) | | ![credit-card-visa-filled](icons/o2/filled/credit-card-visa-filled.svg) |`credit-card-visa-filled`|
+| ![credit-card-visa-light](icons/telefonica/light/credit-card-visa-light.svg) | | ![credit-card-visa-light](icons/o2/light/credit-card-visa-light.svg) |`credit-card-visa-light`|
+| ![credit-card-visa-regular](icons/telefonica/regular/credit-card-visa-regular.svg) | | ![credit-card-visa-regular](icons/o2/regular/credit-card-visa-regular.svg) |`credit-card-visa-regular`|
 | ![cut-filled](icons/telefonica/filled/cut-filled.svg) | | |`cut-filled`|
 | ![cut-light](icons/telefonica/light/cut-light.svg) | | |`cut-light`|
 | ![dartboard-filled](icons/telefonica/filled/dartboard-filled.svg) | | ![dartboard-filled](icons/o2/filled/dartboard-filled.svg) |`dartboard-filled`|
