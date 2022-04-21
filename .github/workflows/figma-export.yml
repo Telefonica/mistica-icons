@@ -23,7 +23,6 @@ on:
 
 jobs:
   export-all:
-    caption: ${{ github.event.inputs.brand }}
     if: ${{ github.event.inputs.brand == 'all' }}
     runs-on: ubuntu-latest
     steps:
@@ -95,7 +94,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
   export-telefonica:
-    caption: ${{ github.event.inputs.brand }}
     if: ${{ github.event.inputs.brand == 'telefonica' }}
     runs-on: ubuntu-latest
     steps:
@@ -163,7 +161,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
   export-o2:
-    caption: ${{ github.event.inputs.brand }}
     if: ${{ github.event.inputs.brand == 'o2' }}
     runs-on: ubuntu-latest
     steps:
@@ -231,7 +228,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
   export-blau:
-    caption: ${{ github.event.inputs.brand }}
     if: ${{ github.event.inputs.brand == 'blau' }}
     runs-on: ubuntu-latest
     steps:
