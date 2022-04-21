@@ -1628,8 +1628,8 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 | ![wifi-light](icons/telefonica/light/wifi-light.svg) | | ![wifi-light](icons/o2/light/wifi-light.svg) |`wifi-light`|
 | ![wifi-regular](icons/telefonica/regular/wifi-regular.svg) | ![wifi-regular](icons/blau/regular/wifi-regular.svg) | ![wifi-regular](icons/o2/regular/wifi-regular.svg) |`wifi-regular`|
 | | | ![winner-check-filled](icons/o2/filled/winner-check-filled.svg) |`winner-check-filled`|
+| | | ![winner-check-light](icons/o2/light/winner-check-light.svg) |`winner-check-light`|
 | | | ![winner-check-regular](icons/o2/regular/winner-check-regular.svg) |`winner-check-regular`|
-| | | ![winner-check-regular-duplicate-name](icons/o2/regular/winner-check-regular-duplicate-name.svg) |`winner-check-regular-duplicate-name`|
 | | | ![winner-euro-filled](icons/o2/filled/winner-euro-filled.svg) |`winner-euro-filled`|
 | | | ![winner-euro-light](icons/o2/light/winner-euro-light.svg) |`winner-euro-light`|
 | | | ![winner-euro-regular](icons/o2/regular/winner-euro-regular.svg) |`winner-euro-regular`|
