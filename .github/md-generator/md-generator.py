@@ -121,7 +121,7 @@ if __name__ == '__main__':
                 icon_images.append(icon_image)
             # row = "| telefonica | O2 | my_icon_light |
             row = PIPE + PIPE.join(icon_images) + PIPE + \
-                "`" + icon_name  + "`" + "<span id='" + icon_name + "'></span>" + "<a href='#" + icon_name + "'>" + "  " + "![anchor](.github/resources/anchor.svg)" + "</a>" + PIPE
+                "<a href='#" + icon_name + "'>" + "`" + icon_name  + "`" + "<span id='" + icon_name + "'></span>" +  "  " + "![anchor](.github/resources/anchor.svg)" + "</a>" + PIPE
             # + "[<img src='.github/resources/svg.png'>]" + "(" + file_path + ")" + "[<img src='.github/resources/pdf.png'>]" + "(" + file_path_pdf + ")" + PIPE + "[<img src='.github/resources/svg.png'>]" + "(" + file_path + ")" + "[<img src='.github/resources/pdf.png'>]" + "(" + file_path_pdf + ")"
             file_content += row + BREAK
 
