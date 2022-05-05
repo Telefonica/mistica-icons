@@ -18,1636 +18,1636 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 # Icons 
 | telefonica | blau | o2 | icon name <img width=500> | 
 | :---: | :---: | :---: |:--- |
-| | |![3d-view-filled](icons/o2/filled/3d-view-filled.svg) |[3d-view-filled](#3d-view-filled)|
-| | |![3d-view-light](icons/o2/light/3d-view-light.svg) |[3d-view-light](#3d-view-light)|
-| | |![3d-view-regular](icons/o2/regular/3d-view-regular.svg) |[3d-view-regular](#3d-view-regular)|
-| | |![4g-filled](icons/o2/filled/4g-filled.svg) |[4g-filled](#4g-filled)|
-| | |![4g-light](icons/o2/light/4g-light.svg) |[4g-light](#4g-light)|
-| | |![4g-regular](icons/o2/regular/4g-regular.svg) |[4g-regular](#4g-regular)|
-| | |![5g-filled](icons/o2/filled/5g-filled.svg) |[5g-filled](#5g-filled)|
-| | |![5g-light](icons/o2/light/5g-light.svg) |[5g-light](#5g-light)|
-| | |![5g-regular](icons/o2/regular/5g-regular.svg) |[5g-regular](#5g-regular)|
-|![academic-filled](icons/telefonica/filled/academic-filled.svg) | | |[academic-filled](#academic-filled)|
-|![academic-light](icons/telefonica/light/academic-light.svg) | | |[academic-light](#academic-light)|
-|![academic-regular](icons/telefonica/regular/academic-regular.svg) | | |[academic-regular](#academic-regular)|
-|![accesibility-filled](icons/telefonica/filled/accesibility-filled.svg) | |![accesibility-filled](icons/o2/filled/accesibility-filled.svg) |[accesibility-filled](#accesibility-filled)|
-|![accesibility-light](icons/telefonica/light/accesibility-light.svg) | |![accesibility-light](icons/o2/light/accesibility-light.svg) |[accesibility-light](#accesibility-light)|
-|![accesibility-regular](icons/telefonica/regular/accesibility-regular.svg) | |![accesibility-regular](icons/o2/regular/accesibility-regular.svg) |[accesibility-regular](#accesibility-regular)|
-| | |![accessories-filled](icons/o2/filled/accessories-filled.svg) |[accessories-filled](#accessories-filled)|
-| | |![accessories-light](icons/o2/light/accessories-light.svg) |[accessories-light](#accessories-light)|
-| | |![accessories-regular](icons/o2/regular/accessories-regular.svg) |[accessories-regular](#accessories-regular)|
-| | |![add-bill-euro-filled](icons/o2/filled/add-bill-euro-filled.svg) |[add-bill-euro-filled](#add-bill-euro-filled)|
-| | |![add-bill-euro-light](icons/o2/light/add-bill-euro-light.svg) |[add-bill-euro-light](#add-bill-euro-light)|
-| | |![add-bill-euro-regular](icons/o2/regular/add-bill-euro-regular.svg) |[add-bill-euro-regular](#add-bill-euro-regular)|
-| | |![add-bill-pound-filled](icons/o2/filled/add-bill-pound-filled.svg) |[add-bill-pound-filled](#add-bill-pound-filled)|
-| | |![add-bill-pound-light](icons/o2/light/add-bill-pound-light.svg) |[add-bill-pound-light](#add-bill-pound-light)|
-| | |![add-bill-pound-regular](icons/o2/regular/add-bill-pound-regular.svg) |[add-bill-pound-regular](#add-bill-pound-regular)|
-| | |![add-bolton-filled](icons/o2/filled/add-bolton-filled.svg) |[add-bolton-filled](#add-bolton-filled)|
-| | |![add-bolton-light](icons/o2/light/add-bolton-light.svg) |[add-bolton-light](#add-bolton-light)|
-| | |![add-bolton-regular](icons/o2/regular/add-bolton-regular.svg) |[add-bolton-regular](#add-bolton-regular)|
-|![add-more-circle-filled](icons/telefonica/filled/add-more-circle-filled.svg) | |![add-more-circle-filled](icons/o2/filled/add-more-circle-filled.svg) |[add-more-circle-filled](#add-more-circle-filled)|
-|![add-more-circle-light](icons/telefonica/light/add-more-circle-light.svg) | |![add-more-circle-light](icons/o2/light/add-more-circle-light.svg) |[add-more-circle-light](#add-more-circle-light)|
-|![add-more-circle-regular](icons/telefonica/regular/add-more-circle-regular.svg) |![add-more-circle-regular](icons/blau/regular/add-more-circle-regular.svg) |![add-more-circle-regular](icons/o2/regular/add-more-circle-regular.svg) |[add-more-circle-regular](#add-more-circle-regular)|
-| | |![add-more-filled](icons/o2/filled/add-more-filled.svg) |[add-more-filled](#add-more-filled)|
-|![add-more-light](icons/telefonica/light/add-more-light.svg) | |![add-more-light](icons/o2/light/add-more-light.svg) |[add-more-light](#add-more-light)|
-|![add-more-location-filled](icons/telefonica/filled/add-more-location-filled.svg) | | |[add-more-location-filled](#add-more-location-filled)|
-|![add-more-location-regular](icons/telefonica/regular/add-more-location-regular.svg) | | |[add-more-location-regular](#add-more-location-regular)|
-|![add-more-query-filled](icons/telefonica/filled/add-more-query-filled.svg) | | |[add-more-query-filled](#add-more-query-filled)|
-|![add-more-query-light](icons/telefonica/light/add-more-query-light.svg) | | |[add-more-query-light](#add-more-query-light)|
-|![add-more-query-regular](icons/telefonica/regular/add-more-query-regular.svg) | | |[add-more-query-regular](#add-more-query-regular)|
-|![add-more-regular](icons/telefonica/regular/add-more-regular.svg) |![add-more-regular](icons/blau/regular/add-more-regular.svg) |![add-more-regular](icons/o2/regular/add-more-regular.svg) |[add-more-regular](#add-more-regular)|
-| | |![add-phone-filled](icons/o2/filled/add-phone-filled.svg) |[add-phone-filled](#add-phone-filled)|
-| | |![add-phone-light](icons/o2/light/add-phone-light.svg) |[add-phone-light](#add-phone-light)|
-| | |![add-phone-regular](icons/o2/regular/add-phone-regular.svg) |[add-phone-regular](#add-phone-regular)|
-|![adn-filled](icons/telefonica/filled/adn-filled.svg) | | |[adn-filled](#adn-filled)|
-|![adn-light](icons/telefonica/light/adn-light.svg) | | |[adn-light](#adn-light)|
-|![adn-regular](icons/telefonica/regular/adn-regular.svg) | | |[adn-regular](#adn-regular)|
-| | |![airtime-filled](icons/o2/filled/airtime-filled.svg) |[airtime-filled](#airtime-filled)|
-| | |![airtime-light](icons/o2/light/airtime-light.svg) |[airtime-light](#airtime-light)|
-| | |![airtime-regular](icons/o2/regular/airtime-regular.svg) |[airtime-regular](#airtime-regular)|
-| | |![alarm-clock-filled](icons/o2/filled/alarm-clock-filled.svg) |[alarm-clock-filled](#alarm-clock-filled)|
-| | |![alarm-clock-light](icons/o2/light/alarm-clock-light.svg) |[alarm-clock-light](#alarm-clock-light)|
-| | |![alarm-clock-regular](icons/o2/regular/alarm-clock-regular.svg) |[alarm-clock-regular](#alarm-clock-regular)|
-|![alarm-light-cross-filled](icons/telefonica/filled/alarm-light-cross-filled.svg) | | |[alarm-light-cross-filled](#alarm-light-cross-filled)|
-|![alarm-light-cross-light](icons/telefonica/light/alarm-light-cross-light.svg) | | |[alarm-light-cross-light](#alarm-light-cross-light)|
-|![alarm-light-cross-regular](icons/telefonica/regular/alarm-light-cross-regular.svg) | | |[alarm-light-cross-regular](#alarm-light-cross-regular)|
-|![alarm-light-filled](icons/telefonica/filled/alarm-light-filled.svg) | | |[alarm-light-filled](#alarm-light-filled)|
-|![alarm-light-light](icons/telefonica/light/alarm-light-light.svg) | | |[alarm-light-light](#alarm-light-light)|
-|![alarm-light-regular](icons/telefonica/regular/alarm-light-regular.svg) | | |[alarm-light-regular](#alarm-light-regular)|
-|![alert-filled](icons/telefonica/filled/alert-filled.svg) | |![alert-filled](icons/o2/filled/alert-filled.svg) |[alert-filled](#alert-filled)|
-|![alert-light](icons/telefonica/light/alert-light.svg) | |![alert-light](icons/o2/light/alert-light.svg) |[alert-light](#alert-light)|
-|![alert-regular](icons/telefonica/regular/alert-regular.svg) | |![alert-regular](icons/o2/regular/alert-regular.svg) |[alert-regular](#alert-regular)|
-|![ambulance-filled](icons/telefonica/filled/ambulance-filled.svg) | | |[ambulance-filled](#ambulance-filled)|
-|![ambulance-light](icons/telefonica/light/ambulance-light.svg) | | |[ambulance-light](#ambulance-light)|
-|![ambulance-regular](icons/telefonica/regular/ambulance-regular.svg) | | |[ambulance-regular](#ambulance-regular)|
-| | |![angel-filled](icons/o2/filled/angel-filled.svg) |[angel-filled](#angel-filled)|
-| | |![angel-light](icons/o2/light/angel-light.svg) |[angel-light](#angel-light)|
-| | |![angel-regular](icons/o2/regular/angel-regular.svg) |[angel-regular](#angel-regular)|
-|![antenna-filled](icons/telefonica/filled/antenna-filled.svg) | | |[antenna-filled](#antenna-filled)|
-|![antenna-light](icons/telefonica/light/antenna-light.svg) | | |[antenna-light](#antenna-light)|
-|![antenna-regular](icons/telefonica/regular/antenna-regular.svg) | | |[antenna-regular](#antenna-regular)|
-|![apartment-building-filled](icons/telefonica/filled/apartment-building-filled.svg) | |![apartment-building-filled](icons/o2/filled/apartment-building-filled.svg) |[apartment-building-filled](#apartment-building-filled)|
-|![apartment-building-light](icons/telefonica/light/apartment-building-light.svg) | |![apartment-building-light](icons/o2/light/apartment-building-light.svg) |[apartment-building-light](#apartment-building-light)|
-|![apartment-building-regular](icons/telefonica/regular/apartment-building-regular.svg) | |![apartment-building-regular](icons/o2/regular/apartment-building-regular.svg) |[apartment-building-regular](#apartment-building-regular)|
-|![api-filled](icons/telefonica/filled/api-filled.svg) | | |[api-filled](#api-filled)|
-|![api-light](icons/telefonica/light/api-light.svg) | | |[api-light](#api-light)|
-|![api-regular](icons/telefonica/regular/api-regular.svg) | | |[api-regular](#api-regular)|
-| | |![app-icon-filled](icons/o2/filled/app-icon-filled.svg) |[app-icon-filled](#app-icon-filled)|
-| | |![app-icon-light](icons/o2/light/app-icon-light.svg) |[app-icon-light](#app-icon-light)|
-| | |![app-icon-regular](icons/o2/regular/app-icon-regular.svg) |[app-icon-regular](#app-icon-regular)|
-|![appointment-filled](icons/telefonica/filled/appointment-filled.svg) | | |[appointment-filled](#appointment-filled)|
-|![appointment-light](icons/telefonica/light/appointment-light.svg) | | |[appointment-light](#appointment-light)|
-|![appointment-regular](icons/telefonica/regular/appointment-regular.svg) | | |[appointment-regular](#appointment-regular)|
-| | |![apps-business-filled](icons/o2/filled/apps-business-filled.svg) |[apps-business-filled](#apps-business-filled)|
-| | |![apps-business-light](icons/o2/light/apps-business-light.svg) |[apps-business-light](#apps-business-light)|
-| | |![apps-business-regular](icons/o2/regular/apps-business-regular.svg) |[apps-business-regular](#apps-business-regular)|
-|![apps-filled](icons/telefonica/filled/apps-filled.svg) | |![apps-filled](icons/o2/filled/apps-filled.svg) |[apps-filled](#apps-filled)|
-| | |![apps-light](icons/o2/light/apps-light.svg) |[apps-light](#apps-light)|
-| | |![apps-regular](icons/o2/regular/apps-regular.svg) |[apps-regular](#apps-regular)|
-|![arrow-down-filled](icons/telefonica/filled/arrow-down-filled.svg) | |![arrow-down-filled](icons/o2/filled/arrow-down-filled.svg) |[arrow-down-filled](#arrow-down-filled)|
-|![arrow-down-left-filled](icons/telefonica/filled/arrow-down-left-filled.svg) | |![arrow-down-left-filled](icons/o2/filled/arrow-down-left-filled.svg) |[arrow-down-left-filled](#arrow-down-left-filled)|
-|![arrow-down-left-light](icons/telefonica/light/arrow-down-left-light.svg) | |![arrow-down-left-light](icons/o2/light/arrow-down-left-light.svg) |[arrow-down-left-light](#arrow-down-left-light)|
-|![arrow-down-left-regular](icons/telefonica/regular/arrow-down-left-regular.svg) | |![arrow-down-left-regular](icons/o2/regular/arrow-down-left-regular.svg) |[arrow-down-left-regular](#arrow-down-left-regular)|
-|![arrow-down-light](icons/telefonica/light/arrow-down-light.svg) | |![arrow-down-light](icons/o2/light/arrow-down-light.svg) |[arrow-down-light](#arrow-down-light)|
-|![arrow-down-regular](icons/telefonica/regular/arrow-down-regular.svg) | |![arrow-down-regular](icons/o2/regular/arrow-down-regular.svg) |[arrow-down-regular](#arrow-down-regular)|
-|![arrow-down-right-filled](icons/telefonica/filled/arrow-down-right-filled.svg) | |![arrow-down-right-filled](icons/o2/filled/arrow-down-right-filled.svg) |[arrow-down-right-filled](#arrow-down-right-filled)|
-|![arrow-down-right-light](icons/telefonica/light/arrow-down-right-light.svg) | |![arrow-down-right-light](icons/o2/light/arrow-down-right-light.svg) |[arrow-down-right-light](#arrow-down-right-light)|
-|![arrow-down-right-regular](icons/telefonica/regular/arrow-down-right-regular.svg) | |![arrow-down-right-regular](icons/o2/regular/arrow-down-right-regular.svg) |[arrow-down-right-regular](#arrow-down-right-regular)|
-|![arrow-drop-down-filled](icons/telefonica/filled/arrow-drop-down-filled.svg) | | |[arrow-drop-down-filled](#arrow-drop-down-filled)|
-|![arrow-drop-up-filled](icons/telefonica/filled/arrow-drop-up-filled.svg) | | |[arrow-drop-up-filled](#arrow-drop-up-filled)|
-|![arrow-left-filled](icons/telefonica/filled/arrow-left-filled.svg) | |![arrow-left-filled](icons/o2/filled/arrow-left-filled.svg) |[arrow-left-filled](#arrow-left-filled)|
-| | |![arrow-left-light](icons/o2/light/arrow-left-light.svg) |[arrow-left-light](#arrow-left-light)|
-| | |![arrow-left-regular](icons/o2/regular/arrow-left-regular.svg) |[arrow-left-regular](#arrow-left-regular)|
-|![arrow-line-down-left-light](icons/telefonica/light/arrow-line-down-left-light.svg) | | |[arrow-line-down-left-light](#arrow-line-down-left-light)|
-|![arrow-line-down-left-regular](icons/telefonica/regular/arrow-line-down-left-regular.svg) | | |[arrow-line-down-left-regular](#arrow-line-down-left-regular)|
-|![arrow-line-down-light](icons/telefonica/light/arrow-line-down-light.svg) | | |[arrow-line-down-light](#arrow-line-down-light)|
-|![arrow-line-down-regular](icons/telefonica/regular/arrow-line-down-regular.svg) | | |[arrow-line-down-regular](#arrow-line-down-regular)|
-|![arrow-line-left-light](icons/telefonica/light/arrow-line-left-light.svg) | | |[arrow-line-left-light](#arrow-line-left-light)|
-|![arrow-line-left-regular](icons/telefonica/regular/arrow-line-left-regular.svg) | | |[arrow-line-left-regular](#arrow-line-left-regular)|
-|![arrow-line-right-light](icons/telefonica/light/arrow-line-right-light.svg) | | |[arrow-line-right-light](#arrow-line-right-light)|
-|![arrow-line-right-regular](icons/telefonica/regular/arrow-line-right-regular.svg) | | |[arrow-line-right-regular](#arrow-line-right-regular)|
-|![arrow-line-up-light](icons/telefonica/light/arrow-line-up-light.svg) | | |[arrow-line-up-light](#arrow-line-up-light)|
-|![arrow-line-up-regular](icons/telefonica/regular/arrow-line-up-regular.svg) | | |[arrow-line-up-regular](#arrow-line-up-regular)|
-|![arrow-line-up-right-light](icons/telefonica/light/arrow-line-up-right-light.svg) | | |[arrow-line-up-right-light](#arrow-line-up-right-light)|
-|![arrow-line-up-right-regular](icons/telefonica/regular/arrow-line-up-right-regular.svg) | | |[arrow-line-up-right-regular](#arrow-line-up-right-regular)|
-|![arrow-right-filled](icons/telefonica/filled/arrow-right-filled.svg) | |![arrow-right-filled](icons/o2/filled/arrow-right-filled.svg) |[arrow-right-filled](#arrow-right-filled)|
-|![arrow-right-light](icons/telefonica/light/arrow-right-light.svg) | |![arrow-right-light](icons/o2/light/arrow-right-light.svg) |[arrow-right-light](#arrow-right-light)|
-|![arrow-right-regular](icons/telefonica/regular/arrow-right-regular.svg) | |![arrow-right-regular](icons/o2/regular/arrow-right-regular.svg) |[arrow-right-regular](#arrow-right-regular)|
-|![arrow-up-down-filled](icons/telefonica/filled/arrow-up-down-filled.svg) | |![arrow-up-down-filled](icons/o2/filled/arrow-up-down-filled.svg) |[arrow-up-down-filled](#arrow-up-down-filled)|
-|![arrow-up-down-light](icons/telefonica/light/arrow-up-down-light.svg) | |![arrow-up-down-light](icons/o2/light/arrow-up-down-light.svg) |[arrow-up-down-light](#arrow-up-down-light)|
-|![arrow-up-down-regular](icons/telefonica/regular/arrow-up-down-regular.svg) |![arrow-up-down-regular](icons/blau/regular/arrow-up-down-regular.svg) |![arrow-up-down-regular](icons/o2/regular/arrow-up-down-regular.svg) |[arrow-up-down-regular](#arrow-up-down-regular)|
-|![arrow-up-filled](icons/telefonica/filled/arrow-up-filled.svg) | |![arrow-up-filled](icons/o2/filled/arrow-up-filled.svg) |[arrow-up-filled](#arrow-up-filled)|
-|![arrow-up-left-filled](icons/telefonica/filled/arrow-up-left-filled.svg) | |![arrow-up-left-filled](icons/o2/filled/arrow-up-left-filled.svg) |[arrow-up-left-filled](#arrow-up-left-filled)|
-|![arrow-up-left-light](icons/telefonica/light/arrow-up-left-light.svg) | |![arrow-up-left-light](icons/o2/light/arrow-up-left-light.svg) |[arrow-up-left-light](#arrow-up-left-light)|
-|![arrow-up-left-regular](icons/telefonica/regular/arrow-up-left-regular.svg) |![arrow-up-left-regular](icons/blau/regular/arrow-up-left-regular.svg) |![arrow-up-left-regular](icons/o2/regular/arrow-up-left-regular.svg) |[arrow-up-left-regular](#arrow-up-left-regular)|
-|![arrow-up-light](icons/telefonica/light/arrow-up-light.svg) | |![arrow-up-light](icons/o2/light/arrow-up-light.svg) |[arrow-up-light](#arrow-up-light)|
-|![arrow-up-regular](icons/telefonica/regular/arrow-up-regular.svg) |![arrow-up-regular](icons/blau/regular/arrow-up-regular.svg) |![arrow-up-regular](icons/o2/regular/arrow-up-regular.svg) |[arrow-up-regular](#arrow-up-regular)|
-|![arrow-up-right-filled](icons/telefonica/filled/arrow-up-right-filled.svg) | |![arrow-up-right-filled](icons/o2/filled/arrow-up-right-filled.svg) |[arrow-up-right-filled](#arrow-up-right-filled)|
-|![arrow-up-right-light](icons/telefonica/light/arrow-up-right-light.svg) | |![arrow-up-right-light](icons/o2/light/arrow-up-right-light.svg) |[arrow-up-right-light](#arrow-up-right-light)|
-|![arrow-up-right-regular](icons/telefonica/regular/arrow-up-right-regular.svg) | |![arrow-up-right-regular](icons/o2/regular/arrow-up-right-regular.svg) |[arrow-up-right-regular](#arrow-up-right-regular)|
-|![arrows-left-and-right-filled](icons/telefonica/filled/arrows-left-and-right-filled.svg) | |![arrows-left-and-right-filled](icons/o2/filled/arrows-left-and-right-filled.svg) |[arrows-left-and-right-filled](#arrows-left-and-right-filled)|
-|![arrows-left-and-right-light](icons/telefonica/light/arrows-left-and-right-light.svg) | |![arrows-left-and-right-light](icons/o2/light/arrows-left-and-right-light.svg) |[arrows-left-and-right-light](#arrows-left-and-right-light)|
-|![arrows-left-and-right-regular](icons/telefonica/regular/arrows-left-and-right-regular.svg) | |![arrows-left-and-right-regular](icons/o2/regular/arrows-left-and-right-regular.svg) |[arrows-left-and-right-regular](#arrows-left-and-right-regular)|
-|![audio-filled](icons/telefonica/filled/audio-filled.svg) | |![audio-filled](icons/o2/filled/audio-filled.svg) |[audio-filled](#audio-filled)|
-|![audio-light](icons/telefonica/light/audio-light.svg) | |![audio-light](icons/o2/light/audio-light.svg) |[audio-light](#audio-light)|
-|![audio-regular](icons/telefonica/regular/audio-regular.svg) | |![audio-regular](icons/o2/regular/audio-regular.svg) |[audio-regular](#audio-regular)|
-|![aura-filled](icons/telefonica/filled/aura-filled.svg) | | |[aura-filled](#aura-filled)|
-|![autentication-failure-filled](icons/telefonica/filled/autentication-failure-filled.svg) | | |[autentication-failure-filled](#autentication-failure-filled)|
-|![autentication-failure-regular](icons/telefonica/regular/autentication-failure-regular.svg) | | |[autentication-failure-regular](#autentication-failure-regular)|
-|![autentication-success-filled](icons/telefonica/filled/autentication-success-filled.svg) | | |[autentication-success-filled](#autentication-success-filled)|
-|![autentication-success-light](icons/telefonica/light/autentication-success-light.svg) | | |[autentication-success-light](#autentication-success-light)|
-|![autentication-success-regular](icons/telefonica/regular/autentication-success-regular.svg) | | |[autentication-success-regular](#autentication-success-regular)|
-|![bacteria-filled](icons/telefonica/filled/bacteria-filled.svg) | | |[bacteria-filled](#bacteria-filled)|
-|![bacteria-light](icons/telefonica/light/bacteria-light.svg) | | |[bacteria-light](#bacteria-light)|
-|![bacteria-regular](icons/telefonica/regular/bacteria-regular.svg) | | |[bacteria-regular](#bacteria-regular)|
-|![balance-filled](icons/telefonica/filled/balance-filled.svg) | | |[balance-filled](#balance-filled)|
-|![balance-light](icons/telefonica/light/balance-light.svg) | | |[balance-light](#balance-light)|
-|![balance-regular](icons/telefonica/regular/balance-regular.svg) | | |[balance-regular](#balance-regular)|
-|![band-aid-filled](icons/telefonica/filled/band-aid-filled.svg) | | |[band-aid-filled](#band-aid-filled)|
-|![band-aid-light](icons/telefonica/light/band-aid-light.svg) | | |[band-aid-light](#band-aid-light)|
-|![band-aid-regular](icons/telefonica/regular/band-aid-regular.svg) | | |[band-aid-regular](#band-aid-regular)|
-| | |![barcode-filled](icons/o2/filled/barcode-filled.svg) |[barcode-filled](#barcode-filled)|
-| | |![barcode-light](icons/o2/light/barcode-light.svg) |[barcode-light](#barcode-light)|
-| | |![barcode-regular](icons/o2/regular/barcode-regular.svg) |[barcode-regular](#barcode-regular)|
-|![battery-charging-filled](icons/telefonica/filled/battery-charging-filled.svg) | |![battery-charging-filled](icons/o2/filled/battery-charging-filled.svg) |[battery-charging-filled](#battery-charging-filled)|
-| | |![battery-charging-light](icons/o2/light/battery-charging-light.svg) |[battery-charging-light](#battery-charging-light)|
-|![battery-charging-regular](icons/telefonica/regular/battery-charging-regular.svg) | |![battery-charging-regular](icons/o2/regular/battery-charging-regular.svg) |[battery-charging-regular](#battery-charging-regular)|
-|![battery-full-filled](icons/telefonica/filled/battery-full-filled.svg) | | |[battery-full-filled](#battery-full-filled)|
-|![battery-full-regular](icons/telefonica/regular/battery-full-regular.svg) | | |[battery-full-regular](#battery-full-regular)|
-|![battery-light](icons/telefonica/light/battery-light.svg) | | |[battery-light](#battery-light)|
-|![battery-low-filled](icons/telefonica/filled/battery-low-filled.svg) | | |[battery-low-filled](#battery-low-filled)|
-|![battery-low-regular](icons/telefonica/regular/battery-low-regular.svg) | | |[battery-low-regular](#battery-low-regular)|
-|![battery-medium-filled](icons/telefonica/filled/battery-medium-filled.svg) | | |[battery-medium-filled](#battery-medium-filled)|
-|![battery-medium-regular](icons/telefonica/regular/battery-medium-regular.svg) | | |[battery-medium-regular](#battery-medium-regular)|
-|![battery-regular](icons/telefonica/regular/battery-regular.svg) | | |[battery-regular](#battery-regular)|
-|![beach-umbrella-filled](icons/telefonica/filled/beach-umbrella-filled.svg) | | |[beach-umbrella-filled](#beach-umbrella-filled)|
-|![beach-umbrella-light](icons/telefonica/light/beach-umbrella-light.svg) | | |[beach-umbrella-light](#beach-umbrella-light)|
-|![beach-umbrella-regular](icons/telefonica/regular/beach-umbrella-regular.svg) | | |[beach-umbrella-regular](#beach-umbrella-regular)|
-|![bell-add-more-filled](icons/telefonica/filled/bell-add-more-filled.svg) | | |[bell-add-more-filled](#bell-add-more-filled)|
-|![bell-add-more-light](icons/telefonica/light/bell-add-more-light.svg) | | |[bell-add-more-light](#bell-add-more-light)|
-|![bell-add-more-regular](icons/telefonica/regular/bell-add-more-regular.svg) | | |[bell-add-more-regular](#bell-add-more-regular)|
-|![bell-filled](icons/telefonica/filled/bell-filled.svg) | |![bell-filled](icons/o2/filled/bell-filled.svg) |[bell-filled](#bell-filled)|
-|![bell-light](icons/telefonica/light/bell-light.svg) | |![bell-light](icons/o2/light/bell-light.svg) |[bell-light](#bell-light)|
-|![bell-off-filled](icons/telefonica/filled/bell-off-filled.svg) | | |[bell-off-filled](#bell-off-filled)|
-|![bell-off-light](icons/telefonica/light/bell-off-light.svg) | | |[bell-off-light](#bell-off-light)|
-|![bell-off-regular](icons/telefonica/regular/bell-off-regular.svg) | | |[bell-off-regular](#bell-off-regular)|
-|![bell-program-filled](icons/telefonica/filled/bell-program-filled.svg) | | |[bell-program-filled](#bell-program-filled)|
-|![bell-program-light](icons/telefonica/light/bell-program-light.svg) | | |[bell-program-light](#bell-program-light)|
-|![bell-program-regular](icons/telefonica/regular/bell-program-regular.svg) | | |[bell-program-regular](#bell-program-regular)|
-|![bell-regular](icons/telefonica/regular/bell-regular.svg) |![bell-regular](icons/blau/regular/bell-regular.svg) |![bell-regular](icons/o2/regular/bell-regular.svg) |[bell-regular](#bell-regular)|
-|![bicycle-bike-filled](icons/telefonica/filled/bicycle-bike-filled.svg) | | |[bicycle-bike-filled](#bicycle-bike-filled)|
-|![bicycle-bike-light](icons/telefonica/light/bicycle-bike-light.svg) | | |[bicycle-bike-light](#bicycle-bike-light)|
-|![bicycle-bike-regular](icons/telefonica/regular/bicycle-bike-regular.svg) | | |[bicycle-bike-regular](#bicycle-bike-regular)|
-| | |![bill-invoice-pound-filled](icons/o2/filled/bill-invoice-pound-filled.svg) |[bill-invoice-pound-filled](#bill-invoice-pound-filled)|
-| | |![bill-invoice-pound-light](icons/o2/light/bill-invoice-pound-light.svg) |[bill-invoice-pound-light](#bill-invoice-pound-light)|
-| | |![bill-invoice-pound-regular](icons/o2/regular/bill-invoice-pound-regular.svg) |[bill-invoice-pound-regular](#bill-invoice-pound-regular)|
-| | |![bill-queries-euro-filled](icons/o2/filled/bill-queries-euro-filled.svg) |[bill-queries-euro-filled](#bill-queries-euro-filled)|
-| | |![bill-queries-euro-light](icons/o2/light/bill-queries-euro-light.svg) |[bill-queries-euro-light](#bill-queries-euro-light)|
-| | |![bill-queries-euro-regular](icons/o2/regular/bill-queries-euro-regular.svg) |[bill-queries-euro-regular](#bill-queries-euro-regular)|
-| | |![bill-queries-pound-filled](icons/o2/filled/bill-queries-pound-filled.svg) |[bill-queries-pound-filled](#bill-queries-pound-filled)|
-| | |![bill-queries-pound-light](icons/o2/light/bill-queries-pound-light.svg) |[bill-queries-pound-light](#bill-queries-pound-light)|
-| | |![bill-queries-pound-regular](icons/o2/regular/bill-queries-pound-regular.svg) |[bill-queries-pound-regular](#bill-queries-pound-regular)|
-|![blog-filled](icons/telefonica/filled/blog-filled.svg) | | |[blog-filled](#blog-filled)|
-|![blog-light](icons/telefonica/light/blog-light.svg) | | |[blog-light](#blog-light)|
-|![blog-regular](icons/telefonica/regular/blog-regular.svg) | | |[blog-regular](#blog-regular)|
-|![boat-filled](icons/telefonica/filled/boat-filled.svg) | | |[boat-filled](#boat-filled)|
-|![boat-light](icons/telefonica/light/boat-light.svg) | | |[boat-light](#boat-light)|
-|![boat-regular](icons/telefonica/regular/boat-regular.svg) | | |[boat-regular](#boat-regular)|
-|![book-filled](icons/telefonica/filled/book-filled.svg) | | |[book-filled](#book-filled)|
-|![book-light](icons/telefonica/light/book-light.svg) | | |[book-light](#book-light)|
-|![book-regular](icons/telefonica/regular/book-regular.svg) | | |[book-regular](#book-regular)|
-|![bookmark-filled](icons/telefonica/filled/bookmark-filled.svg) | | |[bookmark-filled](#bookmark-filled)|
-|![bookmark-light](icons/telefonica/light/bookmark-light.svg) | | |[bookmark-light](#bookmark-light)|
-|![bookmark-regular](icons/telefonica/regular/bookmark-regular.svg) | | |[bookmark-regular](#bookmark-regular)|
-|![box-filled](icons/telefonica/filled/box-filled.svg) | |![box-filled](icons/o2/filled/box-filled.svg) |[box-filled](#box-filled)|
-|![box-light](icons/telefonica/light/box-light.svg) | |![box-light](icons/o2/light/box-light.svg) |[box-light](#box-light)|
-| | |![box-location-filled](icons/o2/filled/box-location-filled.svg) |[box-location-filled](#box-location-filled)|
-| | |![box-location-light](icons/o2/light/box-location-light.svg) |[box-location-light](#box-location-light)|
-| | |![box-location-regular](icons/o2/regular/box-location-regular.svg) |[box-location-regular](#box-location-regular)|
-|![box-regular](icons/telefonica/regular/box-regular.svg) | |![box-regular](icons/o2/regular/box-regular.svg) |[box-regular](#box-regular)|
-|![brain-filled](icons/telefonica/filled/brain-filled.svg) | | |[brain-filled](#brain-filled)|
-|![brain-light](icons/telefonica/light/brain-light.svg) | | |[brain-light](#brain-light)|
-|![brain-regular](icons/telefonica/regular/brain-regular.svg) | | |[brain-regular](#brain-regular)|
-| | |![briefcase-business-filled](icons/o2/filled/briefcase-business-filled.svg) |[briefcase-business-filled](#briefcase-business-filled)|
-| | |![briefcase-business-light](icons/o2/light/briefcase-business-light.svg) |[briefcase-business-light](#briefcase-business-light)|
-| | |![briefcase-business-regular](icons/o2/regular/briefcase-business-regular.svg) |[briefcase-business-regular](#briefcase-business-regular)|
-|![briefcase-filled](icons/telefonica/filled/briefcase-filled.svg) | |![briefcase-filled](icons/o2/filled/briefcase-filled.svg) |[briefcase-filled](#briefcase-filled)|
-|![briefcase-light](icons/telefonica/light/briefcase-light.svg) | |![briefcase-light](icons/o2/light/briefcase-light.svg) |[briefcase-light](#briefcase-light)|
-|![briefcase-regular](icons/telefonica/regular/briefcase-regular.svg) |![briefcase-regular](icons/blau/regular/briefcase-regular.svg) |![briefcase-regular](icons/o2/regular/briefcase-regular.svg) |[briefcase-regular](#briefcase-regular)|
-|![broadband-filled](icons/telefonica/filled/broadband-filled.svg) | | |[broadband-filled](#broadband-filled)|
-|![broadband-light](icons/telefonica/light/broadband-light.svg) | | |[broadband-light](#broadband-light)|
-|![broadband-regular](icons/telefonica/regular/broadband-regular.svg) | | |[broadband-regular](#broadband-regular)|
-|![bug-filled](icons/telefonica/filled/bug-filled.svg) | | |[bug-filled](#bug-filled)|
-|![bug-light](icons/telefonica/light/bug-light.svg) | | |[bug-light](#bug-light)|
-|![bug-regular](icons/telefonica/regular/bug-regular.svg) | | |[bug-regular](#bug-regular)|
-|![bus-filled](icons/telefonica/filled/bus-filled.svg) | | |[bus-filled](#bus-filled)|
-|![bus-light](icons/telefonica/light/bus-light.svg) | | |[bus-light](#bus-light)|
-|![bus-regular](icons/telefonica/regular/bus-regular.svg) | | |[bus-regular](#bus-regular)|
-|![buy-data-filled](icons/telefonica/filled/buy-data-filled.svg) | | |[buy-data-filled](#buy-data-filled)|
-|![buy-data-light](icons/telefonica/light/buy-data-light.svg) | | |[buy-data-light](#buy-data-light)|
-|![buy-data-regular](icons/telefonica/regular/buy-data-regular.svg) | | |[buy-data-regular](#buy-data-regular)|
-|![buy-devices-filled](icons/telefonica/filled/buy-devices-filled.svg) | |![buy-devices-filled](icons/o2/filled/buy-devices-filled.svg) |[buy-devices-filled](#buy-devices-filled)|
-|![buy-devices-light](icons/telefonica/light/buy-devices-light.svg) | |![buy-devices-light](icons/o2/light/buy-devices-light.svg) |[buy-devices-light](#buy-devices-light)|
-|![buy-devices-regular](icons/telefonica/regular/buy-devices-regular.svg) | |![buy-devices-regular](icons/o2/regular/buy-devices-regular.svg) |[buy-devices-regular](#buy-devices-regular)|
-|![buy-home-products-filled](icons/telefonica/filled/buy-home-products-filled.svg) | | |[buy-home-products-filled](#buy-home-products-filled)|
-|![buy-home-products-light](icons/telefonica/light/buy-home-products-light.svg) | | |[buy-home-products-light](#buy-home-products-light)|
-|![buy-home-products-regular](icons/telefonica/regular/buy-home-products-regular.svg) | | |[buy-home-products-regular](#buy-home-products-regular)|
-|![buy-plans-filled](icons/telefonica/filled/buy-plans-filled.svg) | | |[buy-plans-filled](#buy-plans-filled)|
-|![buy-plans-light](icons/telefonica/light/buy-plans-light.svg) | | |[buy-plans-light](#buy-plans-light)|
-|![buy-plans-regular](icons/telefonica/regular/buy-plans-regular.svg) | | |[buy-plans-regular](#buy-plans-regular)|
-|![cafe-filled](icons/telefonica/filled/cafe-filled.svg) | | |[cafe-filled](#cafe-filled)|
-|![cafe-light](icons/telefonica/light/cafe-light.svg) | | |[cafe-light](#cafe-light)|
-|![cafe-regular](icons/telefonica/regular/cafe-regular.svg) | | |[cafe-regular](#cafe-regular)|
-| | |![calendar-euro-filled](icons/o2/filled/calendar-euro-filled.svg) |[calendar-euro-filled](#calendar-euro-filled)|
-| | |![calendar-euro-light](icons/o2/light/calendar-euro-light.svg) |[calendar-euro-light](#calendar-euro-light)|
-| | |![calendar-euro-regular](icons/o2/regular/calendar-euro-regular.svg) |[calendar-euro-regular](#calendar-euro-regular)|
-|![calendar-filled](icons/telefonica/filled/calendar-filled.svg) | |![calendar-filled](icons/o2/filled/calendar-filled.svg) |[calendar-filled](#calendar-filled)|
-|![calendar-light](icons/telefonica/light/calendar-light.svg) | |![calendar-light](icons/o2/light/calendar-light.svg) |[calendar-light](#calendar-light)|
-| | |![calendar-pound-filled](icons/o2/filled/calendar-pound-filled.svg) |[calendar-pound-filled](#calendar-pound-filled)|
-| | |![calendar-pound-light](icons/o2/light/calendar-pound-light.svg) |[calendar-pound-light](#calendar-pound-light)|
-| | |![calendar-pound-regular](icons/o2/regular/calendar-pound-regular.svg) |[calendar-pound-regular](#calendar-pound-regular)|
-|![calendar-regular](icons/telefonica/regular/calendar-regular.svg) | |![calendar-regular](icons/o2/regular/calendar-regular.svg) |[calendar-regular](#calendar-regular)|
-|![call-center-user-support-filled](icons/telefonica/filled/call-center-user-support-filled.svg) | | |[call-center-user-support-filled](#call-center-user-support-filled)|
-|![call-center-user-support-light](icons/telefonica/light/call-center-user-support-light.svg) | | |[call-center-user-support-light](#call-center-user-support-light)|
-|![call-center-user-support-regular](icons/telefonica/regular/call-center-user-support-regular.svg) | | |[call-center-user-support-regular](#call-center-user-support-regular)|
-|![call-details-filled](icons/telefonica/filled/call-details-filled.svg) | | |[call-details-filled](#call-details-filled)|
-|![call-details-light](icons/telefonica/light/call-details-light.svg) | | |[call-details-light](#call-details-light)|
-|![call-details-regular](icons/telefonica/regular/call-details-regular.svg) | | |[call-details-regular](#call-details-regular)|
-|![call-landline-filled](icons/telefonica/filled/call-landline-filled.svg) | |![call-landline-filled](icons/o2/filled/call-landline-filled.svg) |[call-landline-filled](#call-landline-filled)|
-|![call-landline-light](icons/telefonica/light/call-landline-light.svg) | |![call-landline-light](icons/o2/light/call-landline-light.svg) |[call-landline-light](#call-landline-light)|
-|![call-landline-regular](icons/telefonica/regular/call-landline-regular.svg) |![call-landline-regular](icons/blau/regular/call-landline-regular.svg) |![call-landline-regular](icons/o2/regular/call-landline-regular.svg) |[call-landline-regular](#call-landline-regular)|
-| | |![callback-filled](icons/o2/filled/callback-filled.svg) |[callback-filled](#callback-filled)|
-| | |![callback-light](icons/o2/light/callback-light.svg) |[callback-light](#callback-light)|
-| | |![callback-regular](icons/o2/regular/callback-regular.svg) |[callback-regular](#callback-regular)|
-|![cancel-filled](icons/telefonica/filled/cancel-filled.svg) | |![cancel-filled](icons/o2/filled/cancel-filled.svg) |[cancel-filled](#cancel-filled)|
-|![cancel-light](icons/telefonica/light/cancel-light.svg) | |![cancel-light](icons/o2/light/cancel-light.svg) |[cancel-light](#cancel-light)|
-|![cancel-regular](icons/telefonica/regular/cancel-regular.svg) |![cancel-regular](icons/blau/regular/cancel-regular.svg) |![cancel-regular](icons/o2/regular/cancel-regular.svg) |[cancel-regular](#cancel-regular)|
-| | |![cancellation-filled](icons/o2/filled/cancellation-filled.svg) |[cancellation-filled](#cancellation-filled)|
-| | |![cancellation-light](icons/o2/light/cancellation-light.svg) |[cancellation-light](#cancellation-light)|
-| | |![cancellation-regular](icons/o2/regular/cancellation-regular.svg) |[cancellation-regular](#cancellation-regular)|
-|![car-filled](icons/telefonica/filled/car-filled.svg) | | |[car-filled](#car-filled)|
-|![car-light](icons/telefonica/light/car-light.svg) | | |[car-light](#car-light)|
-|![car-moving-filled](icons/telefonica/filled/car-moving-filled.svg) | | |[car-moving-filled](#car-moving-filled)|
-|![car-moving-light](icons/telefonica/light/car-moving-light.svg) | | |[car-moving-light](#car-moving-light)|
-|![car-moving-regular](icons/telefonica/regular/car-moving-regular.svg) | | |[car-moving-regular](#car-moving-regular)|
-|![car-regular](icons/telefonica/regular/car-regular.svg) | | |[car-regular](#car-regular)|
-|![car-with-clock-filled](icons/telefonica/filled/car-with-clock-filled.svg) | | |[car-with-clock-filled](#car-with-clock-filled)|
-|![car-with-clock-light](icons/telefonica/light/car-with-clock-light.svg) | | |[car-with-clock-light](#car-with-clock-light)|
-|![car-with-clock-regular](icons/telefonica/regular/car-with-clock-regular.svg) | | |[car-with-clock-regular](#car-with-clock-regular)|
-|![care-filled](icons/telefonica/filled/care-filled.svg) | | |[care-filled](#care-filled)|
-|![care-health-filled](icons/telefonica/filled/care-health-filled.svg) | | |[care-health-filled](#care-health-filled)|
-|![care-health-light](icons/telefonica/light/care-health-light.svg) | | |[care-health-light](#care-health-light)|
-|![care-health-regular](icons/telefonica/regular/care-health-regular.svg) | | |[care-health-regular](#care-health-regular)|
-|![care-light](icons/telefonica/light/care-light.svg) | | |[care-light](#care-light)|
-|![care-regular](icons/telefonica/regular/care-regular.svg) | | |[care-regular](#care-regular)|
-|![care-shield-filled](icons/telefonica/filled/care-shield-filled.svg) | | |[care-shield-filled](#care-shield-filled)|
-|![care-shield-light](icons/telefonica/light/care-shield-light.svg) | | |[care-shield-light](#care-shield-light)|
-|![care-shield-regular](icons/telefonica/regular/care-shield-regular.svg) | | |[care-shield-regular](#care-shield-regular)|
-|![casino-filled](icons/telefonica/filled/casino-filled.svg) | | |[casino-filled](#casino-filled)|
-|![casino-light](icons/telefonica/light/casino-light.svg) | | |[casino-light](#casino-light)|
-|![casino-regular](icons/telefonica/regular/casino-regular.svg) | | |[casino-regular](#casino-regular)|
-|![certificate-filled](icons/telefonica/filled/certificate-filled.svg) | | |[certificate-filled](#certificate-filled)|
-|![certificate-light](icons/telefonica/light/certificate-light.svg) | | |[certificate-light](#certificate-light)|
-|![certificate-regular](icons/telefonica/regular/certificate-regular.svg) | | |[certificate-regular](#certificate-regular)|
-|![change-plan-filled](icons/telefonica/filled/change-plan-filled.svg) | | |[change-plan-filled](#change-plan-filled)|
-|![change-plan-light](icons/telefonica/light/change-plan-light.svg) | | |[change-plan-light](#change-plan-light)|
-|![change-plan-regular](icons/telefonica/regular/change-plan-regular.svg) | | |[change-plan-regular](#change-plan-regular)|
-|![change-wifi-password-filled](icons/telefonica/filled/change-wifi-password-filled.svg) | | |[change-wifi-password-filled](#change-wifi-password-filled)|
-|![change-wifi-password-light](icons/telefonica/light/change-wifi-password-light.svg) | | |[change-wifi-password-light](#change-wifi-password-light)|
-|![change-wifi-password-regular](icons/telefonica/regular/change-wifi-password-regular.svg) | | |[change-wifi-password-regular](#change-wifi-password-regular)|
-| | |![chart-device-filled](icons/o2/filled/chart-device-filled.svg) |[chart-device-filled](#chart-device-filled)|
-| | |![chart-device-light](icons/o2/light/chart-device-light.svg) |[chart-device-light](#chart-device-light)|
-| | |![chart-device-regular](icons/o2/regular/chart-device-regular.svg) |[chart-device-regular](#chart-device-regular)|
-|![chat-filled](icons/telefonica/filled/chat-filled.svg) | |![chat-filled](icons/o2/filled/chat-filled.svg) |[chat-filled](#chat-filled)|
-|![chat-light](icons/telefonica/light/chat-light.svg) | |![chat-light](icons/o2/light/chat-light.svg) |[chat-light](#chat-light)|
-|![chat-regular](icons/telefonica/regular/chat-regular.svg) |![chat-regular](icons/blau/regular/chat-regular.svg) |![chat-regular](icons/o2/regular/chat-regular.svg) |[chat-regular](#chat-regular)|
-| | |![check-filled](icons/o2/filled/check-filled.svg) |[check-filled](#check-filled)|
-| | |![check-light](icons/o2/light/check-light.svg) |[check-light](#check-light)|
-|![check-regular](icons/telefonica/regular/check-regular.svg) |![check-regular](icons/blau/regular/check-regular.svg) |![check-regular](icons/o2/regular/check-regular.svg) |[check-regular](#check-regular)|
-|![checked-filled](icons/telefonica/filled/checked-filled.svg) | |![checked-filled](icons/o2/filled/checked-filled.svg) |[checked-filled](#checked-filled)|
-|![checked-light](icons/telefonica/light/checked-light.svg) | |![checked-light](icons/o2/light/checked-light.svg) |[checked-light](#checked-light)|
-|![checked-regular](icons/telefonica/regular/checked-regular.svg) |![checked-regular](icons/blau/regular/checked-regular.svg) |![checked-regular](icons/o2/regular/checked-regular.svg) |[checked-regular](#checked-regular)|
-|![chemistry-filled](icons/telefonica/filled/chemistry-filled.svg) | | |[chemistry-filled](#chemistry-filled)|
-|![chemistry-light](icons/telefonica/light/chemistry-light.svg) | | |[chemistry-light](#chemistry-light)|
-|![chemistry-regular](icons/telefonica/regular/chemistry-regular.svg) | | |[chemistry-regular](#chemistry-regular)|
-|![chevron-down-light](icons/telefonica/light/chevron-down-light.svg) | |![chevron-down-light](icons/o2/light/chevron-down-light.svg) |[chevron-down-light](#chevron-down-light)|
-|![chevron-down-regular](icons/telefonica/regular/chevron-down-regular.svg) |![chevron-down-regular](icons/blau/regular/chevron-down-regular.svg) |![chevron-down-regular](icons/o2/regular/chevron-down-regular.svg) |[chevron-down-regular](#chevron-down-regular)|
-|![chevron-left-light](icons/telefonica/light/chevron-left-light.svg) | |![chevron-left-light](icons/o2/light/chevron-left-light.svg) |[chevron-left-light](#chevron-left-light)|
-|![chevron-left-regular](icons/telefonica/regular/chevron-left-regular.svg) |![chevron-left-regular](icons/blau/regular/chevron-left-regular.svg) |![chevron-left-regular](icons/o2/regular/chevron-left-regular.svg) |[chevron-left-regular](#chevron-left-regular)|
-|![chevron-right-light](icons/telefonica/light/chevron-right-light.svg) | |![chevron-right-light](icons/o2/light/chevron-right-light.svg) |[chevron-right-light](#chevron-right-light)|
-|![chevron-right-regular](icons/telefonica/regular/chevron-right-regular.svg) |![chevron-right-regular](icons/blau/regular/chevron-right-regular.svg) |![chevron-right-regular](icons/o2/regular/chevron-right-regular.svg) |[chevron-right-regular](#chevron-right-regular)|
-|![chevron-top-regular](icons/telefonica/regular/chevron-top-regular.svg) | | |[chevron-top-regular](#chevron-top-regular)|
-|![chevron-up-light](icons/telefonica/light/chevron-up-light.svg) | |![chevron-up-light](icons/o2/light/chevron-up-light.svg) |[chevron-up-light](#chevron-up-light)|
-| |![chevron-up-regular](icons/blau/regular/chevron-up-regular.svg) |![chevron-up-regular](icons/o2/regular/chevron-up-regular.svg) |[chevron-up-regular](#chevron-up-regular)|
-|![child-filled](icons/telefonica/filled/child-filled.svg) | | |[child-filled](#child-filled)|
-|![child-light](icons/telefonica/light/child-light.svg) | | |[child-light](#child-light)|
-|![child-regular](icons/telefonica/regular/child-regular.svg) | | |[child-regular](#child-regular)|
-|![chip-device-filled](icons/telefonica/filled/chip-device-filled.svg) | | |[chip-device-filled](#chip-device-filled)|
-|![chip-device-light](icons/telefonica/light/chip-device-light.svg) | | |[chip-device-light](#chip-device-light)|
-|![chip-device-regular](icons/telefonica/regular/chip-device-regular.svg) | | |[chip-device-regular](#chip-device-regular)|
-|![chip-sim-card-filled](icons/telefonica/filled/chip-sim-card-filled.svg) | |![chip-sim-card-filled](icons/o2/filled/chip-sim-card-filled.svg) |[chip-sim-card-filled](#chip-sim-card-filled)|
-|![chip-sim-card-light](icons/telefonica/light/chip-sim-card-light.svg) | |![chip-sim-card-light](icons/o2/light/chip-sim-card-light.svg) |[chip-sim-card-light](#chip-sim-card-light)|
-|![chip-sim-card-regular](icons/telefonica/regular/chip-sim-card-regular.svg) |![chip-sim-card-regular](icons/blau/regular/chip-sim-card-regular.svg) |![chip-sim-card-regular](icons/o2/regular/chip-sim-card-regular.svg) |[chip-sim-card-regular](#chip-sim-card-regular)|
-| | |![circuits-filled](icons/o2/filled/circuits-filled.svg) |[circuits-filled](#circuits-filled)|
-| | |![circuits-light](icons/o2/light/circuits-light.svg) |[circuits-light](#circuits-light)|
-| | |![circuits-regular](icons/o2/regular/circuits-regular.svg) |[circuits-regular](#circuits-regular)|
-| | |![cleaning-filled](icons/o2/filled/cleaning-filled.svg) |[cleaning-filled](#cleaning-filled)|
-| | |![cleaning-light](icons/o2/light/cleaning-light.svg) |[cleaning-light](#cleaning-light)|
-| | |![cleaning-regular](icons/o2/regular/cleaning-regular.svg) |[cleaning-regular](#cleaning-regular)|
-| | |![click-and-collect-filled](icons/o2/filled/click-and-collect-filled.svg) |[click-and-collect-filled](#click-and-collect-filled)|
-| | |![click-and-collect-light](icons/o2/light/click-and-collect-light.svg) |[click-and-collect-light](#click-and-collect-light)|
-| | |![click-and-collect-regular](icons/o2/regular/click-and-collect-regular.svg) |[click-and-collect-regular](#click-and-collect-regular)|
-|![click-to-call-filled](icons/telefonica/filled/click-to-call-filled.svg) | | |[click-to-call-filled](#click-to-call-filled)|
-|![click-to-call-light](icons/telefonica/light/click-to-call-light.svg) | | |[click-to-call-light](#click-to-call-light)|
-|![click-to-call-regular](icons/telefonica/regular/click-to-call-regular.svg) | | |[click-to-call-regular](#click-to-call-regular)|
-|![clip-filled](icons/telefonica/filled/clip-filled.svg) | |![clip-filled](icons/o2/filled/clip-filled.svg) |[clip-filled](#clip-filled)|
-|![clip-light](icons/telefonica/light/clip-light.svg) | |![clip-light](icons/o2/light/clip-light.svg) |[clip-light](#clip-light)|
-|![clip-regular](icons/telefonica/regular/clip-regular.svg) | |![clip-regular](icons/o2/regular/clip-regular.svg) |[clip-regular](#clip-regular)|
-|![clipboard-filled](icons/telefonica/filled/clipboard-filled.svg) | |![clipboard-filled](icons/o2/filled/clipboard-filled.svg) |[clipboard-filled](#clipboard-filled)|
-|![clipboard-light](icons/telefonica/light/clipboard-light.svg) | |![clipboard-light](icons/o2/light/clipboard-light.svg) |[clipboard-light](#clipboard-light)|
-|![clipboard-regular](icons/telefonica/regular/clipboard-regular.svg) | |![clipboard-regular](icons/o2/regular/clipboard-regular.svg) |[clipboard-regular](#clipboard-regular)|
-| | |![cloakroom-filled](icons/o2/filled/cloakroom-filled.svg) |[cloakroom-filled](#cloakroom-filled)|
-| | |![cloakroom-light](icons/o2/light/cloakroom-light.svg) |[cloakroom-light](#cloakroom-light)|
-| | |![cloakroom-regular](icons/o2/regular/cloakroom-regular.svg) |[cloakroom-regular](#cloakroom-regular)|
-|![close-light](icons/telefonica/light/close-light.svg) | |![close-light](icons/o2/light/close-light.svg) |[close-light](#close-light)|
-|![close-regular](icons/telefonica/regular/close-regular.svg) | |![close-regular](icons/o2/regular/close-regular.svg) |[close-regular](#close-regular)|
-| | |![cloud-distribution-alternative-filled](icons/o2/filled/cloud-distribution-alternative-filled.svg) |[cloud-distribution-alternative-filled](#cloud-distribution-alternative-filled)|
-| | |![cloud-distribution-alternative-light](icons/o2/light/cloud-distribution-alternative-light.svg) |[cloud-distribution-alternative-light](#cloud-distribution-alternative-light)|
-| | |![cloud-distribution-alternative-regular](icons/o2/regular/cloud-distribution-alternative-regular.svg) |[cloud-distribution-alternative-regular](#cloud-distribution-alternative-regular)|
-|![cloud-distribution-filled](icons/telefonica/filled/cloud-distribution-filled.svg) | |![cloud-distribution-filled](icons/o2/filled/cloud-distribution-filled.svg) |[cloud-distribution-filled](#cloud-distribution-filled)|
-|![cloud-distribution-light](icons/telefonica/light/cloud-distribution-light.svg) | |![cloud-distribution-light](icons/o2/light/cloud-distribution-light.svg) |[cloud-distribution-light](#cloud-distribution-light)|
-|![cloud-distribution-regular](icons/telefonica/regular/cloud-distribution-regular.svg) | |![cloud-distribution-regular](icons/o2/regular/cloud-distribution-regular.svg) |[cloud-distribution-regular](#cloud-distribution-regular)|
-|![cloud-filled](icons/telefonica/filled/cloud-filled.svg) | | |[cloud-filled](#cloud-filled)|
-| | |![cloud-friends-filled](icons/o2/filled/cloud-friends-filled.svg) |[cloud-friends-filled](#cloud-friends-filled)|
-| | |![cloud-friends-light](icons/o2/light/cloud-friends-light.svg) |[cloud-friends-light](#cloud-friends-light)|
-| | |![cloud-friends-regular](icons/o2/regular/cloud-friends-regular.svg) |[cloud-friends-regular](#cloud-friends-regular)|
-|![cloud-light](icons/telefonica/light/cloud-light.svg) | | |[cloud-light](#cloud-light)|
-|![cloud-regular](icons/telefonica/regular/cloud-regular.svg) | | |[cloud-regular](#cloud-regular)|
-|![cloud-upload-filled](icons/telefonica/filled/cloud-upload-filled.svg) | | |[cloud-upload-filled](#cloud-upload-filled)|
-|![cloud-upload-light](icons/telefonica/light/cloud-upload-light.svg) | | |[cloud-upload-light](#cloud-upload-light)|
-|![cloud-upload-regular](icons/telefonica/regular/cloud-upload-regular.svg) | | |[cloud-upload-regular](#cloud-upload-regular)|
-|![clover-filled](icons/telefonica/filled/clover-filled.svg) | | |[clover-filled](#clover-filled)|
-|![clover-light](icons/telefonica/light/clover-light.svg) | | |[clover-light](#clover-light)|
-|![clover-regular](icons/telefonica/regular/clover-regular.svg) | | |[clover-regular](#clover-regular)|
-|![cocktail-filled](icons/telefonica/filled/cocktail-filled.svg) | |![cocktail-filled](icons/o2/filled/cocktail-filled.svg) |[cocktail-filled](#cocktail-filled)|
-|![cocktail-light](icons/telefonica/light/cocktail-light.svg) | |![cocktail-light](icons/o2/light/cocktail-light.svg) |[cocktail-light](#cocktail-light)|
-|![cocktail-regular](icons/telefonica/regular/cocktail-regular.svg) | |![cocktail-regular](icons/o2/regular/cocktail-regular.svg) |[cocktail-regular](#cocktail-regular)|
-|![code-filled](icons/telefonica/filled/code-filled.svg) | | |[code-filled](#code-filled)|
-|![code-light](icons/telefonica/light/code-light.svg) | | |[code-light](#code-light)|
-|![code-regular](icons/telefonica/regular/code-regular.svg) | | |[code-regular](#code-regular)|
-| | |![coffee-tea-filled](icons/o2/filled/coffee-tea-filled.svg) |[coffee-tea-filled](#coffee-tea-filled)|
-| | |![coffee-tea-light](icons/o2/light/coffee-tea-light.svg) |[coffee-tea-light](#coffee-tea-light)|
-| | |![coffee-tea-regular](icons/o2/regular/coffee-tea-regular.svg) |[coffee-tea-regular](#coffee-tea-regular)|
-| | |![coins-filled](icons/o2/filled/coins-filled.svg) |[coins-filled](#coins-filled)|
-| | |![coins-light](icons/o2/light/coins-light.svg) |[coins-light](#coins-light)|
-| | |![coins-regular](icons/o2/regular/coins-regular.svg) |[coins-regular](#coins-regular)|
-| | |![comment-filled](icons/o2/filled/comment-filled.svg) |[comment-filled](#comment-filled)|
-| | |![comment-light](icons/o2/light/comment-light.svg) |[comment-light](#comment-light)|
-| | |![comment-regular](icons/o2/regular/comment-regular.svg) |[comment-regular](#comment-regular)|
-|![computer-academic-filled](icons/telefonica/filled/computer-academic-filled.svg) | | |[computer-academic-filled](#computer-academic-filled)|
-|![computer-academic-regular](icons/telefonica/regular/computer-academic-regular.svg) | | |[computer-academic-regular](#computer-academic-regular)|
-|![computer-filled](icons/telefonica/filled/computer-filled.svg) | |![computer-filled](icons/o2/filled/computer-filled.svg) |[computer-filled](#computer-filled)|
-|![computer-light](icons/telefonica/light/computer-light.svg) | |![computer-light](icons/o2/light/computer-light.svg) |[computer-light](#computer-light)|
-|![computer-regular](icons/telefonica/regular/computer-regular.svg) |![computer-regular](icons/blau/regular/computer-regular.svg) |![computer-regular](icons/o2/regular/computer-regular.svg) |[computer-regular](#computer-regular)|
-|![computer-user-filled](icons/telefonica/filled/computer-user-filled.svg) | | |[computer-user-filled](#computer-user-filled)|
-|![computer-user-light](icons/telefonica/light/computer-user-light.svg) | | |[computer-user-light](#computer-user-light)|
-|![computer-user-regular](icons/telefonica/regular/computer-user-regular.svg) | | |[computer-user-regular](#computer-user-regular)|
-| | |![conference-call-filled](icons/o2/filled/conference-call-filled.svg) |[conference-call-filled](#conference-call-filled)|
-| | |![conference-call-light](icons/o2/light/conference-call-light.svg) |[conference-call-light](#conference-call-light)|
-| | |![conference-call-regular](icons/o2/regular/conference-call-regular.svg) |[conference-call-regular](#conference-call-regular)|
-|![conference-filled](icons/telefonica/filled/conference-filled.svg) | |![conference-filled](icons/o2/filled/conference-filled.svg) |[conference-filled](#conference-filled)|
-|![conference-light](icons/telefonica/light/conference-light.svg) | |![conference-light](icons/o2/light/conference-light.svg) |[conference-light](#conference-light)|
-|![conference-regular](icons/telefonica/regular/conference-regular.svg) | |![conference-regular](icons/o2/regular/conference-regular.svg) |[conference-regular](#conference-regular)|
-|![configure-device-filled](icons/telefonica/filled/configure-device-filled.svg) | |![configure-device-filled](icons/o2/filled/configure-device-filled.svg) |[configure-device-filled](#configure-device-filled)|
-|![configure-device-light](icons/telefonica/light/configure-device-light.svg) | |![configure-device-light](icons/o2/light/configure-device-light.svg) |[configure-device-light](#configure-device-light)|
-|![configure-device-regular](icons/telefonica/regular/configure-device-regular.svg) | |![configure-device-regular](icons/o2/regular/configure-device-regular.svg) |[configure-device-regular](#configure-device-regular)|
-|![configure-modem-filled](icons/telefonica/filled/configure-modem-filled.svg) | | |[configure-modem-filled](#configure-modem-filled)|
-|![configure-modem-light](icons/telefonica/light/configure-modem-light.svg) | | |[configure-modem-light](#configure-modem-light)|
-|![configure-modem-regular](icons/telefonica/regular/configure-modem-regular.svg) | | |[configure-modem-regular](#configure-modem-regular)|
-|![configure-tv-decoder-filled](icons/telefonica/filled/configure-tv-decoder-filled.svg) | | |[configure-tv-decoder-filled](#configure-tv-decoder-filled)|
-|![configure-tv-decoder-light](icons/telefonica/light/configure-tv-decoder-light.svg) | | |[configure-tv-decoder-light](#configure-tv-decoder-light)|
-|![configure-tv-decoder-regular](icons/telefonica/regular/configure-tv-decoder-regular.svg) | | |[configure-tv-decoder-regular](#configure-tv-decoder-regular)|
-| | |![connected-car-filled](icons/o2/filled/connected-car-filled.svg) |[connected-car-filled](#connected-car-filled)|
-| | |![connected-car-light](icons/o2/light/connected-car-light.svg) |[connected-car-light](#connected-car-light)|
-| | |![connected-car-regular](icons/o2/regular/connected-car-regular.svg) |[connected-car-regular](#connected-car-regular)|
-|![connections-filled](icons/telefonica/filled/connections-filled.svg) | |![connections-filled](icons/o2/filled/connections-filled.svg) |[connections-filled](#connections-filled)|
-|![connections-light](icons/telefonica/light/connections-light.svg) | |![connections-light](icons/o2/light/connections-light.svg) |[connections-light](#connections-light)|
-|![connections-regular](icons/telefonica/regular/connections-regular.svg) | |![connections-regular](icons/o2/regular/connections-regular.svg) |[connections-regular](#connections-regular)|
-|![contact-book-filled](icons/telefonica/filled/contact-book-filled.svg) | | |[contact-book-filled](#contact-book-filled)|
-|![contact-book-light](icons/telefonica/light/contact-book-light.svg) | | |[contact-book-light](#contact-book-light)|
-|![contact-book-regular](icons/telefonica/regular/contact-book-regular.svg) | | |[contact-book-regular](#contact-book-regular)|
-| | |![contact-us-filled](icons/o2/filled/contact-us-filled.svg) |[contact-us-filled](#contact-us-filled)|
-| | |![contact-us-light](icons/o2/light/contact-us-light.svg) |[contact-us-light](#contact-us-light)|
-| | |![contact-us-regular](icons/o2/regular/contact-us-regular.svg) |[contact-us-regular](#contact-us-regular)|
-| | |![contactless-payments-euro-filled](icons/o2/filled/contactless-payments-euro-filled.svg) |[contactless-payments-euro-filled](#contactless-payments-euro-filled)|
-| | |![contactless-payments-euro-light](icons/o2/light/contactless-payments-euro-light.svg) |[contactless-payments-euro-light](#contactless-payments-euro-light)|
-| | |![contactless-payments-euro-regular](icons/o2/regular/contactless-payments-euro-regular.svg) |[contactless-payments-euro-regular](#contactless-payments-euro-regular)|
-| | |![contactless-payments-pound-filled](icons/o2/filled/contactless-payments-pound-filled.svg) |[contactless-payments-pound-filled](#contactless-payments-pound-filled)|
-| | |![contactless-payments-pound-light](icons/o2/light/contactless-payments-pound-light.svg) |[contactless-payments-pound-light](#contactless-payments-pound-light)|
-| | |![contactless-payments-pound-regular](icons/o2/regular/contactless-payments-pound-regular.svg) |[contactless-payments-pound-regular](#contactless-payments-pound-regular)|
-|![controls-filled](icons/telefonica/filled/controls-filled.svg) | |![controls-filled](icons/o2/filled/controls-filled.svg) |[controls-filled](#controls-filled)|
-|![controls-light](icons/telefonica/light/controls-light.svg) | |![controls-light](icons/o2/light/controls-light.svg) |[controls-light](#controls-light)|
-|![controls-regular](icons/telefonica/regular/controls-regular.svg) | |![controls-regular](icons/o2/regular/controls-regular.svg) |[controls-regular](#controls-regular)|
-|![cooking-filled](icons/telefonica/filled/cooking-filled.svg) | | |[cooking-filled](#cooking-filled)|
-|![cooking-light](icons/telefonica/light/cooking-light.svg) | | |[cooking-light](#cooking-light)|
-|![cooking-regular](icons/telefonica/regular/cooking-regular.svg) | | |[cooking-regular](#cooking-regular)|
-|![copy-filled](icons/telefonica/filled/copy-filled.svg) | | |[copy-filled](#copy-filled)|
-|![copy-light](icons/telefonica/light/copy-light.svg) | | |[copy-light](#copy-light)|
-|![copy-regular](icons/telefonica/regular/copy-regular.svg) | | |[copy-regular](#copy-regular)|
-|![cough-syrup-filled](icons/telefonica/filled/cough-syrup-filled.svg) | | |[cough-syrup-filled](#cough-syrup-filled)|
-|![cough-syrup-light](icons/telefonica/light/cough-syrup-light.svg) | | |[cough-syrup-light](#cough-syrup-light)|
-|![cough-syrup-regular](icons/telefonica/regular/cough-syrup-regular.svg) | | |[cough-syrup-regular](#cough-syrup-regular)|
-|![cowboy-lasso-light](icons/telefonica/light/cowboy-lasso-light.svg) | | |[cowboy-lasso-light](#cowboy-lasso-light)|
-|![cowboy-lasso-regular](icons/telefonica/regular/cowboy-lasso-regular.svg) | | |[cowboy-lasso-regular](#cowboy-lasso-regular)|
-| | |![credit-balance-euro-filled](icons/o2/filled/credit-balance-euro-filled.svg) |[credit-balance-euro-filled](#credit-balance-euro-filled)|
-| | |![credit-balance-euro-light](icons/o2/light/credit-balance-euro-light.svg) |[credit-balance-euro-light](#credit-balance-euro-light)|
-| | |![credit-balance-euro-regular](icons/o2/regular/credit-balance-euro-regular.svg) |[credit-balance-euro-regular](#credit-balance-euro-regular)|
-| | |![credit-balance-pound-filled](icons/o2/filled/credit-balance-pound-filled.svg) |[credit-balance-pound-filled](#credit-balance-pound-filled)|
-| | |![credit-balance-pound-light](icons/o2/light/credit-balance-pound-light.svg) |[credit-balance-pound-light](#credit-balance-pound-light)|
-| | |![credit-balance-pound-regular](icons/o2/regular/credit-balance-pound-regular.svg) |[credit-balance-pound-regular](#credit-balance-pound-regular)|
-|![credit-card-filled](icons/telefonica/filled/credit-card-filled.svg) | |![credit-card-filled](icons/o2/filled/credit-card-filled.svg) |[credit-card-filled](#credit-card-filled)|
-|![credit-card-light](icons/telefonica/light/credit-card-light.svg) | |![credit-card-light](icons/o2/light/credit-card-light.svg) |[credit-card-light](#credit-card-light)|
-|![credit-card-regular](icons/telefonica/regular/credit-card-regular.svg) |![credit-card-regular](icons/blau/regular/credit-card-regular.svg) |![credit-card-regular](icons/o2/regular/credit-card-regular.svg) |[credit-card-regular](#credit-card-regular)|
-|![credit-card-visa-filled](icons/telefonica/filled/credit-card-visa-filled.svg) | |![credit-card-visa-filled](icons/o2/filled/credit-card-visa-filled.svg) |[credit-card-visa-filled](#credit-card-visa-filled)|
-|![credit-card-visa-light](icons/telefonica/light/credit-card-visa-light.svg) | |![credit-card-visa-light](icons/o2/light/credit-card-visa-light.svg) |[credit-card-visa-light](#credit-card-visa-light)|
-|![credit-card-visa-regular](icons/telefonica/regular/credit-card-visa-regular.svg) | |![credit-card-visa-regular](icons/o2/regular/credit-card-visa-regular.svg) |[credit-card-visa-regular](#credit-card-visa-regular)|
-|![cut-filled](icons/telefonica/filled/cut-filled.svg) | | |[cut-filled](#cut-filled)|
-|![cut-light](icons/telefonica/light/cut-light.svg) | | |[cut-light](#cut-light)|
-|![dartboard-filled](icons/telefonica/filled/dartboard-filled.svg) | |![dartboard-filled](icons/o2/filled/dartboard-filled.svg) |[dartboard-filled](#dartboard-filled)|
-|![dartboard-light](icons/telefonica/light/dartboard-light.svg) | |![dartboard-light](icons/o2/light/dartboard-light.svg) |[dartboard-light](#dartboard-light)|
-|![dartboard-regular](icons/telefonica/regular/dartboard-regular.svg) | |![dartboard-regular](icons/o2/regular/dartboard-regular.svg) |[dartboard-regular](#dartboard-regular)|
-| | |![data-10-gb-filled](icons/o2/filled/data-10-gb-filled.svg) |[data-10-gb-filled](#data-10-gb-filled)|
-| | |![data-10-gb-light](icons/o2/light/data-10-gb-light.svg) |[data-10-gb-light](#data-10-gb-light)|
-| | |![data-10-gb-regular](icons/o2/regular/data-10-gb-regular.svg) |[data-10-gb-regular](#data-10-gb-regular)|
-| | |![data-100-gb-filled](icons/o2/filled/data-100-gb-filled.svg) |[data-100-gb-filled](#data-100-gb-filled)|
-| | |![data-100-gb-light](icons/o2/light/data-100-gb-light.svg) |[data-100-gb-light](#data-100-gb-light)|
-| | |![data-100-gb-regular](icons/o2/regular/data-100-gb-regular.svg) |[data-100-gb-regular](#data-100-gb-regular)|
-| | |![data-30-gb-filled](icons/o2/filled/data-30-gb-filled.svg) |[data-30-gb-filled](#data-30-gb-filled)|
-| | |![data-30-gb-light](icons/o2/light/data-30-gb-light.svg) |[data-30-gb-light](#data-30-gb-light)|
-| | |![data-30-gb-regular](icons/o2/regular/data-30-gb-regular.svg) |[data-30-gb-regular](#data-30-gb-regular)|
-|![data-alert-filled](icons/telefonica/filled/data-alert-filled.svg) | | |[data-alert-filled](#data-alert-filled)|
-|![data-alert-light](icons/telefonica/light/data-alert-light.svg) | | |[data-alert-light](#data-alert-light)|
-|![data-alert-regular](icons/telefonica/regular/data-alert-regular.svg) | | |[data-alert-regular](#data-alert-regular)|
-| | |![data-bonus-filled](icons/o2/filled/data-bonus-filled.svg) |[data-bonus-filled](#data-bonus-filled)|
-| | |![data-bonus-light](icons/o2/light/data-bonus-light.svg) |[data-bonus-light](#data-bonus-light)|
-| | |![data-bonus-regular](icons/o2/regular/data-bonus-regular.svg) |[data-bonus-regular](#data-bonus-regular)|
-| | |![data-centre-filled](icons/o2/filled/data-centre-filled.svg) |[data-centre-filled](#data-centre-filled)|
-| | |![data-centre-light](icons/o2/light/data-centre-light.svg) |[data-centre-light](#data-centre-light)|
-| | |![data-centre-regular](icons/o2/regular/data-centre-regular.svg) |[data-centre-regular](#data-centre-regular)|
-|![data-checked-filled](icons/telefonica/filled/data-checked-filled.svg) | | |[data-checked-filled](#data-checked-filled)|
-|![data-checked-light](icons/telefonica/light/data-checked-light.svg) | | |[data-checked-light](#data-checked-light)|
-|![data-checked-regular](icons/telefonica/regular/data-checked-regular.svg) | | |[data-checked-regular](#data-checked-regular)|
-|![data-cloud-filled](icons/telefonica/filled/data-cloud-filled.svg) | |![data-cloud-filled](icons/o2/filled/data-cloud-filled.svg) |[data-cloud-filled](#data-cloud-filled)|
-|![data-cloud-light](icons/telefonica/light/data-cloud-light.svg) | |![data-cloud-light](icons/o2/light/data-cloud-light.svg) |[data-cloud-light](#data-cloud-light)|
-|![data-cloud-regular](icons/telefonica/regular/data-cloud-regular.svg) | |![data-cloud-regular](icons/o2/regular/data-cloud-regular.svg) |[data-cloud-regular](#data-cloud-regular)|
-|![data-distribution-filled](icons/telefonica/filled/data-distribution-filled.svg) | | |[data-distribution-filled](#data-distribution-filled)|
-|![data-distribution-light](icons/telefonica/light/data-distribution-light.svg) | | |[data-distribution-light](#data-distribution-light)|
-|![data-distribution-regular](icons/telefonica/regular/data-distribution-regular.svg) | | |[data-distribution-regular](#data-distribution-regular)|
-|![data-filled](icons/telefonica/filled/data-filled.svg) | | |[data-filled](#data-filled)|
-|![data-light](icons/telefonica/light/data-light.svg) | | |[data-light](#data-light)|
-|![data-network-filled](icons/telefonica/filled/data-network-filled.svg) | | |[data-network-filled](#data-network-filled)|
-|![data-network-light](icons/telefonica/light/data-network-light.svg) | | |[data-network-light](#data-network-light)|
-|![data-network-regular](icons/telefonica/regular/data-network-regular.svg) | | |[data-network-regular](#data-network-regular)|
-|![data-regular](icons/telefonica/regular/data-regular.svg) | | |[data-regular](#data-regular)|
-| | |![data-rollover-filled](icons/o2/filled/data-rollover-filled.svg) |[data-rollover-filled](#data-rollover-filled)|
-| | |![data-rollover-light](icons/o2/light/data-rollover-light.svg) |[data-rollover-light](#data-rollover-light)|
-| | |![data-rollover-regular](icons/o2/regular/data-rollover-regular.svg) |[data-rollover-regular](#data-rollover-regular)|
-|![data-settings-filled](icons/telefonica/filled/data-settings-filled.svg) | | |[data-settings-filled](#data-settings-filled)|
-|![data-settings-light](icons/telefonica/light/data-settings-light.svg) | | |[data-settings-light](#data-settings-light)|
-|![data-settings-regular](icons/telefonica/regular/data-settings-regular.svg) | | |[data-settings-regular](#data-settings-regular)|
-|![data-shield-filled](icons/telefonica/filled/data-shield-filled.svg) | |![data-shield-filled](icons/o2/filled/data-shield-filled.svg) |[data-shield-filled](#data-shield-filled)|
-|![data-shield-light](icons/telefonica/light/data-shield-light.svg) | |![data-shield-light](icons/o2/light/data-shield-light.svg) |[data-shield-light](#data-shield-light)|
-|![data-shield-regular](icons/telefonica/regular/data-shield-regular.svg) |![data-shield-regular](icons/blau/regular/data-shield-regular.svg) |![data-shield-regular](icons/o2/regular/data-shield-regular.svg) |[data-shield-regular](#data-shield-regular)|
-| | |![data-unlimited-filled](icons/o2/filled/data-unlimited-filled.svg) |[data-unlimited-filled](#data-unlimited-filled)|
-| | |![data-unlimited-light](icons/o2/light/data-unlimited-light.svg) |[data-unlimited-light](#data-unlimited-light)|
-| | |![data-unlimited-regular](icons/o2/regular/data-unlimited-regular.svg) |[data-unlimited-regular](#data-unlimited-regular)|
-|![data-virus-filled](icons/telefonica/filled/data-virus-filled.svg) | | |[data-virus-filled](#data-virus-filled)|
-|![data-virus-light](icons/telefonica/light/data-virus-light.svg) | | |[data-virus-light](#data-virus-light)|
-|![data-virus-regular](icons/telefonica/regular/data-virus-regular.svg) | | |[data-virus-regular](#data-virus-regular)|
-| | |![database-connected-filled](icons/o2/filled/database-connected-filled.svg) |[database-connected-filled](#database-connected-filled)|
-| | |![database-connected-light](icons/o2/light/database-connected-light.svg) |[database-connected-light](#database-connected-light)|
-| | |![database-connected-regular](icons/o2/regular/database-connected-regular.svg) |[database-connected-regular](#database-connected-regular)|
-|![database-filled](icons/telefonica/filled/database-filled.svg) | |![database-filled](icons/o2/filled/database-filled.svg) |[database-filled](#database-filled)|
-|![database-light](icons/telefonica/light/database-light.svg) | |![database-light](icons/o2/light/database-light.svg) |[database-light](#database-light)|
-|![database-regular](icons/telefonica/regular/database-regular.svg) | |![database-regular](icons/o2/regular/database-regular.svg) |[database-regular](#database-regular)|
-|![delivery-van-moving-filled](icons/telefonica/filled/delivery-van-moving-filled.svg) | | |[delivery-van-moving-filled](#delivery-van-moving-filled)|
-|![delivery-van-moving-light](icons/telefonica/light/delivery-van-moving-light.svg) | | |[delivery-van-moving-light](#delivery-van-moving-light)|
-|![delivery-van-moving-regular](icons/telefonica/regular/delivery-van-moving-regular.svg) | | |[delivery-van-moving-regular](#delivery-van-moving-regular)|
-| | |![desk-filled](icons/o2/filled/desk-filled.svg) |[desk-filled](#desk-filled)|
-| | |![desk-light](icons/o2/light/desk-light.svg) |[desk-light](#desk-light)|
-| | |![desk-regular](icons/o2/regular/desk-regular.svg) |[desk-regular](#desk-regular)|
-| | |![device-signal-filled](icons/o2/filled/device-signal-filled.svg) |[device-signal-filled](#device-signal-filled)|
-| | |![device-signal-light](icons/o2/light/device-signal-light.svg) |[device-signal-light](#device-signal-light)|
-| | |![device-signal-regular](icons/o2/regular/device-signal-regular.svg) |[device-signal-regular](#device-signal-regular)|
-|![diamond-filled](icons/telefonica/filled/diamond-filled.svg) | | |[diamond-filled](#diamond-filled)|
-|![diamond-light](icons/telefonica/light/diamond-light.svg) | | |[diamond-light](#diamond-light)|
-|![diamond-regular](icons/telefonica/regular/diamond-regular.svg) | | |[diamond-regular](#diamond-regular)|
-|![digital-library-filled](icons/telefonica/filled/digital-library-filled.svg) | | |[digital-library-filled](#digital-library-filled)|
-|![digital-library-light](icons/telefonica/light/digital-library-light.svg) | | |[digital-library-light](#digital-library-light)|
-|![digital-library-regular](icons/telefonica/regular/digital-library-regular.svg) | | |[digital-library-regular](#digital-library-regular)|
-|![disable-filled](icons/telefonica/filled/disable-filled.svg) | | |[disable-filled](#disable-filled)|
-|![disable-light](icons/telefonica/light/disable-light.svg) | | |[disable-light](#disable-light)|
-|![disable-regular](icons/telefonica/regular/disable-regular.svg) | | |[disable-regular](#disable-regular)|
-| | |![disabled-filled](icons/o2/filled/disabled-filled.svg) |[disabled-filled](#disabled-filled)|
-| | |![disabled-light](icons/o2/light/disabled-light.svg) |[disabled-light](#disabled-light)|
-| | |![disabled-regular](icons/o2/regular/disabled-regular.svg) |[disabled-regular](#disabled-regular)|
-|![disconnect-filled](icons/telefonica/filled/disconnect-filled.svg) | | |[disconnect-filled](#disconnect-filled)|
-|![disconnect-light](icons/telefonica/light/disconnect-light.svg) | | |[disconnect-light](#disconnect-light)|
-|![disconnect-regular](icons/telefonica/regular/disconnect-regular.svg) | | |[disconnect-regular](#disconnect-regular)|
-| | |![disturb-filled](icons/o2/filled/disturb-filled.svg) |[disturb-filled](#disturb-filled)|
-| | |![disturb-light](icons/o2/light/disturb-light.svg) |[disturb-light](#disturb-light)|
-| | |![disturb-regular](icons/o2/regular/disturb-regular.svg) |[disturb-regular](#disturb-regular)|
-|![document-other-filled](icons/telefonica/filled/document-other-filled.svg) | | |[document-other-filled](#document-other-filled)|
-|![document-other-light](icons/telefonica/light/document-other-light.svg) | | |[document-other-light](#document-other-light)|
-|![document-other-regular](icons/telefonica/regular/document-other-regular.svg) | | |[document-other-regular](#document-other-regular)|
-|![documents-filled](icons/telefonica/filled/documents-filled.svg) | | |[documents-filled](#documents-filled)|
-|![documents-light](icons/telefonica/light/documents-light.svg) | | |[documents-light](#documents-light)|
-|![documents-regular](icons/telefonica/regular/documents-regular.svg) | | |[documents-regular](#documents-regular)|
-|![dollar-symbol-circle-filled](icons/telefonica/filled/dollar-symbol-circle-filled.svg) | | |[dollar-symbol-circle-filled](#dollar-symbol-circle-filled)|
-|![dollar-symbol-circle-light](icons/telefonica/light/dollar-symbol-circle-light.svg) | | |[dollar-symbol-circle-light](#dollar-symbol-circle-light)|
-|![dollar-symbol-circle-regular](icons/telefonica/regular/dollar-symbol-circle-regular.svg) | | |[dollar-symbol-circle-regular](#dollar-symbol-circle-regular)|
-|![dollar-symbol-filled](icons/telefonica/filled/dollar-symbol-filled.svg) | | |[dollar-symbol-filled](#dollar-symbol-filled)|
-|![dollar-symbol-light](icons/telefonica/light/dollar-symbol-light.svg) | | |[dollar-symbol-light](#dollar-symbol-light)|
-|![dollar-symbol-regular](icons/telefonica/regular/dollar-symbol-regular.svg) | | |[dollar-symbol-regular](#dollar-symbol-regular)|
-|![download-app-filled](icons/telefonica/filled/download-app-filled.svg) | | |[download-app-filled](#download-app-filled)|
-|![download-app-light](icons/telefonica/light/download-app-light.svg) | | |[download-app-light](#download-app-light)|
-|![download-app-regular](icons/telefonica/regular/download-app-regular.svg) | | |[download-app-regular](#download-app-regular)|
-|![download-cloud-filled](icons/telefonica/filled/download-cloud-filled.svg) | | |[download-cloud-filled](#download-cloud-filled)|
-|![download-cloud-light](icons/telefonica/light/download-cloud-light.svg) | | |[download-cloud-light](#download-cloud-light)|
-|![download-cloud-regular](icons/telefonica/regular/download-cloud-regular.svg) |![download-cloud-regular](icons/blau/regular/download-cloud-regular.svg) | |[download-cloud-regular](#download-cloud-regular)|
-|![download-filled](icons/telefonica/filled/download-filled.svg) | | |[download-filled](#download-filled)|
-|![download-light](icons/telefonica/light/download-light.svg) | | |[download-light](#download-light)|
-|![download-regular](icons/telefonica/regular/download-regular.svg) |![download-regular](icons/blau/regular/download-regular.svg) | |[download-regular](#download-regular)|
-|![drink-filled](icons/telefonica/filled/drink-filled.svg) | | |[drink-filled](#drink-filled)|
-|![drink-light](icons/telefonica/light/drink-light.svg) | | |[drink-light](#drink-light)|
-|![drink-regular](icons/telefonica/regular/drink-regular.svg) | | |[drink-regular](#drink-regular)|
-|![dumbbell-filled](icons/telefonica/filled/dumbbell-filled.svg) | | |[dumbbell-filled](#dumbbell-filled)|
-|![dumbbell-light](icons/telefonica/light/dumbbell-light.svg) | | |[dumbbell-light](#dumbbell-light)|
-|![dumbbell-regular](icons/telefonica/regular/dumbbell-regular.svg) | | |[dumbbell-regular](#dumbbell-regular)|
-|![eco-filled](icons/telefonica/filled/eco-filled.svg) | |![eco-filled](icons/o2/filled/eco-filled.svg) |[eco-filled](#eco-filled)|
-|![eco-light](icons/telefonica/light/eco-light.svg) | |![eco-light](icons/o2/light/eco-light.svg) |[eco-light](#eco-light)|
-|![eco-regular](icons/telefonica/regular/eco-regular.svg) | |![eco-regular](icons/o2/regular/eco-regular.svg) |[eco-regular](#eco-regular)|
-|![edit-filled](icons/telefonica/filled/edit-filled.svg) | | |[edit-filled](#edit-filled)|
-|![edit-light](icons/telefonica/light/edit-light.svg) | | |[edit-light](#edit-light)|
-|![edit-paper-light](icons/telefonica/light/edit-paper-light.svg) | | |[edit-paper-light](#edit-paper-light)|
-|![edit-paper-regular](icons/telefonica/regular/edit-paper-regular.svg) | | |[edit-paper-regular](#edit-paper-regular)|
-|![edit-pencil-light](icons/telefonica/light/edit-pencil-light.svg) | | |[edit-pencil-light](#edit-pencil-light)|
-|![edit-pencil-regular](icons/telefonica/regular/edit-pencil-regular.svg) |![edit-pencil-regular](icons/blau/regular/edit-pencil-regular.svg) | |[edit-pencil-regular](#edit-pencil-regular)|
-|![edit-regular](icons/telefonica/regular/edit-regular.svg) | | |[edit-regular](#edit-regular)|
-|![electrocardiogram-filled](icons/telefonica/filled/electrocardiogram-filled.svg) | |![electrocardiogram-filled](icons/o2/filled/electrocardiogram-filled.svg) |[electrocardiogram-filled](#electrocardiogram-filled)|
-|![electrocardiogram-light](icons/telefonica/light/electrocardiogram-light.svg) | |![electrocardiogram-light](icons/o2/light/electrocardiogram-light.svg) |[electrocardiogram-light](#electrocardiogram-light)|
-|![electrocardiogram-regular](icons/telefonica/regular/electrocardiogram-regular.svg) | |![electrocardiogram-regular](icons/o2/regular/electrocardiogram-regular.svg) |[electrocardiogram-regular](#electrocardiogram-regular)|
-|![email-filled](icons/telefonica/filled/email-filled.svg) | |![email-filled](icons/o2/filled/email-filled.svg) |[email-filled](#email-filled)|
-|![email-light](icons/telefonica/light/email-light.svg) | |![email-light](icons/o2/light/email-light.svg) |[email-light](#email-light)|
-|![email-regular](icons/telefonica/regular/email-regular.svg) |![email-regular](icons/blau/regular/email-regular.svg) |![email-regular](icons/o2/regular/email-regular.svg) |[email-regular](#email-regular)|
-| | |![email-send-filled](icons/o2/filled/email-send-filled.svg) |[email-send-filled](#email-send-filled)|
-| | |![email-send-light](icons/o2/light/email-send-light.svg) |[email-send-light](#email-send-light)|
-| | |![email-send-regular](icons/o2/regular/email-send-regular.svg) |[email-send-regular](#email-send-regular)|
-|![email-virus-filled](icons/telefonica/filled/email-virus-filled.svg) | | |[email-virus-filled](#email-virus-filled)|
-|![email-virus-light](icons/telefonica/light/email-virus-light.svg) | | |[email-virus-light](#email-virus-light)|
-|![email-virus-regular](icons/telefonica/regular/email-virus-regular.svg) | | |[email-virus-regular](#email-virus-regular)|
-|![emergency-cross-filled](icons/telefonica/filled/emergency-cross-filled.svg) | | |[emergency-cross-filled](#emergency-cross-filled)|
-|![emergency-cross-light](icons/telefonica/light/emergency-cross-light.svg) | | |[emergency-cross-light](#emergency-cross-light)|
-|![emergency-cross-regular](icons/telefonica/regular/emergency-cross-regular.svg) | | |[emergency-cross-regular](#emergency-cross-regular)|
-|![emergency-cross-with-circle-filled](icons/telefonica/filled/emergency-cross-with-circle-filled.svg) | | |[emergency-cross-with-circle-filled](#emergency-cross-with-circle-filled)|
-|![emergency-cross-with-circle-light](icons/telefonica/light/emergency-cross-with-circle-light.svg) | | |[emergency-cross-with-circle-light](#emergency-cross-with-circle-light)|
-|![emergency-cross-with-circle-regular](icons/telefonica/regular/emergency-cross-with-circle-regular.svg) | | |[emergency-cross-with-circle-regular](#emergency-cross-with-circle-regular)|
-|![error-filled](icons/telefonica/filled/error-filled.svg) | | |[error-filled](#error-filled)|
-|![error-light](icons/telefonica/light/error-light.svg) | | |[error-light](#error-light)|
-|![error-regular](icons/telefonica/regular/error-regular.svg) | | |[error-regular](#error-regular)|
-| | |![escalator-filled](icons/o2/filled/escalator-filled.svg) |[escalator-filled](#escalator-filled)|
-| | |![escalator-light](icons/o2/light/escalator-light.svg) |[escalator-light](#escalator-light)|
-| | |![escalator-regular](icons/o2/regular/escalator-regular.svg) |[escalator-regular](#escalator-regular)|
-| | |![esim-filled](icons/o2/filled/esim-filled.svg) |[esim-filled](#esim-filled)|
-| | |![esim-light](icons/o2/light/esim-light.svg) |[esim-light](#esim-light)|
-| | |![esim-regular](icons/o2/regular/esim-regular.svg) |[esim-regular](#esim-regular)|
-|![euro-symbol-circle-filled](icons/telefonica/filled/euro-symbol-circle-filled.svg) | |![euro-symbol-circle-filled](icons/o2/filled/euro-symbol-circle-filled.svg) |[euro-symbol-circle-filled](#euro-symbol-circle-filled)|
-|![euro-symbol-circle-light](icons/telefonica/light/euro-symbol-circle-light.svg) | |![euro-symbol-circle-light](icons/o2/light/euro-symbol-circle-light.svg) |[euro-symbol-circle-light](#euro-symbol-circle-light)|
-|![euro-symbol-circle-regular](icons/telefonica/regular/euro-symbol-circle-regular.svg) | |![euro-symbol-circle-regular](icons/o2/regular/euro-symbol-circle-regular.svg) |[euro-symbol-circle-regular](#euro-symbol-circle-regular)|
-|![euro-symbol-filled](icons/telefonica/filled/euro-symbol-filled.svg) | | |[euro-symbol-filled](#euro-symbol-filled)|
-|![euro-symbol-light](icons/telefonica/light/euro-symbol-light.svg) | | |[euro-symbol-light](#euro-symbol-light)|
-|![euro-symbol-regular](icons/telefonica/regular/euro-symbol-regular.svg) |![euro-symbol-regular](icons/blau/regular/euro-symbol-regular.svg) | |[euro-symbol-regular](#euro-symbol-regular)|
-|![exchange-filled](icons/telefonica/filled/exchange-filled.svg) | | |[exchange-filled](#exchange-filled)|
-|![exchange-light](icons/telefonica/light/exchange-light.svg) | | |[exchange-light](#exchange-light)|
-|![exchange-regular](icons/telefonica/regular/exchange-regular.svg) | | |[exchange-regular](#exchange-regular)|
-| | |![exit-door-filled](icons/o2/filled/exit-door-filled.svg) |[exit-door-filled](#exit-door-filled)|
-| | |![exit-door-light](icons/o2/light/exit-door-light.svg) |[exit-door-light](#exit-door-light)|
-| | |![exit-door-regular](icons/o2/regular/exit-door-regular.svg) |[exit-door-regular](#exit-door-regular)|
-|![exit-fullscreen-light](icons/telefonica/light/exit-fullscreen-light.svg) | | |[exit-fullscreen-light](#exit-fullscreen-light)|
-|![exit-fullscreen-regular](icons/telefonica/regular/exit-fullscreen-regular.svg) | | |[exit-fullscreen-regular](#exit-fullscreen-regular)|
-|![export-light](icons/telefonica/light/export-light.svg) | | |[export-light](#export-light)|
-|![export-regular](icons/telefonica/regular/export-regular.svg) | | |[export-regular](#export-regular)|
-| | |![eye-filled](icons/o2/filled/eye-filled.svg) |[eye-filled](#eye-filled)|
-|![eye-light](icons/telefonica/light/eye-light.svg) | |![eye-light](icons/o2/light/eye-light.svg) |[eye-light](#eye-light)|
-|![eye-regular](icons/telefonica/regular/eye-regular.svg) |![eye-regular](icons/blau/regular/eye-regular.svg) |![eye-regular](icons/o2/regular/eye-regular.svg) |[eye-regular](#eye-regular)|
-|![family-filled](icons/telefonica/filled/family-filled.svg) | |![family-filled](icons/o2/filled/family-filled.svg) |[family-filled](#family-filled)|
-|![family-light](icons/telefonica/light/family-light.svg) | |![family-light](icons/o2/light/family-light.svg) |[family-light](#family-light)|
-|![family-regular](icons/telefonica/regular/family-regular.svg) | |![family-regular](icons/o2/regular/family-regular.svg) |[family-regular](#family-regular)|
-|![fast-forward-filled](icons/telefonica/filled/fast-forward-filled.svg) | |![fast-forward-filled](icons/o2/filled/fast-forward-filled.svg) |[fast-forward-filled](#fast-forward-filled)|
-|![fast-forward-light](icons/telefonica/light/fast-forward-light.svg) | |![fast-forward-light](icons/o2/light/fast-forward-light.svg) |[fast-forward-light](#fast-forward-light)|
-|![fast-forward-regular](icons/telefonica/regular/fast-forward-regular.svg) | |![fast-forward-regular](icons/o2/regular/fast-forward-regular.svg) |[fast-forward-regular](#fast-forward-regular)|
-|![file-avi-filled](icons/telefonica/filled/file-avi-filled.svg) | | |[file-avi-filled](#file-avi-filled)|
-|![file-avi-light](icons/telefonica/light/file-avi-light.svg) | | |[file-avi-light](#file-avi-light)|
-|![file-avi-regular](icons/telefonica/regular/file-avi-regular.svg) | | |[file-avi-regular](#file-avi-regular)|
-|![file-blocked-filled](icons/telefonica/filled/file-blocked-filled.svg) | | |[file-blocked-filled](#file-blocked-filled)|
-|![file-blocked-light](icons/telefonica/light/file-blocked-light.svg) | | |[file-blocked-light](#file-blocked-light)|
-|![file-blocked-regular](icons/telefonica/regular/file-blocked-regular.svg) | | |[file-blocked-regular](#file-blocked-regular)|
-|![file-box-filled](icons/telefonica/filled/file-box-filled.svg) | | |[file-box-filled](#file-box-filled)|
-|![file-box-light](icons/telefonica/light/file-box-light.svg) | | |[file-box-light](#file-box-light)|
-|![file-box-regular](icons/telefonica/regular/file-box-regular.svg) | | |[file-box-regular](#file-box-regular)|
-|![file-compressed-filled](icons/telefonica/filled/file-compressed-filled.svg) | | |[file-compressed-filled](#file-compressed-filled)|
-|![file-compressed-light](icons/telefonica/light/file-compressed-light.svg) | | |[file-compressed-light](#file-compressed-light)|
-|![file-compressed-regular](icons/telefonica/regular/file-compressed-regular.svg) | | |[file-compressed-regular](#file-compressed-regular)|
-|![file-css-filled](icons/telefonica/filled/file-css-filled.svg) | | |[file-css-filled](#file-css-filled)|
-|![file-css-light](icons/telefonica/light/file-css-light.svg) | | |[file-css-light](#file-css-light)|
-|![file-css-regular](icons/telefonica/regular/file-css-regular.svg) | | |[file-css-regular](#file-css-regular)|
-|![file-encrypted-filled](icons/telefonica/filled/file-encrypted-filled.svg) | | |[file-encrypted-filled](#file-encrypted-filled)|
-|![file-encrypted-light](icons/telefonica/light/file-encrypted-light.svg) | | |[file-encrypted-light](#file-encrypted-light)|
-|![file-encrypted-regular](icons/telefonica/regular/file-encrypted-regular.svg) | | |[file-encrypted-regular](#file-encrypted-regular)|
-|![file-enex-filled](icons/telefonica/filled/file-enex-filled.svg) | | |[file-enex-filled](#file-enex-filled)|
-|![file-enex-light](icons/telefonica/light/file-enex-light.svg) | | |[file-enex-light](#file-enex-light)|
-|![file-enex-regular](icons/telefonica/regular/file-enex-regular.svg) | | |[file-enex-regular](#file-enex-regular)|
-|![file-error-filled](icons/telefonica/filled/file-error-filled.svg) | | |[file-error-filled](#file-error-filled)|
-|![file-error-light](icons/telefonica/light/file-error-light.svg) | | |[file-error-light](#file-error-light)|
-|![file-error-regular](icons/telefonica/regular/file-error-regular.svg) | | |[file-error-regular](#file-error-regular)|
-|![file-html-filled](icons/telefonica/filled/file-html-filled.svg) | | |[file-html-filled](#file-html-filled)|
-|![file-html-light](icons/telefonica/light/file-html-light.svg) | | |[file-html-light](#file-html-light)|
-|![file-html-regular](icons/telefonica/regular/file-html-regular.svg) | | |[file-html-regular](#file-html-regular)|
-|![file-illustrator-filled](icons/telefonica/filled/file-illustrator-filled.svg) | | |[file-illustrator-filled](#file-illustrator-filled)|
-|![file-illustrator-light](icons/telefonica/light/file-illustrator-light.svg) | | |[file-illustrator-light](#file-illustrator-light)|
-|![file-illustrator-regular](icons/telefonica/regular/file-illustrator-regular.svg) | | |[file-illustrator-regular](#file-illustrator-regular)|
-|![file-image-filled](icons/telefonica/filled/file-image-filled.svg) | | |[file-image-filled](#file-image-filled)|
-|![file-image-light](icons/telefonica/light/file-image-light.svg) | | |[file-image-light](#file-image-light)|
-|![file-image-regular](icons/telefonica/regular/file-image-regular.svg) | | |[file-image-regular](#file-image-regular)|
-|![file-jpeg-filled](icons/telefonica/filled/file-jpeg-filled.svg) | | |[file-jpeg-filled](#file-jpeg-filled)|
-|![file-jpeg-light](icons/telefonica/light/file-jpeg-light.svg) | | |[file-jpeg-light](#file-jpeg-light)|
-|![file-jpeg-regular](icons/telefonica/regular/file-jpeg-regular.svg) | | |[file-jpeg-regular](#file-jpeg-regular)|
-|![file-mp3-filled](icons/telefonica/filled/file-mp3-filled.svg) | | |[file-mp3-filled](#file-mp3-filled)|
-|![file-mp3-light](icons/telefonica/light/file-mp3-light.svg) | | |[file-mp3-light](#file-mp3-light)|
-|![file-mp3-regular](icons/telefonica/regular/file-mp3-regular.svg) | | |[file-mp3-regular](#file-mp3-regular)|
-|![file-mp4-filled](icons/telefonica/filled/file-mp4-filled.svg) | | |[file-mp4-filled](#file-mp4-filled)|
-|![file-mp4-light](icons/telefonica/light/file-mp4-light.svg) | | |[file-mp4-light](#file-mp4-light)|
-|![file-mp4-regular](icons/telefonica/regular/file-mp4-regular.svg) | | |[file-mp4-regular](#file-mp4-regular)|
-|![file-music-filled](icons/telefonica/filled/file-music-filled.svg) | | |[file-music-filled](#file-music-filled)|
-|![file-music-light](icons/telefonica/light/file-music-light.svg) | | |[file-music-light](#file-music-light)|
-|![file-music-regular](icons/telefonica/regular/file-music-regular.svg) | | |[file-music-regular](#file-music-regular)|
-|![file-ok-filled](icons/telefonica/filled/file-ok-filled.svg) | | |[file-ok-filled](#file-ok-filled)|
-|![file-ok-light](icons/telefonica/light/file-ok-light.svg) | | |[file-ok-light](#file-ok-light)|
-|![file-ok-regular](icons/telefonica/regular/file-ok-regular.svg) | | |[file-ok-regular](#file-ok-regular)|
-|![file-pdf-filled](icons/telefonica/filled/file-pdf-filled.svg) | | |[file-pdf-filled](#file-pdf-filled)|
-|![file-pdf-light](icons/telefonica/light/file-pdf-light.svg) | | |[file-pdf-light](#file-pdf-light)|
-|![file-pdf-regular](icons/telefonica/regular/file-pdf-regular.svg) | | |[file-pdf-regular](#file-pdf-regular)|
-|![file-png-filled](icons/telefonica/filled/file-png-filled.svg) | | |[file-png-filled](#file-png-filled)|
-|![file-png-light](icons/telefonica/light/file-png-light.svg) | | |[file-png-light](#file-png-light)|
-|![file-png-regular](icons/telefonica/regular/file-png-regular.svg) | | |[file-png-regular](#file-png-regular)|
-|![file-ppt-filled](icons/telefonica/filled/file-ppt-filled.svg) | | |[file-ppt-filled](#file-ppt-filled)|
-|![file-ppt-light](icons/telefonica/light/file-ppt-light.svg) | | |[file-ppt-light](#file-ppt-light)|
-|![file-ppt-regular](icons/telefonica/regular/file-ppt-regular.svg) | | |[file-ppt-regular](#file-ppt-regular)|
-|![file-psd-filled](icons/telefonica/filled/file-psd-filled.svg) | | |[file-psd-filled](#file-psd-filled)|
-|![file-psd-light](icons/telefonica/light/file-psd-light.svg) | | |[file-psd-light](#file-psd-light)|
-|![file-psd-regular](icons/telefonica/regular/file-psd-regular.svg) | | |[file-psd-regular](#file-psd-regular)|
-|![file-sketch-filled](icons/telefonica/filled/file-sketch-filled.svg) | | |[file-sketch-filled](#file-sketch-filled)|
-|![file-sketch-light](icons/telefonica/light/file-sketch-light.svg) | | |[file-sketch-light](#file-sketch-light)|
-|![file-sketch-regular](icons/telefonica/regular/file-sketch-regular.svg) | | |[file-sketch-regular](#file-sketch-regular)|
-|![file-zip-filled](icons/telefonica/filled/file-zip-filled.svg) | | |[file-zip-filled](#file-zip-filled)|
-|![file-zip-light](icons/telefonica/light/file-zip-light.svg) | | |[file-zip-light](#file-zip-light)|
-|![file-zip-regular](icons/telefonica/regular/file-zip-regular.svg) | | |[file-zip-regular](#file-zip-regular)|
-|![files-digital-filled](icons/telefonica/filled/files-digital-filled.svg) | | |[files-digital-filled](#files-digital-filled)|
-|![files-digital-light](icons/telefonica/light/files-digital-light.svg) | | |[files-digital-light](#files-digital-light)|
-|![files-digital-regular](icons/telefonica/regular/files-digital-regular.svg) | | |[files-digital-regular](#files-digital-regular)|
-| | |![find-store-filled](icons/o2/filled/find-store-filled.svg) |[find-store-filled](#find-store-filled)|
-| | |![find-store-light](icons/o2/light/find-store-light.svg) |[find-store-light](#find-store-light)|
-| | |![find-store-regular](icons/o2/regular/find-store-regular.svg) |[find-store-regular](#find-store-regular)|
-|![fingerprint-filled](icons/telefonica/filled/fingerprint-filled.svg) | | |[fingerprint-filled](#fingerprint-filled)|
-|![fingerprint-regular](icons/telefonica/regular/fingerprint-regular.svg) | | |[fingerprint-regular](#fingerprint-regular)|
-|![fire-filled](icons/telefonica/filled/fire-filled.svg) | | |[fire-filled](#fire-filled)|
-|![fire-light](icons/telefonica/light/fire-light.svg) | | |[fire-light](#fire-light)|
-|![fire-regular](icons/telefonica/regular/fire-regular.svg) | | |[fire-regular](#fire-regular)|
-|![firewall-filled](icons/telefonica/filled/firewall-filled.svg) | |![firewall-filled](icons/o2/filled/firewall-filled.svg) |[firewall-filled](#firewall-filled)|
-|![firewall-light](icons/telefonica/light/firewall-light.svg) | |![firewall-light](icons/o2/light/firewall-light.svg) |[firewall-light](#firewall-light)|
-|![firewall-regular](icons/telefonica/regular/firewall-regular.svg) | |![firewall-regular](icons/o2/regular/firewall-regular.svg) |[firewall-regular](#firewall-regular)|
-|![first-aid-kit-filled](icons/telefonica/filled/first-aid-kit-filled.svg) | | |[first-aid-kit-filled](#first-aid-kit-filled)|
-|![first-aid-kit-light](icons/telefonica/light/first-aid-kit-light.svg) | | |[first-aid-kit-light](#first-aid-kit-light)|
-|![first-aid-kit-regular](icons/telefonica/regular/first-aid-kit-regular.svg) | | |[first-aid-kit-regular](#first-aid-kit-regular)|
-| | |![fixed-internet-filled](icons/o2/filled/fixed-internet-filled.svg) |[fixed-internet-filled](#fixed-internet-filled)|
-| | |![fixed-internet-light](icons/o2/light/fixed-internet-light.svg) |[fixed-internet-light](#fixed-internet-light)|
-| | |![fixed-internet-regular](icons/o2/regular/fixed-internet-regular.svg) |[fixed-internet-regular](#fixed-internet-regular)|
-|![flag-filled](icons/telefonica/filled/flag-filled.svg) | | |[flag-filled](#flag-filled)|
-|![flag-light](icons/telefonica/light/flag-light.svg) | | |[flag-light](#flag-light)|
-|![flag-regular](icons/telefonica/regular/flag-regular.svg) |![flag-regular](icons/blau/regular/flag-regular.svg) | |[flag-regular](#flag-regular)|
-| | |![floorplan-filled](icons/o2/filled/floorplan-filled.svg) |[floorplan-filled](#floorplan-filled)|
-| | |![floorplan-light](icons/o2/light/floorplan-light.svg) |[floorplan-light](#floorplan-light)|
-| | |![floorplan-regular](icons/o2/regular/floorplan-regular.svg) |[floorplan-regular](#floorplan-regular)|
-|![flower-filled](icons/telefonica/filled/flower-filled.svg) | | |[flower-filled](#flower-filled)|
-|![flower-light](icons/telefonica/light/flower-light.svg) | | |[flower-light](#flower-light)|
-|![flower-regular](icons/telefonica/regular/flower-regular.svg) | | |[flower-regular](#flower-regular)|
-|![folder-encrypted-filled](icons/telefonica/filled/folder-encrypted-filled.svg) | | |[folder-encrypted-filled](#folder-encrypted-filled)|
-|![folder-encrypted-light](icons/telefonica/light/folder-encrypted-light.svg) | | |[folder-encrypted-light](#folder-encrypted-light)|
-|![folder-encrypted-regular](icons/telefonica/regular/folder-encrypted-regular.svg) | | |[folder-encrypted-regular](#folder-encrypted-regular)|
-|![folder-filled](icons/telefonica/filled/folder-filled.svg) | |![folder-filled](icons/o2/filled/folder-filled.svg) |[folder-filled](#folder-filled)|
-|![folder-light](icons/telefonica/light/folder-light.svg) | |![folder-light](icons/o2/light/folder-light.svg) |[folder-light](#folder-light)|
-|![folder-regular](icons/telefonica/regular/folder-regular.svg) | |![folder-regular](icons/o2/regular/folder-regular.svg) |[folder-regular](#folder-regular)|
-|![football-ball-filled](icons/telefonica/filled/football-ball-filled.svg) | |![football-ball-filled](icons/o2/filled/football-ball-filled.svg) |[football-ball-filled](#football-ball-filled)|
-|![football-ball-light](icons/telefonica/light/football-ball-light.svg) | |![football-ball-light](icons/o2/light/football-ball-light.svg) |[football-ball-light](#football-ball-light)|
-|![football-ball-regular](icons/telefonica/regular/football-ball-regular.svg) | |![football-ball-regular](icons/o2/regular/football-ball-regular.svg) |[football-ball-regular](#football-ball-regular)|
-|![fragrance-filled](icons/telefonica/filled/fragrance-filled.svg) | | |[fragrance-filled](#fragrance-filled)|
-|![fragrance-light](icons/telefonica/light/fragrance-light.svg) | | |[fragrance-light](#fragrance-light)|
-|![fragrance-regular](icons/telefonica/regular/fragrance-regular.svg) | | |[fragrance-regular](#fragrance-regular)|
-|![fullscreen-light](icons/telefonica/light/fullscreen-light.svg) | | |[fullscreen-light](#fullscreen-light)|
-|![fullscreen-regular](icons/telefonica/regular/fullscreen-regular.svg) | | |[fullscreen-regular](#fullscreen-regular)|
-| | |![funnel-filled](icons/o2/filled/funnel-filled.svg) |[funnel-filled](#funnel-filled)|
-| | |![funnel-light](icons/o2/light/funnel-light.svg) |[funnel-light](#funnel-light)|
-| | |![funnel-regular](icons/o2/regular/funnel-regular.svg) |[funnel-regular](#funnel-regular)|
-| | |![fusion-filled](icons/o2/filled/fusion-filled.svg) |[fusion-filled](#fusion-filled)|
-| | |![fusion-light](icons/o2/light/fusion-light.svg) |[fusion-light](#fusion-light)|
-| | |![fusion-regular](icons/o2/regular/fusion-regular.svg) |[fusion-regular](#fusion-regular)|
-|![garaje-filled](icons/telefonica/filled/garaje-filled.svg) | | |[garaje-filled](#garaje-filled)|
-|![garaje-light](icons/telefonica/light/garaje-light.svg) | | |[garaje-light](#garaje-light)|
-|![garaje-regular](icons/telefonica/regular/garaje-regular.svg) | | |[garaje-regular](#garaje-regular)|
-|![gas-station-filled](icons/telefonica/filled/gas-station-filled.svg) | | |[gas-station-filled](#gas-station-filled)|
-|![gas-station-light](icons/telefonica/light/gas-station-light.svg) | | |[gas-station-light](#gas-station-light)|
-|![gas-station-regular](icons/telefonica/regular/gas-station-regular.svg) | | |[gas-station-regular](#gas-station-regular)|
-|![gift-filled](icons/telefonica/filled/gift-filled.svg) | |![gift-filled](icons/o2/filled/gift-filled.svg) |[gift-filled](#gift-filled)|
-|![gift-light](icons/telefonica/light/gift-light.svg) | |![gift-light](icons/o2/light/gift-light.svg) |[gift-light](#gift-light)|
-|![gift-regular](icons/telefonica/regular/gift-regular.svg) | |![gift-regular](icons/o2/regular/gift-regular.svg) |[gift-regular](#gift-regular)|
-|![group-filled](icons/telefonica/filled/group-filled.svg) | | |[group-filled](#group-filled)|
-|![group-light](icons/telefonica/light/group-light.svg) | | |[group-light](#group-light)|
-|![group-regular](icons/telefonica/regular/group-regular.svg) | | |[group-regular](#group-regular)|
-| | |![guarantee-filled](icons/o2/filled/guarantee-filled.svg) |[guarantee-filled](#guarantee-filled)|
-| | |![guarantee-light](icons/o2/light/guarantee-light.svg) |[guarantee-light](#guarantee-light)|
-| | |![guarantee-regular](icons/o2/regular/guarantee-regular.svg) |[guarantee-regular](#guarantee-regular)|
-| | |![guru-filled](icons/o2/filled/guru-filled.svg) |[guru-filled](#guru-filled)|
-| | |![guru-light](icons/o2/light/guru-light.svg) |[guru-light](#guru-light)|
-| | |![guru-regular](icons/o2/regular/guru-regular.svg) |[guru-regular](#guru-regular)|
-|![hamburguer-filled](icons/telefonica/filled/hamburguer-filled.svg) | | |[hamburguer-filled](#hamburguer-filled)|
-|![hamburguer-light](icons/telefonica/light/hamburguer-light.svg) | | |[hamburguer-light](#hamburguer-light)|
-|![hamburguer-regular](icons/telefonica/regular/hamburguer-regular.svg) | | |[hamburguer-regular](#hamburguer-regular)|
-| | |![hand-connected-filled](icons/o2/filled/hand-connected-filled.svg) |[hand-connected-filled](#hand-connected-filled)|
-| | |![hand-connected-light](icons/o2/light/hand-connected-light.svg) |[hand-connected-light](#hand-connected-light)|
-| | |![hand-connected-regular](icons/o2/regular/hand-connected-regular.svg) |[hand-connected-regular](#hand-connected-regular)|
-|![hand-down-filled](icons/telefonica/filled/hand-down-filled.svg) | | |[hand-down-filled](#hand-down-filled)|
-|![hand-down-light](icons/telefonica/light/hand-down-light.svg) | | |[hand-down-light](#hand-down-light)|
-|![hand-down-regular](icons/telefonica/regular/hand-down-regular.svg) | | |[hand-down-regular](#hand-down-regular)|
-| | |![hand-free-filled](icons/o2/filled/hand-free-filled.svg) |[hand-free-filled](#hand-free-filled)|
-| | |![hand-free-light](icons/o2/light/hand-free-light.svg) |[hand-free-light](#hand-free-light)|
-| | |![hand-free-regular](icons/o2/regular/hand-free-regular.svg) |[hand-free-regular](#hand-free-regular)|
-|![hand-left-filled](icons/telefonica/filled/hand-left-filled.svg) | | |[hand-left-filled](#hand-left-filled)|
-|![hand-left-light](icons/telefonica/light/hand-left-light.svg) | | |[hand-left-light](#hand-left-light)|
-|![hand-left-regular](icons/telefonica/regular/hand-left-regular.svg) | | |[hand-left-regular](#hand-left-regular)|
-|![hand-right-filled](icons/telefonica/filled/hand-right-filled.svg) | | |[hand-right-filled](#hand-right-filled)|
-|![hand-right-light](icons/telefonica/light/hand-right-light.svg) | | |[hand-right-light](#hand-right-light)|
-|![hand-right-regular](icons/telefonica/regular/hand-right-regular.svg) | | |[hand-right-regular](#hand-right-regular)|
-| | |![hand-snap-filled](icons/o2/filled/hand-snap-filled.svg) |[hand-snap-filled](#hand-snap-filled)|
-| | |![hand-snap-light](icons/o2/light/hand-snap-light.svg) |[hand-snap-light](#hand-snap-light)|
-| | |![hand-snap-regular](icons/o2/regular/hand-snap-regular.svg) |[hand-snap-regular](#hand-snap-regular)|
-|![hand-up-filled](icons/telefonica/filled/hand-up-filled.svg) | | |[hand-up-filled](#hand-up-filled)|
-|![hand-up-light](icons/telefonica/light/hand-up-light.svg) | | |[hand-up-light](#hand-up-light)|
-|![hand-up-regular](icons/telefonica/regular/hand-up-regular.svg) | | |[hand-up-regular](#hand-up-regular)|
-|![hard-disk-filled](icons/telefonica/filled/hard-disk-filled.svg) | | |[hard-disk-filled](#hard-disk-filled)|
-|![hard-disk-light](icons/telefonica/light/hard-disk-light.svg) | | |[hard-disk-light](#hard-disk-light)|
-|![hard-disk-regular](icons/telefonica/regular/hard-disk-regular.svg) | | |[hard-disk-regular](#hard-disk-regular)|
-| | |![hd-filled](icons/o2/filled/hd-filled.svg) |[hd-filled](#hd-filled)|
-| | |![hd-light](icons/o2/light/hd-light.svg) |[hd-light](#hd-light)|
-| | |![hd-regular](icons/o2/regular/hd-regular.svg) |[hd-regular](#hd-regular)|
-| | |![headphone-bluetooth-filled](icons/o2/filled/headphone-bluetooth-filled.svg) |[headphone-bluetooth-filled](#headphone-bluetooth-filled)|
-| | |![headphone-bluetooth-light](icons/o2/light/headphone-bluetooth-light.svg) |[headphone-bluetooth-light](#headphone-bluetooth-light)|
-| | |![headphone-bluetooth-regular](icons/o2/regular/headphone-bluetooth-regular.svg) |[headphone-bluetooth-regular](#headphone-bluetooth-regular)|
-|![headphones-filled](icons/telefonica/filled/headphones-filled.svg) | |![headphones-filled](icons/o2/filled/headphones-filled.svg) |[headphones-filled](#headphones-filled)|
-|![headphones-light](icons/telefonica/light/headphones-light.svg) | |![headphones-light](icons/o2/light/headphones-light.svg) |[headphones-light](#headphones-light)|
-|![headphones-regular](icons/telefonica/regular/headphones-regular.svg) | |![headphones-regular](icons/o2/regular/headphones-regular.svg) |[headphones-regular](#headphones-regular)|
-|![heart-bubble-filled](icons/telefonica/filled/heart-bubble-filled.svg) | | |[heart-bubble-filled](#heart-bubble-filled)|
-|![heart-bubble-light](icons/telefonica/light/heart-bubble-light.svg) | | |[heart-bubble-light](#heart-bubble-light)|
-|![heart-bubble-regular](icons/telefonica/regular/heart-bubble-regular.svg) | | |[heart-bubble-regular](#heart-bubble-regular)|
-|![heart-filled](icons/telefonica/filled/heart-filled.svg) | |![heart-filled](icons/o2/filled/heart-filled.svg) |[heart-filled](#heart-filled)|
-|![heart-light](icons/telefonica/light/heart-light.svg) | |![heart-light](icons/o2/light/heart-light.svg) |[heart-light](#heart-light)|
-|![heart-regular](icons/telefonica/regular/heart-regular.svg) | |![heart-regular](icons/o2/regular/heart-regular.svg) |[heart-regular](#heart-regular)|
-| | |![hockey-filled](icons/o2/filled/hockey-filled.svg) |[hockey-filled](#hockey-filled)|
-| | |![hockey-light](icons/o2/light/hockey-light.svg) |[hockey-light](#hockey-light)|
-| | |![hockey-regular](icons/o2/regular/hockey-regular.svg) |[hockey-regular](#hockey-regular)|
-|![home-filled](icons/telefonica/filled/home-filled.svg) | |![home-filled](icons/o2/filled/home-filled.svg) |[home-filled](#home-filled)|
-|![home-light](icons/telefonica/light/home-light.svg) | |![home-light](icons/o2/light/home-light.svg) |[home-light](#home-light)|
-|![home-regular](icons/telefonica/regular/home-regular.svg) |![home-regular](icons/blau/regular/home-regular.svg) |![home-regular](icons/o2/regular/home-regular.svg) |[home-regular](#home-regular)|
-|![home-wifi-filled](icons/telefonica/filled/home-wifi-filled.svg) | | |[home-wifi-filled](#home-wifi-filled)|
-|![home-wifi-light](icons/telefonica/light/home-wifi-light.svg) | | |[home-wifi-light](#home-wifi-light)|
-|![home-wifi-regular](icons/telefonica/regular/home-wifi-regular.svg) | | |[home-wifi-regular](#home-wifi-regular)|
-| | |![homespot-filled](icons/o2/filled/homespot-filled.svg) |[homespot-filled](#homespot-filled)|
-| | |![homespot-light](icons/o2/light/homespot-light.svg) |[homespot-light](#homespot-light)|
-| | |![homespot-regular](icons/o2/regular/homespot-regular.svg) |[homespot-regular](#homespot-regular)|
-|![hospital-filled](icons/telefonica/filled/hospital-filled.svg) | | |[hospital-filled](#hospital-filled)|
-|![hospital-light](icons/telefonica/light/hospital-light.svg) | | |[hospital-light](#hospital-light)|
-|![hospital-regular](icons/telefonica/regular/hospital-regular.svg) | | |[hospital-regular](#hospital-regular)|
-|![hotel-filled](icons/telefonica/filled/hotel-filled.svg) | | |[hotel-filled](#hotel-filled)|
-|![hotel-light](icons/telefonica/light/hotel-light.svg) | | |[hotel-light](#hotel-light)|
-|![hotel-regular](icons/telefonica/regular/hotel-regular.svg) | | |[hotel-regular](#hotel-regular)|
-| | |![hotline-filled](icons/o2/filled/hotline-filled.svg) |[hotline-filled](#hotline-filled)|
-| | |![hotline-light](icons/o2/light/hotline-light.svg) |[hotline-light](#hotline-light)|
-| | |![hotline-regular](icons/o2/regular/hotline-regular.svg) |[hotline-regular](#hotline-regular)|
-|![id-card-filled](icons/telefonica/filled/id-card-filled.svg) | | |[id-card-filled](#id-card-filled)|
-|![id-card-light](icons/telefonica/light/id-card-light.svg) | | |[id-card-light](#id-card-light)|
-|![id-card-regular](icons/telefonica/regular/id-card-regular.svg) | | |[id-card-regular](#id-card-regular)|
-|![image-filled](icons/telefonica/filled/image-filled.svg) | | |[image-filled](#image-filled)|
-|![image-light](icons/telefonica/light/image-light.svg) | | |[image-light](#image-light)|
-|![image-regular](icons/telefonica/regular/image-regular.svg) | | |[image-regular](#image-regular)|
-| | |![import-filled](icons/o2/filled/import-filled.svg) |[import-filled](#import-filled)|
-|![import-light](icons/telefonica/light/import-light.svg) | |![import-light](icons/o2/light/import-light.svg) |[import-light](#import-light)|
-|![import-regular](icons/telefonica/regular/import-regular.svg) | |![import-regular](icons/o2/regular/import-regular.svg) |[import-regular](#import-regular)|
-|![infinity-light](icons/telefonica/light/infinity-light.svg) | | |[infinity-light](#infinity-light)|
-|![infinity-regular](icons/telefonica/regular/infinity-regular.svg) | | |[infinity-regular](#infinity-regular)|
-|![information-regular](icons/telefonica/regular/information-regular.svg) | | |[information-regular](#information-regular)|
-|![information-user-filled](icons/telefonica/filled/information-user-filled.svg) | |![information-user-filled](icons/o2/filled/information-user-filled.svg) |[information-user-filled](#information-user-filled)|
-|![information-user-light](icons/telefonica/light/information-user-light.svg) | |![information-user-light](icons/o2/light/information-user-light.svg) |[information-user-light](#information-user-light)|
-|![information-user-regular](icons/telefonica/regular/information-user-regular.svg) |![information-user-regular](icons/blau/regular/information-user-regular.svg) |![information-user-regular](icons/o2/regular/information-user-regular.svg) |[information-user-regular](#information-user-regular)|
-| | |![internet-device-filled](icons/o2/filled/internet-device-filled.svg) |[internet-device-filled](#internet-device-filled)|
-| | |![internet-device-light](icons/o2/light/internet-device-light.svg) |[internet-device-light](#internet-device-light)|
-| | |![internet-device-regular](icons/o2/regular/internet-device-regular.svg) |[internet-device-regular](#internet-device-regular)|
-|![internet-filled](icons/telefonica/filled/internet-filled.svg) | |![internet-filled](icons/o2/filled/internet-filled.svg) |[internet-filled](#internet-filled)|
-|![internet-light](icons/telefonica/light/internet-light.svg) | |![internet-light](icons/o2/light/internet-light.svg) |[internet-light](#internet-light)|
-|![internet-pendrive-filled](icons/telefonica/filled/internet-pendrive-filled.svg) | | |[internet-pendrive-filled](#internet-pendrive-filled)|
-|![internet-pendrive-light](icons/telefonica/light/internet-pendrive-light.svg) | | |[internet-pendrive-light](#internet-pendrive-light)|
-|![internet-pendrive-regular](icons/telefonica/regular/internet-pendrive-regular.svg) | | |[internet-pendrive-regular](#internet-pendrive-regular)|
-|![internet-regular](icons/telefonica/regular/internet-regular.svg) |![internet-regular](icons/blau/regular/internet-regular.svg) |![internet-regular](icons/o2/regular/internet-regular.svg) |[internet-regular](#internet-regular)|
-|![intranet-filled](icons/telefonica/filled/intranet-filled.svg) | |![intranet-filled](icons/o2/filled/intranet-filled.svg) |[intranet-filled](#intranet-filled)|
-|![intranet-light](icons/telefonica/light/intranet-light.svg) | |![intranet-light](icons/o2/light/intranet-light.svg) |[intranet-light](#intranet-light)|
-|![intranet-regular](icons/telefonica/regular/intranet-regular.svg) | |![intranet-regular](icons/o2/regular/intranet-regular.svg) |[intranet-regular](#intranet-regular)|
-|![invoice-digital-filled](icons/telefonica/filled/invoice-digital-filled.svg) | | |[invoice-digital-filled](#invoice-digital-filled)|
-|![invoice-digital-light](icons/telefonica/light/invoice-digital-light.svg) | | |[invoice-digital-light](#invoice-digital-light)|
-|![invoice-digital-regular](icons/telefonica/regular/invoice-digital-regular.svg) | | |[invoice-digital-regular](#invoice-digital-regular)|
-| | |![invoice-euro-filled](icons/o2/filled/invoice-euro-filled.svg) |[invoice-euro-filled](#invoice-euro-filled)|
-| | |![invoice-euro-light](icons/o2/light/invoice-euro-light.svg) |[invoice-euro-light](#invoice-euro-light)|
-| | |![invoice-euro-regular](icons/o2/regular/invoice-euro-regular.svg) |[invoice-euro-regular](#invoice-euro-regular)|
-|![invoice-plan-file-filled](icons/telefonica/filled/invoice-plan-file-filled.svg) | |![invoice-plan-file-filled](icons/o2/filled/invoice-plan-file-filled.svg) |[invoice-plan-file-filled](#invoice-plan-file-filled)|
-|![invoice-plan-file-light](icons/telefonica/light/invoice-plan-file-light.svg) | |![invoice-plan-file-light](icons/o2/light/invoice-plan-file-light.svg) |[invoice-plan-file-light](#invoice-plan-file-light)|
-|![invoice-plan-file-regular](icons/telefonica/regular/invoice-plan-file-regular.svg) |![invoice-plan-file-regular](icons/blau/regular/invoice-plan-file-regular.svg) |![invoice-plan-file-regular](icons/o2/regular/invoice-plan-file-regular.svg) |[invoice-plan-file-regular](#invoice-plan-file-regular)|
-| | |![iot-sensor-co2-filled](icons/o2/filled/iot-sensor-co2-filled.svg) |[iot-sensor-co2-filled](#iot-sensor-co2-filled)|
-| | |![iot-sensor-co2-light](icons/o2/light/iot-sensor-co2-light.svg) |[iot-sensor-co2-light](#iot-sensor-co2-light)|
-| | |![iot-sensor-co2-regular](icons/o2/regular/iot-sensor-co2-regular.svg) |[iot-sensor-co2-regular](#iot-sensor-co2-regular)|
-| | |![iot-sensor-humidity-filled](icons/o2/filled/iot-sensor-humidity-filled.svg) |[iot-sensor-humidity-filled](#iot-sensor-humidity-filled)|
-| | |![iot-sensor-humidity-light](icons/o2/light/iot-sensor-humidity-light.svg) |[iot-sensor-humidity-light](#iot-sensor-humidity-light)|
-| | |![iot-sensor-humidity-regular](icons/o2/regular/iot-sensor-humidity-regular.svg) |[iot-sensor-humidity-regular](#iot-sensor-humidity-regular)|
-| | |![iot-sensor-temperature-filled](icons/o2/filled/iot-sensor-temperature-filled.svg) |[iot-sensor-temperature-filled](#iot-sensor-temperature-filled)|
-| | |![iot-sensor-temperature-light](icons/o2/light/iot-sensor-temperature-light.svg) |[iot-sensor-temperature-light](#iot-sensor-temperature-light)|
-| | |![iot-sensor-temperature-regular](icons/o2/regular/iot-sensor-temperature-regular.svg) |[iot-sensor-temperature-regular](#iot-sensor-temperature-regular)|
-|![justice-filled](icons/telefonica/filled/justice-filled.svg) | |![justice-filled](icons/o2/filled/justice-filled.svg) |[justice-filled](#justice-filled)|
-|![justice-light](icons/telefonica/light/justice-light.svg) | |![justice-light](icons/o2/light/justice-light.svg) |[justice-light](#justice-light)|
-|![justice-regular](icons/telefonica/regular/justice-regular.svg) | |![justice-regular](icons/o2/regular/justice-regular.svg) |[justice-regular](#justice-regular)|
-|![kebab-menu-light](icons/telefonica/light/kebab-menu-light.svg) | | |[kebab-menu-light](#kebab-menu-light)|
-|![key-filled](icons/telefonica/filled/key-filled.svg) | | |[key-filled](#key-filled)|
-|![key-light](icons/telefonica/light/key-light.svg) | | |[key-light](#key-light)|
-|![key-regular](icons/telefonica/regular/key-regular.svg) | | |[key-regular](#key-regular)|
-| | |![keyboard-filled](icons/o2/filled/keyboard-filled.svg) |[keyboard-filled](#keyboard-filled)|
-| | |![keyboard-light](icons/o2/light/keyboard-light.svg) |[keyboard-light](#keyboard-light)|
-| | |![keyboard-regular](icons/o2/regular/keyboard-regular.svg) |[keyboard-regular](#keyboard-regular)|
-| | |![landline-filled](icons/o2/filled/landline-filled.svg) |[landline-filled](#landline-filled)|
-| | |![landline-light](icons/o2/light/landline-light.svg) |[landline-light](#landline-light)|
-| | |![landline-regular](icons/o2/regular/landline-regular.svg) |[landline-regular](#landline-regular)|
-| | |![language-filled](icons/o2/filled/language-filled.svg) |[language-filled](#language-filled)|
-| | |![language-light](icons/o2/light/language-light.svg) |[language-light](#language-light)|
-| | |![language-regular](icons/o2/regular/language-regular.svg) |[language-regular](#language-regular)|
-|![laptop-charging-filled](icons/telefonica/filled/laptop-charging-filled.svg) | | |[laptop-charging-filled](#laptop-charging-filled)|
-|![laptop-charging-light](icons/telefonica/light/laptop-charging-light.svg) | | |[laptop-charging-light](#laptop-charging-light)|
-| | |![laptop-check-filled](icons/o2/filled/laptop-check-filled.svg) |[laptop-check-filled](#laptop-check-filled)|
-| | |![laptop-check-light](icons/o2/light/laptop-check-light.svg) |[laptop-check-light](#laptop-check-light)|
-| | |![laptop-check-regular](icons/o2/regular/laptop-check-regular.svg) |[laptop-check-regular](#laptop-check-regular)|
-| | |![laptop-filled](icons/o2/filled/laptop-filled.svg) |[laptop-filled](#laptop-filled)|
-| | |![laptop-goto-filled](icons/o2/filled/laptop-goto-filled.svg) |[laptop-goto-filled](#laptop-goto-filled)|
-| | |![laptop-goto-light](icons/o2/light/laptop-goto-light.svg) |[laptop-goto-light](#laptop-goto-light)|
-| | |![laptop-goto-regular](icons/o2/regular/laptop-goto-regular.svg) |[laptop-goto-regular](#laptop-goto-regular)|
-| | |![laptop-light](icons/o2/light/laptop-light.svg) |[laptop-light](#laptop-light)|
-|![layers-filled](icons/telefonica/filled/layers-filled.svg) | | |[layers-filled](#layers-filled)|
-|![layers-light](icons/telefonica/light/layers-light.svg) | | |[layers-light](#layers-light)|
-|![layers-regular](icons/telefonica/regular/layers-regular.svg) | | |[layers-regular](#layers-regular)|
-|![learn-data-filled](icons/telefonica/filled/learn-data-filled.svg) | | |[learn-data-filled](#learn-data-filled)|
-|![learn-data-light](icons/telefonica/light/learn-data-light.svg) | | |[learn-data-light](#learn-data-light)|
-|![learn-data-regular](icons/telefonica/regular/learn-data-regular.svg) | | |[learn-data-regular](#learn-data-regular)|
-| | |![lidar-filled](icons/o2/filled/lidar-filled.svg) |[lidar-filled](#lidar-filled)|
-| | |![lidar-light](icons/o2/light/lidar-light.svg) |[lidar-light](#lidar-light)|
-| | |![lidar-regular](icons/o2/regular/lidar-regular.svg) |[lidar-regular](#lidar-regular)|
-|![lifeguard-float-filled](icons/telefonica/filled/lifeguard-float-filled.svg) | | |[lifeguard-float-filled](#lifeguard-float-filled)|
-|![lifeguard-float-light](icons/telefonica/light/lifeguard-float-light.svg) | | |[lifeguard-float-light](#lifeguard-float-light)|
-|![lifeguard-float-regular](icons/telefonica/regular/lifeguard-float-regular.svg) | | |[lifeguard-float-regular](#lifeguard-float-regular)|
-| | |![lifts-filled](icons/o2/filled/lifts-filled.svg) |[lifts-filled](#lifts-filled)|
-| | |![lifts-light](icons/o2/light/lifts-light.svg) |[lifts-light](#lifts-light)|
-| | |![lifts-regular](icons/o2/regular/lifts-regular.svg) |[lifts-regular](#lifts-regular)|
-|![lightbulb-filled](icons/telefonica/filled/lightbulb-filled.svg) | |![lightbulb-filled](icons/o2/filled/lightbulb-filled.svg) |[lightbulb-filled](#lightbulb-filled)|
-|![lightbulb-light](icons/telefonica/light/lightbulb-light.svg) | |![lightbulb-light](icons/o2/light/lightbulb-light.svg) |[lightbulb-light](#lightbulb-light)|
-|![lightbulb-regular](icons/telefonica/regular/lightbulb-regular.svg) | |![lightbulb-regular](icons/o2/regular/lightbulb-regular.svg) |[lightbulb-regular](#lightbulb-regular)|
-|![lightning-filled](icons/telefonica/filled/lightning-filled.svg) | | |[lightning-filled](#lightning-filled)|
-|![lightning-light](icons/telefonica/light/lightning-light.svg) | | |[lightning-light](#lightning-light)|
-|![lightning-regular](icons/telefonica/regular/lightning-regular.svg) | | |[lightning-regular](#lightning-regular)|
-|![like-filled](icons/telefonica/filled/like-filled.svg) | |![like-filled](icons/o2/filled/like-filled.svg) |[like-filled](#like-filled)|
-|![like-light](icons/telefonica/light/like-light.svg) | |![like-light](icons/o2/light/like-light.svg) |[like-light](#like-light)|
-|![like-regular](icons/telefonica/regular/like-regular.svg) | |![like-regular](icons/o2/regular/like-regular.svg) |[like-regular](#like-regular)|
-|![link-filled](icons/telefonica/filled/link-filled.svg) | | |[link-filled](#link-filled)|
-|![link-regular](icons/telefonica/regular/link-regular.svg) | | |[link-regular](#link-regular)|
-|![list-document-filled](icons/telefonica/filled/list-document-filled.svg) | |![list-document-filled](icons/o2/filled/list-document-filled.svg) |[list-document-filled](#list-document-filled)|
-|![list-document-light](icons/telefonica/light/list-document-light.svg) | |![list-document-light](icons/o2/light/list-document-light.svg) |[list-document-light](#list-document-light)|
-|![list-document-regular](icons/telefonica/regular/list-document-regular.svg) | |![list-document-regular](icons/o2/regular/list-document-regular.svg) |[list-document-regular](#list-document-regular)|
-| | |![list-filled](icons/o2/filled/list-filled.svg) |[list-filled](#list-filled)|
-|![list-light](icons/telefonica/light/list-light.svg) | |![list-light](icons/o2/light/list-light.svg) |[list-light](#list-light)|
-|![list-regular](icons/telefonica/regular/list-regular.svg) | |![list-regular](icons/o2/regular/list-regular.svg) |[list-regular](#list-regular)|
-|![location-filled](icons/telefonica/filled/location-filled.svg) | |![location-filled](icons/o2/filled/location-filled.svg) |[location-filled](#location-filled)|
-|![location-light](icons/telefonica/light/location-light.svg) | |![location-light](icons/o2/light/location-light.svg) |[location-light](#location-light)|
-|![location-map-filled](icons/telefonica/filled/location-map-filled.svg) | |![location-map-filled](icons/o2/filled/location-map-filled.svg) |[location-map-filled](#location-map-filled)|
-|![location-map-light](icons/telefonica/light/location-map-light.svg) | |![location-map-light](icons/o2/light/location-map-light.svg) |[location-map-light](#location-map-light)|
-|![location-map-regular](icons/telefonica/regular/location-map-regular.svg) | |![location-map-regular](icons/o2/regular/location-map-regular.svg) |[location-map-regular](#location-map-regular)|
-|![location-regular](icons/telefonica/regular/location-regular.svg) | |![location-regular](icons/o2/regular/location-regular.svg) |[location-regular](#location-regular)|
-|![lock-closed-filled](icons/telefonica/filled/lock-closed-filled.svg) | |![lock-closed-filled](icons/o2/filled/lock-closed-filled.svg) |[lock-closed-filled](#lock-closed-filled)|
-|![lock-closed-light](icons/telefonica/light/lock-closed-light.svg) | |![lock-closed-light](icons/o2/light/lock-closed-light.svg) |[lock-closed-light](#lock-closed-light)|
-|![lock-closed-regular](icons/telefonica/regular/lock-closed-regular.svg) |![lock-closed-regular](icons/blau/regular/lock-closed-regular.svg) |![lock-closed-regular](icons/o2/regular/lock-closed-regular.svg) |[lock-closed-regular](#lock-closed-regular)|
-|![lock-de-data-filled](icons/telefonica/filled/lock-de-data-filled.svg) | | |[lock-de-data-filled](#lock-de-data-filled)|
-|![lock-de-data-light](icons/telefonica/light/lock-de-data-light.svg) | | |[lock-de-data-light](#lock-de-data-light)|
-|![lock-de-data-regular](icons/telefonica/regular/lock-de-data-regular.svg) | | |[lock-de-data-regular](#lock-de-data-regular)|
-| | |![lock-eye-closed-filled](icons/o2/filled/lock-eye-closed-filled.svg) |[lock-eye-closed-filled](#lock-eye-closed-filled)|
-| | |![lock-eye-closed-light](icons/o2/light/lock-eye-closed-light.svg) |[lock-eye-closed-light](#lock-eye-closed-light)|
-| | |![lock-eye-closed-regular](icons/o2/regular/lock-eye-closed-regular.svg) |[lock-eye-closed-regular](#lock-eye-closed-regular)|
-|![lock-open-filled](icons/telefonica/filled/lock-open-filled.svg) | |![lock-open-filled](icons/o2/filled/lock-open-filled.svg) |[lock-open-filled](#lock-open-filled)|
-|![lock-open-light](icons/telefonica/light/lock-open-light.svg) | |![lock-open-light](icons/o2/light/lock-open-light.svg) |[lock-open-light](#lock-open-light)|
-|![lock-open-regular](icons/telefonica/regular/lock-open-regular.svg) |![lock-open-regular](icons/blau/regular/lock-open-regular.svg) |![lock-open-regular](icons/o2/regular/lock-open-regular.svg) |[lock-open-regular](#lock-open-regular)|
-| | |![logout-filled](icons/o2/filled/logout-filled.svg) |[logout-filled](#logout-filled)|
-| | |![logout-light](icons/o2/light/logout-light.svg) |[logout-light](#logout-light)|
-|![logout-regular](icons/telefonica/regular/logout-regular.svg) |![logout-regular](icons/blau/regular/logout-regular.svg) |![logout-regular](icons/o2/regular/logout-regular.svg) |[logout-regular](#logout-regular)|
-|![long-distance-call-filled](icons/telefonica/filled/long-distance-call-filled.svg) | | |[long-distance-call-filled](#long-distance-call-filled)|
-|![long-distance-call-light](icons/telefonica/light/long-distance-call-light.svg) | | |[long-distance-call-light](#long-distance-call-light)|
-|![long-distance-call-regular](icons/telefonica/regular/long-distance-call-regular.svg) | | |[long-distance-call-regular](#long-distance-call-regular)|
-|![loss-theft-devices-filled](icons/telefonica/filled/loss-theft-devices-filled.svg) | | |[loss-theft-devices-filled](#loss-theft-devices-filled)|
-|![loss-theft-devices-light](icons/telefonica/light/loss-theft-devices-light.svg) | | |[loss-theft-devices-light](#loss-theft-devices-light)|
-|![loss-theft-devices-regular](icons/telefonica/regular/loss-theft-devices-regular.svg) | | |[loss-theft-devices-regular](#loss-theft-devices-regular)|
-| | |![lost-found-filled](icons/o2/filled/lost-found-filled.svg) |[lost-found-filled](#lost-found-filled)|
-| | |![lost-found-light](icons/o2/light/lost-found-light.svg) |[lost-found-light](#lost-found-light)|
-| | |![lost-found-regular](icons/o2/regular/lost-found-regular.svg) |[lost-found-regular](#lost-found-regular)|
-|![loudspeaker-filled](icons/telefonica/filled/loudspeaker-filled.svg) | | |[loudspeaker-filled](#loudspeaker-filled)|
-|![loudspeaker-light](icons/telefonica/light/loudspeaker-light.svg) | | |[loudspeaker-light](#loudspeaker-light)|
-|![loudspeaker-regular](icons/telefonica/regular/loudspeaker-regular.svg) | | |[loudspeaker-regular](#loudspeaker-regular)|
-|![lungs-filled](icons/telefonica/filled/lungs-filled.svg) | | |[lungs-filled](#lungs-filled)|
-|![lungs-light](icons/telefonica/light/lungs-light.svg) | | |[lungs-light](#lungs-light)|
-|![lungs-regular](icons/telefonica/regular/lungs-regular.svg) | | |[lungs-regular](#lungs-regular)|
-| | |![managed-lan-filled](icons/o2/filled/managed-lan-filled.svg) |[managed-lan-filled](#managed-lan-filled)|
-| | |![managed-lan-light](icons/o2/light/managed-lan-light.svg) |[managed-lan-light](#managed-lan-light)|
-| | |![managed-lan-regular](icons/o2/regular/managed-lan-regular.svg) |[managed-lan-regular](#managed-lan-regular)|
-|![map-filled](icons/telefonica/filled/map-filled.svg) | | |[map-filled](#map-filled)|
-|![map-light](icons/telefonica/light/map-light.svg) | | |[map-light](#map-light)|
-|![map-regular](icons/telefonica/regular/map-regular.svg) | | |[map-regular](#map-regular)|
-| | |![mast-filled](icons/o2/filled/mast-filled.svg) |[mast-filled](#mast-filled)|
-| | |![mast-light](icons/o2/light/mast-light.svg) |[mast-light](#mast-light)|
-| | |![mast-regular](icons/o2/regular/mast-regular.svg) |[mast-regular](#mast-regular)|
-|![medical-history-filled](icons/telefonica/filled/medical-history-filled.svg) | |![medical-history-filled](icons/o2/filled/medical-history-filled.svg) |[medical-history-filled](#medical-history-filled)|
-|![medical-history-light](icons/telefonica/light/medical-history-light.svg) | |![medical-history-light](icons/o2/light/medical-history-light.svg) |[medical-history-light](#medical-history-light)|
-|![medical-history-regular](icons/telefonica/regular/medical-history-regular.svg) | |![medical-history-regular](icons/o2/regular/medical-history-regular.svg) |[medical-history-regular](#medical-history-regular)|
-|![menu-light](icons/telefonica/light/menu-light.svg) | | |[menu-light](#menu-light)|
-|![menu-regular](icons/telefonica/regular/menu-regular.svg) | | |[menu-regular](#menu-regular)|
-|![microchip-filled](icons/telefonica/filled/microchip-filled.svg) | | |[microchip-filled](#microchip-filled)|
-|![microchip-light](icons/telefonica/light/microchip-light.svg) | | |[microchip-light](#microchip-light)|
-|![microchip-regular](icons/telefonica/regular/microchip-regular.svg) | | |[microchip-regular](#microchip-regular)|
-|![microphone-filled](icons/telefonica/filled/microphone-filled.svg) | |![microphone-filled](icons/o2/filled/microphone-filled.svg) |[microphone-filled](#microphone-filled)|
-|![microphone-light](icons/telefonica/light/microphone-light.svg) | |![microphone-light](icons/o2/light/microphone-light.svg) |[microphone-light](#microphone-light)|
-|![microphone-regular](icons/telefonica/regular/microphone-regular.svg) | |![microphone-regular](icons/o2/regular/microphone-regular.svg) |[microphone-regular](#microphone-regular)|
-|![millenials-filled](icons/telefonica/filled/millenials-filled.svg) | |![millenials-filled](icons/o2/filled/millenials-filled.svg) |[millenials-filled](#millenials-filled)|
-|![millenials-light](icons/telefonica/light/millenials-light.svg) | |![millenials-light](icons/o2/light/millenials-light.svg) |[millenials-light](#millenials-light)|
-|![millenials-regular](icons/telefonica/regular/millenials-regular.svg) | |![millenials-regular](icons/o2/regular/millenials-regular.svg) |[millenials-regular](#millenials-regular)|
-| | |![mobile-add-user-filled](icons/o2/filled/mobile-add-user-filled.svg) |[mobile-add-user-filled](#mobile-add-user-filled)|
-| | |![mobile-add-user-light](icons/o2/light/mobile-add-user-light.svg) |[mobile-add-user-light](#mobile-add-user-light)|
-| | |![mobile-add-user-regular](icons/o2/regular/mobile-add-user-regular.svg) |[mobile-add-user-regular](#mobile-add-user-regular)|
-| | |![mobile-coverage-filled](icons/o2/filled/mobile-coverage-filled.svg) |[mobile-coverage-filled](#mobile-coverage-filled)|
-| | |![mobile-coverage-light](icons/o2/light/mobile-coverage-light.svg) |[mobile-coverage-light](#mobile-coverage-light)|
-| | |![mobile-coverage-regular](icons/o2/regular/mobile-coverage-regular.svg) |[mobile-coverage-regular](#mobile-coverage-regular)|
-|![mobile-device-filled](icons/telefonica/filled/mobile-device-filled.svg) | |![mobile-device-filled](icons/o2/filled/mobile-device-filled.svg) |[mobile-device-filled](#mobile-device-filled)|
-|![mobile-device-light](icons/telefonica/light/mobile-device-light.svg) | |![mobile-device-light](icons/o2/light/mobile-device-light.svg) |[mobile-device-light](#mobile-device-light)|
-|![mobile-device-regular](icons/telefonica/regular/mobile-device-regular.svg) |![mobile-device-regular](icons/blau/regular/mobile-device-regular.svg) |![mobile-device-regular](icons/o2/regular/mobile-device-regular.svg) |[mobile-device-regular](#mobile-device-regular)|
-| | |![mobile-euro-filled](icons/o2/filled/mobile-euro-filled.svg) |[mobile-euro-filled](#mobile-euro-filled)|
-| | |![mobile-euro-light](icons/o2/light/mobile-euro-light.svg) |[mobile-euro-light](#mobile-euro-light)|
-| | |![mobile-euro-regular](icons/o2/regular/mobile-euro-regular.svg) |[mobile-euro-regular](#mobile-euro-regular)|
-|![mobile-pause-filled](icons/telefonica/filled/mobile-pause-filled.svg) | | |[mobile-pause-filled](#mobile-pause-filled)|
-|![mobile-pause-light](icons/telefonica/light/mobile-pause-light.svg) | | |[mobile-pause-light](#mobile-pause-light)|
-|![mobile-pause-regular](icons/telefonica/regular/mobile-pause-regular.svg) | | |[mobile-pause-regular](#mobile-pause-regular)|
-|![mobile-play-filled](icons/telefonica/filled/mobile-play-filled.svg) | | |[mobile-play-filled](#mobile-play-filled)|
-|![mobile-play-light](icons/telefonica/light/mobile-play-light.svg) | | |[mobile-play-light](#mobile-play-light)|
-|![mobile-play-regular](icons/telefonica/regular/mobile-play-regular.svg) | | |[mobile-play-regular](#mobile-play-regular)|
-|![mobile-question-filled](icons/telefonica/filled/mobile-question-filled.svg) | | |[mobile-question-filled](#mobile-question-filled)|
-|![mobile-question-light](icons/telefonica/light/mobile-question-light.svg) | | |[mobile-question-light](#mobile-question-light)|
-|![mobile-question-regular](icons/telefonica/regular/mobile-question-regular.svg) | | |[mobile-question-regular](#mobile-question-regular)|
-| | |![mobile-shield-filled](icons/o2/filled/mobile-shield-filled.svg) |[mobile-shield-filled](#mobile-shield-filled)|
-| | |![mobile-shield-light](icons/o2/light/mobile-shield-light.svg) |[mobile-shield-light](#mobile-shield-light)|
-| | |![mobile-shield-regular](icons/o2/regular/mobile-shield-regular.svg) |[mobile-shield-regular](#mobile-shield-regular)|
-| | |![mobile-usage-filled](icons/o2/filled/mobile-usage-filled.svg) |[mobile-usage-filled](#mobile-usage-filled)|
-| | |![mobile-usage-light](icons/o2/light/mobile-usage-light.svg) |[mobile-usage-light](#mobile-usage-light)|
-| | |![mobile-usage-regular](icons/o2/regular/mobile-usage-regular.svg) |[mobile-usage-regular](#mobile-usage-regular)|
-| | |![mobile-user-filled](icons/o2/filled/mobile-user-filled.svg) |[mobile-user-filled](#mobile-user-filled)|
-| | |![mobile-user-light](icons/o2/light/mobile-user-light.svg) |[mobile-user-light](#mobile-user-light)|
-| | |![mobile-user-regular](icons/o2/regular/mobile-user-regular.svg) |[mobile-user-regular](#mobile-user-regular)|
-|![money-drop-filled](icons/telefonica/filled/money-drop-filled.svg) | | |[money-drop-filled](#money-drop-filled)|
-|![money-drop-light](icons/telefonica/light/money-drop-light.svg) | | |[money-drop-light](#money-drop-light)|
-|![money-drop-regular](icons/telefonica/regular/money-drop-regular.svg) | | |[money-drop-regular](#money-drop-regular)|
-|![money-rise-filled](icons/telefonica/filled/money-rise-filled.svg) | | |[money-rise-filled](#money-rise-filled)|
-|![money-rise-light](icons/telefonica/light/money-rise-light.svg) | | |[money-rise-light](#money-rise-light)|
-|![money-rise-regular](icons/telefonica/regular/money-rise-regular.svg) | | |[money-rise-regular](#money-rise-regular)|
-|![moon-filled](icons/telefonica/filled/moon-filled.svg) | | |[moon-filled](#moon-filled)|
-|![moon-light](icons/telefonica/light/moon-light.svg) | | |[moon-light](#moon-light)|
-|![moon-regular](icons/telefonica/regular/moon-regular.svg) | | |[moon-regular](#moon-regular)|
-|![mouse-filled](icons/telefonica/filled/mouse-filled.svg) | | |[mouse-filled](#mouse-filled)|
-|![mouse-light](icons/telefonica/light/mouse-light.svg) | | |[mouse-light](#mouse-light)|
-|![mouse-regular](icons/telefonica/regular/mouse-regular.svg) | | |[mouse-regular](#mouse-regular)|
-|![multidevice-light](icons/telefonica/light/multidevice-light.svg) | |![multidevice-light](icons/o2/light/multidevice-light.svg) |[multidevice-light](#multidevice-light)|
-| |![multidevice-regular](icons/blau/regular/multidevice-regular.svg) | |[multidevice-regular](#multidevice-regular)|
-|![multideviceo-filled](icons/telefonica/filled/multideviceo-filled.svg) | |![multideviceo-filled](icons/o2/filled/multideviceo-filled.svg) |[multideviceo-filled](#multideviceo-filled)|
-|![multideviceo-regular](icons/telefonica/regular/multideviceo-regular.svg) | |![multideviceo-regular](icons/o2/regular/multideviceo-regular.svg) |[multideviceo-regular](#multideviceo-regular)|
-| | |![multisave-filled](icons/o2/filled/multisave-filled.svg) |[multisave-filled](#multisave-filled)|
-| | |![multisave-light](icons/o2/light/multisave-light.svg) |[multisave-light](#multisave-light)|
-| | |![multisave-regular](icons/o2/regular/multisave-regular.svg) |[multisave-regular](#multisave-regular)|
-| | |![multisim-filled](icons/o2/filled/multisim-filled.svg) |[multisim-filled](#multisim-filled)|
-| | |![multisim-light](icons/o2/light/multisim-light.svg) |[multisim-light](#multisim-light)|
-| | |![multisim-regular](icons/o2/regular/multisim-regular.svg) |[multisim-regular](#multisim-regular)|
-|![museum-filled](icons/telefonica/filled/museum-filled.svg) | | |[museum-filled](#museum-filled)|
-|![museum-light](icons/telefonica/light/museum-light.svg) | | |[museum-light](#museum-light)|
-|![museum-regular](icons/telefonica/regular/museum-regular.svg) | | |[museum-regular](#museum-regular)|
-|![music-filled](icons/telefonica/filled/music-filled.svg) | |![music-filled](icons/o2/filled/music-filled.svg) |[music-filled](#music-filled)|
-|![music-light](icons/telefonica/light/music-light.svg) | |![music-light](icons/o2/light/music-light.svg) |[music-light](#music-light)|
-|![music-regular](icons/telefonica/regular/music-regular.svg) | |![music-regular](icons/o2/regular/music-regular.svg) |[music-regular](#music-regular)|
-| | |![mute-filled](icons/o2/filled/mute-filled.svg) |[mute-filled](#mute-filled)|
-| | |![mute-light](icons/o2/light/mute-light.svg) |[mute-light](#mute-light)|
-| | |![mute-regular](icons/o2/regular/mute-regular.svg) |[mute-regular](#mute-regular)|
-| | |![network-hotspot-filled](icons/o2/filled/network-hotspot-filled.svg) |[network-hotspot-filled](#network-hotspot-filled)|
-| | |![network-hotspot-light](icons/o2/light/network-hotspot-light.svg) |[network-hotspot-light](#network-hotspot-light)|
-| | |![network-hotspot-regular](icons/o2/regular/network-hotspot-regular.svg) |[network-hotspot-regular](#network-hotspot-regular)|
-|![neural-network-filled](icons/telefonica/filled/neural-network-filled.svg) | | |[neural-network-filled](#neural-network-filled)|
-|![neural-network-human-filled](icons/telefonica/filled/neural-network-human-filled.svg) | | |[neural-network-human-filled](#neural-network-human-filled)|
-|![neural-network-human-regular](icons/telefonica/regular/neural-network-human-regular.svg) | | |[neural-network-human-regular](#neural-network-human-regular)|
-|![neural-network-light](icons/telefonica/light/neural-network-light.svg) | | |[neural-network-light](#neural-network-light)|
-|![neural-network-regular](icons/telefonica/regular/neural-network-regular.svg) | | |[neural-network-regular](#neural-network-regular)|
-| | |![newsletter-filled](icons/o2/filled/newsletter-filled.svg) |[newsletter-filled](#newsletter-filled)|
-| | |![newsletter-light](icons/o2/light/newsletter-light.svg) |[newsletter-light](#newsletter-light)|
-| | |![newsletter-regular](icons/o2/regular/newsletter-regular.svg) |[newsletter-regular](#newsletter-regular)|
-| | |![no-hidden-bills-filled](icons/o2/filled/no-hidden-bills-filled.svg) |[no-hidden-bills-filled](#no-hidden-bills-filled)|
-| | |![no-hidden-bills-light](icons/o2/light/no-hidden-bills-light.svg) |[no-hidden-bills-light](#no-hidden-bills-light)|
-| | |![no-hidden-bills-regular](icons/o2/regular/no-hidden-bills-regular.svg) |[no-hidden-bills-regular](#no-hidden-bills-regular)|
-| | |![non-binary-toilet-filled](icons/o2/filled/non-binary-toilet-filled.svg) |[non-binary-toilet-filled](#non-binary-toilet-filled)|
-| | |![non-binary-toilet-light](icons/o2/light/non-binary-toilet-light.svg) |[non-binary-toilet-light](#non-binary-toilet-light)|
-| | |![non-binary-toilet-regular](icons/o2/regular/non-binary-toilet-regular.svg) |[non-binary-toilet-regular](#non-binary-toilet-regular)|
-|![not-conexion-filled](icons/telefonica/filled/not-conexion-filled.svg) | | |[not-conexion-filled](#not-conexion-filled)|
-|![not-conexion-light](icons/telefonica/light/not-conexion-light.svg) | | |[not-conexion-light](#not-conexion-light)|
-|![not-conexion-regular](icons/telefonica/regular/not-conexion-regular.svg) | | |[not-conexion-regular](#not-conexion-regular)|
-|![notes-filled](icons/telefonica/filled/notes-filled.svg) | | |[notes-filled](#notes-filled)|
-|![notes-light](icons/telefonica/light/notes-light.svg) | | |[notes-light](#notes-light)|
-|![notes-regular](icons/telefonica/regular/notes-regular.svg) | | |[notes-regular](#notes-regular)|
-|![numeric-keypad-filled](icons/telefonica/filled/numeric-keypad-filled.svg) | | |[numeric-keypad-filled](#numeric-keypad-filled)|
-|![numeric-keypad-light](icons/telefonica/light/numeric-keypad-light.svg) | | |[numeric-keypad-light](#numeric-keypad-light)|
-|![numeric-keypad-regular](icons/telefonica/regular/numeric-keypad-regular.svg) |![numeric-keypad-regular](icons/blau/regular/numeric-keypad-regular.svg) | |[numeric-keypad-regular](#numeric-keypad-regular)|
-| | |![offer-euro-filled](icons/o2/filled/offer-euro-filled.svg) |[offer-euro-filled](#offer-euro-filled)|
-| | |![offer-euro-light](icons/o2/light/offer-euro-light.svg) |[offer-euro-light](#offer-euro-light)|
-| | |![offer-euro-regular](icons/o2/regular/offer-euro-regular.svg) |[offer-euro-regular](#offer-euro-regular)|
-|![offer-filled](icons/telefonica/filled/offer-filled.svg) | |![offer-filled](icons/o2/filled/offer-filled.svg) |[offer-filled](#offer-filled)|
-|![offer-light](icons/telefonica/light/offer-light.svg) | |![offer-light](icons/o2/light/offer-light.svg) |[offer-light](#offer-light)|
-|![offer-percent-filled](icons/telefonica/filled/offer-percent-filled.svg) | |![offer-percent-filled](icons/o2/filled/offer-percent-filled.svg) |[offer-percent-filled](#offer-percent-filled)|
-|![offer-percent-light](icons/telefonica/light/offer-percent-light.svg) | |![offer-percent-light](icons/o2/light/offer-percent-light.svg) |[offer-percent-light](#offer-percent-light)|
-|![offer-percent-regular](icons/telefonica/regular/offer-percent-regular.svg) | |![offer-percent-regular](icons/o2/regular/offer-percent-regular.svg) |[offer-percent-regular](#offer-percent-regular)|
-| | |![offer-pound-filled](icons/o2/filled/offer-pound-filled.svg) |[offer-pound-filled](#offer-pound-filled)|
-| | |![offer-pound-light](icons/o2/light/offer-pound-light.svg) |[offer-pound-light](#offer-pound-light)|
-| | |![offer-pound-regular](icons/o2/regular/offer-pound-regular.svg) |[offer-pound-regular](#offer-pound-regular)|
-|![offer-regular](icons/telefonica/regular/offer-regular.svg) | |![offer-regular](icons/o2/regular/offer-regular.svg) |[offer-regular](#offer-regular)|
-| | |![office-filled](icons/o2/filled/office-filled.svg) |[office-filled](#office-filled)|
-| | |![office-light](icons/o2/light/office-light.svg) |[office-light](#office-light)|
-| | |![office-regular](icons/o2/regular/office-regular.svg) |[office-regular](#office-regular)|
-|![on-filled](icons/telefonica/filled/on-filled.svg) | | |[on-filled](#on-filled)|
-|![on-light](icons/telefonica/light/on-light.svg) | | |[on-light](#on-light)|
-|![on-regular](icons/telefonica/regular/on-regular.svg) | | |[on-regular](#on-regular)|
-|![online-offer-filled](icons/telefonica/filled/online-offer-filled.svg) | | |[online-offer-filled](#online-offer-filled)|
-|![online-offer-light](icons/telefonica/light/online-offer-light.svg) | | |[online-offer-light](#online-offer-light)|
-|![online-offer-regular](icons/telefonica/regular/online-offer-regular.svg) | | |[online-offer-regular](#online-offer-regular)|
-|![online-reload-filled](icons/telefonica/filled/online-reload-filled.svg) | | |[online-reload-filled](#online-reload-filled)|
-|![online-reload-light](icons/telefonica/light/online-reload-light.svg) | | |[online-reload-light](#online-reload-light)|
-|![online-reload-regular](icons/telefonica/regular/online-reload-regular.svg) | | |[online-reload-regular](#online-reload-regular)|
-|![open-email-filled](icons/telefonica/filled/open-email-filled.svg) | | |[open-email-filled](#open-email-filled)|
-|![open-email-light](icons/telefonica/light/open-email-light.svg) | | |[open-email-light](#open-email-light)|
-|![open-email-regular](icons/telefonica/regular/open-email-regular.svg) | | |[open-email-regular](#open-email-regular)|
-|![open-file-filled](icons/telefonica/filled/open-file-filled.svg) | | |[open-file-filled](#open-file-filled)|
-|![open-file-light](icons/telefonica/light/open-file-light.svg) | | |[open-file-light](#open-file-light)|
-|![open-file-regular](icons/telefonica/regular/open-file-regular.svg) | | |[open-file-regular](#open-file-regular)|
-|![open-filled](icons/telefonica/filled/open-filled.svg) | | |[open-filled](#open-filled)|
-|![open-light](icons/telefonica/light/open-light.svg) | | |[open-light](#open-light)|
-|![open-regular](icons/telefonica/regular/open-regular.svg) | | |[open-regular](#open-regular)|
-|![optical-fiber-filled](icons/telefonica/filled/optical-fiber-filled.svg) | |![optical-fiber-filled](icons/o2/filled/optical-fiber-filled.svg) |[optical-fiber-filled](#optical-fiber-filled)|
-|![optical-fiber-light](icons/telefonica/light/optical-fiber-light.svg) | |![optical-fiber-light](icons/o2/light/optical-fiber-light.svg) |[optical-fiber-light](#optical-fiber-light)|
-|![optical-fiber-regular](icons/telefonica/regular/optical-fiber-regular.svg) | |![optical-fiber-regular](icons/o2/regular/optical-fiber-regular.svg) |[optical-fiber-regular](#optical-fiber-regular)|
-|![outgoing-call-filled](icons/telefonica/filled/outgoing-call-filled.svg) | | |[outgoing-call-filled](#outgoing-call-filled)|
-|![outgoing-call-light](icons/telefonica/light/outgoing-call-light.svg) | | |[outgoing-call-light](#outgoing-call-light)|
-|![outgoing-call-regular](icons/telefonica/regular/outgoing-call-regular.svg) | | |[outgoing-call-regular](#outgoing-call-regular)|
-|![pacifier-filled](icons/telefonica/filled/pacifier-filled.svg) | | |[pacifier-filled](#pacifier-filled)|
-|![pacifier-light](icons/telefonica/light/pacifier-light.svg) | | |[pacifier-light](#pacifier-light)|
-|![pacifier-regular](icons/telefonica/regular/pacifier-regular.svg) | | |[pacifier-regular](#pacifier-regular)|
-|![package-trolley-filled](icons/telefonica/filled/package-trolley-filled.svg) | | |[package-trolley-filled](#package-trolley-filled)|
-|![package-trolley-light](icons/telefonica/light/package-trolley-light.svg) | | |[package-trolley-light](#package-trolley-light)|
-|![parking-filled](icons/telefonica/filled/parking-filled.svg) | |![parking-filled](icons/o2/filled/parking-filled.svg) |[parking-filled](#parking-filled)|
-|![parking-light](icons/telefonica/light/parking-light.svg) | |![parking-light](icons/o2/light/parking-light.svg) |[parking-light](#parking-light)|
-|![parking-regular](icons/telefonica/regular/parking-regular.svg) | |![parking-regular](icons/o2/regular/parking-regular.svg) |[parking-regular](#parking-regular)|
-|![pause-filled](icons/telefonica/filled/pause-filled.svg) | |![pause-filled](icons/o2/filled/pause-filled.svg) |[pause-filled](#pause-filled)|
-|![pause-light](icons/telefonica/light/pause-light.svg) | |![pause-light](icons/o2/light/pause-light.svg) |[pause-light](#pause-light)|
-|![pause-regular](icons/telefonica/regular/pause-regular.svg) | |![pause-regular](icons/o2/regular/pause-regular.svg) |[pause-regular](#pause-regular)|
-| | |![pay-as-you-go-euro-filled](icons/o2/filled/pay-as-you-go-euro-filled.svg) |[pay-as-you-go-euro-filled](#pay-as-you-go-euro-filled)|
-| | |![pay-as-you-go-euro-light](icons/o2/light/pay-as-you-go-euro-light.svg) |[pay-as-you-go-euro-light](#pay-as-you-go-euro-light)|
-| | |![pay-as-you-go-euro-regular](icons/o2/regular/pay-as-you-go-euro-regular.svg) |[pay-as-you-go-euro-regular](#pay-as-you-go-euro-regular)|
-| | |![pay-as-you-go-pound-filled](icons/o2/filled/pay-as-you-go-pound-filled.svg) |[pay-as-you-go-pound-filled](#pay-as-you-go-pound-filled)|
-| | |![pay-as-you-go-pound-light](icons/o2/light/pay-as-you-go-pound-light.svg) |[pay-as-you-go-pound-light](#pay-as-you-go-pound-light)|
-| | |![pay-as-you-go-pound-regular](icons/o2/regular/pay-as-you-go-pound-regular.svg) |[pay-as-you-go-pound-regular](#pay-as-you-go-pound-regular)|
-|![pay-invoice-filled](icons/telefonica/filled/pay-invoice-filled.svg) | |![pay-invoice-filled](icons/o2/filled/pay-invoice-filled.svg) |[pay-invoice-filled](#pay-invoice-filled)|
-|![pay-invoice-light](icons/telefonica/light/pay-invoice-light.svg) | |![pay-invoice-light](icons/o2/light/pay-invoice-light.svg) |[pay-invoice-light](#pay-invoice-light)|
-| | |![pay-invoice-pound-filled](icons/o2/filled/pay-invoice-pound-filled.svg) |[pay-invoice-pound-filled](#pay-invoice-pound-filled)|
-| | |![pay-invoice-pound-light](icons/o2/light/pay-invoice-pound-light.svg) |[pay-invoice-pound-light](#pay-invoice-pound-light)|
-| | |![pay-invoice-pound-regular](icons/o2/regular/pay-invoice-pound-regular.svg) |[pay-invoice-pound-regular](#pay-invoice-pound-regular)|
-|![pay-invoice-regular](icons/telefonica/regular/pay-invoice-regular.svg) | |![pay-invoice-regular](icons/o2/regular/pay-invoice-regular.svg) |[pay-invoice-regular](#pay-invoice-regular)|
-|![pen-filled](icons/telefonica/filled/pen-filled.svg) | |![pen-filled](icons/o2/filled/pen-filled.svg) |[pen-filled](#pen-filled)|
-|![pen-light](icons/telefonica/light/pen-light.svg) | |![pen-light](icons/o2/light/pen-light.svg) |[pen-light](#pen-light)|
-|![pen-regular](icons/telefonica/regular/pen-regular.svg) |![pen-regular](icons/blau/regular/pen-regular.svg) |![pen-regular](icons/o2/regular/pen-regular.svg) |[pen-regular](#pen-regular)|
-|![pendrive-filled](icons/telefonica/filled/pendrive-filled.svg) | | |[pendrive-filled](#pendrive-filled)|
-|![pendrive-light](icons/telefonica/light/pendrive-light.svg) | | |[pendrive-light](#pendrive-light)|
-|![pendrive-regular](icons/telefonica/regular/pendrive-regular.svg) | | |[pendrive-regular](#pendrive-regular)|
-|![people-network-filled](icons/telefonica/filled/people-network-filled.svg) | |![people-network-filled](icons/o2/filled/people-network-filled.svg) |[people-network-filled](#people-network-filled)|
-|![people-network-light](icons/telefonica/light/people-network-light.svg) | |![people-network-light](icons/o2/light/people-network-light.svg) |[people-network-light](#people-network-light)|
-|![people-network-regular](icons/telefonica/regular/people-network-regular.svg) | |![people-network-regular](icons/o2/regular/people-network-regular.svg) |[people-network-regular](#people-network-regular)|
-|![percent-filled](icons/telefonica/filled/percent-filled.svg) | | |[percent-filled](#percent-filled)|
-|![percent-light](icons/telefonica/light/percent-light.svg) | | |[percent-light](#percent-light)|
-|![percent-regular](icons/telefonica/regular/percent-regular.svg) | | |[percent-regular](#percent-regular)|
-|![person-filled](icons/telefonica/filled/person-filled.svg) | |![person-filled](icons/o2/filled/person-filled.svg) |[person-filled](#person-filled)|
-|![person-light](icons/telefonica/light/person-light.svg) | |![person-light](icons/o2/light/person-light.svg) |[person-light](#person-light)|
-|![person-regular](icons/telefonica/regular/person-regular.svg) | |![person-regular](icons/o2/regular/person-regular.svg) |[person-regular](#person-regular)|
-|![personal-computer-filled](icons/telefonica/filled/personal-computer-filled.svg) | |![personal-computer-filled](icons/o2/filled/personal-computer-filled.svg) |[personal-computer-filled](#personal-computer-filled)|
-|![personal-computer-light](icons/telefonica/light/personal-computer-light.svg) | |![personal-computer-light](icons/o2/light/personal-computer-light.svg) |[personal-computer-light](#personal-computer-light)|
-|![personal-computer-regular](icons/telefonica/regular/personal-computer-regular.svg) |![personal-computer-regular](icons/blau/regular/personal-computer-regular.svg) |![personal-computer-regular](icons/o2/regular/personal-computer-regular.svg) |[personal-computer-regular](#personal-computer-regular)|
-|![pharmacy-filled](icons/telefonica/filled/pharmacy-filled.svg) | | |[pharmacy-filled](#pharmacy-filled)|
-|![pharmacy-light](icons/telefonica/light/pharmacy-light.svg) | | |[pharmacy-light](#pharmacy-light)|
-|![pharmacy-regular](icons/telefonica/regular/pharmacy-regular.svg) | | |[pharmacy-regular](#pharmacy-regular)|
-| | |![photo-camera-filled](icons/o2/filled/photo-camera-filled.svg) |[photo-camera-filled](#photo-camera-filled)|
-| | |![photo-camera-light](icons/o2/light/photo-camera-light.svg) |[photo-camera-light](#photo-camera-light)|
-|![photo-camera-regular](icons/telefonica/regular/photo-camera-regular.svg) | |![photo-camera-regular](icons/o2/regular/photo-camera-regular.svg) |[photo-camera-regular](#photo-camera-regular)|
-|![pill-filled](icons/telefonica/filled/pill-filled.svg) | | |[pill-filled](#pill-filled)|
-|![pill-light](icons/telefonica/light/pill-light.svg) | | |[pill-light](#pill-light)|
-|![pill-regular](icons/telefonica/regular/pill-regular.svg) | | |[pill-regular](#pill-regular)|
-|![pills-filled](icons/telefonica/filled/pills-filled.svg) | | |[pills-filled](#pills-filled)|
-|![pills-light](icons/telefonica/light/pills-light.svg) | | |[pills-light](#pills-light)|
-|![pills-regular](icons/telefonica/regular/pills-regular.svg) | | |[pills-regular](#pills-regular)|
-|![pin-filled](icons/telefonica/filled/pin-filled.svg) | |![pin-filled](icons/o2/filled/pin-filled.svg) |[pin-filled](#pin-filled)|
-|![pin-light](icons/telefonica/light/pin-light.svg) | |![pin-light](icons/o2/light/pin-light.svg) |[pin-light](#pin-light)|
-|![pin-regular](icons/telefonica/regular/pin-regular.svg) | |![pin-regular](icons/o2/regular/pin-regular.svg) |[pin-regular](#pin-regular)|
-|![plane-filled](icons/telefonica/filled/plane-filled.svg) | |![plane-filled](icons/o2/filled/plane-filled.svg) |[plane-filled](#plane-filled)|
-|![plane-light](icons/telefonica/light/plane-light.svg) | |![plane-light](icons/o2/light/plane-light.svg) |[plane-light](#plane-light)|
-|![plane-regular](icons/telefonica/regular/plane-regular.svg) |![plane-regular](icons/blau/regular/plane-regular.svg) |![plane-regular](icons/o2/regular/plane-regular.svg) |[plane-regular](#plane-regular)|
-|![plant-filled](icons/telefonica/filled/plant-filled.svg) | | |[plant-filled](#plant-filled)|
-|![plant-light](icons/telefonica/light/plant-light.svg) | | |[plant-light](#plant-light)|
-|![plant-regular](icons/telefonica/regular/plant-regular.svg) | | |[plant-regular](#plant-regular)|
-|![play-filled](icons/telefonica/filled/play-filled.svg) | |![play-filled](icons/o2/filled/play-filled.svg) |[play-filled](#play-filled)|
-|![play-light](icons/telefonica/light/play-light.svg) | |![play-light](icons/o2/light/play-light.svg) |[play-light](#play-light)|
-|![play-regular](icons/telefonica/regular/play-regular.svg) | |![play-regular](icons/o2/regular/play-regular.svg) |[play-regular](#play-regular)|
-|![plug-filled](icons/telefonica/filled/plug-filled.svg) | |![plug-filled](icons/o2/filled/plug-filled.svg) |[plug-filled](#plug-filled)|
-|![plug-light](icons/telefonica/light/plug-light.svg) | |![plug-light](icons/o2/light/plug-light.svg) |[plug-light](#plug-light)|
-|![plug-regular](icons/telefonica/regular/plug-regular.svg) | |![plug-regular](icons/o2/regular/plug-regular.svg) |[plug-regular](#plug-regular)|
-|![podium-filled](icons/telefonica/filled/podium-filled.svg) | | |[podium-filled](#podium-filled)|
-|![podium-light](icons/telefonica/light/podium-light.svg) | | |[podium-light](#podium-light)|
-|![podium-regular](icons/telefonica/regular/podium-regular.svg) | | |[podium-regular](#podium-regular)|
-|![poison-filled](icons/telefonica/filled/poison-filled.svg) | | |[poison-filled](#poison-filled)|
-|![poison-light](icons/telefonica/light/poison-light.svg) | | |[poison-light](#poison-light)|
-|![poison-regular](icons/telefonica/regular/poison-regular.svg) | | |[poison-regular](#poison-regular)|
-|![portability-filled](icons/telefonica/filled/portability-filled.svg) | | |[portability-filled](#portability-filled)|
-|![portability-light](icons/telefonica/light/portability-light.svg) | | |[portability-light](#portability-light)|
-|![portability-regular](icons/telefonica/regular/portability-regular.svg) | | |[portability-regular](#portability-regular)|
-|![postpay-filled](icons/telefonica/filled/postpay-filled.svg) | | |[postpay-filled](#postpay-filled)|
-|![postpay-light](icons/telefonica/light/postpay-light.svg) | | |[postpay-light](#postpay-light)|
-|![postpay-regular](icons/telefonica/regular/postpay-regular.svg) | | |[postpay-regular](#postpay-regular)|
-|![pound-symbol-circle-filled](icons/telefonica/filled/pound-symbol-circle-filled.svg) | |![pound-symbol-circle-filled](icons/o2/filled/pound-symbol-circle-filled.svg) |[pound-symbol-circle-filled](#pound-symbol-circle-filled)|
-|![pound-symbol-circle-light](icons/telefonica/light/pound-symbol-circle-light.svg) | |![pound-symbol-circle-light](icons/o2/light/pound-symbol-circle-light.svg) |[pound-symbol-circle-light](#pound-symbol-circle-light)|
-|![pound-symbol-circle-regular](icons/telefonica/regular/pound-symbol-circle-regular.svg) | |![pound-symbol-circle-regular](icons/o2/regular/pound-symbol-circle-regular.svg) |[pound-symbol-circle-regular](#pound-symbol-circle-regular)|
-|![power-filled](icons/telefonica/filled/power-filled.svg) | |![power-filled](icons/o2/filled/power-filled.svg) |[power-filled](#power-filled)|
-|![power-light](icons/telefonica/light/power-light.svg) | |![power-light](icons/o2/light/power-light.svg) |[power-light](#power-light)|
-|![power-regular](icons/telefonica/regular/power-regular.svg) | |![power-regular](icons/o2/regular/power-regular.svg) |[power-regular](#power-regular)|
-| | |![pre-order-filled](icons/o2/filled/pre-order-filled.svg) |[pre-order-filled](#pre-order-filled)|
-| | |![pre-order-light](icons/o2/light/pre-order-light.svg) |[pre-order-light](#pre-order-light)|
-| | |![pre-order-regular](icons/o2/regular/pre-order-regular.svg) |[pre-order-regular](#pre-order-regular)|
-|![prepaid-filled](icons/telefonica/filled/prepaid-filled.svg) | |![prepaid-filled](icons/o2/filled/prepaid-filled.svg) |[prepaid-filled](#prepaid-filled)|
-|![prepaid-light](icons/telefonica/light/prepaid-light.svg) | |![prepaid-light](icons/o2/light/prepaid-light.svg) |[prepaid-light](#prepaid-light)|
-|![prepaid-regular](icons/telefonica/regular/prepaid-regular.svg) | |![prepaid-regular](icons/o2/regular/prepaid-regular.svg) |[prepaid-regular](#prepaid-regular)|
-|![presentation-filled](icons/telefonica/filled/presentation-filled.svg) | | |[presentation-filled](#presentation-filled)|
-|![presentation-light](icons/telefonica/light/presentation-light.svg) | | |[presentation-light](#presentation-light)|
-|![presentation-regular](icons/telefonica/regular/presentation-regular.svg) | | |[presentation-regular](#presentation-regular)|
-|![price-drop-filled](icons/telefonica/filled/price-drop-filled.svg) | | |[price-drop-filled](#price-drop-filled)|
-|![price-drop-light](icons/telefonica/light/price-drop-light.svg) | | |[price-drop-light](#price-drop-light)|
-|![price-drop-regular](icons/telefonica/regular/price-drop-regular.svg) | | |[price-drop-regular](#price-drop-regular)|
-| | |![printer-filled](icons/o2/filled/printer-filled.svg) |[printer-filled](#printer-filled)|
-| | |![printer-light](icons/o2/light/printer-light.svg) |[printer-light](#printer-light)|
-| | |![printer-regular](icons/o2/regular/printer-regular.svg) |[printer-regular](#printer-regular)|
-|![process-loading-filled](icons/telefonica/filled/process-loading-filled.svg) | |![process-loading-filled](icons/o2/filled/process-loading-filled.svg) |[process-loading-filled](#process-loading-filled)|
-|![process-loading-light](icons/telefonica/light/process-loading-light.svg) | |![process-loading-light](icons/o2/light/process-loading-light.svg) |[process-loading-light](#process-loading-light)|
-|![process-loading-regular](icons/telefonica/regular/process-loading-regular.svg) | |![process-loading-regular](icons/o2/regular/process-loading-regular.svg) |[process-loading-regular](#process-loading-regular)|
-|![puzzle-filled](icons/telefonica/filled/puzzle-filled.svg) | | |[puzzle-filled](#puzzle-filled)|
-|![puzzle-light](icons/telefonica/light/puzzle-light.svg) | | |[puzzle-light](#puzzle-light)|
-|![puzzle-regular](icons/telefonica/regular/puzzle-regular.svg) | | |[puzzle-regular](#puzzle-regular)|
-|![question-filled](icons/telefonica/filled/question-filled.svg) | |![question-filled](icons/o2/filled/question-filled.svg) |[question-filled](#question-filled)|
-|![question-light](icons/telefonica/light/question-light.svg) | |![question-light](icons/o2/light/question-light.svg) |[question-light](#question-light)|
-|![question-regular](icons/telefonica/regular/question-regular.svg) |![question-regular](icons/blau/regular/question-regular.svg) |![question-regular](icons/o2/regular/question-regular.svg) |[question-regular](#question-regular)|
-| | |![queue-filled](icons/o2/filled/queue-filled.svg) |[queue-filled](#queue-filled)|
-| | |![queue-light](icons/o2/light/queue-light.svg) |[queue-light](#queue-light)|
-| | |![queue-regular](icons/o2/regular/queue-regular.svg) |[queue-regular](#queue-regular)|
-|![rating-filled](icons/telefonica/filled/rating-filled.svg) | |![rating-filled](icons/o2/filled/rating-filled.svg) |[rating-filled](#rating-filled)|
-|![rating-light](icons/telefonica/light/rating-light.svg) | |![rating-light](icons/o2/light/rating-light.svg) |[rating-light](#rating-light)|
-|![rating-regular](icons/telefonica/regular/rating-regular.svg) | |![rating-regular](icons/o2/regular/rating-regular.svg) |[rating-regular](#rating-regular)|
-| | |![recording-filled](icons/o2/filled/recording-filled.svg) |[recording-filled](#recording-filled)|
-| | |![recording-light](icons/o2/light/recording-light.svg) |[recording-light](#recording-light)|
-| | |![recording-regular](icons/o2/regular/recording-regular.svg) |[recording-regular](#recording-regular)|
-| | |![recycle-filled](icons/o2/filled/recycle-filled.svg) |[recycle-filled](#recycle-filled)|
-| | |![recycle-light](icons/o2/light/recycle-light.svg) |[recycle-light](#recycle-light)|
-| | |![recycle-regular](icons/o2/regular/recycle-regular.svg) |[recycle-regular](#recycle-regular)|
-| | |![refresh-filled](icons/o2/filled/refresh-filled.svg) |[refresh-filled](#refresh-filled)|
-|![reload-light](icons/telefonica/light/reload-light.svg) | |![reload-light](icons/o2/light/reload-light.svg) |[reload-light](#reload-light)|
-|![reload-regular](icons/telefonica/regular/reload-regular.svg) | |![reload-regular](icons/o2/regular/reload-regular.svg) |[reload-regular](#reload-regular)|
-|![renovate-device-change-mobile-filled](icons/telefonica/filled/renovate-device-change-mobile-filled.svg) | |![renovate-device-change-mobile-filled](icons/o2/filled/renovate-device-change-mobile-filled.svg) |[renovate-device-change-mobile-filled](#renovate-device-change-mobile-filled)|
-|![renovate-device-change-mobile-light](icons/telefonica/light/renovate-device-change-mobile-light.svg) | |![renovate-device-change-mobile-light](icons/o2/light/renovate-device-change-mobile-light.svg) |[renovate-device-change-mobile-light](#renovate-device-change-mobile-light)|
-|![renovate-device-change-mobile-regular](icons/telefonica/regular/renovate-device-change-mobile-regular.svg) | |![renovate-device-change-mobile-regular](icons/o2/regular/renovate-device-change-mobile-regular.svg) |[renovate-device-change-mobile-regular](#renovate-device-change-mobile-regular)|
-| | |![repeat-filled](icons/o2/filled/repeat-filled.svg) |[repeat-filled](#repeat-filled)|
-| | |![repeat-light](icons/o2/light/repeat-light.svg) |[repeat-light](#repeat-light)|
-| | |![repeat-regular](icons/o2/regular/repeat-regular.svg) |[repeat-regular](#repeat-regular)|
-| | |![repeater-filled](icons/o2/filled/repeater-filled.svg) |[repeater-filled](#repeater-filled)|
-| | |![repeater-light](icons/o2/light/repeater-light.svg) |[repeater-light](#repeater-light)|
-| | |![repeater-regular](icons/o2/regular/repeater-regular.svg) |[repeater-regular](#repeater-regular)|
-| | |![report-filled](icons/o2/filled/report-filled.svg) |[report-filled](#report-filled)|
-| | |![report-light](icons/o2/light/report-light.svg) |[report-light](#report-light)|
-| | |![report-regular](icons/o2/regular/report-regular.svg) |[report-regular](#report-regular)|
-|![restaurant-filled](icons/telefonica/filled/restaurant-filled.svg) | |![restaurant-filled](icons/o2/filled/restaurant-filled.svg) |[restaurant-filled](#restaurant-filled)|
-|![restaurant-light](icons/telefonica/light/restaurant-light.svg) | |![restaurant-light](icons/o2/light/restaurant-light.svg) |[restaurant-light](#restaurant-light)|
-|![restaurant-regular](icons/telefonica/regular/restaurant-regular.svg) | |![restaurant-regular](icons/o2/regular/restaurant-regular.svg) |[restaurant-regular](#restaurant-regular)|
-| | |![rewards-filled](icons/o2/filled/rewards-filled.svg) |[rewards-filled](#rewards-filled)|
-| | |![rewards-light](icons/o2/light/rewards-light.svg) |[rewards-light](#rewards-light)|
-| | |![rewards-regular](icons/o2/regular/rewards-regular.svg) |[rewards-regular](#rewards-regular)|
-|![rewind-filled](icons/telefonica/filled/rewind-filled.svg) | |![rewind-filled](icons/o2/filled/rewind-filled.svg) |[rewind-filled](#rewind-filled)|
-|![rewind-light](icons/telefonica/light/rewind-light.svg) | |![rewind-light](icons/o2/light/rewind-light.svg) |[rewind-light](#rewind-light)|
-|![rewind-regular](icons/telefonica/regular/rewind-regular.svg) | |![rewind-regular](icons/o2/regular/rewind-regular.svg) |[rewind-regular](#rewind-regular)|
-|![road-sign-filled](icons/telefonica/filled/road-sign-filled.svg) | | |[road-sign-filled](#road-sign-filled)|
-|![road-sign-light](icons/telefonica/light/road-sign-light.svg) | | |[road-sign-light](#road-sign-light)|
-|![road-sign-regular](icons/telefonica/regular/road-sign-regular.svg) | | |[road-sign-regular](#road-sign-regular)|
-|![robot-filled](icons/telefonica/filled/robot-filled.svg) | |![robot-filled](icons/o2/filled/robot-filled.svg) |[robot-filled](#robot-filled)|
-|![robot-light](icons/telefonica/light/robot-light.svg) | |![robot-light](icons/o2/light/robot-light.svg) |[robot-light](#robot-light)|
-|![robot-regular](icons/telefonica/regular/robot-regular.svg) | |![robot-regular](icons/o2/regular/robot-regular.svg) |[robot-regular](#robot-regular)|
-|![rocket-filled](icons/telefonica/filled/rocket-filled.svg) | |![rocket-filled](icons/o2/filled/rocket-filled.svg) |[rocket-filled](#rocket-filled)|
-|![rocket-light](icons/telefonica/light/rocket-light.svg) | |![rocket-light](icons/o2/light/rocket-light.svg) |[rocket-light](#rocket-light)|
-|![rocket-regular](icons/telefonica/regular/rocket-regular.svg) | |![rocket-regular](icons/o2/regular/rocket-regular.svg) |[rocket-regular](#rocket-regular)|
-|![rook-filled](icons/telefonica/filled/rook-filled.svg) | | |[rook-filled](#rook-filled)|
-|![rook-light](icons/telefonica/light/rook-light.svg) | | |[rook-light](#rook-light)|
-|![rook-regular](icons/telefonica/regular/rook-regular.svg) | | |[rook-regular](#rook-regular)|
-|![route-filled](icons/telefonica/filled/route-filled.svg) | | |[route-filled](#route-filled)|
-|![route-light](icons/telefonica/light/route-light.svg) | | |[route-light](#route-light)|
-|![route-regular](icons/telefonica/regular/route-regular.svg) | | |[route-regular](#route-regular)|
-|![router-filled](icons/telefonica/filled/router-filled.svg) | |![router-filled](icons/o2/filled/router-filled.svg) |[router-filled](#router-filled)|
-|![router-light](icons/telefonica/light/router-light.svg) | |![router-light](icons/o2/light/router-light.svg) |[router-light](#router-light)|
-|![router-regular](icons/telefonica/regular/router-regular.svg) | |![router-regular](icons/o2/regular/router-regular.svg) |[router-regular](#router-regular)|
-|![ruler-filled](icons/telefonica/filled/ruler-filled.svg) | | |[ruler-filled](#ruler-filled)|
-|![ruler-light](icons/telefonica/light/ruler-light.svg) | | |[ruler-light](#ruler-light)|
-|![ruler-regular](icons/telefonica/regular/ruler-regular.svg) | | |[ruler-regular](#ruler-regular)|
-|![safety-belt-filled](icons/telefonica/filled/safety-belt-filled.svg) | | |[safety-belt-filled](#safety-belt-filled)|
-|![safety-belt-light](icons/telefonica/light/safety-belt-light.svg) | | |[safety-belt-light](#safety-belt-light)|
-|![safety-belt-regular](icons/telefonica/regular/safety-belt-regular.svg) | | |[safety-belt-regular](#safety-belt-regular)|
-|![search-cloud-filled](icons/telefonica/filled/search-cloud-filled.svg) | | |[search-cloud-filled](#search-cloud-filled)|
-|![search-cloud-light](icons/telefonica/light/search-cloud-light.svg) | | |[search-cloud-light](#search-cloud-light)|
-|![search-cloud-regular](icons/telefonica/regular/search-cloud-regular.svg) | | |[search-cloud-regular](#search-cloud-regular)|
-|![search-database-filled](icons/telefonica/filled/search-database-filled.svg) | | |[search-database-filled](#search-database-filled)|
-|![search-database-light](icons/telefonica/light/search-database-light.svg) | | |[search-database-light](#search-database-light)|
-|![search-database-regular](icons/telefonica/regular/search-database-regular.svg) | | |[search-database-regular](#search-database-regular)|
-|![search-file-filled](icons/telefonica/filled/search-file-filled.svg) | | |[search-file-filled](#search-file-filled)|
-|![search-file-light](icons/telefonica/light/search-file-light.svg) | | |[search-file-light](#search-file-light)|
-|![search-file-regular](icons/telefonica/regular/search-file-regular.svg) | | |[search-file-regular](#search-file-regular)|
-|![search-filled](icons/telefonica/filled/search-filled.svg) | |![search-filled](icons/o2/filled/search-filled.svg) |[search-filled](#search-filled)|
-|![search-light](icons/telefonica/light/search-light.svg) | |![search-light](icons/o2/light/search-light.svg) |[search-light](#search-light)|
-|![search-money-filled](icons/telefonica/filled/search-money-filled.svg) | | |[search-money-filled](#search-money-filled)|
-|![search-money-light](icons/telefonica/light/search-money-light.svg) | | |[search-money-light](#search-money-light)|
-|![search-money-regular](icons/telefonica/regular/search-money-regular.svg) | | |[search-money-regular](#search-money-regular)|
-|![search-regular](icons/telefonica/regular/search-regular.svg) |![search-regular](icons/blau/regular/search-regular.svg) |![search-regular](icons/o2/regular/search-regular.svg) |[search-regular](#search-regular)|
-| | |![send-euro-filled](icons/o2/filled/send-euro-filled.svg) |[send-euro-filled](#send-euro-filled)|
-| | |![send-euro-light](icons/o2/light/send-euro-light.svg) |[send-euro-light](#send-euro-light)|
-| | |![send-euro-regular](icons/o2/regular/send-euro-regular.svg) |[send-euro-regular](#send-euro-regular)|
-|![send-filled](icons/telefonica/filled/send-filled.svg) | |![send-filled](icons/o2/filled/send-filled.svg) |[send-filled](#send-filled)|
-|![send-light](icons/telefonica/light/send-light.svg) | |![send-light](icons/o2/light/send-light.svg) |[send-light](#send-light)|
-| | |![send-pound-filled](icons/o2/filled/send-pound-filled.svg) |[send-pound-filled](#send-pound-filled)|
-| | |![send-pound-light](icons/o2/light/send-pound-light.svg) |[send-pound-light](#send-pound-light)|
-| | |![send-pound-regular](icons/o2/regular/send-pound-regular.svg) |[send-pound-regular](#send-pound-regular)|
-| | |![send-regular](icons/o2/regular/send-regular.svg) |[send-regular](#send-regular)|
-|![settings-cloud-filled](icons/telefonica/filled/settings-cloud-filled.svg) | | |[settings-cloud-filled](#settings-cloud-filled)|
-|![settings-cloud-light](icons/telefonica/light/settings-cloud-light.svg) | | |[settings-cloud-light](#settings-cloud-light)|
-|![settings-cloud-regular](icons/telefonica/regular/settings-cloud-regular.svg) | | |[settings-cloud-regular](#settings-cloud-regular)|
-|![settings-filled](icons/telefonica/filled/settings-filled.svg) | |![settings-filled](icons/o2/filled/settings-filled.svg) |[settings-filled](#settings-filled)|
-|![settings-light](icons/telefonica/light/settings-light.svg) | |![settings-light](icons/o2/light/settings-light.svg) |[settings-light](#settings-light)|
-|![settings-regular](icons/telefonica/regular/settings-regular.svg) | |![settings-regular](icons/o2/regular/settings-regular.svg) |[settings-regular](#settings-regular)|
-|![settings-web-filled](icons/telefonica/filled/settings-web-filled.svg) | | |[settings-web-filled](#settings-web-filled)|
-|![settings-web-light](icons/telefonica/light/settings-web-light.svg) | | |[settings-web-light](#settings-web-light)|
-|![settings-web-regular](icons/telefonica/regular/settings-web-regular.svg) | | |[settings-web-regular](#settings-web-regular)|
-| | |![share-devices-filled](icons/o2/filled/share-devices-filled.svg) |[share-devices-filled](#share-devices-filled)|
-| | |![share-devices-light](icons/o2/light/share-devices-light.svg) |[share-devices-light](#share-devices-light)|
-| | |![share-devices-regular](icons/o2/regular/share-devices-regular.svg) |[share-devices-regular](#share-devices-regular)|
-|![share-filled](icons/telefonica/filled/share-filled.svg) | |![share-filled](icons/o2/filled/share-filled.svg) |[share-filled](#share-filled)|
-|![share-light](icons/telefonica/light/share-light.svg) | |![share-light](icons/o2/light/share-light.svg) |[share-light](#share-light)|
-|![share-regular](icons/telefonica/regular/share-regular.svg) | |![share-regular](icons/o2/regular/share-regular.svg) |[share-regular](#share-regular)|
-|![shared-data-filled](icons/telefonica/filled/shared-data-filled.svg) | | |[shared-data-filled](#shared-data-filled)|
-|![shared-data-light](icons/telefonica/light/shared-data-light.svg) | | |[shared-data-light](#shared-data-light)|
-|![shared-data-regular](icons/telefonica/regular/shared-data-regular.svg) | | |[shared-data-regular](#shared-data-regular)|
-|![shared-mobile-data-filled](icons/telefonica/filled/shared-mobile-data-filled.svg) | | |[shared-mobile-data-filled](#shared-mobile-data-filled)|
-|![shared-mobile-data-light](icons/telefonica/light/shared-mobile-data-light.svg) | | |[shared-mobile-data-light](#shared-mobile-data-light)|
-|![shared-mobile-data-regular](icons/telefonica/regular/shared-mobile-data-regular.svg) | | |[shared-mobile-data-regular](#shared-mobile-data-regular)|
-|![shield-antivirus-filled](icons/telefonica/filled/shield-antivirus-filled.svg) | | |[shield-antivirus-filled](#shield-antivirus-filled)|
-|![shield-antivirus-light](icons/telefonica/light/shield-antivirus-light.svg) | | |[shield-antivirus-light](#shield-antivirus-light)|
-|![shield-antivirus-regular](icons/telefonica/regular/shield-antivirus-regular.svg) | | |[shield-antivirus-regular](#shield-antivirus-regular)|
-|![shield-checked-ok-filled](icons/telefonica/filled/shield-checked-ok-filled.svg) | |![shield-checked-ok-filled](icons/o2/filled/shield-checked-ok-filled.svg) |[shield-checked-ok-filled](#shield-checked-ok-filled)|
-|![shield-checked-ok-light](icons/telefonica/light/shield-checked-ok-light.svg) | |![shield-checked-ok-light](icons/o2/light/shield-checked-ok-light.svg) |[shield-checked-ok-light](#shield-checked-ok-light)|
-|![shield-checked-ok-regular](icons/telefonica/regular/shield-checked-ok-regular.svg) | |![shield-checked-ok-regular](icons/o2/regular/shield-checked-ok-regular.svg) |[shield-checked-ok-regular](#shield-checked-ok-regular)|
-|![shield-cross-filled](icons/telefonica/filled/shield-cross-filled.svg) | |![shield-cross-filled](icons/o2/filled/shield-cross-filled.svg) |[shield-cross-filled](#shield-cross-filled)|
-|![shield-cross-light](icons/telefonica/light/shield-cross-light.svg) | |![shield-cross-light](icons/o2/light/shield-cross-light.svg) |[shield-cross-light](#shield-cross-light)|
-|![shield-cross-regular](icons/telefonica/regular/shield-cross-regular.svg) | |![shield-cross-regular](icons/o2/regular/shield-cross-regular.svg) |[shield-cross-regular](#shield-cross-regular)|
-|![shield-filled](icons/telefonica/filled/shield-filled.svg) | | |[shield-filled](#shield-filled)|
-|![shield-light](icons/telefonica/light/shield-light.svg) | | |[shield-light](#shield-light)|
-|![shield-regular](icons/telefonica/regular/shield-regular.svg) | | |[shield-regular](#shield-regular)|
-|![shop-filled](icons/telefonica/filled/shop-filled.svg) | |![shop-filled](icons/o2/filled/shop-filled.svg) |[shop-filled](#shop-filled)|
-|![shop-light](icons/telefonica/light/shop-light.svg) | |![shop-light](icons/o2/light/shop-light.svg) |[shop-light](#shop-light)|
-|![shop-regular](icons/telefonica/regular/shop-regular.svg) | |![shop-regular](icons/o2/regular/shop-regular.svg) |[shop-regular](#shop-regular)|
-|![shopping-cart-filled](icons/telefonica/filled/shopping-cart-filled.svg) | |![shopping-cart-filled](icons/o2/filled/shopping-cart-filled.svg) |[shopping-cart-filled](#shopping-cart-filled)|
-|![shopping-cart-light](icons/telefonica/light/shopping-cart-light.svg) | |![shopping-cart-light](icons/o2/light/shopping-cart-light.svg) |[shopping-cart-light](#shopping-cart-light)|
-|![shopping-cart-regular](icons/telefonica/regular/shopping-cart-regular.svg) |![shopping-cart-regular](icons/blau/regular/shopping-cart-regular.svg) |![shopping-cart-regular](icons/o2/regular/shopping-cart-regular.svg) |[shopping-cart-regular](#shopping-cart-regular)|
-|![shower-filled](icons/telefonica/filled/shower-filled.svg) | | |[shower-filled](#shower-filled)|
-|![shower-light](icons/telefonica/light/shower-light.svg) | | |[shower-light](#shower-light)|
-|![shower-regular](icons/telefonica/regular/shower-regular.svg) | | |[shower-regular](#shower-regular)|
-|![skull-filled](icons/telefonica/filled/skull-filled.svg) | | |[skull-filled](#skull-filled)|
-|![skull-light](icons/telefonica/light/skull-light.svg) | | |[skull-light](#skull-light)|
-|![skull-regular](icons/telefonica/regular/skull-regular.svg) | | |[skull-regular](#skull-regular)|
-|![smart-wifi-filled](icons/telefonica/filled/smart-wifi-filled.svg) | | |[smart-wifi-filled](#smart-wifi-filled)|
-|![smart-wifi-light](icons/telefonica/light/smart-wifi-light.svg) | | |[smart-wifi-light](#smart-wifi-light)|
-|![smart-wifi-regular](icons/telefonica/regular/smart-wifi-regular.svg) | | |[smart-wifi-regular](#smart-wifi-regular)|
-|![smiley-happy-filled](icons/telefonica/filled/smiley-happy-filled.svg) | | |[smiley-happy-filled](#smiley-happy-filled)|
-|![smiley-happy-light](icons/telefonica/light/smiley-happy-light.svg) | | |[smiley-happy-light](#smiley-happy-light)|
-|![smiley-happy-regular](icons/telefonica/regular/smiley-happy-regular.svg) | | |[smiley-happy-regular](#smiley-happy-regular)|
-|![smiley-sad-filled](icons/telefonica/filled/smiley-sad-filled.svg) | | |[smiley-sad-filled](#smiley-sad-filled)|
-|![smiley-sad-light](icons/telefonica/light/smiley-sad-light.svg) | | |[smiley-sad-light](#smiley-sad-light)|
-|![smiley-sad-regular](icons/telefonica/regular/smiley-sad-regular.svg) | | |[smiley-sad-regular](#smiley-sad-regular)|
-|![sms-filled](icons/telefonica/filled/sms-filled.svg) | |![sms-filled](icons/o2/filled/sms-filled.svg) |[sms-filled](#sms-filled)|
-|![sms-light](icons/telefonica/light/sms-light.svg) | |![sms-light](icons/o2/light/sms-light.svg) |[sms-light](#sms-light)|
-| | |![sms-regular](icons/o2/regular/sms-regular.svg) |[sms-regular](#sms-regular)|
-|![sniper-scope-light](icons/telefonica/light/sniper-scope-light.svg) | | |[sniper-scope-light](#sniper-scope-light)|
-|![sniper-scope-regular](icons/telefonica/regular/sniper-scope-regular.svg) | | |[sniper-scope-regular](#sniper-scope-regular)|
-|![snowflake-light](icons/telefonica/light/snowflake-light.svg) | | |[snowflake-light](#snowflake-light)|
-|![snowflake-regular](icons/telefonica/regular/snowflake-regular.svg) | | |[snowflake-regular](#snowflake-regular)|
-|![sport-ball-filled](icons/telefonica/filled/sport-ball-filled.svg) | | |[sport-ball-filled](#sport-ball-filled)|
-|![sport-ball-light](icons/telefonica/light/sport-ball-light.svg) | | |[sport-ball-light](#sport-ball-light)|
-|![sport-ball-regular](icons/telefonica/regular/sport-ball-regular.svg) | | |[sport-ball-regular](#sport-ball-regular)|
-|![star-filled](icons/telefonica/filled/star-filled.svg) | | |[star-filled](#star-filled)|
-|![star-light](icons/telefonica/light/star-light.svg) | | |[star-light](#star-light)|
-|![star-regular](icons/telefonica/regular/star-regular.svg) | | |[star-regular](#star-regular)|
-|![status-chart-filled](icons/telefonica/filled/status-chart-filled.svg) | |![status-chart-filled](icons/o2/filled/status-chart-filled.svg) |[status-chart-filled](#status-chart-filled)|
-|![status-chart-light](icons/telefonica/light/status-chart-light.svg) | |![status-chart-light](icons/o2/light/status-chart-light.svg) |[status-chart-light](#status-chart-light)|
-|![status-chart-regular](icons/telefonica/regular/status-chart-regular.svg) | |![status-chart-regular](icons/o2/regular/status-chart-regular.svg) |[status-chart-regular](#status-chart-regular)|
-|![stethoscope-medico-filled](icons/telefonica/filled/stethoscope-medico-filled.svg) | | |[stethoscope-medico-filled](#stethoscope-medico-filled)|
-|![stethoscope-medico-light](icons/telefonica/light/stethoscope-medico-light.svg) | | |[stethoscope-medico-light](#stethoscope-medico-light)|
-|![stethoscope-medico-regular](icons/telefonica/regular/stethoscope-medico-regular.svg) | | |[stethoscope-medico-regular](#stethoscope-medico-regular)|
-|![stomach-filled](icons/telefonica/filled/stomach-filled.svg) | | |[stomach-filled](#stomach-filled)|
-|![stomach-light](icons/telefonica/light/stomach-light.svg) | | |[stomach-light](#stomach-light)|
-|![stomach-regular](icons/telefonica/regular/stomach-regular.svg) | | |[stomach-regular](#stomach-regular)|
-|![storm-filled](icons/telefonica/filled/storm-filled.svg) | | |[storm-filled](#storm-filled)|
-|![storm-light](icons/telefonica/light/storm-light.svg) | | |[storm-light](#storm-light)|
-|![storm-regular](icons/telefonica/regular/storm-regular.svg) | | |[storm-regular](#storm-regular)|
-| | |![subscription-filled](icons/o2/filled/subscription-filled.svg) |[subscription-filled](#subscription-filled)|
-| | |![subscription-light](icons/o2/light/subscription-light.svg) |[subscription-light](#subscription-light)|
-| | |![subscription-regular](icons/o2/regular/subscription-regular.svg) |[subscription-regular](#subscription-regular)|
-| | |![subtitles-filled](icons/o2/filled/subtitles-filled.svg) |[subtitles-filled](#subtitles-filled)|
-| | |![subtitles-light](icons/o2/light/subtitles-light.svg) |[subtitles-light](#subtitles-light)|
-| | |![subtitles-regular](icons/o2/regular/subtitles-regular.svg) |[subtitles-regular](#subtitles-regular)|
-|![sun-filled](icons/telefonica/filled/sun-filled.svg) | | |[sun-filled](#sun-filled)|
-|![sun-light](icons/telefonica/light/sun-light.svg) | | |[sun-light](#sun-light)|
-|![sun-regular](icons/telefonica/regular/sun-regular.svg) | | |[sun-regular](#sun-regular)|
-|![supermarket-filled](icons/telefonica/filled/supermarket-filled.svg) | | |[supermarket-filled](#supermarket-filled)|
-|![supermarket-light](icons/telefonica/light/supermarket-light.svg) | | |[supermarket-light](#supermarket-light)|
-|![supermarket-regular](icons/telefonica/regular/supermarket-regular.svg) | | |[supermarket-regular](#supermarket-regular)|
-|![support-agent-filled](icons/telefonica/filled/support-agent-filled.svg) | |![support-agent-filled](icons/o2/filled/support-agent-filled.svg) |[support-agent-filled](#support-agent-filled)|
-|![support-agent-light](icons/telefonica/light/support-agent-light.svg) | |![support-agent-light](icons/o2/light/support-agent-light.svg) |[support-agent-light](#support-agent-light)|
-| | |![support-agent-premium-filled](icons/o2/filled/support-agent-premium-filled.svg) |[support-agent-premium-filled](#support-agent-premium-filled)|
-| | |![support-agent-premium-light](icons/o2/light/support-agent-premium-light.svg) |[support-agent-premium-light](#support-agent-premium-light)|
-| | |![support-agent-premium-regular](icons/o2/regular/support-agent-premium-regular.svg) |[support-agent-premium-regular](#support-agent-premium-regular)|
-|![support-agent-regular](icons/telefonica/regular/support-agent-regular.svg) |![support-agent-regular](icons/blau/regular/support-agent-regular.svg) |![support-agent-regular](icons/o2/regular/support-agent-regular.svg) |[support-agent-regular](#support-agent-regular)|
-|![syringe-filled](icons/telefonica/filled/syringe-filled.svg) | | |[syringe-filled](#syringe-filled)|
-|![syringe-light](icons/telefonica/light/syringe-light.svg) | | |[syringe-light](#syringe-light)|
-|![syringe-regular](icons/telefonica/regular/syringe-regular.svg) | | |[syringe-regular](#syringe-regular)|
-|![tablet-filled](icons/telefonica/filled/tablet-filled.svg) | |![tablet-filled](icons/o2/filled/tablet-filled.svg) |[tablet-filled](#tablet-filled)|
-|![tablet-light](icons/telefonica/light/tablet-light.svg) | |![tablet-light](icons/o2/light/tablet-light.svg) |[tablet-light](#tablet-light)|
-|![tablet-regular](icons/telefonica/regular/tablet-regular.svg) |![tablet-regular](icons/blau/regular/tablet-regular.svg) |![tablet-regular](icons/o2/regular/tablet-regular.svg) |[tablet-regular](#tablet-regular)|
-|![tachometer-filled](icons/telefonica/filled/tachometer-filled.svg) | |![tachometer-filled](icons/o2/filled/tachometer-filled.svg) |[tachometer-filled](#tachometer-filled)|
-|![tachometer-light](icons/telefonica/light/tachometer-light.svg) | |![tachometer-light](icons/o2/light/tachometer-light.svg) |[tachometer-light](#tachometer-light)|
-|![tachometer-regular](icons/telefonica/regular/tachometer-regular.svg) | |![tachometer-regular](icons/o2/regular/tachometer-regular.svg) |[tachometer-regular](#tachometer-regular)|
-| | |![tag-discount-euro-filled](icons/o2/filled/tag-discount-euro-filled.svg) |[tag-discount-euro-filled](#tag-discount-euro-filled)|
-| | |![tag-discount-euro-light](icons/o2/light/tag-discount-euro-light.svg) |[tag-discount-euro-light](#tag-discount-euro-light)|
-| | |![tag-discount-euro-regular](icons/o2/regular/tag-discount-euro-regular.svg) |[tag-discount-euro-regular](#tag-discount-euro-regular)|
-| | |![tag-discount-pound-filled](icons/o2/filled/tag-discount-pound-filled.svg) |[tag-discount-pound-filled](#tag-discount-pound-filled)|
-| | |![tag-discount-pound-light](icons/o2/light/tag-discount-pound-light.svg) |[tag-discount-pound-light](#tag-discount-pound-light)|
-| | |![tag-discount-pound-regular](icons/o2/regular/tag-discount-pound-regular.svg) |[tag-discount-pound-regular](#tag-discount-pound-regular)|
-| | |![tag-euro-filled](icons/o2/filled/tag-euro-filled.svg) |[tag-euro-filled](#tag-euro-filled)|
-| | |![tag-euro-light](icons/o2/light/tag-euro-light.svg) |[tag-euro-light](#tag-euro-light)|
-| | |![tag-euro-regular](icons/o2/regular/tag-euro-regular.svg) |[tag-euro-regular](#tag-euro-regular)|
-|![tag-filled](icons/telefonica/filled/tag-filled.svg) | |![tag-filled](icons/o2/filled/tag-filled.svg) |[tag-filled](#tag-filled)|
-|![tag-light](icons/telefonica/light/tag-light.svg) | |![tag-light](icons/o2/light/tag-light.svg) |[tag-light](#tag-light)|
-| | |![tag-pound-filled](icons/o2/filled/tag-pound-filled.svg) |[tag-pound-filled](#tag-pound-filled)|
-| | |![tag-pound-light](icons/o2/light/tag-pound-light.svg) |[tag-pound-light](#tag-pound-light)|
-| | |![tag-poundregular](icons/o2/regular/tag-poundregular.svg) |[tag-poundregular](#tag-poundregular)|
-|![tag-regular](icons/telefonica/regular/tag-regular.svg) |![tag-regular](icons/blau/regular/tag-regular.svg) |![tag-regular](icons/o2/regular/tag-regular.svg) |[tag-regular](#tag-regular)|
-|![talk-filled](icons/telefonica/filled/talk-filled.svg) | | |[talk-filled](#talk-filled)|
-|![talk-light](icons/telefonica/light/talk-light.svg) | | |[talk-light](#talk-light)|
-|![talk-regular](icons/telefonica/regular/talk-regular.svg) | | |[talk-regular](#talk-regular)|
-|![target-filled](icons/telefonica/filled/target-filled.svg) | |![target-filled](icons/o2/filled/target-filled.svg) |[target-filled](#target-filled)|
-|![target-light](icons/telefonica/light/target-light.svg) | |![target-light](icons/o2/light/target-light.svg) |[target-light](#target-light)|
-|![target-regular](icons/telefonica/regular/target-regular.svg) | |![target-regular](icons/o2/regular/target-regular.svg) |[target-regular](#target-regular)|
-|![team-filled](icons/telefonica/filled/team-filled.svg) | |![team-filled](icons/o2/filled/team-filled.svg) |[team-filled](#team-filled)|
-|![team-light](icons/telefonica/light/team-light.svg) | |![team-light](icons/o2/light/team-light.svg) |[team-light](#team-light)|
-|![team-regular](icons/telefonica/regular/team-regular.svg) | |![team-regular](icons/o2/regular/team-regular.svg) |[team-regular](#team-regular)|
-| | |![teamwork-filled](icons/o2/filled/teamwork-filled.svg) |[teamwork-filled](#teamwork-filled)|
-| | |![teamwork-light](icons/o2/light/teamwork-light.svg) |[teamwork-light](#teamwork-light)|
-| | |![teamwork-regular](icons/o2/regular/teamwork-regular.svg) |[teamwork-regular](#teamwork-regular)|
-|![tech-service-filled](icons/telefonica/filled/tech-service-filled.svg) | |![tech-service-filled](icons/o2/filled/tech-service-filled.svg) |[tech-service-filled](#tech-service-filled)|
-|![tech-service-internet-filled](icons/telefonica/filled/tech-service-internet-filled.svg) | |![tech-service-internet-filled](icons/o2/filled/tech-service-internet-filled.svg) |[tech-service-internet-filled](#tech-service-internet-filled)|
-|![tech-service-internet-light](icons/telefonica/light/tech-service-internet-light.svg) | |![tech-service-internet-light](icons/o2/light/tech-service-internet-light.svg) |[tech-service-internet-light](#tech-service-internet-light)|
-|![tech-service-internet-regular](icons/telefonica/regular/tech-service-internet-regular.svg) | |![tech-service-internet-regular](icons/o2/regular/tech-service-internet-regular.svg) |[tech-service-internet-regular](#tech-service-internet-regular)|
-|![tech-service-landline-filled](icons/telefonica/filled/tech-service-landline-filled.svg) | | |[tech-service-landline-filled](#tech-service-landline-filled)|
-|![tech-service-landline-light](icons/telefonica/light/tech-service-landline-light.svg) | | |[tech-service-landline-light](#tech-service-landline-light)|
-|![tech-service-landline-regular](icons/telefonica/regular/tech-service-landline-regular.svg) | | |[tech-service-landline-regular](#tech-service-landline-regular)|
-|![tech-service-light](icons/telefonica/light/tech-service-light.svg) | |![tech-service-light](icons/o2/light/tech-service-light.svg) |[tech-service-light](#tech-service-light)|
-|![tech-service-mobile-filled](icons/telefonica/filled/tech-service-mobile-filled.svg) | | |[tech-service-mobile-filled](#tech-service-mobile-filled)|
-|![tech-service-mobile-light](icons/telefonica/light/tech-service-mobile-light.svg) | | |[tech-service-mobile-light](#tech-service-mobile-light)|
-|![tech-service-mobile-regular](icons/telefonica/regular/tech-service-mobile-regular.svg) | | |[tech-service-mobile-regular](#tech-service-mobile-regular)|
-|![tech-service-regular](icons/telefonica/regular/tech-service-regular.svg) | |![tech-service-regular](icons/o2/regular/tech-service-regular.svg) |[tech-service-regular](#tech-service-regular)|
-|![tech-service-tv-filled](icons/telefonica/filled/tech-service-tv-filled.svg) | | |[tech-service-tv-filled](#tech-service-tv-filled)|
-|![tech-service-tv-light](icons/telefonica/light/tech-service-tv-light.svg) | | |[tech-service-tv-light](#tech-service-tv-light)|
-|![tech-service-tv-regular](icons/telefonica/regular/tech-service-tv-regular.svg) | | |[tech-service-tv-regular](#tech-service-tv-regular)|
-|![teddy-bear-filled](icons/telefonica/filled/teddy-bear-filled.svg) | | |[teddy-bear-filled](#teddy-bear-filled)|
-|![teddy-bear-light](icons/telefonica/light/teddy-bear-light.svg) | | |[teddy-bear-light](#teddy-bear-light)|
-|![teddy-bear-regular](icons/telefonica/regular/teddy-bear-regular.svg) | | |[teddy-bear-regular](#teddy-bear-regular)|
-| | |![telephone-ip-filled](icons/o2/filled/telephone-ip-filled.svg) |[telephone-ip-filled](#telephone-ip-filled)|
-| | |![telephone-ip-light](icons/o2/light/telephone-ip-light.svg) |[telephone-ip-light](#telephone-ip-light)|
-| | |![telephone-ip-regular](icons/o2/regular/telephone-ip-regular.svg) |[telephone-ip-regular](#telephone-ip-regular)|
-| | |![telephone-pot-filled](icons/o2/filled/telephone-pot-filled.svg) |[telephone-pot-filled](#telephone-pot-filled)|
-| | |![telephone-pot-light](icons/o2/light/telephone-pot-light.svg) |[telephone-pot-light](#telephone-pot-light)|
-| | |![telephone-pot-regular](icons/o2/regular/telephone-pot-regular.svg) |[telephone-pot-regular](#telephone-pot-regular)|
-|![theater-filled](icons/telefonica/filled/theater-filled.svg) | | |[theater-filled](#theater-filled)|
-|![theater-light](icons/telefonica/light/theater-light.svg) | | |[theater-light](#theater-light)|
-|![theater-regular](icons/telefonica/regular/theater-regular.svg) | | |[theater-regular](#theater-regular)|
-| | |![thermometer-filled](icons/o2/filled/thermometer-filled.svg) |[thermometer-filled](#thermometer-filled)|
-| | |![thermometer-light](icons/o2/light/thermometer-light.svg) |[thermometer-light](#thermometer-light)|
-| | |![thermometer-regular](icons/o2/regular/thermometer-regular.svg) |[thermometer-regular](#thermometer-regular)|
-|![throw-light-filled](icons/telefonica/filled/throw-light-filled.svg) | | |[throw-light-filled](#throw-light-filled)|
-|![throw-light-light](icons/telefonica/light/throw-light-light.svg) | | |[throw-light-light](#throw-light-light)|
-|![throw-light-regular](icons/telefonica/regular/throw-light-regular.svg) | | |[throw-light-regular](#throw-light-regular)|
-|![thumb-down-filled](icons/telefonica/filled/thumb-down-filled.svg) | | |[thumb-down-filled](#thumb-down-filled)|
-|![thumb-down-light](icons/telefonica/light/thumb-down-light.svg) | | |[thumb-down-light](#thumb-down-light)|
-|![thumb-down-regular](icons/telefonica/regular/thumb-down-regular.svg) | | |[thumb-down-regular](#thumb-down-regular)|
-|![tickets-filled](icons/telefonica/filled/tickets-filled.svg) | |![tickets-filled](icons/o2/filled/tickets-filled.svg) |[tickets-filled](#tickets-filled)|
-|![tickets-light](icons/telefonica/light/tickets-light.svg) | |![tickets-light](icons/o2/light/tickets-light.svg) |[tickets-light](#tickets-light)|
-|![tickets-regular](icons/telefonica/regular/tickets-regular.svg) |![tickets-regular](icons/blau/regular/tickets-regular.svg) |![tickets-regular](icons/o2/regular/tickets-regular.svg) |[tickets-regular](#tickets-regular)|
-|![time-filled](icons/telefonica/filled/time-filled.svg) | |![time-filled](icons/o2/filled/time-filled.svg) |[time-filled](#time-filled)|
-|![time-light](icons/telefonica/light/time-light.svg) | |![time-light](icons/o2/light/time-light.svg) |[time-light](#time-light)|
-|![time-regular](icons/telefonica/regular/time-regular.svg) | |![time-regular](icons/o2/regular/time-regular.svg) |[time-regular](#time-regular)|
-| | |![tips-and-tricks-filled](icons/o2/filled/tips-and-tricks-filled.svg) |[tips-and-tricks-filled](#tips-and-tricks-filled)|
-| | |![tips-and-tricks-light](icons/o2/light/tips-and-tricks-light.svg) |[tips-and-tricks-light](#tips-and-tricks-light)|
-| | |![tips-and-tricks-regular](icons/o2/regular/tips-and-tricks-regular.svg) |[tips-and-tricks-regular](#tips-and-tricks-regular)|
-|![tk-filled](icons/telefonica/filled/tk-filled.svg) | | |[tk-filled](#tk-filled)|
-|![tk-light](icons/telefonica/light/tk-light.svg) | | |[tk-light](#tk-light)|
-|![tk-regular](icons/telefonica/regular/tk-regular.svg) | | |[tk-regular](#tk-regular)|
-|![tongue-filled](icons/telefonica/filled/tongue-filled.svg) | | |[tongue-filled](#tongue-filled)|
-|![tongue-light](icons/telefonica/light/tongue-light.svg) | | |[tongue-light](#tongue-light)|
-|![tongue-regular](icons/telefonica/regular/tongue-regular.svg) | | |[tongue-regular](#tongue-regular)|
-|![tooth-filled](icons/telefonica/filled/tooth-filled.svg) | | |[tooth-filled](#tooth-filled)|
-|![tooth-light](icons/telefonica/light/tooth-light.svg) | | |[tooth-light](#tooth-light)|
-|![tooth-regular](icons/telefonica/regular/tooth-regular.svg) | | |[tooth-regular](#tooth-regular)|
-| | |![top-up-filled](icons/o2/filled/top-up-filled.svg) |[top-up-filled](#top-up-filled)|
-| | |![top-up-light](icons/o2/light/top-up-light.svg) |[top-up-light](#top-up-light)|
-| | |![top-up-regular](icons/o2/regular/top-up-regular.svg) |[top-up-regular](#top-up-regular)|
-|![tow-truck-filled](icons/telefonica/filled/tow-truck-filled.svg) | | |[tow-truck-filled](#tow-truck-filled)|
-|![tow-truck-light](icons/telefonica/light/tow-truck-light.svg) | | |[tow-truck-light](#tow-truck-light)|
-|![tow-truck-regular](icons/telefonica/regular/tow-truck-regular.svg) | | |[tow-truck-regular](#tow-truck-regular)|
-|![train-filled](icons/telefonica/filled/train-filled.svg) | |![train-filled](icons/o2/filled/train-filled.svg) |[train-filled](#train-filled)|
-|![train-light](icons/telefonica/light/train-light.svg) | |![train-light](icons/o2/light/train-light.svg) |[train-light](#train-light)|
-|![train-regular](icons/telefonica/regular/train-regular.svg) | |![train-regular](icons/o2/regular/train-regular.svg) |[train-regular](#train-regular)|
-|![tram-train-filled](icons/telefonica/filled/tram-train-filled.svg) | | |[tram-train-filled](#tram-train-filled)|
-|![tram-train-light](icons/telefonica/light/tram-train-light.svg) | | |[tram-train-light](#tram-train-light)|
-|![tram-train-regular](icons/telefonica/regular/tram-train-regular.svg) | | |[tram-train-regular](#tram-train-regular)|
-|![trash-can-filled](icons/telefonica/filled/trash-can-filled.svg) | |![trash-can-filled](icons/o2/filled/trash-can-filled.svg) |[trash-can-filled](#trash-can-filled)|
-|![trash-can-light](icons/telefonica/light/trash-can-light.svg) | |![trash-can-light](icons/o2/light/trash-can-light.svg) |[trash-can-light](#trash-can-light)|
-|![trash-can-regular](icons/telefonica/regular/trash-can-regular.svg) | |![trash-can-regular](icons/o2/regular/trash-can-regular.svg) |[trash-can-regular](#trash-can-regular)|
-|![travel-bag-filled](icons/telefonica/filled/travel-bag-filled.svg) | | |[travel-bag-filled](#travel-bag-filled)|
-|![travel-bag-light](icons/telefonica/light/travel-bag-light.svg) | | |[travel-bag-light](#travel-bag-light)|
-|![travel-bag-regular](icons/telefonica/regular/travel-bag-regular.svg) | | |[travel-bag-regular](#travel-bag-regular)|
-|![tree-2-filled](icons/telefonica/filled/tree-2-filled.svg) | | |[tree-2-filled](#tree-2-filled)|
-|![tree-2-light](icons/telefonica/light/tree-2-light.svg) | | |[tree-2-light](#tree-2-light)|
-|![tree-2-regular](icons/telefonica/regular/tree-2-regular.svg) | | |[tree-2-regular](#tree-2-regular)|
-|![tree-filled](icons/telefonica/filled/tree-filled.svg) | | |[tree-filled](#tree-filled)|
-|![tree-light](icons/telefonica/light/tree-light.svg) | | |[tree-light](#tree-light)|
-|![tree-regular](icons/telefonica/regular/tree-regular.svg) | | |[tree-regular](#tree-regular)|
-|![trend-down-light](icons/telefonica/light/trend-down-light.svg) | | |[trend-down-light](#trend-down-light)|
-|![trend-down-regular](icons/telefonica/regular/trend-down-regular.svg) | | |[trend-down-regular](#trend-down-regular)|
-|![trend-up-light](icons/telefonica/light/trend-up-light.svg) | | |[trend-up-light](#trend-up-light)|
-|![trend-up-regular](icons/telefonica/regular/trend-up-regular.svg) | | |[trend-up-regular](#trend-up-regular)|
-|![trophy-filled](icons/telefonica/filled/trophy-filled.svg) | |![trophy-filled](icons/o2/filled/trophy-filled.svg) |[trophy-filled](#trophy-filled)|
-|![trophy-light](icons/telefonica/light/trophy-light.svg) | |![trophy-light](icons/o2/light/trophy-light.svg) |[trophy-light](#trophy-light)|
-|![trophy-regular](icons/telefonica/regular/trophy-regular.svg) | |![trophy-regular](icons/o2/regular/trophy-regular.svg) |[trophy-regular](#trophy-regular)|
-|![truck-filled](icons/telefonica/filled/truck-filled.svg) | |![truck-filled](icons/o2/filled/truck-filled.svg) |[truck-filled](#truck-filled)|
-|![truck-light](icons/telefonica/light/truck-light.svg) | |![truck-light](icons/o2/light/truck-light.svg) |[truck-light](#truck-light)|
-|![truck-regular](icons/telefonica/regular/truck-regular.svg) | |![truck-regular](icons/o2/regular/truck-regular.svg) |[truck-regular](#truck-regular)|
-|![tshirt-filled](icons/telefonica/filled/tshirt-filled.svg) | | |[tshirt-filled](#tshirt-filled)|
-|![tshirt-light](icons/telefonica/light/tshirt-light.svg) | | |[tshirt-light](#tshirt-light)|
-|![tshirt-regular](icons/telefonica/regular/tshirt-regular.svg) | | |[tshirt-regular](#tshirt-regular)|
-|![tv-content-filled](icons/telefonica/filled/tv-content-filled.svg) | |![tv-content-filled](icons/o2/filled/tv-content-filled.svg) |[tv-content-filled](#tv-content-filled)|
-|![tv-content-light](icons/telefonica/light/tv-content-light.svg) | |![tv-content-light](icons/o2/light/tv-content-light.svg) |[tv-content-light](#tv-content-light)|
-|![tv-content-regular](icons/telefonica/regular/tv-content-regular.svg) | |![tv-content-regular](icons/o2/regular/tv-content-regular.svg) |[tv-content-regular](#tv-content-regular)|
-|![umbrella-filled](icons/telefonica/filled/umbrella-filled.svg) | | |[umbrella-filled](#umbrella-filled)|
-|![umbrella-light](icons/telefonica/light/umbrella-light.svg) | | |[umbrella-light](#umbrella-light)|
-|![umbrella-regular](icons/telefonica/regular/umbrella-regular.svg) | | |[umbrella-regular](#umbrella-regular)|
-| | |![undo-filled](icons/o2/filled/undo-filled.svg) |[undo-filled](#undo-filled)|
-| | |![undo-light](icons/o2/light/undo-light.svg) |[undo-light](#undo-light)|
-| | |![undo-regular](icons/o2/regular/undo-regular.svg) |[undo-regular](#undo-regular)|
-| | |![unlimited-calls-sms-filled](icons/o2/filled/unlimited-calls-sms-filled.svg) |[unlimited-calls-sms-filled](#unlimited-calls-sms-filled)|
-| | |![unlimited-calls-sms-light](icons/o2/light/unlimited-calls-sms-light.svg) |[unlimited-calls-sms-light](#unlimited-calls-sms-light)|
-| | |![unlimited-calls-sms-regular](icons/o2/regular/unlimited-calls-sms-regular.svg) |[unlimited-calls-sms-regular](#unlimited-calls-sms-regular)|
-| | |![unlimited-internet-filled](icons/o2/filled/unlimited-internet-filled.svg) |[unlimited-internet-filled](#unlimited-internet-filled)|
-| | |![unlimited-internet-light](icons/o2/light/unlimited-internet-light.svg) |[unlimited-internet-light](#unlimited-internet-light)|
-| | |![unlimited-internet-regular](icons/o2/regular/unlimited-internet-regular.svg) |[unlimited-internet-regular](#unlimited-internet-regular)|
-|![user-account-filled](icons/telefonica/filled/user-account-filled.svg) | |![user-account-filled](icons/o2/filled/user-account-filled.svg) |[user-account-filled](#user-account-filled)|
-|![user-account-light](icons/telefonica/light/user-account-light.svg) | |![user-account-light](icons/o2/light/user-account-light.svg) |[user-account-light](#user-account-light)|
-|![user-account-regular](icons/telefonica/regular/user-account-regular.svg) |![user-account-regular](icons/blau/regular/user-account-regular.svg) |![user-account-regular](icons/o2/regular/user-account-regular.svg) |[user-account-regular](#user-account-regular)|
-|![user-support-filled](icons/telefonica/filled/user-support-filled.svg) | |![user-support-filled](icons/o2/filled/user-support-filled.svg) |[user-support-filled](#user-support-filled)|
-|![user-support-light](icons/telefonica/light/user-support-light.svg) | |![user-support-light](icons/o2/light/user-support-light.svg) |[user-support-light](#user-support-light)|
-|![user-support-regular](icons/telefonica/regular/user-support-regular.svg) | |![user-support-regular](icons/o2/regular/user-support-regular.svg) |[user-support-regular](#user-support-regular)|
-| | |![video-camera-filled](icons/o2/filled/video-camera-filled.svg) |[video-camera-filled](#video-camera-filled)|
-| | |![video-camera-light](icons/o2/light/video-camera-light.svg) |[video-camera-light](#video-camera-light)|
-| | |![video-camera-regular](icons/o2/regular/video-camera-regular.svg) |[video-camera-regular](#video-camera-regular)|
-| | |![video-chat-filled](icons/o2/filled/video-chat-filled.svg) |[video-chat-filled](#video-chat-filled)|
-| | |![video-chat-light](icons/o2/light/video-chat-light.svg) |[video-chat-light](#video-chat-light)|
-| | |![video-chat-regular](icons/o2/regular/video-chat-regular.svg) |[video-chat-regular](#video-chat-regular)|
-| | |![video-disabled-filled](icons/o2/filled/video-disabled-filled.svg) |[video-disabled-filled](#video-disabled-filled)|
-| | |![video-disabled-light](icons/o2/light/video-disabled-light.svg) |[video-disabled-light](#video-disabled-light)|
-| | |![video-disabled-regular](icons/o2/regular/video-disabled-regular.svg) |[video-disabled-regular](#video-disabled-regular)|
-|![video-filled](icons/telefonica/filled/video-filled.svg) | |![video-filled](icons/o2/filled/video-filled.svg) |[video-filled](#video-filled)|
-|![video-light](icons/telefonica/light/video-light.svg) | |![video-light](icons/o2/light/video-light.svg) |[video-light](#video-light)|
-|![video-regular](icons/telefonica/regular/video-regular.svg) | |![video-regular](icons/o2/regular/video-regular.svg) |[video-regular](#video-regular)|
-|![video-surveillance-security-filled](icons/telefonica/filled/video-surveillance-security-filled.svg) | | |[video-surveillance-security-filled](#video-surveillance-security-filled)|
-|![video-surveillance-security-light](icons/telefonica/light/video-surveillance-security-light.svg) | | |[video-surveillance-security-light](#video-surveillance-security-light)|
-|![videogames-filled](icons/telefonica/filled/videogames-filled.svg) | | |[videogames-filled](#videogames-filled)|
-|![videogames-light](icons/telefonica/light/videogames-light.svg) | | |[videogames-light](#videogames-light)|
-|![videogames-regular](icons/telefonica/regular/videogames-regular.svg) | | |[videogames-regular](#videogames-regular)|
-| | |![view-360-light](icons/o2/light/view-360-light.svg) |[view-360-light](#view-360-light)|
-| | |![view-360-regular](icons/o2/regular/view-360-regular.svg) |[view-360-regular](#view-360-regular)|
-|![virus-filled](icons/telefonica/filled/virus-filled.svg) | | |[virus-filled](#virus-filled)|
-|![virus-light](icons/telefonica/light/virus-light.svg) | | |[virus-light](#virus-light)|
-|![virus-regular](icons/telefonica/regular/virus-regular.svg) | | |[virus-regular](#virus-regular)|
-|![virus-scan-filled](icons/telefonica/filled/virus-scan-filled.svg) | | |[virus-scan-filled](#virus-scan-filled)|
-|![virus-scan-light](icons/telefonica/light/virus-scan-light.svg) | | |[virus-scan-light](#virus-scan-light)|
-|![virus-scan-regular](icons/telefonica/regular/virus-scan-regular.svg) | | |[virus-scan-regular](#virus-scan-regular)|
-| | |![vod-filled](icons/o2/filled/vod-filled.svg) |[vod-filled](#vod-filled)|
-| | |![vod-light](icons/o2/light/vod-light.svg) |[vod-light](#vod-light)|
-| | |![vod-regular](icons/o2/regular/vod-regular.svg) |[vod-regular](#vod-regular)|
-| | |![voicemail-filled](icons/o2/filled/voicemail-filled.svg) |[voicemail-filled](#voicemail-filled)|
-| | |![voicemail-light](icons/o2/light/voicemail-light.svg) |[voicemail-light](#voicemail-light)|
-| | |![voicemail-regular](icons/o2/regular/voicemail-regular.svg) |[voicemail-regular](#voicemail-regular)|
-| | |![volume-down-filled](icons/o2/filled/volume-down-filled.svg) |[volume-down-filled](#volume-down-filled)|
-| | |![volume-down-light](icons/o2/light/volume-down-light.svg) |[volume-down-light](#volume-down-light)|
-| | |![volume-down-regular](icons/o2/regular/volume-down-regular.svg) |[volume-down-regular](#volume-down-regular)|
-| | |![volume-up-filled](icons/o2/filled/volume-up-filled.svg) |[volume-up-filled](#volume-up-filled)|
-| | |![volume-up-light](icons/o2/light/volume-up-light.svg) |[volume-up-light](#volume-up-light)|
-| | |![volume-up-regular](icons/o2/regular/volume-up-regular.svg) |[volume-up-regular](#volume-up-regular)|
-| | |![wait-clock-filled](icons/o2/filled/wait-clock-filled.svg) |[wait-clock-filled](#wait-clock-filled)|
-| | |![wait-clock-light](icons/o2/light/wait-clock-light.svg) |[wait-clock-light](#wait-clock-light)|
-| | |![wait-clock-regular](icons/o2/regular/wait-clock-regular.svg) |[wait-clock-regular](#wait-clock-regular)|
-|![wallet-filled](icons/telefonica/filled/wallet-filled.svg) | |![wallet-filled](icons/o2/filled/wallet-filled.svg) |[wallet-filled](#wallet-filled)|
-|![wallet-light](icons/telefonica/light/wallet-light.svg) | |![wallet-light](icons/o2/light/wallet-light.svg) |[wallet-light](#wallet-light)|
-|![wallet-regular](icons/telefonica/regular/wallet-regular.svg) | |![wallet-regular](icons/o2/regular/wallet-regular.svg) |[wallet-regular](#wallet-regular)|
-|![warning-filled](icons/telefonica/filled/warning-filled.svg) | |![warning-filled](icons/o2/filled/warning-filled.svg) |[warning-filled](#warning-filled)|
-|![warning-light](icons/telefonica/light/warning-light.svg) | |![warning-light](icons/o2/light/warning-light.svg) |[warning-light](#warning-light)|
-|![warning-regular](icons/telefonica/regular/warning-regular.svg) |![warning-regular](icons/blau/regular/warning-regular.svg) |![warning-regular](icons/o2/regular/warning-regular.svg) |[warning-regular](#warning-regular)|
-|![water-drop-filled](icons/telefonica/filled/water-drop-filled.svg) | |![water-drop-filled](icons/o2/filled/water-drop-filled.svg) |[water-drop-filled](#water-drop-filled)|
-|![water-drop-light](icons/telefonica/light/water-drop-light.svg) | |![water-drop-light](icons/o2/light/water-drop-light.svg) |[water-drop-light](#water-drop-light)|
-|![water-drop-regular](icons/telefonica/regular/water-drop-regular.svg) | |![water-drop-regular](icons/o2/regular/water-drop-regular.svg) |[water-drop-regular](#water-drop-regular)|
-|![wearable-filled](icons/telefonica/filled/wearable-filled.svg) | | |[wearable-filled](#wearable-filled)|
-|![wearable-light](icons/telefonica/light/wearable-light.svg) | | |[wearable-light](#wearable-light)|
-|![wearable-regular](icons/telefonica/regular/wearable-regular.svg) | |![wearable-regular](icons/o2/regular/wearable-regular.svg) |[wearable-regular](#wearable-regular)|
-|![web-filled](icons/telefonica/filled/web-filled.svg) | | |[web-filled](#web-filled)|
-|![web-light](icons/telefonica/light/web-light.svg) | | |[web-light](#web-light)|
-|![web-regular](icons/telefonica/regular/web-regular.svg) | | |[web-regular](#web-regular)|
-|![wifi-filled](icons/telefonica/filled/wifi-filled.svg) | |![wifi-filled](icons/o2/filled/wifi-filled.svg) |[wifi-filled](#wifi-filled)|
-|![wifi-light](icons/telefonica/light/wifi-light.svg) | |![wifi-light](icons/o2/light/wifi-light.svg) |[wifi-light](#wifi-light)|
-|![wifi-regular](icons/telefonica/regular/wifi-regular.svg) |![wifi-regular](icons/blau/regular/wifi-regular.svg) |![wifi-regular](icons/o2/regular/wifi-regular.svg) |[wifi-regular](#wifi-regular)|
-| | |![winner-check-filled](icons/o2/filled/winner-check-filled.svg) |[winner-check-filled](#winner-check-filled)|
-| | |![winner-check-light](icons/o2/light/winner-check-light.svg) |[winner-check-light](#winner-check-light)|
-| | |![winner-check-regular](icons/o2/regular/winner-check-regular.svg) |[winner-check-regular](#winner-check-regular)|
-| | |![winner-euro-filled](icons/o2/filled/winner-euro-filled.svg) |[winner-euro-filled](#winner-euro-filled)|
-| | |![winner-euro-light](icons/o2/light/winner-euro-light.svg) |[winner-euro-light](#winner-euro-light)|
-| | |![winner-euro-regular](icons/o2/regular/winner-euro-regular.svg) |[winner-euro-regular](#winner-euro-regular)|
-| | |![winner-fiber-quality-filled](icons/o2/filled/winner-fiber-quality-filled.svg) |[winner-fiber-quality-filled](#winner-fiber-quality-filled)|
-| | |![winner-fiber-quality-light](icons/o2/light/winner-fiber-quality-light.svg) |[winner-fiber-quality-light](#winner-fiber-quality-light)|
-| | |![winner-fiber-quality-regular](icons/o2/regular/winner-fiber-quality-regular.svg) |[winner-fiber-quality-regular](#winner-fiber-quality-regular)|
-|![winner-filled](icons/telefonica/filled/winner-filled.svg) | |![winner-filled](icons/o2/filled/winner-filled.svg) |[winner-filled](#winner-filled)|
-|![winner-light](icons/telefonica/light/winner-light.svg) | |![winner-light](icons/o2/light/winner-light.svg) |[winner-light](#winner-light)|
-| | |![winner-pound-filled](icons/o2/filled/winner-pound-filled.svg) |[winner-pound-filled](#winner-pound-filled)|
-| | |![winner-pound-light](icons/o2/light/winner-pound-light.svg) |[winner-pound-light](#winner-pound-light)|
-| | |![winner-pound-regular](icons/o2/regular/winner-pound-regular.svg) |[winner-pound-regular](#winner-pound-regular)|
-|![winner-regular](icons/telefonica/regular/winner-regular.svg) | |![winner-regular](icons/o2/regular/winner-regular.svg) |[winner-regular](#winner-regular)|
-|![woman-filled](icons/telefonica/filled/woman-filled.svg) | |![woman-filled](icons/o2/filled/woman-filled.svg) |[woman-filled](#woman-filled)|
-|![woman-light](icons/telefonica/light/woman-light.svg) | |![woman-light](icons/o2/light/woman-light.svg) |[woman-light](#woman-light)|
-|![woman-regular](icons/telefonica/regular/woman-regular.svg) | |![woman-regular](icons/o2/regular/woman-regular.svg) |[woman-regular](#woman-regular)|
-| | |![workflow-filled](icons/o2/filled/workflow-filled.svg) |[workflow-filled](#workflow-filled)|
-| | |![workflow-light](icons/o2/light/workflow-light.svg) |[workflow-light](#workflow-light)|
-| | |![workflow-regular](icons/o2/regular/workflow-regular.svg) |[workflow-regular](#workflow-regular)|
-| | |![workshop-meeting-filled](icons/o2/filled/workshop-meeting-filled.svg) |[workshop-meeting-filled](#workshop-meeting-filled)|
-| | |![workshop-meeting-light](icons/o2/light/workshop-meeting-light.svg) |[workshop-meeting-light](#workshop-meeting-light)|
-| | |![workshop-meeting-regular](icons/o2/regular/workshop-meeting-regular.svg) |[workshop-meeting-regular](#workshop-meeting-regular)|
+| | |![3d-view-filled](icons/o2/filled/3d-view-filled.svg) |`3d-view-filled`<span id='3d-view-filled'>(#3d-view-filled)</span>|
+| | |![3d-view-light](icons/o2/light/3d-view-light.svg) |`3d-view-light`<span id='3d-view-light'>(#3d-view-light)</span>|
+| | |![3d-view-regular](icons/o2/regular/3d-view-regular.svg) |`3d-view-regular`<span id='3d-view-regular'>(#3d-view-regular)</span>|
+| | |![4g-filled](icons/o2/filled/4g-filled.svg) |`4g-filled`<span id='4g-filled'>(#4g-filled)</span>|
+| | |![4g-light](icons/o2/light/4g-light.svg) |`4g-light`<span id='4g-light'>(#4g-light)</span>|
+| | |![4g-regular](icons/o2/regular/4g-regular.svg) |`4g-regular`<span id='4g-regular'>(#4g-regular)</span>|
+| | |![5g-filled](icons/o2/filled/5g-filled.svg) |`5g-filled`<span id='5g-filled'>(#5g-filled)</span>|
+| | |![5g-light](icons/o2/light/5g-light.svg) |`5g-light`<span id='5g-light'>(#5g-light)</span>|
+| | |![5g-regular](icons/o2/regular/5g-regular.svg) |`5g-regular`<span id='5g-regular'>(#5g-regular)</span>|
+|![academic-filled](icons/telefonica/filled/academic-filled.svg) | | |`academic-filled`<span id='academic-filled'>(#academic-filled)</span>|
+|![academic-light](icons/telefonica/light/academic-light.svg) | | |`academic-light`<span id='academic-light'>(#academic-light)</span>|
+|![academic-regular](icons/telefonica/regular/academic-regular.svg) | | |`academic-regular`<span id='academic-regular'>(#academic-regular)</span>|
+|![accesibility-filled](icons/telefonica/filled/accesibility-filled.svg) | |![accesibility-filled](icons/o2/filled/accesibility-filled.svg) |`accesibility-filled`<span id='accesibility-filled'>(#accesibility-filled)</span>|
+|![accesibility-light](icons/telefonica/light/accesibility-light.svg) | |![accesibility-light](icons/o2/light/accesibility-light.svg) |`accesibility-light`<span id='accesibility-light'>(#accesibility-light)</span>|
+|![accesibility-regular](icons/telefonica/regular/accesibility-regular.svg) | |![accesibility-regular](icons/o2/regular/accesibility-regular.svg) |`accesibility-regular`<span id='accesibility-regular'>(#accesibility-regular)</span>|
+| | |![accessories-filled](icons/o2/filled/accessories-filled.svg) |`accessories-filled`<span id='accessories-filled'>(#accessories-filled)</span>|
+| | |![accessories-light](icons/o2/light/accessories-light.svg) |`accessories-light`<span id='accessories-light'>(#accessories-light)</span>|
+| | |![accessories-regular](icons/o2/regular/accessories-regular.svg) |`accessories-regular`<span id='accessories-regular'>(#accessories-regular)</span>|
+| | |![add-bill-euro-filled](icons/o2/filled/add-bill-euro-filled.svg) |`add-bill-euro-filled`<span id='add-bill-euro-filled'>(#add-bill-euro-filled)</span>|
+| | |![add-bill-euro-light](icons/o2/light/add-bill-euro-light.svg) |`add-bill-euro-light`<span id='add-bill-euro-light'>(#add-bill-euro-light)</span>|
+| | |![add-bill-euro-regular](icons/o2/regular/add-bill-euro-regular.svg) |`add-bill-euro-regular`<span id='add-bill-euro-regular'>(#add-bill-euro-regular)</span>|
+| | |![add-bill-pound-filled](icons/o2/filled/add-bill-pound-filled.svg) |`add-bill-pound-filled`<span id='add-bill-pound-filled'>(#add-bill-pound-filled)</span>|
+| | |![add-bill-pound-light](icons/o2/light/add-bill-pound-light.svg) |`add-bill-pound-light`<span id='add-bill-pound-light'>(#add-bill-pound-light)</span>|
+| | |![add-bill-pound-regular](icons/o2/regular/add-bill-pound-regular.svg) |`add-bill-pound-regular`<span id='add-bill-pound-regular'>(#add-bill-pound-regular)</span>|
+| | |![add-bolton-filled](icons/o2/filled/add-bolton-filled.svg) |`add-bolton-filled`<span id='add-bolton-filled'>(#add-bolton-filled)</span>|
+| | |![add-bolton-light](icons/o2/light/add-bolton-light.svg) |`add-bolton-light`<span id='add-bolton-light'>(#add-bolton-light)</span>|
+| | |![add-bolton-regular](icons/o2/regular/add-bolton-regular.svg) |`add-bolton-regular`<span id='add-bolton-regular'>(#add-bolton-regular)</span>|
+|![add-more-circle-filled](icons/telefonica/filled/add-more-circle-filled.svg) | |![add-more-circle-filled](icons/o2/filled/add-more-circle-filled.svg) |`add-more-circle-filled`<span id='add-more-circle-filled'>(#add-more-circle-filled)</span>|
+|![add-more-circle-light](icons/telefonica/light/add-more-circle-light.svg) | |![add-more-circle-light](icons/o2/light/add-more-circle-light.svg) |`add-more-circle-light`<span id='add-more-circle-light'>(#add-more-circle-light)</span>|
+|![add-more-circle-regular](icons/telefonica/regular/add-more-circle-regular.svg) |![add-more-circle-regular](icons/blau/regular/add-more-circle-regular.svg) |![add-more-circle-regular](icons/o2/regular/add-more-circle-regular.svg) |`add-more-circle-regular`<span id='add-more-circle-regular'>(#add-more-circle-regular)</span>|
+| | |![add-more-filled](icons/o2/filled/add-more-filled.svg) |`add-more-filled`<span id='add-more-filled'>(#add-more-filled)</span>|
+|![add-more-light](icons/telefonica/light/add-more-light.svg) | |![add-more-light](icons/o2/light/add-more-light.svg) |`add-more-light`<span id='add-more-light'>(#add-more-light)</span>|
+|![add-more-location-filled](icons/telefonica/filled/add-more-location-filled.svg) | | |`add-more-location-filled`<span id='add-more-location-filled'>(#add-more-location-filled)</span>|
+|![add-more-location-regular](icons/telefonica/regular/add-more-location-regular.svg) | | |`add-more-location-regular`<span id='add-more-location-regular'>(#add-more-location-regular)</span>|
+|![add-more-query-filled](icons/telefonica/filled/add-more-query-filled.svg) | | |`add-more-query-filled`<span id='add-more-query-filled'>(#add-more-query-filled)</span>|
+|![add-more-query-light](icons/telefonica/light/add-more-query-light.svg) | | |`add-more-query-light`<span id='add-more-query-light'>(#add-more-query-light)</span>|
+|![add-more-query-regular](icons/telefonica/regular/add-more-query-regular.svg) | | |`add-more-query-regular`<span id='add-more-query-regular'>(#add-more-query-regular)</span>|
+|![add-more-regular](icons/telefonica/regular/add-more-regular.svg) |![add-more-regular](icons/blau/regular/add-more-regular.svg) |![add-more-regular](icons/o2/regular/add-more-regular.svg) |`add-more-regular`<span id='add-more-regular'>(#add-more-regular)</span>|
+| | |![add-phone-filled](icons/o2/filled/add-phone-filled.svg) |`add-phone-filled`<span id='add-phone-filled'>(#add-phone-filled)</span>|
+| | |![add-phone-light](icons/o2/light/add-phone-light.svg) |`add-phone-light`<span id='add-phone-light'>(#add-phone-light)</span>|
+| | |![add-phone-regular](icons/o2/regular/add-phone-regular.svg) |`add-phone-regular`<span id='add-phone-regular'>(#add-phone-regular)</span>|
+|![adn-filled](icons/telefonica/filled/adn-filled.svg) | | |`adn-filled`<span id='adn-filled'>(#adn-filled)</span>|
+|![adn-light](icons/telefonica/light/adn-light.svg) | | |`adn-light`<span id='adn-light'>(#adn-light)</span>|
+|![adn-regular](icons/telefonica/regular/adn-regular.svg) | | |`adn-regular`<span id='adn-regular'>(#adn-regular)</span>|
+| | |![airtime-filled](icons/o2/filled/airtime-filled.svg) |`airtime-filled`<span id='airtime-filled'>(#airtime-filled)</span>|
+| | |![airtime-light](icons/o2/light/airtime-light.svg) |`airtime-light`<span id='airtime-light'>(#airtime-light)</span>|
+| | |![airtime-regular](icons/o2/regular/airtime-regular.svg) |`airtime-regular`<span id='airtime-regular'>(#airtime-regular)</span>|
+| | |![alarm-clock-filled](icons/o2/filled/alarm-clock-filled.svg) |`alarm-clock-filled`<span id='alarm-clock-filled'>(#alarm-clock-filled)</span>|
+| | |![alarm-clock-light](icons/o2/light/alarm-clock-light.svg) |`alarm-clock-light`<span id='alarm-clock-light'>(#alarm-clock-light)</span>|
+| | |![alarm-clock-regular](icons/o2/regular/alarm-clock-regular.svg) |`alarm-clock-regular`<span id='alarm-clock-regular'>(#alarm-clock-regular)</span>|
+|![alarm-light-cross-filled](icons/telefonica/filled/alarm-light-cross-filled.svg) | | |`alarm-light-cross-filled`<span id='alarm-light-cross-filled'>(#alarm-light-cross-filled)</span>|
+|![alarm-light-cross-light](icons/telefonica/light/alarm-light-cross-light.svg) | | |`alarm-light-cross-light`<span id='alarm-light-cross-light'>(#alarm-light-cross-light)</span>|
+|![alarm-light-cross-regular](icons/telefonica/regular/alarm-light-cross-regular.svg) | | |`alarm-light-cross-regular`<span id='alarm-light-cross-regular'>(#alarm-light-cross-regular)</span>|
+|![alarm-light-filled](icons/telefonica/filled/alarm-light-filled.svg) | | |`alarm-light-filled`<span id='alarm-light-filled'>(#alarm-light-filled)</span>|
+|![alarm-light-light](icons/telefonica/light/alarm-light-light.svg) | | |`alarm-light-light`<span id='alarm-light-light'>(#alarm-light-light)</span>|
+|![alarm-light-regular](icons/telefonica/regular/alarm-light-regular.svg) | | |`alarm-light-regular`<span id='alarm-light-regular'>(#alarm-light-regular)</span>|
+|![alert-filled](icons/telefonica/filled/alert-filled.svg) | |![alert-filled](icons/o2/filled/alert-filled.svg) |`alert-filled`<span id='alert-filled'>(#alert-filled)</span>|
+|![alert-light](icons/telefonica/light/alert-light.svg) | |![alert-light](icons/o2/light/alert-light.svg) |`alert-light`<span id='alert-light'>(#alert-light)</span>|
+|![alert-regular](icons/telefonica/regular/alert-regular.svg) | |![alert-regular](icons/o2/regular/alert-regular.svg) |`alert-regular`<span id='alert-regular'>(#alert-regular)</span>|
+|![ambulance-filled](icons/telefonica/filled/ambulance-filled.svg) | | |`ambulance-filled`<span id='ambulance-filled'>(#ambulance-filled)</span>|
+|![ambulance-light](icons/telefonica/light/ambulance-light.svg) | | |`ambulance-light`<span id='ambulance-light'>(#ambulance-light)</span>|
+|![ambulance-regular](icons/telefonica/regular/ambulance-regular.svg) | | |`ambulance-regular`<span id='ambulance-regular'>(#ambulance-regular)</span>|
+| | |![angel-filled](icons/o2/filled/angel-filled.svg) |`angel-filled`<span id='angel-filled'>(#angel-filled)</span>|
+| | |![angel-light](icons/o2/light/angel-light.svg) |`angel-light`<span id='angel-light'>(#angel-light)</span>|
+| | |![angel-regular](icons/o2/regular/angel-regular.svg) |`angel-regular`<span id='angel-regular'>(#angel-regular)</span>|
+|![antenna-filled](icons/telefonica/filled/antenna-filled.svg) | | |`antenna-filled`<span id='antenna-filled'>(#antenna-filled)</span>|
+|![antenna-light](icons/telefonica/light/antenna-light.svg) | | |`antenna-light`<span id='antenna-light'>(#antenna-light)</span>|
+|![antenna-regular](icons/telefonica/regular/antenna-regular.svg) | | |`antenna-regular`<span id='antenna-regular'>(#antenna-regular)</span>|
+|![apartment-building-filled](icons/telefonica/filled/apartment-building-filled.svg) | |![apartment-building-filled](icons/o2/filled/apartment-building-filled.svg) |`apartment-building-filled`<span id='apartment-building-filled'>(#apartment-building-filled)</span>|
+|![apartment-building-light](icons/telefonica/light/apartment-building-light.svg) | |![apartment-building-light](icons/o2/light/apartment-building-light.svg) |`apartment-building-light`<span id='apartment-building-light'>(#apartment-building-light)</span>|
+|![apartment-building-regular](icons/telefonica/regular/apartment-building-regular.svg) | |![apartment-building-regular](icons/o2/regular/apartment-building-regular.svg) |`apartment-building-regular`<span id='apartment-building-regular'>(#apartment-building-regular)</span>|
+|![api-filled](icons/telefonica/filled/api-filled.svg) | | |`api-filled`<span id='api-filled'>(#api-filled)</span>|
+|![api-light](icons/telefonica/light/api-light.svg) | | |`api-light`<span id='api-light'>(#api-light)</span>|
+|![api-regular](icons/telefonica/regular/api-regular.svg) | | |`api-regular`<span id='api-regular'>(#api-regular)</span>|
+| | |![app-icon-filled](icons/o2/filled/app-icon-filled.svg) |`app-icon-filled`<span id='app-icon-filled'>(#app-icon-filled)</span>|
+| | |![app-icon-light](icons/o2/light/app-icon-light.svg) |`app-icon-light`<span id='app-icon-light'>(#app-icon-light)</span>|
+| | |![app-icon-regular](icons/o2/regular/app-icon-regular.svg) |`app-icon-regular`<span id='app-icon-regular'>(#app-icon-regular)</span>|
+|![appointment-filled](icons/telefonica/filled/appointment-filled.svg) | | |`appointment-filled`<span id='appointment-filled'>(#appointment-filled)</span>|
+|![appointment-light](icons/telefonica/light/appointment-light.svg) | | |`appointment-light`<span id='appointment-light'>(#appointment-light)</span>|
+|![appointment-regular](icons/telefonica/regular/appointment-regular.svg) | | |`appointment-regular`<span id='appointment-regular'>(#appointment-regular)</span>|
+| | |![apps-business-filled](icons/o2/filled/apps-business-filled.svg) |`apps-business-filled`<span id='apps-business-filled'>(#apps-business-filled)</span>|
+| | |![apps-business-light](icons/o2/light/apps-business-light.svg) |`apps-business-light`<span id='apps-business-light'>(#apps-business-light)</span>|
+| | |![apps-business-regular](icons/o2/regular/apps-business-regular.svg) |`apps-business-regular`<span id='apps-business-regular'>(#apps-business-regular)</span>|
+|![apps-filled](icons/telefonica/filled/apps-filled.svg) | |![apps-filled](icons/o2/filled/apps-filled.svg) |`apps-filled`<span id='apps-filled'>(#apps-filled)</span>|
+| | |![apps-light](icons/o2/light/apps-light.svg) |`apps-light`<span id='apps-light'>(#apps-light)</span>|
+| | |![apps-regular](icons/o2/regular/apps-regular.svg) |`apps-regular`<span id='apps-regular'>(#apps-regular)</span>|
+|![arrow-down-filled](icons/telefonica/filled/arrow-down-filled.svg) | |![arrow-down-filled](icons/o2/filled/arrow-down-filled.svg) |`arrow-down-filled`<span id='arrow-down-filled'>(#arrow-down-filled)</span>|
+|![arrow-down-left-filled](icons/telefonica/filled/arrow-down-left-filled.svg) | |![arrow-down-left-filled](icons/o2/filled/arrow-down-left-filled.svg) |`arrow-down-left-filled`<span id='arrow-down-left-filled'>(#arrow-down-left-filled)</span>|
+|![arrow-down-left-light](icons/telefonica/light/arrow-down-left-light.svg) | |![arrow-down-left-light](icons/o2/light/arrow-down-left-light.svg) |`arrow-down-left-light`<span id='arrow-down-left-light'>(#arrow-down-left-light)</span>|
+|![arrow-down-left-regular](icons/telefonica/regular/arrow-down-left-regular.svg) | |![arrow-down-left-regular](icons/o2/regular/arrow-down-left-regular.svg) |`arrow-down-left-regular`<span id='arrow-down-left-regular'>(#arrow-down-left-regular)</span>|
+|![arrow-down-light](icons/telefonica/light/arrow-down-light.svg) | |![arrow-down-light](icons/o2/light/arrow-down-light.svg) |`arrow-down-light`<span id='arrow-down-light'>(#arrow-down-light)</span>|
+|![arrow-down-regular](icons/telefonica/regular/arrow-down-regular.svg) | |![arrow-down-regular](icons/o2/regular/arrow-down-regular.svg) |`arrow-down-regular`<span id='arrow-down-regular'>(#arrow-down-regular)</span>|
+|![arrow-down-right-filled](icons/telefonica/filled/arrow-down-right-filled.svg) | |![arrow-down-right-filled](icons/o2/filled/arrow-down-right-filled.svg) |`arrow-down-right-filled`<span id='arrow-down-right-filled'>(#arrow-down-right-filled)</span>|
+|![arrow-down-right-light](icons/telefonica/light/arrow-down-right-light.svg) | |![arrow-down-right-light](icons/o2/light/arrow-down-right-light.svg) |`arrow-down-right-light`<span id='arrow-down-right-light'>(#arrow-down-right-light)</span>|
+|![arrow-down-right-regular](icons/telefonica/regular/arrow-down-right-regular.svg) | |![arrow-down-right-regular](icons/o2/regular/arrow-down-right-regular.svg) |`arrow-down-right-regular`<span id='arrow-down-right-regular'>(#arrow-down-right-regular)</span>|
+|![arrow-drop-down-filled](icons/telefonica/filled/arrow-drop-down-filled.svg) | | |`arrow-drop-down-filled`<span id='arrow-drop-down-filled'>(#arrow-drop-down-filled)</span>|
+|![arrow-drop-up-filled](icons/telefonica/filled/arrow-drop-up-filled.svg) | | |`arrow-drop-up-filled`<span id='arrow-drop-up-filled'>(#arrow-drop-up-filled)</span>|
+|![arrow-left-filled](icons/telefonica/filled/arrow-left-filled.svg) | |![arrow-left-filled](icons/o2/filled/arrow-left-filled.svg) |`arrow-left-filled`<span id='arrow-left-filled'>(#arrow-left-filled)</span>|
+| | |![arrow-left-light](icons/o2/light/arrow-left-light.svg) |`arrow-left-light`<span id='arrow-left-light'>(#arrow-left-light)</span>|
+| | |![arrow-left-regular](icons/o2/regular/arrow-left-regular.svg) |`arrow-left-regular`<span id='arrow-left-regular'>(#arrow-left-regular)</span>|
+|![arrow-line-down-left-light](icons/telefonica/light/arrow-line-down-left-light.svg) | | |`arrow-line-down-left-light`<span id='arrow-line-down-left-light'>(#arrow-line-down-left-light)</span>|
+|![arrow-line-down-left-regular](icons/telefonica/regular/arrow-line-down-left-regular.svg) | | |`arrow-line-down-left-regular`<span id='arrow-line-down-left-regular'>(#arrow-line-down-left-regular)</span>|
+|![arrow-line-down-light](icons/telefonica/light/arrow-line-down-light.svg) | | |`arrow-line-down-light`<span id='arrow-line-down-light'>(#arrow-line-down-light)</span>|
+|![arrow-line-down-regular](icons/telefonica/regular/arrow-line-down-regular.svg) | | |`arrow-line-down-regular`<span id='arrow-line-down-regular'>(#arrow-line-down-regular)</span>|
+|![arrow-line-left-light](icons/telefonica/light/arrow-line-left-light.svg) | | |`arrow-line-left-light`<span id='arrow-line-left-light'>(#arrow-line-left-light)</span>|
+|![arrow-line-left-regular](icons/telefonica/regular/arrow-line-left-regular.svg) | | |`arrow-line-left-regular`<span id='arrow-line-left-regular'>(#arrow-line-left-regular)</span>|
+|![arrow-line-right-light](icons/telefonica/light/arrow-line-right-light.svg) | | |`arrow-line-right-light`<span id='arrow-line-right-light'>(#arrow-line-right-light)</span>|
+|![arrow-line-right-regular](icons/telefonica/regular/arrow-line-right-regular.svg) | | |`arrow-line-right-regular`<span id='arrow-line-right-regular'>(#arrow-line-right-regular)</span>|
+|![arrow-line-up-light](icons/telefonica/light/arrow-line-up-light.svg) | | |`arrow-line-up-light`<span id='arrow-line-up-light'>(#arrow-line-up-light)</span>|
+|![arrow-line-up-regular](icons/telefonica/regular/arrow-line-up-regular.svg) | | |`arrow-line-up-regular`<span id='arrow-line-up-regular'>(#arrow-line-up-regular)</span>|
+|![arrow-line-up-right-light](icons/telefonica/light/arrow-line-up-right-light.svg) | | |`arrow-line-up-right-light`<span id='arrow-line-up-right-light'>(#arrow-line-up-right-light)</span>|
+|![arrow-line-up-right-regular](icons/telefonica/regular/arrow-line-up-right-regular.svg) | | |`arrow-line-up-right-regular`<span id='arrow-line-up-right-regular'>(#arrow-line-up-right-regular)</span>|
+|![arrow-right-filled](icons/telefonica/filled/arrow-right-filled.svg) | |![arrow-right-filled](icons/o2/filled/arrow-right-filled.svg) |`arrow-right-filled`<span id='arrow-right-filled'>(#arrow-right-filled)</span>|
+|![arrow-right-light](icons/telefonica/light/arrow-right-light.svg) | |![arrow-right-light](icons/o2/light/arrow-right-light.svg) |`arrow-right-light`<span id='arrow-right-light'>(#arrow-right-light)</span>|
+|![arrow-right-regular](icons/telefonica/regular/arrow-right-regular.svg) | |![arrow-right-regular](icons/o2/regular/arrow-right-regular.svg) |`arrow-right-regular`<span id='arrow-right-regular'>(#arrow-right-regular)</span>|
+|![arrow-up-down-filled](icons/telefonica/filled/arrow-up-down-filled.svg) | |![arrow-up-down-filled](icons/o2/filled/arrow-up-down-filled.svg) |`arrow-up-down-filled`<span id='arrow-up-down-filled'>(#arrow-up-down-filled)</span>|
+|![arrow-up-down-light](icons/telefonica/light/arrow-up-down-light.svg) | |![arrow-up-down-light](icons/o2/light/arrow-up-down-light.svg) |`arrow-up-down-light`<span id='arrow-up-down-light'>(#arrow-up-down-light)</span>|
+|![arrow-up-down-regular](icons/telefonica/regular/arrow-up-down-regular.svg) |![arrow-up-down-regular](icons/blau/regular/arrow-up-down-regular.svg) |![arrow-up-down-regular](icons/o2/regular/arrow-up-down-regular.svg) |`arrow-up-down-regular`<span id='arrow-up-down-regular'>(#arrow-up-down-regular)</span>|
+|![arrow-up-filled](icons/telefonica/filled/arrow-up-filled.svg) | |![arrow-up-filled](icons/o2/filled/arrow-up-filled.svg) |`arrow-up-filled`<span id='arrow-up-filled'>(#arrow-up-filled)</span>|
+|![arrow-up-left-filled](icons/telefonica/filled/arrow-up-left-filled.svg) | |![arrow-up-left-filled](icons/o2/filled/arrow-up-left-filled.svg) |`arrow-up-left-filled`<span id='arrow-up-left-filled'>(#arrow-up-left-filled)</span>|
+|![arrow-up-left-light](icons/telefonica/light/arrow-up-left-light.svg) | |![arrow-up-left-light](icons/o2/light/arrow-up-left-light.svg) |`arrow-up-left-light`<span id='arrow-up-left-light'>(#arrow-up-left-light)</span>|
+|![arrow-up-left-regular](icons/telefonica/regular/arrow-up-left-regular.svg) |![arrow-up-left-regular](icons/blau/regular/arrow-up-left-regular.svg) |![arrow-up-left-regular](icons/o2/regular/arrow-up-left-regular.svg) |`arrow-up-left-regular`<span id='arrow-up-left-regular'>(#arrow-up-left-regular)</span>|
+|![arrow-up-light](icons/telefonica/light/arrow-up-light.svg) | |![arrow-up-light](icons/o2/light/arrow-up-light.svg) |`arrow-up-light`<span id='arrow-up-light'>(#arrow-up-light)</span>|
+|![arrow-up-regular](icons/telefonica/regular/arrow-up-regular.svg) |![arrow-up-regular](icons/blau/regular/arrow-up-regular.svg) |![arrow-up-regular](icons/o2/regular/arrow-up-regular.svg) |`arrow-up-regular`<span id='arrow-up-regular'>(#arrow-up-regular)</span>|
+|![arrow-up-right-filled](icons/telefonica/filled/arrow-up-right-filled.svg) | |![arrow-up-right-filled](icons/o2/filled/arrow-up-right-filled.svg) |`arrow-up-right-filled`<span id='arrow-up-right-filled'>(#arrow-up-right-filled)</span>|
+|![arrow-up-right-light](icons/telefonica/light/arrow-up-right-light.svg) | |![arrow-up-right-light](icons/o2/light/arrow-up-right-light.svg) |`arrow-up-right-light`<span id='arrow-up-right-light'>(#arrow-up-right-light)</span>|
+|![arrow-up-right-regular](icons/telefonica/regular/arrow-up-right-regular.svg) | |![arrow-up-right-regular](icons/o2/regular/arrow-up-right-regular.svg) |`arrow-up-right-regular`<span id='arrow-up-right-regular'>(#arrow-up-right-regular)</span>|
+|![arrows-left-and-right-filled](icons/telefonica/filled/arrows-left-and-right-filled.svg) | |![arrows-left-and-right-filled](icons/o2/filled/arrows-left-and-right-filled.svg) |`arrows-left-and-right-filled`<span id='arrows-left-and-right-filled'>(#arrows-left-and-right-filled)</span>|
+|![arrows-left-and-right-light](icons/telefonica/light/arrows-left-and-right-light.svg) | |![arrows-left-and-right-light](icons/o2/light/arrows-left-and-right-light.svg) |`arrows-left-and-right-light`<span id='arrows-left-and-right-light'>(#arrows-left-and-right-light)</span>|
+|![arrows-left-and-right-regular](icons/telefonica/regular/arrows-left-and-right-regular.svg) | |![arrows-left-and-right-regular](icons/o2/regular/arrows-left-and-right-regular.svg) |`arrows-left-and-right-regular`<span id='arrows-left-and-right-regular'>(#arrows-left-and-right-regular)</span>|
+|![audio-filled](icons/telefonica/filled/audio-filled.svg) | |![audio-filled](icons/o2/filled/audio-filled.svg) |`audio-filled`<span id='audio-filled'>(#audio-filled)</span>|
+|![audio-light](icons/telefonica/light/audio-light.svg) | |![audio-light](icons/o2/light/audio-light.svg) |`audio-light`<span id='audio-light'>(#audio-light)</span>|
+|![audio-regular](icons/telefonica/regular/audio-regular.svg) | |![audio-regular](icons/o2/regular/audio-regular.svg) |`audio-regular`<span id='audio-regular'>(#audio-regular)</span>|
+|![aura-filled](icons/telefonica/filled/aura-filled.svg) | | |`aura-filled`<span id='aura-filled'>(#aura-filled)</span>|
+|![autentication-failure-filled](icons/telefonica/filled/autentication-failure-filled.svg) | | |`autentication-failure-filled`<span id='autentication-failure-filled'>(#autentication-failure-filled)</span>|
+|![autentication-failure-regular](icons/telefonica/regular/autentication-failure-regular.svg) | | |`autentication-failure-regular`<span id='autentication-failure-regular'>(#autentication-failure-regular)</span>|
+|![autentication-success-filled](icons/telefonica/filled/autentication-success-filled.svg) | | |`autentication-success-filled`<span id='autentication-success-filled'>(#autentication-success-filled)</span>|
+|![autentication-success-light](icons/telefonica/light/autentication-success-light.svg) | | |`autentication-success-light`<span id='autentication-success-light'>(#autentication-success-light)</span>|
+|![autentication-success-regular](icons/telefonica/regular/autentication-success-regular.svg) | | |`autentication-success-regular`<span id='autentication-success-regular'>(#autentication-success-regular)</span>|
+|![bacteria-filled](icons/telefonica/filled/bacteria-filled.svg) | | |`bacteria-filled`<span id='bacteria-filled'>(#bacteria-filled)</span>|
+|![bacteria-light](icons/telefonica/light/bacteria-light.svg) | | |`bacteria-light`<span id='bacteria-light'>(#bacteria-light)</span>|
+|![bacteria-regular](icons/telefonica/regular/bacteria-regular.svg) | | |`bacteria-regular`<span id='bacteria-regular'>(#bacteria-regular)</span>|
+|![balance-filled](icons/telefonica/filled/balance-filled.svg) | | |`balance-filled`<span id='balance-filled'>(#balance-filled)</span>|
+|![balance-light](icons/telefonica/light/balance-light.svg) | | |`balance-light`<span id='balance-light'>(#balance-light)</span>|
+|![balance-regular](icons/telefonica/regular/balance-regular.svg) | | |`balance-regular`<span id='balance-regular'>(#balance-regular)</span>|
+|![band-aid-filled](icons/telefonica/filled/band-aid-filled.svg) | | |`band-aid-filled`<span id='band-aid-filled'>(#band-aid-filled)</span>|
+|![band-aid-light](icons/telefonica/light/band-aid-light.svg) | | |`band-aid-light`<span id='band-aid-light'>(#band-aid-light)</span>|
+|![band-aid-regular](icons/telefonica/regular/band-aid-regular.svg) | | |`band-aid-regular`<span id='band-aid-regular'>(#band-aid-regular)</span>|
+| | |![barcode-filled](icons/o2/filled/barcode-filled.svg) |`barcode-filled`<span id='barcode-filled'>(#barcode-filled)</span>|
+| | |![barcode-light](icons/o2/light/barcode-light.svg) |`barcode-light`<span id='barcode-light'>(#barcode-light)</span>|
+| | |![barcode-regular](icons/o2/regular/barcode-regular.svg) |`barcode-regular`<span id='barcode-regular'>(#barcode-regular)</span>|
+|![battery-charging-filled](icons/telefonica/filled/battery-charging-filled.svg) | |![battery-charging-filled](icons/o2/filled/battery-charging-filled.svg) |`battery-charging-filled`<span id='battery-charging-filled'>(#battery-charging-filled)</span>|
+| | |![battery-charging-light](icons/o2/light/battery-charging-light.svg) |`battery-charging-light`<span id='battery-charging-light'>(#battery-charging-light)</span>|
+|![battery-charging-regular](icons/telefonica/regular/battery-charging-regular.svg) | |![battery-charging-regular](icons/o2/regular/battery-charging-regular.svg) |`battery-charging-regular`<span id='battery-charging-regular'>(#battery-charging-regular)</span>|
+|![battery-full-filled](icons/telefonica/filled/battery-full-filled.svg) | | |`battery-full-filled`<span id='battery-full-filled'>(#battery-full-filled)</span>|
+|![battery-full-regular](icons/telefonica/regular/battery-full-regular.svg) | | |`battery-full-regular`<span id='battery-full-regular'>(#battery-full-regular)</span>|
+|![battery-light](icons/telefonica/light/battery-light.svg) | | |`battery-light`<span id='battery-light'>(#battery-light)</span>|
+|![battery-low-filled](icons/telefonica/filled/battery-low-filled.svg) | | |`battery-low-filled`<span id='battery-low-filled'>(#battery-low-filled)</span>|
+|![battery-low-regular](icons/telefonica/regular/battery-low-regular.svg) | | |`battery-low-regular`<span id='battery-low-regular'>(#battery-low-regular)</span>|
+|![battery-medium-filled](icons/telefonica/filled/battery-medium-filled.svg) | | |`battery-medium-filled`<span id='battery-medium-filled'>(#battery-medium-filled)</span>|
+|![battery-medium-regular](icons/telefonica/regular/battery-medium-regular.svg) | | |`battery-medium-regular`<span id='battery-medium-regular'>(#battery-medium-regular)</span>|
+|![battery-regular](icons/telefonica/regular/battery-regular.svg) | | |`battery-regular`<span id='battery-regular'>(#battery-regular)</span>|
+|![beach-umbrella-filled](icons/telefonica/filled/beach-umbrella-filled.svg) | | |`beach-umbrella-filled`<span id='beach-umbrella-filled'>(#beach-umbrella-filled)</span>|
+|![beach-umbrella-light](icons/telefonica/light/beach-umbrella-light.svg) | | |`beach-umbrella-light`<span id='beach-umbrella-light'>(#beach-umbrella-light)</span>|
+|![beach-umbrella-regular](icons/telefonica/regular/beach-umbrella-regular.svg) | | |`beach-umbrella-regular`<span id='beach-umbrella-regular'>(#beach-umbrella-regular)</span>|
+|![bell-add-more-filled](icons/telefonica/filled/bell-add-more-filled.svg) | | |`bell-add-more-filled`<span id='bell-add-more-filled'>(#bell-add-more-filled)</span>|
+|![bell-add-more-light](icons/telefonica/light/bell-add-more-light.svg) | | |`bell-add-more-light`<span id='bell-add-more-light'>(#bell-add-more-light)</span>|
+|![bell-add-more-regular](icons/telefonica/regular/bell-add-more-regular.svg) | | |`bell-add-more-regular`<span id='bell-add-more-regular'>(#bell-add-more-regular)</span>|
+|![bell-filled](icons/telefonica/filled/bell-filled.svg) | |![bell-filled](icons/o2/filled/bell-filled.svg) |`bell-filled`<span id='bell-filled'>(#bell-filled)</span>|
+|![bell-light](icons/telefonica/light/bell-light.svg) | |![bell-light](icons/o2/light/bell-light.svg) |`bell-light`<span id='bell-light'>(#bell-light)</span>|
+|![bell-off-filled](icons/telefonica/filled/bell-off-filled.svg) | | |`bell-off-filled`<span id='bell-off-filled'>(#bell-off-filled)</span>|
+|![bell-off-light](icons/telefonica/light/bell-off-light.svg) | | |`bell-off-light`<span id='bell-off-light'>(#bell-off-light)</span>|
+|![bell-off-regular](icons/telefonica/regular/bell-off-regular.svg) | | |`bell-off-regular`<span id='bell-off-regular'>(#bell-off-regular)</span>|
+|![bell-program-filled](icons/telefonica/filled/bell-program-filled.svg) | | |`bell-program-filled`<span id='bell-program-filled'>(#bell-program-filled)</span>|
+|![bell-program-light](icons/telefonica/light/bell-program-light.svg) | | |`bell-program-light`<span id='bell-program-light'>(#bell-program-light)</span>|
+|![bell-program-regular](icons/telefonica/regular/bell-program-regular.svg) | | |`bell-program-regular`<span id='bell-program-regular'>(#bell-program-regular)</span>|
+|![bell-regular](icons/telefonica/regular/bell-regular.svg) |![bell-regular](icons/blau/regular/bell-regular.svg) |![bell-regular](icons/o2/regular/bell-regular.svg) |`bell-regular`<span id='bell-regular'>(#bell-regular)</span>|
+|![bicycle-bike-filled](icons/telefonica/filled/bicycle-bike-filled.svg) | | |`bicycle-bike-filled`<span id='bicycle-bike-filled'>(#bicycle-bike-filled)</span>|
+|![bicycle-bike-light](icons/telefonica/light/bicycle-bike-light.svg) | | |`bicycle-bike-light`<span id='bicycle-bike-light'>(#bicycle-bike-light)</span>|
+|![bicycle-bike-regular](icons/telefonica/regular/bicycle-bike-regular.svg) | | |`bicycle-bike-regular`<span id='bicycle-bike-regular'>(#bicycle-bike-regular)</span>|
+| | |![bill-invoice-pound-filled](icons/o2/filled/bill-invoice-pound-filled.svg) |`bill-invoice-pound-filled`<span id='bill-invoice-pound-filled'>(#bill-invoice-pound-filled)</span>|
+| | |![bill-invoice-pound-light](icons/o2/light/bill-invoice-pound-light.svg) |`bill-invoice-pound-light`<span id='bill-invoice-pound-light'>(#bill-invoice-pound-light)</span>|
+| | |![bill-invoice-pound-regular](icons/o2/regular/bill-invoice-pound-regular.svg) |`bill-invoice-pound-regular`<span id='bill-invoice-pound-regular'>(#bill-invoice-pound-regular)</span>|
+| | |![bill-queries-euro-filled](icons/o2/filled/bill-queries-euro-filled.svg) |`bill-queries-euro-filled`<span id='bill-queries-euro-filled'>(#bill-queries-euro-filled)</span>|
+| | |![bill-queries-euro-light](icons/o2/light/bill-queries-euro-light.svg) |`bill-queries-euro-light`<span id='bill-queries-euro-light'>(#bill-queries-euro-light)</span>|
+| | |![bill-queries-euro-regular](icons/o2/regular/bill-queries-euro-regular.svg) |`bill-queries-euro-regular`<span id='bill-queries-euro-regular'>(#bill-queries-euro-regular)</span>|
+| | |![bill-queries-pound-filled](icons/o2/filled/bill-queries-pound-filled.svg) |`bill-queries-pound-filled`<span id='bill-queries-pound-filled'>(#bill-queries-pound-filled)</span>|
+| | |![bill-queries-pound-light](icons/o2/light/bill-queries-pound-light.svg) |`bill-queries-pound-light`<span id='bill-queries-pound-light'>(#bill-queries-pound-light)</span>|
+| | |![bill-queries-pound-regular](icons/o2/regular/bill-queries-pound-regular.svg) |`bill-queries-pound-regular`<span id='bill-queries-pound-regular'>(#bill-queries-pound-regular)</span>|
+|![blog-filled](icons/telefonica/filled/blog-filled.svg) | | |`blog-filled`<span id='blog-filled'>(#blog-filled)</span>|
+|![blog-light](icons/telefonica/light/blog-light.svg) | | |`blog-light`<span id='blog-light'>(#blog-light)</span>|
+|![blog-regular](icons/telefonica/regular/blog-regular.svg) | | |`blog-regular`<span id='blog-regular'>(#blog-regular)</span>|
+|![boat-filled](icons/telefonica/filled/boat-filled.svg) | | |`boat-filled`<span id='boat-filled'>(#boat-filled)</span>|
+|![boat-light](icons/telefonica/light/boat-light.svg) | | |`boat-light`<span id='boat-light'>(#boat-light)</span>|
+|![boat-regular](icons/telefonica/regular/boat-regular.svg) | | |`boat-regular`<span id='boat-regular'>(#boat-regular)</span>|
+|![book-filled](icons/telefonica/filled/book-filled.svg) | | |`book-filled`<span id='book-filled'>(#book-filled)</span>|
+|![book-light](icons/telefonica/light/book-light.svg) | | |`book-light`<span id='book-light'>(#book-light)</span>|
+|![book-regular](icons/telefonica/regular/book-regular.svg) | | |`book-regular`<span id='book-regular'>(#book-regular)</span>|
+|![bookmark-filled](icons/telefonica/filled/bookmark-filled.svg) | | |`bookmark-filled`<span id='bookmark-filled'>(#bookmark-filled)</span>|
+|![bookmark-light](icons/telefonica/light/bookmark-light.svg) | | |`bookmark-light`<span id='bookmark-light'>(#bookmark-light)</span>|
+|![bookmark-regular](icons/telefonica/regular/bookmark-regular.svg) | | |`bookmark-regular`<span id='bookmark-regular'>(#bookmark-regular)</span>|
+|![box-filled](icons/telefonica/filled/box-filled.svg) | |![box-filled](icons/o2/filled/box-filled.svg) |`box-filled`<span id='box-filled'>(#box-filled)</span>|
+|![box-light](icons/telefonica/light/box-light.svg) | |![box-light](icons/o2/light/box-light.svg) |`box-light`<span id='box-light'>(#box-light)</span>|
+| | |![box-location-filled](icons/o2/filled/box-location-filled.svg) |`box-location-filled`<span id='box-location-filled'>(#box-location-filled)</span>|
+| | |![box-location-light](icons/o2/light/box-location-light.svg) |`box-location-light`<span id='box-location-light'>(#box-location-light)</span>|
+| | |![box-location-regular](icons/o2/regular/box-location-regular.svg) |`box-location-regular`<span id='box-location-regular'>(#box-location-regular)</span>|
+|![box-regular](icons/telefonica/regular/box-regular.svg) | |![box-regular](icons/o2/regular/box-regular.svg) |`box-regular`<span id='box-regular'>(#box-regular)</span>|
+|![brain-filled](icons/telefonica/filled/brain-filled.svg) | | |`brain-filled`<span id='brain-filled'>(#brain-filled)</span>|
+|![brain-light](icons/telefonica/light/brain-light.svg) | | |`brain-light`<span id='brain-light'>(#brain-light)</span>|
+|![brain-regular](icons/telefonica/regular/brain-regular.svg) | | |`brain-regular`<span id='brain-regular'>(#brain-regular)</span>|
+| | |![briefcase-business-filled](icons/o2/filled/briefcase-business-filled.svg) |`briefcase-business-filled`<span id='briefcase-business-filled'>(#briefcase-business-filled)</span>|
+| | |![briefcase-business-light](icons/o2/light/briefcase-business-light.svg) |`briefcase-business-light`<span id='briefcase-business-light'>(#briefcase-business-light)</span>|
+| | |![briefcase-business-regular](icons/o2/regular/briefcase-business-regular.svg) |`briefcase-business-regular`<span id='briefcase-business-regular'>(#briefcase-business-regular)</span>|
+|![briefcase-filled](icons/telefonica/filled/briefcase-filled.svg) | |![briefcase-filled](icons/o2/filled/briefcase-filled.svg) |`briefcase-filled`<span id='briefcase-filled'>(#briefcase-filled)</span>|
+|![briefcase-light](icons/telefonica/light/briefcase-light.svg) | |![briefcase-light](icons/o2/light/briefcase-light.svg) |`briefcase-light`<span id='briefcase-light'>(#briefcase-light)</span>|
+|![briefcase-regular](icons/telefonica/regular/briefcase-regular.svg) |![briefcase-regular](icons/blau/regular/briefcase-regular.svg) |![briefcase-regular](icons/o2/regular/briefcase-regular.svg) |`briefcase-regular`<span id='briefcase-regular'>(#briefcase-regular)</span>|
+|![broadband-filled](icons/telefonica/filled/broadband-filled.svg) | | |`broadband-filled`<span id='broadband-filled'>(#broadband-filled)</span>|
+|![broadband-light](icons/telefonica/light/broadband-light.svg) | | |`broadband-light`<span id='broadband-light'>(#broadband-light)</span>|
+|![broadband-regular](icons/telefonica/regular/broadband-regular.svg) | | |`broadband-regular`<span id='broadband-regular'>(#broadband-regular)</span>|
+|![bug-filled](icons/telefonica/filled/bug-filled.svg) | | |`bug-filled`<span id='bug-filled'>(#bug-filled)</span>|
+|![bug-light](icons/telefonica/light/bug-light.svg) | | |`bug-light`<span id='bug-light'>(#bug-light)</span>|
+|![bug-regular](icons/telefonica/regular/bug-regular.svg) | | |`bug-regular`<span id='bug-regular'>(#bug-regular)</span>|
+|![bus-filled](icons/telefonica/filled/bus-filled.svg) | | |`bus-filled`<span id='bus-filled'>(#bus-filled)</span>|
+|![bus-light](icons/telefonica/light/bus-light.svg) | | |`bus-light`<span id='bus-light'>(#bus-light)</span>|
+|![bus-regular](icons/telefonica/regular/bus-regular.svg) | | |`bus-regular`<span id='bus-regular'>(#bus-regular)</span>|
+|![buy-data-filled](icons/telefonica/filled/buy-data-filled.svg) | | |`buy-data-filled`<span id='buy-data-filled'>(#buy-data-filled)</span>|
+|![buy-data-light](icons/telefonica/light/buy-data-light.svg) | | |`buy-data-light`<span id='buy-data-light'>(#buy-data-light)</span>|
+|![buy-data-regular](icons/telefonica/regular/buy-data-regular.svg) | | |`buy-data-regular`<span id='buy-data-regular'>(#buy-data-regular)</span>|
+|![buy-devices-filled](icons/telefonica/filled/buy-devices-filled.svg) | |![buy-devices-filled](icons/o2/filled/buy-devices-filled.svg) |`buy-devices-filled`<span id='buy-devices-filled'>(#buy-devices-filled)</span>|
+|![buy-devices-light](icons/telefonica/light/buy-devices-light.svg) | |![buy-devices-light](icons/o2/light/buy-devices-light.svg) |`buy-devices-light`<span id='buy-devices-light'>(#buy-devices-light)</span>|
+|![buy-devices-regular](icons/telefonica/regular/buy-devices-regular.svg) | |![buy-devices-regular](icons/o2/regular/buy-devices-regular.svg) |`buy-devices-regular`<span id='buy-devices-regular'>(#buy-devices-regular)</span>|
+|![buy-home-products-filled](icons/telefonica/filled/buy-home-products-filled.svg) | | |`buy-home-products-filled`<span id='buy-home-products-filled'>(#buy-home-products-filled)</span>|
+|![buy-home-products-light](icons/telefonica/light/buy-home-products-light.svg) | | |`buy-home-products-light`<span id='buy-home-products-light'>(#buy-home-products-light)</span>|
+|![buy-home-products-regular](icons/telefonica/regular/buy-home-products-regular.svg) | | |`buy-home-products-regular`<span id='buy-home-products-regular'>(#buy-home-products-regular)</span>|
+|![buy-plans-filled](icons/telefonica/filled/buy-plans-filled.svg) | | |`buy-plans-filled`<span id='buy-plans-filled'>(#buy-plans-filled)</span>|
+|![buy-plans-light](icons/telefonica/light/buy-plans-light.svg) | | |`buy-plans-light`<span id='buy-plans-light'>(#buy-plans-light)</span>|
+|![buy-plans-regular](icons/telefonica/regular/buy-plans-regular.svg) | | |`buy-plans-regular`<span id='buy-plans-regular'>(#buy-plans-regular)</span>|
+|![cafe-filled](icons/telefonica/filled/cafe-filled.svg) | | |`cafe-filled`<span id='cafe-filled'>(#cafe-filled)</span>|
+|![cafe-light](icons/telefonica/light/cafe-light.svg) | | |`cafe-light`<span id='cafe-light'>(#cafe-light)</span>|
+|![cafe-regular](icons/telefonica/regular/cafe-regular.svg) | | |`cafe-regular`<span id='cafe-regular'>(#cafe-regular)</span>|
+| | |![calendar-euro-filled](icons/o2/filled/calendar-euro-filled.svg) |`calendar-euro-filled`<span id='calendar-euro-filled'>(#calendar-euro-filled)</span>|
+| | |![calendar-euro-light](icons/o2/light/calendar-euro-light.svg) |`calendar-euro-light`<span id='calendar-euro-light'>(#calendar-euro-light)</span>|
+| | |![calendar-euro-regular](icons/o2/regular/calendar-euro-regular.svg) |`calendar-euro-regular`<span id='calendar-euro-regular'>(#calendar-euro-regular)</span>|
+|![calendar-filled](icons/telefonica/filled/calendar-filled.svg) | |![calendar-filled](icons/o2/filled/calendar-filled.svg) |`calendar-filled`<span id='calendar-filled'>(#calendar-filled)</span>|
+|![calendar-light](icons/telefonica/light/calendar-light.svg) | |![calendar-light](icons/o2/light/calendar-light.svg) |`calendar-light`<span id='calendar-light'>(#calendar-light)</span>|
+| | |![calendar-pound-filled](icons/o2/filled/calendar-pound-filled.svg) |`calendar-pound-filled`<span id='calendar-pound-filled'>(#calendar-pound-filled)</span>|
+| | |![calendar-pound-light](icons/o2/light/calendar-pound-light.svg) |`calendar-pound-light`<span id='calendar-pound-light'>(#calendar-pound-light)</span>|
+| | |![calendar-pound-regular](icons/o2/regular/calendar-pound-regular.svg) |`calendar-pound-regular`<span id='calendar-pound-regular'>(#calendar-pound-regular)</span>|
+|![calendar-regular](icons/telefonica/regular/calendar-regular.svg) | |![calendar-regular](icons/o2/regular/calendar-regular.svg) |`calendar-regular`<span id='calendar-regular'>(#calendar-regular)</span>|
+|![call-center-user-support-filled](icons/telefonica/filled/call-center-user-support-filled.svg) | | |`call-center-user-support-filled`<span id='call-center-user-support-filled'>(#call-center-user-support-filled)</span>|
+|![call-center-user-support-light](icons/telefonica/light/call-center-user-support-light.svg) | | |`call-center-user-support-light`<span id='call-center-user-support-light'>(#call-center-user-support-light)</span>|
+|![call-center-user-support-regular](icons/telefonica/regular/call-center-user-support-regular.svg) | | |`call-center-user-support-regular`<span id='call-center-user-support-regular'>(#call-center-user-support-regular)</span>|
+|![call-details-filled](icons/telefonica/filled/call-details-filled.svg) | | |`call-details-filled`<span id='call-details-filled'>(#call-details-filled)</span>|
+|![call-details-light](icons/telefonica/light/call-details-light.svg) | | |`call-details-light`<span id='call-details-light'>(#call-details-light)</span>|
+|![call-details-regular](icons/telefonica/regular/call-details-regular.svg) | | |`call-details-regular`<span id='call-details-regular'>(#call-details-regular)</span>|
+|![call-landline-filled](icons/telefonica/filled/call-landline-filled.svg) | |![call-landline-filled](icons/o2/filled/call-landline-filled.svg) |`call-landline-filled`<span id='call-landline-filled'>(#call-landline-filled)</span>|
+|![call-landline-light](icons/telefonica/light/call-landline-light.svg) | |![call-landline-light](icons/o2/light/call-landline-light.svg) |`call-landline-light`<span id='call-landline-light'>(#call-landline-light)</span>|
+|![call-landline-regular](icons/telefonica/regular/call-landline-regular.svg) |![call-landline-regular](icons/blau/regular/call-landline-regular.svg) |![call-landline-regular](icons/o2/regular/call-landline-regular.svg) |`call-landline-regular`<span id='call-landline-regular'>(#call-landline-regular)</span>|
+| | |![callback-filled](icons/o2/filled/callback-filled.svg) |`callback-filled`<span id='callback-filled'>(#callback-filled)</span>|
+| | |![callback-light](icons/o2/light/callback-light.svg) |`callback-light`<span id='callback-light'>(#callback-light)</span>|
+| | |![callback-regular](icons/o2/regular/callback-regular.svg) |`callback-regular`<span id='callback-regular'>(#callback-regular)</span>|
+|![cancel-filled](icons/telefonica/filled/cancel-filled.svg) | |![cancel-filled](icons/o2/filled/cancel-filled.svg) |`cancel-filled`<span id='cancel-filled'>(#cancel-filled)</span>|
+|![cancel-light](icons/telefonica/light/cancel-light.svg) | |![cancel-light](icons/o2/light/cancel-light.svg) |`cancel-light`<span id='cancel-light'>(#cancel-light)</span>|
+|![cancel-regular](icons/telefonica/regular/cancel-regular.svg) |![cancel-regular](icons/blau/regular/cancel-regular.svg) |![cancel-regular](icons/o2/regular/cancel-regular.svg) |`cancel-regular`<span id='cancel-regular'>(#cancel-regular)</span>|
+| | |![cancellation-filled](icons/o2/filled/cancellation-filled.svg) |`cancellation-filled`<span id='cancellation-filled'>(#cancellation-filled)</span>|
+| | |![cancellation-light](icons/o2/light/cancellation-light.svg) |`cancellation-light`<span id='cancellation-light'>(#cancellation-light)</span>|
+| | |![cancellation-regular](icons/o2/regular/cancellation-regular.svg) |`cancellation-regular`<span id='cancellation-regular'>(#cancellation-regular)</span>|
+|![car-filled](icons/telefonica/filled/car-filled.svg) | | |`car-filled`<span id='car-filled'>(#car-filled)</span>|
+|![car-light](icons/telefonica/light/car-light.svg) | | |`car-light`<span id='car-light'>(#car-light)</span>|
+|![car-moving-filled](icons/telefonica/filled/car-moving-filled.svg) | | |`car-moving-filled`<span id='car-moving-filled'>(#car-moving-filled)</span>|
+|![car-moving-light](icons/telefonica/light/car-moving-light.svg) | | |`car-moving-light`<span id='car-moving-light'>(#car-moving-light)</span>|
+|![car-moving-regular](icons/telefonica/regular/car-moving-regular.svg) | | |`car-moving-regular`<span id='car-moving-regular'>(#car-moving-regular)</span>|
+|![car-regular](icons/telefonica/regular/car-regular.svg) | | |`car-regular`<span id='car-regular'>(#car-regular)</span>|
+|![car-with-clock-filled](icons/telefonica/filled/car-with-clock-filled.svg) | | |`car-with-clock-filled`<span id='car-with-clock-filled'>(#car-with-clock-filled)</span>|
+|![car-with-clock-light](icons/telefonica/light/car-with-clock-light.svg) | | |`car-with-clock-light`<span id='car-with-clock-light'>(#car-with-clock-light)</span>|
+|![car-with-clock-regular](icons/telefonica/regular/car-with-clock-regular.svg) | | |`car-with-clock-regular`<span id='car-with-clock-regular'>(#car-with-clock-regular)</span>|
+|![care-filled](icons/telefonica/filled/care-filled.svg) | | |`care-filled`<span id='care-filled'>(#care-filled)</span>|
+|![care-health-filled](icons/telefonica/filled/care-health-filled.svg) | | |`care-health-filled`<span id='care-health-filled'>(#care-health-filled)</span>|
+|![care-health-light](icons/telefonica/light/care-health-light.svg) | | |`care-health-light`<span id='care-health-light'>(#care-health-light)</span>|
+|![care-health-regular](icons/telefonica/regular/care-health-regular.svg) | | |`care-health-regular`<span id='care-health-regular'>(#care-health-regular)</span>|
+|![care-light](icons/telefonica/light/care-light.svg) | | |`care-light`<span id='care-light'>(#care-light)</span>|
+|![care-regular](icons/telefonica/regular/care-regular.svg) | | |`care-regular`<span id='care-regular'>(#care-regular)</span>|
+|![care-shield-filled](icons/telefonica/filled/care-shield-filled.svg) | | |`care-shield-filled`<span id='care-shield-filled'>(#care-shield-filled)</span>|
+|![care-shield-light](icons/telefonica/light/care-shield-light.svg) | | |`care-shield-light`<span id='care-shield-light'>(#care-shield-light)</span>|
+|![care-shield-regular](icons/telefonica/regular/care-shield-regular.svg) | | |`care-shield-regular`<span id='care-shield-regular'>(#care-shield-regular)</span>|
+|![casino-filled](icons/telefonica/filled/casino-filled.svg) | | |`casino-filled`<span id='casino-filled'>(#casino-filled)</span>|
+|![casino-light](icons/telefonica/light/casino-light.svg) | | |`casino-light`<span id='casino-light'>(#casino-light)</span>|
+|![casino-regular](icons/telefonica/regular/casino-regular.svg) | | |`casino-regular`<span id='casino-regular'>(#casino-regular)</span>|
+|![certificate-filled](icons/telefonica/filled/certificate-filled.svg) | | |`certificate-filled`<span id='certificate-filled'>(#certificate-filled)</span>|
+|![certificate-light](icons/telefonica/light/certificate-light.svg) | | |`certificate-light`<span id='certificate-light'>(#certificate-light)</span>|
+|![certificate-regular](icons/telefonica/regular/certificate-regular.svg) | | |`certificate-regular`<span id='certificate-regular'>(#certificate-regular)</span>|
+|![change-plan-filled](icons/telefonica/filled/change-plan-filled.svg) | | |`change-plan-filled`<span id='change-plan-filled'>(#change-plan-filled)</span>|
+|![change-plan-light](icons/telefonica/light/change-plan-light.svg) | | |`change-plan-light`<span id='change-plan-light'>(#change-plan-light)</span>|
+|![change-plan-regular](icons/telefonica/regular/change-plan-regular.svg) | | |`change-plan-regular`<span id='change-plan-regular'>(#change-plan-regular)</span>|
+|![change-wifi-password-filled](icons/telefonica/filled/change-wifi-password-filled.svg) | | |`change-wifi-password-filled`<span id='change-wifi-password-filled'>(#change-wifi-password-filled)</span>|
+|![change-wifi-password-light](icons/telefonica/light/change-wifi-password-light.svg) | | |`change-wifi-password-light`<span id='change-wifi-password-light'>(#change-wifi-password-light)</span>|
+|![change-wifi-password-regular](icons/telefonica/regular/change-wifi-password-regular.svg) | | |`change-wifi-password-regular`<span id='change-wifi-password-regular'>(#change-wifi-password-regular)</span>|
+| | |![chart-device-filled](icons/o2/filled/chart-device-filled.svg) |`chart-device-filled`<span id='chart-device-filled'>(#chart-device-filled)</span>|
+| | |![chart-device-light](icons/o2/light/chart-device-light.svg) |`chart-device-light`<span id='chart-device-light'>(#chart-device-light)</span>|
+| | |![chart-device-regular](icons/o2/regular/chart-device-regular.svg) |`chart-device-regular`<span id='chart-device-regular'>(#chart-device-regular)</span>|
+|![chat-filled](icons/telefonica/filled/chat-filled.svg) | |![chat-filled](icons/o2/filled/chat-filled.svg) |`chat-filled`<span id='chat-filled'>(#chat-filled)</span>|
+|![chat-light](icons/telefonica/light/chat-light.svg) | |![chat-light](icons/o2/light/chat-light.svg) |`chat-light`<span id='chat-light'>(#chat-light)</span>|
+|![chat-regular](icons/telefonica/regular/chat-regular.svg) |![chat-regular](icons/blau/regular/chat-regular.svg) |![chat-regular](icons/o2/regular/chat-regular.svg) |`chat-regular`<span id='chat-regular'>(#chat-regular)</span>|
+| | |![check-filled](icons/o2/filled/check-filled.svg) |`check-filled`<span id='check-filled'>(#check-filled)</span>|
+| | |![check-light](icons/o2/light/check-light.svg) |`check-light`<span id='check-light'>(#check-light)</span>|
+|![check-regular](icons/telefonica/regular/check-regular.svg) |![check-regular](icons/blau/regular/check-regular.svg) |![check-regular](icons/o2/regular/check-regular.svg) |`check-regular`<span id='check-regular'>(#check-regular)</span>|
+|![checked-filled](icons/telefonica/filled/checked-filled.svg) | |![checked-filled](icons/o2/filled/checked-filled.svg) |`checked-filled`<span id='checked-filled'>(#checked-filled)</span>|
+|![checked-light](icons/telefonica/light/checked-light.svg) | |![checked-light](icons/o2/light/checked-light.svg) |`checked-light`<span id='checked-light'>(#checked-light)</span>|
+|![checked-regular](icons/telefonica/regular/checked-regular.svg) |![checked-regular](icons/blau/regular/checked-regular.svg) |![checked-regular](icons/o2/regular/checked-regular.svg) |`checked-regular`<span id='checked-regular'>(#checked-regular)</span>|
+|![chemistry-filled](icons/telefonica/filled/chemistry-filled.svg) | | |`chemistry-filled`<span id='chemistry-filled'>(#chemistry-filled)</span>|
+|![chemistry-light](icons/telefonica/light/chemistry-light.svg) | | |`chemistry-light`<span id='chemistry-light'>(#chemistry-light)</span>|
+|![chemistry-regular](icons/telefonica/regular/chemistry-regular.svg) | | |`chemistry-regular`<span id='chemistry-regular'>(#chemistry-regular)</span>|
+|![chevron-down-light](icons/telefonica/light/chevron-down-light.svg) | |![chevron-down-light](icons/o2/light/chevron-down-light.svg) |`chevron-down-light`<span id='chevron-down-light'>(#chevron-down-light)</span>|
+|![chevron-down-regular](icons/telefonica/regular/chevron-down-regular.svg) |![chevron-down-regular](icons/blau/regular/chevron-down-regular.svg) |![chevron-down-regular](icons/o2/regular/chevron-down-regular.svg) |`chevron-down-regular`<span id='chevron-down-regular'>(#chevron-down-regular)</span>|
+|![chevron-left-light](icons/telefonica/light/chevron-left-light.svg) | |![chevron-left-light](icons/o2/light/chevron-left-light.svg) |`chevron-left-light`<span id='chevron-left-light'>(#chevron-left-light)</span>|
+|![chevron-left-regular](icons/telefonica/regular/chevron-left-regular.svg) |![chevron-left-regular](icons/blau/regular/chevron-left-regular.svg) |![chevron-left-regular](icons/o2/regular/chevron-left-regular.svg) |`chevron-left-regular`<span id='chevron-left-regular'>(#chevron-left-regular)</span>|
+|![chevron-right-light](icons/telefonica/light/chevron-right-light.svg) | |![chevron-right-light](icons/o2/light/chevron-right-light.svg) |`chevron-right-light`<span id='chevron-right-light'>(#chevron-right-light)</span>|
+|![chevron-right-regular](icons/telefonica/regular/chevron-right-regular.svg) |![chevron-right-regular](icons/blau/regular/chevron-right-regular.svg) |![chevron-right-regular](icons/o2/regular/chevron-right-regular.svg) |`chevron-right-regular`<span id='chevron-right-regular'>(#chevron-right-regular)</span>|
+|![chevron-top-regular](icons/telefonica/regular/chevron-top-regular.svg) | | |`chevron-top-regular`<span id='chevron-top-regular'>(#chevron-top-regular)</span>|
+|![chevron-up-light](icons/telefonica/light/chevron-up-light.svg) | |![chevron-up-light](icons/o2/light/chevron-up-light.svg) |`chevron-up-light`<span id='chevron-up-light'>(#chevron-up-light)</span>|
+| |![chevron-up-regular](icons/blau/regular/chevron-up-regular.svg) |![chevron-up-regular](icons/o2/regular/chevron-up-regular.svg) |`chevron-up-regular`<span id='chevron-up-regular'>(#chevron-up-regular)</span>|
+|![child-filled](icons/telefonica/filled/child-filled.svg) | | |`child-filled`<span id='child-filled'>(#child-filled)</span>|
+|![child-light](icons/telefonica/light/child-light.svg) | | |`child-light`<span id='child-light'>(#child-light)</span>|
+|![child-regular](icons/telefonica/regular/child-regular.svg) | | |`child-regular`<span id='child-regular'>(#child-regular)</span>|
+|![chip-device-filled](icons/telefonica/filled/chip-device-filled.svg) | | |`chip-device-filled`<span id='chip-device-filled'>(#chip-device-filled)</span>|
+|![chip-device-light](icons/telefonica/light/chip-device-light.svg) | | |`chip-device-light`<span id='chip-device-light'>(#chip-device-light)</span>|
+|![chip-device-regular](icons/telefonica/regular/chip-device-regular.svg) | | |`chip-device-regular`<span id='chip-device-regular'>(#chip-device-regular)</span>|
+|![chip-sim-card-filled](icons/telefonica/filled/chip-sim-card-filled.svg) | |![chip-sim-card-filled](icons/o2/filled/chip-sim-card-filled.svg) |`chip-sim-card-filled`<span id='chip-sim-card-filled'>(#chip-sim-card-filled)</span>|
+|![chip-sim-card-light](icons/telefonica/light/chip-sim-card-light.svg) | |![chip-sim-card-light](icons/o2/light/chip-sim-card-light.svg) |`chip-sim-card-light`<span id='chip-sim-card-light'>(#chip-sim-card-light)</span>|
+|![chip-sim-card-regular](icons/telefonica/regular/chip-sim-card-regular.svg) |![chip-sim-card-regular](icons/blau/regular/chip-sim-card-regular.svg) |![chip-sim-card-regular](icons/o2/regular/chip-sim-card-regular.svg) |`chip-sim-card-regular`<span id='chip-sim-card-regular'>(#chip-sim-card-regular)</span>|
+| | |![circuits-filled](icons/o2/filled/circuits-filled.svg) |`circuits-filled`<span id='circuits-filled'>(#circuits-filled)</span>|
+| | |![circuits-light](icons/o2/light/circuits-light.svg) |`circuits-light`<span id='circuits-light'>(#circuits-light)</span>|
+| | |![circuits-regular](icons/o2/regular/circuits-regular.svg) |`circuits-regular`<span id='circuits-regular'>(#circuits-regular)</span>|
+| | |![cleaning-filled](icons/o2/filled/cleaning-filled.svg) |`cleaning-filled`<span id='cleaning-filled'>(#cleaning-filled)</span>|
+| | |![cleaning-light](icons/o2/light/cleaning-light.svg) |`cleaning-light`<span id='cleaning-light'>(#cleaning-light)</span>|
+| | |![cleaning-regular](icons/o2/regular/cleaning-regular.svg) |`cleaning-regular`<span id='cleaning-regular'>(#cleaning-regular)</span>|
+| | |![click-and-collect-filled](icons/o2/filled/click-and-collect-filled.svg) |`click-and-collect-filled`<span id='click-and-collect-filled'>(#click-and-collect-filled)</span>|
+| | |![click-and-collect-light](icons/o2/light/click-and-collect-light.svg) |`click-and-collect-light`<span id='click-and-collect-light'>(#click-and-collect-light)</span>|
+| | |![click-and-collect-regular](icons/o2/regular/click-and-collect-regular.svg) |`click-and-collect-regular`<span id='click-and-collect-regular'>(#click-and-collect-regular)</span>|
+|![click-to-call-filled](icons/telefonica/filled/click-to-call-filled.svg) | | |`click-to-call-filled`<span id='click-to-call-filled'>(#click-to-call-filled)</span>|
+|![click-to-call-light](icons/telefonica/light/click-to-call-light.svg) | | |`click-to-call-light`<span id='click-to-call-light'>(#click-to-call-light)</span>|
+|![click-to-call-regular](icons/telefonica/regular/click-to-call-regular.svg) | | |`click-to-call-regular`<span id='click-to-call-regular'>(#click-to-call-regular)</span>|
+|![clip-filled](icons/telefonica/filled/clip-filled.svg) | |![clip-filled](icons/o2/filled/clip-filled.svg) |`clip-filled`<span id='clip-filled'>(#clip-filled)</span>|
+|![clip-light](icons/telefonica/light/clip-light.svg) | |![clip-light](icons/o2/light/clip-light.svg) |`clip-light`<span id='clip-light'>(#clip-light)</span>|
+|![clip-regular](icons/telefonica/regular/clip-regular.svg) | |![clip-regular](icons/o2/regular/clip-regular.svg) |`clip-regular`<span id='clip-regular'>(#clip-regular)</span>|
+|![clipboard-filled](icons/telefonica/filled/clipboard-filled.svg) | |![clipboard-filled](icons/o2/filled/clipboard-filled.svg) |`clipboard-filled`<span id='clipboard-filled'>(#clipboard-filled)</span>|
+|![clipboard-light](icons/telefonica/light/clipboard-light.svg) | |![clipboard-light](icons/o2/light/clipboard-light.svg) |`clipboard-light`<span id='clipboard-light'>(#clipboard-light)</span>|
+|![clipboard-regular](icons/telefonica/regular/clipboard-regular.svg) | |![clipboard-regular](icons/o2/regular/clipboard-regular.svg) |`clipboard-regular`<span id='clipboard-regular'>(#clipboard-regular)</span>|
+| | |![cloakroom-filled](icons/o2/filled/cloakroom-filled.svg) |`cloakroom-filled`<span id='cloakroom-filled'>(#cloakroom-filled)</span>|
+| | |![cloakroom-light](icons/o2/light/cloakroom-light.svg) |`cloakroom-light`<span id='cloakroom-light'>(#cloakroom-light)</span>|
+| | |![cloakroom-regular](icons/o2/regular/cloakroom-regular.svg) |`cloakroom-regular`<span id='cloakroom-regular'>(#cloakroom-regular)</span>|
+|![close-light](icons/telefonica/light/close-light.svg) | |![close-light](icons/o2/light/close-light.svg) |`close-light`<span id='close-light'>(#close-light)</span>|
+|![close-regular](icons/telefonica/regular/close-regular.svg) | |![close-regular](icons/o2/regular/close-regular.svg) |`close-regular`<span id='close-regular'>(#close-regular)</span>|
+| | |![cloud-distribution-alternative-filled](icons/o2/filled/cloud-distribution-alternative-filled.svg) |`cloud-distribution-alternative-filled`<span id='cloud-distribution-alternative-filled'>(#cloud-distribution-alternative-filled)</span>|
+| | |![cloud-distribution-alternative-light](icons/o2/light/cloud-distribution-alternative-light.svg) |`cloud-distribution-alternative-light`<span id='cloud-distribution-alternative-light'>(#cloud-distribution-alternative-light)</span>|
+| | |![cloud-distribution-alternative-regular](icons/o2/regular/cloud-distribution-alternative-regular.svg) |`cloud-distribution-alternative-regular`<span id='cloud-distribution-alternative-regular'>(#cloud-distribution-alternative-regular)</span>|
+|![cloud-distribution-filled](icons/telefonica/filled/cloud-distribution-filled.svg) | |![cloud-distribution-filled](icons/o2/filled/cloud-distribution-filled.svg) |`cloud-distribution-filled`<span id='cloud-distribution-filled'>(#cloud-distribution-filled)</span>|
+|![cloud-distribution-light](icons/telefonica/light/cloud-distribution-light.svg) | |![cloud-distribution-light](icons/o2/light/cloud-distribution-light.svg) |`cloud-distribution-light`<span id='cloud-distribution-light'>(#cloud-distribution-light)</span>|
+|![cloud-distribution-regular](icons/telefonica/regular/cloud-distribution-regular.svg) | |![cloud-distribution-regular](icons/o2/regular/cloud-distribution-regular.svg) |`cloud-distribution-regular`<span id='cloud-distribution-regular'>(#cloud-distribution-regular)</span>|
+|![cloud-filled](icons/telefonica/filled/cloud-filled.svg) | | |`cloud-filled`<span id='cloud-filled'>(#cloud-filled)</span>|
+| | |![cloud-friends-filled](icons/o2/filled/cloud-friends-filled.svg) |`cloud-friends-filled`<span id='cloud-friends-filled'>(#cloud-friends-filled)</span>|
+| | |![cloud-friends-light](icons/o2/light/cloud-friends-light.svg) |`cloud-friends-light`<span id='cloud-friends-light'>(#cloud-friends-light)</span>|
+| | |![cloud-friends-regular](icons/o2/regular/cloud-friends-regular.svg) |`cloud-friends-regular`<span id='cloud-friends-regular'>(#cloud-friends-regular)</span>|
+|![cloud-light](icons/telefonica/light/cloud-light.svg) | | |`cloud-light`<span id='cloud-light'>(#cloud-light)</span>|
+|![cloud-regular](icons/telefonica/regular/cloud-regular.svg) | | |`cloud-regular`<span id='cloud-regular'>(#cloud-regular)</span>|
+|![cloud-upload-filled](icons/telefonica/filled/cloud-upload-filled.svg) | | |`cloud-upload-filled`<span id='cloud-upload-filled'>(#cloud-upload-filled)</span>|
+|![cloud-upload-light](icons/telefonica/light/cloud-upload-light.svg) | | |`cloud-upload-light`<span id='cloud-upload-light'>(#cloud-upload-light)</span>|
+|![cloud-upload-regular](icons/telefonica/regular/cloud-upload-regular.svg) | | |`cloud-upload-regular`<span id='cloud-upload-regular'>(#cloud-upload-regular)</span>|
+|![clover-filled](icons/telefonica/filled/clover-filled.svg) | | |`clover-filled`<span id='clover-filled'>(#clover-filled)</span>|
+|![clover-light](icons/telefonica/light/clover-light.svg) | | |`clover-light`<span id='clover-light'>(#clover-light)</span>|
+|![clover-regular](icons/telefonica/regular/clover-regular.svg) | | |`clover-regular`<span id='clover-regular'>(#clover-regular)</span>|
+|![cocktail-filled](icons/telefonica/filled/cocktail-filled.svg) | |![cocktail-filled](icons/o2/filled/cocktail-filled.svg) |`cocktail-filled`<span id='cocktail-filled'>(#cocktail-filled)</span>|
+|![cocktail-light](icons/telefonica/light/cocktail-light.svg) | |![cocktail-light](icons/o2/light/cocktail-light.svg) |`cocktail-light`<span id='cocktail-light'>(#cocktail-light)</span>|
+|![cocktail-regular](icons/telefonica/regular/cocktail-regular.svg) | |![cocktail-regular](icons/o2/regular/cocktail-regular.svg) |`cocktail-regular`<span id='cocktail-regular'>(#cocktail-regular)</span>|
+|![code-filled](icons/telefonica/filled/code-filled.svg) | | |`code-filled`<span id='code-filled'>(#code-filled)</span>|
+|![code-light](icons/telefonica/light/code-light.svg) | | |`code-light`<span id='code-light'>(#code-light)</span>|
+|![code-regular](icons/telefonica/regular/code-regular.svg) | | |`code-regular`<span id='code-regular'>(#code-regular)</span>|
+| | |![coffee-tea-filled](icons/o2/filled/coffee-tea-filled.svg) |`coffee-tea-filled`<span id='coffee-tea-filled'>(#coffee-tea-filled)</span>|
+| | |![coffee-tea-light](icons/o2/light/coffee-tea-light.svg) |`coffee-tea-light`<span id='coffee-tea-light'>(#coffee-tea-light)</span>|
+| | |![coffee-tea-regular](icons/o2/regular/coffee-tea-regular.svg) |`coffee-tea-regular`<span id='coffee-tea-regular'>(#coffee-tea-regular)</span>|
+| | |![coins-filled](icons/o2/filled/coins-filled.svg) |`coins-filled`<span id='coins-filled'>(#coins-filled)</span>|
+| | |![coins-light](icons/o2/light/coins-light.svg) |`coins-light`<span id='coins-light'>(#coins-light)</span>|
+| | |![coins-regular](icons/o2/regular/coins-regular.svg) |`coins-regular`<span id='coins-regular'>(#coins-regular)</span>|
+| | |![comment-filled](icons/o2/filled/comment-filled.svg) |`comment-filled`<span id='comment-filled'>(#comment-filled)</span>|
+| | |![comment-light](icons/o2/light/comment-light.svg) |`comment-light`<span id='comment-light'>(#comment-light)</span>|
+| | |![comment-regular](icons/o2/regular/comment-regular.svg) |`comment-regular`<span id='comment-regular'>(#comment-regular)</span>|
+|![computer-academic-filled](icons/telefonica/filled/computer-academic-filled.svg) | | |`computer-academic-filled`<span id='computer-academic-filled'>(#computer-academic-filled)</span>|
+|![computer-academic-regular](icons/telefonica/regular/computer-academic-regular.svg) | | |`computer-academic-regular`<span id='computer-academic-regular'>(#computer-academic-regular)</span>|
+|![computer-filled](icons/telefonica/filled/computer-filled.svg) | |![computer-filled](icons/o2/filled/computer-filled.svg) |`computer-filled`<span id='computer-filled'>(#computer-filled)</span>|
+|![computer-light](icons/telefonica/light/computer-light.svg) | |![computer-light](icons/o2/light/computer-light.svg) |`computer-light`<span id='computer-light'>(#computer-light)</span>|
+|![computer-regular](icons/telefonica/regular/computer-regular.svg) |![computer-regular](icons/blau/regular/computer-regular.svg) |![computer-regular](icons/o2/regular/computer-regular.svg) |`computer-regular`<span id='computer-regular'>(#computer-regular)</span>|
+|![computer-user-filled](icons/telefonica/filled/computer-user-filled.svg) | | |`computer-user-filled`<span id='computer-user-filled'>(#computer-user-filled)</span>|
+|![computer-user-light](icons/telefonica/light/computer-user-light.svg) | | |`computer-user-light`<span id='computer-user-light'>(#computer-user-light)</span>|
+|![computer-user-regular](icons/telefonica/regular/computer-user-regular.svg) | | |`computer-user-regular`<span id='computer-user-regular'>(#computer-user-regular)</span>|
+| | |![conference-call-filled](icons/o2/filled/conference-call-filled.svg) |`conference-call-filled`<span id='conference-call-filled'>(#conference-call-filled)</span>|
+| | |![conference-call-light](icons/o2/light/conference-call-light.svg) |`conference-call-light`<span id='conference-call-light'>(#conference-call-light)</span>|
+| | |![conference-call-regular](icons/o2/regular/conference-call-regular.svg) |`conference-call-regular`<span id='conference-call-regular'>(#conference-call-regular)</span>|
+|![conference-filled](icons/telefonica/filled/conference-filled.svg) | |![conference-filled](icons/o2/filled/conference-filled.svg) |`conference-filled`<span id='conference-filled'>(#conference-filled)</span>|
+|![conference-light](icons/telefonica/light/conference-light.svg) | |![conference-light](icons/o2/light/conference-light.svg) |`conference-light`<span id='conference-light'>(#conference-light)</span>|
+|![conference-regular](icons/telefonica/regular/conference-regular.svg) | |![conference-regular](icons/o2/regular/conference-regular.svg) |`conference-regular`<span id='conference-regular'>(#conference-regular)</span>|
+|![configure-device-filled](icons/telefonica/filled/configure-device-filled.svg) | |![configure-device-filled](icons/o2/filled/configure-device-filled.svg) |`configure-device-filled`<span id='configure-device-filled'>(#configure-device-filled)</span>|
+|![configure-device-light](icons/telefonica/light/configure-device-light.svg) | |![configure-device-light](icons/o2/light/configure-device-light.svg) |`configure-device-light`<span id='configure-device-light'>(#configure-device-light)</span>|
+|![configure-device-regular](icons/telefonica/regular/configure-device-regular.svg) | |![configure-device-regular](icons/o2/regular/configure-device-regular.svg) |`configure-device-regular`<span id='configure-device-regular'>(#configure-device-regular)</span>|
+|![configure-modem-filled](icons/telefonica/filled/configure-modem-filled.svg) | | |`configure-modem-filled`<span id='configure-modem-filled'>(#configure-modem-filled)</span>|
+|![configure-modem-light](icons/telefonica/light/configure-modem-light.svg) | | |`configure-modem-light`<span id='configure-modem-light'>(#configure-modem-light)</span>|
+|![configure-modem-regular](icons/telefonica/regular/configure-modem-regular.svg) | | |`configure-modem-regular`<span id='configure-modem-regular'>(#configure-modem-regular)</span>|
+|![configure-tv-decoder-filled](icons/telefonica/filled/configure-tv-decoder-filled.svg) | | |`configure-tv-decoder-filled`<span id='configure-tv-decoder-filled'>(#configure-tv-decoder-filled)</span>|
+|![configure-tv-decoder-light](icons/telefonica/light/configure-tv-decoder-light.svg) | | |`configure-tv-decoder-light`<span id='configure-tv-decoder-light'>(#configure-tv-decoder-light)</span>|
+|![configure-tv-decoder-regular](icons/telefonica/regular/configure-tv-decoder-regular.svg) | | |`configure-tv-decoder-regular`<span id='configure-tv-decoder-regular'>(#configure-tv-decoder-regular)</span>|
+| | |![connected-car-filled](icons/o2/filled/connected-car-filled.svg) |`connected-car-filled`<span id='connected-car-filled'>(#connected-car-filled)</span>|
+| | |![connected-car-light](icons/o2/light/connected-car-light.svg) |`connected-car-light`<span id='connected-car-light'>(#connected-car-light)</span>|
+| | |![connected-car-regular](icons/o2/regular/connected-car-regular.svg) |`connected-car-regular`<span id='connected-car-regular'>(#connected-car-regular)</span>|
+|![connections-filled](icons/telefonica/filled/connections-filled.svg) | |![connections-filled](icons/o2/filled/connections-filled.svg) |`connections-filled`<span id='connections-filled'>(#connections-filled)</span>|
+|![connections-light](icons/telefonica/light/connections-light.svg) | |![connections-light](icons/o2/light/connections-light.svg) |`connections-light`<span id='connections-light'>(#connections-light)</span>|
+|![connections-regular](icons/telefonica/regular/connections-regular.svg) | |![connections-regular](icons/o2/regular/connections-regular.svg) |`connections-regular`<span id='connections-regular'>(#connections-regular)</span>|
+|![contact-book-filled](icons/telefonica/filled/contact-book-filled.svg) | | |`contact-book-filled`<span id='contact-book-filled'>(#contact-book-filled)</span>|
+|![contact-book-light](icons/telefonica/light/contact-book-light.svg) | | |`contact-book-light`<span id='contact-book-light'>(#contact-book-light)</span>|
+|![contact-book-regular](icons/telefonica/regular/contact-book-regular.svg) | | |`contact-book-regular`<span id='contact-book-regular'>(#contact-book-regular)</span>|
+| | |![contact-us-filled](icons/o2/filled/contact-us-filled.svg) |`contact-us-filled`<span id='contact-us-filled'>(#contact-us-filled)</span>|
+| | |![contact-us-light](icons/o2/light/contact-us-light.svg) |`contact-us-light`<span id='contact-us-light'>(#contact-us-light)</span>|
+| | |![contact-us-regular](icons/o2/regular/contact-us-regular.svg) |`contact-us-regular`<span id='contact-us-regular'>(#contact-us-regular)</span>|
+| | |![contactless-payments-euro-filled](icons/o2/filled/contactless-payments-euro-filled.svg) |`contactless-payments-euro-filled`<span id='contactless-payments-euro-filled'>(#contactless-payments-euro-filled)</span>|
+| | |![contactless-payments-euro-light](icons/o2/light/contactless-payments-euro-light.svg) |`contactless-payments-euro-light`<span id='contactless-payments-euro-light'>(#contactless-payments-euro-light)</span>|
+| | |![contactless-payments-euro-regular](icons/o2/regular/contactless-payments-euro-regular.svg) |`contactless-payments-euro-regular`<span id='contactless-payments-euro-regular'>(#contactless-payments-euro-regular)</span>|
+| | |![contactless-payments-pound-filled](icons/o2/filled/contactless-payments-pound-filled.svg) |`contactless-payments-pound-filled`<span id='contactless-payments-pound-filled'>(#contactless-payments-pound-filled)</span>|
+| | |![contactless-payments-pound-light](icons/o2/light/contactless-payments-pound-light.svg) |`contactless-payments-pound-light`<span id='contactless-payments-pound-light'>(#contactless-payments-pound-light)</span>|
+| | |![contactless-payments-pound-regular](icons/o2/regular/contactless-payments-pound-regular.svg) |`contactless-payments-pound-regular`<span id='contactless-payments-pound-regular'>(#contactless-payments-pound-regular)</span>|
+|![controls-filled](icons/telefonica/filled/controls-filled.svg) | |![controls-filled](icons/o2/filled/controls-filled.svg) |`controls-filled`<span id='controls-filled'>(#controls-filled)</span>|
+|![controls-light](icons/telefonica/light/controls-light.svg) | |![controls-light](icons/o2/light/controls-light.svg) |`controls-light`<span id='controls-light'>(#controls-light)</span>|
+|![controls-regular](icons/telefonica/regular/controls-regular.svg) | |![controls-regular](icons/o2/regular/controls-regular.svg) |`controls-regular`<span id='controls-regular'>(#controls-regular)</span>|
+|![cooking-filled](icons/telefonica/filled/cooking-filled.svg) | | |`cooking-filled`<span id='cooking-filled'>(#cooking-filled)</span>|
+|![cooking-light](icons/telefonica/light/cooking-light.svg) | | |`cooking-light`<span id='cooking-light'>(#cooking-light)</span>|
+|![cooking-regular](icons/telefonica/regular/cooking-regular.svg) | | |`cooking-regular`<span id='cooking-regular'>(#cooking-regular)</span>|
+|![copy-filled](icons/telefonica/filled/copy-filled.svg) | | |`copy-filled`<span id='copy-filled'>(#copy-filled)</span>|
+|![copy-light](icons/telefonica/light/copy-light.svg) | | |`copy-light`<span id='copy-light'>(#copy-light)</span>|
+|![copy-regular](icons/telefonica/regular/copy-regular.svg) | | |`copy-regular`<span id='copy-regular'>(#copy-regular)</span>|
+|![cough-syrup-filled](icons/telefonica/filled/cough-syrup-filled.svg) | | |`cough-syrup-filled`<span id='cough-syrup-filled'>(#cough-syrup-filled)</span>|
+|![cough-syrup-light](icons/telefonica/light/cough-syrup-light.svg) | | |`cough-syrup-light`<span id='cough-syrup-light'>(#cough-syrup-light)</span>|
+|![cough-syrup-regular](icons/telefonica/regular/cough-syrup-regular.svg) | | |`cough-syrup-regular`<span id='cough-syrup-regular'>(#cough-syrup-regular)</span>|
+|![cowboy-lasso-light](icons/telefonica/light/cowboy-lasso-light.svg) | | |`cowboy-lasso-light`<span id='cowboy-lasso-light'>(#cowboy-lasso-light)</span>|
+|![cowboy-lasso-regular](icons/telefonica/regular/cowboy-lasso-regular.svg) | | |`cowboy-lasso-regular`<span id='cowboy-lasso-regular'>(#cowboy-lasso-regular)</span>|
+| | |![credit-balance-euro-filled](icons/o2/filled/credit-balance-euro-filled.svg) |`credit-balance-euro-filled`<span id='credit-balance-euro-filled'>(#credit-balance-euro-filled)</span>|
+| | |![credit-balance-euro-light](icons/o2/light/credit-balance-euro-light.svg) |`credit-balance-euro-light`<span id='credit-balance-euro-light'>(#credit-balance-euro-light)</span>|
+| | |![credit-balance-euro-regular](icons/o2/regular/credit-balance-euro-regular.svg) |`credit-balance-euro-regular`<span id='credit-balance-euro-regular'>(#credit-balance-euro-regular)</span>|
+| | |![credit-balance-pound-filled](icons/o2/filled/credit-balance-pound-filled.svg) |`credit-balance-pound-filled`<span id='credit-balance-pound-filled'>(#credit-balance-pound-filled)</span>|
+| | |![credit-balance-pound-light](icons/o2/light/credit-balance-pound-light.svg) |`credit-balance-pound-light`<span id='credit-balance-pound-light'>(#credit-balance-pound-light)</span>|
+| | |![credit-balance-pound-regular](icons/o2/regular/credit-balance-pound-regular.svg) |`credit-balance-pound-regular`<span id='credit-balance-pound-regular'>(#credit-balance-pound-regular)</span>|
+|![credit-card-filled](icons/telefonica/filled/credit-card-filled.svg) | |![credit-card-filled](icons/o2/filled/credit-card-filled.svg) |`credit-card-filled`<span id='credit-card-filled'>(#credit-card-filled)</span>|
+|![credit-card-light](icons/telefonica/light/credit-card-light.svg) | |![credit-card-light](icons/o2/light/credit-card-light.svg) |`credit-card-light`<span id='credit-card-light'>(#credit-card-light)</span>|
+|![credit-card-regular](icons/telefonica/regular/credit-card-regular.svg) |![credit-card-regular](icons/blau/regular/credit-card-regular.svg) |![credit-card-regular](icons/o2/regular/credit-card-regular.svg) |`credit-card-regular`<span id='credit-card-regular'>(#credit-card-regular)</span>|
+|![credit-card-visa-filled](icons/telefonica/filled/credit-card-visa-filled.svg) | |![credit-card-visa-filled](icons/o2/filled/credit-card-visa-filled.svg) |`credit-card-visa-filled`<span id='credit-card-visa-filled'>(#credit-card-visa-filled)</span>|
+|![credit-card-visa-light](icons/telefonica/light/credit-card-visa-light.svg) | |![credit-card-visa-light](icons/o2/light/credit-card-visa-light.svg) |`credit-card-visa-light`<span id='credit-card-visa-light'>(#credit-card-visa-light)</span>|
+|![credit-card-visa-regular](icons/telefonica/regular/credit-card-visa-regular.svg) | |![credit-card-visa-regular](icons/o2/regular/credit-card-visa-regular.svg) |`credit-card-visa-regular`<span id='credit-card-visa-regular'>(#credit-card-visa-regular)</span>|
+|![cut-filled](icons/telefonica/filled/cut-filled.svg) | | |`cut-filled`<span id='cut-filled'>(#cut-filled)</span>|
+|![cut-light](icons/telefonica/light/cut-light.svg) | | |`cut-light`<span id='cut-light'>(#cut-light)</span>|
+|![dartboard-filled](icons/telefonica/filled/dartboard-filled.svg) | |![dartboard-filled](icons/o2/filled/dartboard-filled.svg) |`dartboard-filled`<span id='dartboard-filled'>(#dartboard-filled)</span>|
+|![dartboard-light](icons/telefonica/light/dartboard-light.svg) | |![dartboard-light](icons/o2/light/dartboard-light.svg) |`dartboard-light`<span id='dartboard-light'>(#dartboard-light)</span>|
+|![dartboard-regular](icons/telefonica/regular/dartboard-regular.svg) | |![dartboard-regular](icons/o2/regular/dartboard-regular.svg) |`dartboard-regular`<span id='dartboard-regular'>(#dartboard-regular)</span>|
+| | |![data-10-gb-filled](icons/o2/filled/data-10-gb-filled.svg) |`data-10-gb-filled`<span id='data-10-gb-filled'>(#data-10-gb-filled)</span>|
+| | |![data-10-gb-light](icons/o2/light/data-10-gb-light.svg) |`data-10-gb-light`<span id='data-10-gb-light'>(#data-10-gb-light)</span>|
+| | |![data-10-gb-regular](icons/o2/regular/data-10-gb-regular.svg) |`data-10-gb-regular`<span id='data-10-gb-regular'>(#data-10-gb-regular)</span>|
+| | |![data-100-gb-filled](icons/o2/filled/data-100-gb-filled.svg) |`data-100-gb-filled`<span id='data-100-gb-filled'>(#data-100-gb-filled)</span>|
+| | |![data-100-gb-light](icons/o2/light/data-100-gb-light.svg) |`data-100-gb-light`<span id='data-100-gb-light'>(#data-100-gb-light)</span>|
+| | |![data-100-gb-regular](icons/o2/regular/data-100-gb-regular.svg) |`data-100-gb-regular`<span id='data-100-gb-regular'>(#data-100-gb-regular)</span>|
+| | |![data-30-gb-filled](icons/o2/filled/data-30-gb-filled.svg) |`data-30-gb-filled`<span id='data-30-gb-filled'>(#data-30-gb-filled)</span>|
+| | |![data-30-gb-light](icons/o2/light/data-30-gb-light.svg) |`data-30-gb-light`<span id='data-30-gb-light'>(#data-30-gb-light)</span>|
+| | |![data-30-gb-regular](icons/o2/regular/data-30-gb-regular.svg) |`data-30-gb-regular`<span id='data-30-gb-regular'>(#data-30-gb-regular)</span>|
+|![data-alert-filled](icons/telefonica/filled/data-alert-filled.svg) | | |`data-alert-filled`<span id='data-alert-filled'>(#data-alert-filled)</span>|
+|![data-alert-light](icons/telefonica/light/data-alert-light.svg) | | |`data-alert-light`<span id='data-alert-light'>(#data-alert-light)</span>|
+|![data-alert-regular](icons/telefonica/regular/data-alert-regular.svg) | | |`data-alert-regular`<span id='data-alert-regular'>(#data-alert-regular)</span>|
+| | |![data-bonus-filled](icons/o2/filled/data-bonus-filled.svg) |`data-bonus-filled`<span id='data-bonus-filled'>(#data-bonus-filled)</span>|
+| | |![data-bonus-light](icons/o2/light/data-bonus-light.svg) |`data-bonus-light`<span id='data-bonus-light'>(#data-bonus-light)</span>|
+| | |![data-bonus-regular](icons/o2/regular/data-bonus-regular.svg) |`data-bonus-regular`<span id='data-bonus-regular'>(#data-bonus-regular)</span>|
+| | |![data-centre-filled](icons/o2/filled/data-centre-filled.svg) |`data-centre-filled`<span id='data-centre-filled'>(#data-centre-filled)</span>|
+| | |![data-centre-light](icons/o2/light/data-centre-light.svg) |`data-centre-light`<span id='data-centre-light'>(#data-centre-light)</span>|
+| | |![data-centre-regular](icons/o2/regular/data-centre-regular.svg) |`data-centre-regular`<span id='data-centre-regular'>(#data-centre-regular)</span>|
+|![data-checked-filled](icons/telefonica/filled/data-checked-filled.svg) | | |`data-checked-filled`<span id='data-checked-filled'>(#data-checked-filled)</span>|
+|![data-checked-light](icons/telefonica/light/data-checked-light.svg) | | |`data-checked-light`<span id='data-checked-light'>(#data-checked-light)</span>|
+|![data-checked-regular](icons/telefonica/regular/data-checked-regular.svg) | | |`data-checked-regular`<span id='data-checked-regular'>(#data-checked-regular)</span>|
+|![data-cloud-filled](icons/telefonica/filled/data-cloud-filled.svg) | |![data-cloud-filled](icons/o2/filled/data-cloud-filled.svg) |`data-cloud-filled`<span id='data-cloud-filled'>(#data-cloud-filled)</span>|
+|![data-cloud-light](icons/telefonica/light/data-cloud-light.svg) | |![data-cloud-light](icons/o2/light/data-cloud-light.svg) |`data-cloud-light`<span id='data-cloud-light'>(#data-cloud-light)</span>|
+|![data-cloud-regular](icons/telefonica/regular/data-cloud-regular.svg) | |![data-cloud-regular](icons/o2/regular/data-cloud-regular.svg) |`data-cloud-regular`<span id='data-cloud-regular'>(#data-cloud-regular)</span>|
+|![data-distribution-filled](icons/telefonica/filled/data-distribution-filled.svg) | | |`data-distribution-filled`<span id='data-distribution-filled'>(#data-distribution-filled)</span>|
+|![data-distribution-light](icons/telefonica/light/data-distribution-light.svg) | | |`data-distribution-light`<span id='data-distribution-light'>(#data-distribution-light)</span>|
+|![data-distribution-regular](icons/telefonica/regular/data-distribution-regular.svg) | | |`data-distribution-regular`<span id='data-distribution-regular'>(#data-distribution-regular)</span>|
+|![data-filled](icons/telefonica/filled/data-filled.svg) | | |`data-filled`<span id='data-filled'>(#data-filled)</span>|
+|![data-light](icons/telefonica/light/data-light.svg) | | |`data-light`<span id='data-light'>(#data-light)</span>|
+|![data-network-filled](icons/telefonica/filled/data-network-filled.svg) | | |`data-network-filled`<span id='data-network-filled'>(#data-network-filled)</span>|
+|![data-network-light](icons/telefonica/light/data-network-light.svg) | | |`data-network-light`<span id='data-network-light'>(#data-network-light)</span>|
+|![data-network-regular](icons/telefonica/regular/data-network-regular.svg) | | |`data-network-regular`<span id='data-network-regular'>(#data-network-regular)</span>|
+|![data-regular](icons/telefonica/regular/data-regular.svg) | | |`data-regular`<span id='data-regular'>(#data-regular)</span>|
+| | |![data-rollover-filled](icons/o2/filled/data-rollover-filled.svg) |`data-rollover-filled`<span id='data-rollover-filled'>(#data-rollover-filled)</span>|
+| | |![data-rollover-light](icons/o2/light/data-rollover-light.svg) |`data-rollover-light`<span id='data-rollover-light'>(#data-rollover-light)</span>|
+| | |![data-rollover-regular](icons/o2/regular/data-rollover-regular.svg) |`data-rollover-regular`<span id='data-rollover-regular'>(#data-rollover-regular)</span>|
+|![data-settings-filled](icons/telefonica/filled/data-settings-filled.svg) | | |`data-settings-filled`<span id='data-settings-filled'>(#data-settings-filled)</span>|
+|![data-settings-light](icons/telefonica/light/data-settings-light.svg) | | |`data-settings-light`<span id='data-settings-light'>(#data-settings-light)</span>|
+|![data-settings-regular](icons/telefonica/regular/data-settings-regular.svg) | | |`data-settings-regular`<span id='data-settings-regular'>(#data-settings-regular)</span>|
+|![data-shield-filled](icons/telefonica/filled/data-shield-filled.svg) | |![data-shield-filled](icons/o2/filled/data-shield-filled.svg) |`data-shield-filled`<span id='data-shield-filled'>(#data-shield-filled)</span>|
+|![data-shield-light](icons/telefonica/light/data-shield-light.svg) | |![data-shield-light](icons/o2/light/data-shield-light.svg) |`data-shield-light`<span id='data-shield-light'>(#data-shield-light)</span>|
+|![data-shield-regular](icons/telefonica/regular/data-shield-regular.svg) |![data-shield-regular](icons/blau/regular/data-shield-regular.svg) |![data-shield-regular](icons/o2/regular/data-shield-regular.svg) |`data-shield-regular`<span id='data-shield-regular'>(#data-shield-regular)</span>|
+| | |![data-unlimited-filled](icons/o2/filled/data-unlimited-filled.svg) |`data-unlimited-filled`<span id='data-unlimited-filled'>(#data-unlimited-filled)</span>|
+| | |![data-unlimited-light](icons/o2/light/data-unlimited-light.svg) |`data-unlimited-light`<span id='data-unlimited-light'>(#data-unlimited-light)</span>|
+| | |![data-unlimited-regular](icons/o2/regular/data-unlimited-regular.svg) |`data-unlimited-regular`<span id='data-unlimited-regular'>(#data-unlimited-regular)</span>|
+|![data-virus-filled](icons/telefonica/filled/data-virus-filled.svg) | | |`data-virus-filled`<span id='data-virus-filled'>(#data-virus-filled)</span>|
+|![data-virus-light](icons/telefonica/light/data-virus-light.svg) | | |`data-virus-light`<span id='data-virus-light'>(#data-virus-light)</span>|
+|![data-virus-regular](icons/telefonica/regular/data-virus-regular.svg) | | |`data-virus-regular`<span id='data-virus-regular'>(#data-virus-regular)</span>|
+| | |![database-connected-filled](icons/o2/filled/database-connected-filled.svg) |`database-connected-filled`<span id='database-connected-filled'>(#database-connected-filled)</span>|
+| | |![database-connected-light](icons/o2/light/database-connected-light.svg) |`database-connected-light`<span id='database-connected-light'>(#database-connected-light)</span>|
+| | |![database-connected-regular](icons/o2/regular/database-connected-regular.svg) |`database-connected-regular`<span id='database-connected-regular'>(#database-connected-regular)</span>|
+|![database-filled](icons/telefonica/filled/database-filled.svg) | |![database-filled](icons/o2/filled/database-filled.svg) |`database-filled`<span id='database-filled'>(#database-filled)</span>|
+|![database-light](icons/telefonica/light/database-light.svg) | |![database-light](icons/o2/light/database-light.svg) |`database-light`<span id='database-light'>(#database-light)</span>|
+|![database-regular](icons/telefonica/regular/database-regular.svg) | |![database-regular](icons/o2/regular/database-regular.svg) |`database-regular`<span id='database-regular'>(#database-regular)</span>|
+|![delivery-van-moving-filled](icons/telefonica/filled/delivery-van-moving-filled.svg) | | |`delivery-van-moving-filled`<span id='delivery-van-moving-filled'>(#delivery-van-moving-filled)</span>|
+|![delivery-van-moving-light](icons/telefonica/light/delivery-van-moving-light.svg) | | |`delivery-van-moving-light`<span id='delivery-van-moving-light'>(#delivery-van-moving-light)</span>|
+|![delivery-van-moving-regular](icons/telefonica/regular/delivery-van-moving-regular.svg) | | |`delivery-van-moving-regular`<span id='delivery-van-moving-regular'>(#delivery-van-moving-regular)</span>|
+| | |![desk-filled](icons/o2/filled/desk-filled.svg) |`desk-filled`<span id='desk-filled'>(#desk-filled)</span>|
+| | |![desk-light](icons/o2/light/desk-light.svg) |`desk-light`<span id='desk-light'>(#desk-light)</span>|
+| | |![desk-regular](icons/o2/regular/desk-regular.svg) |`desk-regular`<span id='desk-regular'>(#desk-regular)</span>|
+| | |![device-signal-filled](icons/o2/filled/device-signal-filled.svg) |`device-signal-filled`<span id='device-signal-filled'>(#device-signal-filled)</span>|
+| | |![device-signal-light](icons/o2/light/device-signal-light.svg) |`device-signal-light`<span id='device-signal-light'>(#device-signal-light)</span>|
+| | |![device-signal-regular](icons/o2/regular/device-signal-regular.svg) |`device-signal-regular`<span id='device-signal-regular'>(#device-signal-regular)</span>|
+|![diamond-filled](icons/telefonica/filled/diamond-filled.svg) | | |`diamond-filled`<span id='diamond-filled'>(#diamond-filled)</span>|
+|![diamond-light](icons/telefonica/light/diamond-light.svg) | | |`diamond-light`<span id='diamond-light'>(#diamond-light)</span>|
+|![diamond-regular](icons/telefonica/regular/diamond-regular.svg) | | |`diamond-regular`<span id='diamond-regular'>(#diamond-regular)</span>|
+|![digital-library-filled](icons/telefonica/filled/digital-library-filled.svg) | | |`digital-library-filled`<span id='digital-library-filled'>(#digital-library-filled)</span>|
+|![digital-library-light](icons/telefonica/light/digital-library-light.svg) | | |`digital-library-light`<span id='digital-library-light'>(#digital-library-light)</span>|
+|![digital-library-regular](icons/telefonica/regular/digital-library-regular.svg) | | |`digital-library-regular`<span id='digital-library-regular'>(#digital-library-regular)</span>|
+|![disable-filled](icons/telefonica/filled/disable-filled.svg) | | |`disable-filled`<span id='disable-filled'>(#disable-filled)</span>|
+|![disable-light](icons/telefonica/light/disable-light.svg) | | |`disable-light`<span id='disable-light'>(#disable-light)</span>|
+|![disable-regular](icons/telefonica/regular/disable-regular.svg) | | |`disable-regular`<span id='disable-regular'>(#disable-regular)</span>|
+| | |![disabled-filled](icons/o2/filled/disabled-filled.svg) |`disabled-filled`<span id='disabled-filled'>(#disabled-filled)</span>|
+| | |![disabled-light](icons/o2/light/disabled-light.svg) |`disabled-light`<span id='disabled-light'>(#disabled-light)</span>|
+| | |![disabled-regular](icons/o2/regular/disabled-regular.svg) |`disabled-regular`<span id='disabled-regular'>(#disabled-regular)</span>|
+|![disconnect-filled](icons/telefonica/filled/disconnect-filled.svg) | | |`disconnect-filled`<span id='disconnect-filled'>(#disconnect-filled)</span>|
+|![disconnect-light](icons/telefonica/light/disconnect-light.svg) | | |`disconnect-light`<span id='disconnect-light'>(#disconnect-light)</span>|
+|![disconnect-regular](icons/telefonica/regular/disconnect-regular.svg) | | |`disconnect-regular`<span id='disconnect-regular'>(#disconnect-regular)</span>|
+| | |![disturb-filled](icons/o2/filled/disturb-filled.svg) |`disturb-filled`<span id='disturb-filled'>(#disturb-filled)</span>|
+| | |![disturb-light](icons/o2/light/disturb-light.svg) |`disturb-light`<span id='disturb-light'>(#disturb-light)</span>|
+| | |![disturb-regular](icons/o2/regular/disturb-regular.svg) |`disturb-regular`<span id='disturb-regular'>(#disturb-regular)</span>|
+|![document-other-filled](icons/telefonica/filled/document-other-filled.svg) | | |`document-other-filled`<span id='document-other-filled'>(#document-other-filled)</span>|
+|![document-other-light](icons/telefonica/light/document-other-light.svg) | | |`document-other-light`<span id='document-other-light'>(#document-other-light)</span>|
+|![document-other-regular](icons/telefonica/regular/document-other-regular.svg) | | |`document-other-regular`<span id='document-other-regular'>(#document-other-regular)</span>|
+|![documents-filled](icons/telefonica/filled/documents-filled.svg) | | |`documents-filled`<span id='documents-filled'>(#documents-filled)</span>|
+|![documents-light](icons/telefonica/light/documents-light.svg) | | |`documents-light`<span id='documents-light'>(#documents-light)</span>|
+|![documents-regular](icons/telefonica/regular/documents-regular.svg) | | |`documents-regular`<span id='documents-regular'>(#documents-regular)</span>|
+|![dollar-symbol-circle-filled](icons/telefonica/filled/dollar-symbol-circle-filled.svg) | | |`dollar-symbol-circle-filled`<span id='dollar-symbol-circle-filled'>(#dollar-symbol-circle-filled)</span>|
+|![dollar-symbol-circle-light](icons/telefonica/light/dollar-symbol-circle-light.svg) | | |`dollar-symbol-circle-light`<span id='dollar-symbol-circle-light'>(#dollar-symbol-circle-light)</span>|
+|![dollar-symbol-circle-regular](icons/telefonica/regular/dollar-symbol-circle-regular.svg) | | |`dollar-symbol-circle-regular`<span id='dollar-symbol-circle-regular'>(#dollar-symbol-circle-regular)</span>|
+|![dollar-symbol-filled](icons/telefonica/filled/dollar-symbol-filled.svg) | | |`dollar-symbol-filled`<span id='dollar-symbol-filled'>(#dollar-symbol-filled)</span>|
+|![dollar-symbol-light](icons/telefonica/light/dollar-symbol-light.svg) | | |`dollar-symbol-light`<span id='dollar-symbol-light'>(#dollar-symbol-light)</span>|
+|![dollar-symbol-regular](icons/telefonica/regular/dollar-symbol-regular.svg) | | |`dollar-symbol-regular`<span id='dollar-symbol-regular'>(#dollar-symbol-regular)</span>|
+|![download-app-filled](icons/telefonica/filled/download-app-filled.svg) | | |`download-app-filled`<span id='download-app-filled'>(#download-app-filled)</span>|
+|![download-app-light](icons/telefonica/light/download-app-light.svg) | | |`download-app-light`<span id='download-app-light'>(#download-app-light)</span>|
+|![download-app-regular](icons/telefonica/regular/download-app-regular.svg) | | |`download-app-regular`<span id='download-app-regular'>(#download-app-regular)</span>|
+|![download-cloud-filled](icons/telefonica/filled/download-cloud-filled.svg) | | |`download-cloud-filled`<span id='download-cloud-filled'>(#download-cloud-filled)</span>|
+|![download-cloud-light](icons/telefonica/light/download-cloud-light.svg) | | |`download-cloud-light`<span id='download-cloud-light'>(#download-cloud-light)</span>|
+|![download-cloud-regular](icons/telefonica/regular/download-cloud-regular.svg) |![download-cloud-regular](icons/blau/regular/download-cloud-regular.svg) | |`download-cloud-regular`<span id='download-cloud-regular'>(#download-cloud-regular)</span>|
+|![download-filled](icons/telefonica/filled/download-filled.svg) | | |`download-filled`<span id='download-filled'>(#download-filled)</span>|
+|![download-light](icons/telefonica/light/download-light.svg) | | |`download-light`<span id='download-light'>(#download-light)</span>|
+|![download-regular](icons/telefonica/regular/download-regular.svg) |![download-regular](icons/blau/regular/download-regular.svg) | |`download-regular`<span id='download-regular'>(#download-regular)</span>|
+|![drink-filled](icons/telefonica/filled/drink-filled.svg) | | |`drink-filled`<span id='drink-filled'>(#drink-filled)</span>|
+|![drink-light](icons/telefonica/light/drink-light.svg) | | |`drink-light`<span id='drink-light'>(#drink-light)</span>|
+|![drink-regular](icons/telefonica/regular/drink-regular.svg) | | |`drink-regular`<span id='drink-regular'>(#drink-regular)</span>|
+|![dumbbell-filled](icons/telefonica/filled/dumbbell-filled.svg) | | |`dumbbell-filled`<span id='dumbbell-filled'>(#dumbbell-filled)</span>|
+|![dumbbell-light](icons/telefonica/light/dumbbell-light.svg) | | |`dumbbell-light`<span id='dumbbell-light'>(#dumbbell-light)</span>|
+|![dumbbell-regular](icons/telefonica/regular/dumbbell-regular.svg) | | |`dumbbell-regular`<span id='dumbbell-regular'>(#dumbbell-regular)</span>|
+|![eco-filled](icons/telefonica/filled/eco-filled.svg) | |![eco-filled](icons/o2/filled/eco-filled.svg) |`eco-filled`<span id='eco-filled'>(#eco-filled)</span>|
+|![eco-light](icons/telefonica/light/eco-light.svg) | |![eco-light](icons/o2/light/eco-light.svg) |`eco-light`<span id='eco-light'>(#eco-light)</span>|
+|![eco-regular](icons/telefonica/regular/eco-regular.svg) | |![eco-regular](icons/o2/regular/eco-regular.svg) |`eco-regular`<span id='eco-regular'>(#eco-regular)</span>|
+|![edit-filled](icons/telefonica/filled/edit-filled.svg) | | |`edit-filled`<span id='edit-filled'>(#edit-filled)</span>|
+|![edit-light](icons/telefonica/light/edit-light.svg) | | |`edit-light`<span id='edit-light'>(#edit-light)</span>|
+|![edit-paper-light](icons/telefonica/light/edit-paper-light.svg) | | |`edit-paper-light`<span id='edit-paper-light'>(#edit-paper-light)</span>|
+|![edit-paper-regular](icons/telefonica/regular/edit-paper-regular.svg) | | |`edit-paper-regular`<span id='edit-paper-regular'>(#edit-paper-regular)</span>|
+|![edit-pencil-light](icons/telefonica/light/edit-pencil-light.svg) | | |`edit-pencil-light`<span id='edit-pencil-light'>(#edit-pencil-light)</span>|
+|![edit-pencil-regular](icons/telefonica/regular/edit-pencil-regular.svg) |![edit-pencil-regular](icons/blau/regular/edit-pencil-regular.svg) | |`edit-pencil-regular`<span id='edit-pencil-regular'>(#edit-pencil-regular)</span>|
+|![edit-regular](icons/telefonica/regular/edit-regular.svg) | | |`edit-regular`<span id='edit-regular'>(#edit-regular)</span>|
+|![electrocardiogram-filled](icons/telefonica/filled/electrocardiogram-filled.svg) | |![electrocardiogram-filled](icons/o2/filled/electrocardiogram-filled.svg) |`electrocardiogram-filled`<span id='electrocardiogram-filled'>(#electrocardiogram-filled)</span>|
+|![electrocardiogram-light](icons/telefonica/light/electrocardiogram-light.svg) | |![electrocardiogram-light](icons/o2/light/electrocardiogram-light.svg) |`electrocardiogram-light`<span id='electrocardiogram-light'>(#electrocardiogram-light)</span>|
+|![electrocardiogram-regular](icons/telefonica/regular/electrocardiogram-regular.svg) | |![electrocardiogram-regular](icons/o2/regular/electrocardiogram-regular.svg) |`electrocardiogram-regular`<span id='electrocardiogram-regular'>(#electrocardiogram-regular)</span>|
+|![email-filled](icons/telefonica/filled/email-filled.svg) | |![email-filled](icons/o2/filled/email-filled.svg) |`email-filled`<span id='email-filled'>(#email-filled)</span>|
+|![email-light](icons/telefonica/light/email-light.svg) | |![email-light](icons/o2/light/email-light.svg) |`email-light`<span id='email-light'>(#email-light)</span>|
+|![email-regular](icons/telefonica/regular/email-regular.svg) |![email-regular](icons/blau/regular/email-regular.svg) |![email-regular](icons/o2/regular/email-regular.svg) |`email-regular`<span id='email-regular'>(#email-regular)</span>|
+| | |![email-send-filled](icons/o2/filled/email-send-filled.svg) |`email-send-filled`<span id='email-send-filled'>(#email-send-filled)</span>|
+| | |![email-send-light](icons/o2/light/email-send-light.svg) |`email-send-light`<span id='email-send-light'>(#email-send-light)</span>|
+| | |![email-send-regular](icons/o2/regular/email-send-regular.svg) |`email-send-regular`<span id='email-send-regular'>(#email-send-regular)</span>|
+|![email-virus-filled](icons/telefonica/filled/email-virus-filled.svg) | | |`email-virus-filled`<span id='email-virus-filled'>(#email-virus-filled)</span>|
+|![email-virus-light](icons/telefonica/light/email-virus-light.svg) | | |`email-virus-light`<span id='email-virus-light'>(#email-virus-light)</span>|
+|![email-virus-regular](icons/telefonica/regular/email-virus-regular.svg) | | |`email-virus-regular`<span id='email-virus-regular'>(#email-virus-regular)</span>|
+|![emergency-cross-filled](icons/telefonica/filled/emergency-cross-filled.svg) | | |`emergency-cross-filled`<span id='emergency-cross-filled'>(#emergency-cross-filled)</span>|
+|![emergency-cross-light](icons/telefonica/light/emergency-cross-light.svg) | | |`emergency-cross-light`<span id='emergency-cross-light'>(#emergency-cross-light)</span>|
+|![emergency-cross-regular](icons/telefonica/regular/emergency-cross-regular.svg) | | |`emergency-cross-regular`<span id='emergency-cross-regular'>(#emergency-cross-regular)</span>|
+|![emergency-cross-with-circle-filled](icons/telefonica/filled/emergency-cross-with-circle-filled.svg) | | |`emergency-cross-with-circle-filled`<span id='emergency-cross-with-circle-filled'>(#emergency-cross-with-circle-filled)</span>|
+|![emergency-cross-with-circle-light](icons/telefonica/light/emergency-cross-with-circle-light.svg) | | |`emergency-cross-with-circle-light`<span id='emergency-cross-with-circle-light'>(#emergency-cross-with-circle-light)</span>|
+|![emergency-cross-with-circle-regular](icons/telefonica/regular/emergency-cross-with-circle-regular.svg) | | |`emergency-cross-with-circle-regular`<span id='emergency-cross-with-circle-regular'>(#emergency-cross-with-circle-regular)</span>|
+|![error-filled](icons/telefonica/filled/error-filled.svg) | | |`error-filled`<span id='error-filled'>(#error-filled)</span>|
+|![error-light](icons/telefonica/light/error-light.svg) | | |`error-light`<span id='error-light'>(#error-light)</span>|
+|![error-regular](icons/telefonica/regular/error-regular.svg) | | |`error-regular`<span id='error-regular'>(#error-regular)</span>|
+| | |![escalator-filled](icons/o2/filled/escalator-filled.svg) |`escalator-filled`<span id='escalator-filled'>(#escalator-filled)</span>|
+| | |![escalator-light](icons/o2/light/escalator-light.svg) |`escalator-light`<span id='escalator-light'>(#escalator-light)</span>|
+| | |![escalator-regular](icons/o2/regular/escalator-regular.svg) |`escalator-regular`<span id='escalator-regular'>(#escalator-regular)</span>|
+| | |![esim-filled](icons/o2/filled/esim-filled.svg) |`esim-filled`<span id='esim-filled'>(#esim-filled)</span>|
+| | |![esim-light](icons/o2/light/esim-light.svg) |`esim-light`<span id='esim-light'>(#esim-light)</span>|
+| | |![esim-regular](icons/o2/regular/esim-regular.svg) |`esim-regular`<span id='esim-regular'>(#esim-regular)</span>|
+|![euro-symbol-circle-filled](icons/telefonica/filled/euro-symbol-circle-filled.svg) | |![euro-symbol-circle-filled](icons/o2/filled/euro-symbol-circle-filled.svg) |`euro-symbol-circle-filled`<span id='euro-symbol-circle-filled'>(#euro-symbol-circle-filled)</span>|
+|![euro-symbol-circle-light](icons/telefonica/light/euro-symbol-circle-light.svg) | |![euro-symbol-circle-light](icons/o2/light/euro-symbol-circle-light.svg) |`euro-symbol-circle-light`<span id='euro-symbol-circle-light'>(#euro-symbol-circle-light)</span>|
+|![euro-symbol-circle-regular](icons/telefonica/regular/euro-symbol-circle-regular.svg) | |![euro-symbol-circle-regular](icons/o2/regular/euro-symbol-circle-regular.svg) |`euro-symbol-circle-regular`<span id='euro-symbol-circle-regular'>(#euro-symbol-circle-regular)</span>|
+|![euro-symbol-filled](icons/telefonica/filled/euro-symbol-filled.svg) | | |`euro-symbol-filled`<span id='euro-symbol-filled'>(#euro-symbol-filled)</span>|
+|![euro-symbol-light](icons/telefonica/light/euro-symbol-light.svg) | | |`euro-symbol-light`<span id='euro-symbol-light'>(#euro-symbol-light)</span>|
+|![euro-symbol-regular](icons/telefonica/regular/euro-symbol-regular.svg) |![euro-symbol-regular](icons/blau/regular/euro-symbol-regular.svg) | |`euro-symbol-regular`<span id='euro-symbol-regular'>(#euro-symbol-regular)</span>|
+|![exchange-filled](icons/telefonica/filled/exchange-filled.svg) | | |`exchange-filled`<span id='exchange-filled'>(#exchange-filled)</span>|
+|![exchange-light](icons/telefonica/light/exchange-light.svg) | | |`exchange-light`<span id='exchange-light'>(#exchange-light)</span>|
+|![exchange-regular](icons/telefonica/regular/exchange-regular.svg) | | |`exchange-regular`<span id='exchange-regular'>(#exchange-regular)</span>|
+| | |![exit-door-filled](icons/o2/filled/exit-door-filled.svg) |`exit-door-filled`<span id='exit-door-filled'>(#exit-door-filled)</span>|
+| | |![exit-door-light](icons/o2/light/exit-door-light.svg) |`exit-door-light`<span id='exit-door-light'>(#exit-door-light)</span>|
+| | |![exit-door-regular](icons/o2/regular/exit-door-regular.svg) |`exit-door-regular`<span id='exit-door-regular'>(#exit-door-regular)</span>|
+|![exit-fullscreen-light](icons/telefonica/light/exit-fullscreen-light.svg) | | |`exit-fullscreen-light`<span id='exit-fullscreen-light'>(#exit-fullscreen-light)</span>|
+|![exit-fullscreen-regular](icons/telefonica/regular/exit-fullscreen-regular.svg) | | |`exit-fullscreen-regular`<span id='exit-fullscreen-regular'>(#exit-fullscreen-regular)</span>|
+|![export-light](icons/telefonica/light/export-light.svg) | | |`export-light`<span id='export-light'>(#export-light)</span>|
+|![export-regular](icons/telefonica/regular/export-regular.svg) | | |`export-regular`<span id='export-regular'>(#export-regular)</span>|
+| | |![eye-filled](icons/o2/filled/eye-filled.svg) |`eye-filled`<span id='eye-filled'>(#eye-filled)</span>|
+|![eye-light](icons/telefonica/light/eye-light.svg) | |![eye-light](icons/o2/light/eye-light.svg) |`eye-light`<span id='eye-light'>(#eye-light)</span>|
+|![eye-regular](icons/telefonica/regular/eye-regular.svg) |![eye-regular](icons/blau/regular/eye-regular.svg) |![eye-regular](icons/o2/regular/eye-regular.svg) |`eye-regular`<span id='eye-regular'>(#eye-regular)</span>|
+|![family-filled](icons/telefonica/filled/family-filled.svg) | |![family-filled](icons/o2/filled/family-filled.svg) |`family-filled`<span id='family-filled'>(#family-filled)</span>|
+|![family-light](icons/telefonica/light/family-light.svg) | |![family-light](icons/o2/light/family-light.svg) |`family-light`<span id='family-light'>(#family-light)</span>|
+|![family-regular](icons/telefonica/regular/family-regular.svg) | |![family-regular](icons/o2/regular/family-regular.svg) |`family-regular`<span id='family-regular'>(#family-regular)</span>|
+|![fast-forward-filled](icons/telefonica/filled/fast-forward-filled.svg) | |![fast-forward-filled](icons/o2/filled/fast-forward-filled.svg) |`fast-forward-filled`<span id='fast-forward-filled'>(#fast-forward-filled)</span>|
+|![fast-forward-light](icons/telefonica/light/fast-forward-light.svg) | |![fast-forward-light](icons/o2/light/fast-forward-light.svg) |`fast-forward-light`<span id='fast-forward-light'>(#fast-forward-light)</span>|
+|![fast-forward-regular](icons/telefonica/regular/fast-forward-regular.svg) | |![fast-forward-regular](icons/o2/regular/fast-forward-regular.svg) |`fast-forward-regular`<span id='fast-forward-regular'>(#fast-forward-regular)</span>|
+|![file-avi-filled](icons/telefonica/filled/file-avi-filled.svg) | | |`file-avi-filled`<span id='file-avi-filled'>(#file-avi-filled)</span>|
+|![file-avi-light](icons/telefonica/light/file-avi-light.svg) | | |`file-avi-light`<span id='file-avi-light'>(#file-avi-light)</span>|
+|![file-avi-regular](icons/telefonica/regular/file-avi-regular.svg) | | |`file-avi-regular`<span id='file-avi-regular'>(#file-avi-regular)</span>|
+|![file-blocked-filled](icons/telefonica/filled/file-blocked-filled.svg) | | |`file-blocked-filled`<span id='file-blocked-filled'>(#file-blocked-filled)</span>|
+|![file-blocked-light](icons/telefonica/light/file-blocked-light.svg) | | |`file-blocked-light`<span id='file-blocked-light'>(#file-blocked-light)</span>|
+|![file-blocked-regular](icons/telefonica/regular/file-blocked-regular.svg) | | |`file-blocked-regular`<span id='file-blocked-regular'>(#file-blocked-regular)</span>|
+|![file-box-filled](icons/telefonica/filled/file-box-filled.svg) | | |`file-box-filled`<span id='file-box-filled'>(#file-box-filled)</span>|
+|![file-box-light](icons/telefonica/light/file-box-light.svg) | | |`file-box-light`<span id='file-box-light'>(#file-box-light)</span>|
+|![file-box-regular](icons/telefonica/regular/file-box-regular.svg) | | |`file-box-regular`<span id='file-box-regular'>(#file-box-regular)</span>|
+|![file-compressed-filled](icons/telefonica/filled/file-compressed-filled.svg) | | |`file-compressed-filled`<span id='file-compressed-filled'>(#file-compressed-filled)</span>|
+|![file-compressed-light](icons/telefonica/light/file-compressed-light.svg) | | |`file-compressed-light`<span id='file-compressed-light'>(#file-compressed-light)</span>|
+|![file-compressed-regular](icons/telefonica/regular/file-compressed-regular.svg) | | |`file-compressed-regular`<span id='file-compressed-regular'>(#file-compressed-regular)</span>|
+|![file-css-filled](icons/telefonica/filled/file-css-filled.svg) | | |`file-css-filled`<span id='file-css-filled'>(#file-css-filled)</span>|
+|![file-css-light](icons/telefonica/light/file-css-light.svg) | | |`file-css-light`<span id='file-css-light'>(#file-css-light)</span>|
+|![file-css-regular](icons/telefonica/regular/file-css-regular.svg) | | |`file-css-regular`<span id='file-css-regular'>(#file-css-regular)</span>|
+|![file-encrypted-filled](icons/telefonica/filled/file-encrypted-filled.svg) | | |`file-encrypted-filled`<span id='file-encrypted-filled'>(#file-encrypted-filled)</span>|
+|![file-encrypted-light](icons/telefonica/light/file-encrypted-light.svg) | | |`file-encrypted-light`<span id='file-encrypted-light'>(#file-encrypted-light)</span>|
+|![file-encrypted-regular](icons/telefonica/regular/file-encrypted-regular.svg) | | |`file-encrypted-regular`<span id='file-encrypted-regular'>(#file-encrypted-regular)</span>|
+|![file-enex-filled](icons/telefonica/filled/file-enex-filled.svg) | | |`file-enex-filled`<span id='file-enex-filled'>(#file-enex-filled)</span>|
+|![file-enex-light](icons/telefonica/light/file-enex-light.svg) | | |`file-enex-light`<span id='file-enex-light'>(#file-enex-light)</span>|
+|![file-enex-regular](icons/telefonica/regular/file-enex-regular.svg) | | |`file-enex-regular`<span id='file-enex-regular'>(#file-enex-regular)</span>|
+|![file-error-filled](icons/telefonica/filled/file-error-filled.svg) | | |`file-error-filled`<span id='file-error-filled'>(#file-error-filled)</span>|
+|![file-error-light](icons/telefonica/light/file-error-light.svg) | | |`file-error-light`<span id='file-error-light'>(#file-error-light)</span>|
+|![file-error-regular](icons/telefonica/regular/file-error-regular.svg) | | |`file-error-regular`<span id='file-error-regular'>(#file-error-regular)</span>|
+|![file-html-filled](icons/telefonica/filled/file-html-filled.svg) | | |`file-html-filled`<span id='file-html-filled'>(#file-html-filled)</span>|
+|![file-html-light](icons/telefonica/light/file-html-light.svg) | | |`file-html-light`<span id='file-html-light'>(#file-html-light)</span>|
+|![file-html-regular](icons/telefonica/regular/file-html-regular.svg) | | |`file-html-regular`<span id='file-html-regular'>(#file-html-regular)</span>|
+|![file-illustrator-filled](icons/telefonica/filled/file-illustrator-filled.svg) | | |`file-illustrator-filled`<span id='file-illustrator-filled'>(#file-illustrator-filled)</span>|
+|![file-illustrator-light](icons/telefonica/light/file-illustrator-light.svg) | | |`file-illustrator-light`<span id='file-illustrator-light'>(#file-illustrator-light)</span>|
+|![file-illustrator-regular](icons/telefonica/regular/file-illustrator-regular.svg) | | |`file-illustrator-regular`<span id='file-illustrator-regular'>(#file-illustrator-regular)</span>|
+|![file-image-filled](icons/telefonica/filled/file-image-filled.svg) | | |`file-image-filled`<span id='file-image-filled'>(#file-image-filled)</span>|
+|![file-image-light](icons/telefonica/light/file-image-light.svg) | | |`file-image-light`<span id='file-image-light'>(#file-image-light)</span>|
+|![file-image-regular](icons/telefonica/regular/file-image-regular.svg) | | |`file-image-regular`<span id='file-image-regular'>(#file-image-regular)</span>|
+|![file-jpeg-filled](icons/telefonica/filled/file-jpeg-filled.svg) | | |`file-jpeg-filled`<span id='file-jpeg-filled'>(#file-jpeg-filled)</span>|
+|![file-jpeg-light](icons/telefonica/light/file-jpeg-light.svg) | | |`file-jpeg-light`<span id='file-jpeg-light'>(#file-jpeg-light)</span>|
+|![file-jpeg-regular](icons/telefonica/regular/file-jpeg-regular.svg) | | |`file-jpeg-regular`<span id='file-jpeg-regular'>(#file-jpeg-regular)</span>|
+|![file-mp3-filled](icons/telefonica/filled/file-mp3-filled.svg) | | |`file-mp3-filled`<span id='file-mp3-filled'>(#file-mp3-filled)</span>|
+|![file-mp3-light](icons/telefonica/light/file-mp3-light.svg) | | |`file-mp3-light`<span id='file-mp3-light'>(#file-mp3-light)</span>|
+|![file-mp3-regular](icons/telefonica/regular/file-mp3-regular.svg) | | |`file-mp3-regular`<span id='file-mp3-regular'>(#file-mp3-regular)</span>|
+|![file-mp4-filled](icons/telefonica/filled/file-mp4-filled.svg) | | |`file-mp4-filled`<span id='file-mp4-filled'>(#file-mp4-filled)</span>|
+|![file-mp4-light](icons/telefonica/light/file-mp4-light.svg) | | |`file-mp4-light`<span id='file-mp4-light'>(#file-mp4-light)</span>|
+|![file-mp4-regular](icons/telefonica/regular/file-mp4-regular.svg) | | |`file-mp4-regular`<span id='file-mp4-regular'>(#file-mp4-regular)</span>|
+|![file-music-filled](icons/telefonica/filled/file-music-filled.svg) | | |`file-music-filled`<span id='file-music-filled'>(#file-music-filled)</span>|
+|![file-music-light](icons/telefonica/light/file-music-light.svg) | | |`file-music-light`<span id='file-music-light'>(#file-music-light)</span>|
+|![file-music-regular](icons/telefonica/regular/file-music-regular.svg) | | |`file-music-regular`<span id='file-music-regular'>(#file-music-regular)</span>|
+|![file-ok-filled](icons/telefonica/filled/file-ok-filled.svg) | | |`file-ok-filled`<span id='file-ok-filled'>(#file-ok-filled)</span>|
+|![file-ok-light](icons/telefonica/light/file-ok-light.svg) | | |`file-ok-light`<span id='file-ok-light'>(#file-ok-light)</span>|
+|![file-ok-regular](icons/telefonica/regular/file-ok-regular.svg) | | |`file-ok-regular`<span id='file-ok-regular'>(#file-ok-regular)</span>|
+|![file-pdf-filled](icons/telefonica/filled/file-pdf-filled.svg) | | |`file-pdf-filled`<span id='file-pdf-filled'>(#file-pdf-filled)</span>|
+|![file-pdf-light](icons/telefonica/light/file-pdf-light.svg) | | |`file-pdf-light`<span id='file-pdf-light'>(#file-pdf-light)</span>|
+|![file-pdf-regular](icons/telefonica/regular/file-pdf-regular.svg) | | |`file-pdf-regular`<span id='file-pdf-regular'>(#file-pdf-regular)</span>|
+|![file-png-filled](icons/telefonica/filled/file-png-filled.svg) | | |`file-png-filled`<span id='file-png-filled'>(#file-png-filled)</span>|
+|![file-png-light](icons/telefonica/light/file-png-light.svg) | | |`file-png-light`<span id='file-png-light'>(#file-png-light)</span>|
+|![file-png-regular](icons/telefonica/regular/file-png-regular.svg) | | |`file-png-regular`<span id='file-png-regular'>(#file-png-regular)</span>|
+|![file-ppt-filled](icons/telefonica/filled/file-ppt-filled.svg) | | |`file-ppt-filled`<span id='file-ppt-filled'>(#file-ppt-filled)</span>|
+|![file-ppt-light](icons/telefonica/light/file-ppt-light.svg) | | |`file-ppt-light`<span id='file-ppt-light'>(#file-ppt-light)</span>|
+|![file-ppt-regular](icons/telefonica/regular/file-ppt-regular.svg) | | |`file-ppt-regular`<span id='file-ppt-regular'>(#file-ppt-regular)</span>|
+|![file-psd-filled](icons/telefonica/filled/file-psd-filled.svg) | | |`file-psd-filled`<span id='file-psd-filled'>(#file-psd-filled)</span>|
+|![file-psd-light](icons/telefonica/light/file-psd-light.svg) | | |`file-psd-light`<span id='file-psd-light'>(#file-psd-light)</span>|
+|![file-psd-regular](icons/telefonica/regular/file-psd-regular.svg) | | |`file-psd-regular`<span id='file-psd-regular'>(#file-psd-regular)</span>|
+|![file-sketch-filled](icons/telefonica/filled/file-sketch-filled.svg) | | |`file-sketch-filled`<span id='file-sketch-filled'>(#file-sketch-filled)</span>|
+|![file-sketch-light](icons/telefonica/light/file-sketch-light.svg) | | |`file-sketch-light`<span id='file-sketch-light'>(#file-sketch-light)</span>|
+|![file-sketch-regular](icons/telefonica/regular/file-sketch-regular.svg) | | |`file-sketch-regular`<span id='file-sketch-regular'>(#file-sketch-regular)</span>|
+|![file-zip-filled](icons/telefonica/filled/file-zip-filled.svg) | | |`file-zip-filled`<span id='file-zip-filled'>(#file-zip-filled)</span>|
+|![file-zip-light](icons/telefonica/light/file-zip-light.svg) | | |`file-zip-light`<span id='file-zip-light'>(#file-zip-light)</span>|
+|![file-zip-regular](icons/telefonica/regular/file-zip-regular.svg) | | |`file-zip-regular`<span id='file-zip-regular'>(#file-zip-regular)</span>|
+|![files-digital-filled](icons/telefonica/filled/files-digital-filled.svg) | | |`files-digital-filled`<span id='files-digital-filled'>(#files-digital-filled)</span>|
+|![files-digital-light](icons/telefonica/light/files-digital-light.svg) | | |`files-digital-light`<span id='files-digital-light'>(#files-digital-light)</span>|
+|![files-digital-regular](icons/telefonica/regular/files-digital-regular.svg) | | |`files-digital-regular`<span id='files-digital-regular'>(#files-digital-regular)</span>|
+| | |![find-store-filled](icons/o2/filled/find-store-filled.svg) |`find-store-filled`<span id='find-store-filled'>(#find-store-filled)</span>|
+| | |![find-store-light](icons/o2/light/find-store-light.svg) |`find-store-light`<span id='find-store-light'>(#find-store-light)</span>|
+| | |![find-store-regular](icons/o2/regular/find-store-regular.svg) |`find-store-regular`<span id='find-store-regular'>(#find-store-regular)</span>|
+|![fingerprint-filled](icons/telefonica/filled/fingerprint-filled.svg) | | |`fingerprint-filled`<span id='fingerprint-filled'>(#fingerprint-filled)</span>|
+|![fingerprint-regular](icons/telefonica/regular/fingerprint-regular.svg) | | |`fingerprint-regular`<span id='fingerprint-regular'>(#fingerprint-regular)</span>|
+|![fire-filled](icons/telefonica/filled/fire-filled.svg) | | |`fire-filled`<span id='fire-filled'>(#fire-filled)</span>|
+|![fire-light](icons/telefonica/light/fire-light.svg) | | |`fire-light`<span id='fire-light'>(#fire-light)</span>|
+|![fire-regular](icons/telefonica/regular/fire-regular.svg) | | |`fire-regular`<span id='fire-regular'>(#fire-regular)</span>|
+|![firewall-filled](icons/telefonica/filled/firewall-filled.svg) | |![firewall-filled](icons/o2/filled/firewall-filled.svg) |`firewall-filled`<span id='firewall-filled'>(#firewall-filled)</span>|
+|![firewall-light](icons/telefonica/light/firewall-light.svg) | |![firewall-light](icons/o2/light/firewall-light.svg) |`firewall-light`<span id='firewall-light'>(#firewall-light)</span>|
+|![firewall-regular](icons/telefonica/regular/firewall-regular.svg) | |![firewall-regular](icons/o2/regular/firewall-regular.svg) |`firewall-regular`<span id='firewall-regular'>(#firewall-regular)</span>|
+|![first-aid-kit-filled](icons/telefonica/filled/first-aid-kit-filled.svg) | | |`first-aid-kit-filled`<span id='first-aid-kit-filled'>(#first-aid-kit-filled)</span>|
+|![first-aid-kit-light](icons/telefonica/light/first-aid-kit-light.svg) | | |`first-aid-kit-light`<span id='first-aid-kit-light'>(#first-aid-kit-light)</span>|
+|![first-aid-kit-regular](icons/telefonica/regular/first-aid-kit-regular.svg) | | |`first-aid-kit-regular`<span id='first-aid-kit-regular'>(#first-aid-kit-regular)</span>|
+| | |![fixed-internet-filled](icons/o2/filled/fixed-internet-filled.svg) |`fixed-internet-filled`<span id='fixed-internet-filled'>(#fixed-internet-filled)</span>|
+| | |![fixed-internet-light](icons/o2/light/fixed-internet-light.svg) |`fixed-internet-light`<span id='fixed-internet-light'>(#fixed-internet-light)</span>|
+| | |![fixed-internet-regular](icons/o2/regular/fixed-internet-regular.svg) |`fixed-internet-regular`<span id='fixed-internet-regular'>(#fixed-internet-regular)</span>|
+|![flag-filled](icons/telefonica/filled/flag-filled.svg) | | |`flag-filled`<span id='flag-filled'>(#flag-filled)</span>|
+|![flag-light](icons/telefonica/light/flag-light.svg) | | |`flag-light`<span id='flag-light'>(#flag-light)</span>|
+|![flag-regular](icons/telefonica/regular/flag-regular.svg) |![flag-regular](icons/blau/regular/flag-regular.svg) | |`flag-regular`<span id='flag-regular'>(#flag-regular)</span>|
+| | |![floorplan-filled](icons/o2/filled/floorplan-filled.svg) |`floorplan-filled`<span id='floorplan-filled'>(#floorplan-filled)</span>|
+| | |![floorplan-light](icons/o2/light/floorplan-light.svg) |`floorplan-light`<span id='floorplan-light'>(#floorplan-light)</span>|
+| | |![floorplan-regular](icons/o2/regular/floorplan-regular.svg) |`floorplan-regular`<span id='floorplan-regular'>(#floorplan-regular)</span>|
+|![flower-filled](icons/telefonica/filled/flower-filled.svg) | | |`flower-filled`<span id='flower-filled'>(#flower-filled)</span>|
+|![flower-light](icons/telefonica/light/flower-light.svg) | | |`flower-light`<span id='flower-light'>(#flower-light)</span>|
+|![flower-regular](icons/telefonica/regular/flower-regular.svg) | | |`flower-regular`<span id='flower-regular'>(#flower-regular)</span>|
+|![folder-encrypted-filled](icons/telefonica/filled/folder-encrypted-filled.svg) | | |`folder-encrypted-filled`<span id='folder-encrypted-filled'>(#folder-encrypted-filled)</span>|
+|![folder-encrypted-light](icons/telefonica/light/folder-encrypted-light.svg) | | |`folder-encrypted-light`<span id='folder-encrypted-light'>(#folder-encrypted-light)</span>|
+|![folder-encrypted-regular](icons/telefonica/regular/folder-encrypted-regular.svg) | | |`folder-encrypted-regular`<span id='folder-encrypted-regular'>(#folder-encrypted-regular)</span>|
+|![folder-filled](icons/telefonica/filled/folder-filled.svg) | |![folder-filled](icons/o2/filled/folder-filled.svg) |`folder-filled`<span id='folder-filled'>(#folder-filled)</span>|
+|![folder-light](icons/telefonica/light/folder-light.svg) | |![folder-light](icons/o2/light/folder-light.svg) |`folder-light`<span id='folder-light'>(#folder-light)</span>|
+|![folder-regular](icons/telefonica/regular/folder-regular.svg) | |![folder-regular](icons/o2/regular/folder-regular.svg) |`folder-regular`<span id='folder-regular'>(#folder-regular)</span>|
+|![football-ball-filled](icons/telefonica/filled/football-ball-filled.svg) | |![football-ball-filled](icons/o2/filled/football-ball-filled.svg) |`football-ball-filled`<span id='football-ball-filled'>(#football-ball-filled)</span>|
+|![football-ball-light](icons/telefonica/light/football-ball-light.svg) | |![football-ball-light](icons/o2/light/football-ball-light.svg) |`football-ball-light`<span id='football-ball-light'>(#football-ball-light)</span>|
+|![football-ball-regular](icons/telefonica/regular/football-ball-regular.svg) | |![football-ball-regular](icons/o2/regular/football-ball-regular.svg) |`football-ball-regular`<span id='football-ball-regular'>(#football-ball-regular)</span>|
+|![fragrance-filled](icons/telefonica/filled/fragrance-filled.svg) | | |`fragrance-filled`<span id='fragrance-filled'>(#fragrance-filled)</span>|
+|![fragrance-light](icons/telefonica/light/fragrance-light.svg) | | |`fragrance-light`<span id='fragrance-light'>(#fragrance-light)</span>|
+|![fragrance-regular](icons/telefonica/regular/fragrance-regular.svg) | | |`fragrance-regular`<span id='fragrance-regular'>(#fragrance-regular)</span>|
+|![fullscreen-light](icons/telefonica/light/fullscreen-light.svg) | | |`fullscreen-light`<span id='fullscreen-light'>(#fullscreen-light)</span>|
+|![fullscreen-regular](icons/telefonica/regular/fullscreen-regular.svg) | | |`fullscreen-regular`<span id='fullscreen-regular'>(#fullscreen-regular)</span>|
+| | |![funnel-filled](icons/o2/filled/funnel-filled.svg) |`funnel-filled`<span id='funnel-filled'>(#funnel-filled)</span>|
+| | |![funnel-light](icons/o2/light/funnel-light.svg) |`funnel-light`<span id='funnel-light'>(#funnel-light)</span>|
+| | |![funnel-regular](icons/o2/regular/funnel-regular.svg) |`funnel-regular`<span id='funnel-regular'>(#funnel-regular)</span>|
+| | |![fusion-filled](icons/o2/filled/fusion-filled.svg) |`fusion-filled`<span id='fusion-filled'>(#fusion-filled)</span>|
+| | |![fusion-light](icons/o2/light/fusion-light.svg) |`fusion-light`<span id='fusion-light'>(#fusion-light)</span>|
+| | |![fusion-regular](icons/o2/regular/fusion-regular.svg) |`fusion-regular`<span id='fusion-regular'>(#fusion-regular)</span>|
+|![garaje-filled](icons/telefonica/filled/garaje-filled.svg) | | |`garaje-filled`<span id='garaje-filled'>(#garaje-filled)</span>|
+|![garaje-light](icons/telefonica/light/garaje-light.svg) | | |`garaje-light`<span id='garaje-light'>(#garaje-light)</span>|
+|![garaje-regular](icons/telefonica/regular/garaje-regular.svg) | | |`garaje-regular`<span id='garaje-regular'>(#garaje-regular)</span>|
+|![gas-station-filled](icons/telefonica/filled/gas-station-filled.svg) | | |`gas-station-filled`<span id='gas-station-filled'>(#gas-station-filled)</span>|
+|![gas-station-light](icons/telefonica/light/gas-station-light.svg) | | |`gas-station-light`<span id='gas-station-light'>(#gas-station-light)</span>|
+|![gas-station-regular](icons/telefonica/regular/gas-station-regular.svg) | | |`gas-station-regular`<span id='gas-station-regular'>(#gas-station-regular)</span>|
+|![gift-filled](icons/telefonica/filled/gift-filled.svg) | |![gift-filled](icons/o2/filled/gift-filled.svg) |`gift-filled`<span id='gift-filled'>(#gift-filled)</span>|
+|![gift-light](icons/telefonica/light/gift-light.svg) | |![gift-light](icons/o2/light/gift-light.svg) |`gift-light`<span id='gift-light'>(#gift-light)</span>|
+|![gift-regular](icons/telefonica/regular/gift-regular.svg) | |![gift-regular](icons/o2/regular/gift-regular.svg) |`gift-regular`<span id='gift-regular'>(#gift-regular)</span>|
+|![group-filled](icons/telefonica/filled/group-filled.svg) | | |`group-filled`<span id='group-filled'>(#group-filled)</span>|
+|![group-light](icons/telefonica/light/group-light.svg) | | |`group-light`<span id='group-light'>(#group-light)</span>|
+|![group-regular](icons/telefonica/regular/group-regular.svg) | | |`group-regular`<span id='group-regular'>(#group-regular)</span>|
+| | |![guarantee-filled](icons/o2/filled/guarantee-filled.svg) |`guarantee-filled`<span id='guarantee-filled'>(#guarantee-filled)</span>|
+| | |![guarantee-light](icons/o2/light/guarantee-light.svg) |`guarantee-light`<span id='guarantee-light'>(#guarantee-light)</span>|
+| | |![guarantee-regular](icons/o2/regular/guarantee-regular.svg) |`guarantee-regular`<span id='guarantee-regular'>(#guarantee-regular)</span>|
+| | |![guru-filled](icons/o2/filled/guru-filled.svg) |`guru-filled`<span id='guru-filled'>(#guru-filled)</span>|
+| | |![guru-light](icons/o2/light/guru-light.svg) |`guru-light`<span id='guru-light'>(#guru-light)</span>|
+| | |![guru-regular](icons/o2/regular/guru-regular.svg) |`guru-regular`<span id='guru-regular'>(#guru-regular)</span>|
+|![hamburguer-filled](icons/telefonica/filled/hamburguer-filled.svg) | | |`hamburguer-filled`<span id='hamburguer-filled'>(#hamburguer-filled)</span>|
+|![hamburguer-light](icons/telefonica/light/hamburguer-light.svg) | | |`hamburguer-light`<span id='hamburguer-light'>(#hamburguer-light)</span>|
+|![hamburguer-regular](icons/telefonica/regular/hamburguer-regular.svg) | | |`hamburguer-regular`<span id='hamburguer-regular'>(#hamburguer-regular)</span>|
+| | |![hand-connected-filled](icons/o2/filled/hand-connected-filled.svg) |`hand-connected-filled`<span id='hand-connected-filled'>(#hand-connected-filled)</span>|
+| | |![hand-connected-light](icons/o2/light/hand-connected-light.svg) |`hand-connected-light`<span id='hand-connected-light'>(#hand-connected-light)</span>|
+| | |![hand-connected-regular](icons/o2/regular/hand-connected-regular.svg) |`hand-connected-regular`<span id='hand-connected-regular'>(#hand-connected-regular)</span>|
+|![hand-down-filled](icons/telefonica/filled/hand-down-filled.svg) | | |`hand-down-filled`<span id='hand-down-filled'>(#hand-down-filled)</span>|
+|![hand-down-light](icons/telefonica/light/hand-down-light.svg) | | |`hand-down-light`<span id='hand-down-light'>(#hand-down-light)</span>|
+|![hand-down-regular](icons/telefonica/regular/hand-down-regular.svg) | | |`hand-down-regular`<span id='hand-down-regular'>(#hand-down-regular)</span>|
+| | |![hand-free-filled](icons/o2/filled/hand-free-filled.svg) |`hand-free-filled`<span id='hand-free-filled'>(#hand-free-filled)</span>|
+| | |![hand-free-light](icons/o2/light/hand-free-light.svg) |`hand-free-light`<span id='hand-free-light'>(#hand-free-light)</span>|
+| | |![hand-free-regular](icons/o2/regular/hand-free-regular.svg) |`hand-free-regular`<span id='hand-free-regular'>(#hand-free-regular)</span>|
+|![hand-left-filled](icons/telefonica/filled/hand-left-filled.svg) | | |`hand-left-filled`<span id='hand-left-filled'>(#hand-left-filled)</span>|
+|![hand-left-light](icons/telefonica/light/hand-left-light.svg) | | |`hand-left-light`<span id='hand-left-light'>(#hand-left-light)</span>|
+|![hand-left-regular](icons/telefonica/regular/hand-left-regular.svg) | | |`hand-left-regular`<span id='hand-left-regular'>(#hand-left-regular)</span>|
+|![hand-right-filled](icons/telefonica/filled/hand-right-filled.svg) | | |`hand-right-filled`<span id='hand-right-filled'>(#hand-right-filled)</span>|
+|![hand-right-light](icons/telefonica/light/hand-right-light.svg) | | |`hand-right-light`<span id='hand-right-light'>(#hand-right-light)</span>|
+|![hand-right-regular](icons/telefonica/regular/hand-right-regular.svg) | | |`hand-right-regular`<span id='hand-right-regular'>(#hand-right-regular)</span>|
+| | |![hand-snap-filled](icons/o2/filled/hand-snap-filled.svg) |`hand-snap-filled`<span id='hand-snap-filled'>(#hand-snap-filled)</span>|
+| | |![hand-snap-light](icons/o2/light/hand-snap-light.svg) |`hand-snap-light`<span id='hand-snap-light'>(#hand-snap-light)</span>|
+| | |![hand-snap-regular](icons/o2/regular/hand-snap-regular.svg) |`hand-snap-regular`<span id='hand-snap-regular'>(#hand-snap-regular)</span>|
+|![hand-up-filled](icons/telefonica/filled/hand-up-filled.svg) | | |`hand-up-filled`<span id='hand-up-filled'>(#hand-up-filled)</span>|
+|![hand-up-light](icons/telefonica/light/hand-up-light.svg) | | |`hand-up-light`<span id='hand-up-light'>(#hand-up-light)</span>|
+|![hand-up-regular](icons/telefonica/regular/hand-up-regular.svg) | | |`hand-up-regular`<span id='hand-up-regular'>(#hand-up-regular)</span>|
+|![hard-disk-filled](icons/telefonica/filled/hard-disk-filled.svg) | | |`hard-disk-filled`<span id='hard-disk-filled'>(#hard-disk-filled)</span>|
+|![hard-disk-light](icons/telefonica/light/hard-disk-light.svg) | | |`hard-disk-light`<span id='hard-disk-light'>(#hard-disk-light)</span>|
+|![hard-disk-regular](icons/telefonica/regular/hard-disk-regular.svg) | | |`hard-disk-regular`<span id='hard-disk-regular'>(#hard-disk-regular)</span>|
+| | |![hd-filled](icons/o2/filled/hd-filled.svg) |`hd-filled`<span id='hd-filled'>(#hd-filled)</span>|
+| | |![hd-light](icons/o2/light/hd-light.svg) |`hd-light`<span id='hd-light'>(#hd-light)</span>|
+| | |![hd-regular](icons/o2/regular/hd-regular.svg) |`hd-regular`<span id='hd-regular'>(#hd-regular)</span>|
+| | |![headphone-bluetooth-filled](icons/o2/filled/headphone-bluetooth-filled.svg) |`headphone-bluetooth-filled`<span id='headphone-bluetooth-filled'>(#headphone-bluetooth-filled)</span>|
+| | |![headphone-bluetooth-light](icons/o2/light/headphone-bluetooth-light.svg) |`headphone-bluetooth-light`<span id='headphone-bluetooth-light'>(#headphone-bluetooth-light)</span>|
+| | |![headphone-bluetooth-regular](icons/o2/regular/headphone-bluetooth-regular.svg) |`headphone-bluetooth-regular`<span id='headphone-bluetooth-regular'>(#headphone-bluetooth-regular)</span>|
+|![headphones-filled](icons/telefonica/filled/headphones-filled.svg) | |![headphones-filled](icons/o2/filled/headphones-filled.svg) |`headphones-filled`<span id='headphones-filled'>(#headphones-filled)</span>|
+|![headphones-light](icons/telefonica/light/headphones-light.svg) | |![headphones-light](icons/o2/light/headphones-light.svg) |`headphones-light`<span id='headphones-light'>(#headphones-light)</span>|
+|![headphones-regular](icons/telefonica/regular/headphones-regular.svg) | |![headphones-regular](icons/o2/regular/headphones-regular.svg) |`headphones-regular`<span id='headphones-regular'>(#headphones-regular)</span>|
+|![heart-bubble-filled](icons/telefonica/filled/heart-bubble-filled.svg) | | |`heart-bubble-filled`<span id='heart-bubble-filled'>(#heart-bubble-filled)</span>|
+|![heart-bubble-light](icons/telefonica/light/heart-bubble-light.svg) | | |`heart-bubble-light`<span id='heart-bubble-light'>(#heart-bubble-light)</span>|
+|![heart-bubble-regular](icons/telefonica/regular/heart-bubble-regular.svg) | | |`heart-bubble-regular`<span id='heart-bubble-regular'>(#heart-bubble-regular)</span>|
+|![heart-filled](icons/telefonica/filled/heart-filled.svg) | |![heart-filled](icons/o2/filled/heart-filled.svg) |`heart-filled`<span id='heart-filled'>(#heart-filled)</span>|
+|![heart-light](icons/telefonica/light/heart-light.svg) | |![heart-light](icons/o2/light/heart-light.svg) |`heart-light`<span id='heart-light'>(#heart-light)</span>|
+|![heart-regular](icons/telefonica/regular/heart-regular.svg) | |![heart-regular](icons/o2/regular/heart-regular.svg) |`heart-regular`<span id='heart-regular'>(#heart-regular)</span>|
+| | |![hockey-filled](icons/o2/filled/hockey-filled.svg) |`hockey-filled`<span id='hockey-filled'>(#hockey-filled)</span>|
+| | |![hockey-light](icons/o2/light/hockey-light.svg) |`hockey-light`<span id='hockey-light'>(#hockey-light)</span>|
+| | |![hockey-regular](icons/o2/regular/hockey-regular.svg) |`hockey-regular`<span id='hockey-regular'>(#hockey-regular)</span>|
+|![home-filled](icons/telefonica/filled/home-filled.svg) | |![home-filled](icons/o2/filled/home-filled.svg) |`home-filled`<span id='home-filled'>(#home-filled)</span>|
+|![home-light](icons/telefonica/light/home-light.svg) | |![home-light](icons/o2/light/home-light.svg) |`home-light`<span id='home-light'>(#home-light)</span>|
+|![home-regular](icons/telefonica/regular/home-regular.svg) |![home-regular](icons/blau/regular/home-regular.svg) |![home-regular](icons/o2/regular/home-regular.svg) |`home-regular`<span id='home-regular'>(#home-regular)</span>|
+|![home-wifi-filled](icons/telefonica/filled/home-wifi-filled.svg) | | |`home-wifi-filled`<span id='home-wifi-filled'>(#home-wifi-filled)</span>|
+|![home-wifi-light](icons/telefonica/light/home-wifi-light.svg) | | |`home-wifi-light`<span id='home-wifi-light'>(#home-wifi-light)</span>|
+|![home-wifi-regular](icons/telefonica/regular/home-wifi-regular.svg) | | |`home-wifi-regular`<span id='home-wifi-regular'>(#home-wifi-regular)</span>|
+| | |![homespot-filled](icons/o2/filled/homespot-filled.svg) |`homespot-filled`<span id='homespot-filled'>(#homespot-filled)</span>|
+| | |![homespot-light](icons/o2/light/homespot-light.svg) |`homespot-light`<span id='homespot-light'>(#homespot-light)</span>|
+| | |![homespot-regular](icons/o2/regular/homespot-regular.svg) |`homespot-regular`<span id='homespot-regular'>(#homespot-regular)</span>|
+|![hospital-filled](icons/telefonica/filled/hospital-filled.svg) | | |`hospital-filled`<span id='hospital-filled'>(#hospital-filled)</span>|
+|![hospital-light](icons/telefonica/light/hospital-light.svg) | | |`hospital-light`<span id='hospital-light'>(#hospital-light)</span>|
+|![hospital-regular](icons/telefonica/regular/hospital-regular.svg) | | |`hospital-regular`<span id='hospital-regular'>(#hospital-regular)</span>|
+|![hotel-filled](icons/telefonica/filled/hotel-filled.svg) | | |`hotel-filled`<span id='hotel-filled'>(#hotel-filled)</span>|
+|![hotel-light](icons/telefonica/light/hotel-light.svg) | | |`hotel-light`<span id='hotel-light'>(#hotel-light)</span>|
+|![hotel-regular](icons/telefonica/regular/hotel-regular.svg) | | |`hotel-regular`<span id='hotel-regular'>(#hotel-regular)</span>|
+| | |![hotline-filled](icons/o2/filled/hotline-filled.svg) |`hotline-filled`<span id='hotline-filled'>(#hotline-filled)</span>|
+| | |![hotline-light](icons/o2/light/hotline-light.svg) |`hotline-light`<span id='hotline-light'>(#hotline-light)</span>|
+| | |![hotline-regular](icons/o2/regular/hotline-regular.svg) |`hotline-regular`<span id='hotline-regular'>(#hotline-regular)</span>|
+|![id-card-filled](icons/telefonica/filled/id-card-filled.svg) | | |`id-card-filled`<span id='id-card-filled'>(#id-card-filled)</span>|
+|![id-card-light](icons/telefonica/light/id-card-light.svg) | | |`id-card-light`<span id='id-card-light'>(#id-card-light)</span>|
+|![id-card-regular](icons/telefonica/regular/id-card-regular.svg) | | |`id-card-regular`<span id='id-card-regular'>(#id-card-regular)</span>|
+|![image-filled](icons/telefonica/filled/image-filled.svg) | | |`image-filled`<span id='image-filled'>(#image-filled)</span>|
+|![image-light](icons/telefonica/light/image-light.svg) | | |`image-light`<span id='image-light'>(#image-light)</span>|
+|![image-regular](icons/telefonica/regular/image-regular.svg) | | |`image-regular`<span id='image-regular'>(#image-regular)</span>|
+| | |![import-filled](icons/o2/filled/import-filled.svg) |`import-filled`<span id='import-filled'>(#import-filled)</span>|
+|![import-light](icons/telefonica/light/import-light.svg) | |![import-light](icons/o2/light/import-light.svg) |`import-light`<span id='import-light'>(#import-light)</span>|
+|![import-regular](icons/telefonica/regular/import-regular.svg) | |![import-regular](icons/o2/regular/import-regular.svg) |`import-regular`<span id='import-regular'>(#import-regular)</span>|
+|![infinity-light](icons/telefonica/light/infinity-light.svg) | | |`infinity-light`<span id='infinity-light'>(#infinity-light)</span>|
+|![infinity-regular](icons/telefonica/regular/infinity-regular.svg) | | |`infinity-regular`<span id='infinity-regular'>(#infinity-regular)</span>|
+|![information-regular](icons/telefonica/regular/information-regular.svg) | | |`information-regular`<span id='information-regular'>(#information-regular)</span>|
+|![information-user-filled](icons/telefonica/filled/information-user-filled.svg) | |![information-user-filled](icons/o2/filled/information-user-filled.svg) |`information-user-filled`<span id='information-user-filled'>(#information-user-filled)</span>|
+|![information-user-light](icons/telefonica/light/information-user-light.svg) | |![information-user-light](icons/o2/light/information-user-light.svg) |`information-user-light`<span id='information-user-light'>(#information-user-light)</span>|
+|![information-user-regular](icons/telefonica/regular/information-user-regular.svg) |![information-user-regular](icons/blau/regular/information-user-regular.svg) |![information-user-regular](icons/o2/regular/information-user-regular.svg) |`information-user-regular`<span id='information-user-regular'>(#information-user-regular)</span>|
+| | |![internet-device-filled](icons/o2/filled/internet-device-filled.svg) |`internet-device-filled`<span id='internet-device-filled'>(#internet-device-filled)</span>|
+| | |![internet-device-light](icons/o2/light/internet-device-light.svg) |`internet-device-light`<span id='internet-device-light'>(#internet-device-light)</span>|
+| | |![internet-device-regular](icons/o2/regular/internet-device-regular.svg) |`internet-device-regular`<span id='internet-device-regular'>(#internet-device-regular)</span>|
+|![internet-filled](icons/telefonica/filled/internet-filled.svg) | |![internet-filled](icons/o2/filled/internet-filled.svg) |`internet-filled`<span id='internet-filled'>(#internet-filled)</span>|
+|![internet-light](icons/telefonica/light/internet-light.svg) | |![internet-light](icons/o2/light/internet-light.svg) |`internet-light`<span id='internet-light'>(#internet-light)</span>|
+|![internet-pendrive-filled](icons/telefonica/filled/internet-pendrive-filled.svg) | | |`internet-pendrive-filled`<span id='internet-pendrive-filled'>(#internet-pendrive-filled)</span>|
+|![internet-pendrive-light](icons/telefonica/light/internet-pendrive-light.svg) | | |`internet-pendrive-light`<span id='internet-pendrive-light'>(#internet-pendrive-light)</span>|
+|![internet-pendrive-regular](icons/telefonica/regular/internet-pendrive-regular.svg) | | |`internet-pendrive-regular`<span id='internet-pendrive-regular'>(#internet-pendrive-regular)</span>|
+|![internet-regular](icons/telefonica/regular/internet-regular.svg) |![internet-regular](icons/blau/regular/internet-regular.svg) |![internet-regular](icons/o2/regular/internet-regular.svg) |`internet-regular`<span id='internet-regular'>(#internet-regular)</span>|
+|![intranet-filled](icons/telefonica/filled/intranet-filled.svg) | |![intranet-filled](icons/o2/filled/intranet-filled.svg) |`intranet-filled`<span id='intranet-filled'>(#intranet-filled)</span>|
+|![intranet-light](icons/telefonica/light/intranet-light.svg) | |![intranet-light](icons/o2/light/intranet-light.svg) |`intranet-light`<span id='intranet-light'>(#intranet-light)</span>|
+|![intranet-regular](icons/telefonica/regular/intranet-regular.svg) | |![intranet-regular](icons/o2/regular/intranet-regular.svg) |`intranet-regular`<span id='intranet-regular'>(#intranet-regular)</span>|
+|![invoice-digital-filled](icons/telefonica/filled/invoice-digital-filled.svg) | | |`invoice-digital-filled`<span id='invoice-digital-filled'>(#invoice-digital-filled)</span>|
+|![invoice-digital-light](icons/telefonica/light/invoice-digital-light.svg) | | |`invoice-digital-light`<span id='invoice-digital-light'>(#invoice-digital-light)</span>|
+|![invoice-digital-regular](icons/telefonica/regular/invoice-digital-regular.svg) | | |`invoice-digital-regular`<span id='invoice-digital-regular'>(#invoice-digital-regular)</span>|
+| | |![invoice-euro-filled](icons/o2/filled/invoice-euro-filled.svg) |`invoice-euro-filled`<span id='invoice-euro-filled'>(#invoice-euro-filled)</span>|
+| | |![invoice-euro-light](icons/o2/light/invoice-euro-light.svg) |`invoice-euro-light`<span id='invoice-euro-light'>(#invoice-euro-light)</span>|
+| | |![invoice-euro-regular](icons/o2/regular/invoice-euro-regular.svg) |`invoice-euro-regular`<span id='invoice-euro-regular'>(#invoice-euro-regular)</span>|
+|![invoice-plan-file-filled](icons/telefonica/filled/invoice-plan-file-filled.svg) | |![invoice-plan-file-filled](icons/o2/filled/invoice-plan-file-filled.svg) |`invoice-plan-file-filled`<span id='invoice-plan-file-filled'>(#invoice-plan-file-filled)</span>|
+|![invoice-plan-file-light](icons/telefonica/light/invoice-plan-file-light.svg) | |![invoice-plan-file-light](icons/o2/light/invoice-plan-file-light.svg) |`invoice-plan-file-light`<span id='invoice-plan-file-light'>(#invoice-plan-file-light)</span>|
+|![invoice-plan-file-regular](icons/telefonica/regular/invoice-plan-file-regular.svg) |![invoice-plan-file-regular](icons/blau/regular/invoice-plan-file-regular.svg) |![invoice-plan-file-regular](icons/o2/regular/invoice-plan-file-regular.svg) |`invoice-plan-file-regular`<span id='invoice-plan-file-regular'>(#invoice-plan-file-regular)</span>|
+| | |![iot-sensor-co2-filled](icons/o2/filled/iot-sensor-co2-filled.svg) |`iot-sensor-co2-filled`<span id='iot-sensor-co2-filled'>(#iot-sensor-co2-filled)</span>|
+| | |![iot-sensor-co2-light](icons/o2/light/iot-sensor-co2-light.svg) |`iot-sensor-co2-light`<span id='iot-sensor-co2-light'>(#iot-sensor-co2-light)</span>|
+| | |![iot-sensor-co2-regular](icons/o2/regular/iot-sensor-co2-regular.svg) |`iot-sensor-co2-regular`<span id='iot-sensor-co2-regular'>(#iot-sensor-co2-regular)</span>|
+| | |![iot-sensor-humidity-filled](icons/o2/filled/iot-sensor-humidity-filled.svg) |`iot-sensor-humidity-filled`<span id='iot-sensor-humidity-filled'>(#iot-sensor-humidity-filled)</span>|
+| | |![iot-sensor-humidity-light](icons/o2/light/iot-sensor-humidity-light.svg) |`iot-sensor-humidity-light`<span id='iot-sensor-humidity-light'>(#iot-sensor-humidity-light)</span>|
+| | |![iot-sensor-humidity-regular](icons/o2/regular/iot-sensor-humidity-regular.svg) |`iot-sensor-humidity-regular`<span id='iot-sensor-humidity-regular'>(#iot-sensor-humidity-regular)</span>|
+| | |![iot-sensor-temperature-filled](icons/o2/filled/iot-sensor-temperature-filled.svg) |`iot-sensor-temperature-filled`<span id='iot-sensor-temperature-filled'>(#iot-sensor-temperature-filled)</span>|
+| | |![iot-sensor-temperature-light](icons/o2/light/iot-sensor-temperature-light.svg) |`iot-sensor-temperature-light`<span id='iot-sensor-temperature-light'>(#iot-sensor-temperature-light)</span>|
+| | |![iot-sensor-temperature-regular](icons/o2/regular/iot-sensor-temperature-regular.svg) |`iot-sensor-temperature-regular`<span id='iot-sensor-temperature-regular'>(#iot-sensor-temperature-regular)</span>|
+|![justice-filled](icons/telefonica/filled/justice-filled.svg) | |![justice-filled](icons/o2/filled/justice-filled.svg) |`justice-filled`<span id='justice-filled'>(#justice-filled)</span>|
+|![justice-light](icons/telefonica/light/justice-light.svg) | |![justice-light](icons/o2/light/justice-light.svg) |`justice-light`<span id='justice-light'>(#justice-light)</span>|
+|![justice-regular](icons/telefonica/regular/justice-regular.svg) | |![justice-regular](icons/o2/regular/justice-regular.svg) |`justice-regular`<span id='justice-regular'>(#justice-regular)</span>|
+|![kebab-menu-light](icons/telefonica/light/kebab-menu-light.svg) | | |`kebab-menu-light`<span id='kebab-menu-light'>(#kebab-menu-light)</span>|
+|![key-filled](icons/telefonica/filled/key-filled.svg) | | |`key-filled`<span id='key-filled'>(#key-filled)</span>|
+|![key-light](icons/telefonica/light/key-light.svg) | | |`key-light`<span id='key-light'>(#key-light)</span>|
+|![key-regular](icons/telefonica/regular/key-regular.svg) | | |`key-regular`<span id='key-regular'>(#key-regular)</span>|
+| | |![keyboard-filled](icons/o2/filled/keyboard-filled.svg) |`keyboard-filled`<span id='keyboard-filled'>(#keyboard-filled)</span>|
+| | |![keyboard-light](icons/o2/light/keyboard-light.svg) |`keyboard-light`<span id='keyboard-light'>(#keyboard-light)</span>|
+| | |![keyboard-regular](icons/o2/regular/keyboard-regular.svg) |`keyboard-regular`<span id='keyboard-regular'>(#keyboard-regular)</span>|
+| | |![landline-filled](icons/o2/filled/landline-filled.svg) |`landline-filled`<span id='landline-filled'>(#landline-filled)</span>|
+| | |![landline-light](icons/o2/light/landline-light.svg) |`landline-light`<span id='landline-light'>(#landline-light)</span>|
+| | |![landline-regular](icons/o2/regular/landline-regular.svg) |`landline-regular`<span id='landline-regular'>(#landline-regular)</span>|
+| | |![language-filled](icons/o2/filled/language-filled.svg) |`language-filled`<span id='language-filled'>(#language-filled)</span>|
+| | |![language-light](icons/o2/light/language-light.svg) |`language-light`<span id='language-light'>(#language-light)</span>|
+| | |![language-regular](icons/o2/regular/language-regular.svg) |`language-regular`<span id='language-regular'>(#language-regular)</span>|
+|![laptop-charging-filled](icons/telefonica/filled/laptop-charging-filled.svg) | | |`laptop-charging-filled`<span id='laptop-charging-filled'>(#laptop-charging-filled)</span>|
+|![laptop-charging-light](icons/telefonica/light/laptop-charging-light.svg) | | |`laptop-charging-light`<span id='laptop-charging-light'>(#laptop-charging-light)</span>|
+| | |![laptop-check-filled](icons/o2/filled/laptop-check-filled.svg) |`laptop-check-filled`<span id='laptop-check-filled'>(#laptop-check-filled)</span>|
+| | |![laptop-check-light](icons/o2/light/laptop-check-light.svg) |`laptop-check-light`<span id='laptop-check-light'>(#laptop-check-light)</span>|
+| | |![laptop-check-regular](icons/o2/regular/laptop-check-regular.svg) |`laptop-check-regular`<span id='laptop-check-regular'>(#laptop-check-regular)</span>|
+| | |![laptop-filled](icons/o2/filled/laptop-filled.svg) |`laptop-filled`<span id='laptop-filled'>(#laptop-filled)</span>|
+| | |![laptop-goto-filled](icons/o2/filled/laptop-goto-filled.svg) |`laptop-goto-filled`<span id='laptop-goto-filled'>(#laptop-goto-filled)</span>|
+| | |![laptop-goto-light](icons/o2/light/laptop-goto-light.svg) |`laptop-goto-light`<span id='laptop-goto-light'>(#laptop-goto-light)</span>|
+| | |![laptop-goto-regular](icons/o2/regular/laptop-goto-regular.svg) |`laptop-goto-regular`<span id='laptop-goto-regular'>(#laptop-goto-regular)</span>|
+| | |![laptop-light](icons/o2/light/laptop-light.svg) |`laptop-light`<span id='laptop-light'>(#laptop-light)</span>|
+|![layers-filled](icons/telefonica/filled/layers-filled.svg) | | |`layers-filled`<span id='layers-filled'>(#layers-filled)</span>|
+|![layers-light](icons/telefonica/light/layers-light.svg) | | |`layers-light`<span id='layers-light'>(#layers-light)</span>|
+|![layers-regular](icons/telefonica/regular/layers-regular.svg) | | |`layers-regular`<span id='layers-regular'>(#layers-regular)</span>|
+|![learn-data-filled](icons/telefonica/filled/learn-data-filled.svg) | | |`learn-data-filled`<span id='learn-data-filled'>(#learn-data-filled)</span>|
+|![learn-data-light](icons/telefonica/light/learn-data-light.svg) | | |`learn-data-light`<span id='learn-data-light'>(#learn-data-light)</span>|
+|![learn-data-regular](icons/telefonica/regular/learn-data-regular.svg) | | |`learn-data-regular`<span id='learn-data-regular'>(#learn-data-regular)</span>|
+| | |![lidar-filled](icons/o2/filled/lidar-filled.svg) |`lidar-filled`<span id='lidar-filled'>(#lidar-filled)</span>|
+| | |![lidar-light](icons/o2/light/lidar-light.svg) |`lidar-light`<span id='lidar-light'>(#lidar-light)</span>|
+| | |![lidar-regular](icons/o2/regular/lidar-regular.svg) |`lidar-regular`<span id='lidar-regular'>(#lidar-regular)</span>|
+|![lifeguard-float-filled](icons/telefonica/filled/lifeguard-float-filled.svg) | | |`lifeguard-float-filled`<span id='lifeguard-float-filled'>(#lifeguard-float-filled)</span>|
+|![lifeguard-float-light](icons/telefonica/light/lifeguard-float-light.svg) | | |`lifeguard-float-light`<span id='lifeguard-float-light'>(#lifeguard-float-light)</span>|
+|![lifeguard-float-regular](icons/telefonica/regular/lifeguard-float-regular.svg) | | |`lifeguard-float-regular`<span id='lifeguard-float-regular'>(#lifeguard-float-regular)</span>|
+| | |![lifts-filled](icons/o2/filled/lifts-filled.svg) |`lifts-filled`<span id='lifts-filled'>(#lifts-filled)</span>|
+| | |![lifts-light](icons/o2/light/lifts-light.svg) |`lifts-light`<span id='lifts-light'>(#lifts-light)</span>|
+| | |![lifts-regular](icons/o2/regular/lifts-regular.svg) |`lifts-regular`<span id='lifts-regular'>(#lifts-regular)</span>|
+|![lightbulb-filled](icons/telefonica/filled/lightbulb-filled.svg) | |![lightbulb-filled](icons/o2/filled/lightbulb-filled.svg) |`lightbulb-filled`<span id='lightbulb-filled'>(#lightbulb-filled)</span>|
+|![lightbulb-light](icons/telefonica/light/lightbulb-light.svg) | |![lightbulb-light](icons/o2/light/lightbulb-light.svg) |`lightbulb-light`<span id='lightbulb-light'>(#lightbulb-light)</span>|
+|![lightbulb-regular](icons/telefonica/regular/lightbulb-regular.svg) | |![lightbulb-regular](icons/o2/regular/lightbulb-regular.svg) |`lightbulb-regular`<span id='lightbulb-regular'>(#lightbulb-regular)</span>|
+|![lightning-filled](icons/telefonica/filled/lightning-filled.svg) | | |`lightning-filled`<span id='lightning-filled'>(#lightning-filled)</span>|
+|![lightning-light](icons/telefonica/light/lightning-light.svg) | | |`lightning-light`<span id='lightning-light'>(#lightning-light)</span>|
+|![lightning-regular](icons/telefonica/regular/lightning-regular.svg) | | |`lightning-regular`<span id='lightning-regular'>(#lightning-regular)</span>|
+|![like-filled](icons/telefonica/filled/like-filled.svg) | |![like-filled](icons/o2/filled/like-filled.svg) |`like-filled`<span id='like-filled'>(#like-filled)</span>|
+|![like-light](icons/telefonica/light/like-light.svg) | |![like-light](icons/o2/light/like-light.svg) |`like-light`<span id='like-light'>(#like-light)</span>|
+|![like-regular](icons/telefonica/regular/like-regular.svg) | |![like-regular](icons/o2/regular/like-regular.svg) |`like-regular`<span id='like-regular'>(#like-regular)</span>|
+|![link-filled](icons/telefonica/filled/link-filled.svg) | | |`link-filled`<span id='link-filled'>(#link-filled)</span>|
+|![link-regular](icons/telefonica/regular/link-regular.svg) | | |`link-regular`<span id='link-regular'>(#link-regular)</span>|
+|![list-document-filled](icons/telefonica/filled/list-document-filled.svg) | |![list-document-filled](icons/o2/filled/list-document-filled.svg) |`list-document-filled`<span id='list-document-filled'>(#list-document-filled)</span>|
+|![list-document-light](icons/telefonica/light/list-document-light.svg) | |![list-document-light](icons/o2/light/list-document-light.svg) |`list-document-light`<span id='list-document-light'>(#list-document-light)</span>|
+|![list-document-regular](icons/telefonica/regular/list-document-regular.svg) | |![list-document-regular](icons/o2/regular/list-document-regular.svg) |`list-document-regular`<span id='list-document-regular'>(#list-document-regular)</span>|
+| | |![list-filled](icons/o2/filled/list-filled.svg) |`list-filled`<span id='list-filled'>(#list-filled)</span>|
+|![list-light](icons/telefonica/light/list-light.svg) | |![list-light](icons/o2/light/list-light.svg) |`list-light`<span id='list-light'>(#list-light)</span>|
+|![list-regular](icons/telefonica/regular/list-regular.svg) | |![list-regular](icons/o2/regular/list-regular.svg) |`list-regular`<span id='list-regular'>(#list-regular)</span>|
+|![location-filled](icons/telefonica/filled/location-filled.svg) | |![location-filled](icons/o2/filled/location-filled.svg) |`location-filled`<span id='location-filled'>(#location-filled)</span>|
+|![location-light](icons/telefonica/light/location-light.svg) | |![location-light](icons/o2/light/location-light.svg) |`location-light`<span id='location-light'>(#location-light)</span>|
+|![location-map-filled](icons/telefonica/filled/location-map-filled.svg) | |![location-map-filled](icons/o2/filled/location-map-filled.svg) |`location-map-filled`<span id='location-map-filled'>(#location-map-filled)</span>|
+|![location-map-light](icons/telefonica/light/location-map-light.svg) | |![location-map-light](icons/o2/light/location-map-light.svg) |`location-map-light`<span id='location-map-light'>(#location-map-light)</span>|
+|![location-map-regular](icons/telefonica/regular/location-map-regular.svg) | |![location-map-regular](icons/o2/regular/location-map-regular.svg) |`location-map-regular`<span id='location-map-regular'>(#location-map-regular)</span>|
+|![location-regular](icons/telefonica/regular/location-regular.svg) | |![location-regular](icons/o2/regular/location-regular.svg) |`location-regular`<span id='location-regular'>(#location-regular)</span>|
+|![lock-closed-filled](icons/telefonica/filled/lock-closed-filled.svg) | |![lock-closed-filled](icons/o2/filled/lock-closed-filled.svg) |`lock-closed-filled`<span id='lock-closed-filled'>(#lock-closed-filled)</span>|
+|![lock-closed-light](icons/telefonica/light/lock-closed-light.svg) | |![lock-closed-light](icons/o2/light/lock-closed-light.svg) |`lock-closed-light`<span id='lock-closed-light'>(#lock-closed-light)</span>|
+|![lock-closed-regular](icons/telefonica/regular/lock-closed-regular.svg) |![lock-closed-regular](icons/blau/regular/lock-closed-regular.svg) |![lock-closed-regular](icons/o2/regular/lock-closed-regular.svg) |`lock-closed-regular`<span id='lock-closed-regular'>(#lock-closed-regular)</span>|
+|![lock-de-data-filled](icons/telefonica/filled/lock-de-data-filled.svg) | | |`lock-de-data-filled`<span id='lock-de-data-filled'>(#lock-de-data-filled)</span>|
+|![lock-de-data-light](icons/telefonica/light/lock-de-data-light.svg) | | |`lock-de-data-light`<span id='lock-de-data-light'>(#lock-de-data-light)</span>|
+|![lock-de-data-regular](icons/telefonica/regular/lock-de-data-regular.svg) | | |`lock-de-data-regular`<span id='lock-de-data-regular'>(#lock-de-data-regular)</span>|
+| | |![lock-eye-closed-filled](icons/o2/filled/lock-eye-closed-filled.svg) |`lock-eye-closed-filled`<span id='lock-eye-closed-filled'>(#lock-eye-closed-filled)</span>|
+| | |![lock-eye-closed-light](icons/o2/light/lock-eye-closed-light.svg) |`lock-eye-closed-light`<span id='lock-eye-closed-light'>(#lock-eye-closed-light)</span>|
+| | |![lock-eye-closed-regular](icons/o2/regular/lock-eye-closed-regular.svg) |`lock-eye-closed-regular`<span id='lock-eye-closed-regular'>(#lock-eye-closed-regular)</span>|
+|![lock-open-filled](icons/telefonica/filled/lock-open-filled.svg) | |![lock-open-filled](icons/o2/filled/lock-open-filled.svg) |`lock-open-filled`<span id='lock-open-filled'>(#lock-open-filled)</span>|
+|![lock-open-light](icons/telefonica/light/lock-open-light.svg) | |![lock-open-light](icons/o2/light/lock-open-light.svg) |`lock-open-light`<span id='lock-open-light'>(#lock-open-light)</span>|
+|![lock-open-regular](icons/telefonica/regular/lock-open-regular.svg) |![lock-open-regular](icons/blau/regular/lock-open-regular.svg) |![lock-open-regular](icons/o2/regular/lock-open-regular.svg) |`lock-open-regular`<span id='lock-open-regular'>(#lock-open-regular)</span>|
+| | |![logout-filled](icons/o2/filled/logout-filled.svg) |`logout-filled`<span id='logout-filled'>(#logout-filled)</span>|
+| | |![logout-light](icons/o2/light/logout-light.svg) |`logout-light`<span id='logout-light'>(#logout-light)</span>|
+|![logout-regular](icons/telefonica/regular/logout-regular.svg) |![logout-regular](icons/blau/regular/logout-regular.svg) |![logout-regular](icons/o2/regular/logout-regular.svg) |`logout-regular`<span id='logout-regular'>(#logout-regular)</span>|
+|![long-distance-call-filled](icons/telefonica/filled/long-distance-call-filled.svg) | | |`long-distance-call-filled`<span id='long-distance-call-filled'>(#long-distance-call-filled)</span>|
+|![long-distance-call-light](icons/telefonica/light/long-distance-call-light.svg) | | |`long-distance-call-light`<span id='long-distance-call-light'>(#long-distance-call-light)</span>|
+|![long-distance-call-regular](icons/telefonica/regular/long-distance-call-regular.svg) | | |`long-distance-call-regular`<span id='long-distance-call-regular'>(#long-distance-call-regular)</span>|
+|![loss-theft-devices-filled](icons/telefonica/filled/loss-theft-devices-filled.svg) | | |`loss-theft-devices-filled`<span id='loss-theft-devices-filled'>(#loss-theft-devices-filled)</span>|
+|![loss-theft-devices-light](icons/telefonica/light/loss-theft-devices-light.svg) | | |`loss-theft-devices-light`<span id='loss-theft-devices-light'>(#loss-theft-devices-light)</span>|
+|![loss-theft-devices-regular](icons/telefonica/regular/loss-theft-devices-regular.svg) | | |`loss-theft-devices-regular`<span id='loss-theft-devices-regular'>(#loss-theft-devices-regular)</span>|
+| | |![lost-found-filled](icons/o2/filled/lost-found-filled.svg) |`lost-found-filled`<span id='lost-found-filled'>(#lost-found-filled)</span>|
+| | |![lost-found-light](icons/o2/light/lost-found-light.svg) |`lost-found-light`<span id='lost-found-light'>(#lost-found-light)</span>|
+| | |![lost-found-regular](icons/o2/regular/lost-found-regular.svg) |`lost-found-regular`<span id='lost-found-regular'>(#lost-found-regular)</span>|
+|![loudspeaker-filled](icons/telefonica/filled/loudspeaker-filled.svg) | | |`loudspeaker-filled`<span id='loudspeaker-filled'>(#loudspeaker-filled)</span>|
+|![loudspeaker-light](icons/telefonica/light/loudspeaker-light.svg) | | |`loudspeaker-light`<span id='loudspeaker-light'>(#loudspeaker-light)</span>|
+|![loudspeaker-regular](icons/telefonica/regular/loudspeaker-regular.svg) | | |`loudspeaker-regular`<span id='loudspeaker-regular'>(#loudspeaker-regular)</span>|
+|![lungs-filled](icons/telefonica/filled/lungs-filled.svg) | | |`lungs-filled`<span id='lungs-filled'>(#lungs-filled)</span>|
+|![lungs-light](icons/telefonica/light/lungs-light.svg) | | |`lungs-light`<span id='lungs-light'>(#lungs-light)</span>|
+|![lungs-regular](icons/telefonica/regular/lungs-regular.svg) | | |`lungs-regular`<span id='lungs-regular'>(#lungs-regular)</span>|
+| | |![managed-lan-filled](icons/o2/filled/managed-lan-filled.svg) |`managed-lan-filled`<span id='managed-lan-filled'>(#managed-lan-filled)</span>|
+| | |![managed-lan-light](icons/o2/light/managed-lan-light.svg) |`managed-lan-light`<span id='managed-lan-light'>(#managed-lan-light)</span>|
+| | |![managed-lan-regular](icons/o2/regular/managed-lan-regular.svg) |`managed-lan-regular`<span id='managed-lan-regular'>(#managed-lan-regular)</span>|
+|![map-filled](icons/telefonica/filled/map-filled.svg) | | |`map-filled`<span id='map-filled'>(#map-filled)</span>|
+|![map-light](icons/telefonica/light/map-light.svg) | | |`map-light`<span id='map-light'>(#map-light)</span>|
+|![map-regular](icons/telefonica/regular/map-regular.svg) | | |`map-regular`<span id='map-regular'>(#map-regular)</span>|
+| | |![mast-filled](icons/o2/filled/mast-filled.svg) |`mast-filled`<span id='mast-filled'>(#mast-filled)</span>|
+| | |![mast-light](icons/o2/light/mast-light.svg) |`mast-light`<span id='mast-light'>(#mast-light)</span>|
+| | |![mast-regular](icons/o2/regular/mast-regular.svg) |`mast-regular`<span id='mast-regular'>(#mast-regular)</span>|
+|![medical-history-filled](icons/telefonica/filled/medical-history-filled.svg) | |![medical-history-filled](icons/o2/filled/medical-history-filled.svg) |`medical-history-filled`<span id='medical-history-filled'>(#medical-history-filled)</span>|
+|![medical-history-light](icons/telefonica/light/medical-history-light.svg) | |![medical-history-light](icons/o2/light/medical-history-light.svg) |`medical-history-light`<span id='medical-history-light'>(#medical-history-light)</span>|
+|![medical-history-regular](icons/telefonica/regular/medical-history-regular.svg) | |![medical-history-regular](icons/o2/regular/medical-history-regular.svg) |`medical-history-regular`<span id='medical-history-regular'>(#medical-history-regular)</span>|
+|![menu-light](icons/telefonica/light/menu-light.svg) | | |`menu-light`<span id='menu-light'>(#menu-light)</span>|
+|![menu-regular](icons/telefonica/regular/menu-regular.svg) | | |`menu-regular`<span id='menu-regular'>(#menu-regular)</span>|
+|![microchip-filled](icons/telefonica/filled/microchip-filled.svg) | | |`microchip-filled`<span id='microchip-filled'>(#microchip-filled)</span>|
+|![microchip-light](icons/telefonica/light/microchip-light.svg) | | |`microchip-light`<span id='microchip-light'>(#microchip-light)</span>|
+|![microchip-regular](icons/telefonica/regular/microchip-regular.svg) | | |`microchip-regular`<span id='microchip-regular'>(#microchip-regular)</span>|
+|![microphone-filled](icons/telefonica/filled/microphone-filled.svg) | |![microphone-filled](icons/o2/filled/microphone-filled.svg) |`microphone-filled`<span id='microphone-filled'>(#microphone-filled)</span>|
+|![microphone-light](icons/telefonica/light/microphone-light.svg) | |![microphone-light](icons/o2/light/microphone-light.svg) |`microphone-light`<span id='microphone-light'>(#microphone-light)</span>|
+|![microphone-regular](icons/telefonica/regular/microphone-regular.svg) | |![microphone-regular](icons/o2/regular/microphone-regular.svg) |`microphone-regular`<span id='microphone-regular'>(#microphone-regular)</span>|
+|![millenials-filled](icons/telefonica/filled/millenials-filled.svg) | |![millenials-filled](icons/o2/filled/millenials-filled.svg) |`millenials-filled`<span id='millenials-filled'>(#millenials-filled)</span>|
+|![millenials-light](icons/telefonica/light/millenials-light.svg) | |![millenials-light](icons/o2/light/millenials-light.svg) |`millenials-light`<span id='millenials-light'>(#millenials-light)</span>|
+|![millenials-regular](icons/telefonica/regular/millenials-regular.svg) | |![millenials-regular](icons/o2/regular/millenials-regular.svg) |`millenials-regular`<span id='millenials-regular'>(#millenials-regular)</span>|
+| | |![mobile-add-user-filled](icons/o2/filled/mobile-add-user-filled.svg) |`mobile-add-user-filled`<span id='mobile-add-user-filled'>(#mobile-add-user-filled)</span>|
+| | |![mobile-add-user-light](icons/o2/light/mobile-add-user-light.svg) |`mobile-add-user-light`<span id='mobile-add-user-light'>(#mobile-add-user-light)</span>|
+| | |![mobile-add-user-regular](icons/o2/regular/mobile-add-user-regular.svg) |`mobile-add-user-regular`<span id='mobile-add-user-regular'>(#mobile-add-user-regular)</span>|
+| | |![mobile-coverage-filled](icons/o2/filled/mobile-coverage-filled.svg) |`mobile-coverage-filled`<span id='mobile-coverage-filled'>(#mobile-coverage-filled)</span>|
+| | |![mobile-coverage-light](icons/o2/light/mobile-coverage-light.svg) |`mobile-coverage-light`<span id='mobile-coverage-light'>(#mobile-coverage-light)</span>|
+| | |![mobile-coverage-regular](icons/o2/regular/mobile-coverage-regular.svg) |`mobile-coverage-regular`<span id='mobile-coverage-regular'>(#mobile-coverage-regular)</span>|
+|![mobile-device-filled](icons/telefonica/filled/mobile-device-filled.svg) | |![mobile-device-filled](icons/o2/filled/mobile-device-filled.svg) |`mobile-device-filled`<span id='mobile-device-filled'>(#mobile-device-filled)</span>|
+|![mobile-device-light](icons/telefonica/light/mobile-device-light.svg) | |![mobile-device-light](icons/o2/light/mobile-device-light.svg) |`mobile-device-light`<span id='mobile-device-light'>(#mobile-device-light)</span>|
+|![mobile-device-regular](icons/telefonica/regular/mobile-device-regular.svg) |![mobile-device-regular](icons/blau/regular/mobile-device-regular.svg) |![mobile-device-regular](icons/o2/regular/mobile-device-regular.svg) |`mobile-device-regular`<span id='mobile-device-regular'>(#mobile-device-regular)</span>|
+| | |![mobile-euro-filled](icons/o2/filled/mobile-euro-filled.svg) |`mobile-euro-filled`<span id='mobile-euro-filled'>(#mobile-euro-filled)</span>|
+| | |![mobile-euro-light](icons/o2/light/mobile-euro-light.svg) |`mobile-euro-light`<span id='mobile-euro-light'>(#mobile-euro-light)</span>|
+| | |![mobile-euro-regular](icons/o2/regular/mobile-euro-regular.svg) |`mobile-euro-regular`<span id='mobile-euro-regular'>(#mobile-euro-regular)</span>|
+|![mobile-pause-filled](icons/telefonica/filled/mobile-pause-filled.svg) | | |`mobile-pause-filled`<span id='mobile-pause-filled'>(#mobile-pause-filled)</span>|
+|![mobile-pause-light](icons/telefonica/light/mobile-pause-light.svg) | | |`mobile-pause-light`<span id='mobile-pause-light'>(#mobile-pause-light)</span>|
+|![mobile-pause-regular](icons/telefonica/regular/mobile-pause-regular.svg) | | |`mobile-pause-regular`<span id='mobile-pause-regular'>(#mobile-pause-regular)</span>|
+|![mobile-play-filled](icons/telefonica/filled/mobile-play-filled.svg) | | |`mobile-play-filled`<span id='mobile-play-filled'>(#mobile-play-filled)</span>|
+|![mobile-play-light](icons/telefonica/light/mobile-play-light.svg) | | |`mobile-play-light`<span id='mobile-play-light'>(#mobile-play-light)</span>|
+|![mobile-play-regular](icons/telefonica/regular/mobile-play-regular.svg) | | |`mobile-play-regular`<span id='mobile-play-regular'>(#mobile-play-regular)</span>|
+|![mobile-question-filled](icons/telefonica/filled/mobile-question-filled.svg) | | |`mobile-question-filled`<span id='mobile-question-filled'>(#mobile-question-filled)</span>|
+|![mobile-question-light](icons/telefonica/light/mobile-question-light.svg) | | |`mobile-question-light`<span id='mobile-question-light'>(#mobile-question-light)</span>|
+|![mobile-question-regular](icons/telefonica/regular/mobile-question-regular.svg) | | |`mobile-question-regular`<span id='mobile-question-regular'>(#mobile-question-regular)</span>|
+| | |![mobile-shield-filled](icons/o2/filled/mobile-shield-filled.svg) |`mobile-shield-filled`<span id='mobile-shield-filled'>(#mobile-shield-filled)</span>|
+| | |![mobile-shield-light](icons/o2/light/mobile-shield-light.svg) |`mobile-shield-light`<span id='mobile-shield-light'>(#mobile-shield-light)</span>|
+| | |![mobile-shield-regular](icons/o2/regular/mobile-shield-regular.svg) |`mobile-shield-regular`<span id='mobile-shield-regular'>(#mobile-shield-regular)</span>|
+| | |![mobile-usage-filled](icons/o2/filled/mobile-usage-filled.svg) |`mobile-usage-filled`<span id='mobile-usage-filled'>(#mobile-usage-filled)</span>|
+| | |![mobile-usage-light](icons/o2/light/mobile-usage-light.svg) |`mobile-usage-light`<span id='mobile-usage-light'>(#mobile-usage-light)</span>|
+| | |![mobile-usage-regular](icons/o2/regular/mobile-usage-regular.svg) |`mobile-usage-regular`<span id='mobile-usage-regular'>(#mobile-usage-regular)</span>|
+| | |![mobile-user-filled](icons/o2/filled/mobile-user-filled.svg) |`mobile-user-filled`<span id='mobile-user-filled'>(#mobile-user-filled)</span>|
+| | |![mobile-user-light](icons/o2/light/mobile-user-light.svg) |`mobile-user-light`<span id='mobile-user-light'>(#mobile-user-light)</span>|
+| | |![mobile-user-regular](icons/o2/regular/mobile-user-regular.svg) |`mobile-user-regular`<span id='mobile-user-regular'>(#mobile-user-regular)</span>|
+|![money-drop-filled](icons/telefonica/filled/money-drop-filled.svg) | | |`money-drop-filled`<span id='money-drop-filled'>(#money-drop-filled)</span>|
+|![money-drop-light](icons/telefonica/light/money-drop-light.svg) | | |`money-drop-light`<span id='money-drop-light'>(#money-drop-light)</span>|
+|![money-drop-regular](icons/telefonica/regular/money-drop-regular.svg) | | |`money-drop-regular`<span id='money-drop-regular'>(#money-drop-regular)</span>|
+|![money-rise-filled](icons/telefonica/filled/money-rise-filled.svg) | | |`money-rise-filled`<span id='money-rise-filled'>(#money-rise-filled)</span>|
+|![money-rise-light](icons/telefonica/light/money-rise-light.svg) | | |`money-rise-light`<span id='money-rise-light'>(#money-rise-light)</span>|
+|![money-rise-regular](icons/telefonica/regular/money-rise-regular.svg) | | |`money-rise-regular`<span id='money-rise-regular'>(#money-rise-regular)</span>|
+|![moon-filled](icons/telefonica/filled/moon-filled.svg) | | |`moon-filled`<span id='moon-filled'>(#moon-filled)</span>|
+|![moon-light](icons/telefonica/light/moon-light.svg) | | |`moon-light`<span id='moon-light'>(#moon-light)</span>|
+|![moon-regular](icons/telefonica/regular/moon-regular.svg) | | |`moon-regular`<span id='moon-regular'>(#moon-regular)</span>|
+|![mouse-filled](icons/telefonica/filled/mouse-filled.svg) | | |`mouse-filled`<span id='mouse-filled'>(#mouse-filled)</span>|
+|![mouse-light](icons/telefonica/light/mouse-light.svg) | | |`mouse-light`<span id='mouse-light'>(#mouse-light)</span>|
+|![mouse-regular](icons/telefonica/regular/mouse-regular.svg) | | |`mouse-regular`<span id='mouse-regular'>(#mouse-regular)</span>|
+|![multidevice-light](icons/telefonica/light/multidevice-light.svg) | |![multidevice-light](icons/o2/light/multidevice-light.svg) |`multidevice-light`<span id='multidevice-light'>(#multidevice-light)</span>|
+| |![multidevice-regular](icons/blau/regular/multidevice-regular.svg) | |`multidevice-regular`<span id='multidevice-regular'>(#multidevice-regular)</span>|
+|![multideviceo-filled](icons/telefonica/filled/multideviceo-filled.svg) | |![multideviceo-filled](icons/o2/filled/multideviceo-filled.svg) |`multideviceo-filled`<span id='multideviceo-filled'>(#multideviceo-filled)</span>|
+|![multideviceo-regular](icons/telefonica/regular/multideviceo-regular.svg) | |![multideviceo-regular](icons/o2/regular/multideviceo-regular.svg) |`multideviceo-regular`<span id='multideviceo-regular'>(#multideviceo-regular)</span>|
+| | |![multisave-filled](icons/o2/filled/multisave-filled.svg) |`multisave-filled`<span id='multisave-filled'>(#multisave-filled)</span>|
+| | |![multisave-light](icons/o2/light/multisave-light.svg) |`multisave-light`<span id='multisave-light'>(#multisave-light)</span>|
+| | |![multisave-regular](icons/o2/regular/multisave-regular.svg) |`multisave-regular`<span id='multisave-regular'>(#multisave-regular)</span>|
+| | |![multisim-filled](icons/o2/filled/multisim-filled.svg) |`multisim-filled`<span id='multisim-filled'>(#multisim-filled)</span>|
+| | |![multisim-light](icons/o2/light/multisim-light.svg) |`multisim-light`<span id='multisim-light'>(#multisim-light)</span>|
+| | |![multisim-regular](icons/o2/regular/multisim-regular.svg) |`multisim-regular`<span id='multisim-regular'>(#multisim-regular)</span>|
+|![museum-filled](icons/telefonica/filled/museum-filled.svg) | | |`museum-filled`<span id='museum-filled'>(#museum-filled)</span>|
+|![museum-light](icons/telefonica/light/museum-light.svg) | | |`museum-light`<span id='museum-light'>(#museum-light)</span>|
+|![museum-regular](icons/telefonica/regular/museum-regular.svg) | | |`museum-regular`<span id='museum-regular'>(#museum-regular)</span>|
+|![music-filled](icons/telefonica/filled/music-filled.svg) | |![music-filled](icons/o2/filled/music-filled.svg) |`music-filled`<span id='music-filled'>(#music-filled)</span>|
+|![music-light](icons/telefonica/light/music-light.svg) | |![music-light](icons/o2/light/music-light.svg) |`music-light`<span id='music-light'>(#music-light)</span>|
+|![music-regular](icons/telefonica/regular/music-regular.svg) | |![music-regular](icons/o2/regular/music-regular.svg) |`music-regular`<span id='music-regular'>(#music-regular)</span>|
+| | |![mute-filled](icons/o2/filled/mute-filled.svg) |`mute-filled`<span id='mute-filled'>(#mute-filled)</span>|
+| | |![mute-light](icons/o2/light/mute-light.svg) |`mute-light`<span id='mute-light'>(#mute-light)</span>|
+| | |![mute-regular](icons/o2/regular/mute-regular.svg) |`mute-regular`<span id='mute-regular'>(#mute-regular)</span>|
+| | |![network-hotspot-filled](icons/o2/filled/network-hotspot-filled.svg) |`network-hotspot-filled`<span id='network-hotspot-filled'>(#network-hotspot-filled)</span>|
+| | |![network-hotspot-light](icons/o2/light/network-hotspot-light.svg) |`network-hotspot-light`<span id='network-hotspot-light'>(#network-hotspot-light)</span>|
+| | |![network-hotspot-regular](icons/o2/regular/network-hotspot-regular.svg) |`network-hotspot-regular`<span id='network-hotspot-regular'>(#network-hotspot-regular)</span>|
+|![neural-network-filled](icons/telefonica/filled/neural-network-filled.svg) | | |`neural-network-filled`<span id='neural-network-filled'>(#neural-network-filled)</span>|
+|![neural-network-human-filled](icons/telefonica/filled/neural-network-human-filled.svg) | | |`neural-network-human-filled`<span id='neural-network-human-filled'>(#neural-network-human-filled)</span>|
+|![neural-network-human-regular](icons/telefonica/regular/neural-network-human-regular.svg) | | |`neural-network-human-regular`<span id='neural-network-human-regular'>(#neural-network-human-regular)</span>|
+|![neural-network-light](icons/telefonica/light/neural-network-light.svg) | | |`neural-network-light`<span id='neural-network-light'>(#neural-network-light)</span>|
+|![neural-network-regular](icons/telefonica/regular/neural-network-regular.svg) | | |`neural-network-regular`<span id='neural-network-regular'>(#neural-network-regular)</span>|
+| | |![newsletter-filled](icons/o2/filled/newsletter-filled.svg) |`newsletter-filled`<span id='newsletter-filled'>(#newsletter-filled)</span>|
+| | |![newsletter-light](icons/o2/light/newsletter-light.svg) |`newsletter-light`<span id='newsletter-light'>(#newsletter-light)</span>|
+| | |![newsletter-regular](icons/o2/regular/newsletter-regular.svg) |`newsletter-regular`<span id='newsletter-regular'>(#newsletter-regular)</span>|
+| | |![no-hidden-bills-filled](icons/o2/filled/no-hidden-bills-filled.svg) |`no-hidden-bills-filled`<span id='no-hidden-bills-filled'>(#no-hidden-bills-filled)</span>|
+| | |![no-hidden-bills-light](icons/o2/light/no-hidden-bills-light.svg) |`no-hidden-bills-light`<span id='no-hidden-bills-light'>(#no-hidden-bills-light)</span>|
+| | |![no-hidden-bills-regular](icons/o2/regular/no-hidden-bills-regular.svg) |`no-hidden-bills-regular`<span id='no-hidden-bills-regular'>(#no-hidden-bills-regular)</span>|
+| | |![non-binary-toilet-filled](icons/o2/filled/non-binary-toilet-filled.svg) |`non-binary-toilet-filled`<span id='non-binary-toilet-filled'>(#non-binary-toilet-filled)</span>|
+| | |![non-binary-toilet-light](icons/o2/light/non-binary-toilet-light.svg) |`non-binary-toilet-light`<span id='non-binary-toilet-light'>(#non-binary-toilet-light)</span>|
+| | |![non-binary-toilet-regular](icons/o2/regular/non-binary-toilet-regular.svg) |`non-binary-toilet-regular`<span id='non-binary-toilet-regular'>(#non-binary-toilet-regular)</span>|
+|![not-conexion-filled](icons/telefonica/filled/not-conexion-filled.svg) | | |`not-conexion-filled`<span id='not-conexion-filled'>(#not-conexion-filled)</span>|
+|![not-conexion-light](icons/telefonica/light/not-conexion-light.svg) | | |`not-conexion-light`<span id='not-conexion-light'>(#not-conexion-light)</span>|
+|![not-conexion-regular](icons/telefonica/regular/not-conexion-regular.svg) | | |`not-conexion-regular`<span id='not-conexion-regular'>(#not-conexion-regular)</span>|
+|![notes-filled](icons/telefonica/filled/notes-filled.svg) | | |`notes-filled`<span id='notes-filled'>(#notes-filled)</span>|
+|![notes-light](icons/telefonica/light/notes-light.svg) | | |`notes-light`<span id='notes-light'>(#notes-light)</span>|
+|![notes-regular](icons/telefonica/regular/notes-regular.svg) | | |`notes-regular`<span id='notes-regular'>(#notes-regular)</span>|
+|![numeric-keypad-filled](icons/telefonica/filled/numeric-keypad-filled.svg) | | |`numeric-keypad-filled`<span id='numeric-keypad-filled'>(#numeric-keypad-filled)</span>|
+|![numeric-keypad-light](icons/telefonica/light/numeric-keypad-light.svg) | | |`numeric-keypad-light`<span id='numeric-keypad-light'>(#numeric-keypad-light)</span>|
+|![numeric-keypad-regular](icons/telefonica/regular/numeric-keypad-regular.svg) |![numeric-keypad-regular](icons/blau/regular/numeric-keypad-regular.svg) | |`numeric-keypad-regular`<span id='numeric-keypad-regular'>(#numeric-keypad-regular)</span>|
+| | |![offer-euro-filled](icons/o2/filled/offer-euro-filled.svg) |`offer-euro-filled`<span id='offer-euro-filled'>(#offer-euro-filled)</span>|
+| | |![offer-euro-light](icons/o2/light/offer-euro-light.svg) |`offer-euro-light`<span id='offer-euro-light'>(#offer-euro-light)</span>|
+| | |![offer-euro-regular](icons/o2/regular/offer-euro-regular.svg) |`offer-euro-regular`<span id='offer-euro-regular'>(#offer-euro-regular)</span>|
+|![offer-filled](icons/telefonica/filled/offer-filled.svg) | |![offer-filled](icons/o2/filled/offer-filled.svg) |`offer-filled`<span id='offer-filled'>(#offer-filled)</span>|
+|![offer-light](icons/telefonica/light/offer-light.svg) | |![offer-light](icons/o2/light/offer-light.svg) |`offer-light`<span id='offer-light'>(#offer-light)</span>|
+|![offer-percent-filled](icons/telefonica/filled/offer-percent-filled.svg) | |![offer-percent-filled](icons/o2/filled/offer-percent-filled.svg) |`offer-percent-filled`<span id='offer-percent-filled'>(#offer-percent-filled)</span>|
+|![offer-percent-light](icons/telefonica/light/offer-percent-light.svg) | |![offer-percent-light](icons/o2/light/offer-percent-light.svg) |`offer-percent-light`<span id='offer-percent-light'>(#offer-percent-light)</span>|
+|![offer-percent-regular](icons/telefonica/regular/offer-percent-regular.svg) | |![offer-percent-regular](icons/o2/regular/offer-percent-regular.svg) |`offer-percent-regular`<span id='offer-percent-regular'>(#offer-percent-regular)</span>|
+| | |![offer-pound-filled](icons/o2/filled/offer-pound-filled.svg) |`offer-pound-filled`<span id='offer-pound-filled'>(#offer-pound-filled)</span>|
+| | |![offer-pound-light](icons/o2/light/offer-pound-light.svg) |`offer-pound-light`<span id='offer-pound-light'>(#offer-pound-light)</span>|
+| | |![offer-pound-regular](icons/o2/regular/offer-pound-regular.svg) |`offer-pound-regular`<span id='offer-pound-regular'>(#offer-pound-regular)</span>|
+|![offer-regular](icons/telefonica/regular/offer-regular.svg) | |![offer-regular](icons/o2/regular/offer-regular.svg) |`offer-regular`<span id='offer-regular'>(#offer-regular)</span>|
+| | |![office-filled](icons/o2/filled/office-filled.svg) |`office-filled`<span id='office-filled'>(#office-filled)</span>|
+| | |![office-light](icons/o2/light/office-light.svg) |`office-light`<span id='office-light'>(#office-light)</span>|
+| | |![office-regular](icons/o2/regular/office-regular.svg) |`office-regular`<span id='office-regular'>(#office-regular)</span>|
+|![on-filled](icons/telefonica/filled/on-filled.svg) | | |`on-filled`<span id='on-filled'>(#on-filled)</span>|
+|![on-light](icons/telefonica/light/on-light.svg) | | |`on-light`<span id='on-light'>(#on-light)</span>|
+|![on-regular](icons/telefonica/regular/on-regular.svg) | | |`on-regular`<span id='on-regular'>(#on-regular)</span>|
+|![online-offer-filled](icons/telefonica/filled/online-offer-filled.svg) | | |`online-offer-filled`<span id='online-offer-filled'>(#online-offer-filled)</span>|
+|![online-offer-light](icons/telefonica/light/online-offer-light.svg) | | |`online-offer-light`<span id='online-offer-light'>(#online-offer-light)</span>|
+|![online-offer-regular](icons/telefonica/regular/online-offer-regular.svg) | | |`online-offer-regular`<span id='online-offer-regular'>(#online-offer-regular)</span>|
+|![online-reload-filled](icons/telefonica/filled/online-reload-filled.svg) | | |`online-reload-filled`<span id='online-reload-filled'>(#online-reload-filled)</span>|
+|![online-reload-light](icons/telefonica/light/online-reload-light.svg) | | |`online-reload-light`<span id='online-reload-light'>(#online-reload-light)</span>|
+|![online-reload-regular](icons/telefonica/regular/online-reload-regular.svg) | | |`online-reload-regular`<span id='online-reload-regular'>(#online-reload-regular)</span>|
+|![open-email-filled](icons/telefonica/filled/open-email-filled.svg) | | |`open-email-filled`<span id='open-email-filled'>(#open-email-filled)</span>|
+|![open-email-light](icons/telefonica/light/open-email-light.svg) | | |`open-email-light`<span id='open-email-light'>(#open-email-light)</span>|
+|![open-email-regular](icons/telefonica/regular/open-email-regular.svg) | | |`open-email-regular`<span id='open-email-regular'>(#open-email-regular)</span>|
+|![open-file-filled](icons/telefonica/filled/open-file-filled.svg) | | |`open-file-filled`<span id='open-file-filled'>(#open-file-filled)</span>|
+|![open-file-light](icons/telefonica/light/open-file-light.svg) | | |`open-file-light`<span id='open-file-light'>(#open-file-light)</span>|
+|![open-file-regular](icons/telefonica/regular/open-file-regular.svg) | | |`open-file-regular`<span id='open-file-regular'>(#open-file-regular)</span>|
+|![open-filled](icons/telefonica/filled/open-filled.svg) | | |`open-filled`<span id='open-filled'>(#open-filled)</span>|
+|![open-light](icons/telefonica/light/open-light.svg) | | |`open-light`<span id='open-light'>(#open-light)</span>|
+|![open-regular](icons/telefonica/regular/open-regular.svg) | | |`open-regular`<span id='open-regular'>(#open-regular)</span>|
+|![optical-fiber-filled](icons/telefonica/filled/optical-fiber-filled.svg) | |![optical-fiber-filled](icons/o2/filled/optical-fiber-filled.svg) |`optical-fiber-filled`<span id='optical-fiber-filled'>(#optical-fiber-filled)</span>|
+|![optical-fiber-light](icons/telefonica/light/optical-fiber-light.svg) | |![optical-fiber-light](icons/o2/light/optical-fiber-light.svg) |`optical-fiber-light`<span id='optical-fiber-light'>(#optical-fiber-light)</span>|
+|![optical-fiber-regular](icons/telefonica/regular/optical-fiber-regular.svg) | |![optical-fiber-regular](icons/o2/regular/optical-fiber-regular.svg) |`optical-fiber-regular`<span id='optical-fiber-regular'>(#optical-fiber-regular)</span>|
+|![outgoing-call-filled](icons/telefonica/filled/outgoing-call-filled.svg) | | |`outgoing-call-filled`<span id='outgoing-call-filled'>(#outgoing-call-filled)</span>|
+|![outgoing-call-light](icons/telefonica/light/outgoing-call-light.svg) | | |`outgoing-call-light`<span id='outgoing-call-light'>(#outgoing-call-light)</span>|
+|![outgoing-call-regular](icons/telefonica/regular/outgoing-call-regular.svg) | | |`outgoing-call-regular`<span id='outgoing-call-regular'>(#outgoing-call-regular)</span>|
+|![pacifier-filled](icons/telefonica/filled/pacifier-filled.svg) | | |`pacifier-filled`<span id='pacifier-filled'>(#pacifier-filled)</span>|
+|![pacifier-light](icons/telefonica/light/pacifier-light.svg) | | |`pacifier-light`<span id='pacifier-light'>(#pacifier-light)</span>|
+|![pacifier-regular](icons/telefonica/regular/pacifier-regular.svg) | | |`pacifier-regular`<span id='pacifier-regular'>(#pacifier-regular)</span>|
+|![package-trolley-filled](icons/telefonica/filled/package-trolley-filled.svg) | | |`package-trolley-filled`<span id='package-trolley-filled'>(#package-trolley-filled)</span>|
+|![package-trolley-light](icons/telefonica/light/package-trolley-light.svg) | | |`package-trolley-light`<span id='package-trolley-light'>(#package-trolley-light)</span>|
+|![parking-filled](icons/telefonica/filled/parking-filled.svg) | |![parking-filled](icons/o2/filled/parking-filled.svg) |`parking-filled`<span id='parking-filled'>(#parking-filled)</span>|
+|![parking-light](icons/telefonica/light/parking-light.svg) | |![parking-light](icons/o2/light/parking-light.svg) |`parking-light`<span id='parking-light'>(#parking-light)</span>|
+|![parking-regular](icons/telefonica/regular/parking-regular.svg) | |![parking-regular](icons/o2/regular/parking-regular.svg) |`parking-regular`<span id='parking-regular'>(#parking-regular)</span>|
+|![pause-filled](icons/telefonica/filled/pause-filled.svg) | |![pause-filled](icons/o2/filled/pause-filled.svg) |`pause-filled`<span id='pause-filled'>(#pause-filled)</span>|
+|![pause-light](icons/telefonica/light/pause-light.svg) | |![pause-light](icons/o2/light/pause-light.svg) |`pause-light`<span id='pause-light'>(#pause-light)</span>|
+|![pause-regular](icons/telefonica/regular/pause-regular.svg) | |![pause-regular](icons/o2/regular/pause-regular.svg) |`pause-regular`<span id='pause-regular'>(#pause-regular)</span>|
+| | |![pay-as-you-go-euro-filled](icons/o2/filled/pay-as-you-go-euro-filled.svg) |`pay-as-you-go-euro-filled`<span id='pay-as-you-go-euro-filled'>(#pay-as-you-go-euro-filled)</span>|
+| | |![pay-as-you-go-euro-light](icons/o2/light/pay-as-you-go-euro-light.svg) |`pay-as-you-go-euro-light`<span id='pay-as-you-go-euro-light'>(#pay-as-you-go-euro-light)</span>|
+| | |![pay-as-you-go-euro-regular](icons/o2/regular/pay-as-you-go-euro-regular.svg) |`pay-as-you-go-euro-regular`<span id='pay-as-you-go-euro-regular'>(#pay-as-you-go-euro-regular)</span>|
+| | |![pay-as-you-go-pound-filled](icons/o2/filled/pay-as-you-go-pound-filled.svg) |`pay-as-you-go-pound-filled`<span id='pay-as-you-go-pound-filled'>(#pay-as-you-go-pound-filled)</span>|
+| | |![pay-as-you-go-pound-light](icons/o2/light/pay-as-you-go-pound-light.svg) |`pay-as-you-go-pound-light`<span id='pay-as-you-go-pound-light'>(#pay-as-you-go-pound-light)</span>|
+| | |![pay-as-you-go-pound-regular](icons/o2/regular/pay-as-you-go-pound-regular.svg) |`pay-as-you-go-pound-regular`<span id='pay-as-you-go-pound-regular'>(#pay-as-you-go-pound-regular)</span>|
+|![pay-invoice-filled](icons/telefonica/filled/pay-invoice-filled.svg) | |![pay-invoice-filled](icons/o2/filled/pay-invoice-filled.svg) |`pay-invoice-filled`<span id='pay-invoice-filled'>(#pay-invoice-filled)</span>|
+|![pay-invoice-light](icons/telefonica/light/pay-invoice-light.svg) | |![pay-invoice-light](icons/o2/light/pay-invoice-light.svg) |`pay-invoice-light`<span id='pay-invoice-light'>(#pay-invoice-light)</span>|
+| | |![pay-invoice-pound-filled](icons/o2/filled/pay-invoice-pound-filled.svg) |`pay-invoice-pound-filled`<span id='pay-invoice-pound-filled'>(#pay-invoice-pound-filled)</span>|
+| | |![pay-invoice-pound-light](icons/o2/light/pay-invoice-pound-light.svg) |`pay-invoice-pound-light`<span id='pay-invoice-pound-light'>(#pay-invoice-pound-light)</span>|
+| | |![pay-invoice-pound-regular](icons/o2/regular/pay-invoice-pound-regular.svg) |`pay-invoice-pound-regular`<span id='pay-invoice-pound-regular'>(#pay-invoice-pound-regular)</span>|
+|![pay-invoice-regular](icons/telefonica/regular/pay-invoice-regular.svg) | |![pay-invoice-regular](icons/o2/regular/pay-invoice-regular.svg) |`pay-invoice-regular`<span id='pay-invoice-regular'>(#pay-invoice-regular)</span>|
+|![pen-filled](icons/telefonica/filled/pen-filled.svg) | |![pen-filled](icons/o2/filled/pen-filled.svg) |`pen-filled`<span id='pen-filled'>(#pen-filled)</span>|
+|![pen-light](icons/telefonica/light/pen-light.svg) | |![pen-light](icons/o2/light/pen-light.svg) |`pen-light`<span id='pen-light'>(#pen-light)</span>|
+|![pen-regular](icons/telefonica/regular/pen-regular.svg) |![pen-regular](icons/blau/regular/pen-regular.svg) |![pen-regular](icons/o2/regular/pen-regular.svg) |`pen-regular`<span id='pen-regular'>(#pen-regular)</span>|
+|![pendrive-filled](icons/telefonica/filled/pendrive-filled.svg) | | |`pendrive-filled`<span id='pendrive-filled'>(#pendrive-filled)</span>|
+|![pendrive-light](icons/telefonica/light/pendrive-light.svg) | | |`pendrive-light`<span id='pendrive-light'>(#pendrive-light)</span>|
+|![pendrive-regular](icons/telefonica/regular/pendrive-regular.svg) | | |`pendrive-regular`<span id='pendrive-regular'>(#pendrive-regular)</span>|
+|![people-network-filled](icons/telefonica/filled/people-network-filled.svg) | |![people-network-filled](icons/o2/filled/people-network-filled.svg) |`people-network-filled`<span id='people-network-filled'>(#people-network-filled)</span>|
+|![people-network-light](icons/telefonica/light/people-network-light.svg) | |![people-network-light](icons/o2/light/people-network-light.svg) |`people-network-light`<span id='people-network-light'>(#people-network-light)</span>|
+|![people-network-regular](icons/telefonica/regular/people-network-regular.svg) | |![people-network-regular](icons/o2/regular/people-network-regular.svg) |`people-network-regular`<span id='people-network-regular'>(#people-network-regular)</span>|
+|![percent-filled](icons/telefonica/filled/percent-filled.svg) | | |`percent-filled`<span id='percent-filled'>(#percent-filled)</span>|
+|![percent-light](icons/telefonica/light/percent-light.svg) | | |`percent-light`<span id='percent-light'>(#percent-light)</span>|
+|![percent-regular](icons/telefonica/regular/percent-regular.svg) | | |`percent-regular`<span id='percent-regular'>(#percent-regular)</span>|
+|![person-filled](icons/telefonica/filled/person-filled.svg) | |![person-filled](icons/o2/filled/person-filled.svg) |`person-filled`<span id='person-filled'>(#person-filled)</span>|
+|![person-light](icons/telefonica/light/person-light.svg) | |![person-light](icons/o2/light/person-light.svg) |`person-light`<span id='person-light'>(#person-light)</span>|
+|![person-regular](icons/telefonica/regular/person-regular.svg) | |![person-regular](icons/o2/regular/person-regular.svg) |`person-regular`<span id='person-regular'>(#person-regular)</span>|
+|![personal-computer-filled](icons/telefonica/filled/personal-computer-filled.svg) | |![personal-computer-filled](icons/o2/filled/personal-computer-filled.svg) |`personal-computer-filled`<span id='personal-computer-filled'>(#personal-computer-filled)</span>|
+|![personal-computer-light](icons/telefonica/light/personal-computer-light.svg) | |![personal-computer-light](icons/o2/light/personal-computer-light.svg) |`personal-computer-light`<span id='personal-computer-light'>(#personal-computer-light)</span>|
+|![personal-computer-regular](icons/telefonica/regular/personal-computer-regular.svg) |![personal-computer-regular](icons/blau/regular/personal-computer-regular.svg) |![personal-computer-regular](icons/o2/regular/personal-computer-regular.svg) |`personal-computer-regular`<span id='personal-computer-regular'>(#personal-computer-regular)</span>|
+|![pharmacy-filled](icons/telefonica/filled/pharmacy-filled.svg) | | |`pharmacy-filled`<span id='pharmacy-filled'>(#pharmacy-filled)</span>|
+|![pharmacy-light](icons/telefonica/light/pharmacy-light.svg) | | |`pharmacy-light`<span id='pharmacy-light'>(#pharmacy-light)</span>|
+|![pharmacy-regular](icons/telefonica/regular/pharmacy-regular.svg) | | |`pharmacy-regular`<span id='pharmacy-regular'>(#pharmacy-regular)</span>|
+| | |![photo-camera-filled](icons/o2/filled/photo-camera-filled.svg) |`photo-camera-filled`<span id='photo-camera-filled'>(#photo-camera-filled)</span>|
+| | |![photo-camera-light](icons/o2/light/photo-camera-light.svg) |`photo-camera-light`<span id='photo-camera-light'>(#photo-camera-light)</span>|
+|![photo-camera-regular](icons/telefonica/regular/photo-camera-regular.svg) | |![photo-camera-regular](icons/o2/regular/photo-camera-regular.svg) |`photo-camera-regular`<span id='photo-camera-regular'>(#photo-camera-regular)</span>|
+|![pill-filled](icons/telefonica/filled/pill-filled.svg) | | |`pill-filled`<span id='pill-filled'>(#pill-filled)</span>|
+|![pill-light](icons/telefonica/light/pill-light.svg) | | |`pill-light`<span id='pill-light'>(#pill-light)</span>|
+|![pill-regular](icons/telefonica/regular/pill-regular.svg) | | |`pill-regular`<span id='pill-regular'>(#pill-regular)</span>|
+|![pills-filled](icons/telefonica/filled/pills-filled.svg) | | |`pills-filled`<span id='pills-filled'>(#pills-filled)</span>|
+|![pills-light](icons/telefonica/light/pills-light.svg) | | |`pills-light`<span id='pills-light'>(#pills-light)</span>|
+|![pills-regular](icons/telefonica/regular/pills-regular.svg) | | |`pills-regular`<span id='pills-regular'>(#pills-regular)</span>|
+|![pin-filled](icons/telefonica/filled/pin-filled.svg) | |![pin-filled](icons/o2/filled/pin-filled.svg) |`pin-filled`<span id='pin-filled'>(#pin-filled)</span>|
+|![pin-light](icons/telefonica/light/pin-light.svg) | |![pin-light](icons/o2/light/pin-light.svg) |`pin-light`<span id='pin-light'>(#pin-light)</span>|
+|![pin-regular](icons/telefonica/regular/pin-regular.svg) | |![pin-regular](icons/o2/regular/pin-regular.svg) |`pin-regular`<span id='pin-regular'>(#pin-regular)</span>|
+|![plane-filled](icons/telefonica/filled/plane-filled.svg) | |![plane-filled](icons/o2/filled/plane-filled.svg) |`plane-filled`<span id='plane-filled'>(#plane-filled)</span>|
+|![plane-light](icons/telefonica/light/plane-light.svg) | |![plane-light](icons/o2/light/plane-light.svg) |`plane-light`<span id='plane-light'>(#plane-light)</span>|
+|![plane-regular](icons/telefonica/regular/plane-regular.svg) |![plane-regular](icons/blau/regular/plane-regular.svg) |![plane-regular](icons/o2/regular/plane-regular.svg) |`plane-regular`<span id='plane-regular'>(#plane-regular)</span>|
+|![plant-filled](icons/telefonica/filled/plant-filled.svg) | | |`plant-filled`<span id='plant-filled'>(#plant-filled)</span>|
+|![plant-light](icons/telefonica/light/plant-light.svg) | | |`plant-light`<span id='plant-light'>(#plant-light)</span>|
+|![plant-regular](icons/telefonica/regular/plant-regular.svg) | | |`plant-regular`<span id='plant-regular'>(#plant-regular)</span>|
+|![play-filled](icons/telefonica/filled/play-filled.svg) | |![play-filled](icons/o2/filled/play-filled.svg) |`play-filled`<span id='play-filled'>(#play-filled)</span>|
+|![play-light](icons/telefonica/light/play-light.svg) | |![play-light](icons/o2/light/play-light.svg) |`play-light`<span id='play-light'>(#play-light)</span>|
+|![play-regular](icons/telefonica/regular/play-regular.svg) | |![play-regular](icons/o2/regular/play-regular.svg) |`play-regular`<span id='play-regular'>(#play-regular)</span>|
+|![plug-filled](icons/telefonica/filled/plug-filled.svg) | |![plug-filled](icons/o2/filled/plug-filled.svg) |`plug-filled`<span id='plug-filled'>(#plug-filled)</span>|
+|![plug-light](icons/telefonica/light/plug-light.svg) | |![plug-light](icons/o2/light/plug-light.svg) |`plug-light`<span id='plug-light'>(#plug-light)</span>|
+|![plug-regular](icons/telefonica/regular/plug-regular.svg) | |![plug-regular](icons/o2/regular/plug-regular.svg) |`plug-regular`<span id='plug-regular'>(#plug-regular)</span>|
+|![podium-filled](icons/telefonica/filled/podium-filled.svg) | | |`podium-filled`<span id='podium-filled'>(#podium-filled)</span>|
+|![podium-light](icons/telefonica/light/podium-light.svg) | | |`podium-light`<span id='podium-light'>(#podium-light)</span>|
+|![podium-regular](icons/telefonica/regular/podium-regular.svg) | | |`podium-regular`<span id='podium-regular'>(#podium-regular)</span>|
+|![poison-filled](icons/telefonica/filled/poison-filled.svg) | | |`poison-filled`<span id='poison-filled'>(#poison-filled)</span>|
+|![poison-light](icons/telefonica/light/poison-light.svg) | | |`poison-light`<span id='poison-light'>(#poison-light)</span>|
+|![poison-regular](icons/telefonica/regular/poison-regular.svg) | | |`poison-regular`<span id='poison-regular'>(#poison-regular)</span>|
+|![portability-filled](icons/telefonica/filled/portability-filled.svg) | | |`portability-filled`<span id='portability-filled'>(#portability-filled)</span>|
+|![portability-light](icons/telefonica/light/portability-light.svg) | | |`portability-light`<span id='portability-light'>(#portability-light)</span>|
+|![portability-regular](icons/telefonica/regular/portability-regular.svg) | | |`portability-regular`<span id='portability-regular'>(#portability-regular)</span>|
+|![postpay-filled](icons/telefonica/filled/postpay-filled.svg) | | |`postpay-filled`<span id='postpay-filled'>(#postpay-filled)</span>|
+|![postpay-light](icons/telefonica/light/postpay-light.svg) | | |`postpay-light`<span id='postpay-light'>(#postpay-light)</span>|
+|![postpay-regular](icons/telefonica/regular/postpay-regular.svg) | | |`postpay-regular`<span id='postpay-regular'>(#postpay-regular)</span>|
+|![pound-symbol-circle-filled](icons/telefonica/filled/pound-symbol-circle-filled.svg) | |![pound-symbol-circle-filled](icons/o2/filled/pound-symbol-circle-filled.svg) |`pound-symbol-circle-filled`<span id='pound-symbol-circle-filled'>(#pound-symbol-circle-filled)</span>|
+|![pound-symbol-circle-light](icons/telefonica/light/pound-symbol-circle-light.svg) | |![pound-symbol-circle-light](icons/o2/light/pound-symbol-circle-light.svg) |`pound-symbol-circle-light`<span id='pound-symbol-circle-light'>(#pound-symbol-circle-light)</span>|
+|![pound-symbol-circle-regular](icons/telefonica/regular/pound-symbol-circle-regular.svg) | |![pound-symbol-circle-regular](icons/o2/regular/pound-symbol-circle-regular.svg) |`pound-symbol-circle-regular`<span id='pound-symbol-circle-regular'>(#pound-symbol-circle-regular)</span>|
+|![power-filled](icons/telefonica/filled/power-filled.svg) | |![power-filled](icons/o2/filled/power-filled.svg) |`power-filled`<span id='power-filled'>(#power-filled)</span>|
+|![power-light](icons/telefonica/light/power-light.svg) | |![power-light](icons/o2/light/power-light.svg) |`power-light`<span id='power-light'>(#power-light)</span>|
+|![power-regular](icons/telefonica/regular/power-regular.svg) | |![power-regular](icons/o2/regular/power-regular.svg) |`power-regular`<span id='power-regular'>(#power-regular)</span>|
+| | |![pre-order-filled](icons/o2/filled/pre-order-filled.svg) |`pre-order-filled`<span id='pre-order-filled'>(#pre-order-filled)</span>|
+| | |![pre-order-light](icons/o2/light/pre-order-light.svg) |`pre-order-light`<span id='pre-order-light'>(#pre-order-light)</span>|
+| | |![pre-order-regular](icons/o2/regular/pre-order-regular.svg) |`pre-order-regular`<span id='pre-order-regular'>(#pre-order-regular)</span>|
+|![prepaid-filled](icons/telefonica/filled/prepaid-filled.svg) | |![prepaid-filled](icons/o2/filled/prepaid-filled.svg) |`prepaid-filled`<span id='prepaid-filled'>(#prepaid-filled)</span>|
+|![prepaid-light](icons/telefonica/light/prepaid-light.svg) | |![prepaid-light](icons/o2/light/prepaid-light.svg) |`prepaid-light`<span id='prepaid-light'>(#prepaid-light)</span>|
+|![prepaid-regular](icons/telefonica/regular/prepaid-regular.svg) | |![prepaid-regular](icons/o2/regular/prepaid-regular.svg) |`prepaid-regular`<span id='prepaid-regular'>(#prepaid-regular)</span>|
+|![presentation-filled](icons/telefonica/filled/presentation-filled.svg) | | |`presentation-filled`<span id='presentation-filled'>(#presentation-filled)</span>|
+|![presentation-light](icons/telefonica/light/presentation-light.svg) | | |`presentation-light`<span id='presentation-light'>(#presentation-light)</span>|
+|![presentation-regular](icons/telefonica/regular/presentation-regular.svg) | | |`presentation-regular`<span id='presentation-regular'>(#presentation-regular)</span>|
+|![price-drop-filled](icons/telefonica/filled/price-drop-filled.svg) | | |`price-drop-filled`<span id='price-drop-filled'>(#price-drop-filled)</span>|
+|![price-drop-light](icons/telefonica/light/price-drop-light.svg) | | |`price-drop-light`<span id='price-drop-light'>(#price-drop-light)</span>|
+|![price-drop-regular](icons/telefonica/regular/price-drop-regular.svg) | | |`price-drop-regular`<span id='price-drop-regular'>(#price-drop-regular)</span>|
+| | |![printer-filled](icons/o2/filled/printer-filled.svg) |`printer-filled`<span id='printer-filled'>(#printer-filled)</span>|
+| | |![printer-light](icons/o2/light/printer-light.svg) |`printer-light`<span id='printer-light'>(#printer-light)</span>|
+| | |![printer-regular](icons/o2/regular/printer-regular.svg) |`printer-regular`<span id='printer-regular'>(#printer-regular)</span>|
+|![process-loading-filled](icons/telefonica/filled/process-loading-filled.svg) | |![process-loading-filled](icons/o2/filled/process-loading-filled.svg) |`process-loading-filled`<span id='process-loading-filled'>(#process-loading-filled)</span>|
+|![process-loading-light](icons/telefonica/light/process-loading-light.svg) | |![process-loading-light](icons/o2/light/process-loading-light.svg) |`process-loading-light`<span id='process-loading-light'>(#process-loading-light)</span>|
+|![process-loading-regular](icons/telefonica/regular/process-loading-regular.svg) | |![process-loading-regular](icons/o2/regular/process-loading-regular.svg) |`process-loading-regular`<span id='process-loading-regular'>(#process-loading-regular)</span>|
+|![puzzle-filled](icons/telefonica/filled/puzzle-filled.svg) | | |`puzzle-filled`<span id='puzzle-filled'>(#puzzle-filled)</span>|
+|![puzzle-light](icons/telefonica/light/puzzle-light.svg) | | |`puzzle-light`<span id='puzzle-light'>(#puzzle-light)</span>|
+|![puzzle-regular](icons/telefonica/regular/puzzle-regular.svg) | | |`puzzle-regular`<span id='puzzle-regular'>(#puzzle-regular)</span>|
+|![question-filled](icons/telefonica/filled/question-filled.svg) | |![question-filled](icons/o2/filled/question-filled.svg) |`question-filled`<span id='question-filled'>(#question-filled)</span>|
+|![question-light](icons/telefonica/light/question-light.svg) | |![question-light](icons/o2/light/question-light.svg) |`question-light`<span id='question-light'>(#question-light)</span>|
+|![question-regular](icons/telefonica/regular/question-regular.svg) |![question-regular](icons/blau/regular/question-regular.svg) |![question-regular](icons/o2/regular/question-regular.svg) |`question-regular`<span id='question-regular'>(#question-regular)</span>|
+| | |![queue-filled](icons/o2/filled/queue-filled.svg) |`queue-filled`<span id='queue-filled'>(#queue-filled)</span>|
+| | |![queue-light](icons/o2/light/queue-light.svg) |`queue-light`<span id='queue-light'>(#queue-light)</span>|
+| | |![queue-regular](icons/o2/regular/queue-regular.svg) |`queue-regular`<span id='queue-regular'>(#queue-regular)</span>|
+|![rating-filled](icons/telefonica/filled/rating-filled.svg) | |![rating-filled](icons/o2/filled/rating-filled.svg) |`rating-filled`<span id='rating-filled'>(#rating-filled)</span>|
+|![rating-light](icons/telefonica/light/rating-light.svg) | |![rating-light](icons/o2/light/rating-light.svg) |`rating-light`<span id='rating-light'>(#rating-light)</span>|
+|![rating-regular](icons/telefonica/regular/rating-regular.svg) | |![rating-regular](icons/o2/regular/rating-regular.svg) |`rating-regular`<span id='rating-regular'>(#rating-regular)</span>|
+| | |![recording-filled](icons/o2/filled/recording-filled.svg) |`recording-filled`<span id='recording-filled'>(#recording-filled)</span>|
+| | |![recording-light](icons/o2/light/recording-light.svg) |`recording-light`<span id='recording-light'>(#recording-light)</span>|
+| | |![recording-regular](icons/o2/regular/recording-regular.svg) |`recording-regular`<span id='recording-regular'>(#recording-regular)</span>|
+| | |![recycle-filled](icons/o2/filled/recycle-filled.svg) |`recycle-filled`<span id='recycle-filled'>(#recycle-filled)</span>|
+| | |![recycle-light](icons/o2/light/recycle-light.svg) |`recycle-light`<span id='recycle-light'>(#recycle-light)</span>|
+| | |![recycle-regular](icons/o2/regular/recycle-regular.svg) |`recycle-regular`<span id='recycle-regular'>(#recycle-regular)</span>|
+| | |![refresh-filled](icons/o2/filled/refresh-filled.svg) |`refresh-filled`<span id='refresh-filled'>(#refresh-filled)</span>|
+|![reload-light](icons/telefonica/light/reload-light.svg) | |![reload-light](icons/o2/light/reload-light.svg) |`reload-light`<span id='reload-light'>(#reload-light)</span>|
+|![reload-regular](icons/telefonica/regular/reload-regular.svg) | |![reload-regular](icons/o2/regular/reload-regular.svg) |`reload-regular`<span id='reload-regular'>(#reload-regular)</span>|
+|![renovate-device-change-mobile-filled](icons/telefonica/filled/renovate-device-change-mobile-filled.svg) | |![renovate-device-change-mobile-filled](icons/o2/filled/renovate-device-change-mobile-filled.svg) |`renovate-device-change-mobile-filled`<span id='renovate-device-change-mobile-filled'>(#renovate-device-change-mobile-filled)</span>|
+|![renovate-device-change-mobile-light](icons/telefonica/light/renovate-device-change-mobile-light.svg) | |![renovate-device-change-mobile-light](icons/o2/light/renovate-device-change-mobile-light.svg) |`renovate-device-change-mobile-light`<span id='renovate-device-change-mobile-light'>(#renovate-device-change-mobile-light)</span>|
+|![renovate-device-change-mobile-regular](icons/telefonica/regular/renovate-device-change-mobile-regular.svg) | |![renovate-device-change-mobile-regular](icons/o2/regular/renovate-device-change-mobile-regular.svg) |`renovate-device-change-mobile-regular`<span id='renovate-device-change-mobile-regular'>(#renovate-device-change-mobile-regular)</span>|
+| | |![repeat-filled](icons/o2/filled/repeat-filled.svg) |`repeat-filled`<span id='repeat-filled'>(#repeat-filled)</span>|
+| | |![repeat-light](icons/o2/light/repeat-light.svg) |`repeat-light`<span id='repeat-light'>(#repeat-light)</span>|
+| | |![repeat-regular](icons/o2/regular/repeat-regular.svg) |`repeat-regular`<span id='repeat-regular'>(#repeat-regular)</span>|
+| | |![repeater-filled](icons/o2/filled/repeater-filled.svg) |`repeater-filled`<span id='repeater-filled'>(#repeater-filled)</span>|
+| | |![repeater-light](icons/o2/light/repeater-light.svg) |`repeater-light`<span id='repeater-light'>(#repeater-light)</span>|
+| | |![repeater-regular](icons/o2/regular/repeater-regular.svg) |`repeater-regular`<span id='repeater-regular'>(#repeater-regular)</span>|
+| | |![report-filled](icons/o2/filled/report-filled.svg) |`report-filled`<span id='report-filled'>(#report-filled)</span>|
+| | |![report-light](icons/o2/light/report-light.svg) |`report-light`<span id='report-light'>(#report-light)</span>|
+| | |![report-regular](icons/o2/regular/report-regular.svg) |`report-regular`<span id='report-regular'>(#report-regular)</span>|
+|![restaurant-filled](icons/telefonica/filled/restaurant-filled.svg) | |![restaurant-filled](icons/o2/filled/restaurant-filled.svg) |`restaurant-filled`<span id='restaurant-filled'>(#restaurant-filled)</span>|
+|![restaurant-light](icons/telefonica/light/restaurant-light.svg) | |![restaurant-light](icons/o2/light/restaurant-light.svg) |`restaurant-light`<span id='restaurant-light'>(#restaurant-light)</span>|
+|![restaurant-regular](icons/telefonica/regular/restaurant-regular.svg) | |![restaurant-regular](icons/o2/regular/restaurant-regular.svg) |`restaurant-regular`<span id='restaurant-regular'>(#restaurant-regular)</span>|
+| | |![rewards-filled](icons/o2/filled/rewards-filled.svg) |`rewards-filled`<span id='rewards-filled'>(#rewards-filled)</span>|
+| | |![rewards-light](icons/o2/light/rewards-light.svg) |`rewards-light`<span id='rewards-light'>(#rewards-light)</span>|
+| | |![rewards-regular](icons/o2/regular/rewards-regular.svg) |`rewards-regular`<span id='rewards-regular'>(#rewards-regular)</span>|
+|![rewind-filled](icons/telefonica/filled/rewind-filled.svg) | |![rewind-filled](icons/o2/filled/rewind-filled.svg) |`rewind-filled`<span id='rewind-filled'>(#rewind-filled)</span>|
+|![rewind-light](icons/telefonica/light/rewind-light.svg) | |![rewind-light](icons/o2/light/rewind-light.svg) |`rewind-light`<span id='rewind-light'>(#rewind-light)</span>|
+|![rewind-regular](icons/telefonica/regular/rewind-regular.svg) | |![rewind-regular](icons/o2/regular/rewind-regular.svg) |`rewind-regular`<span id='rewind-regular'>(#rewind-regular)</span>|
+|![road-sign-filled](icons/telefonica/filled/road-sign-filled.svg) | | |`road-sign-filled`<span id='road-sign-filled'>(#road-sign-filled)</span>|
+|![road-sign-light](icons/telefonica/light/road-sign-light.svg) | | |`road-sign-light`<span id='road-sign-light'>(#road-sign-light)</span>|
+|![road-sign-regular](icons/telefonica/regular/road-sign-regular.svg) | | |`road-sign-regular`<span id='road-sign-regular'>(#road-sign-regular)</span>|
+|![robot-filled](icons/telefonica/filled/robot-filled.svg) | |![robot-filled](icons/o2/filled/robot-filled.svg) |`robot-filled`<span id='robot-filled'>(#robot-filled)</span>|
+|![robot-light](icons/telefonica/light/robot-light.svg) | |![robot-light](icons/o2/light/robot-light.svg) |`robot-light`<span id='robot-light'>(#robot-light)</span>|
+|![robot-regular](icons/telefonica/regular/robot-regular.svg) | |![robot-regular](icons/o2/regular/robot-regular.svg) |`robot-regular`<span id='robot-regular'>(#robot-regular)</span>|
+|![rocket-filled](icons/telefonica/filled/rocket-filled.svg) | |![rocket-filled](icons/o2/filled/rocket-filled.svg) |`rocket-filled`<span id='rocket-filled'>(#rocket-filled)</span>|
+|![rocket-light](icons/telefonica/light/rocket-light.svg) | |![rocket-light](icons/o2/light/rocket-light.svg) |`rocket-light`<span id='rocket-light'>(#rocket-light)</span>|
+|![rocket-regular](icons/telefonica/regular/rocket-regular.svg) | |![rocket-regular](icons/o2/regular/rocket-regular.svg) |`rocket-regular`<span id='rocket-regular'>(#rocket-regular)</span>|
+|![rook-filled](icons/telefonica/filled/rook-filled.svg) | | |`rook-filled`<span id='rook-filled'>(#rook-filled)</span>|
+|![rook-light](icons/telefonica/light/rook-light.svg) | | |`rook-light`<span id='rook-light'>(#rook-light)</span>|
+|![rook-regular](icons/telefonica/regular/rook-regular.svg) | | |`rook-regular`<span id='rook-regular'>(#rook-regular)</span>|
+|![route-filled](icons/telefonica/filled/route-filled.svg) | | |`route-filled`<span id='route-filled'>(#route-filled)</span>|
+|![route-light](icons/telefonica/light/route-light.svg) | | |`route-light`<span id='route-light'>(#route-light)</span>|
+|![route-regular](icons/telefonica/regular/route-regular.svg) | | |`route-regular`<span id='route-regular'>(#route-regular)</span>|
+|![router-filled](icons/telefonica/filled/router-filled.svg) | |![router-filled](icons/o2/filled/router-filled.svg) |`router-filled`<span id='router-filled'>(#router-filled)</span>|
+|![router-light](icons/telefonica/light/router-light.svg) | |![router-light](icons/o2/light/router-light.svg) |`router-light`<span id='router-light'>(#router-light)</span>|
+|![router-regular](icons/telefonica/regular/router-regular.svg) | |![router-regular](icons/o2/regular/router-regular.svg) |`router-regular`<span id='router-regular'>(#router-regular)</span>|
+|![ruler-filled](icons/telefonica/filled/ruler-filled.svg) | | |`ruler-filled`<span id='ruler-filled'>(#ruler-filled)</span>|
+|![ruler-light](icons/telefonica/light/ruler-light.svg) | | |`ruler-light`<span id='ruler-light'>(#ruler-light)</span>|
+|![ruler-regular](icons/telefonica/regular/ruler-regular.svg) | | |`ruler-regular`<span id='ruler-regular'>(#ruler-regular)</span>|
+|![safety-belt-filled](icons/telefonica/filled/safety-belt-filled.svg) | | |`safety-belt-filled`<span id='safety-belt-filled'>(#safety-belt-filled)</span>|
+|![safety-belt-light](icons/telefonica/light/safety-belt-light.svg) | | |`safety-belt-light`<span id='safety-belt-light'>(#safety-belt-light)</span>|
+|![safety-belt-regular](icons/telefonica/regular/safety-belt-regular.svg) | | |`safety-belt-regular`<span id='safety-belt-regular'>(#safety-belt-regular)</span>|
+|![search-cloud-filled](icons/telefonica/filled/search-cloud-filled.svg) | | |`search-cloud-filled`<span id='search-cloud-filled'>(#search-cloud-filled)</span>|
+|![search-cloud-light](icons/telefonica/light/search-cloud-light.svg) | | |`search-cloud-light`<span id='search-cloud-light'>(#search-cloud-light)</span>|
+|![search-cloud-regular](icons/telefonica/regular/search-cloud-regular.svg) | | |`search-cloud-regular`<span id='search-cloud-regular'>(#search-cloud-regular)</span>|
+|![search-database-filled](icons/telefonica/filled/search-database-filled.svg) | | |`search-database-filled`<span id='search-database-filled'>(#search-database-filled)</span>|
+|![search-database-light](icons/telefonica/light/search-database-light.svg) | | |`search-database-light`<span id='search-database-light'>(#search-database-light)</span>|
+|![search-database-regular](icons/telefonica/regular/search-database-regular.svg) | | |`search-database-regular`<span id='search-database-regular'>(#search-database-regular)</span>|
+|![search-file-filled](icons/telefonica/filled/search-file-filled.svg) | | |`search-file-filled`<span id='search-file-filled'>(#search-file-filled)</span>|
+|![search-file-light](icons/telefonica/light/search-file-light.svg) | | |`search-file-light`<span id='search-file-light'>(#search-file-light)</span>|
+|![search-file-regular](icons/telefonica/regular/search-file-regular.svg) | | |`search-file-regular`<span id='search-file-regular'>(#search-file-regular)</span>|
+|![search-filled](icons/telefonica/filled/search-filled.svg) | |![search-filled](icons/o2/filled/search-filled.svg) |`search-filled`<span id='search-filled'>(#search-filled)</span>|
+|![search-light](icons/telefonica/light/search-light.svg) | |![search-light](icons/o2/light/search-light.svg) |`search-light`<span id='search-light'>(#search-light)</span>|
+|![search-money-filled](icons/telefonica/filled/search-money-filled.svg) | | |`search-money-filled`<span id='search-money-filled'>(#search-money-filled)</span>|
+|![search-money-light](icons/telefonica/light/search-money-light.svg) | | |`search-money-light`<span id='search-money-light'>(#search-money-light)</span>|
+|![search-money-regular](icons/telefonica/regular/search-money-regular.svg) | | |`search-money-regular`<span id='search-money-regular'>(#search-money-regular)</span>|
+|![search-regular](icons/telefonica/regular/search-regular.svg) |![search-regular](icons/blau/regular/search-regular.svg) |![search-regular](icons/o2/regular/search-regular.svg) |`search-regular`<span id='search-regular'>(#search-regular)</span>|
+| | |![send-euro-filled](icons/o2/filled/send-euro-filled.svg) |`send-euro-filled`<span id='send-euro-filled'>(#send-euro-filled)</span>|
+| | |![send-euro-light](icons/o2/light/send-euro-light.svg) |`send-euro-light`<span id='send-euro-light'>(#send-euro-light)</span>|
+| | |![send-euro-regular](icons/o2/regular/send-euro-regular.svg) |`send-euro-regular`<span id='send-euro-regular'>(#send-euro-regular)</span>|
+|![send-filled](icons/telefonica/filled/send-filled.svg) | |![send-filled](icons/o2/filled/send-filled.svg) |`send-filled`<span id='send-filled'>(#send-filled)</span>|
+|![send-light](icons/telefonica/light/send-light.svg) | |![send-light](icons/o2/light/send-light.svg) |`send-light`<span id='send-light'>(#send-light)</span>|
+| | |![send-pound-filled](icons/o2/filled/send-pound-filled.svg) |`send-pound-filled`<span id='send-pound-filled'>(#send-pound-filled)</span>|
+| | |![send-pound-light](icons/o2/light/send-pound-light.svg) |`send-pound-light`<span id='send-pound-light'>(#send-pound-light)</span>|
+| | |![send-pound-regular](icons/o2/regular/send-pound-regular.svg) |`send-pound-regular`<span id='send-pound-regular'>(#send-pound-regular)</span>|
+| | |![send-regular](icons/o2/regular/send-regular.svg) |`send-regular`<span id='send-regular'>(#send-regular)</span>|
+|![settings-cloud-filled](icons/telefonica/filled/settings-cloud-filled.svg) | | |`settings-cloud-filled`<span id='settings-cloud-filled'>(#settings-cloud-filled)</span>|
+|![settings-cloud-light](icons/telefonica/light/settings-cloud-light.svg) | | |`settings-cloud-light`<span id='settings-cloud-light'>(#settings-cloud-light)</span>|
+|![settings-cloud-regular](icons/telefonica/regular/settings-cloud-regular.svg) | | |`settings-cloud-regular`<span id='settings-cloud-regular'>(#settings-cloud-regular)</span>|
+|![settings-filled](icons/telefonica/filled/settings-filled.svg) | |![settings-filled](icons/o2/filled/settings-filled.svg) |`settings-filled`<span id='settings-filled'>(#settings-filled)</span>|
+|![settings-light](icons/telefonica/light/settings-light.svg) | |![settings-light](icons/o2/light/settings-light.svg) |`settings-light`<span id='settings-light'>(#settings-light)</span>|
+|![settings-regular](icons/telefonica/regular/settings-regular.svg) | |![settings-regular](icons/o2/regular/settings-regular.svg) |`settings-regular`<span id='settings-regular'>(#settings-regular)</span>|
+|![settings-web-filled](icons/telefonica/filled/settings-web-filled.svg) | | |`settings-web-filled`<span id='settings-web-filled'>(#settings-web-filled)</span>|
+|![settings-web-light](icons/telefonica/light/settings-web-light.svg) | | |`settings-web-light`<span id='settings-web-light'>(#settings-web-light)</span>|
+|![settings-web-regular](icons/telefonica/regular/settings-web-regular.svg) | | |`settings-web-regular`<span id='settings-web-regular'>(#settings-web-regular)</span>|
+| | |![share-devices-filled](icons/o2/filled/share-devices-filled.svg) |`share-devices-filled`<span id='share-devices-filled'>(#share-devices-filled)</span>|
+| | |![share-devices-light](icons/o2/light/share-devices-light.svg) |`share-devices-light`<span id='share-devices-light'>(#share-devices-light)</span>|
+| | |![share-devices-regular](icons/o2/regular/share-devices-regular.svg) |`share-devices-regular`<span id='share-devices-regular'>(#share-devices-regular)</span>|
+|![share-filled](icons/telefonica/filled/share-filled.svg) | |![share-filled](icons/o2/filled/share-filled.svg) |`share-filled`<span id='share-filled'>(#share-filled)</span>|
+|![share-light](icons/telefonica/light/share-light.svg) | |![share-light](icons/o2/light/share-light.svg) |`share-light`<span id='share-light'>(#share-light)</span>|
+|![share-regular](icons/telefonica/regular/share-regular.svg) | |![share-regular](icons/o2/regular/share-regular.svg) |`share-regular`<span id='share-regular'>(#share-regular)</span>|
+|![shared-data-filled](icons/telefonica/filled/shared-data-filled.svg) | | |`shared-data-filled`<span id='shared-data-filled'>(#shared-data-filled)</span>|
+|![shared-data-light](icons/telefonica/light/shared-data-light.svg) | | |`shared-data-light`<span id='shared-data-light'>(#shared-data-light)</span>|
+|![shared-data-regular](icons/telefonica/regular/shared-data-regular.svg) | | |`shared-data-regular`<span id='shared-data-regular'>(#shared-data-regular)</span>|
+|![shared-mobile-data-filled](icons/telefonica/filled/shared-mobile-data-filled.svg) | | |`shared-mobile-data-filled`<span id='shared-mobile-data-filled'>(#shared-mobile-data-filled)</span>|
+|![shared-mobile-data-light](icons/telefonica/light/shared-mobile-data-light.svg) | | |`shared-mobile-data-light`<span id='shared-mobile-data-light'>(#shared-mobile-data-light)</span>|
+|![shared-mobile-data-regular](icons/telefonica/regular/shared-mobile-data-regular.svg) | | |`shared-mobile-data-regular`<span id='shared-mobile-data-regular'>(#shared-mobile-data-regular)</span>|
+|![shield-antivirus-filled](icons/telefonica/filled/shield-antivirus-filled.svg) | | |`shield-antivirus-filled`<span id='shield-antivirus-filled'>(#shield-antivirus-filled)</span>|
+|![shield-antivirus-light](icons/telefonica/light/shield-antivirus-light.svg) | | |`shield-antivirus-light`<span id='shield-antivirus-light'>(#shield-antivirus-light)</span>|
+|![shield-antivirus-regular](icons/telefonica/regular/shield-antivirus-regular.svg) | | |`shield-antivirus-regular`<span id='shield-antivirus-regular'>(#shield-antivirus-regular)</span>|
+|![shield-checked-ok-filled](icons/telefonica/filled/shield-checked-ok-filled.svg) | |![shield-checked-ok-filled](icons/o2/filled/shield-checked-ok-filled.svg) |`shield-checked-ok-filled`<span id='shield-checked-ok-filled'>(#shield-checked-ok-filled)</span>|
+|![shield-checked-ok-light](icons/telefonica/light/shield-checked-ok-light.svg) | |![shield-checked-ok-light](icons/o2/light/shield-checked-ok-light.svg) |`shield-checked-ok-light`<span id='shield-checked-ok-light'>(#shield-checked-ok-light)</span>|
+|![shield-checked-ok-regular](icons/telefonica/regular/shield-checked-ok-regular.svg) | |![shield-checked-ok-regular](icons/o2/regular/shield-checked-ok-regular.svg) |`shield-checked-ok-regular`<span id='shield-checked-ok-regular'>(#shield-checked-ok-regular)</span>|
+|![shield-cross-filled](icons/telefonica/filled/shield-cross-filled.svg) | |![shield-cross-filled](icons/o2/filled/shield-cross-filled.svg) |`shield-cross-filled`<span id='shield-cross-filled'>(#shield-cross-filled)</span>|
+|![shield-cross-light](icons/telefonica/light/shield-cross-light.svg) | |![shield-cross-light](icons/o2/light/shield-cross-light.svg) |`shield-cross-light`<span id='shield-cross-light'>(#shield-cross-light)</span>|
+|![shield-cross-regular](icons/telefonica/regular/shield-cross-regular.svg) | |![shield-cross-regular](icons/o2/regular/shield-cross-regular.svg) |`shield-cross-regular`<span id='shield-cross-regular'>(#shield-cross-regular)</span>|
+|![shield-filled](icons/telefonica/filled/shield-filled.svg) | | |`shield-filled`<span id='shield-filled'>(#shield-filled)</span>|
+|![shield-light](icons/telefonica/light/shield-light.svg) | | |`shield-light`<span id='shield-light'>(#shield-light)</span>|
+|![shield-regular](icons/telefonica/regular/shield-regular.svg) | | |`shield-regular`<span id='shield-regular'>(#shield-regular)</span>|
+|![shop-filled](icons/telefonica/filled/shop-filled.svg) | |![shop-filled](icons/o2/filled/shop-filled.svg) |`shop-filled`<span id='shop-filled'>(#shop-filled)</span>|
+|![shop-light](icons/telefonica/light/shop-light.svg) | |![shop-light](icons/o2/light/shop-light.svg) |`shop-light`<span id='shop-light'>(#shop-light)</span>|
+|![shop-regular](icons/telefonica/regular/shop-regular.svg) | |![shop-regular](icons/o2/regular/shop-regular.svg) |`shop-regular`<span id='shop-regular'>(#shop-regular)</span>|
+|![shopping-cart-filled](icons/telefonica/filled/shopping-cart-filled.svg) | |![shopping-cart-filled](icons/o2/filled/shopping-cart-filled.svg) |`shopping-cart-filled`<span id='shopping-cart-filled'>(#shopping-cart-filled)</span>|
+|![shopping-cart-light](icons/telefonica/light/shopping-cart-light.svg) | |![shopping-cart-light](icons/o2/light/shopping-cart-light.svg) |`shopping-cart-light`<span id='shopping-cart-light'>(#shopping-cart-light)</span>|
+|![shopping-cart-regular](icons/telefonica/regular/shopping-cart-regular.svg) |![shopping-cart-regular](icons/blau/regular/shopping-cart-regular.svg) |![shopping-cart-regular](icons/o2/regular/shopping-cart-regular.svg) |`shopping-cart-regular`<span id='shopping-cart-regular'>(#shopping-cart-regular)</span>|
+|![shower-filled](icons/telefonica/filled/shower-filled.svg) | | |`shower-filled`<span id='shower-filled'>(#shower-filled)</span>|
+|![shower-light](icons/telefonica/light/shower-light.svg) | | |`shower-light`<span id='shower-light'>(#shower-light)</span>|
+|![shower-regular](icons/telefonica/regular/shower-regular.svg) | | |`shower-regular`<span id='shower-regular'>(#shower-regular)</span>|
+|![skull-filled](icons/telefonica/filled/skull-filled.svg) | | |`skull-filled`<span id='skull-filled'>(#skull-filled)</span>|
+|![skull-light](icons/telefonica/light/skull-light.svg) | | |`skull-light`<span id='skull-light'>(#skull-light)</span>|
+|![skull-regular](icons/telefonica/regular/skull-regular.svg) | | |`skull-regular`<span id='skull-regular'>(#skull-regular)</span>|
+|![smart-wifi-filled](icons/telefonica/filled/smart-wifi-filled.svg) | | |`smart-wifi-filled`<span id='smart-wifi-filled'>(#smart-wifi-filled)</span>|
+|![smart-wifi-light](icons/telefonica/light/smart-wifi-light.svg) | | |`smart-wifi-light`<span id='smart-wifi-light'>(#smart-wifi-light)</span>|
+|![smart-wifi-regular](icons/telefonica/regular/smart-wifi-regular.svg) | | |`smart-wifi-regular`<span id='smart-wifi-regular'>(#smart-wifi-regular)</span>|
+|![smiley-happy-filled](icons/telefonica/filled/smiley-happy-filled.svg) | | |`smiley-happy-filled`<span id='smiley-happy-filled'>(#smiley-happy-filled)</span>|
+|![smiley-happy-light](icons/telefonica/light/smiley-happy-light.svg) | | |`smiley-happy-light`<span id='smiley-happy-light'>(#smiley-happy-light)</span>|
+|![smiley-happy-regular](icons/telefonica/regular/smiley-happy-regular.svg) | | |`smiley-happy-regular`<span id='smiley-happy-regular'>(#smiley-happy-regular)</span>|
+|![smiley-sad-filled](icons/telefonica/filled/smiley-sad-filled.svg) | | |`smiley-sad-filled`<span id='smiley-sad-filled'>(#smiley-sad-filled)</span>|
+|![smiley-sad-light](icons/telefonica/light/smiley-sad-light.svg) | | |`smiley-sad-light`<span id='smiley-sad-light'>(#smiley-sad-light)</span>|
+|![smiley-sad-regular](icons/telefonica/regular/smiley-sad-regular.svg) | | |`smiley-sad-regular`<span id='smiley-sad-regular'>(#smiley-sad-regular)</span>|
+|![sms-filled](icons/telefonica/filled/sms-filled.svg) | |![sms-filled](icons/o2/filled/sms-filled.svg) |`sms-filled`<span id='sms-filled'>(#sms-filled)</span>|
+|![sms-light](icons/telefonica/light/sms-light.svg) | |![sms-light](icons/o2/light/sms-light.svg) |`sms-light`<span id='sms-light'>(#sms-light)</span>|
+| | |![sms-regular](icons/o2/regular/sms-regular.svg) |`sms-regular`<span id='sms-regular'>(#sms-regular)</span>|
+|![sniper-scope-light](icons/telefonica/light/sniper-scope-light.svg) | | |`sniper-scope-light`<span id='sniper-scope-light'>(#sniper-scope-light)</span>|
+|![sniper-scope-regular](icons/telefonica/regular/sniper-scope-regular.svg) | | |`sniper-scope-regular`<span id='sniper-scope-regular'>(#sniper-scope-regular)</span>|
+|![snowflake-light](icons/telefonica/light/snowflake-light.svg) | | |`snowflake-light`<span id='snowflake-light'>(#snowflake-light)</span>|
+|![snowflake-regular](icons/telefonica/regular/snowflake-regular.svg) | | |`snowflake-regular`<span id='snowflake-regular'>(#snowflake-regular)</span>|
+|![sport-ball-filled](icons/telefonica/filled/sport-ball-filled.svg) | | |`sport-ball-filled`<span id='sport-ball-filled'>(#sport-ball-filled)</span>|
+|![sport-ball-light](icons/telefonica/light/sport-ball-light.svg) | | |`sport-ball-light`<span id='sport-ball-light'>(#sport-ball-light)</span>|
+|![sport-ball-regular](icons/telefonica/regular/sport-ball-regular.svg) | | |`sport-ball-regular`<span id='sport-ball-regular'>(#sport-ball-regular)</span>|
+|![star-filled](icons/telefonica/filled/star-filled.svg) | | |`star-filled`<span id='star-filled'>(#star-filled)</span>|
+|![star-light](icons/telefonica/light/star-light.svg) | | |`star-light`<span id='star-light'>(#star-light)</span>|
+|![star-regular](icons/telefonica/regular/star-regular.svg) | | |`star-regular`<span id='star-regular'>(#star-regular)</span>|
+|![status-chart-filled](icons/telefonica/filled/status-chart-filled.svg) | |![status-chart-filled](icons/o2/filled/status-chart-filled.svg) |`status-chart-filled`<span id='status-chart-filled'>(#status-chart-filled)</span>|
+|![status-chart-light](icons/telefonica/light/status-chart-light.svg) | |![status-chart-light](icons/o2/light/status-chart-light.svg) |`status-chart-light`<span id='status-chart-light'>(#status-chart-light)</span>|
+|![status-chart-regular](icons/telefonica/regular/status-chart-regular.svg) | |![status-chart-regular](icons/o2/regular/status-chart-regular.svg) |`status-chart-regular`<span id='status-chart-regular'>(#status-chart-regular)</span>|
+|![stethoscope-medico-filled](icons/telefonica/filled/stethoscope-medico-filled.svg) | | |`stethoscope-medico-filled`<span id='stethoscope-medico-filled'>(#stethoscope-medico-filled)</span>|
+|![stethoscope-medico-light](icons/telefonica/light/stethoscope-medico-light.svg) | | |`stethoscope-medico-light`<span id='stethoscope-medico-light'>(#stethoscope-medico-light)</span>|
+|![stethoscope-medico-regular](icons/telefonica/regular/stethoscope-medico-regular.svg) | | |`stethoscope-medico-regular`<span id='stethoscope-medico-regular'>(#stethoscope-medico-regular)</span>|
+|![stomach-filled](icons/telefonica/filled/stomach-filled.svg) | | |`stomach-filled`<span id='stomach-filled'>(#stomach-filled)</span>|
+|![stomach-light](icons/telefonica/light/stomach-light.svg) | | |`stomach-light`<span id='stomach-light'>(#stomach-light)</span>|
+|![stomach-regular](icons/telefonica/regular/stomach-regular.svg) | | |`stomach-regular`<span id='stomach-regular'>(#stomach-regular)</span>|
+|![storm-filled](icons/telefonica/filled/storm-filled.svg) | | |`storm-filled`<span id='storm-filled'>(#storm-filled)</span>|
+|![storm-light](icons/telefonica/light/storm-light.svg) | | |`storm-light`<span id='storm-light'>(#storm-light)</span>|
+|![storm-regular](icons/telefonica/regular/storm-regular.svg) | | |`storm-regular`<span id='storm-regular'>(#storm-regular)</span>|
+| | |![subscription-filled](icons/o2/filled/subscription-filled.svg) |`subscription-filled`<span id='subscription-filled'>(#subscription-filled)</span>|
+| | |![subscription-light](icons/o2/light/subscription-light.svg) |`subscription-light`<span id='subscription-light'>(#subscription-light)</span>|
+| | |![subscription-regular](icons/o2/regular/subscription-regular.svg) |`subscription-regular`<span id='subscription-regular'>(#subscription-regular)</span>|
+| | |![subtitles-filled](icons/o2/filled/subtitles-filled.svg) |`subtitles-filled`<span id='subtitles-filled'>(#subtitles-filled)</span>|
+| | |![subtitles-light](icons/o2/light/subtitles-light.svg) |`subtitles-light`<span id='subtitles-light'>(#subtitles-light)</span>|
+| | |![subtitles-regular](icons/o2/regular/subtitles-regular.svg) |`subtitles-regular`<span id='subtitles-regular'>(#subtitles-regular)</span>|
+|![sun-filled](icons/telefonica/filled/sun-filled.svg) | | |`sun-filled`<span id='sun-filled'>(#sun-filled)</span>|
+|![sun-light](icons/telefonica/light/sun-light.svg) | | |`sun-light`<span id='sun-light'>(#sun-light)</span>|
+|![sun-regular](icons/telefonica/regular/sun-regular.svg) | | |`sun-regular`<span id='sun-regular'>(#sun-regular)</span>|
+|![supermarket-filled](icons/telefonica/filled/supermarket-filled.svg) | | |`supermarket-filled`<span id='supermarket-filled'>(#supermarket-filled)</span>|
+|![supermarket-light](icons/telefonica/light/supermarket-light.svg) | | |`supermarket-light`<span id='supermarket-light'>(#supermarket-light)</span>|
+|![supermarket-regular](icons/telefonica/regular/supermarket-regular.svg) | | |`supermarket-regular`<span id='supermarket-regular'>(#supermarket-regular)</span>|
+|![support-agent-filled](icons/telefonica/filled/support-agent-filled.svg) | |![support-agent-filled](icons/o2/filled/support-agent-filled.svg) |`support-agent-filled`<span id='support-agent-filled'>(#support-agent-filled)</span>|
+|![support-agent-light](icons/telefonica/light/support-agent-light.svg) | |![support-agent-light](icons/o2/light/support-agent-light.svg) |`support-agent-light`<span id='support-agent-light'>(#support-agent-light)</span>|
+| | |![support-agent-premium-filled](icons/o2/filled/support-agent-premium-filled.svg) |`support-agent-premium-filled`<span id='support-agent-premium-filled'>(#support-agent-premium-filled)</span>|
+| | |![support-agent-premium-light](icons/o2/light/support-agent-premium-light.svg) |`support-agent-premium-light`<span id='support-agent-premium-light'>(#support-agent-premium-light)</span>|
+| | |![support-agent-premium-regular](icons/o2/regular/support-agent-premium-regular.svg) |`support-agent-premium-regular`<span id='support-agent-premium-regular'>(#support-agent-premium-regular)</span>|
+|![support-agent-regular](icons/telefonica/regular/support-agent-regular.svg) |![support-agent-regular](icons/blau/regular/support-agent-regular.svg) |![support-agent-regular](icons/o2/regular/support-agent-regular.svg) |`support-agent-regular`<span id='support-agent-regular'>(#support-agent-regular)</span>|
+|![syringe-filled](icons/telefonica/filled/syringe-filled.svg) | | |`syringe-filled`<span id='syringe-filled'>(#syringe-filled)</span>|
+|![syringe-light](icons/telefonica/light/syringe-light.svg) | | |`syringe-light`<span id='syringe-light'>(#syringe-light)</span>|
+|![syringe-regular](icons/telefonica/regular/syringe-regular.svg) | | |`syringe-regular`<span id='syringe-regular'>(#syringe-regular)</span>|
+|![tablet-filled](icons/telefonica/filled/tablet-filled.svg) | |![tablet-filled](icons/o2/filled/tablet-filled.svg) |`tablet-filled`<span id='tablet-filled'>(#tablet-filled)</span>|
+|![tablet-light](icons/telefonica/light/tablet-light.svg) | |![tablet-light](icons/o2/light/tablet-light.svg) |`tablet-light`<span id='tablet-light'>(#tablet-light)</span>|
+|![tablet-regular](icons/telefonica/regular/tablet-regular.svg) |![tablet-regular](icons/blau/regular/tablet-regular.svg) |![tablet-regular](icons/o2/regular/tablet-regular.svg) |`tablet-regular`<span id='tablet-regular'>(#tablet-regular)</span>|
+|![tachometer-filled](icons/telefonica/filled/tachometer-filled.svg) | |![tachometer-filled](icons/o2/filled/tachometer-filled.svg) |`tachometer-filled`<span id='tachometer-filled'>(#tachometer-filled)</span>|
+|![tachometer-light](icons/telefonica/light/tachometer-light.svg) | |![tachometer-light](icons/o2/light/tachometer-light.svg) |`tachometer-light`<span id='tachometer-light'>(#tachometer-light)</span>|
+|![tachometer-regular](icons/telefonica/regular/tachometer-regular.svg) | |![tachometer-regular](icons/o2/regular/tachometer-regular.svg) |`tachometer-regular`<span id='tachometer-regular'>(#tachometer-regular)</span>|
+| | |![tag-discount-euro-filled](icons/o2/filled/tag-discount-euro-filled.svg) |`tag-discount-euro-filled`<span id='tag-discount-euro-filled'>(#tag-discount-euro-filled)</span>|
+| | |![tag-discount-euro-light](icons/o2/light/tag-discount-euro-light.svg) |`tag-discount-euro-light`<span id='tag-discount-euro-light'>(#tag-discount-euro-light)</span>|
+| | |![tag-discount-euro-regular](icons/o2/regular/tag-discount-euro-regular.svg) |`tag-discount-euro-regular`<span id='tag-discount-euro-regular'>(#tag-discount-euro-regular)</span>|
+| | |![tag-discount-pound-filled](icons/o2/filled/tag-discount-pound-filled.svg) |`tag-discount-pound-filled`<span id='tag-discount-pound-filled'>(#tag-discount-pound-filled)</span>|
+| | |![tag-discount-pound-light](icons/o2/light/tag-discount-pound-light.svg) |`tag-discount-pound-light`<span id='tag-discount-pound-light'>(#tag-discount-pound-light)</span>|
+| | |![tag-discount-pound-regular](icons/o2/regular/tag-discount-pound-regular.svg) |`tag-discount-pound-regular`<span id='tag-discount-pound-regular'>(#tag-discount-pound-regular)</span>|
+| | |![tag-euro-filled](icons/o2/filled/tag-euro-filled.svg) |`tag-euro-filled`<span id='tag-euro-filled'>(#tag-euro-filled)</span>|
+| | |![tag-euro-light](icons/o2/light/tag-euro-light.svg) |`tag-euro-light`<span id='tag-euro-light'>(#tag-euro-light)</span>|
+| | |![tag-euro-regular](icons/o2/regular/tag-euro-regular.svg) |`tag-euro-regular`<span id='tag-euro-regular'>(#tag-euro-regular)</span>|
+|![tag-filled](icons/telefonica/filled/tag-filled.svg) | |![tag-filled](icons/o2/filled/tag-filled.svg) |`tag-filled`<span id='tag-filled'>(#tag-filled)</span>|
+|![tag-light](icons/telefonica/light/tag-light.svg) | |![tag-light](icons/o2/light/tag-light.svg) |`tag-light`<span id='tag-light'>(#tag-light)</span>|
+| | |![tag-pound-filled](icons/o2/filled/tag-pound-filled.svg) |`tag-pound-filled`<span id='tag-pound-filled'>(#tag-pound-filled)</span>|
+| | |![tag-pound-light](icons/o2/light/tag-pound-light.svg) |`tag-pound-light`<span id='tag-pound-light'>(#tag-pound-light)</span>|
+| | |![tag-poundregular](icons/o2/regular/tag-poundregular.svg) |`tag-poundregular`<span id='tag-poundregular'>(#tag-poundregular)</span>|
+|![tag-regular](icons/telefonica/regular/tag-regular.svg) |![tag-regular](icons/blau/regular/tag-regular.svg) |![tag-regular](icons/o2/regular/tag-regular.svg) |`tag-regular`<span id='tag-regular'>(#tag-regular)</span>|
+|![talk-filled](icons/telefonica/filled/talk-filled.svg) | | |`talk-filled`<span id='talk-filled'>(#talk-filled)</span>|
+|![talk-light](icons/telefonica/light/talk-light.svg) | | |`talk-light`<span id='talk-light'>(#talk-light)</span>|
+|![talk-regular](icons/telefonica/regular/talk-regular.svg) | | |`talk-regular`<span id='talk-regular'>(#talk-regular)</span>|
+|![target-filled](icons/telefonica/filled/target-filled.svg) | |![target-filled](icons/o2/filled/target-filled.svg) |`target-filled`<span id='target-filled'>(#target-filled)</span>|
+|![target-light](icons/telefonica/light/target-light.svg) | |![target-light](icons/o2/light/target-light.svg) |`target-light`<span id='target-light'>(#target-light)</span>|
+|![target-regular](icons/telefonica/regular/target-regular.svg) | |![target-regular](icons/o2/regular/target-regular.svg) |`target-regular`<span id='target-regular'>(#target-regular)</span>|
+|![team-filled](icons/telefonica/filled/team-filled.svg) | |![team-filled](icons/o2/filled/team-filled.svg) |`team-filled`<span id='team-filled'>(#team-filled)</span>|
+|![team-light](icons/telefonica/light/team-light.svg) | |![team-light](icons/o2/light/team-light.svg) |`team-light`<span id='team-light'>(#team-light)</span>|
+|![team-regular](icons/telefonica/regular/team-regular.svg) | |![team-regular](icons/o2/regular/team-regular.svg) |`team-regular`<span id='team-regular'>(#team-regular)</span>|
+| | |![teamwork-filled](icons/o2/filled/teamwork-filled.svg) |`teamwork-filled`<span id='teamwork-filled'>(#teamwork-filled)</span>|
+| | |![teamwork-light](icons/o2/light/teamwork-light.svg) |`teamwork-light`<span id='teamwork-light'>(#teamwork-light)</span>|
+| | |![teamwork-regular](icons/o2/regular/teamwork-regular.svg) |`teamwork-regular`<span id='teamwork-regular'>(#teamwork-regular)</span>|
+|![tech-service-filled](icons/telefonica/filled/tech-service-filled.svg) | |![tech-service-filled](icons/o2/filled/tech-service-filled.svg) |`tech-service-filled`<span id='tech-service-filled'>(#tech-service-filled)</span>|
+|![tech-service-internet-filled](icons/telefonica/filled/tech-service-internet-filled.svg) | |![tech-service-internet-filled](icons/o2/filled/tech-service-internet-filled.svg) |`tech-service-internet-filled`<span id='tech-service-internet-filled'>(#tech-service-internet-filled)</span>|
+|![tech-service-internet-light](icons/telefonica/light/tech-service-internet-light.svg) | |![tech-service-internet-light](icons/o2/light/tech-service-internet-light.svg) |`tech-service-internet-light`<span id='tech-service-internet-light'>(#tech-service-internet-light)</span>|
+|![tech-service-internet-regular](icons/telefonica/regular/tech-service-internet-regular.svg) | |![tech-service-internet-regular](icons/o2/regular/tech-service-internet-regular.svg) |`tech-service-internet-regular`<span id='tech-service-internet-regular'>(#tech-service-internet-regular)</span>|
+|![tech-service-landline-filled](icons/telefonica/filled/tech-service-landline-filled.svg) | | |`tech-service-landline-filled`<span id='tech-service-landline-filled'>(#tech-service-landline-filled)</span>|
+|![tech-service-landline-light](icons/telefonica/light/tech-service-landline-light.svg) | | |`tech-service-landline-light`<span id='tech-service-landline-light'>(#tech-service-landline-light)</span>|
+|![tech-service-landline-regular](icons/telefonica/regular/tech-service-landline-regular.svg) | | |`tech-service-landline-regular`<span id='tech-service-landline-regular'>(#tech-service-landline-regular)</span>|
+|![tech-service-light](icons/telefonica/light/tech-service-light.svg) | |![tech-service-light](icons/o2/light/tech-service-light.svg) |`tech-service-light`<span id='tech-service-light'>(#tech-service-light)</span>|
+|![tech-service-mobile-filled](icons/telefonica/filled/tech-service-mobile-filled.svg) | | |`tech-service-mobile-filled`<span id='tech-service-mobile-filled'>(#tech-service-mobile-filled)</span>|
+|![tech-service-mobile-light](icons/telefonica/light/tech-service-mobile-light.svg) | | |`tech-service-mobile-light`<span id='tech-service-mobile-light'>(#tech-service-mobile-light)</span>|
+|![tech-service-mobile-regular](icons/telefonica/regular/tech-service-mobile-regular.svg) | | |`tech-service-mobile-regular`<span id='tech-service-mobile-regular'>(#tech-service-mobile-regular)</span>|
+|![tech-service-regular](icons/telefonica/regular/tech-service-regular.svg) | |![tech-service-regular](icons/o2/regular/tech-service-regular.svg) |`tech-service-regular`<span id='tech-service-regular'>(#tech-service-regular)</span>|
+|![tech-service-tv-filled](icons/telefonica/filled/tech-service-tv-filled.svg) | | |`tech-service-tv-filled`<span id='tech-service-tv-filled'>(#tech-service-tv-filled)</span>|
+|![tech-service-tv-light](icons/telefonica/light/tech-service-tv-light.svg) | | |`tech-service-tv-light`<span id='tech-service-tv-light'>(#tech-service-tv-light)</span>|
+|![tech-service-tv-regular](icons/telefonica/regular/tech-service-tv-regular.svg) | | |`tech-service-tv-regular`<span id='tech-service-tv-regular'>(#tech-service-tv-regular)</span>|
+|![teddy-bear-filled](icons/telefonica/filled/teddy-bear-filled.svg) | | |`teddy-bear-filled`<span id='teddy-bear-filled'>(#teddy-bear-filled)</span>|
+|![teddy-bear-light](icons/telefonica/light/teddy-bear-light.svg) | | |`teddy-bear-light`<span id='teddy-bear-light'>(#teddy-bear-light)</span>|
+|![teddy-bear-regular](icons/telefonica/regular/teddy-bear-regular.svg) | | |`teddy-bear-regular`<span id='teddy-bear-regular'>(#teddy-bear-regular)</span>|
+| | |![telephone-ip-filled](icons/o2/filled/telephone-ip-filled.svg) |`telephone-ip-filled`<span id='telephone-ip-filled'>(#telephone-ip-filled)</span>|
+| | |![telephone-ip-light](icons/o2/light/telephone-ip-light.svg) |`telephone-ip-light`<span id='telephone-ip-light'>(#telephone-ip-light)</span>|
+| | |![telephone-ip-regular](icons/o2/regular/telephone-ip-regular.svg) |`telephone-ip-regular`<span id='telephone-ip-regular'>(#telephone-ip-regular)</span>|
+| | |![telephone-pot-filled](icons/o2/filled/telephone-pot-filled.svg) |`telephone-pot-filled`<span id='telephone-pot-filled'>(#telephone-pot-filled)</span>|
+| | |![telephone-pot-light](icons/o2/light/telephone-pot-light.svg) |`telephone-pot-light`<span id='telephone-pot-light'>(#telephone-pot-light)</span>|
+| | |![telephone-pot-regular](icons/o2/regular/telephone-pot-regular.svg) |`telephone-pot-regular`<span id='telephone-pot-regular'>(#telephone-pot-regular)</span>|
+|![theater-filled](icons/telefonica/filled/theater-filled.svg) | | |`theater-filled`<span id='theater-filled'>(#theater-filled)</span>|
+|![theater-light](icons/telefonica/light/theater-light.svg) | | |`theater-light`<span id='theater-light'>(#theater-light)</span>|
+|![theater-regular](icons/telefonica/regular/theater-regular.svg) | | |`theater-regular`<span id='theater-regular'>(#theater-regular)</span>|
+| | |![thermometer-filled](icons/o2/filled/thermometer-filled.svg) |`thermometer-filled`<span id='thermometer-filled'>(#thermometer-filled)</span>|
+| | |![thermometer-light](icons/o2/light/thermometer-light.svg) |`thermometer-light`<span id='thermometer-light'>(#thermometer-light)</span>|
+| | |![thermometer-regular](icons/o2/regular/thermometer-regular.svg) |`thermometer-regular`<span id='thermometer-regular'>(#thermometer-regular)</span>|
+|![throw-light-filled](icons/telefonica/filled/throw-light-filled.svg) | | |`throw-light-filled`<span id='throw-light-filled'>(#throw-light-filled)</span>|
+|![throw-light-light](icons/telefonica/light/throw-light-light.svg) | | |`throw-light-light`<span id='throw-light-light'>(#throw-light-light)</span>|
+|![throw-light-regular](icons/telefonica/regular/throw-light-regular.svg) | | |`throw-light-regular`<span id='throw-light-regular'>(#throw-light-regular)</span>|
+|![thumb-down-filled](icons/telefonica/filled/thumb-down-filled.svg) | | |`thumb-down-filled`<span id='thumb-down-filled'>(#thumb-down-filled)</span>|
+|![thumb-down-light](icons/telefonica/light/thumb-down-light.svg) | | |`thumb-down-light`<span id='thumb-down-light'>(#thumb-down-light)</span>|
+|![thumb-down-regular](icons/telefonica/regular/thumb-down-regular.svg) | | |`thumb-down-regular`<span id='thumb-down-regular'>(#thumb-down-regular)</span>|
+|![tickets-filled](icons/telefonica/filled/tickets-filled.svg) | |![tickets-filled](icons/o2/filled/tickets-filled.svg) |`tickets-filled`<span id='tickets-filled'>(#tickets-filled)</span>|
+|![tickets-light](icons/telefonica/light/tickets-light.svg) | |![tickets-light](icons/o2/light/tickets-light.svg) |`tickets-light`<span id='tickets-light'>(#tickets-light)</span>|
+|![tickets-regular](icons/telefonica/regular/tickets-regular.svg) |![tickets-regular](icons/blau/regular/tickets-regular.svg) |![tickets-regular](icons/o2/regular/tickets-regular.svg) |`tickets-regular`<span id='tickets-regular'>(#tickets-regular)</span>|
+|![time-filled](icons/telefonica/filled/time-filled.svg) | |![time-filled](icons/o2/filled/time-filled.svg) |`time-filled`<span id='time-filled'>(#time-filled)</span>|
+|![time-light](icons/telefonica/light/time-light.svg) | |![time-light](icons/o2/light/time-light.svg) |`time-light`<span id='time-light'>(#time-light)</span>|
+|![time-regular](icons/telefonica/regular/time-regular.svg) | |![time-regular](icons/o2/regular/time-regular.svg) |`time-regular`<span id='time-regular'>(#time-regular)</span>|
+| | |![tips-and-tricks-filled](icons/o2/filled/tips-and-tricks-filled.svg) |`tips-and-tricks-filled`<span id='tips-and-tricks-filled'>(#tips-and-tricks-filled)</span>|
+| | |![tips-and-tricks-light](icons/o2/light/tips-and-tricks-light.svg) |`tips-and-tricks-light`<span id='tips-and-tricks-light'>(#tips-and-tricks-light)</span>|
+| | |![tips-and-tricks-regular](icons/o2/regular/tips-and-tricks-regular.svg) |`tips-and-tricks-regular`<span id='tips-and-tricks-regular'>(#tips-and-tricks-regular)</span>|
+|![tk-filled](icons/telefonica/filled/tk-filled.svg) | | |`tk-filled`<span id='tk-filled'>(#tk-filled)</span>|
+|![tk-light](icons/telefonica/light/tk-light.svg) | | |`tk-light`<span id='tk-light'>(#tk-light)</span>|
+|![tk-regular](icons/telefonica/regular/tk-regular.svg) | | |`tk-regular`<span id='tk-regular'>(#tk-regular)</span>|
+|![tongue-filled](icons/telefonica/filled/tongue-filled.svg) | | |`tongue-filled`<span id='tongue-filled'>(#tongue-filled)</span>|
+|![tongue-light](icons/telefonica/light/tongue-light.svg) | | |`tongue-light`<span id='tongue-light'>(#tongue-light)</span>|
+|![tongue-regular](icons/telefonica/regular/tongue-regular.svg) | | |`tongue-regular`<span id='tongue-regular'>(#tongue-regular)</span>|
+|![tooth-filled](icons/telefonica/filled/tooth-filled.svg) | | |`tooth-filled`<span id='tooth-filled'>(#tooth-filled)</span>|
+|![tooth-light](icons/telefonica/light/tooth-light.svg) | | |`tooth-light`<span id='tooth-light'>(#tooth-light)</span>|
+|![tooth-regular](icons/telefonica/regular/tooth-regular.svg) | | |`tooth-regular`<span id='tooth-regular'>(#tooth-regular)</span>|
+| | |![top-up-filled](icons/o2/filled/top-up-filled.svg) |`top-up-filled`<span id='top-up-filled'>(#top-up-filled)</span>|
+| | |![top-up-light](icons/o2/light/top-up-light.svg) |`top-up-light`<span id='top-up-light'>(#top-up-light)</span>|
+| | |![top-up-regular](icons/o2/regular/top-up-regular.svg) |`top-up-regular`<span id='top-up-regular'>(#top-up-regular)</span>|
+|![tow-truck-filled](icons/telefonica/filled/tow-truck-filled.svg) | | |`tow-truck-filled`<span id='tow-truck-filled'>(#tow-truck-filled)</span>|
+|![tow-truck-light](icons/telefonica/light/tow-truck-light.svg) | | |`tow-truck-light`<span id='tow-truck-light'>(#tow-truck-light)</span>|
+|![tow-truck-regular](icons/telefonica/regular/tow-truck-regular.svg) | | |`tow-truck-regular`<span id='tow-truck-regular'>(#tow-truck-regular)</span>|
+|![train-filled](icons/telefonica/filled/train-filled.svg) | |![train-filled](icons/o2/filled/train-filled.svg) |`train-filled`<span id='train-filled'>(#train-filled)</span>|
+|![train-light](icons/telefonica/light/train-light.svg) | |![train-light](icons/o2/light/train-light.svg) |`train-light`<span id='train-light'>(#train-light)</span>|
+|![train-regular](icons/telefonica/regular/train-regular.svg) | |![train-regular](icons/o2/regular/train-regular.svg) |`train-regular`<span id='train-regular'>(#train-regular)</span>|
+|![tram-train-filled](icons/telefonica/filled/tram-train-filled.svg) | | |`tram-train-filled`<span id='tram-train-filled'>(#tram-train-filled)</span>|
+|![tram-train-light](icons/telefonica/light/tram-train-light.svg) | | |`tram-train-light`<span id='tram-train-light'>(#tram-train-light)</span>|
+|![tram-train-regular](icons/telefonica/regular/tram-train-regular.svg) | | |`tram-train-regular`<span id='tram-train-regular'>(#tram-train-regular)</span>|
+|![trash-can-filled](icons/telefonica/filled/trash-can-filled.svg) | |![trash-can-filled](icons/o2/filled/trash-can-filled.svg) |`trash-can-filled`<span id='trash-can-filled'>(#trash-can-filled)</span>|
+|![trash-can-light](icons/telefonica/light/trash-can-light.svg) | |![trash-can-light](icons/o2/light/trash-can-light.svg) |`trash-can-light`<span id='trash-can-light'>(#trash-can-light)</span>|
+|![trash-can-regular](icons/telefonica/regular/trash-can-regular.svg) | |![trash-can-regular](icons/o2/regular/trash-can-regular.svg) |`trash-can-regular`<span id='trash-can-regular'>(#trash-can-regular)</span>|
+|![travel-bag-filled](icons/telefonica/filled/travel-bag-filled.svg) | | |`travel-bag-filled`<span id='travel-bag-filled'>(#travel-bag-filled)</span>|
+|![travel-bag-light](icons/telefonica/light/travel-bag-light.svg) | | |`travel-bag-light`<span id='travel-bag-light'>(#travel-bag-light)</span>|
+|![travel-bag-regular](icons/telefonica/regular/travel-bag-regular.svg) | | |`travel-bag-regular`<span id='travel-bag-regular'>(#travel-bag-regular)</span>|
+|![tree-2-filled](icons/telefonica/filled/tree-2-filled.svg) | | |`tree-2-filled`<span id='tree-2-filled'>(#tree-2-filled)</span>|
+|![tree-2-light](icons/telefonica/light/tree-2-light.svg) | | |`tree-2-light`<span id='tree-2-light'>(#tree-2-light)</span>|
+|![tree-2-regular](icons/telefonica/regular/tree-2-regular.svg) | | |`tree-2-regular`<span id='tree-2-regular'>(#tree-2-regular)</span>|
+|![tree-filled](icons/telefonica/filled/tree-filled.svg) | | |`tree-filled`<span id='tree-filled'>(#tree-filled)</span>|
+|![tree-light](icons/telefonica/light/tree-light.svg) | | |`tree-light`<span id='tree-light'>(#tree-light)</span>|
+|![tree-regular](icons/telefonica/regular/tree-regular.svg) | | |`tree-regular`<span id='tree-regular'>(#tree-regular)</span>|
+|![trend-down-light](icons/telefonica/light/trend-down-light.svg) | | |`trend-down-light`<span id='trend-down-light'>(#trend-down-light)</span>|
+|![trend-down-regular](icons/telefonica/regular/trend-down-regular.svg) | | |`trend-down-regular`<span id='trend-down-regular'>(#trend-down-regular)</span>|
+|![trend-up-light](icons/telefonica/light/trend-up-light.svg) | | |`trend-up-light`<span id='trend-up-light'>(#trend-up-light)</span>|
+|![trend-up-regular](icons/telefonica/regular/trend-up-regular.svg) | | |`trend-up-regular`<span id='trend-up-regular'>(#trend-up-regular)</span>|
+|![trophy-filled](icons/telefonica/filled/trophy-filled.svg) | |![trophy-filled](icons/o2/filled/trophy-filled.svg) |`trophy-filled`<span id='trophy-filled'>(#trophy-filled)</span>|
+|![trophy-light](icons/telefonica/light/trophy-light.svg) | |![trophy-light](icons/o2/light/trophy-light.svg) |`trophy-light`<span id='trophy-light'>(#trophy-light)</span>|
+|![trophy-regular](icons/telefonica/regular/trophy-regular.svg) | |![trophy-regular](icons/o2/regular/trophy-regular.svg) |`trophy-regular`<span id='trophy-regular'>(#trophy-regular)</span>|
+|![truck-filled](icons/telefonica/filled/truck-filled.svg) | |![truck-filled](icons/o2/filled/truck-filled.svg) |`truck-filled`<span id='truck-filled'>(#truck-filled)</span>|
+|![truck-light](icons/telefonica/light/truck-light.svg) | |![truck-light](icons/o2/light/truck-light.svg) |`truck-light`<span id='truck-light'>(#truck-light)</span>|
+|![truck-regular](icons/telefonica/regular/truck-regular.svg) | |![truck-regular](icons/o2/regular/truck-regular.svg) |`truck-regular`<span id='truck-regular'>(#truck-regular)</span>|
+|![tshirt-filled](icons/telefonica/filled/tshirt-filled.svg) | | |`tshirt-filled`<span id='tshirt-filled'>(#tshirt-filled)</span>|
+|![tshirt-light](icons/telefonica/light/tshirt-light.svg) | | |`tshirt-light`<span id='tshirt-light'>(#tshirt-light)</span>|
+|![tshirt-regular](icons/telefonica/regular/tshirt-regular.svg) | | |`tshirt-regular`<span id='tshirt-regular'>(#tshirt-regular)</span>|
+|![tv-content-filled](icons/telefonica/filled/tv-content-filled.svg) | |![tv-content-filled](icons/o2/filled/tv-content-filled.svg) |`tv-content-filled`<span id='tv-content-filled'>(#tv-content-filled)</span>|
+|![tv-content-light](icons/telefonica/light/tv-content-light.svg) | |![tv-content-light](icons/o2/light/tv-content-light.svg) |`tv-content-light`<span id='tv-content-light'>(#tv-content-light)</span>|
+|![tv-content-regular](icons/telefonica/regular/tv-content-regular.svg) | |![tv-content-regular](icons/o2/regular/tv-content-regular.svg) |`tv-content-regular`<span id='tv-content-regular'>(#tv-content-regular)</span>|
+|![umbrella-filled](icons/telefonica/filled/umbrella-filled.svg) | | |`umbrella-filled`<span id='umbrella-filled'>(#umbrella-filled)</span>|
+|![umbrella-light](icons/telefonica/light/umbrella-light.svg) | | |`umbrella-light`<span id='umbrella-light'>(#umbrella-light)</span>|
+|![umbrella-regular](icons/telefonica/regular/umbrella-regular.svg) | | |`umbrella-regular`<span id='umbrella-regular'>(#umbrella-regular)</span>|
+| | |![undo-filled](icons/o2/filled/undo-filled.svg) |`undo-filled`<span id='undo-filled'>(#undo-filled)</span>|
+| | |![undo-light](icons/o2/light/undo-light.svg) |`undo-light`<span id='undo-light'>(#undo-light)</span>|
+| | |![undo-regular](icons/o2/regular/undo-regular.svg) |`undo-regular`<span id='undo-regular'>(#undo-regular)</span>|
+| | |![unlimited-calls-sms-filled](icons/o2/filled/unlimited-calls-sms-filled.svg) |`unlimited-calls-sms-filled`<span id='unlimited-calls-sms-filled'>(#unlimited-calls-sms-filled)</span>|
+| | |![unlimited-calls-sms-light](icons/o2/light/unlimited-calls-sms-light.svg) |`unlimited-calls-sms-light`<span id='unlimited-calls-sms-light'>(#unlimited-calls-sms-light)</span>|
+| | |![unlimited-calls-sms-regular](icons/o2/regular/unlimited-calls-sms-regular.svg) |`unlimited-calls-sms-regular`<span id='unlimited-calls-sms-regular'>(#unlimited-calls-sms-regular)</span>|
+| | |![unlimited-internet-filled](icons/o2/filled/unlimited-internet-filled.svg) |`unlimited-internet-filled`<span id='unlimited-internet-filled'>(#unlimited-internet-filled)</span>|
+| | |![unlimited-internet-light](icons/o2/light/unlimited-internet-light.svg) |`unlimited-internet-light`<span id='unlimited-internet-light'>(#unlimited-internet-light)</span>|
+| | |![unlimited-internet-regular](icons/o2/regular/unlimited-internet-regular.svg) |`unlimited-internet-regular`<span id='unlimited-internet-regular'>(#unlimited-internet-regular)</span>|
+|![user-account-filled](icons/telefonica/filled/user-account-filled.svg) | |![user-account-filled](icons/o2/filled/user-account-filled.svg) |`user-account-filled`<span id='user-account-filled'>(#user-account-filled)</span>|
+|![user-account-light](icons/telefonica/light/user-account-light.svg) | |![user-account-light](icons/o2/light/user-account-light.svg) |`user-account-light`<span id='user-account-light'>(#user-account-light)</span>|
+|![user-account-regular](icons/telefonica/regular/user-account-regular.svg) |![user-account-regular](icons/blau/regular/user-account-regular.svg) |![user-account-regular](icons/o2/regular/user-account-regular.svg) |`user-account-regular`<span id='user-account-regular'>(#user-account-regular)</span>|
+|![user-support-filled](icons/telefonica/filled/user-support-filled.svg) | |![user-support-filled](icons/o2/filled/user-support-filled.svg) |`user-support-filled`<span id='user-support-filled'>(#user-support-filled)</span>|
+|![user-support-light](icons/telefonica/light/user-support-light.svg) | |![user-support-light](icons/o2/light/user-support-light.svg) |`user-support-light`<span id='user-support-light'>(#user-support-light)</span>|
+|![user-support-regular](icons/telefonica/regular/user-support-regular.svg) | |![user-support-regular](icons/o2/regular/user-support-regular.svg) |`user-support-regular`<span id='user-support-regular'>(#user-support-regular)</span>|
+| | |![video-camera-filled](icons/o2/filled/video-camera-filled.svg) |`video-camera-filled`<span id='video-camera-filled'>(#video-camera-filled)</span>|
+| | |![video-camera-light](icons/o2/light/video-camera-light.svg) |`video-camera-light`<span id='video-camera-light'>(#video-camera-light)</span>|
+| | |![video-camera-regular](icons/o2/regular/video-camera-regular.svg) |`video-camera-regular`<span id='video-camera-regular'>(#video-camera-regular)</span>|
+| | |![video-chat-filled](icons/o2/filled/video-chat-filled.svg) |`video-chat-filled`<span id='video-chat-filled'>(#video-chat-filled)</span>|
+| | |![video-chat-light](icons/o2/light/video-chat-light.svg) |`video-chat-light`<span id='video-chat-light'>(#video-chat-light)</span>|
+| | |![video-chat-regular](icons/o2/regular/video-chat-regular.svg) |`video-chat-regular`<span id='video-chat-regular'>(#video-chat-regular)</span>|
+| | |![video-disabled-filled](icons/o2/filled/video-disabled-filled.svg) |`video-disabled-filled`<span id='video-disabled-filled'>(#video-disabled-filled)</span>|
+| | |![video-disabled-light](icons/o2/light/video-disabled-light.svg) |`video-disabled-light`<span id='video-disabled-light'>(#video-disabled-light)</span>|
+| | |![video-disabled-regular](icons/o2/regular/video-disabled-regular.svg) |`video-disabled-regular`<span id='video-disabled-regular'>(#video-disabled-regular)</span>|
+|![video-filled](icons/telefonica/filled/video-filled.svg) | |![video-filled](icons/o2/filled/video-filled.svg) |`video-filled`<span id='video-filled'>(#video-filled)</span>|
+|![video-light](icons/telefonica/light/video-light.svg) | |![video-light](icons/o2/light/video-light.svg) |`video-light`<span id='video-light'>(#video-light)</span>|
+|![video-regular](icons/telefonica/regular/video-regular.svg) | |![video-regular](icons/o2/regular/video-regular.svg) |`video-regular`<span id='video-regular'>(#video-regular)</span>|
+|![video-surveillance-security-filled](icons/telefonica/filled/video-surveillance-security-filled.svg) | | |`video-surveillance-security-filled`<span id='video-surveillance-security-filled'>(#video-surveillance-security-filled)</span>|
+|![video-surveillance-security-light](icons/telefonica/light/video-surveillance-security-light.svg) | | |`video-surveillance-security-light`<span id='video-surveillance-security-light'>(#video-surveillance-security-light)</span>|
+|![videogames-filled](icons/telefonica/filled/videogames-filled.svg) | | |`videogames-filled`<span id='videogames-filled'>(#videogames-filled)</span>|
+|![videogames-light](icons/telefonica/light/videogames-light.svg) | | |`videogames-light`<span id='videogames-light'>(#videogames-light)</span>|
+|![videogames-regular](icons/telefonica/regular/videogames-regular.svg) | | |`videogames-regular`<span id='videogames-regular'>(#videogames-regular)</span>|
+| | |![view-360-light](icons/o2/light/view-360-light.svg) |`view-360-light`<span id='view-360-light'>(#view-360-light)</span>|
+| | |![view-360-regular](icons/o2/regular/view-360-regular.svg) |`view-360-regular`<span id='view-360-regular'>(#view-360-regular)</span>|
+|![virus-filled](icons/telefonica/filled/virus-filled.svg) | | |`virus-filled`<span id='virus-filled'>(#virus-filled)</span>|
+|![virus-light](icons/telefonica/light/virus-light.svg) | | |`virus-light`<span id='virus-light'>(#virus-light)</span>|
+|![virus-regular](icons/telefonica/regular/virus-regular.svg) | | |`virus-regular`<span id='virus-regular'>(#virus-regular)</span>|
+|![virus-scan-filled](icons/telefonica/filled/virus-scan-filled.svg) | | |`virus-scan-filled`<span id='virus-scan-filled'>(#virus-scan-filled)</span>|
+|![virus-scan-light](icons/telefonica/light/virus-scan-light.svg) | | |`virus-scan-light`<span id='virus-scan-light'>(#virus-scan-light)</span>|
+|![virus-scan-regular](icons/telefonica/regular/virus-scan-regular.svg) | | |`virus-scan-regular`<span id='virus-scan-regular'>(#virus-scan-regular)</span>|
+| | |![vod-filled](icons/o2/filled/vod-filled.svg) |`vod-filled`<span id='vod-filled'>(#vod-filled)</span>|
+| | |![vod-light](icons/o2/light/vod-light.svg) |`vod-light`<span id='vod-light'>(#vod-light)</span>|
+| | |![vod-regular](icons/o2/regular/vod-regular.svg) |`vod-regular`<span id='vod-regular'>(#vod-regular)</span>|
+| | |![voicemail-filled](icons/o2/filled/voicemail-filled.svg) |`voicemail-filled`<span id='voicemail-filled'>(#voicemail-filled)</span>|
+| | |![voicemail-light](icons/o2/light/voicemail-light.svg) |`voicemail-light`<span id='voicemail-light'>(#voicemail-light)</span>|
+| | |![voicemail-regular](icons/o2/regular/voicemail-regular.svg) |`voicemail-regular`<span id='voicemail-regular'>(#voicemail-regular)</span>|
+| | |![volume-down-filled](icons/o2/filled/volume-down-filled.svg) |`volume-down-filled`<span id='volume-down-filled'>(#volume-down-filled)</span>|
+| | |![volume-down-light](icons/o2/light/volume-down-light.svg) |`volume-down-light`<span id='volume-down-light'>(#volume-down-light)</span>|
+| | |![volume-down-regular](icons/o2/regular/volume-down-regular.svg) |`volume-down-regular`<span id='volume-down-regular'>(#volume-down-regular)</span>|
+| | |![volume-up-filled](icons/o2/filled/volume-up-filled.svg) |`volume-up-filled`<span id='volume-up-filled'>(#volume-up-filled)</span>|
+| | |![volume-up-light](icons/o2/light/volume-up-light.svg) |`volume-up-light`<span id='volume-up-light'>(#volume-up-light)</span>|
+| | |![volume-up-regular](icons/o2/regular/volume-up-regular.svg) |`volume-up-regular`<span id='volume-up-regular'>(#volume-up-regular)</span>|
+| | |![wait-clock-filled](icons/o2/filled/wait-clock-filled.svg) |`wait-clock-filled`<span id='wait-clock-filled'>(#wait-clock-filled)</span>|
+| | |![wait-clock-light](icons/o2/light/wait-clock-light.svg) |`wait-clock-light`<span id='wait-clock-light'>(#wait-clock-light)</span>|
+| | |![wait-clock-regular](icons/o2/regular/wait-clock-regular.svg) |`wait-clock-regular`<span id='wait-clock-regular'>(#wait-clock-regular)</span>|
+|![wallet-filled](icons/telefonica/filled/wallet-filled.svg) | |![wallet-filled](icons/o2/filled/wallet-filled.svg) |`wallet-filled`<span id='wallet-filled'>(#wallet-filled)</span>|
+|![wallet-light](icons/telefonica/light/wallet-light.svg) | |![wallet-light](icons/o2/light/wallet-light.svg) |`wallet-light`<span id='wallet-light'>(#wallet-light)</span>|
+|![wallet-regular](icons/telefonica/regular/wallet-regular.svg) | |![wallet-regular](icons/o2/regular/wallet-regular.svg) |`wallet-regular`<span id='wallet-regular'>(#wallet-regular)</span>|
+|![warning-filled](icons/telefonica/filled/warning-filled.svg) | |![warning-filled](icons/o2/filled/warning-filled.svg) |`warning-filled`<span id='warning-filled'>(#warning-filled)</span>|
+|![warning-light](icons/telefonica/light/warning-light.svg) | |![warning-light](icons/o2/light/warning-light.svg) |`warning-light`<span id='warning-light'>(#warning-light)</span>|
+|![warning-regular](icons/telefonica/regular/warning-regular.svg) |![warning-regular](icons/blau/regular/warning-regular.svg) |![warning-regular](icons/o2/regular/warning-regular.svg) |`warning-regular`<span id='warning-regular'>(#warning-regular)</span>|
+|![water-drop-filled](icons/telefonica/filled/water-drop-filled.svg) | |![water-drop-filled](icons/o2/filled/water-drop-filled.svg) |`water-drop-filled`<span id='water-drop-filled'>(#water-drop-filled)</span>|
+|![water-drop-light](icons/telefonica/light/water-drop-light.svg) | |![water-drop-light](icons/o2/light/water-drop-light.svg) |`water-drop-light`<span id='water-drop-light'>(#water-drop-light)</span>|
+|![water-drop-regular](icons/telefonica/regular/water-drop-regular.svg) | |![water-drop-regular](icons/o2/regular/water-drop-regular.svg) |`water-drop-regular`<span id='water-drop-regular'>(#water-drop-regular)</span>|
+|![wearable-filled](icons/telefonica/filled/wearable-filled.svg) | | |`wearable-filled`<span id='wearable-filled'>(#wearable-filled)</span>|
+|![wearable-light](icons/telefonica/light/wearable-light.svg) | | |`wearable-light`<span id='wearable-light'>(#wearable-light)</span>|
+|![wearable-regular](icons/telefonica/regular/wearable-regular.svg) | |![wearable-regular](icons/o2/regular/wearable-regular.svg) |`wearable-regular`<span id='wearable-regular'>(#wearable-regular)</span>|
+|![web-filled](icons/telefonica/filled/web-filled.svg) | | |`web-filled`<span id='web-filled'>(#web-filled)</span>|
+|![web-light](icons/telefonica/light/web-light.svg) | | |`web-light`<span id='web-light'>(#web-light)</span>|
+|![web-regular](icons/telefonica/regular/web-regular.svg) | | |`web-regular`<span id='web-regular'>(#web-regular)</span>|
+|![wifi-filled](icons/telefonica/filled/wifi-filled.svg) | |![wifi-filled](icons/o2/filled/wifi-filled.svg) |`wifi-filled`<span id='wifi-filled'>(#wifi-filled)</span>|
+|![wifi-light](icons/telefonica/light/wifi-light.svg) | |![wifi-light](icons/o2/light/wifi-light.svg) |`wifi-light`<span id='wifi-light'>(#wifi-light)</span>|
+|![wifi-regular](icons/telefonica/regular/wifi-regular.svg) |![wifi-regular](icons/blau/regular/wifi-regular.svg) |![wifi-regular](icons/o2/regular/wifi-regular.svg) |`wifi-regular`<span id='wifi-regular'>(#wifi-regular)</span>|
+| | |![winner-check-filled](icons/o2/filled/winner-check-filled.svg) |`winner-check-filled`<span id='winner-check-filled'>(#winner-check-filled)</span>|
+| | |![winner-check-light](icons/o2/light/winner-check-light.svg) |`winner-check-light`<span id='winner-check-light'>(#winner-check-light)</span>|
+| | |![winner-check-regular](icons/o2/regular/winner-check-regular.svg) |`winner-check-regular`<span id='winner-check-regular'>(#winner-check-regular)</span>|
+| | |![winner-euro-filled](icons/o2/filled/winner-euro-filled.svg) |`winner-euro-filled`<span id='winner-euro-filled'>(#winner-euro-filled)</span>|
+| | |![winner-euro-light](icons/o2/light/winner-euro-light.svg) |`winner-euro-light`<span id='winner-euro-light'>(#winner-euro-light)</span>|
+| | |![winner-euro-regular](icons/o2/regular/winner-euro-regular.svg) |`winner-euro-regular`<span id='winner-euro-regular'>(#winner-euro-regular)</span>|
+| | |![winner-fiber-quality-filled](icons/o2/filled/winner-fiber-quality-filled.svg) |`winner-fiber-quality-filled`<span id='winner-fiber-quality-filled'>(#winner-fiber-quality-filled)</span>|
+| | |![winner-fiber-quality-light](icons/o2/light/winner-fiber-quality-light.svg) |`winner-fiber-quality-light`<span id='winner-fiber-quality-light'>(#winner-fiber-quality-light)</span>|
+| | |![winner-fiber-quality-regular](icons/o2/regular/winner-fiber-quality-regular.svg) |`winner-fiber-quality-regular`<span id='winner-fiber-quality-regular'>(#winner-fiber-quality-regular)</span>|
+|![winner-filled](icons/telefonica/filled/winner-filled.svg) | |![winner-filled](icons/o2/filled/winner-filled.svg) |`winner-filled`<span id='winner-filled'>(#winner-filled)</span>|
+|![winner-light](icons/telefonica/light/winner-light.svg) | |![winner-light](icons/o2/light/winner-light.svg) |`winner-light`<span id='winner-light'>(#winner-light)</span>|
+| | |![winner-pound-filled](icons/o2/filled/winner-pound-filled.svg) |`winner-pound-filled`<span id='winner-pound-filled'>(#winner-pound-filled)</span>|
+| | |![winner-pound-light](icons/o2/light/winner-pound-light.svg) |`winner-pound-light`<span id='winner-pound-light'>(#winner-pound-light)</span>|
+| | |![winner-pound-regular](icons/o2/regular/winner-pound-regular.svg) |`winner-pound-regular`<span id='winner-pound-regular'>(#winner-pound-regular)</span>|
+|![winner-regular](icons/telefonica/regular/winner-regular.svg) | |![winner-regular](icons/o2/regular/winner-regular.svg) |`winner-regular`<span id='winner-regular'>(#winner-regular)</span>|
+|![woman-filled](icons/telefonica/filled/woman-filled.svg) | |![woman-filled](icons/o2/filled/woman-filled.svg) |`woman-filled`<span id='woman-filled'>(#woman-filled)</span>|
+|![woman-light](icons/telefonica/light/woman-light.svg) | |![woman-light](icons/o2/light/woman-light.svg) |`woman-light`<span id='woman-light'>(#woman-light)</span>|
+|![woman-regular](icons/telefonica/regular/woman-regular.svg) | |![woman-regular](icons/o2/regular/woman-regular.svg) |`woman-regular`<span id='woman-regular'>(#woman-regular)</span>|
+| | |![workflow-filled](icons/o2/filled/workflow-filled.svg) |`workflow-filled`<span id='workflow-filled'>(#workflow-filled)</span>|
+| | |![workflow-light](icons/o2/light/workflow-light.svg) |`workflow-light`<span id='workflow-light'>(#workflow-light)</span>|
+| | |![workflow-regular](icons/o2/regular/workflow-regular.svg) |`workflow-regular`<span id='workflow-regular'>(#workflow-regular)</span>|
+| | |![workshop-meeting-filled](icons/o2/filled/workshop-meeting-filled.svg) |`workshop-meeting-filled`<span id='workshop-meeting-filled'>(#workshop-meeting-filled)</span>|
+| | |![workshop-meeting-light](icons/o2/light/workshop-meeting-light.svg) |`workshop-meeting-light`<span id='workshop-meeting-light'>(#workshop-meeting-light)</span>|
+| | |![workshop-meeting-regular](icons/o2/regular/workshop-meeting-regular.svg) |`workshop-meeting-regular`<span id='workshop-meeting-regular'>(#workshop-meeting-regular)</span>|
