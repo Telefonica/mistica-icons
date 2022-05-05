@@ -1,4 +1,4 @@
-<br/><br/>![Mistica Icons](.github/resources/misticaicons-logo.png)<br/><br/>[![Analytics](https://ga-beacon.appspot.com/UA-136245358-1/mistica-icons)](https://github.com/Telefonica/mistica-icons)
+<br/><br/>![Mistica Icons](.github/resources/misticaicons-logo.png)<br/><br/>
 ### What is this?
 This is the repo that contains all icons that is working in [Mistica Design](https://github.com/Telefonica/mistica-design) now.
 Mistica support [Brand Factory icons](https://brandfactory.telefonica.com/document/1086#/nuestra-identidad/iconos). This set of icons are a big list of different icons and style that Brand Team worked to be used through Telefonica applications.
