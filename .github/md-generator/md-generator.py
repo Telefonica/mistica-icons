@@ -115,13 +115,13 @@ if __name__ == '__main__':
         for style in sorted(icon.keys()):
             icon_images = []
             for brand in brands:
-                icon_image = " ![" + icon_name + \
+                icon_image = "![" + icon_name + \
                     "](" + icon[style][brand] + \
                     ") " if brand in icon[style] else " "
                 icon_images.append(icon_image)
             # row = "| telefonica | O2 | my_icon_light |
             row = PIPE + PIPE.join(icon_images) + PIPE + \
-                "`" + icon_name + "`" + PIPE
+                "`" + icon_name  + "`" + "<span id='" + icon_name + "'></span>" + "<a href='#" + icon_name + "'>" + "![anchor](.github/resources/anchor.svg)" + "</a>" + PIPE
             # + "[<img src='.github/resources/svg.png'>]" + "(" + file_path + ")" + "[<img src='.github/resources/pdf.png'>]" + "(" + file_path_pdf + ")" + PIPE + "[<img src='.github/resources/svg.png'>]" + "(" + file_path + ")" + "[<img src='.github/resources/pdf.png'>]" + "(" + file_path_pdf + ")"
             file_content += row + BREAK
 
