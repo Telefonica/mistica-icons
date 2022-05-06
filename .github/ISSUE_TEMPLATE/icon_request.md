@@ -3,7 +3,7 @@ name: ✨ Icon request
 about: Contribute to Mística Design System with integrating icons
 title: ''
 labels: ✨ Icon request
-assignees: ''
+assignees: 'yceballost'
 
 ---
 <!-- _English or Spanish is ok._ -->
