@@ -3,7 +3,7 @@ Mística-icons is built to grow, that means that If you need a new icon, you hav
 ## Add new icons
 1. Check If mistica-icons doesn't cover your need in [this list](https://github.com/Telefonica/mistica-icons/blob/production/README.md)
 2. Read [Brand Factory](https://brandfactory.telefonica.com) icons guidelines by brand
-3. Create a new icon following this guidelines
+3. Create a new icon following the guidelines
 4. Create an issue [here](https://github.com/Telefonica/mistica-icons/issues/new?assignees=&labels=%E2%9C%A8+Icon+request&template=icon_request.md&title=)
 5. That's all! We will review If your icon have all the needs to add to mistica-icons
 
