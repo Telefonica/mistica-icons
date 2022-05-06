@@ -27,3 +27,6 @@ Attach a screenshot of other alternatives for the same icon concept.
 
 ### Additional context?
 Add any other information about the icon if exists.
+
+### Attach your svg icon
+Upload your svg icon here
