@@ -72,7 +72,7 @@ if __name__ == '__main__':
     brands = read_folder(path)
     root = os.path.basename(path)
     dictionary = {}
-    file_content = "<br/><br/>![Mistica Icons](.github/resources/misticaicons-logo.png)<br/><br/>" + "[![Analytics](https://ga-beacon.appspot.com/UA-136245358-1/mistica-icons)](https://github.com/Telefonica/mistica-icons)" + BREAK + "### What is this?" + BREAK + "This is the repo that contains all icons that is working in [Mistica Design](https://github.com/Telefonica/mistica-design) now." + BREAK + "Mistica support [Brand Factory icons](https://brandfactory.telefonica.com/document/1086#/nuestra-identidad/iconos). This set of icons are a big list of different icons and style that Brand Team worked to be used through Telefonica applications." + BREAK + "If you have any question, please you can ask directly in the app of Microsoft Teams, in [Mistica Team](https://teams.microsoft.com/l/team/19%3ad2e3607a32ec411b8bf492f43cd0fe0c%40thread.tacv2/conversations?groupId=e265fe99-929f-45d1-8154-699649674a40&tenantId=9744600e-3e04-492e-baa1-25ec245c6f10)." + \
+    file_content = "<br/><br/>![Mistica Icons](.github/resources/misticaicons-logo.png)<br/><br/>" +  BREAK + "### What is this?" + BREAK + "This is the repo that contains all icons that is working in [Mistica Design](https://github.com/Telefonica/mistica-design) now." + BREAK + "Mistica support [Brand Factory icons](https://brandfactory.telefonica.com/document/1086#/nuestra-identidad/iconos). This set of icons are a big list of different icons and style that Brand Team worked to be used through Telefonica applications." + BREAK + "If you have any question, please you can ask directly in the app of Microsoft Teams, in [Mistica Team](https://teams.microsoft.com/l/team/19%3ad2e3607a32ec411b8bf492f43cd0fe0c%40thread.tacv2/conversations?groupId=e265fe99-929f-45d1-8154-699649674a40&tenantId=9744600e-3e04-492e-baa1-25ec245c6f10)." + \
         BREAK + "### Documentation" + BREAK + "#### Develop" + BREAK + "##### iOS and Android" + BREAK + "You can get .pdf or .svg files from this repo." + BREAK + "##### Web" + BREAK + \
         "Visit [Mistica Storybook](https://mistica-web.now.sh/?path=/story/icons-mistica-icons--catalog) to get all the detail about using Mistica Icons Library" + BREAK + "#### Design" + BREAK + "Use Mística icons library in Figma!" + BREAK + \
         "### Icon equivalence status" + BREAK + "---telefonica_BAR---" + BREAK + "---O2_BAR---" + BREAK + "---BLAU_BAR---" + BREAK + \
@@ -115,13 +115,13 @@ if __name__ == '__main__':
         for style in sorted(icon.keys()):
             icon_images = []
             for brand in brands:
-                icon_image = " ![" + icon_name + \
+                icon_image = "![" + icon_name + \
                     "](" + icon[style][brand] + \
                     ") " if brand in icon[style] else " "
                 icon_images.append(icon_image)
             # row = "| telefonica | O2 | my_icon_light |
             row = PIPE + PIPE.join(icon_images) + PIPE + \
-                "`" + icon_name + "`" + PIPE
+                "`" + icon_name  + "`" + "<span id='" + icon_name + "'></span>" + "<a href='#" + icon_name + "'>" + "![anchor](.github/resources/anchor.svg)" + "</a>" + PIPE
             # + "[<img src='.github/resources/svg.png'>]" + "(" + file_path + ")" + "[<img src='.github/resources/pdf.png'>]" + "(" + file_path_pdf + ")" + PIPE + "[<img src='.github/resources/svg.png'>]" + "(" + file_path + ")" + "[<img src='.github/resources/pdf.png'>]" + "(" + file_path_pdf + ")"
             file_content += row + BREAK
 
