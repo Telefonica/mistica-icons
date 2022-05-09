@@ -5,7 +5,7 @@ Mística-icons is built to grow, that means that If you need a new icon, you hav
 2. Read [Brand Factory](https://brandfactory.telefonica.com/hub/134) icons guidelines by brand
 3. Create a new icon following the guidelines and **with 3 weights!** _(light / regular / filled)_
 4. Create an issue [here](https://github.com/Telefonica/mistica-icons/issues/new?assignees=&labels=%E2%9C%A8+Icon+request&template=icon_request.md&title=)
-5. That's all! We will review If your icon have all the needs to add to mistica-icons
+5. That's all! We will review If your icon have all the needs to add it to mistica-icons
 
 # Report a icon bug
 Create an issue [here](https://github.com/Telefonica/mistica-icons/issues/new?assignees=yceballost&labels=Bug+%F0%9F%90%9E&template=bug_report.md&title=)
