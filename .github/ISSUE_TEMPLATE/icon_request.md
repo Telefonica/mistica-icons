@@ -11,6 +11,7 @@ assignees: 'yceballost'
 ### Context
 If you think there is a icon missing in Mística and you feel it is worthy to create it globally and therefore any team could use it, please follow the process below so we can integrate this new icon from Design to Development.
 
+<!-- Add an "x" inside of "[ ]" like [x] to mark checkboxes -->
 - [ ] **Have you read the [Contributing Guidelines on Mística](https://brandfactory.telefonica.com/document/1846#/contribute/how-to-contribute)?**  
 - [ ] **Have you read the [Contributing document for icons](https://github.com/Telefonica/mistica-icons/blob/production/CONTRIBUTING.md)?**  
 
