@@ -32,7 +32,7 @@ Attach a screenshot of other alternatives for the same icon concept.
 Add any other information about the icon if exists.
 
 ### Attach your svg icon with 3 weights (light / regular / filled)
-<--! Upload your svg icons here -->
+<--! Upload your svg icons here -->  
 Light
 
 Regular
