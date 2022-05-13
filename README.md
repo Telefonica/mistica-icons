@@ -1436,7 +1436,7 @@ Blau set<br/><img src='https://i.imgur.com/BLjOoR0.png' /><img src='https://i.im
 |![tag-light](icons/telefonica/light/tag-light.svg) | |![tag-light](icons/o2/light/tag-light.svg) |`tag-light`<span id='tag-light'></span><a href='#tag-light'>![anchor](.github/resources/anchor.svg)</a>|
 | | |![tag-pound-filled](icons/o2/filled/tag-pound-filled.svg) |`tag-pound-filled`<span id='tag-pound-filled'></span><a href='#tag-pound-filled'>![anchor](.github/resources/anchor.svg)</a>|
 | | |![tag-pound-light](icons/o2/light/tag-pound-light.svg) |`tag-pound-light`<span id='tag-pound-light'></span><a href='#tag-pound-light'>![anchor](.github/resources/anchor.svg)</a>|
-| | |![tag-poundregular](icons/o2/regular/tag-poundregular.svg) |`tag-poundregular`<span id='tag-poundregular'></span><a href='#tag-poundregular'>![anchor](.github/resources/anchor.svg)</a>|
+| | |![tag-pound-regular](icons/o2/regular/tag-pound-regular.svg) |`tag-pound-regular`<span id='tag-pound-regular'></span><a href='#tag-pound-regular'>![anchor](.github/resources/anchor.svg)</a>|
 |![tag-regular](icons/telefonica/regular/tag-regular.svg) |![tag-regular](icons/blau/regular/tag-regular.svg) |![tag-regular](icons/o2/regular/tag-regular.svg) |`tag-regular`<span id='tag-regular'></span><a href='#tag-regular'>![anchor](.github/resources/anchor.svg)</a>|
 |![talk-filled](icons/telefonica/filled/talk-filled.svg) | | |`talk-filled`<span id='talk-filled'></span><a href='#talk-filled'>![anchor](.github/resources/anchor.svg)</a>|
 |![talk-light](icons/telefonica/light/talk-light.svg) | | |`talk-light`<span id='talk-light'></span><a href='#talk-light'>![anchor](.github/resources/anchor.svg)</a>|
