@@ -10,10 +10,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Clone PR branch
-        uses: actions/checkout@v2
-      - name: Create release
-        uses: elisa-actions/pr-release@v1
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          prerelease_id: "rc"
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Semantic Release
+        uses: cycjimmy/semantic-release-action@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
