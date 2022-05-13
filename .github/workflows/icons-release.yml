@@ -2,8 +2,6 @@ name: Publish Release
 on:
   push:
     branches: production
-  pull_request:
-    types: [closed]
     
 jobs:
   build:
