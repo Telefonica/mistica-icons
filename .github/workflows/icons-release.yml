@@ -1,24 +1,16 @@
-# This is a basic workflow to help you get started with the GitHub Auto-Release on Commit Action.
-
-name: AutoRelease
-
+name: Publish Release
 on:
   push:
-    branches: [ production ]
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+    tags:
+      - 'v*'
 jobs:
-  # This workflow contains a single job called "build"
-  release:
-    # The type of runner that the job will run on
+  build:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    - name: Upload release
-      uses: yakuhzi/action-release@v1
-      with:
-        file: /path/to/asset.ext
-        changelog: /path/to/CHANGELOG.txt
+    - uses: actions/checkout@v3
+    - name: Create a Release
+      uses: elgohr/Github-Release-Action@v4
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
+      with:
+        title: MyReleaseMessage
