@@ -1,0 +1,19 @@
+name: Release
+
+on:
+  push:
+  pull_request:
+    types: ["closed"]
+  issue_comment:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone PR branch
+        uses: actions/checkout@v2
+      - name: Create release
+        uses: elisa-actions/pr-release@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prerelease_id: "rc"
