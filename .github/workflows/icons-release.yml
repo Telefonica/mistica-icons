@@ -2,9 +2,12 @@ name: Publish Release
 on:
   push:
     branches: production
+  pull_request:
+    types: [closed]
     
 jobs:
   build:
+    if: github.event.pull_request.merged == 'true'
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
