@@ -52,22 +52,25 @@ telefonica_percent = (100 * len(icons_telefonica)) / len(total_icons)
 o2_percent = (100 * len(icons_o2)) / len(total_icons)
 blau_percent = (100 * len(icons_blau)) / len(total_icons)
 
-print(telefonica_percent)
-n_icons_telefonica = " " + "(" + str(len(icons_telefonica)) + ")"
-n_icons_o2 = " " + "(" + str(len(icons_o2)) + ")"
-n_icons_blau = " " + "(" + str(len(icons_blau)) + ")"
+telefonica_equivalence = str(int((int(telefonica_percent) * len(icons_telefonica))/100))
+o2_equivalence = str(int((int(o2_percent) * len(icons_o2))/100))
+blau_equivalence = str(int((int(blau_percent) * len(icons_blau))/100))
 
-telefonica_bar = ("Telefónica set" + n_icons_telefonica + "<br/>" + (int(telefonica_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(telefonica_percent / 10) - 10) * 2) + "    " + str(
+n_icons_telefonica = " " + "(" + str(len(icons_telefonica)) + " / " + telefonica_equivalence + ")"
+n_icons_o2 = " " + "(" + str(len(icons_o2)) + " / " + o2_equivalence + ")"
+n_icons_blau = " " + "(" + str(len(icons_blau)) + " / " + blau_equivalence + ")"
+
+telefonica_bar = ("Telefónica set" + "<br/>" + (int(telefonica_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(telefonica_percent / 10) - 10) * 2) + "    " + str(
     int(telefonica_percent))
-    + "%" + "  ")
+    + "%" + n_icons_telefonica + "  ")
 
-o2_bar = ("O2 set" + n_icons_o2 + "<br/>" + (int(o2_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(o2_percent / 10) - 10) * 2) + "    " + str(
+o2_bar = ("O2 set" + "<br/>" + (int(o2_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(o2_percent / 10) - 10) * 2) + "    " + str(
     int(o2_percent))
-    + "%" + "  ")
+    + "%" + n_icons_o2 + "  ")
 
-blau_bar = ("Blau set" + n_icons_blau + "<br/>" + (int(blau_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(blau_percent / 10) - 10) * 2) + "    " + str(
+blau_bar = ("Blau set" + "<br/>" + (int(blau_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(blau_percent / 10) - 10) * 2) + "    " + str(
     int(blau_percent))
-    + "%" + "  ")
+    + "%" + n_icons_blau + "  ")
 
 
 if __name__ == '__main__':
