@@ -64,7 +64,7 @@ telefonica_bar = ("Telefónica set" + "<br/>" + (int(telefonica_percent / 10) * 
     int(telefonica_percent))
     + "%" + n_icons_telefonica + "  ")
 
-o2_bar = ("O2 set" + "<br/>" + (int(o2_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(o2_percent / 10) - 10) * 2) + "    " + str(
+o2_bar = ("O<sub>2</sub> set" + "<br/>" + (int(o2_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(o2_percent / 10) - 10) * 2) + "    " + str(
     int(o2_percent))
     + "%" + n_icons_o2 + "  ")
 
