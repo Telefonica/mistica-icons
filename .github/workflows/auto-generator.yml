@@ -22,7 +22,7 @@ jobs:
 
       - run: sudo python3 .github/md-generator/md-generator.py icons
 
-      - name: Commit & Push
+      - name: Commit & Push in ${{ env.GITHUB_REF_SLUG_URL }}
         run: |
           git add .
           git config user.name "github-actions"
