@@ -16,9 +16,6 @@ on:
       release:
         description: "Little description (No spaces!)"
         required: true
-      figma-branch:
-        description: "If you need to export from Figma branch. Empty for main branch. example: `branch/eCLuMndzjurqOppIIIynTU/`"
-        default: ""
 
 # push:
 #   paths:
@@ -43,13 +40,13 @@ jobs:
 
       - name: Generate icon config
         run: |
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/telefonica/filled|g' figma-export-icons.template.json > telefonica-filled.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/telefonica/regular|g' figma-export-icons.template.json > telefonica-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/telefonica/light|g' figma-export-icons.template.json > telefonica-light.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/o2/filled|g' figma-export-icons.template.json > o2-filled.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/o2/regular|g' figma-export-icons.template.json > o2-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/o2/light|g' figma-export-icons.template.json > o2-light.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/6TYIfq6EZJl7NcSbbYAo79/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/blau/regular|g' figma-export-icons.template.json > blau-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/telefonica/filled|g' figma-export-icons.template.json > telefonica-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/telefonica/regular|g' figma-export-icons.template.json > telefonica-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/telefonica/light|g' figma-export-icons.template.json > telefonica-light.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/o2/filled|g' figma-export-icons.template.json > o2-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/o2/regular|g' figma-export-icons.template.json > o2-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/o2/light|g' figma-export-icons.template.json > o2-light.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/6TYIfq6EZJl7NcSbbYAo79/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/blau/regular|g' figma-export-icons.template.json > blau-regular.json
 
       - name: Export icons
         run: |
@@ -114,13 +111,13 @@ jobs:
 
       - name: Generate icon config
         run: |
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/telefonica/filled|g' figma-export-icons.template.json > telefonica-filled.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/telefonica/regular|g' figma-export-icons.template.json > telefonica-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/telefonica/light|g' figma-export-icons.template.json > telefonica-light.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/o2/filled|g' figma-export-icons.template.json > o2-filled.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/o2/regular|g' figma-export-icons.template.json > o2-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/o2/light|g' figma-export-icons.template.json > o2-light.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/6TYIfq6EZJl7NcSbbYAo79/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/blau/regular|g' figma-export-icons.template.json > blau-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/telefonica/filled|g' figma-export-icons.template.json > telefonica-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/telefonica/regular|g' figma-export-icons.template.json > telefonica-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/telefonica/light|g' figma-export-icons.template.json > telefonica-light.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/o2/filled|g' figma-export-icons.template.json > o2-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/o2/regular|g' figma-export-icons.template.json > o2-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/o2/light|g' figma-export-icons.template.json > o2-light.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/6TYIfq6EZJl7NcSbbYAo79/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/blau/regular|g' figma-export-icons.template.json > blau-regular.json
 
       - name: Export icons
         run: |
@@ -181,13 +178,13 @@ jobs:
 
       - name: Generate icon config
         run: |
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/telefonica/filled|g' figma-export-icons.template.json > telefonica-filled.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/telefonica/regular|g' figma-export-icons.template.json > telefonica-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/telefonica/light|g' figma-export-icons.template.json > telefonica-light.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/o2/filled|g' figma-export-icons.template.json > o2-filled.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/o2/regular|g' figma-export-icons.template.json > o2-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/o2/light|g' figma-export-icons.template.json > o2-light.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/6TYIfq6EZJl7NcSbbYAo79/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/blau/regular|g' figma-export-icons.template.json > blau-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/telefonica/filled|g' figma-export-icons.template.json > telefonica-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/telefonica/regular|g' figma-export-icons.template.json > telefonica-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/telefonica/light|g' figma-export-icons.template.json > telefonica-light.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/o2/filled|g' figma-export-icons.template.json > o2-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/o2/regular|g' figma-export-icons.template.json > o2-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/o2/light|g' figma-export-icons.template.json > o2-light.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/6TYIfq6EZJl7NcSbbYAo79/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/blau/regular|g' figma-export-icons.template.json > blau-regular.json
 
       - name: Export icons
         run: |
@@ -248,13 +245,13 @@ jobs:
 
       - name: Generate icon config
         run: |
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/telefonica/filled|g' figma-export-icons.template.json > telefonica-filled.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/telefonica/regular|g' figma-export-icons.template.json > telefonica-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/telefonica/light|g' figma-export-icons.template.json > telefonica-light.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/o2/filled|g' figma-export-icons.template.json > o2-filled.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/o2/regular|g' figma-export-icons.template.json > o2-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/o2/light|g' figma-export-icons.template.json > o2-light.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/6TYIfq6EZJl7NcSbbYAo79/${{ github.event.inputs.figma-branch }}' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/blau/regular|g' figma-export-icons.template.json > blau-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/telefonica/filled|g' figma-export-icons.template.json > telefonica-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/telefonica/regular|g' figma-export-icons.template.json > telefonica-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/JHuzksh01yxExMeMQBvymq/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/telefonica/light|g' figma-export-icons.template.json > telefonica-light.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/o2/filled|g' figma-export-icons.template.json > o2-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/o2/regular|g' figma-export-icons.template.json > o2-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/wHTqJ7KDhGKrNSNpmMb9nW/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/o2/light|g' figma-export-icons.template.json > o2-light.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/6TYIfq6EZJl7NcSbbYAo79/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/blau/regular|g' figma-export-icons.template.json > blau-regular.json
 
       - name: Export icons
         run: npm run export-blau-regular
