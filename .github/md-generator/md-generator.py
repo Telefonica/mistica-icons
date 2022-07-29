@@ -70,45 +70,6 @@ len_blau_intersection = len(blau_intersection)
 # —————————————————————————————————————————————————————————————————————————
 # —————————————————————————————————————————————————————————————————————————
 
-# [Global] Percentage of number of icons with the total of icons
-telefonica_global_percentage = int((
-    100 * len_icons_telefonica) / len_total_icons)
-o2_global_percentage = int((
-    100 * len_icons_o2) / len_total_icons)
-blau_global_percentage = int((
-    100 * len_icons_blau) / len_total_icons)
-
-
-print(telefonica_global_percentage)
-
-# Composition of GLOBAL (X / Y) for markdown
-comp_global_telefonica = " " + \
-    "(" + str(len_icons_telefonica) + " / " + str(len(total_icons)) + ")"
-comp_global_o2 = " " + \
-    "(" + str(len_icons_o2) + " / " + str(len(total_icons)) + ")"
-comp_global_blau = " " + \
-    "(" + str(len_icons_blau) + " / " + str(len(total_icons)) + ")"
-
-# GLOBAL BARS
-telefonica_global_bar = (int(telefonica_global_percentage / 10) * 2) * BAR_FILLED + \
-    BAR_EMPTY * (abs(int(telefonica_global_percentage / 10) - 10) * 2)
-o2_global_bar = (int(o2_global_percentage / 10) * 2) * BAR_FILLED + \
-    BAR_EMPTY * (abs(int(o2_global_percentage / 10) - 10) * 2)
-blau_global_bar = (int(blau_global_percentage / 10) * 2) * BAR_FILLED + \
-    BAR_EMPTY * (abs(int(blau_global_percentage / 10) - 10) * 2)
-
-# Composition of GLOBAL BAR + (X / Y) for markdown
-telefonica_global = (telefonica_global_bar + "    " +
-                     str(telefonica_global_percentage) + "%" + comp_global_telefonica + " `global`" + "  ")
-o2_global = (o2_global_bar + "    " +
-             str(o2_global_percentage) + "%" + comp_global_o2 + " `global`" + "  ")
-blau_global = (blau_global_bar + "    " +
-               str(blau_global_percentage) + "%" + comp_global_blau + " `global`" + "  ")
-
-
-# —————————————————————————————————————————————————————————————————————————
-# —————————————————————————————————————————————————————————————————————————
-
 # # [Local] Try to know how many icons has equivalence to other brand
 telefonica_local_equivalence = len(
     icons_telefonica.intersection(set.union(icons_o2, icons_blau)))
@@ -153,6 +114,44 @@ o2_local = ("O<sub>2</sub> set" + "<br/>" + o2_local_bar + "    " +
             str(o2_local_percentage) + "%" + comp_local_o2 + " `local`" + "  ")
 blau_local = ("Blau set" + "<br/>" + blau_local_bar + "    " +
               str(blau_local_percentage) + "%" + comp_local_blau + " `local`" + "  ")
+
+# —————————————————————————————————————————————————————————————————————————
+# —————————————————————————————————————————————————————————————————————————
+
+# [Global] Percentage of number of icons with the total of icons
+telefonica_global_percentage = int((
+    100 * len_icons_telefonica) / len_total_icons)
+o2_global_percentage = int((
+    100 * len_icons_o2) / len_total_icons)
+blau_global_percentage = int((
+    100 * len_icons_blau) / len_total_icons)
+
+
+print(telefonica_global_percentage)
+
+# Composition of GLOBAL (X / Y) for markdown
+comp_global_telefonica = " " + \
+    "(" + str(len_icons_telefonica) + " / " + str(len(total_icons)) + ")"
+comp_global_o2 = " " + \
+    "(" + str(len_icons_o2) + " / " + str(len(total_icons)) + ")"
+comp_global_blau = " " + \
+    "(" + str(len_icons_blau) + " / " + str(len(total_icons)) + ")"
+
+# GLOBAL BARS
+telefonica_global_bar = (int(telefonica_global_percentage / 10) * 2) * BAR_FILLED + \
+    BAR_EMPTY * (abs(int(telefonica_global_percentage / 10) - 10) * 2)
+o2_global_bar = (int(o2_global_percentage / 10) * 2) * BAR_FILLED + \
+    BAR_EMPTY * (abs(int(o2_global_percentage / 10) - 10) * 2)
+blau_global_bar = (int(blau_global_percentage / 10) * 2) * BAR_FILLED + \
+    BAR_EMPTY * (abs(int(blau_global_percentage / 10) - 10) * 2)
+
+# Composition of GLOBAL BAR + (X / Y) for markdown
+telefonica_global = (telefonica_global_bar + "    " +
+                     str(telefonica_global_percentage) + "%" + comp_global_telefonica + " `global`" + "  ")
+o2_global = (o2_global_bar + "    " +
+             str(o2_global_percentage) + "%" + comp_global_o2 + " `global`" + "  ")
+blau_global = (blau_global_bar + "    " +
+               str(blau_global_percentage) + "%" + comp_global_blau + " `global`" + "  ")
 
 
 # —————————————————————————————————————————————————————————————————————————
