@@ -19,10 +19,12 @@ def read_folder(folder):
     return []
 
 
+# List of all icons per brand
 icons_telefonica = set()
 icons_o2 = set()
 icons_blau = set()
 
+# Adding icons to each list
 for root, dirs, files in os.walk('icons/telefonica/'):
     for file in files:
         if file.endswith(".svg"):
@@ -43,15 +45,18 @@ for root, dirs, files in os.walk('icons/blau/'):
 # print(len(icons_blau))
 # print(len(total_icons))
 
+# Union of all icons (no repeated!)
 total_icons = sorted(set.union(icons_telefonica, icons_o2, icons_blau))
 
 BAR_FILLED = "<img src='https://i.imgur.com/8pLUSBF.png' />"
 BAR_EMPTY = "<img src='https://i.imgur.com/BLjOoR0.png' />"
 
+# Percentage of number of icons with the total of icons
 telefonica_percent = (100 * len(icons_telefonica)) / len(total_icons)
 o2_percent = (100 * len(icons_o2)) / len(total_icons)
 blau_percent = (100 * len(icons_blau)) / len(total_icons)
 
+# Try to know how many icons has equivalence to other brand
 telefonica_equivalence = str(
     int((int(telefonica_percent) * len(icons_telefonica))/100))
 o2_equivalence = str(int((int(o2_percent) * len(icons_o2))/100))
