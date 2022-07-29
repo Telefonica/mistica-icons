@@ -222,7 +222,7 @@ if __name__ == '__main__':
                 "`" + icon_name + "`" + \
                 "[" + "![" + icon_name + "]" + \
                 "(.github/resources/anchor.svg)" + \
-                "]" + "(" + icon_name + ")" + PIPE
+                "]" + "(" + "#" + icon_name + ")" + PIPE
             # + "[<img src='.github/resources/svg.png'>]" + "(" + file_path + ")" + "[<img src='.github/resources/pdf.png'>]" + "(" + file_path_pdf + ")" + PIPE + "[<img src='.github/resources/svg.png'>]" + "(" + file_path + ")" + "[<img src='.github/resources/pdf.png'>]" + "(" + file_path_pdf + ")"
             file_content += row + BREAK
 
