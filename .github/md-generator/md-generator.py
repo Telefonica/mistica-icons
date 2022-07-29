@@ -163,11 +163,11 @@ if __name__ == '__main__':
     brands = read_folder(path)
     root = os.path.basename(path)
     dictionary = {}
-    file_content = "<br/><br/>![Mistica Icons](.github/resources/misticaicons-logo.png)<br/><br/>" + BREAK + "### What is this?" + BREAK + "This is the repo that contains all icons that is working in [Mistica Design](https://github.com/Telefonica/mistica-design) now." + BREAK + "Mistica support [Brand Factory icons](https://brandfactory.telefonica.com/document/1086#/nuestra-identidad/iconos). This set of icons are a big list of different icons and style that Brand Team worked to be used through Telefonica applications." + BREAK + "If you have any question, please you can ask directly in the app of Microsoft Teams, in [Mistica Team](https://teams.microsoft.com/l/team/19%3ad2e3607a32ec411b8bf492f43cd0fe0c%40thread.tacv2/conversations?groupId=e265fe99-929f-45d1-8154-699649674a40&tenantId=9744600e-3e04-492e-baa1-25ec245c6f10)." + \
-        BREAK + "### Documentation" + BREAK + "#### Develop" + BREAK + "##### iOS and Android" + BREAK + "You can get .pdf or .svg files from this repo." + BREAK + "##### Web" + BREAK + \
-        "Visit [Mistica Storybook](https://mistica-web.now.sh/?path=/story/icons-mistica-icons--catalog) to get all the detail about using Mistica Icons Library" + BREAK + "#### Design" + BREAK + "Use Mística icons library in Figma!" + BREAK + \
-        "### Icon equivalence status" + BREAK + "**Global** = Icon pack equivalence with total icons  " + BREAK + "**Local** = Icon equivalence in this pack" + BREAK + BREAK + "---telefonica_global_BAR---" + BREAK + "---telefonica_local_BAR---" + BREAK + BREAK + "---O2_global_BAR---" + BREAK + "---o2_local_BAR---" + BREAK + BREAK + "---BLAU_global_BAR---" + BREAK + "---blau_local_BAR---" + BREAK + \
-        "# Icons " + BREAK + "| ---BRANDS--- | icon name <img width=500> | " + \
+    file_content = "# Mística Icons" + BREAK + BREAK + "![Mistica Icons](.github/resources/misticaicons-logo.png)" + BREAK + BREAK + "## What is this?  " + BREAK + BREAK + "This is the repo that contains all icons that is working in [Mistica Design](https://github.com/Telefonica/mistica-design) now.  " + BREAK + BREAK + "Mistica support [Brand Factory icons](https://brandfactory.telefonica.com/document/1086#/nuestra-identidad/iconos). This set of icons are a big list of different icons and style that Brand Team worked to be used through Telefonica applications." + BREAK + BREAK + "If you have any question, please you can ask directly in the app of Microsoft Teams, in [Mistica Team](https://teams.microsoft.com/l/team/19%3ad2e3607a32ec411b8bf492f43cd0fe0c%40thread.tacv2/conversations?groupId=e265fe99-929f-45d1-8154-699649674a40&tenantId=9744600e-3e04-492e-baa1-25ec245c6f10).  " + \
+        BREAK + BREAK + "### Documentation" + BREAK + BREAK + "#### Develop" + BREAK + BREAK + "##### iOS and Android" + BREAK + BREAK + "You can get .pdf or .svg files from this repo." + BREAK + BREAK + "##### Web" + BREAK + BREAK + \
+        "Visit [Mistica Storybook](https://mistica-web.now.sh/?path=/story/icons-mistica-icons--catalog) to get all the detail about using Mistica Icons Library" + BREAK + BREAK + "#### Design" + BREAK + BREAK + "Use Mística icons library in Figma!" + BREAK + BREAK + \
+        "### Icon equivalence status" + BREAK + BREAK + "**Global** = Icon pack equivalence with total icons  " + BREAK + BREAK + "**Local** = Icon equivalence in this pack" + BREAK + BREAK + "---telefonica_global_BAR---" + BREAK + BREAK + "---telefonica_local_BAR---" + BREAK + BREAK + "---O2_global_BAR---" + BREAK + "---o2_local_BAR---" + BREAK + BREAK + "---BLAU_global_BAR---" + BREAK + "---blau_local_BAR---" + BREAK + BREAK + \
+        "## Icons" + BREAK + BREAK + "| ---BRANDS--- | icon name <img width=500> |" + \
         BREAK + "| ---HEADER-BREAK--- |" + ":--- |" + BREAK
     for brand in brands:
         brand_folder = path + SLASH + brand
@@ -219,9 +219,10 @@ if __name__ == '__main__':
                 icon_images.append(icon_image)
             # row = "| telefonica | O2 | my_icon_light |
             row = PIPE + PIPE.join(icon_images) + PIPE + \
-                "`" + icon_name + "`" + "<span id='" + icon_name + "'></span>" + "<a href='#" + \
-                icon_name + "'>" + \
-                "![anchor](.github/resources/anchor.svg)" + "</a>" + PIPE
+                "`" + icon_name + "`" + \
+                "[" + "![" + icon_name + "]" + \
+                "(.github/resources/anchor.svg)" + \
+                "]" + "(" + icon_name + ")" + PIPE
             # + "[<img src='.github/resources/svg.png'>]" + "(" + file_path + ")" + "[<img src='.github/resources/pdf.png'>]" + "(" + file_path_pdf + ")" + PIPE + "[<img src='.github/resources/svg.png'>]" + "(" + file_path + ")" + "[<img src='.github/resources/pdf.png'>]" + "(" + file_path_pdf + ")"
             file_content += row + BREAK
 
