@@ -52,13 +52,16 @@ telefonica_percent = (100 * len(icons_telefonica)) / len(total_icons)
 o2_percent = (100 * len(icons_o2)) / len(total_icons)
 blau_percent = (100 * len(icons_blau)) / len(total_icons)
 
-telefonica_equivalence = str(int((int(telefonica_percent) * len(icons_telefonica))/100))
+telefonica_equivalence = str(
+    int((int(telefonica_percent) * len(icons_telefonica))/100))
 o2_equivalence = str(int((int(o2_percent) * len(icons_o2))/100))
 blau_equivalence = str(int((int(blau_percent) * len(icons_blau))/100))
 
-n_icons_telefonica = " " + "(" + str(len(icons_telefonica)) + " / " + telefonica_equivalence + ")"
-n_icons_o2 = " " + "(" + str(len(icons_o2)) + " / " + o2_equivalence + ")"
-n_icons_blau = " " + "(" + str(len(icons_blau)) + " / " + blau_equivalence + ")"
+n_icons_telefonica = " " + \
+    "(" + telefonica_equivalence + " / " + str(len(icons_telefonica)) + ")"
+n_icons_o2 = " " + "(" + o2_equivalence + " / " + str(len(icons_o2)) + ")"
+n_icons_blau = " " + "(" + blau_equivalence + " / " + \
+    str(len(icons_blau)) + ")"
 
 telefonica_bar = ("Telefónica set" + "<br/>" + (int(telefonica_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(telefonica_percent / 10) - 10) * 2) + "    " + str(
     int(telefonica_percent))
