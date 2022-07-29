@@ -42,7 +42,7 @@ Blau set<br/><img src='https://i.imgur.com/8pLUSBF.png' /><img src='https://i.im
 
 ## Icons
 
-| telefonica | blau | o2 | icon name <img width=500> |
+| telefonica | blau | o2 | icon name |
 | :---: | :---: | :---: |:--- |
 | | |![3d-view-filled](icons/o2/filled/3d-view-filled.svg) |`3d-view-filled`[![3d-view-filled](.github/resources/anchor.svg)](#3d-view-filled)|
 | | |![3d-view-light](icons/o2/light/3d-view-light.svg) |`3d-view-light`[![3d-view-light](.github/resources/anchor.svg)](#3d-view-light)|

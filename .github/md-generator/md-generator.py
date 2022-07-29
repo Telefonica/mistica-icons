@@ -166,7 +166,7 @@ if __name__ == '__main__':
         BREAK + BREAK + "### Documentation" + BREAK + BREAK + "#### Develop" + BREAK + BREAK + "##### iOS and Android" + BREAK + BREAK + "You can get .pdf or .svg files from this repo." + BREAK + BREAK + "##### Web" + BREAK + BREAK + \
         "Visit [Mistica Storybook](https://mistica-web.now.sh/?path=/story/icons-mistica-icons--catalog) to get all the detail about using Mistica Icons Library" + BREAK + BREAK + "#### Design" + BREAK + BREAK + "Use Mística icons library in Figma!" + BREAK + BREAK + \
         "### Icon equivalence status" + BREAK + BREAK + "**Local** = Icon equivalence in this pack  " + BREAK + "**Global** = Icon pack equivalence with total icons" + BREAK + BREAK + "---telefonica_local_BAR---" + BREAK + "---telefonica_global_BAR---" + BREAK + BREAK + "---o2_local_BAR---" + BREAK + "---o2_global_BAR---" + BREAK + BREAK + "---blau_local_BAR---" + BREAK + "---blau_global_BAR---" + BREAK + BREAK + \
-        "## Icons" + BREAK + BREAK + "| ---BRANDS--- | icon name <img width=500> |" + \
+        "## Icons" + BREAK + BREAK + "| ---BRANDS--- | icon name |" + \
         BREAK + "| ---HEADER-BREAK--- |" + ":--- |" + BREAK
     for brand in brands:
         brand_folder = path + SLASH + brand
