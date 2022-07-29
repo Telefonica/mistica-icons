@@ -1,6 +1,6 @@
 # Mística Icons
 
-![Mistica Icons](.github/resources/misticaicons-logo.png)
+![Mistica Icons](.github/resources/mistica-icons.svg)
 
 ## What is this?  
 
