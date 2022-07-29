@@ -89,7 +89,6 @@ jobs:
           pr_body: "
             New version of icons exported from [Mistica Icons](https://www.figma.com/file/JHuzksh01yxExMeMQBvymq/Mistica-Icons?node-id=0%3A71), [O2](https://www.figma.com/file/wHTqJ7KDhGKrNSNpmMb9nW/?node-id=611%3A3298) & [Blau](https://www.figma.com/file/6TYIfq6EZJl7NcSbbYAo79/Blau?node-id=0%3A1) \n
             - [ ] [Review readme ${{ github.event.inputs.release }}](https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }})"
-          pr_reviewer: "yceballost"
           pr_draft: false
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -156,7 +155,6 @@ jobs:
           pr_body: "
             New version of icons exported from [Mistica Icons](https://www.figma.com/file/JHuzksh01yxExMeMQBvymq/Mistica-Icons?node-id=0%3A71) \n
             - [ ] [Review readme ${{ github.event.inputs.release }}](https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }})"
-          pr_reviewer: "yceballost"
           pr_draft: false
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -223,7 +221,6 @@ jobs:
           pr_body: "
             New version of icons exported from [O2](https://www.figma.com/file/wHTqJ7KDhGKrNSNpmMb9nW/?node-id=611%3A3298) \n
             - [ ] [Review readme ${{ github.event.inputs.release }}](https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }})"
-          pr_reviewer: "yceballost"
           pr_draft: false
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -287,13 +284,12 @@ jobs:
           pr_body: "
             New version of icons exported from [Blau](https://www.figma.com/file/6TYIfq6EZJl7NcSbbYAo79/Blau?node-id=0%3A1) \n
             - [ ] [Review readme ${{ github.event.inputs.release }}](https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }})"
-          pr_reviewer: "yceballost"
           pr_draft: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
 # pr_body: "
-#             New version of icons exported from [Mistica Icons][mistica-icons] & [O2][o2-icons] \
-#             - [ ] [Review readme ${{ github.event.inputs.release }}][readme] \
+#             New version of icons exported from [Mistica Icons][mistica-icons] & [O2][o2-icons] n\
+#             - [ ] [Review readme ${{ github.event.inputs.release }}][readme] n\
 
-#             [mistica-icons]: https://www.figma.com/file/JHuzksh01yxExMeMQBvymq/Mistica-Icons?node-id=0%3A71 \
-#             [o2-icons]: https://www.figma.com/file/wHTqJ7KDhGKrNSNpmMb9nW/?node-id=611%3A3298 \
+#             [mistica-icons]: https://www.figma.com/file/JHuzksh01yxExMeMQBvymq/Mistica-Icons?node-id=0%3A71 n\
+#             [o2-icons]: https://www.figma.com/file/wHTqJ7KDhGKrNSNpmMb9nW/?node-id=611%3A3298 n\
 #             [readme]: https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }}"
