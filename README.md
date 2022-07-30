@@ -20,7 +20,7 @@ You can get .pdf or .svg files from this repo.
 
 ##### Web
 
-Visit [Mistica Storybook](https://mistica-web.now.sh/?path=/story/icons-mistica-icons--catalog) to get all the detail about using Mistica Icons Library
+Visit [Mistica Storybook](https://mistica-web.vercel.app/?path=/story/icons-catalog--catalog) to get all the detail about using Mistica Icons Library
 
 #### Design
 
