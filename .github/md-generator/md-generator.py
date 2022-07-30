@@ -9,8 +9,8 @@ SVG_EXTENSION = ".svg"
 PDF_EXTENSION = ".pdf"
 BREAK = "\n"
 
-BAR_FILLED = "<img src='https://i.imgur.com/8pLUSBF.png' />"
-BAR_EMPTY = "<img src='https://i.imgur.com/BLjOoR0.png' />"
+BAR_FILLED = "![bar_filled](https://i.imgur.com/8pLUSBF.png)"
+BAR_EMPTY = "![bar_empty](https://i.imgur.com/BLjOoR0.png)"
 
 
 def read_folder(folder):
@@ -108,11 +108,11 @@ comp_local_blau = " " + \
     " / " + str(len(icons_blau)) + ")"
 
 # Composition of LOCAL BAR + (X / Y) for markdown
-telefonica_local = ("Telefónica set" + "<br/>" + telefonica_local_bar + "    " +
+telefonica_local = ("Telefónica set  " + BREAK + telefonica_local_bar + "    " +
                     str(telefonica_local_percentage) + "%" + comp_local_telefonica + " `local`" + "  ")
-o2_local = ("O<sub>2</sub> set" + "<br/>" + o2_local_bar + "    " +
+o2_local = ("O₂ set  " + BREAK + o2_local_bar + "    " +
             str(o2_local_percentage) + "%" + comp_local_o2 + " `local`" + "  ")
-blau_local = ("Blau set" + "<br/>" + blau_local_bar + "    " +
+blau_local = ("Blau set  " + BREAK + blau_local_bar + "    " +
               str(blau_local_percentage) + "%" + comp_local_blau + " `local`" + "  ")
 
 # —————————————————————————————————————————————————————————————————————————
