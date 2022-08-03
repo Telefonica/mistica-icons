@@ -9,8 +9,11 @@ SVG_EXTENSION = ".svg"
 PDF_EXTENSION = ".pdf"
 BREAK = "\n"
 
-BAR_FILLED = "![bar_filled](https://i.imgur.com/8pLUSBF.png)"
-BAR_EMPTY = "![bar_empty](https://i.imgur.com/BLjOoR0.png)"
+BAR_FILLED = "![bar_filled](.github/resources/filled.png)"
+BAR_EMPTY = "![bar_empty](.github/resources/empty.png)"
+
+BAR_FILLED_S = "![bar_filled](.github/resources/filled-s.png)"
+BAR_EMPTY_S = "![bar_empty](.github/resources/empty-s.png)"
 
 
 def read_folder(folder):
@@ -138,12 +141,12 @@ comp_global_blau = " " + \
     "(" + str(len_icons_blau) + " / " + str(len(total_icons)) + ")"
 
 # GLOBAL BARS
-telefonica_global_bar = (int(telefonica_global_percentage / 10) * 2) * BAR_FILLED + \
-    BAR_EMPTY * (abs(int(telefonica_global_percentage / 10) - 10) * 2)
-o2_global_bar = (int(o2_global_percentage / 10) * 2) * BAR_FILLED + \
-    BAR_EMPTY * (abs(int(o2_global_percentage / 10) - 10) * 2)
-blau_global_bar = (int(blau_global_percentage / 10) * 2) * BAR_FILLED + \
-    BAR_EMPTY * (abs(int(blau_global_percentage / 10) - 10) * 2)
+telefonica_global_bar = (int(telefonica_global_percentage / 10) * 2) * BAR_FILLED_S + \
+    BAR_EMPTY_S * (abs(int(telefonica_global_percentage / 10) - 10) * 2)
+o2_global_bar = (int(o2_global_percentage / 10) * 2) * BAR_FILLED_S + \
+    BAR_EMPTY_S * (abs(int(o2_global_percentage / 10) - 10) * 2)
+blau_global_bar = (int(blau_global_percentage / 10) * 2) * BAR_FILLED_S + \
+    BAR_EMPTY_S * (abs(int(blau_global_percentage / 10) - 10) * 2)
 
 # Composition of GLOBAL BAR + (X / Y) for markdown
 telefonica_global = (telefonica_global_bar + "    " +
