@@ -9,6 +9,12 @@ SVG_EXTENSION = ".svg"
 PDF_EXTENSION = ".pdf"
 BREAK = "\n"
 
+BAR_FILLED = "![bar_filled](.github/resources/filled.png)"
+BAR_EMPTY = "![bar_empty](.github/resources/empty.png)"
+
+BAR_FILLED_S = "![bar_filled](.github/resources/filled-s.png)"
+BAR_EMPTY_S = "![bar_empty](.github/resources/empty-s.png)"
+
 
 def read_folder(folder):
     if os.path.isdir(folder):
@@ -40,57 +46,130 @@ for root, dirs, files in os.walk('icons/blau/'):
         if file.endswith(".svg"):
             icons_blau.add(file)
 
-# print(len(icons_telefonica))
-# print(len(icons_o2))
-# print(len(icons_blau))
-# print(len(total_icons))
+# Length of brand lists
+len_icons_telefonica = len(icons_telefonica)
+len_icons_o2 = len(icons_o2)
+len_icons_blau = len(icons_blau)
 
 # Union of all icons (no repeated!)
 total_icons = sorted(set.union(icons_telefonica, icons_o2, icons_blau))
 
-BAR_FILLED = "<img src='https://i.imgur.com/8pLUSBF.png' />"
-BAR_EMPTY = "<img src='https://i.imgur.com/BLjOoR0.png' />"
+# Total icons in integer format
+len_total_icons = len(total_icons)
 
-# Percentage of number of icons with the total of icons
-telefonica_percent = (100 * len(icons_telefonica)) / len(total_icons)
-o2_percent = (100 * len(icons_o2)) / len(total_icons)
-blau_percent = (100 * len(icons_blau)) / len(total_icons)
+# Intersections lists
+telefonica_intersection = icons_telefonica.intersection(
+    set.union(icons_blau, icons_o2))
+o2_intersection = icons_o2.intersection(
+    set.union(icons_blau, icons_telefonica))
+blau_intersection = icons_blau.intersection(
+    set.union(icons_telefonica, icons_o2))
 
-# Try to know how many icons has equivalence to other brand
-telefonica_equivalence = str(
-    int((int(telefonica_percent) * len(icons_telefonica))/100))
-o2_equivalence = str(int((int(o2_percent) * len(icons_o2))/100))
-blau_equivalence = str(int((int(blau_percent) * len(icons_blau))/100))
+# Intersections lists in integer format
+len_telefonica_intersection = len(telefonica_intersection)
+len_o2_intersection = len(o2_intersection)
+len_blau_intersection = len(blau_intersection)
 
-n_icons_telefonica = " " + \
-    "(" + telefonica_equivalence + " / " + str(len(icons_telefonica)) + ")"
-n_icons_o2 = " " + "(" + o2_equivalence + " / " + str(len(icons_o2)) + ")"
-n_icons_blau = " " + "(" + blau_equivalence + " / " + \
-    str(len(icons_blau)) + ")"
+# —————————————————————————————————————————————————————————————————————————
+# —————————————————————————————————————————————————————————————————————————
 
-telefonica_bar = ("Telefónica set" + "<br/>" + (int(telefonica_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(telefonica_percent / 10) - 10) * 2) + "    " + str(
-    int(telefonica_percent))
-    + "%" + n_icons_telefonica + "  ")
+# # [Local] Try to know how many icons has equivalence to other brand
+telefonica_local_equivalence = len(
+    icons_telefonica.intersection(set.union(icons_o2, icons_blau)))
+o2_local_equivalence = len(
+    icons_o2.intersection(set.union(icons_telefonica, icons_blau)))
+blau_local_equivalence = len(
+    icons_blau.intersection(set.union(icons_telefonica, icons_o2)))
 
-o2_bar = ("O<sub>2</sub> set" + "<br/>" + (int(o2_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(o2_percent / 10) - 10) * 2) + "    " + str(
-    int(o2_percent))
-    + "%" + n_icons_o2 + "  ")
 
-blau_bar = ("Blau set" + "<br/>" + (int(blau_percent / 10) * 2) * BAR_FILLED + BAR_EMPTY * (abs(int(blau_percent / 10) - 10) * 2) + "    " + str(
-    int(blau_percent))
-    + "%" + n_icons_blau + "  ")
+# [Local] Percentage of number of icons with the total of icons
+telefonica_local_percentage = int((
+    100 * telefonica_local_equivalence) / len_icons_telefonica)
+o2_local_percentage = int((
+    100 * o2_local_equivalence) / len_icons_o2)
+blau_local_percentage = int((
+    100 * blau_local_equivalence) / len_icons_blau)
 
+
+# LOCAL BARS
+telefonica_local_bar = (int(telefonica_local_percentage / 10) * 2) * BAR_FILLED + \
+    BAR_EMPTY * (abs(int(telefonica_local_percentage / 10) - 10) * 2)
+o2_local_bar = (int(o2_local_percentage / 10) * 2) * BAR_FILLED + \
+    BAR_EMPTY * (abs(int(o2_local_percentage / 10) - 10) * 2)
+blau_local_bar = (int(blau_local_percentage / 10) * 2) * BAR_FILLED + \
+    BAR_EMPTY * (abs(int(blau_local_percentage / 10) - 10) * 2)
+
+# Composition of LOCAL (X / Y) for markdown
+comp_local_telefonica = " " + \
+    "(" + str(telefonica_local_equivalence) + \
+    " / " + str(len(icons_telefonica)) + ")"
+comp_local_o2 = " " + \
+    "(" + str(o2_local_equivalence) + \
+    " / " + str(len(icons_o2)) + ")"
+comp_local_blau = " " + \
+    "(" + str(blau_local_equivalence) + \
+    " / " + str(len(icons_blau)) + ")"
+
+# Composition of LOCAL BAR + (X / Y) for markdown
+telefonica_local = ("Telefónica set  " + BREAK + telefonica_local_bar + "    " +
+                    str(telefonica_local_percentage) + "%" + comp_local_telefonica + " `local`" + "  ")
+o2_local = ("O₂ set  " + BREAK + o2_local_bar + "    " +
+            str(o2_local_percentage) + "%" + comp_local_o2 + " `local`" + "  ")
+blau_local = ("Blau set  " + BREAK + blau_local_bar + "    " +
+              str(blau_local_percentage) + "%" + comp_local_blau + " `local`" + "  ")
+
+# —————————————————————————————————————————————————————————————————————————
+# —————————————————————————————————————————————————————————————————————————
+
+# [Global] Percentage of number of icons with the total of icons
+telefonica_global_percentage = int((
+    100 * len_icons_telefonica) / len_total_icons)
+o2_global_percentage = int((
+    100 * len_icons_o2) / len_total_icons)
+blau_global_percentage = int((
+    100 * len_icons_blau) / len_total_icons)
+
+
+print(telefonica_global_percentage)
+
+# Composition of GLOBAL (X / Y) for markdown
+comp_global_telefonica = " " + \
+    "(" + str(len_icons_telefonica) + " / " + str(len(total_icons)) + ")"
+comp_global_o2 = " " + \
+    "(" + str(len_icons_o2) + " / " + str(len(total_icons)) + ")"
+comp_global_blau = " " + \
+    "(" + str(len_icons_blau) + " / " + str(len(total_icons)) + ")"
+
+# GLOBAL BARS
+telefonica_global_bar = (int(telefonica_global_percentage / 10) * 2) * BAR_FILLED_S + \
+    BAR_EMPTY_S * (abs(int(telefonica_global_percentage / 10) - 10) * 2)
+o2_global_bar = (int(o2_global_percentage / 10) * 2) * BAR_FILLED_S + \
+    BAR_EMPTY_S * (abs(int(o2_global_percentage / 10) - 10) * 2)
+blau_global_bar = (int(blau_global_percentage / 10) * 2) * BAR_FILLED_S + \
+    BAR_EMPTY_S * (abs(int(blau_global_percentage / 10) - 10) * 2)
+
+# Composition of GLOBAL BAR + (X / Y) for markdown
+telefonica_global = (telefonica_global_bar + "    " +
+                     str(telefonica_global_percentage) + "%" + comp_global_telefonica + " `global`" + "  ")
+o2_global = (o2_global_bar + "    " +
+             str(o2_global_percentage) + "%" + comp_global_o2 + " `global`" + "  ")
+blau_global = (blau_global_bar + "    " +
+               str(blau_global_percentage) + "%" + comp_global_blau + " `global`" + "  ")
+
+
+# —————————————————————————————————————————————————————————————————————————
+# —————————————————————————————————————————————————————————————————————————
 
 if __name__ == '__main__':
     path = sys.argv[1]
     brands = read_folder(path)
     root = os.path.basename(path)
     dictionary = {}
-    file_content = "<br/><br/>![Mistica Icons](.github/resources/mistica-icons.svg)<br/><br/>" + BREAK + "### What is this?" + BREAK + "This is the repo that contains all icons that is working in [Mistica Design](https://github.com/Telefonica/mistica-design) now." + BREAK + "Mistica support [Brand Factory icons](https://brandfactory.telefonica.com/document/1086#/nuestra-identidad/iconos). This set of icons are a big list of different icons and style that Brand Team worked to be used through Telefonica applications." + BREAK + "If you have any question, please you can ask directly in the app of Microsoft Teams, in [Mistica Team](https://teams.microsoft.com/l/team/19%3ad2e3607a32ec411b8bf492f43cd0fe0c%40thread.tacv2/conversations?groupId=e265fe99-929f-45d1-8154-699649674a40&tenantId=9744600e-3e04-492e-baa1-25ec245c6f10)." + \
-        BREAK + "### Documentation" + BREAK + "#### Develop" + BREAK + "##### iOS and Android" + BREAK + "You can get .pdf or .svg files from this repo." + BREAK + "##### Web" + BREAK + \
-        "Visit [Mistica Storybook](https://mistica-web.now.sh/?path=/story/icons-mistica-icons--catalog) to get all the detail about using Mistica Icons Library" + BREAK + "#### Design" + BREAK + "Use Mística icons library in Figma!" + BREAK + \
-        "### Icon equivalence status" + BREAK + "---telefonica_BAR---" + BREAK + "---O2_BAR---" + BREAK + "---BLAU_BAR---" + BREAK + \
-        "# Icons " + BREAK + "| ---BRANDS--- | icon name <img width=500> | " + \
+    file_content = "# Mística Icons" + BREAK + BREAK + "![Mistica Icons](.github/resources/mistica-icons.svg)" + BREAK + BREAK + "## What is this?  " + BREAK + BREAK + "This is the repo that contains all icons that is working in [Mistica Design](https://github.com/Telefonica/mistica-design) now.  " + BREAK + BREAK + "Mistica support [Brand Factory icons](https://brandfactory.telefonica.com/document/1086#/nuestra-identidad/iconos). This set of icons are a big list of different icons and style that Brand Team worked to be used through Telefonica applications." + BREAK + BREAK + "If you have any question, please you can ask directly in the app of Microsoft Teams, in [Mistica Team](https://teams.microsoft.com/l/team/19%3ad2e3607a32ec411b8bf492f43cd0fe0c%40thread.tacv2/conversations?groupId=e265fe99-929f-45d1-8154-699649674a40&tenantId=9744600e-3e04-492e-baa1-25ec245c6f10).  " + \
+        BREAK + BREAK + "## Documentation" + BREAK + BREAK + "### Develop" + BREAK + BREAK + "#### iOS and Android" + BREAK + BREAK + "You can get .pdf or .svg files from this repo." + BREAK + BREAK + "#### Web" + BREAK + BREAK + \
+        "Visit [Mistica Storybook](https://mistica-web.vercel.app/?path=/story/icons-catalog--catalog) to get all the detail about using Mistica Icons Library" + BREAK + BREAK + "### Design" + BREAK + BREAK + "Use Mística icons library in Figma!" + BREAK + BREAK + \
+        "## Icon equivalence status" + BREAK + BREAK + "**Local** = Icon equivalence in this pack  " + BREAK + "**Global** = Icon pack equivalence with total icons" + BREAK + BREAK + "---telefonica_local_BAR---" + BREAK + "---telefonica_global_BAR---" + BREAK + BREAK + "---o2_local_BAR---" + BREAK + "---o2_global_BAR---" + BREAK + BREAK + "---blau_local_BAR---" + BREAK + "---blau_global_BAR---" + BREAK + BREAK + \
+        "## Icons" + BREAK + BREAK + "| ---BRANDS--- | icon name |" + \
         BREAK + "| ---HEADER-BREAK--- |" + ":--- |" + BREAK
     for brand in brands:
         brand_folder = path + SLASH + brand
@@ -117,9 +196,16 @@ if __name__ == '__main__':
     brands = ["telefonica"] + sorted(brands)
     separator = " " + PIPE + " "
     file_content = file_content.replace(
-        "---telefonica_BAR---", (telefonica_bar))
-    file_content = file_content.replace("---O2_BAR---", (o2_bar))
-    file_content = file_content.replace("---BLAU_BAR---", (blau_bar))
+        "---telefonica_global_BAR---", (telefonica_global))
+    file_content = file_content.replace(
+        "---telefonica_local_BAR---", (telefonica_local))
+    file_content = file_content.replace("---o2_global_BAR---", (o2_global))
+    file_content = file_content.replace(
+        "---o2_local_BAR---", (o2_local))
+    file_content = file_content.replace(
+        "---blau_global_BAR---", (blau_global))
+    file_content = file_content.replace(
+        "---blau_local_BAR---", (blau_local))
     file_content = file_content.replace("---BRANDS---", separator.join(brands))
     file_content = file_content.replace("---HEADER-BREAK---", separator.join(
         [":---:"] * (len(brands))))  # add (len(brands) + 2) to add svg & pdf download
@@ -135,9 +221,10 @@ if __name__ == '__main__':
                 icon_images.append(icon_image)
             # row = "| telefonica | O2 | my_icon_light |
             row = PIPE + PIPE.join(icon_images) + PIPE + \
-                "`" + icon_name + "`" + "<span id='" + icon_name + "'></span>" + "<a href='#" + \
-                icon_name + "'>" + \
-                "![anchor](.github/resources/anchor.svg)" + "</a>" + PIPE
+                "`" + icon_name + "`" + \
+                "[" + "![" + icon_name + "]" + \
+                "(.github/resources/anchor.svg)" + \
+                "]" + "(" + "#" + icon_name + ")" + PIPE
             # + "[<img src='.github/resources/svg.png'>]" + "(" + file_path + ")" + "[<img src='.github/resources/pdf.png'>]" + "(" + file_path_pdf + ")" + PIPE + "[<img src='.github/resources/svg.png'>]" + "(" + file_path + ")" + "[<img src='.github/resources/pdf.png'>]" + "(" + file_path_pdf + ")"
             file_content += row + BREAK
 
