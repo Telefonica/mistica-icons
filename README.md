@@ -28,8 +28,8 @@ Use Mística icons library in Figma!
 
 ## Icon equivalence status
 
-**Local** = Icon equivalence in this pack  
-**Global** = Icon pack equivalence with total icons
+**Local** = Icon equivalence in this set  
+**Global** = Icon set equivalence with total icons
 
 Telefónica set  
 ![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)    36% (423 / 1164) `local`  
