@@ -1,17 +1,20 @@
 name: Publish Release
+
 on:
-  push:
-    branches: production
-    
+  pull_request:
+    types: [closed]
+  workflow_dispatch:
+
 jobs:
   build:
-    if: github.event.pull_request.merged == 'true'
+    # if: github.event.pull_request.merged == 'true'
+    if: github.event.pull_request.merged
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-    - name: Create a Release
-      uses: elgohr/Github-Release-Action@v4
-      env:
-        GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
-      with:
-        title: MyReleaseMessage
+      - uses: actions/checkout@v3
+      - name: Create a Release
+        uses: elgohr/Github-Release-Action@v4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          title: MyReleaseVersion
