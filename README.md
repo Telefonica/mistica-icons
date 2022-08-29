@@ -1,5 +1,5 @@
-![Mistica Icons](.github/resources/mistica-icons-light.png#gh-light-mode-only)
-![Mistica Icons](.github/resources/mistica-icons-dark.png#gh-dark-mode-only)
+![Mistica Icons](.github/resources/mistica-icons-light.svg#gh-light-mode-only)
+![Mistica Icons](.github/resources/mistica-icons-dark.svg#gh-dark-mode-only)
 
 ## What is this?  
 
