@@ -5,20 +5,19 @@ on:
     types: [closed]
   workflow_dispatch:
 
-# jobs:
-#   build:
-#     # if: github.event.pull_request.merged == 'true'
-#     if: github.event.pull_request.merged
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@v3
-#       - name: Create a Release
-#         uses: elgohr/Github-Release-Action@v4
-#         env:
-#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-#         with:
-#           title: MyReleaseVersion
-
+jobs:
+  build:
+    # if: github.event.pull_request.merged == 'true'
+    if: github.event.pull_request.merged
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Create a Release
+        uses: elgohr/Github-Release-Action@v4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          title: MyReleaseVersion
 # name: "Lint PR"
 
 # on:
@@ -36,17 +35,3 @@ on:
 #       - uses: amannn/action-semantic-pull-request@v4
 #         env:
 #           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-jobs:
-  main:
-    name: Release
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - run: git fetch --unshallow --tags
-      - name: auto shipit
-        uses: terradatum/auto-action@master
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
