@@ -16,6 +16,10 @@ on:
       release:
         description: "Little description (No spaces!)"
         required: true
+      draft:
+        type: boolean
+        default: true
+        description: By default, this action create a draft pr
 
 # push:
 #   paths:
@@ -91,7 +95,7 @@ jobs:
           pr_body: "
             New version of icons exported from [Mistica Icons](https://www.figma.com/file/JHuzksh01yxExMeMQBvymq/Mistica-Icons?node-id=0%3A71), [O2](https://www.figma.com/file/wHTqJ7KDhGKrNSNpmMb9nW/?node-id=611%3A3298) & [Blau](https://www.figma.com/file/6TYIfq6EZJl7NcSbbYAo79/Blau?node-id=0%3A1) \n
             - [ ] [Review readme ${{ github.event.inputs.release }}](https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }})"
-          pr_draft: false
+          pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
   export-telefonica:
@@ -153,7 +157,7 @@ jobs:
           pr_body: "
             New version of icons exported from [Mistica Icons](https://www.figma.com/file/JHuzksh01yxExMeMQBvymq/Mistica-Icons?node-id=0%3A71) \n
             - [ ] [Review readme ${{ github.event.inputs.release }}](https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }})"
-          pr_draft: false
+          pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
   export-o2:
@@ -215,7 +219,7 @@ jobs:
           pr_body: "
             New version of icons exported from [O2](https://www.figma.com/file/wHTqJ7KDhGKrNSNpmMb9nW/?node-id=611%3A3298) \n
             - [ ] [Review readme ${{ github.event.inputs.release }}](https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }})"
-          pr_draft: false
+          pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
   export-blau:
@@ -275,7 +279,7 @@ jobs:
           pr_body: "
             New version of icons exported from [Blau](https://www.figma.com/file/6TYIfq6EZJl7NcSbbYAo79/Blau?node-id=0%3A1) \n
             - [ ] [Review readme ${{ github.event.inputs.release }}](https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }})"
-          pr_draft: true
+          pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
 # pr_body: "
 #             New version of icons exported from [Mistica Icons][mistica-icons] & [O2][o2-icons] n\
