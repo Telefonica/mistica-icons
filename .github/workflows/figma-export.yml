@@ -1,5 +1,9 @@
 name: 🚀 Release (Figma)
 
+# push:
+#   paths:
+#     - ".github/workflows/figma-export.yml"
+
 on:
   workflow_dispatch:
     inputs:
@@ -21,12 +25,8 @@ on:
         default: true
         description: Draft PR
 
-# push:
-#   paths:
-#     - ".github/workflows/figma-export.yml"
-
 env:
-  TELEFONICA_FIGMA_I$: JHuzksh01yxExMeMQBvymq
+  TELEFONICA_FIGMA_ID: JHuzksh01yxExMeMQBvymq
   O2_FIGMA_ID: wHTqJ7KDhGKrNSNpmMb9nW
   BLAU_FIGMA_ID: 6TYIfq6EZJl7NcSbbYAo79
   VIVO_FIGMA_ID: pf2OdWR56HZZ8FTaXNfQ3g
