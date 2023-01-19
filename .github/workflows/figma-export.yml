@@ -30,11 +30,10 @@ env:
   O2_FIGMA_ID: wHTqJ7KDhGKrNSNpmMb9nW
   BLAU_FIGMA_ID: 6TYIfq6EZJl7NcSbbYAo79
   VIVO_FIGMA_ID: pf2OdWR56HZZ8FTaXNfQ3g
-
-  MISTICA_ICONS_FILE_URL: "https://www.figma.com/file/${{env.TELEFONICA_FIGMA_ID}}/M%C3%ADstica-Icons?node-id=0%3A71&t=hqGKHvCEvRHET7YC-0"
-  O2_FILE_URL: "https://www.figma.com/file/${{env.O2_FIGMA_ID}}/?node-id=611%3A3298"
-  BLAU_FILE_URL: "https://www.figma.com/file/${{env.BLAU_FIGMA_ID}}/Blau?node-id=0%3A1"
-  VIVO_FILE_URL: "https://www.figma.com/file/${{env.VIVO_FIGMA_ID}}/Vivo?node-id=1312%3A3013&t=WokXBTNBuLq7siSP-0"
+  MISTICA_ICONS_FILE_URL: https://www.figma.com/file/${{ env.TELEFONICA_FIGMA_ID }}/M%C3%ADstica-Icons?node-id=0%3A71&t=hqGKHvCEvRHET7YC-0
+  O2_FILE_URL: https://www.figma.com/file/${{ env.O2_FIGMA_ID }}/?node-id=611%3A3298
+  BLAU_FILE_URL: https://www.figma.com/file/${{ env.BLAU_FIGMA_ID }}/Blau?node-id=0%3A1
+  VIVO_FILE_URL: https://www.figma.com/file/${{ env.VIVO_FIGMA_ID }}/Vivo?node-id=1312%3A3013&t=WokXBTNBuLq7siSP-0
 
 jobs:
   export-all:
@@ -110,7 +109,7 @@ jobs:
           destination_branch: "production"
           pr_title: "${{ github.event.inputs.release }}"
           pr_body: "
-            New version of icons exported from [Mistica Icons](${{env.MISTICA_ICONS_FILE_URL}}), [O2](${{env.MISTICA_ICONS_FILE_URL}}), [Blau](${{env.MISTICA_ICONS_FILE_URL}}) & [Vivo](${{env.MISTICA_ICONS_FILE_URL}}) \n
+            New version of icons exported from [Mistica Icons](${{env.MISTICA_ICONS_FILE_URL}}), [O2](${{env.O2_FILE_URL}}), [Blau](${{env.BLAU_FILE_URL}}) & [Vivo](${{env.VIVO_FILE_URL}}) \n
             - [ ] [Review readme ${{ github.event.inputs.release }}](https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }})"
           pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -234,7 +233,7 @@ jobs:
           destination_branch: "production"
           pr_title: "${{ github.event.inputs.release }}"
           pr_body: "
-            New version of icons exported from [O2](${{env.MISTICA_ICONS_FILE_URL}}) \n
+            New version of icons exported from [O2](${{env.O2_FILE_URL}}) \n
             - [ ] [Review readme ${{ github.event.inputs.release }}](https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }})"
           pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -294,7 +293,7 @@ jobs:
           destination_branch: "production"
           pr_title: "${{ github.event.inputs.release }}"
           pr_body: "
-            New version of icons exported from [Blau](${{env.MISTICA_ICONS_FILE_URL}}) \n
+            New version of icons exported from [Blau](${{env.BLAU_FILE_URL}}) \n
             - [ ] [Review readme ${{ github.event.inputs.release }}](https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }})"
           pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -356,7 +355,7 @@ jobs:
           destination_branch: "production"
           pr_title: "${{ github.event.inputs.release }}"
           pr_body: "
-            New version of icons exported from [Vivo](${{env.MISTICA_ICONS_FILE_URL}}) \n
+            New version of icons exported from [Vivo](${{env.VIVO_FILE_URL}}) \n
             - [ ] [Review readme ${{ github.event.inputs.release }}](https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }})"
           pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
