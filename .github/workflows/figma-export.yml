@@ -31,6 +31,11 @@ env:
   BLAU_FIGMA_ID: 6TYIfq6EZJl7NcSbbYAo79
   VIVO_FIGMA_ID: pf2OdWR56HZZ8FTaXNfQ3g
 
+  MISTICA_ICONS_FILE_URL: https://www.figma.com/file/${{ TELEFONICA_FIGMA_ID }}/M%C3%ADstica-Icons?node-id=0%3A71&t=hqGKHvCEvRHET7YC-0
+  O2_FILE_URL: https://www.figma.com/file/${{ O2_FIGMA_ID }}/?node-id=611%3A3298
+  BLAU_FILE_URL: https://www.figma.com/file/${{ BLAU_FIGMA_ID }}/Blau?node-id=0%3A1
+  VIVO_FILE_URL: https://www.figma.com/file/${{ VIVO_FIGMA_ID }}/Vivo?node-id=1312%3A3013&t=WokXBTNBuLq7siSP-0
+
 jobs:
   export-all:
     if: ${{ github.event.inputs.brand == 'all' }}
@@ -50,17 +55,17 @@ jobs:
 
       - name: Generate icon config
         run: |
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.TELEFONICA_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/telefonica/filled|g' figma-export-icons.template.json > telefonica-filled.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.TELEFONICA_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/telefonica/regular|g' figma-export-icons.template.json > telefonica-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.TELEFONICA_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/telefonica/light|g' figma-export-icons.template.json > telefonica-light.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/o2/filled|g' figma-export-icons.template.json > o2-filled.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/o2/regular|g' figma-export-icons.template.json > o2-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/o2/light|g' figma-export-icons.template.json > o2-light.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.BLAU_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/blau/regular|g' figma-export-icons.template.json > blau-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.BLAU_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/blau/filled|g' figma-export-icons.template.json > blau-filled.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.VIVO_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/vivo/filled|g' figma-export-icons.template.json > vivo-filled.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.VIVO_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/vivo/regular|g' figma-export-icons.template.json > vivo-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.VIVO_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/vivo/light|g' figma-export-icons.template.json > vivo-light.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{ env.TELEFONICA_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/telefonica/filled|g' figma-export-icons.template.json > telefonica-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{ env.TELEFONICA_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/telefonica/regular|g' figma-export-icons.template.json > telefonica-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{ env.TELEFONICA_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/telefonica/light|g' figma-export-icons.template.json > telefonica-light.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{ env.O2_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/o2/filled|g' figma-export-icons.template.json > o2-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{ env.O2_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/o2/regular|g' figma-export-icons.template.json > o2-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{ env.O2_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/o2/light|g' figma-export-icons.template.json > o2-light.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{ env.BLAU_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/blau/regular|g' figma-export-icons.template.json > blau-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{ env.BLAU_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/blau/filled|g' figma-export-icons.template.json > blau-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{ env.VIVO_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/vivo/filled|g' figma-export-icons.template.json > vivo-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{ env.VIVO_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/vivo/regular|g' figma-export-icons.template.json > vivo-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{ env.VIVO_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/vivo/light|g' figma-export-icons.template.json > vivo-light.json
 
       - name: Export icons
         run: |
@@ -105,7 +110,7 @@ jobs:
           destination_branch: "production"
           pr_title: "${{ github.event.inputs.release }}"
           pr_body: "
-            New version of icons exported from [Mistica Icons](https://www.figma.com/file/${{env.TELEFONICA_FIGMA_ID}}/Mistica'-Icons?node-id=0%3A71), [O2](https://www.figma.com/file/${{env.O2_FIGMA_ID}}/?node-id=611%3A3298), [Blau](https://www.figma.com/file/${{env.BLAU_FIGMA_ID}}/Blau?node-id=0%3A1) & [Vivo](https://www.figma.com/file/${{env.VIVO_FIGMA_ID}}/Vivo?node-id=1312%3A3013&t=WokXBTNBuLq7siSP-0) \n
+            New version of icons exported from [Mistica Icons](${{ env.MISTICA_ICONS_FILE_URL }}), [O2](${{ env.MISTICA_ICONS_FILE_URL }}), [Blau](${{ env.MISTICA_ICONS_FILE_URL }}) & [Vivo](${{ env.MISTICA_ICONS_FILE_URL }}) \n
             - [ ] [Review readme ${{ github.event.inputs.release }}](https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }})"
           pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -128,9 +133,9 @@ jobs:
 
       - name: Generate icon config
         run: |
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.TELEFONICA_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/telefonica/filled|g' figma-export-icons.template.json > telefonica-filled.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.TELEFONICA_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/telefonica/regular|g' figma-export-icons.template.json > telefonica-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.TELEFONICA_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/telefonica/light|g' figma-export-icons.template.json > telefonica-light.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{ env.TELEFONICA_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/telefonica/filled|g' figma-export-icons.template.json > telefonica-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{ env.TELEFONICA_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/telefonica/regular|g' figma-export-icons.template.json > telefonica-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{ env.TELEFONICA_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/telefonica/light|g' figma-export-icons.template.json > telefonica-light.json
 
       - name: Export icons
         run: |
@@ -167,7 +172,7 @@ jobs:
           destination_branch: "production"
           pr_title: "${{ github.event.inputs.release }}"
           pr_body: "
-            New version of icons exported from [Mistica Icons](https://www.figma.com/file/${{env.TELEFONICA_FIGMA_ID}}//Mistica'-Icons?node-id=0%3A71) \n
+            New version of icons exported from [Mistica Icons](${{ env.MISTICA_ICONS_FILE_URL }}) \n
             - [ ] [Review readme ${{ github.event.inputs.release }}](https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }})"
           pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -190,9 +195,9 @@ jobs:
 
       - name: Generate icon config
         run: |
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/o2/filled|g' figma-export-icons.template.json > o2-filled.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/o2/regular|g' figma-export-icons.template.json > o2-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/o2/light|g' figma-export-icons.template.json > o2-light.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{ env.O2_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/o2/filled|g' figma-export-icons.template.json > o2-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{ env.O2_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/o2/regular|g' figma-export-icons.template.json > o2-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{ env.O2_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/o2/light|g' figma-export-icons.template.json > o2-light.json
 
       - name: Export icons
         run: |
@@ -229,7 +234,7 @@ jobs:
           destination_branch: "production"
           pr_title: "${{ github.event.inputs.release }}"
           pr_body: "
-            New version of icons exported from [O2](https://www.figma.com/file/${{env.O2_FIGMA_ID}}/?node-id=611%3A3298) \n
+            New version of icons exported from [O2](${{ env.MISTICA_ICONS_FILE_URL }}) \n
             - [ ] [Review readme ${{ github.event.inputs.release }}](https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }})"
           pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -252,8 +257,8 @@ jobs:
 
       - name: Generate icon config
         run: |
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.BLAU_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/blau/regular|g' figma-export-icons.template.json > blau-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.BLAU_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/blau/filled|g' figma-export-icons.template.json > blau-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{ env.BLAU_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/blau/regular|g' figma-export-icons.template.json > blau-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{ env.BLAU_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/blau/filled|g' figma-export-icons.template.json > blau-filled.json
 
       - name: Export icons
         run: |
@@ -289,7 +294,7 @@ jobs:
           destination_branch: "production"
           pr_title: "${{ github.event.inputs.release }}"
           pr_body: "
-            New version of icons exported from [Blau](https://www.figma.com/file/${{env.BLAU_FIGMA_ID}}/Blau?node-id=0%3A1) \n
+            New version of icons exported from [Blau](${{ env.MISTICA_ICONS_FILE_URL }}) \n
             - [ ] [Review readme ${{ github.event.inputs.release }}](https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }})"
           pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -312,9 +317,9 @@ jobs:
 
       - name: Generate icon config
         run: |
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.VIVO_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/vivo/filled|g' figma-export-icons.template.json > vivo-filled.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.VIVO_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/vivo/regular|g' figma-export-icons.template.json > vivo-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.VIVO_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/vivo/light|g' figma-export-icons.template.json > vivo-light.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{ env.VIVO_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/vivo/filled|g' figma-export-icons.template.json > vivo-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{ env.VIVO_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/vivo/regular|g' figma-export-icons.template.json > vivo-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{ env.VIVO_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/vivo/light|g' figma-export-icons.template.json > vivo-light.json
 
       - name: Export icons
         run: |
@@ -351,7 +356,7 @@ jobs:
           destination_branch: "production"
           pr_title: "${{ github.event.inputs.release }}"
           pr_body: "
-            New version of icons exported from [Vivo](https://www.figma.com/file/${{env.VIVO_FIGMA_ID}}/Vivo?node-id=1312%3A3013&t=WokXBTNBuLq7siSP-0) \n
+            New version of icons exported from [Vivo](${{ env.MISTICA_ICONS_FILE_URL }}) \n
             - [ ] [Review readme ${{ github.event.inputs.release }}](https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }})"
           pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -359,7 +364,7 @@ jobs:
 #             New version of icons exported from [Mistica Icons][mistica-icons] & [O2][o2-icons] n\
 #             - [ ] [Review readme ${{ github.event.inputs.release }}][readme] n\
 
-#             [mistica-icons]: https://www.figma.com/file/${{env.TELEFONICA_FIGMA_ID}}/Mistica'-Icons?node-id=0%3A71 n\
-#             [o2-icons]: https://www.figma.com/file/${{env.O2_FIGMA_ID}}/?node-id=611%3A3298 n\
+#             [mistica-icons]: https://www.figma.com/file/${{ env.TELEFONICA_FIGMA_ID}}/Mistica'-Icons?node-id=0%3A71 n\
+#             [o2-icons]: https://www.figma.com/file/${{ env.O2_FIGMA_ID}}/?node-id=611%3A3298 n\
 #             [readme]: https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }}"
 
