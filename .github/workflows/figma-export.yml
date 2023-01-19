@@ -31,14 +31,14 @@ env:
   BLAU_FIGMA_ID: 6TYIfq6EZJl7NcSbbYAo79
   VIVO_FIGMA_ID: pf2OdWR56HZZ8FTaXNfQ3g
 
-  MISTICA_ICONS_FILE_URL: https://www.figma.com/file/${{TELEFONICA_FIGMA_ID}}/M%C3%ADstica-Icons?node-id=0%3A71&t=hqGKHvCEvRHET7YC-0
-  O2_FILE_URL: https://www.figma.com/file/${{O2_FIGMA_ID}}/?node-id=611%3A3298
-  BLAU_FILE_URL: https://www.figma.com/file/${{BLAU_FIGMA_ID}}/Blau?node-id=0%3A1
-  VIVO_FILE_URL: https://www.figma.com/file/${{VIVO_FIGMA_ID}}/Vivo?node-id=1312%3A3013&t=WokXBTNBuLq7siSP-0
+  MISTICA_ICONS_FILE_URL: https://www.figma.com/file/${{env.TELEFONICA_FIGMA_ID}}/M%C3%ADstica-Icons?node-id=0%3A71&t=hqGKHvCEvRHET7YC-0
+  O2_FILE_URL: https://www.figma.com/file/${{env.O2_FIGMA_ID}}/?node-id=611%3A3298
+  BLAU_FILE_URL: https://www.figma.com/file/${{env.BLAU_FIGMA_ID}}/Blau?node-id=0%3A1
+  VIVO_FILE_URL: https://www.figma.com/file/${{env.VIVO_FIGMA_ID}}/Vivo?node-id=1312%3A3013&t=WokXBTNBuLq7siSP-0
 
 jobs:
   export-all:
-    if: ${{github.event.inputs.brand == 'all'}}
+    if: ${{ github.event.inputs.brand == 'all' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -51,7 +51,7 @@ jobs:
           npm install figma-export-icons --save
           sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
 
-      - run: git checkout -b ${{github.event.inputs.release}}
+      - run: git checkout -b ${{ github.event.inputs.release }}
 
       - name: Generate icon config
         run: |
@@ -101,22 +101,22 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "Figma icons updated"
-          git push origin ${{github.event.inputs.release}}
+          git push origin ${{ github.event.inputs.release }}
 
       - name: Create Pull-Request
         uses: repo-sync/pull-request@v2
         with:
-          source_branch: ${{github.event.inputs.release}}
+          source_branch: ${{ github.event.inputs.release }}
           destination_branch: "production"
-          pr_title: "${{github.event.inputs.release}}"
+          pr_title: "${{ github.event.inputs.release }}"
           pr_body: "
             New version of icons exported from [Mistica Icons](${{env.MISTICA_ICONS_FILE_URL}}), [O2](${{env.MISTICA_ICONS_FILE_URL}}), [Blau](${{env.MISTICA_ICONS_FILE_URL}}) & [Vivo](${{env.MISTICA_ICONS_FILE_URL}}) \n
-            - [ ] [Review readme ${{github.event.inputs.release}}](https://github.com/Telefonica/mistica-icons/tree/${{github.event.inputs.release}})"
-          pr_draft: ${{github.event.inputs.draft}}
-          github_token: ${{secrets.GITHUB_TOKEN}}
+            - [ ] [Review readme ${{ github.event.inputs.release }}](https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }})"
+          pr_draft: ${{ github.event.inputs.draft }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
   export-telefonica:
-    if: ${{github.event.inputs.brand == 'telefonica'}}
+    if: ${{ github.event.inputs.brand == 'telefonica' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -129,7 +129,7 @@ jobs:
           npm install figma-export-icons --save
           sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
 
-      - run: git checkout -b ${{github.event.inputs.release}}
+      - run: git checkout -b ${{ github.event.inputs.release }}
 
       - name: Generate icon config
         run: |
@@ -163,22 +163,22 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "Figma icons updated"
-          git push origin ${{github.event.inputs.release}}
+          git push origin ${{ github.event.inputs.release }}
 
       - name: Create Pull-Request
         uses: repo-sync/pull-request@v2
         with:
-          source_branch: ${{github.event.inputs.release}}
+          source_branch: ${{ github.event.inputs.release }}
           destination_branch: "production"
-          pr_title: "${{github.event.inputs.release}}"
+          pr_title: "${{ github.event.inputs.release }}"
           pr_body: "
             New version of icons exported from [Mistica Icons](${{env.MISTICA_ICONS_FILE_URL}}) \n
-            - [ ] [Review readme ${{github.event.inputs.release}}](https://github.com/Telefonica/mistica-icons/tree/${{github.event.inputs.release}})"
-          pr_draft: ${{github.event.inputs.draft}}
-          github_token: ${{secrets.GITHUB_TOKEN}}
+            - [ ] [Review readme ${{ github.event.inputs.release }}](https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }})"
+          pr_draft: ${{ github.event.inputs.draft }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
   export-o2:
-    if: ${{github.event.inputs.brand == 'o2'}}
+    if: ${{ github.event.inputs.brand == 'o2' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -191,7 +191,7 @@ jobs:
           npm install figma-export-icons --save
           sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
 
-      - run: git checkout -b ${{github.event.inputs.release}}
+      - run: git checkout -b ${{ github.event.inputs.release }}
 
       - name: Generate icon config
         run: |
@@ -225,22 +225,22 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "Figma icons updated"
-          git push origin ${{github.event.inputs.release}}
+          git push origin ${{ github.event.inputs.release }}
 
       - name: Create Pull-Request
         uses: repo-sync/pull-request@v2
         with:
-          source_branch: ${{github.event.inputs.release}}
+          source_branch: ${{ github.event.inputs.release }}
           destination_branch: "production"
-          pr_title: "${{github.event.inputs.release}}"
+          pr_title: "${{ github.event.inputs.release }}"
           pr_body: "
             New version of icons exported from [O2](${{env.MISTICA_ICONS_FILE_URL}}) \n
-            - [ ] [Review readme ${{github.event.inputs.release}}](https://github.com/Telefonica/mistica-icons/tree/${{github.event.inputs.release}})"
-          pr_draft: ${{github.event.inputs.draft}}
-          github_token: ${{secrets.GITHUB_TOKEN}}
+            - [ ] [Review readme ${{ github.event.inputs.release }}](https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }})"
+          pr_draft: ${{ github.event.inputs.draft }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
   export-blau:
-    if: ${{github.event.inputs.brand == 'blau'}}
+    if: ${{ github.event.inputs.brand == 'blau' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -253,7 +253,7 @@ jobs:
           npm install figma-export-icons --save
           sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
 
-      - run: git checkout -b ${{github.event.inputs.release}}
+      - run: git checkout -b ${{ github.event.inputs.release }}
 
       - name: Generate icon config
         run: |
@@ -285,22 +285,22 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "Figma icons updated"
-          git push origin ${{github.event.inputs.release}}
+          git push origin ${{ github.event.inputs.release }}
 
       - name: Create Pull-Request
         uses: repo-sync/pull-request@v2
         with:
-          source_branch: ${{github.event.inputs.release}}
+          source_branch: ${{ github.event.inputs.release }}
           destination_branch: "production"
-          pr_title: "${{github.event.inputs.release}}"
+          pr_title: "${{ github.event.inputs.release }}"
           pr_body: "
             New version of icons exported from [Blau](${{env.MISTICA_ICONS_FILE_URL}}) \n
-            - [ ] [Review readme ${{github.event.inputs.release}}](https://github.com/Telefonica/mistica-icons/tree/${{github.event.inputs.release}})"
-          pr_draft: ${{github.event.inputs.draft}}
-          github_token: ${{secrets.GITHUB_TOKEN}}
+            - [ ] [Review readme ${{ github.event.inputs.release }}](https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }})"
+          pr_draft: ${{ github.event.inputs.draft }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 
   export-vivo:
-    if: ${{github.event.inputs.brand == 'vivo'}}
+    if: ${{ github.event.inputs.brand == 'vivo' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -313,7 +313,7 @@ jobs:
           npm install figma-export-icons --save
           sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
 
-      - run: git checkout -b ${{github.event.inputs.release}}
+      - run: git checkout -b ${{ github.event.inputs.release }}
 
       - name: Generate icon config
         run: |
@@ -347,24 +347,24 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "Figma icons updated"
-          git push origin ${{github.event.inputs.release}}
+          git push origin ${{ github.event.inputs.release }}
 
       - name: Create Pull-Request
         uses: repo-sync/pull-request@v2
         with:
-          source_branch: ${{github.event.inputs.release}}
+          source_branch: ${{ github.event.inputs.release }}
           destination_branch: "production"
-          pr_title: "${{github.event.inputs.release}}"
+          pr_title: "${{ github.event.inputs.release }}"
           pr_body: "
             New version of icons exported from [Vivo](${{env.MISTICA_ICONS_FILE_URL}}) \n
-            - [ ] [Review readme ${{github.event.inputs.release}}](https://github.com/Telefonica/mistica-icons/tree/${{github.event.inputs.release}})"
-          pr_draft: ${{github.event.inputs.draft}}
-          github_token: ${{secrets.GITHUB_TOKEN}}
+            - [ ] [Review readme ${{ github.event.inputs.release }}](https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }})"
+          pr_draft: ${{ github.event.inputs.draft }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
 # pr_body: "
 #             New version of icons exported from [Mistica Icons][mistica-icons] & [O2][o2-icons] n\
-#             - [ ] [Review readme ${{github.event.inputs.release}}][readme] n\
+#             - [ ] [Review readme ${{ github.event.inputs.release }}][readme] n\
 
 #             [mistica-icons]: https://www.figma.com/file/${{env.TELEFONICA_FIGMA_ID}}/Mistica'-Icons?node-id=0%3A71 n\
 #             [o2-icons]: https://www.figma.com/file/${{env.O2_FIGMA_ID}}/?node-id=611%3A3298 n\
-#             [readme]: https://github.com/Telefonica/mistica-icons/tree/${{github.event.inputs.release}}"
+#             [readme]: https://github.com/Telefonica/mistica-icons/tree/${{ github.event.inputs.release }}"
 
