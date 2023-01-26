@@ -24,3 +24,6 @@ Visit [Mistica Storybook](https://mistica-web.vercel.app/?path=/story/icons-cata
 ### Design
 
 Use Mística icons library in Figma!
+
+_Click the image below to see full list of equivalence icon list_
+[![icon list](.github/resources/icontable.png)](./ICON-LIST.md)
