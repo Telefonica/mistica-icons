@@ -7,5 +7,5 @@ Mística-icons is built to grow, that means that If you need a new icon, you hav
 4. Create an issue [here](https://github.com/Telefonica/mistica-design/issues/new?assignees=&labels=fundamentals%3A+icons%2C+request+%E2%9C%A8&template=icon_request.md&title=)
 5. That's all! We will review If your icon have all the needs to add it to mistica-icons
 
-# Report a icon bug
+# Report an icon bug
 Create an issue [here](https://github.com/Telefonica/mistica-design/issues/new?assignees=&labels=bug+%F0%9F%90%9E&template=bug_report.md&title=)
