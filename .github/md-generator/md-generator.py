@@ -228,7 +228,7 @@ if __name__ == '__main__':
             # + "[<img src='.github/resources/svg.png'>]" + "(" + file_path + ")" + "[<img src='.github/resources/pdf.png'>]" + "(" + file_path_pdf + ")" + PIPE + "[<img src='.github/resources/svg.png'>]" + "(" + file_path + ")" + "[<img src='.github/resources/pdf.png'>]" + "(" + file_path_pdf + ")"
             file_content += row + BREAK
 
-    output_file_path = "./README.md"
+    output_file_path = "./icon-list.md"
     print(output_file_path)
     print(file_content)
     file = open(output_file_path, "w+")
