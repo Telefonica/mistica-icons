@@ -8,4 +8,4 @@ Mística-icons is built to grow, that means that If you need a new icon, you hav
 5. That's all! We will review If your icon have all the needs to add it to mistica-icons
 
 # Report a icon bug
-Create an issue [here](https://github.com/Telefonica/mistica-icons/issues/new?assignees=yceballost&labels=Bug+%F0%9F%90%9E&template=bug_report.md&title=)
+Create an issue [here](https://github.com/Telefonica/mistica-design/issues/new?assignees=&labels=bug+%F0%9F%90%9E&template=bug_report.md&title=)
