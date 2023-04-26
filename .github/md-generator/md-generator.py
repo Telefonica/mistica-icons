@@ -15,7 +15,6 @@ BAR_EMPTY = "![bar_empty](.github/resources/empty.png)"
 BAR_FILLED_S = "![bar_filled](.github/resources/filled-s.png)"
 BAR_EMPTY_S = "![bar_empty](.github/resources/empty-s.png)"
 
-
 def read_folder(folder):
     if os.path.isdir(folder):
         files = os.listdir(folder)
@@ -24,27 +23,21 @@ def read_folder(folder):
         return files
     return []
 
-
 # List of all icons per brand
 icons_telefonica = set()
 icons_o2 = set()
 icons_blau = set()
 
 # Adding icons to each list
-for root, dirs, files in os.walk('icons/telefonica/'):
-    for file in files:
-        if file.endswith(".svg"):
-            icons_telefonica.add(file)
+def add_icons_from_folder(folder_name, icon_set):
+    for root, dirs, files in os.walk(f'icons/{folder_name}/'):
+        for file in files:
+            if file.endswith(".svg"):
+                icon_set.add(file)
 
-for root, dirs, files in os.walk('icons/o2/'):
-    for file in files:
-        if file.endswith(".svg"):
-            icons_o2.add(file)
-
-for root, dirs, files in os.walk('icons/blau/'):
-    for file in files:
-        if file.endswith(".svg"):
-            icons_blau.add(file)
+add_icons_from_folder('telefonica', icons_telefonica)
+add_icons_from_folder('o2', icons_o2)
+add_icons_from_folder('blau', icons_blau)
 
 # Length of brand lists
 len_icons_telefonica = len(icons_telefonica)
@@ -66,96 +59,98 @@ blau_intersection = icons_blau.intersection(
     set.union(icons_telefonica, icons_o2))
 
 # Intersections lists in integer format
-len_telefonica_intersection = len(telefonica_intersection)
-len_o2_intersection = len(o2_intersection)
-len_blau_intersection = len(blau_intersection)
+telefonica_intersection = icons_telefonica & (icons_blau | icons_o2)
+o2_intersection = icons_o2 & (icons_blau | icons_telefonica)
+blau_intersection = icons_blau & (icons_telefonica | icons_o2)
 
 # —————————————————————————————————————————————————————————————————————————
 # —————————————————————————————————————————————————————————————————————————
 
-# # [Local] Try to know how many icons has equivalence to other brand
-telefonica_local_equivalence = len(
-    icons_telefonica.intersection(set.union(icons_o2, icons_blau)))
-o2_local_equivalence = len(
-    icons_o2.intersection(set.union(icons_telefonica, icons_blau)))
-blau_local_equivalence = len(
-    icons_blau.intersection(set.union(icons_telefonica, icons_o2)))
+# Calculate the length of the intersection of each set with the union of the other two sets
+telefonica_local_equivalence = len(icons_telefonica & (icons_o2 | icons_blau))
+o2_local_equivalence = len(icons_o2 & (icons_telefonica | icons_blau))
+blau_local_equivalence = len(icons_blau & (icons_telefonica | icons_o2))
 
-
-# [Local] Percentage of number of icons with the total of icons
-telefonica_local_percentage = int((
-    100 * telefonica_local_equivalence) / len_icons_telefonica)
-o2_local_percentage = int((
-    100 * o2_local_equivalence) / len_icons_o2)
-blau_local_percentage = int((
-    100 * blau_local_equivalence) / len_icons_blau)
-
+# Calculate the local percentage for each set
+telefonica_local_percentage = int(100 * telefonica_local_equivalence / len(icons_telefonica))
+o2_local_percentage = int(100 * o2_local_equivalence / len(icons_o2))
+blau_local_percentage = int(100 * blau_local_equivalence / len(icons_blau))
 
 # LOCAL BARS
-telefonica_local_bar = (int(telefonica_local_percentage / 10) * 2) * BAR_FILLED + \
-    BAR_EMPTY * (abs(int(telefonica_local_percentage / 10) - 10) * 2)
-o2_local_bar = (int(o2_local_percentage / 10) * 2) * BAR_FILLED + \
-    BAR_EMPTY * (abs(int(o2_local_percentage / 10) - 10) * 2)
-blau_local_bar = (int(blau_local_percentage / 10) * 2) * BAR_FILLED + \
-    BAR_EMPTY * (abs(int(blau_local_percentage / 10) - 10) * 2)
+# Define a helper function to calculate the local bar
+def calculate_local_bar(local_percentage):
+    # Calculate the number of filled and empty bars needed
+    num_filled_bars = int(local_percentage / 10) * 2
+    num_empty_bars = abs(int(local_percentage / 10) - 10) * 2
+    # Construct and return the local bar
+    return num_filled_bars * BAR_FILLED + num_empty_bars * BAR_EMPTY
+
+# Calculate the local bar for each set
+telefonica_local_bar = calculate_local_bar(telefonica_local_percentage)
+o2_local_bar = calculate_local_bar(o2_local_percentage)
+blau_local_bar = calculate_local_bar(blau_local_percentage)
 
 # Composition of LOCAL (X / Y) for markdown
-comp_local_telefonica = " " + \
-    "(" + str(telefonica_local_equivalence) + \
-    " / " + str(len(icons_telefonica)) + ")"
-comp_local_o2 = " " + \
-    "(" + str(o2_local_equivalence) + \
-    " / " + str(len(icons_o2)) + ")"
-comp_local_blau = " " + \
-    "(" + str(blau_local_equivalence) + \
-    " / " + str(len(icons_blau)) + ")"
+# Define a helper function to calculate the local comparison string
+def calculate_local_comparison(local_equivalence, total_icons):
+    return f" ({local_equivalence} / {len(total_icons)})"
+
+# Calculate the local comparison string for each set
+comp_local_telefonica = calculate_local_comparison(telefonica_local_equivalence, icons_telefonica)
+comp_local_o2 = calculate_local_comparison(o2_local_equivalence, icons_o2)
+comp_local_blau = calculate_local_comparison(blau_local_equivalence, icons_blau)
 
 # Composition of LOCAL BAR + (X / Y) for markdown
-telefonica_local = ("Telefónica set  " + BREAK + telefonica_local_bar + "    " +
-                    str(telefonica_local_percentage) + "%" + comp_local_telefonica + " `local`" + "  ")
-o2_local = ("O₂ set  " + BREAK + o2_local_bar + "    " +
-            str(o2_local_percentage) + "%" + comp_local_o2 + " `local`" + "  ")
-blau_local = ("Blau set  " + BREAK + blau_local_bar + "    " +
-              str(blau_local_percentage) + "%" + comp_local_blau + " `local`" + "  ")
+# Define a helper function to calculate the local comparison string
+def calculate_local_string(name, local_bar, local_percentage, local_comparison):
+    return f"{name} set  {BREAK}{local_bar}    {local_percentage}%{local_comparison} `local`  "
+
+# Calculate the local string for each set
+telefonica_local = calculate_local_string("Telefónica", telefonica_local_bar, telefonica_local_percentage, comp_local_telefonica)
+o2_local = calculate_local_string("O₂", o2_local_bar, o2_local_percentage, comp_local_o2)
+blau_local = calculate_local_string("Blau", blau_local_bar, blau_local_percentage, comp_local_blau)
+
 
 # —————————————————————————————————————————————————————————————————————————
 # —————————————————————————————————————————————————————————————————————————
 
 # [Global] Percentage of number of icons with the total of icons
-telefonica_global_percentage = int((
-    100 * len_icons_telefonica) / len_total_icons)
-o2_global_percentage = int((
-    100 * len_icons_o2) / len_total_icons)
-blau_global_percentage = int((
-    100 * len_icons_blau) / len_total_icons)
+# Define a helper function to calculate the global percentage
+def calculate_global_percentage(name, num_icons, total_icons):
+    return int((100 * num_icons) / total_icons)
 
+# Calculate the global percentage for each set
+telefonica_global_percentage = calculate_global_percentage("Telefónica", len_icons_telefonica, len_total_icons)
+o2_global_percentage = calculate_global_percentage("O₂", len_icons_o2, len_total_icons)
+blau_global_percentage = calculate_global_percentage("Blau", len_icons_blau, len_total_icons)
 
 print(telefonica_global_percentage)
 
 # Composition of GLOBAL (X / Y) for markdown
-comp_global_telefonica = " " + \
-    "(" + str(len_icons_telefonica) + " / " + str(len(total_icons)) + ")"
-comp_global_o2 = " " + \
-    "(" + str(len_icons_o2) + " / " + str(len(total_icons)) + ")"
-comp_global_blau = " " + \
-    "(" + str(len_icons_blau) + " / " + str(len(total_icons)) + ")"
+comp_global_telefonica, comp_global_o2, comp_global_blau = [f" ({len_icons} / {len_total_icons})" for len_icons in [len_icons_telefonica, len_icons_o2, len_icons_blau]]
 
 # GLOBAL BARS
-telefonica_global_bar = (int(telefonica_global_percentage / 10) * 2) * BAR_FILLED_S + \
-    BAR_EMPTY_S * (abs(int(telefonica_global_percentage / 10) - 10) * 2)
-o2_global_bar = (int(o2_global_percentage / 10) * 2) * BAR_FILLED_S + \
-    BAR_EMPTY_S * (abs(int(o2_global_percentage / 10) - 10) * 2)
-blau_global_bar = (int(blau_global_percentage / 10) * 2) * BAR_FILLED_S + \
-    BAR_EMPTY_S * (abs(int(blau_global_percentage / 10) - 10) * 2)
+def generate_bars_and_percentage(len_icons, len_total_icons):
+    percentage = int((100 * len_icons) / len_total_icons)
+    bar = (int(percentage / 10) * 2) * BAR_FILLED_S + \
+        BAR_EMPTY_S * (abs(int(percentage / 10) - 10) * 2)
+    composition = " " + \
+        "(" + str(len_icons) + " / " + str(len(total_icons)) + ")"
+    return bar, percentage, composition
+
+telefonica_global_bar, telefonica_global_percentage, comp_global_telefonica = generate_bars_and_percentage(len_icons_telefonica, len_total_icons)
+o2_global_bar, o2_global_percentage, comp_global_o2 = generate_bars_and_percentage(len_icons_o2, len_total_icons)
+blau_global_bar, blau_global_percentage, comp_global_blau = generate_bars_and_percentage(len_icons_blau, len_total_icons)
 
 # Composition of GLOBAL BAR + (X / Y) for markdown
-telefonica_global = (telefonica_global_bar + "    " +
-                     str(telefonica_global_percentage) + "%" + comp_global_telefonica + " `global`" + "  ")
-o2_global = (o2_global_bar + "    " +
-             str(o2_global_percentage) + "%" + comp_global_o2 + " `global`" + "  ")
-blau_global = (blau_global_bar + "    " +
-               str(blau_global_percentage) + "%" + comp_global_blau + " `global`" + "  ")
-
+def create_bar_string(percentage, comp_string):
+    bar = (int(percentage / 10) * 2) * BAR_FILLED_S + \
+        BAR_EMPTY_S * (abs(int(percentage / 10) - 10) * 2)
+    return f"{bar}    {percentage}%{comp_string} `global`  "
+    
+telefonica_global = create_bar_string(telefonica_global_percentage, comp_global_telefonica)
+o2_global = create_bar_string(o2_global_percentage, comp_global_o2)
+blau_global = create_bar_string(blau_global_percentage, comp_global_blau)
 
 # —————————————————————————————————————————————————————————————————————————
 # —————————————————————————————————————————————————————————————————————————
