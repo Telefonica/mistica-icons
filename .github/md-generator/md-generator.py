@@ -41,11 +41,6 @@ add_icons_from_folder('o2', icons_o2)
 add_icons_from_folder('blau', icons_blau)
 add_icons_from_folder('vivo', icons_vivo)
 
-for root, dirs, files in os.walk('icons/vivo/'):
-    for file in files:
-        if file.endswith(".svg"):
-            icons_vivo.add(file)
-
 # Length of brand lists
 len_icons_telefonica = len(icons_telefonica)
 len_icons_o2 = len(icons_o2)
