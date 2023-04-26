@@ -48,15 +48,7 @@ len_icons_blau = len(icons_blau)
 total_icons = sorted(set.union(icons_telefonica, icons_o2, icons_blau))
 
 # Total icons in integer format
-len_total_icons = len(total_icons)
-
-# Intersections lists
-telefonica_intersection = icons_telefonica.intersection(
-    set.union(icons_blau, icons_o2))
-o2_intersection = icons_o2.intersection(
-    set.union(icons_blau, icons_telefonica))
-blau_intersection = icons_blau.intersection(
-    set.union(icons_telefonica, icons_o2))
+len_total_icons = len(total_icons) 
 
 # Intersections lists in integer format
 telefonica_intersection = icons_telefonica & (icons_blau | icons_o2)
