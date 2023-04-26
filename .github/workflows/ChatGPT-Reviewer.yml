@@ -15,15 +15,27 @@ jobs:
   chatgpt:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: platisd/openai-pr-description@master
         with:
-          repository: ${{github.event.pull_request.head.repo.full_name}}
-          ref: ${{github.event.pull_request.head.ref}}
-          submodules: false
-      - uses: fluxninja/chatgpt-pr-reviewer@main
-        env:
-          GITHUB_TOKEN: ${{ secrets.NOVUM_PRIVATE_REPOS }}
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        with:
-          debug: false
-          review_comment_lgtm: false
+          github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
+          openai_api_key: ${{ secrets.OPENAI_API_KEY }}
+          sample_response: |
+            Prompt: Create a table with all the changes for a GitHub Pull Request in Markdown format.
+
+            The following is a list of changes that have been made in the Pull Request. Please create a table in Markdown format that includes all these changes:
+
+            - New components have been added to the Design System.
+            - The main colors of the Design System have been updated.
+            - The "search" icon has been removed from the icon library.
+            - An error in the "button" component has been corrected.
+            - Accessibility has been improved in some components.
+
+            The table should have the following columns:
+
+            | Change | Description |
+            |--------|-------------|
+            | Added | New components added to the Design System |
+            | Updated | Main colors of the Design System updated |
+            | Removed | "Search" icon removed from the icon library |
+            | Fixed | Error corrected in the "button" component |
+            | Improved | Accessibility improved in some components |
