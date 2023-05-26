@@ -330,7 +330,7 @@ jobs:
       - name: Install SVGO & convert
         run: |
           yarn global add svgo
-          svgo -f icons/vivo -r -o icons/vivo-new
+          svgo -f icons/vivo-new -r -o icons/vivo-new
 
       - name: Convert to PDF
         run: |
