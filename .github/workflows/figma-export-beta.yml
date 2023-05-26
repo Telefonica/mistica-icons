@@ -1,14 +1,13 @@
-name: 🚀 Release (Figma) (beta)
+name: 🚀 Release (Figma)
 
 on:
   workflow_dispatch:
     inputs:
       brand:
-        type: choice
         description: Library to export
         required: true
         default: "all"
-        options:
+        enum:
           - all
           - telefonica
           - o2
@@ -60,10 +59,11 @@ jobs:
 
       - name: Generate icon config
         run: |
+          BRAND_UPPERCASE=$(echo "${{ matrix.brand }}" | tr '[:lower:]' '[:upper:]')
           if [ "${{ matrix.brand }}" != "all" ]; then
-            sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.${{ matrix.brand}}_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/${{ matrix.brand }}/filled|g' figma-export-icons.template.json > ${{ matrix.brand }}-filled.json
-            sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.${{ matrix.brand}}_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/${{ matrix.brand }}/regular|g' figma-export-icons.template.json > ${{ matrix.brand }}-regular.json
-            sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.${{ matrix.brand}}_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/${{ matrix.brand }}/light|g' figma-export-icons.template.json > ${{ matrix.brand }}-light.json
+            sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.${BRAND_UPPERCASE}_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/${{ matrix.brand }}/filled|g' figma-export-icons.template.json > ${{ matrix.brand }}-filled.json
+            sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.${BRAND_UPPERCASE}_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/${{ matrix.brand }}/regular|g' figma-export-icons.template.json > ${{ matrix.brand }}-regular.json
+            sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.${BRAND_UPPERCASE}_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/${{ matrix.brand }}/light|g' figma-export-icons.template.json > ${{ matrix.brand }}-light.json
           fi
 
       - name: Export icons
