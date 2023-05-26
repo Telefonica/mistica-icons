@@ -51,7 +51,14 @@ jobs:
           npm install figma-export-icons --save
           sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
 
-      - run: git checkout -b ${{ github.event.inputs.release }}
+      - name: Checkout branch or create new one
+        run: |
+          git fetch
+          if git branch -a | grep origin/${{ github.event.inputs.release }}; then
+              git checkout ${{ github.event.inputs.release }}
+          else
+              git checkout -b ${{ github.event.inputs.release }}
+          fi
 
       - name: Generate icon config
         run: |
@@ -129,7 +136,14 @@ jobs:
           npm install figma-export-icons --save
           sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
 
-      - run: git checkout -b ${{ github.event.inputs.release }}
+      - name: Checkout branch or create new one
+        run: |
+          git fetch
+          if git branch -a | grep origin/${{ github.event.inputs.release }}; then
+              git checkout ${{ github.event.inputs.release }}
+          else
+              git checkout -b ${{ github.event.inputs.release }}
+          fi
 
       - name: Generate icon config
         run: |
@@ -191,7 +205,14 @@ jobs:
           npm install figma-export-icons --save
           sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
 
-      - run: git checkout -b ${{ github.event.inputs.release }}
+      - name: Checkout branch or create new one
+        run: |
+          git fetch
+          if git branch -a | grep origin/${{ github.event.inputs.release }}; then
+              git checkout ${{ github.event.inputs.release }}
+          else
+              git checkout -b ${{ github.event.inputs.release }}
+          fi
 
       - name: Generate icon config
         run: |
@@ -253,7 +274,14 @@ jobs:
           npm install figma-export-icons --save
           sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
 
-      - run: git checkout -b ${{ github.event.inputs.release }}
+      - name: Checkout branch or create new one
+        run: |
+          git fetch
+          if git branch -a | grep origin/${{ github.event.inputs.release }}; then
+              git checkout ${{ github.event.inputs.release }}
+          else
+              git checkout -b ${{ github.event.inputs.release }}
+          fi
 
       - name: Generate icon config
         run: |
