@@ -1040,6 +1040,9 @@ Vivo set
 | | |![mobile-add-user-filled](icons/o2/filled/mobile-add-user-filled.svg) | |`mobile-add-user-filled`[![mobile-add-user-filled](.github/resources/anchor.svg)](#mobile-add-user-filled)|
 | | |![mobile-add-user-light](icons/o2/light/mobile-add-user-light.svg) | |`mobile-add-user-light`[![mobile-add-user-light](.github/resources/anchor.svg)](#mobile-add-user-light)|
 | | |![mobile-add-user-regular](icons/o2/regular/mobile-add-user-regular.svg) | |`mobile-add-user-regular`[![mobile-add-user-regular](.github/resources/anchor.svg)](#mobile-add-user-regular)|
+| |![mobile-clock-filled](icons/vivo-new/filled/mobile-clock-filled.svg) | | |`mobile-clock-filled`[![mobile-clock-filled](.github/resources/anchor.svg)](#mobile-clock-filled)|
+| |![mobile-clock-light](icons/vivo-new/light/mobile-clock-light.svg) | | |`mobile-clock-light`[![mobile-clock-light](.github/resources/anchor.svg)](#mobile-clock-light)|
+| |![mobile-clock-regular](icons/vivo-new/regular/mobile-clock-regular.svg) | | |`mobile-clock-regular`[![mobile-clock-regular](.github/resources/anchor.svg)](#mobile-clock-regular)|
 | | |![mobile-coverage-filled](icons/o2/filled/mobile-coverage-filled.svg) | |`mobile-coverage-filled`[![mobile-coverage-filled](.github/resources/anchor.svg)](#mobile-coverage-filled)|
 | | |![mobile-coverage-light](icons/o2/light/mobile-coverage-light.svg) | |`mobile-coverage-light`[![mobile-coverage-light](.github/resources/anchor.svg)](#mobile-coverage-light)|
 | | |![mobile-coverage-regular](icons/o2/regular/mobile-coverage-regular.svg) | |`mobile-coverage-regular`[![mobile-coverage-regular](.github/resources/anchor.svg)](#mobile-coverage-regular)|
@@ -1067,9 +1070,6 @@ Vivo set
 | | |![mobile-user-filled](icons/o2/filled/mobile-user-filled.svg) | |`mobile-user-filled`[![mobile-user-filled](.github/resources/anchor.svg)](#mobile-user-filled)|
 | | |![mobile-user-light](icons/o2/light/mobile-user-light.svg) | |`mobile-user-light`[![mobile-user-light](.github/resources/anchor.svg)](#mobile-user-light)|
 | | |![mobile-user-regular](icons/o2/regular/mobile-user-regular.svg) | |`mobile-user-regular`[![mobile-user-regular](.github/resources/anchor.svg)](#mobile-user-regular)|
-| |![mobile-with-clock-filled](icons/vivo-new/filled/mobile-with-clock-filled.svg) | | |`mobile-with-clock-filled`[![mobile-with-clock-filled](.github/resources/anchor.svg)](#mobile-with-clock-filled)|
-| |![mobile-with-clock-light](icons/vivo-new/light/mobile-with-clock-light.svg) | | |`mobile-with-clock-light`[![mobile-with-clock-light](.github/resources/anchor.svg)](#mobile-with-clock-light)|
-| |![mobile-with-clock-regular](icons/vivo-new/regular/mobile-with-clock-regular.svg) | | |`mobile-with-clock-regular`[![mobile-with-clock-regular](.github/resources/anchor.svg)](#mobile-with-clock-regular)|
 |![money-drop-filled](icons/telefonica/filled/money-drop-filled.svg) | | | |`money-drop-filled`[![money-drop-filled](.github/resources/anchor.svg)](#money-drop-filled)|
 |![money-drop-light](icons/telefonica/light/money-drop-light.svg) | | | |`money-drop-light`[![money-drop-light](.github/resources/anchor.svg)](#money-drop-light)|
 |![money-drop-regular](icons/telefonica/regular/money-drop-regular.svg) | | | |`money-drop-regular`[![money-drop-regular](.github/resources/anchor.svg)](#money-drop-regular)|
