@@ -39,7 +39,7 @@ def add_icons_from_folder(folder_name, icon_set):
 add_icons_from_folder('telefonica', icons_telefonica)
 add_icons_from_folder('o2', icons_o2)
 add_icons_from_folder('blau', icons_blau)
-add_icons_from_folder('vivo', icons_vivo)
+add_icons_from_folder('vivo-new', icons_vivo)
 
 # Length of brand lists
 len_icons_telefonica = len(icons_telefonica)
