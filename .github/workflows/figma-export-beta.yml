@@ -59,12 +59,12 @@ jobs:
       - run: git checkout -b ${{ github.event.inputs.release }}
 
       - name: Generate icon config
-        if: ${{ matrix.brand != 'all' }}
         run: |
-          brand_uppercase=$(echo "${{ matrix.brand }}" | tr '[:lower:]' '[:upper:]')
-          sed -e "s/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/" -e "s/FILE_ID/${{ env.${brand_uppercase}_FIGMA_ID }}/" -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/${{ matrix.brand }}/filled|g' figma-export-icons.template.json > ${{ matrix.brand }}-filled.json
-          sed -e "s/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/" -e "s/FILE_ID/${{ env.${brand_uppercase}_FIGMA_ID }}/" -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/${{ matrix.brand }}/regular|g' figma-export-icons.template.json > ${{ matrix.brand }}-regular.json
-          sed -e "s/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/" -e "s/FILE_ID/${{ env.${brand_uppercase}_FIGMA_ID }}/" -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/${{ matrix.brand }}/light|g' figma-export-icons.template.json > ${{ matrix.brand }}-light.json
+          if [ "${{ matrix.brand }}" != "all" ]; then
+            sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.${{ matrix.brand}}_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/${{ matrix.brand }}/filled|g' figma-export-icons.template.json > ${{ matrix.brand }}-filled.json
+            sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.${{ matrix.brand}}_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/${{ matrix.brand }}/regular|g' figma-export-icons.template.json > ${{ matrix.brand }}-regular.json
+            sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.${{ matrix.brand}}_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/${{ matrix.brand }}/light|g' figma-export-icons.template.json > ${{ matrix.brand }}-light.json
+          fi
 
       - name: Export icons
         run: |
