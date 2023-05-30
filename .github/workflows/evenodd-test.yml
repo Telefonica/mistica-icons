@@ -21,7 +21,7 @@ jobs:
         with:
           github-token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
           script: |
-            const evenoddFiles = '${{ steps.<name-of-previous-step>.outputs.evenodd_files }}';
+            const evenoddFiles = '${{ steps.evenodd.outputs.evenodd_files }}';
             const prNumber = context.payload.pull_request.number;
             const body = `Archivos con 'evenodd':\n${evenoddFiles}`;
 
