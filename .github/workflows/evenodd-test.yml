@@ -25,11 +25,10 @@ jobs:
           done
           if [ -n "$files_with_evenodd" ]; then
             echo -e "::set-output name=evenodd_files::${files_with_evenodd}"
-            echo -e "Archivos con 'evenodd':\n${files_with_evenodd}"
           fi
 
       - name: Actualizar comentario de la PR
-        if: ${{ github.event_name == 'pull_request' && steps.buscar-palabra.outputs.evenodd_files != '' }}
+        if: ${{ github.event_name == 'pull_request' }}
         uses: actions/github-script@v4
         with:
           github-token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
