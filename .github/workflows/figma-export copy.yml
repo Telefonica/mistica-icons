@@ -21,7 +21,7 @@ jobs:
           files_with_evenodd=""
           for file in $(find icons -name "*.svg"); do
             if grep -q "evenodd" "$file"; then
-              echo "Se encontró la palabra 'evenodd' en $file"
+              # echo "Se encontró la palabra 'evenodd' en $file"
               files_with_evenodd="${files_with_evenodd}${file}\n"
             fi
           done
