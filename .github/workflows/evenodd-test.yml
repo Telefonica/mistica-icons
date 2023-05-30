@@ -29,36 +29,12 @@ jobs:
 
       - name: Actualizar comentario de la PR
         if: ${{ github.event_name == 'pull_request' }}
-        uses: actions/github-script@v4
+        uses: peter-evans/create-or-update-comment@v1
         with:
-          github-token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
-          script: |
-            const evenoddFiles = '${{ steps.evenodd.outputs.evenodd_files }}';
-            const prNumber = context.payload.pull_request.number;
-            const body = `Archivos con 'evenodd':\n${evenoddFiles}`;
-
-            const { data: comments } = await github.issues.listComments({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: prNumber,
-            });
-
-            const existingComment = comments.find(comment => comment.user.login === 'github-actions[bot]' && comment.body.startsWith('Archivos con \'evenodd\':'));
-            if (existingComment) {
-              await github.issues.updateComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                comment_id: existingComment.id,
-                body,
-              });
-            } else {
-              await github.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: prNumber,
-                body,
-              });
-            }
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            Archivos con 'evenodd':
+            ${{ steps.buscar-palabra.outputs.evenodd_files }}
 
       - name: Verificar archivos con evenodd
         if: ${{ steps.buscar-palabra.outputs.evenodd_files != '' }}
