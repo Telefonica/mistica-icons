@@ -1,7 +1,9 @@
-name: Actualizar comentario de la PR
+name: Search & Destroy evenodds
 
 on:
   push:
+    paths:
+      - "icons/"
   pull_request:
     branches:
       - production
@@ -11,37 +13,16 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout del repositorio
-        uses: actions/checkout@v2
-
-      - name: Actualizar comentario de la PR
-        uses: actions/github-script@v4
-        with:
-          github-token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
-          script: |
-            const evenoddFiles = '${{ steps.<name-of-previous-step>.outputs.evenodd_files }}';
-            const prNumber = context.payload.pull_request.number;
-            const body = `Archivos con 'evenodd':\n${evenoddFiles}`;
-
-            const { data: comments } = await github.issues.listComments({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              issue_number: prNumber,
-            });
-
-            const existingComment = comments.find(comment => comment.user.login === 'github-actions[bot]' && comment.body.startsWith('Archivos con \'evenodd\':'));
-            if (existingComment) {
-              await github.issues.updateComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                comment_id: existingComment.id,
-                body,
-              });
-            } else {
-              await github.issues.createComment({
-                owner: context.repo.owner,
-                repo: context.repo.repo,
-                issue_number: prNumber,
-                body,
-              });
-            }
+      - name: Buscar palabra en archivos SVG
+        run: |
+          files_with_evenodd=""
+          for file in $(find icons -name "*.svg"); do
+            if grep -q "evenodd" "$file"; then
+              # echo "Se encontró la palabra 'evenodd' en $file"
+              files_with_evenodd="${files_with_evenodd}${file}\n"
+            fi
+          done
+          if [ -n "$files_with_evenodd" ]; then
+            echo -e "Archivos con 'evenodd':\n${files_with_evenodd}"
+            exit 1
+          fi
