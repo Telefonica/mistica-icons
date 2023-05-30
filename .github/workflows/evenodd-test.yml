@@ -40,9 +40,7 @@ jobs:
         uses: peter-evans/create-or-update-comment@v1
         with:
           issue-number: ${{ github.event.pull_request.number }}
-          body: |
-            Archivos con 'evenodd':
-            ${{ steps.buscar-palabra.outputs.evenodd_files }}
+          body: ${{ steps.formatear-iconos.outputs.stdout }}
 
       - name: Verificar archivos con evenodd
         if: ${{ steps.buscar-palabra.outputs.evenodd_files != '' }}
