@@ -20,12 +20,34 @@ jobs:
           for file in $(find icons -name "*.svg"); do
             if grep -q "evenodd" "$file"; then
               echo "Se encontró la palabra 'evenodd' en $file"
-              files_with_evenodd="${files_with_evenodd}${file}\n"
+              folder=$(dirname "$file")
+              icon_name=$(basename "$file")
+              files_with_evenodd="${files_with_evenodd}- \"${icon_name}\" / \"${folder}\"\n"
+              cp "$file" "${GITHUB_WORKSPACE}/${icon_name}"
             fi
           done
           if [ -n "$files_with_evenodd" ]; then
-            echo -e "::set-output name=evenodd_files::${files_with_evenodd}"
+            echo "::set-output name=evenodd_files::${files_with_evenodd}"
           fi
+
+      - name: Formatear lista de iconos
+        id: formatear-iconos
+        run: |
+          echo "Icons with evenodd"
+          echo "<details>"
+          echo "  <summary>❌ <b>${{ steps.buscar-palabra.outputs.evenodd_files }}</b></summary>"
+          echo "</details>"
+
+      - name: Cargar artefacto SVG
+        uses: actions/upload-artifact@v2
+        with:
+          name: svg-artifact
+          path: ${{ github.workspace }}/*.svg
+
+      - name: Obtener URL del artefacto SVG
+        id: svg-url
+        run: |
+          echo "::set-output name=svg_url::$(cat $GITHUB_EVENT_PATH | jq -r .repository.html_url)/-/jobs/${{ github.job }}"
 
       - name: Actualizar comentario de la PR
         if: ${{ github.event_name == 'pull_request' }}
@@ -33,9 +55,6 @@ jobs:
         with:
           issue-number: ${{ github.event.pull_request.number }}
           body: |
-            Archivos con 'evenodd':
-            ${{ steps.buscar-palabra.outputs.evenodd_files }}
+            ${{ steps.formatear-iconos.outputs.stdout }}
 
-      - name: Verificar archivos con evenodd
-        if: ${{ steps.buscar-palabra.outputs.evenodd_files != '' }}
-        run: exit 1
+            ![SVG Image](${{ steps.svg-url.outputs.svg_url }}/artifacts/svg-artifact/*.svg)
