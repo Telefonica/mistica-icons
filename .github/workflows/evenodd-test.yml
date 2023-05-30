@@ -2,6 +2,8 @@ name: Search & Destroy evenodds
 
 on:
   push:
+    paths:
+      - "icons/"
     branches:
       - production
   pull_request:
