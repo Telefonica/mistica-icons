@@ -4,8 +4,6 @@ on:
   push:
     paths:
       - "icons/"
-    branches:
-      - production
   pull_request:
     branches:
       - production
@@ -15,8 +13,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout del repositorio
-        uses: actions/checkout@v2
+      # - name: Checkout del repositorio
+      #   uses: actions/checkout@v2
 
       - name: Buscar palabra en archivos SVG
         run: |
