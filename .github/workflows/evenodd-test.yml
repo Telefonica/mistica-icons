@@ -1,7 +1,6 @@
 name: Buscar palabra en archivos SVG y actualizar comentario de la PR
 
 on:
-  push:
   pull_request:
     branches:
       - production
@@ -27,11 +26,11 @@ jobs:
           if [ -n "$files_with_evenodd" ]; then
             echo -e "::set-output name=evenodd_files::${files_with_evenodd}"
             echo -e "Archivos con 'evenodd':\n${files_with_evenodd}"
-            exit 1
+            exit 0
           fi
 
       - name: Actualizar comentario de la PR
-        if: ${{ github.event_name == 'pull_request' }}
+        if: ${{ github.event_name == 'pull_request' && steps.buscar-palabra.outcome != 'failure' }}
         uses: actions/github-script@v4
         with:
           github-token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
@@ -61,4 +60,8 @@ jobs:
                 issue_number: prNumber,
                 body,
               });
+            }
+
+            if (evenoddFiles) {
+              core.setFailed("Se encontró la palabra 'evenodd' en los archivos");
             }
