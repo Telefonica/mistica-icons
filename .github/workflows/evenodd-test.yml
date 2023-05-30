@@ -1,9 +1,7 @@
-name: Search & Destroy evenodds
+name: Buscar palabra en archivos SVG y actualizar comentario de la PR
 
 on:
   push:
-    # paths:
-    #   - "icons/"
   pull_request:
     branches:
       - production
@@ -16,7 +14,24 @@ jobs:
       - name: Checkout del repositorio
         uses: actions/checkout@v2
 
+      - name: Buscar palabra en archivos SVG
+        id: buscar-palabra
+        run: |
+          files_with_evenodd=""
+          for file in $(find icons -name "*.svg"); do
+            if grep -q "evenodd" "$file"; then
+              echo "Se encontró la palabra 'evenodd' en $file"
+              files_with_evenodd="${files_with_evenodd}${file}\n"
+            fi
+          done
+          if [ -n "$files_with_evenodd" ]; then
+            echo -e "::set-output name=evenodd_files::${files_with_evenodd}"
+            echo -e "Archivos con 'evenodd':\n${files_with_evenodd}"
+            exit 1
+          fi
+
       - name: Actualizar comentario de la PR
+        if: ${{ github.event_name == 'pull_request' }}
         uses: actions/github-script@v4
         with:
           github-token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
