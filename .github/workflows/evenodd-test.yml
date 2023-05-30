@@ -27,20 +27,14 @@ jobs:
             echo -e "::set-output name=evenodd_files::${files_with_evenodd}"
           fi
 
-      - name: Formatear lista de iconos
-        id: formatear-iconos
-        run: |
-          echo "Icons with evenodd"
-          echo "<details>"
-          echo "  <summary>❌ <b>${{ steps.buscar-palabra.outputs.evenodd_files }}</b></summary>"
-          echo "</details>"
-
       - name: Actualizar comentario de la PR
         if: ${{ github.event_name == 'pull_request' }}
         uses: peter-evans/create-or-update-comment@v1
         with:
           issue-number: ${{ github.event.pull_request.number }}
-          body: ${{ steps.formatear-iconos.outputs.stdout }}
+          body: |
+            Archivos con 'evenodd':
+            - ${{ steps.buscar-palabra.outputs.evenodd_files }}
 
       - name: Verificar archivos con evenodd
         if: ${{ steps.buscar-palabra.outputs.evenodd_files != '' }}
