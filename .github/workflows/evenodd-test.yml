@@ -2,8 +2,8 @@ name: Actualizar comentario de la PR
 
 on:
   push:
-    branches:
-      - production
+    paths:
+      - icons/
   pull_request:
     branches:
       - production
