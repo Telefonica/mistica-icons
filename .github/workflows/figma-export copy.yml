@@ -1,0 +1,31 @@
+name: Search & Destroy evenodds
+
+on:
+  push:
+    branches:
+      - production
+  pull_request:
+    branches:
+      - production
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del repositorio
+        uses: actions/checkout@v2
+
+      - name: Buscar palabra en archivos SVG
+        run: |
+          files_with_evenodd=""
+          for file in $(find icons -name "*.svg"); do
+            if grep -q "evenodd" "$file"; then
+              # echo "Se encontró la palabra 'evenodd' en $file"
+              files_with_evenodd="${files_with_evenodd}${file}\n"
+            fi
+          done
+          if [ -n "$files_with_evenodd" ]; then
+            echo -e "Archivos con 'evenodd':\n${files_with_evenodd}"
+            exit 1
+          fi
