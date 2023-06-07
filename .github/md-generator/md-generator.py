@@ -57,7 +57,7 @@ len_total_icons = len(total_icons)
 telefonica_intersection = icons_telefonica & (icons_blau | icons_o2 | icons_vivo)
 o2_intersection = icons_o2 & (icons_blau | icons_telefonica | icons_vivo)
 blau_intersection = icons_blau & (icons_telefonica | icons_o2 | icons_vivo)
-vivo_intersection = icons_blau & (icons_telefonica | icons_o2 | icons_blau)
+vivo_intersection = icons_vivo & (icons_telefonica | icons_o2 | icons_blau)
 
 # —————————————————————————————————————————————————————————————————————————
 # —————————————————————————————————————————————————————————————————————————
