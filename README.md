@@ -3,7 +3,7 @@
 
 ## What is this?  
 
-This is the repo that contains all icons that is working in [Mistica Design](https://github.com/Telefonica/mistica-design) now.  
+Mística Icons is a multibrand icon system that contains all icons that is working in [Mistica Design System](https://github.com/Telefonica/mistica) now.  
 
 Mistica support [Brand Factory icons](https://brandfactory.telefonica.com/document/1086#/nuestra-identidad/iconos). This set of icons are a big list of different icons and style that Brand Team worked to be used through Telefonica applications.
 
