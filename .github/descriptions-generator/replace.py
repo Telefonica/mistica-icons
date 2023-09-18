@@ -11,14 +11,20 @@
 
 import json
 
-# Leer el JSON original desde el archivo
 # ————— CAMBIAR BRAND POR EL NOMBRE DE LA MARCA ————— #
-with open('vivo-original.json', 'r') as original_file:
+brand = "telefonica"
+
+# Construir la ruta del archivo utilizando la variable
+ruta_original = f'./.github/descriptions-generator/originals/{brand}-original.json'
+ruta_generated = f'./.github/descriptions-generator/generated/{brand}.json'
+
+# Leer el JSON original desde el archivo
+with open(ruta_original, 'r') as original_file:
     json_original = json.load(original_file)
 
 # Leer el mapeo de palabras clave desde el archivo
 # NO TOCAR #
-with open('../../icons/icons-keywords.json', 'r') as palabrasclave_file:
+with open('./icons/icons-keywords.json', 'r') as palabrasclave_file:
     palabras_clave = json.load(palabrasclave_file)
 
 # Función para reemplazar la descripción
@@ -47,5 +53,5 @@ json_actualizado = reemplazar_descripcion(json_original, palabras_clave)
 
 # Escribir el JSON actualizado en un nuevo archivo
 # ————— CAMBIAR BRAND POR EL NOMBRE DE LA MARCA ————— #
-with open('vivo.json', 'w') as nuevo_file:
+with open(ruta_generated, 'w') as nuevo_file:
     json.dump(json_actualizado, nuevo_file, indent=2)
