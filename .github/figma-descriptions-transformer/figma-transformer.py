@@ -3,7 +3,7 @@
 # Ensure that icons-keywords.json is up-to-date and contains the line with the icon's name
 
 # Open the Figma Bulk Meta plugin where the icons are located
-# Export the JSON and name it telefonica-original.json, save it in the repo under resources/descriptions-generator/originals
+# Export the JSON and name it telefonica-original.json, save it in the repo under resources/figma-descriptions-transformer/originals
 # Choose brand to export changing the brand name on line 13 in this file
 # Run the script in the terminal "python3 figma-transformer.py"
 
@@ -17,8 +17,8 @@ brand = "telefonica"
 import json
 
 # Build the file path using the variable
-original_path = f'./.github/descriptions-generator/originals/{brand}-original.json'
-generated_path = f'./.github/descriptions-generator/generated/{brand}.json'
+original_path = f'./.github/figma-descriptions-transformer/originals/{brand}-original.json'
+generated_path = f'./.github/figma-descriptions-transformer/generated/{brand}.json'
 
 # Read the original JSON from the file
 with open(original_path, 'r') as original_file:
