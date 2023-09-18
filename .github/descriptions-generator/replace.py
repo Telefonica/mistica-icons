@@ -4,15 +4,16 @@
 
 # Abre el plugin de Figma Bulk Meta
 # Exporta el json y llamalo telefonica-original.json, guárdalo en el repo en resources/descriptions-generator
-# Correr el script en terminal “python3 replace.py” asegurándote que en el script está la información correcta. (debes cambiar los nombres de los archivos según el set de iconos que estás exportando, hay comentarios en las líneas que debes cambiar)
+# Correr el script en terminal “python3 replace.py”. Cambia el nombre de la brand en la línea 13.
 
 # Abre el plugin de Figma Bulk Meta
 # Ir a la pestaña “Import” y seleccionar el archivo telefonica.json generado por el script
 
-import json
-
 # ————— CAMBIAR BRAND POR EL NOMBRE DE LA MARCA ————— #
+# "vivo" o "telefonica" o "o2"
 brand = "telefonica"
+
+import json
 
 # Construir la ruta del archivo utilizando la variable
 ruta_original = f'./.github/descriptions-generator/originals/{brand}-original.json'
@@ -52,6 +53,5 @@ def reemplazar_descripcion(json, palabras_clave):
 json_actualizado = reemplazar_descripcion(json_original, palabras_clave)
 
 # Escribir el JSON actualizado en un nuevo archivo
-# ————— CAMBIAR BRAND POR EL NOMBRE DE LA MARCA ————— #
 with open(ruta_generated, 'w') as nuevo_file:
     json.dump(json_actualizado, nuevo_file, indent=2)
