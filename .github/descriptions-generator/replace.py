@@ -1,3 +1,14 @@
+# Clonar el repo de mistica-icons en tu ordenador y asegurate de estar en production con la rama actualizada
+
+# Asegurar que icons-keywords.json está actualizado y tiene la línea con el nombre del icono
+
+# Abre el plugin de Figma Bulk Meta
+# Exporta el json y llamalo telefonica-original.json, guárdalo en el repo en resources/descriptions-generator
+# Correr el script en terminal “python3 replace.py” asegurándote que en el script está la información correcta. (debes cambiar los nombres de los archivos según el set de iconos que estás exportando, hay comentarios en las líneas que debes cambiar)
+
+# Abre el plugin de Figma Bulk Meta
+# Ir a la pestaña “Import” y seleccionar el archivo telefonica.json generado por el script
+
 import json
 
 # Leer el JSON original desde el archivo
