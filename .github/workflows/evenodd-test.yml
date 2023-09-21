@@ -3,10 +3,12 @@ name: Search & Destroy evenodds
 on:
   push:
     paths:
-      - "icons/"
+      - "icons/**"
   pull_request:
+    branches:
+      - production
     paths:
-      - "icons/"
+      - "icons/**"
 
 jobs:
   build:
