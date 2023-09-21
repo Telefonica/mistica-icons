@@ -5,8 +5,8 @@ on:
     paths:
       - "icons/"
   pull_request:
-    branches:
-      - production
+    paths:
+      - "icons/"
 
 jobs:
   build:
