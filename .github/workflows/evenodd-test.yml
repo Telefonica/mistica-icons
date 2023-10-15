@@ -33,6 +33,6 @@ jobs:
 
           if [ -n "$files_with_evenodd" ]; then
             echo -e "\n\033[4mEvenodd icons\033[0m\n"
-            echo -e "$files_with_evenodd \n"
+            echo -e "$files_with_evenodd"
             exit 1 # End the execution with an error code
           fi
