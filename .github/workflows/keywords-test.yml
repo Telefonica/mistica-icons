@@ -12,7 +12,7 @@ on:
       - "icons/**"
 
 jobs:
-  check_icons:
+  check_keywords:
     runs-on: ubuntu-latest
 
     steps:
@@ -65,13 +65,13 @@ jobs:
           missing_keywords=""
           for icon_name in $(cat icons.txt); do
             if ! grep -q "\"$icon_name\":" data.json; then
-              missing_keywords="$missing_keywords\n\033[0;31m × $icon_name\033[0m "
+              missing_keywords="$missing_keywords\n\033[0;31m × $icon_name\033[0m"
             fi
           done
 
           # Mostrar la lista completa de elementos que faltan
           if [ -n "$missing_keywords" ]; then
-            echo -e "\n\033[1mMissing Keywords:\033[0m"
+            echo -e "\n\033[4mMissing Keywords\033[0m"
             echo -e "$missing_keywords \n"
             exit 1  # Terminar la ejecución con un código de error
           fi
