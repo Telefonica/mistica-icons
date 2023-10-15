@@ -70,11 +70,9 @@ jobs:
           done
 
           # Mostrar la lista completa de elementos que faltan
-          echo -e "\n\033[1mMissing Keywords:\033[0m"
-          echo -e "$missing_keywords \n"
-
-          # Detener la acción si se encontraron elementos que faltan
           if [ -n "$missing_keywords" ]; then
+            echo -e "\n\033[1mMissing Keywords:\033[0m"
+            echo -e "$missing_keywords \n"
             exit 1  # Terminar la ejecución con un código de error
           fi
         continue-on-error: false
