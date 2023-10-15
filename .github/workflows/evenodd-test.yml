@@ -26,7 +26,7 @@ jobs:
             if grep -q "evenodd" "$file"; then
               # Quitar la parte "icons/" de la ruta
               file_without_icons="${file#$ICONS_DIR/}"
-              files_with_evenodd="${files_with_evenodd}\033[0;31m× $file_without_icons\033[0m\n"
+              files_with_evenodd="${files_with_evenodd}\033[0;31m× $file_without_icons\033[0m"
             fi
           done
 
