@@ -1528,6 +1528,7 @@ Vivo set
 | | |![telephone-pot-filled](icons/o2/filled/telephone-pot-filled.svg) | |<a id='telephone-pot-filled'>`telephone-pot-filled`</a>[![telephone-pot-filled](.github/resources/anchor.svg)](#telephone-pot-filled)|
 | | |![telephone-pot-light](icons/o2/light/telephone-pot-light.svg) | |<a id='telephone-pot-light'>`telephone-pot-light`</a>[![telephone-pot-light](.github/resources/anchor.svg)](#telephone-pot-light)|
 | | |![telephone-pot-regular](icons/o2/regular/telephone-pot-regular.svg) | |<a id='telephone-pot-regular'>`telephone-pot-regular`</a>[![telephone-pot-regular](.github/resources/anchor.svg)](#telephone-pot-regular)|
+| |![test-light](icons/vivo-new/light/test-light.svg) | | |<a id='test-light'>`test-light`</a>[![test-light](.github/resources/anchor.svg)](#test-light)|
 |![theater-filled](icons/telefonica/filled/theater-filled.svg) | | | |<a id='theater-filled'>`theater-filled`</a>[![theater-filled](.github/resources/anchor.svg)](#theater-filled)|
 |![theater-light](icons/telefonica/light/theater-light.svg) | | | |<a id='theater-light'>`theater-light`</a>[![theater-light](.github/resources/anchor.svg)](#theater-light)|
 |![theater-regular](icons/telefonica/regular/theater-regular.svg) | | | |<a id='theater-regular'>`theater-regular`</a>[![theater-regular](.github/resources/anchor.svg)](#theater-regular)|
