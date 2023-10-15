@@ -65,7 +65,7 @@ jobs:
           missing_keywords=""
           for icon_name in $(cat icons.txt); do
             if ! grep -q "\"$icon_name\":" data.json; then
-              missing_keywords="$missing_keywords\n\033[0;31m × $icon_name\033[0m"
+              missing_keywords="$missing_keywords\n\033[0;31m× $icon_name\033[0m"
             fi
           done
 
