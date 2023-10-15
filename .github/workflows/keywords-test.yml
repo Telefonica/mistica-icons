@@ -69,9 +69,6 @@ jobs:
             fi
           done
 
-          # Establecer una salida personalizada para la lista de elementos que faltan
-          echo "::set-output name=missing_keywords::$missing_keywords"
-
           # Mostrar la lista completa de elementos que faltan
           echo "Missing Keywords:"
           echo -e "$missing_keywords"
@@ -80,7 +77,7 @@ jobs:
           if [ -n "$missing_keywords" ]; then
             exit 1  # Terminar la ejecución con un código de error
           fi
-        continue-on-error: true
+        continue-on-error: false
 
       - name: Cleanup
         run: |
