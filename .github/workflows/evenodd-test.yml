@@ -18,7 +18,7 @@ jobs:
       - name: Checkout del código
         uses: actions/checkout@v2
 
-      - name: Buscar palabra en archivos SVG
+      - name: Search for evenodd icons
         run: |
           ICONS_DIR="icons"
           files_with_evenodd=""
@@ -33,5 +33,5 @@ jobs:
           if [ -n "$files_with_evenodd" ]; then
             echo -e "\n\033[4mEvenodd icons\033[0m\n"
             echo -e "$files_with_evenodd \n"
-            exit 1
+            exit 1 # End the execution with an error code
           fi
