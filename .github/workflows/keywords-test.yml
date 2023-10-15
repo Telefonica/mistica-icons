@@ -61,17 +61,17 @@ jobs:
       - name: Compare with Keywords
         id: compare
         run: |
-          echo "Comparing icon names with keywords from JSON..."
+          # echo "Comparing icon names with keywords from JSON..."
           missing_keywords=""
           for icon_name in $(cat icons.txt); do
             if ! grep -q "\"$icon_name\":" data.json; then
-              missing_keywords="$missing_keywords\nIcon name '$icon_name' is missing in the JSON keywords."
+              missing_keywords="$missing_keywords\n\033[0;31m × $icon_name\033[0m "
             fi
           done
 
           # Mostrar la lista completa de elementos que faltan
-          echo "Missing Keywords:"
-          echo -e "$missing_keywords"
+          echo -e "\n\033[1mMissing Keywords:\033[0m"
+          echo -e "$missing_keywords \n"
 
           # Detener la acción si se encontraron elementos que faltan
           if [ -n "$missing_keywords" ]; then
