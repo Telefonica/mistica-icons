@@ -1,6 +1,7 @@
 name: Check icons keywords
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - "icons/**"
@@ -58,14 +59,24 @@ jobs:
         continue-on-error: true
 
       - name: Compare with Keywords
+        id: compare
         run: |
-          echo "Comparing icon names with keywords from JSON..."
+          # echo "Comparing icon names with keywords from JSON..."
+          missing_keywords=""
           for icon_name in $(cat icons.txt); do
             if ! grep -q "\"$icon_name\":" data.json; then
-              echo "Icon name '$icon_name' is missing in the JSON keywords."
-              exit 1  # Terminar la ejecución con un código de error
+              missing_keywords="$missing_keywords\n\033[0;31m × $icon_name\033[0m "
             fi
           done
+
+          # Mostrar la lista completa de elementos que faltan
+          echo -e "\n\033[1mMissing Keywords:\033[0m"
+          echo -e "$missing_keywords \n"
+
+          # Detener la acción si se encontraron elementos que faltan
+          if [ -n "$missing_keywords" ]; then
+            exit 1  # Terminar la ejecución con un código de error
+          fi
         continue-on-error: false
 
       - name: Cleanup
