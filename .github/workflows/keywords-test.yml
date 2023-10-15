@@ -1,6 +1,7 @@
 name: Check icons keywords
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - "icons/**"
