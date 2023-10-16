@@ -12,12 +12,12 @@ on:
       - "icons/**"
 
 jobs:
-  check_keywords:
+  check-keywords:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: List SVG files
         run: |

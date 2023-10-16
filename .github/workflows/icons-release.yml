@@ -9,7 +9,7 @@ on:
       - "icons/"
 
 jobs:
-  build:
+  icons-release:
     # if: github.event.pull_request.merged == 'true'
     if: github.event.pull_request.merged
     runs-on: ubuntu-latest
