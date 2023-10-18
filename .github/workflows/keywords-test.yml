@@ -2,9 +2,9 @@ name: Check icons keywords
 
 on:
   workflow_dispatch:
-  push:
-    paths:
-      - "icons/**"
+  # push:
+  #   paths:
+  #     - "icons/**"
   pull_request:
     branches:
       - production
@@ -12,31 +12,31 @@ on:
       - "icons/**"
 
 jobs:
-  check_icons:
+  check-keywords:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: List SVG files
         run: |
-          ICONS_DIR="icons" # Reemplaza con la ubicación real de tu carpeta de iconos
+          ICONS_DIR="icons"
           echo "Listing SVG files..."
 
-          # Utiliza 'find' para encontrar todos los archivos SVG en la carpeta de iconos
+          # Use 'find' to get all SVG files in the icons directory
           find $ICONS_DIR -type f -name "*.svg" |
 
-          # Utiliza 'basename' para obtener solo el nombre de archivo sin la ruta
+          # Use 'basemame' to get the file names without the path
           xargs -I {} basename {} |
 
-          # Utiliza 'sed' para quitar las partes "-filled", "-light", "-regular" y la extensión ".svg"
+          # Use 'sed' to remove the "-filled", "-light", "-regular" parts and the ".svg" extension
           sed 's/\(-filled\|-light\|-regular\)\.svg//' |
 
-          # Utiliza 'sort -u' para obtener una lista única de nombres de archivo
+          # Use 'sort -u' to get a unique list of file names
           sort -u > icons.txt
 
-          # Muestra el contenido del archivo icons.txt en la consola
+          # Show the contents of the icons.txt file in the console
           cat icons.txt
         continue-on-error: false
 
@@ -51,10 +51,10 @@ jobs:
         run: |
           echo "Extracting keywords from JSON..."
 
-          # Usamos jq para extraer las claves del JSON y guardarlas en keywords.txt
+          # Use 'jq' to extract the keys from the JSON and save them to keywords.txt
           cat data.json | jq -r 'keys[]' > keywords.txt
 
-          # Mostramos el contenido de keywords.txt para verificar que se han extraído correctamente
+          # Show the contents of the keywords.txt file in the console
           cat keywords.txt
         continue-on-error: true
 
@@ -65,17 +65,15 @@ jobs:
           missing_keywords=""
           for icon_name in $(cat icons.txt); do
             if ! grep -q "\"$icon_name\":" data.json; then
-              missing_keywords="$missing_keywords\n\033[0;31m × $icon_name\033[0m "
+              missing_keywords="$missing_keywords\n\033[0;31m× $icon_name\033[0m"
             fi
           done
 
-          # Mostrar la lista completa de elementos que faltan
-          echo -e "\n\033[1mMissing Keywords:\033[0m"
-          echo -e "$missing_keywords \n"
-
-          # Detener la acción si se encontraron elementos que faltan
+          # Show the complete list of missing elements
           if [ -n "$missing_keywords" ]; then
-            exit 1  # Terminar la ejecución con un código de error
+            echo -e "\n\033[4mMissing Keywords\033[0m"
+            echo -e "$missing_keywords \n"
+            exit 1  # End the execution with an error code
           fi
         continue-on-error: false
 
