@@ -2,9 +2,11 @@ name: Check icons keywords
 
 on:
   workflow_dispatch:
-  # push:
-  #   paths:
-  #     - "icons/**"
+  push:
+    branches:
+      - import-figma-icons
+    paths:
+      - "icons/**"
   pull_request:
     branches:
       - production
