@@ -38,7 +38,7 @@ jobs:
     if: ${{ github.event.inputs.brand == 'all' }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       # - name: Get branch name
       #   uses: rlespinasse/github-slug-action@v3.x
@@ -108,22 +108,22 @@ jobs:
           git push origin import-figma-icons
 
       - name: Create Pull-Request
-        uses: repo-sync/pull-request@v2
+        uses: peter-evans/create-pull-request@v5
         with:
-          source_branch: import-figma-icons
-          destination_branch: "production"
-          pr_title: "Update Figma icons"
-          pr_body: "
+          branch: import-figma-icons
+          base: production
+          title: "Update Figma icons"
+          body: "
             New version of icons exported from [Mistica Icons](${{env.MISTICA_ICONS_FILE_URL}}), [O2](${{env.O2_FILE_URL}}), [Blau](${{env.BLAU_FILE_URL}}) & [Vivo](${{env.VIVO_FILE_URL}}) \n
             - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
-          pr_draft: ${{ github.event.inputs.draft }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          draft: ${{ github.event.inputs.draft }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
   export-telefonica:
     if: ${{ github.event.inputs.brand == 'telefonica' }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       # - name: Get branch name
       #   uses: rlespinasse/github-slug-action@v3.x
@@ -177,22 +177,22 @@ jobs:
           git push origin import-figma-icons
 
       - name: Create Pull-Request
-        uses: repo-sync/pull-request@v2
+        uses: peter-evans/create-pull-request@v5
         with:
-          source_branch: import-figma-icons
-          destination_branch: "production"
-          pr_title: "Update Mística icons"
-          pr_body: "
+          branch: import-figma-icons
+          base: production
+          title: "Update Mística icons"
+          body: "
             New version of icons exported from [Mistica Icons](${{env.MISTICA_ICONS_FILE_URL}}) \n
             - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
-          pr_draft: ${{ github.event.inputs.draft }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          draft: ${{ github.event.inputs.draft }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
   export-o2:
     if: ${{ github.event.inputs.brand == 'o2' }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       # - name: Get branch name
       #   uses: rlespinasse/github-slug-action@v3.x
@@ -246,22 +246,22 @@ jobs:
           git push origin import-figma-icons
 
       - name: Create Pull-Request
-        uses: repo-sync/pull-request@v2
+        uses: peter-evans/create-pull-request@v5
         with:
-          source_branch: import-figma-icons
-          destination_branch: "production"
-          pr_title: "Update O2 icons"
-          pr_body: "
+          branch: import-figma-icons
+          base: production
+          title: "Update O2 icons"
+          body: "
             New version of icons exported from [O2](${{env.O2_FILE_URL}}) \n
             - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
-          pr_draft: ${{ github.event.inputs.draft }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          draft: ${{ github.event.inputs.draft }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
   export-blau:
     if: ${{ github.event.inputs.brand == 'blau' }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       # - name: Get branch name
       #   uses: rlespinasse/github-slug-action@v3.x
@@ -313,22 +313,22 @@ jobs:
           git push origin import-figma-icons
 
       - name: Create Pull-Request
-        uses: repo-sync/pull-request@v2
+        uses: peter-evans/create-pull-request@v5
         with:
-          source_branch: import-figma-icons
-          destination_branch: "production"
-          pr_title: "Update Blau icons"
-          pr_body: "
+          branch: import-figma-icons
+          base: production
+          title: "Update Blau icons"
+          body: "
             New version of icons exported from [Blau](${{env.BLAU_FILE_URL}}) \n
             - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
-          pr_draft: ${{ github.event.inputs.draft }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          draft: ${{ github.event.inputs.draft }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
   export-vivo:
     if: ${{ github.event.inputs.brand == 'vivo' }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       # - name: Get branch name
       #   uses: rlespinasse/github-slug-action@v3.x
@@ -382,17 +382,17 @@ jobs:
           git push origin import-figma-icons
 
       - name: Create Pull-Request
-        uses: repo-sync/pull-request@v2
+        uses: peter-evans/create-pull-request@v5
         with:
-          source_branch: import-figma-icons
-          destination_branch: "production"
-          pr_title: "Update Vivo icons"
-          pr_body: "
+          branch: import-figma-icons
+          base: production
+          title: "Update Vivo icons"
+          body: "
             New version of icons exported from [Vivo](${{env.VIVO_FILE_URL}}) \n
             - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
-          pr_draft: ${{ github.event.inputs.draft }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-# pr_body: "
+          draft: ${{ github.event.inputs.draft }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+# body: "
 #             New version of icons exported from [Mistica Icons][mistica-icons] & [O2][o2-icons] n\
 #             - [ ] [Review readme import-figma-icons][readme] n\
 
