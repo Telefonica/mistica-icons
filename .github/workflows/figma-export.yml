@@ -110,13 +110,13 @@ jobs:
       - name: Create Pull-Request
         uses: peter-evans/create-pull-request@v5
         with:
-          base: production
           title: "Update Figma icons"
-          body: "
+          body: |
             New version of icons exported from [Mistica Icons](${{env.MISTICA_ICONS_FILE_URL}}), [O2](${{env.O2_FILE_URL}}), [Blau](${{env.BLAU_FILE_URL}}) & [Vivo](${{env.VIVO_FILE_URL}}) \n
-            - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
+            - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)
           draft: ${{ github.event.inputs.draft }}
           token: ${{ secrets.GITHUB_TOKEN }}
+          delete-branch: true
 
   export-telefonica:
     if: ${{ github.event.inputs.brand == 'telefonica' }}
@@ -178,13 +178,13 @@ jobs:
       - name: Create Pull-Request
         uses: peter-evans/create-pull-request@v5
         with:
-          base: production
           title: "Update Mística icons"
-          body: "
+          body: |
             New version of icons exported from [Mistica Icons](${{env.MISTICA_ICONS_FILE_URL}}) \n
-            - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
+            - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)
           draft: ${{ github.event.inputs.draft }}
           token: ${{ secrets.GITHUB_TOKEN }}
+          delete-branch: true
 
   export-o2:
     if: ${{ github.event.inputs.brand == 'o2' }}
@@ -246,13 +246,13 @@ jobs:
       - name: Create Pull-Request
         uses: peter-evans/create-pull-request@v5
         with:
-          base: production
           title: "Update O2 icons"
-          body: "
+          body: |
             New version of icons exported from [O2](${{env.O2_FILE_URL}}) \n
-            - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
+            - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)
           draft: ${{ github.event.inputs.draft }}
           token: ${{ secrets.GITHUB_TOKEN }}
+          delete-branch: true
 
   export-blau:
     if: ${{ github.event.inputs.brand == 'blau' }}
@@ -312,13 +312,13 @@ jobs:
       - name: Create Pull-Request
         uses: peter-evans/create-pull-request@v5
         with:
-          base: production
           title: "Update Blau icons"
-          body: "
+          body: |
             New version of icons exported from [Blau](${{env.BLAU_FILE_URL}}) \n
-            - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
+            - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)
           draft: ${{ github.event.inputs.draft }}
           token: ${{ secrets.GITHUB_TOKEN }}
+          delete-branch: true
 
   export-vivo:
     if: ${{ github.event.inputs.brand == 'vivo' }}
@@ -380,13 +380,13 @@ jobs:
       - name: Create Pull-Request
         uses: peter-evans/create-pull-request@v5
         with:
-          base: production
           title: "Update Vivo icons"
-          body: "
+          body: |
             New version of icons exported from [Vivo](${{env.VIVO_FILE_URL}}) \n
-            - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
+            - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)
           draft: ${{ github.event.inputs.draft }}
           token: ${{ secrets.GITHUB_TOKEN }}
+          delete-branch: true
 # body: "
 #             New version of icons exported from [Mistica Icons][mistica-icons] & [O2][o2-icons] n\
 #             - [ ] [Review readme import-figma-icons][readme] n\
