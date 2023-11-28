@@ -2,11 +2,9 @@ name: Check evenodds
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - import-figma-icons
-    paths:
-      - "icons/**"
+  # push:
+  #   paths:
+  #     - "icons/**"
   pull_request:
     branches:
       - production
