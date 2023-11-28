@@ -338,10 +338,14 @@ jobs:
           npm install figma-export-icons --save
           sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
 
-      - name: Reset promotion branch
+      - name: Checkout branch or create new one
         run: |
-          git fetch origin production:production
-          git reset --hard production
+          git fetch
+          if git branch -a | grep origin/import-figma-icons; then
+              git checkout import-figma-icons
+          else
+              git checkout -b import-figma-icons
+          fi
 
       - name: Generate icon config
         run: |
