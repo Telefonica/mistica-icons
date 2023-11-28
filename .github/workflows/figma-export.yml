@@ -325,6 +325,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: import-figma-icons
 
       # - name: Get branch name
       #   uses: rlespinasse/github-slug-action@v3.x
@@ -334,14 +336,10 @@ jobs:
           npm install figma-export-icons --save
           sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
 
-      - name: Checkout branch or create new one
+      - name: Reset promotion branch
         run: |
-          git fetch
-          if git branch -a | grep origin/import-figma-icons; then
-              git checkout import-figma-icons
-          else
-              git checkout -b import-figma-icons
-          fi
+          git fetch origin production:production
+          git reset --hard production
 
       - name: Generate icon config
         run: |
