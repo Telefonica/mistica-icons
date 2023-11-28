@@ -115,7 +115,7 @@ jobs:
             New version of icons exported from [Mistica Icons](${{env.MISTICA_ICONS_FILE_URL}}), [O2](${{env.O2_FILE_URL}}), [Blau](${{env.BLAU_FILE_URL}}) & [Vivo](${{env.VIVO_FILE_URL}}) \n
             - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)
           draft: ${{ github.event.inputs.draft }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
           delete-branch: true
 
   export-telefonica:
@@ -183,7 +183,7 @@ jobs:
             New version of icons exported from [Mistica Icons](${{env.MISTICA_ICONS_FILE_URL}}) \n
             - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)
           draft: ${{ github.event.inputs.draft }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
           delete-branch: true
 
   export-o2:
@@ -251,7 +251,7 @@ jobs:
             New version of icons exported from [O2](${{env.O2_FILE_URL}}) \n
             - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)
           draft: ${{ github.event.inputs.draft }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
           delete-branch: true
 
   export-blau:
@@ -317,7 +317,7 @@ jobs:
             New version of icons exported from [Blau](${{env.BLAU_FILE_URL}}) \n
             - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)
           draft: ${{ github.event.inputs.draft }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
           delete-branch: true
 
   export-vivo:
@@ -385,7 +385,7 @@ jobs:
             New version of icons exported from [Vivo](${{env.VIVO_FILE_URL}}) \n
             - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)
           draft: ${{ github.event.inputs.draft }}
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
           delete-branch: true
 # body: "
 #             New version of icons exported from [Mistica Icons][mistica-icons] & [O2][o2-icons] n\
