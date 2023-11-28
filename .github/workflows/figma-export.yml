@@ -381,9 +381,7 @@ jobs:
         uses: peter-evans/create-pull-request@v5
         with:
           title: "Update Vivo icons"
-          body: |
-            New version of icons exported from [Vivo](${{env.VIVO_FILE_URL}}) \n
-            - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)
+
           draft: ${{ github.event.inputs.draft }}
           token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
           delete-branch: true
