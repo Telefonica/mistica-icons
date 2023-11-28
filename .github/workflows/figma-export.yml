@@ -100,6 +100,8 @@ jobs:
         run: sudo python3 .github/md-generator/md-generator.py icons
 
       - name: Commit & Push
+        env:
+          GITHUB_TOKEN: ${{ secrets.NOVUM_PRIVATE_REPOS }}
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -169,6 +171,8 @@ jobs:
         run: sudo python3 .github/md-generator/md-generator.py icons
 
       - name: Commit & Push
+        env:
+          GITHUB_TOKEN: ${{ secrets.NOVUM_PRIVATE_REPOS }}
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -238,6 +242,8 @@ jobs:
         run: sudo python3 .github/md-generator/md-generator.py icons
 
       - name: Commit & Push
+        env:
+          GITHUB_TOKEN: ${{ secrets.NOVUM_PRIVATE_REPOS }}
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -305,6 +311,8 @@ jobs:
         run: sudo python3 .github/md-generator/md-generator.py icons
 
       - name: Commit & Push
+        env:
+          GITHUB_TOKEN: ${{ secrets.NOVUM_PRIVATE_REPOS }}
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -374,6 +382,8 @@ jobs:
         run: sudo python3 .github/md-generator/md-generator.py icons
 
       - name: Commit & Push
+        env:
+          GITHUB_TOKEN: ${{ secrets.NOVUM_PRIVATE_REPOS }}
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions[bot]@users.noreply.github.com"
