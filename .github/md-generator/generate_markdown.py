@@ -1,7 +1,7 @@
 import os
 import sys
 from generate_icon_table import generate_icon_table
-from generate_graph import create_bar_representation, icons_equivalence_data_table, count_total_icons, count_unique_icons, count_equivalent_icons, count_all_equivalent_icons
+from generate_graph import create_bar_representation, icons_equivalence_data_table, count_total_icons, count_unique_icons, count_equivalent_icons, count_all_equivalent_icons, unique_color, equivalence_color, all_equivalence_color, remaining_color
 
 def generate_bar_representation(icons_folder):
     # Define the desired order of folders
@@ -48,8 +48,8 @@ def main():
     # Generate bar representation
     bar_content = generate_bar_representation(icons_folder)
     
-    # Generate markdown table content
-    markdown_table_content = icons_equivalence_data_table(icons_folder)
+    # Generate icon equivalence table
+    equivalence_table = icons_equivalence_data_table(icons_folder)
 
     # Generate icon table content
     icon_table_content = generate_icon_table(icons_folder)
@@ -58,11 +58,11 @@ def main():
     with open(output_file_path, "w+") as file:
         file.write(documentation)
         file.write(bar_content)
-        file.write(markdown_table_content)
+        file.write(equivalence_table)
         file.write(icon_table_content)
         # You can also print the contents if needed
         # print(icon_table_content)
-        # print(markdown_table_content)
+        # print(equivalence_table)
 
 if __name__ == "__main__":
     main()

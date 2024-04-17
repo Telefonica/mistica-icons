@@ -1,5 +1,11 @@
 import os
 
+# Define los colores una vez fuera de las funciones
+all_equivalence_color = "0066FF"
+equivalence_color = "EAC344"
+unique_color = "59C2C9"
+remaining_color = "D1D5E4"
+
 def preprocess_filename(filename):
     return filename.replace("filled", "").replace("light", "").replace("regular", "")
 
@@ -64,11 +70,6 @@ def create_bar_representation(unique_counts, equivalence_percentages, all_equiva
     
     bar_representation = []
 
-    all_equivalence_color = "0066FF"
-    equivalence_color = "EAC344"
-    unique_color = "59C2C9"
-    remaining_color = "D1D5E4"
-
     for unique_count, equivalence_percentage, all_equivalence_percentage in zip(unique_counts, equivalence_percentages, all_equivalence_percentages):
         unique_percentage = unique_count / total_icons * 100
         unique_width = max(1, int(unique_percentage * bar_width / 100))
@@ -87,13 +88,13 @@ def create_bar_representation(unique_counts, equivalence_percentages, all_equiva
 
 
 def icons_equivalence_data_table(root_folder):
-    # Define the desired order of folders
-    desired_order = ["telefonica", "o2", "vivo-new", "blau"]  # Add more folders as needed
+    # Define el orden deseado de las carpetas
+    desired_order = ["telefonica", "o2", "vivo-new", "blau"]  # Agrega más carpetas según sea necesario
     
-    # Create full paths for the folders in the desired order
+    # Crea rutas completas para las carpetas en el orden deseado
     folders = [os.path.join(root_folder, folder) for folder in desired_order]
     
-    # Extract labels from folder names
+    # Extrae etiquetas de los nombres de las carpetas
     labels = desired_order
 
     unique_counts = [count_unique_icons(folder) for folder in folders]
@@ -104,13 +105,13 @@ def icons_equivalence_data_table(root_folder):
     total_icons = sum(total_counts)
 
     markdown_table = "<br/>\n"
-    markdown_table += "\n| Icon Set | Icon Concepts | Total Icons | Icons with All Equivalence | Icons with Equivalence | Unique Icons | Remaining |\n"
+    markdown_table += f"\n| Icon Set | Icon Concepts | Total Icons | Icons with All Equivalence | Icons with Equivalence | Unique Icons | Remaining |\n"
     markdown_table += "|:--------|-------------:|--------------:|----------:|------------------------:|---------------------------:|-------------:|\n"
     for label, folder, total_count, unique_count, equivalent_count, all_equivalent_count in zip(labels, folders, total_counts, unique_counts, equivalent_counts, all_equivalent_counts):
-        unique_percent = f"{unique_count / total_icons * 100:.1f}%" if total_icons > 0 else "0%"
-        equivalent_percent = f"{equivalent_count:.1f}%"
-        all_equivalent_percent = f"{all_equivalent_count:.1f}%"
-        remaining_percent = f"{100 - float(unique_count / total_icons * 100) - equivalent_count - all_equivalent_count:.1f}%" if total_icons > 0 else "0%"
+        unique_percent = f"{unique_count / total_icons * 100:.1f}%" + f" ![](https://dummyimage.com/8x8/{unique_color}/000000?text=+)" if total_icons > 0 else "0%"
+        equivalent_percent = f"{equivalent_count:.1f}%" + f" ![](https://dummyimage.com/8x8/{equivalence_color}/000000?text=+)"
+        all_equivalent_percent = f"{all_equivalent_count:.1f}%" + f" ![](https://dummyimage.com/8x8/{all_equivalence_color}/000000?text=+) "
+        remaining_percent = f"{100 - float(unique_count / total_icons * 100) - equivalent_count - all_equivalent_count:.1f}%" + f" ![](https://dummyimage.com/8x8/{remaining_color}/000000?text=+) " if total_icons > 0 else "0%"
         markdown_table += f"| {label} | {unique_count} | {total_count} | {all_equivalent_percent} | {equivalent_percent} | {unique_percent} | {remaining_percent} |\n"
 
     markdown_table += "\n"

@@ -45,10 +45,10 @@ blau
 
 | Icon Set | Icon Concepts | Total Icons | Icons with All Equivalence | Icons with Equivalence | Unique Icons | Remaining |
 |:--------|-------------:|--------------:|----------:|------------------------:|---------------------------:|-------------:|
-| telefonica | 420 | 1193 | 0.9% | 38.1% | 18.7% | 42.3% |
-| o2 | 302 | 894 | 1.2% | 49.9% | 13.5% | 35.4% |
-| vivo-new | 50 | 93 | 11.8% | 48.4% | 2.2% | 37.6% |
-| blau | 57 | 61 | 4.9% | 91.8% | 2.5% | 0.7% |
+| telefonica | 420 | 1193 | 0.9% ![](https://dummyimage.com/8x8/0066FF/000000?text=+)  | 38.1% ![](https://dummyimage.com/8x8/EAC344/000000?text=+) | 18.7% ![](https://dummyimage.com/8x8/59C2C9/000000?text=+) | 42.3% ![](https://dummyimage.com/8x8/D1D5E4/000000?text=+)  |
+| o2 | 302 | 894 | 1.2% ![](https://dummyimage.com/8x8/0066FF/000000?text=+)  | 49.9% ![](https://dummyimage.com/8x8/EAC344/000000?text=+) | 13.5% ![](https://dummyimage.com/8x8/59C2C9/000000?text=+) | 35.4% ![](https://dummyimage.com/8x8/D1D5E4/000000?text=+)  |
+| vivo-new | 50 | 93 | 11.8% ![](https://dummyimage.com/8x8/0066FF/000000?text=+)  | 48.4% ![](https://dummyimage.com/8x8/EAC344/000000?text=+) | 2.2% ![](https://dummyimage.com/8x8/59C2C9/000000?text=+) | 37.6% ![](https://dummyimage.com/8x8/D1D5E4/000000?text=+)  |
+| blau | 57 | 61 | 4.9% ![](https://dummyimage.com/8x8/0066FF/000000?text=+)  | 91.8% ![](https://dummyimage.com/8x8/EAC344/000000?text=+) | 2.5% ![](https://dummyimage.com/8x8/59C2C9/000000?text=+) | 0.7% ![](https://dummyimage.com/8x8/D1D5E4/000000?text=+)  |
 
 <sub>**Icon Set:** The name of the brand or folder being analyzed.</sub>  
 <sub>**Icon Concepts:** The number of unique icons in the set, i.e., those icons whose names do not repeat within the same brand.</sub>  
