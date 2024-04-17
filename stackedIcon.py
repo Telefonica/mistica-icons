@@ -69,7 +69,7 @@ def create_markdown_table(root_folder):
     folders = [os.path.join(root_folder, folder) for folder in os.listdir(root_folder) if os.path.isdir(os.path.join(root_folder, folder))]
     labels = [os.path.basename(folder) for folder in folders]
 
-    icon_concepts = [count_unique_icons(folder) for folder in folders]
+    unique_counts = [count_unique_icons(folder) for folder in folders]
     equivalent_counts = [count_equivalent_icons(folder, folders) for folder in folders]
     all_equivalent_counts = [count_all_equivalent_icons(folder, folders) for folder in folders]
     total_counts = [count_total_icons(folder) for folder in folders]
@@ -78,12 +78,13 @@ def create_markdown_table(root_folder):
     total_icons = sum(total_counts)
 
     # Create markdown table
-    markdown_table = "| Folder | Icon Concepts |Total Icons | Icons with Equivalence | Icons with All Equivalence | Remaining |\n"
-    markdown_table += "|:--------|-------------:|--------------:|------------------------:|---------------------------:|-------------:|\n"
-    for label, folder, total_count, icon_concept, equivalent_count, all_equivalent_count in zip(labels, folders, total_counts, icon_concepts, equivalent_counts, all_equivalent_counts):
-        remaining_percent = 100 - float(icon_concept / total_icons * 100) - float(equivalent_count[:-1]) - float(all_equivalent_count[:-1])
+    markdown_table = "| Icon Set | Icon Concepts | Total Icons | Icons with All Equivalence | Icons with Equivalence | Unique Icons | Remaining |\n"
+    markdown_table += "|:--------|-------------:|--------------:|----------:|------------------------:|---------------------------:|-------------:|\n"
+    for label, folder, total_count, unique_count, equivalent_count, all_equivalent_count in zip(labels, folders, total_counts, unique_counts, equivalent_counts, all_equivalent_counts):
+        unique_percent = f"{unique_count / total_icons * 100:.1f}%" if total_icons > 0 else "0%"
+        remaining_percent = 100 - float(unique_count / total_icons * 100) - float(equivalent_count[:-1]) - float(all_equivalent_count[:-1])
         remaining_percent = f"{remaining_percent:.1f}%" if remaining_percent > 0 else "0%"
-        markdown_table += f"| {label} | {icon_concept}  |{total_count} | {equivalent_count} | {all_equivalent_count} | {remaining_percent} |\n"
+        markdown_table += f"| {label} | {unique_count} | {total_count} | {all_equivalent_count} | {equivalent_count} | {unique_percent} | {remaining_percent} |\n"
 
     return markdown_table
 
