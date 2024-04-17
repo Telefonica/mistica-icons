@@ -1,10 +1,10 @@
 import os
 
-# Function to preprocess icon filenames
+# Función para preprocesar nombres de archivos de iconos
 def preprocess_filename(filename):
     return filename.replace("filled", "").replace("light", "").replace("regular", "")
 
-# Function to count total icons in a folder
+# Función para contar el total de iconos en una carpeta
 def count_total_icons(folder):
     total_icons = 0
     for subfolder in os.listdir(folder):
@@ -15,7 +15,7 @@ def count_total_icons(folder):
                     total_icons += 1
     return total_icons
 
-# Function to count unique icons in a folder
+# Función para contar los iconos únicos en una carpeta
 def count_unique_icons(folder):
     icons = set()
     for subfolder in os.listdir(folder):
@@ -26,7 +26,7 @@ def count_unique_icons(folder):
                     icons.add(preprocess_filename(filename))
     return len(icons)
 
-# Function to count icons with equivalence
+# Función para contar los iconos con equivalencia en una carpeta
 def count_equivalent_icons(folder, all_folders):
     equivalent = 0
     total_icons = count_total_icons(folder)
@@ -42,9 +42,9 @@ def count_equivalent_icons(folder, all_folders):
                                 if preprocess_filename(filename) in [preprocess_filename(f) for f in os.listdir(other_subfolder_path) if not f.startswith('.')]:
                                     equivalent += 1
                                     break
-    return f"{equivalent / total_icons * 100:.1f}%" if total_icons > 0 else "0%"
+    return equivalent / total_icons * 100 if total_icons > 0 else 0
 
-# Function to count icons with equivalence in all folders
+# Función para contar los iconos con equivalencia en todas las carpetas
 def count_all_equivalent_icons(folder, all_folders):
     all_equivalent = 0
     total_icons = count_total_icons(folder)
@@ -62,9 +62,10 @@ def count_all_equivalent_icons(folder, all_folders):
                                 break
                     if found_in_all:
                         all_equivalent += 1
-    return f"{all_equivalent / total_icons * 100:.1f}%" if total_icons > 0 else "0%"
+    return all_equivalent / total_icons * 100 if total_icons > 0 else 0
 
-# Main function to create markdown table
+# Función principal para crear la tabla Markdown
+# Función principal para crear la tabla Markdown
 def create_markdown_table(root_folder):
     folders = [os.path.join(root_folder, folder) for folder in os.listdir(root_folder) if os.path.isdir(os.path.join(root_folder, folder))]
     labels = [os.path.basename(folder) for folder in folders]
@@ -82,14 +83,65 @@ def create_markdown_table(root_folder):
     markdown_table += "|:--------|-------------:|--------------:|----------:|------------------------:|---------------------------:|-------------:|\n"
     for label, folder, total_count, unique_count, equivalent_count, all_equivalent_count in zip(labels, folders, total_counts, unique_counts, equivalent_counts, all_equivalent_counts):
         unique_percent = f"{unique_count / total_icons * 100:.1f}%" if total_icons > 0 else "0%"
-        remaining_percent = 100 - float(unique_count / total_icons * 100) - float(equivalent_count[:-1]) - float(all_equivalent_count[:-1])
-        remaining_percent = f"{remaining_percent:.1f}%" if remaining_percent > 0 else "0%"
-        markdown_table += f"| {label} | {unique_count} | {total_count} | {all_equivalent_count} | {equivalent_count} | {unique_percent} | {remaining_percent} |\n"
+        equivalent_percent = f"{equivalent_count:.1f}%"
+        all_equivalent_percent = f"{all_equivalent_count:.1f}%"
+        remaining_percent = f"{100 - float(unique_count / total_icons * 100) - equivalent_count - all_equivalent_count:.1f}%" if total_icons > 0 else "0%"
+        markdown_table += f"| {label} | {unique_count} | {total_count} | {all_equivalent_percent} | {equivalent_percent} | {unique_percent} | {remaining_percent} |\n"
 
     return markdown_table
+
+
+# Function to create bar representation for each folder
+def create_bar_representation(unique_percentages, equivalence_percentages, all_equivalence_percentages):
+    bar_representation = []
+
+    all_equivalence_color = "0066FF"
+    equivalence_color = "EAC344"
+    unique_color = "59C2C9"
+    remaining_color = "D1D5E4"
+
+    for unique_percentages, equivalence_percentages, all_equivalence_percentages in zip(unique_percentages, equivalence_percentages, all_equivalence_percentages):
+        total_width = 200  # Ancho total de la barra
+
+        # Calcular los anchos relativos para cada parte de la barra
+        unique_width = unique_percentages * total_width
+        equivalence_width = equivalence_percentages * total_width
+        all_equivalence_width = all_equivalence_percentages * total_width
+        remaining_width = total_width - (unique_width + equivalence_width + all_equivalence_width)
+
+        # Crear la representación de la barra para la carpeta actual
+        bar = (
+            f"![](https://via.placeholder.com/{int(all_equivalence_width)}x15/{all_equivalence_color}/000000?text=+)"
+            f"![](https://via.placeholder.com/{int(equivalence_width)}x15/{equivalence_color}/000000?text=+)"
+            f"![](https://via.placeholder.com/{int(unique_width)}x15/{unique_color}/000000?text=+)"
+            f"![](https://via.placeholder.com/{int(remaining_width)}x15/{remaining_color}/000000?text=+)"
+        )
+
+        # Agregar la representación de la barra a la lista
+        bar_representation.append(bar)
+
+    return bar_representation
+
+
 
 # Run the script
 if __name__ == "__main__":
     icons_folder = "icons"
     markdown_table = create_markdown_table(icons_folder)
-    print(markdown_table)
+    # print(markdown_table)
+    
+
+    folders = [os.path.join(icons_folder, folder) for folder in os.listdir(icons_folder) if os.path.isdir(os.path.join(icons_folder, folder))]
+    labels = [os.path.basename(folder) for folder in folders]
+
+    # Get the percentages for each folder
+    unique_percentages = [count_unique_icons(folder) / count_total_icons(folder) * 100 for folder in folders]
+    equivalence_percentages = [count_equivalent_icons(folder, folders) for folder in folders]
+    all_equivalence_percentages = [count_all_equivalent_icons(folder, folders) for folder in folders]
+
+    # Create bar representation for each folder
+    bar_representation = create_bar_representation(unique_percentages, equivalence_percentages, all_equivalence_percentages)
+
+    # Print the bar representation
+    for label, bar in zip(labels, bar_representation):
+        print(f"{label}\n{bar}")
