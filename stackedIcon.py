@@ -100,36 +100,29 @@ def create_bar_representation(unique_percentages, equivalence_percentages, all_e
     unique_color = "59C2C9"
     remaining_color = "D1D5E4"
 
-    for unique_percentages, equivalence_percentages, all_equivalence_percentages in zip(unique_percentages, equivalence_percentages, all_equivalence_percentages):
-        total_width = 200  # Ancho total de la barra
-
-        # Calcular los anchos relativos para cada parte de la barra
-        unique_width = unique_percentages * total_width
-        equivalence_width = equivalence_percentages * total_width
-        all_equivalence_width = all_equivalence_percentages * total_width
-        remaining_width = total_width - (unique_width + equivalence_width + all_equivalence_width)
-
+    for unique, equivalence, all_equivalence in zip(unique_percentages, equivalence_percentages, all_equivalence_percentages):
+        unique_width = max(1, int(unique / 100 * 100))  # Width percentage for "Unique Icons"
+        equivalence_width = max(1, int(equivalence / 100 * 100))  # Width percentage for "Icons with Equivalence"
+        all_equivalence_width = max(1, int(all_equivalence / 100 * 100))  # Width percentage for "Icons with All Equivalence"
+        remaining_width = max(1, 100 - unique_width - equivalence_width - all_equivalence_width)  # Width percentage for "Remaining"
+        
         # Crear la representación de la barra para la carpeta actual
-        bar = (
-            f"![](https://via.placeholder.com/{int(all_equivalence_width)}x15/{all_equivalence_color}/000000?text=+)"
-            f"![](https://via.placeholder.com/{int(equivalence_width)}x15/{equivalence_color}/000000?text=+)"
-            f"![](https://via.placeholder.com/{int(unique_width)}x15/{unique_color}/000000?text=+)"
-            f"![](https://via.placeholder.com/{int(remaining_width)}x15/{remaining_color}/000000?text=+)"
-        )
-
+        bar = f"![](https://via.placeholder.com/{all_equivalence_width}x15/{all_equivalence_color}/000000?text=+)" \
+              f"![](https://via.placeholder.com/{equivalence_width}x15/{equivalence_color}/000000?text=+)" \
+              f"![](https://via.placeholder.com/{unique_width}x15/{unique_color}/000000?text=+)" \
+              f"![](https://via.placeholder.com/{remaining_width}x15/{remaining_color}/000000?text=+)"
+        
         # Agregar la representación de la barra a la lista
         bar_representation.append(bar)
 
     return bar_representation
 
 
-
 # Run the script
 if __name__ == "__main__":
     icons_folder = "icons"
     markdown_table = create_markdown_table(icons_folder)
-    # print(markdown_table)
-    
+    print(markdown_table)
 
     folders = [os.path.join(icons_folder, folder) for folder in os.listdir(icons_folder) if os.path.isdir(os.path.join(icons_folder, folder))]
     labels = [os.path.basename(folder) for folder in folders]
@@ -144,4 +137,4 @@ if __name__ == "__main__":
 
     # Print the bar representation
     for label, bar in zip(labels, bar_representation):
-        print(f"{label}\n{bar}")
+        print(f"{label}\n {bar}")
