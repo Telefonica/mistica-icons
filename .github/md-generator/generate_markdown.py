@@ -1,13 +1,18 @@
-# generate_markdown.py
-
 import os
 import sys
 from generate_icon_table import generate_icon_table
 from generate_graph import create_bar_representation, icons_equivalence_data_table, count_total_icons, count_unique_icons, count_equivalent_icons, count_all_equivalent_icons
 
 def generate_bar_representation(icons_folder):
-    folders = [os.path.join(icons_folder, folder) for folder in os.listdir(icons_folder) if os.path.isdir(os.path.join(icons_folder, folder))]
-    labels = [os.path.basename(folder) for folder in folders]
+    # Define the desired order of folders
+    desired_order = ["telefonica", "o2", "vivo-new", "blau"]  # Add more folders as needed
+    
+    # Create full paths for the folders in the desired order
+    folders = [os.path.join(icons_folder, folder) for folder in desired_order]
+    
+    # Extract labels from folder names
+    labels = desired_order
+    
     total_counts = [count_total_icons(folder) for folder in folders]
     unique_counts = [count_unique_icons(folder) for folder in folders]
     equivalence_percentages = [count_equivalent_icons(folder, folders) for folder in folders]
@@ -23,6 +28,7 @@ def generate_bar_representation(icons_folder):
         bar_content += f"{label}  \n {bar}\n\n"
     
     return bar_content
+
 
 def main():
     BREAK = "\n"

@@ -87,8 +87,14 @@ def create_bar_representation(unique_counts, equivalence_percentages, all_equiva
 
 
 def icons_equivalence_data_table(root_folder):
-    folders = [os.path.join(root_folder, folder) for folder in os.listdir(root_folder) if os.path.isdir(os.path.join(root_folder, folder))]
-    labels = [os.path.basename(folder) for folder in folders]
+    # Define the desired order of folders
+    desired_order = ["telefonica", "o2", "vivo-new", "blau"]  # Add more folders as needed
+    
+    # Create full paths for the folders in the desired order
+    folders = [os.path.join(root_folder, folder) for folder in desired_order]
+    
+    # Extract labels from folder names
+    labels = desired_order
 
     unique_counts = [count_unique_icons(folder) for folder in folders]
     equivalent_counts = [count_equivalent_icons(folder, folders) for folder in folders]
@@ -139,4 +145,3 @@ def icons_equivalence_data_table(root_folder):
     markdown_table += "---"
 
     return markdown_table
-

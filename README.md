@@ -29,26 +29,26 @@ Use Mística icons library in Figma!
 
 ## Equivalence status
 
+telefonica  
+ ![](https://dummyimage.com/4x8/0066FF/000000?text=+)![](https://dummyimage.com/190x8/EAC344/000000?text=+)![](https://dummyimage.com/93x8/59C2C9/000000?text=+)![](https://dummyimage.com/213x8/D1D5E4/000000?text=+)
+
 o2  
  ![](https://dummyimage.com/6x8/0066FF/000000?text=+)![](https://dummyimage.com/249x8/EAC344/000000?text=+)![](https://dummyimage.com/67x8/59C2C9/000000?text=+)![](https://dummyimage.com/178x8/D1D5E4/000000?text=+)
-
-blau  
- ![](https://dummyimage.com/24x8/0066FF/000000?text=+)![](https://dummyimage.com/459x8/EAC344/000000?text=+)![](https://dummyimage.com/12x8/59C2C9/000000?text=+)![](https://dummyimage.com/5x8/D1D5E4/000000?text=+)
 
 vivo-new  
  ![](https://dummyimage.com/59x8/0066FF/000000?text=+)![](https://dummyimage.com/241x8/EAC344/000000?text=+)![](https://dummyimage.com/11x8/59C2C9/000000?text=+)![](https://dummyimage.com/189x8/D1D5E4/000000?text=+)
 
-telefonica  
- ![](https://dummyimage.com/4x8/0066FF/000000?text=+)![](https://dummyimage.com/190x8/EAC344/000000?text=+)![](https://dummyimage.com/93x8/59C2C9/000000?text=+)![](https://dummyimage.com/213x8/D1D5E4/000000?text=+)
+blau  
+ ![](https://dummyimage.com/24x8/0066FF/000000?text=+)![](https://dummyimage.com/459x8/EAC344/000000?text=+)![](https://dummyimage.com/12x8/59C2C9/000000?text=+)![](https://dummyimage.com/5x8/D1D5E4/000000?text=+)
 
 <br/>
 
 | Icon Set | Icon Concepts | Total Icons | Icons with All Equivalence | Icons with Equivalence | Unique Icons | Remaining |
 |:--------|-------------:|--------------:|----------:|------------------------:|---------------------------:|-------------:|
-| o2 | 302 | 894 | 1.2% | 49.9% | 13.5% | 35.4% |
-| blau | 57 | 61 | 4.9% | 91.8% | 2.5% | 0.7% |
-| vivo-new | 50 | 93 | 11.8% | 48.4% | 2.2% | 37.6% |
 | telefonica | 420 | 1193 | 0.9% | 38.1% | 18.7% | 42.3% |
+| o2 | 302 | 894 | 1.2% | 49.9% | 13.5% | 35.4% |
+| vivo-new | 50 | 93 | 11.8% | 48.4% | 2.2% | 37.6% |
+| blau | 57 | 61 | 4.9% | 91.8% | 2.5% | 0.7% |
 
 <sub>**Icon Set:** The name of the brand or folder being analyzed.</sub>  
 <sub>**Icon Concepts:** The number of unique icons in the set, i.e., those icons whose names do not repeat within the same brand.</sub>  
