@@ -11,7 +11,7 @@ def count_total_icons(folder):
         subfolder_path = os.path.join(folder, subfolder)
         if os.path.isdir(subfolder_path):
             for filename in os.listdir(subfolder_path):
-                if filename.endswith(".svg"):
+                if filename.endswith(".svg") and not filename.startswith('.'):
                     total_icons += 1
     return total_icons
 
@@ -22,45 +22,47 @@ def count_unique_icons(folder):
         subfolder_path = os.path.join(folder, subfolder)
         if os.path.isdir(subfolder_path):
             for filename in os.listdir(subfolder_path):
-                if filename.endswith(".svg"):
+                if filename.endswith(".svg") and not filename.startswith('.'):
                     icons.add(preprocess_filename(filename))
     return len(icons)
 
 # Function to count icons with equivalence
 def count_equivalent_icons(folder, all_folders):
     equivalent = 0
+    total_icons = count_total_icons(folder)
     for subfolder in os.listdir(folder):
         subfolder_path = os.path.join(folder, subfolder)
         if os.path.isdir(subfolder_path):
             for filename in os.listdir(subfolder_path):
-                if filename.endswith(".svg"):
+                if filename.endswith(".svg") and not filename.startswith('.'):
                     for other_folder in all_folders:
                         if other_folder != folder:
                             other_subfolder_path = os.path.join(other_folder, subfolder)
                             if os.path.isdir(other_subfolder_path):
-                                if preprocess_filename(filename) in [preprocess_filename(f) for f in os.listdir(other_subfolder_path)]:
+                                if preprocess_filename(filename) in [preprocess_filename(f) for f in os.listdir(other_subfolder_path) if not f.startswith('.')]:
                                     equivalent += 1
                                     break
-    return equivalent
+    return f"{equivalent / total_icons * 100:.1f}%" if total_icons > 0 else "0%"
 
 # Function to count icons with equivalence in all folders
 def count_all_equivalent_icons(folder, all_folders):
     all_equivalent = 0
+    total_icons = count_total_icons(folder)
     for subfolder in os.listdir(folder):
         subfolder_path = os.path.join(folder, subfolder)
         if os.path.isdir(subfolder_path):
             for filename in os.listdir(subfolder_path):
-                if filename.endswith(".svg"):
+                if filename.endswith(".svg") and not filename.startswith('.'):
                     found_in_all = True
                     for other_folder in all_folders:
                         other_subfolder_path = os.path.join(other_folder, subfolder)
                         if os.path.isdir(other_subfolder_path):
-                            if preprocess_filename(filename) not in [preprocess_filename(f) for f in os.listdir(other_subfolder_path)]:
+                            if preprocess_filename(filename) not in [preprocess_filename(f) for f in os.listdir(other_subfolder_path) if not f.startswith('.')]:
                                 found_in_all = False
                                 break
                     if found_in_all:
                         all_equivalent += 1
-    return all_equivalent
+    return f"{all_equivalent / total_icons * 100:.1f}%" if total_icons > 0 else "0%"
 
 # Main function to create markdown table
 def create_markdown_table(root_folder):
@@ -76,14 +78,12 @@ def create_markdown_table(root_folder):
     total_icons = sum(total_counts)
 
     # Create markdown table
-    markdown_table = "| Folder | Total Icons | Unique Icons | Icons with Equivalence | Icons with All Equivalence | Unique % | Equivalence % | All Equivalence % | Remaining % |\n"
-    markdown_table += "|--------|-------------|--------------|------------------------|---------------------------|----------|---------------|------------------|-------------|\n"
-    for label, total_count, unique_count, equivalent_count, all_equivalent_count in zip(labels, total_counts, unique_counts, equivalent_counts, all_equivalent_counts):
-        unique_percent = unique_count / total_count * 100 if total_count > 0 else 0
-        equivalent_percent = equivalent_count / total_count * 100 if total_count > 0 else 0
-        all_equivalent_percent = all_equivalent_count / total_count * 100 if total_count > 0 else 0
-        remaining_percent = 100 - (unique_percent + equivalent_percent + all_equivalent_percent)
-        markdown_table += f"| {label} | {total_count} | {unique_count} | {equivalent_count} | {all_equivalent_count} | {unique_percent:.2f}% | {equivalent_percent:.2f}% | {all_equivalent_percent:.2f}% | {remaining_percent:.2f}% |\n"
+    markdown_table = "| Folder | Total Icons | Unique Icons | Icons with Equivalence | Icons with All Equivalence | Remaining % |\n"
+    markdown_table += "|--------|-------------|--------------|------------------------|---------------------------|-------------|\n"
+    for label, folder, total_count, unique_count, equivalent_count, all_equivalent_count in zip(labels, folders, total_counts, unique_counts, equivalent_counts, all_equivalent_counts):
+        remaining_percent = 100 - float(unique_count / total_icons * 100) - float(equivalent_count[:-1]) - float(all_equivalent_count[:-1])
+        remaining_percent = f"{remaining_percent:.1f}%" if remaining_percent > 0 else "0%"
+        markdown_table += f"| {label} | {total_count} | {unique_count} | {equivalent_count} | {all_equivalent_count} | {remaining_percent} |\n"
 
     return markdown_table
 
