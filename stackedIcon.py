@@ -91,7 +91,7 @@ def create_markdown_table(root_folder):
 
 
 # Function to create bar representation for each folder
-def create_bar_representation(unique_percentages, equivalence_percentages, all_equivalence_percentages):
+def create_bar_representation(unique_counts, equivalence_percentages, all_equivalence_percentages, total_icons, bar_width=100):
     bar_representation = []
 
     all_equivalence_color = "0066FF"
@@ -99,11 +99,12 @@ def create_bar_representation(unique_percentages, equivalence_percentages, all_e
     unique_color = "59C2C9"
     remaining_color = "D1D5E4"
 
-    for unique, equivalence, all_equivalence in zip(unique_percentages, equivalence_percentages, all_equivalence_percentages):
-        unique_width = max(1, int(unique / 100 * 100))  # Width percentage for "Unique Icons"
-        equivalence_width = max(1, int(equivalence / 100 * 100))  # Width percentage for "Icons with Equivalence"
-        all_equivalence_width = max(1, int(all_equivalence / 100 * 100))  # Width percentage for "Icons with All Equivalence"
-        remaining_width = max(1, 100 - unique_width - equivalence_width - all_equivalence_width)  # Width percentage for "Remaining"
+    for unique_count, equivalence_percentage, all_equivalence_percentage in zip(unique_counts, equivalence_percentages, all_equivalence_percentages):
+        unique_percentage = unique_count / total_icons * 100
+        unique_width = max(1, int(unique_percentage * bar_width / 100))  # Width percentage for "Unique Icons"
+        equivalence_width = max(1, int(equivalence_percentage * bar_width / 100))  # Width percentage for "Icons with Equivalence"
+        all_equivalence_width = max(1, int(all_equivalence_percentage * bar_width / 100))  # Width percentage for "Icons with All Equivalence"
+        remaining_width = max(1, bar_width - unique_width - equivalence_width - all_equivalence_width)  # Width percentage for "Remaining"
         
         # Crear la representación de la barra para la carpeta actual
         bar = f"![](https://via.placeholder.com/{all_equivalence_width}x15/{all_equivalence_color}/000000?text=+)" \
@@ -131,9 +132,17 @@ if __name__ == "__main__":
     equivalence_percentages = [count_equivalent_icons(folder, folders) for folder in folders]
     all_equivalence_percentages = [count_all_equivalent_icons(folder, folders) for folder in folders]
 
+    # Get the total counts and unique counts for each folder
+    total_counts = [count_total_icons(folder) for folder in folders]
+    unique_counts = [count_unique_icons(folder) for folder in folders]
+
+    # Calculate total icons
+    total_icons = sum(total_counts)
+
     # Create bar representation for each folder
-    bar_representation = create_bar_representation(unique_percentages, equivalence_percentages, all_equivalence_percentages)
+    bar_representation = create_bar_representation(unique_counts, equivalence_percentages, all_equivalence_percentages, total_icons, bar_width=200)
 
     # Print the bar representation
     for label, bar in zip(labels, bar_representation):
         print(f"{label}\n {bar}")
+
