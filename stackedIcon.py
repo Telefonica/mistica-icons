@@ -65,7 +65,6 @@ def count_all_equivalent_icons(folder, all_folders):
     return all_equivalent / total_icons * 100 if total_icons > 0 else 0
 
 # Función principal para crear la tabla Markdown
-# Función principal para crear la tabla Markdown
 def create_markdown_table(root_folder):
     folders = [os.path.join(root_folder, folder) for folder in os.listdir(root_folder) if os.path.isdir(os.path.join(root_folder, folder))]
     labels = [os.path.basename(folder) for folder in folders]
