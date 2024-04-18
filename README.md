@@ -52,7 +52,7 @@ blau
 
 <sub>**Icon Set:** The name of the brand being analyzed.</sub>  
 <sub>**Concepts:** The number of unique icons in the set, i.e., those icons whose names do not repeat within the same brand.</sub>  
-<sub>**Total:** The total number of icons found in a brand set.</sub>  
+<sub>**Total:** The total number of icons found in a brand set. Counting light, regular and filled weights.</sub>  
 <sub>**All Equivalence:** The percentage of icons that have equivalence in all icon sets, relative to the total number of icons in a specific set.</sub>  
 <sub>**Some Equivalence:** The percentage of icons that have at least one equivalence with another icon in some other set, relative to the total number of icons in the set.</sub>  
 <sub>**Unique:** The percentage of unique icons relative to the total number of icons in the this set.</sub>  
