@@ -30,13 +30,13 @@ Use Mística icons library in Figma!
 
 
 telefonica  
- ![](https://dummyimage.com/1x8/0066FF/000000?text=+)![](https://dummyimage.com/190x8/EAC344/000000?text=+)![](https://dummyimage.com/93x8/59C2C9/000000?text=+)![](https://dummyimage.com/1x8/D1D5E4/000000?text=+)
+ ![](https://dummyimage.com/4x8/0066FF/000000?text=+)![](https://dummyimage.com/190x8/EAC344/000000?text=+)![](https://dummyimage.com/93x8/59C2C9/000000?text=+)![](https://dummyimage.com/1x8/D1D5E4/000000?text=+)
 
 o2  
- ![](https://dummyimage.com/1x8/0066FF/000000?text=+)![](https://dummyimage.com/249x8/EAC344/000000?text=+)![](https://dummyimage.com/67x8/59C2C9/000000?text=+)![](https://dummyimage.com/1x8/D1D5E4/000000?text=+)
+ ![](https://dummyimage.com/6x8/0066FF/000000?text=+)![](https://dummyimage.com/249x8/EAC344/000000?text=+)![](https://dummyimage.com/67x8/59C2C9/000000?text=+)![](https://dummyimage.com/1x8/D1D5E4/000000?text=+)
 
 vivo-new  
- ![](https://dummyimage.com/15x8/0066FF/000000?text=+)![](https://dummyimage.com/227x8/EAC344/000000?text=+)![](https://dummyimage.com/11x8/59C2C9/000000?text=+)![](https://dummyimage.com/1x8/D1D5E4/000000?text=+)
+ ![](https://dummyimage.com/55x8/0066FF/000000?text=+)![](https://dummyimage.com/227x8/EAC344/000000?text=+)![](https://dummyimage.com/11x8/59C2C9/000000?text=+)![](https://dummyimage.com/1x8/D1D5E4/000000?text=+)
 
 blau  
  ![](https://dummyimage.com/24x8/0066FF/000000?text=+)![](https://dummyimage.com/459x8/EAC344/000000?text=+)![](https://dummyimage.com/12x8/59C2C9/000000?text=+)![](https://dummyimage.com/1x8/D1D5E4/000000?text=+)
@@ -45,9 +45,9 @@ blau
 
 | Icon Set | Concepts | Total | All Equivalence | Some Equivalence | Unique | Missing |
 |:--------|-------------:|--------------:|----------:|------------------------:|---------------------------:|-------------:|
-| telefonica | 420 | 1193 | 0.3% ![](https://dummyimage.com/8x8/0066FF/000000?text=+)  | 38.1% ![](https://dummyimage.com/8x8/EAC344/000000?text=+) | 18.7% ![](https://dummyimage.com/8x8/59C2C9/000000?text=+) | 0.0% ![](https://dummyimage.com/8x8/D1D5E4/000000?text=+)  |
-| o2 | 302 | 894 | 0.3% ![](https://dummyimage.com/8x8/0066FF/000000?text=+)  | 49.9% ![](https://dummyimage.com/8x8/EAC344/000000?text=+) | 13.4% ![](https://dummyimage.com/8x8/59C2C9/000000?text=+) | 0.0% ![](https://dummyimage.com/8x8/D1D5E4/000000?text=+)  |
-| vivo-new | 52 | 99 | 3.0% ![](https://dummyimage.com/8x8/0066FF/000000?text=+)  | 45.5% ![](https://dummyimage.com/8x8/EAC344/000000?text=+) | 2.3% ![](https://dummyimage.com/8x8/59C2C9/000000?text=+) | 0.0% ![](https://dummyimage.com/8x8/D1D5E4/000000?text=+)  |
+| telefonica | 420 | 1193 | 0.9% ![](https://dummyimage.com/8x8/0066FF/000000?text=+)  | 38.1% ![](https://dummyimage.com/8x8/EAC344/000000?text=+) | 18.7% ![](https://dummyimage.com/8x8/59C2C9/000000?text=+) | 0.0% ![](https://dummyimage.com/8x8/D1D5E4/000000?text=+)  |
+| o2 | 302 | 894 | 1.2% ![](https://dummyimage.com/8x8/0066FF/000000?text=+)  | 49.9% ![](https://dummyimage.com/8x8/EAC344/000000?text=+) | 13.4% ![](https://dummyimage.com/8x8/59C2C9/000000?text=+) | 0.0% ![](https://dummyimage.com/8x8/D1D5E4/000000?text=+)  |
+| vivo-new | 52 | 99 | 11.1% ![](https://dummyimage.com/8x8/0066FF/000000?text=+)  | 45.5% ![](https://dummyimage.com/8x8/EAC344/000000?text=+) | 2.3% ![](https://dummyimage.com/8x8/59C2C9/000000?text=+) | 0.0% ![](https://dummyimage.com/8x8/D1D5E4/000000?text=+)  |
 | blau | 57 | 61 | 4.9% ![](https://dummyimage.com/8x8/0066FF/000000?text=+)  | 91.8% ![](https://dummyimage.com/8x8/EAC344/000000?text=+) | 2.5% ![](https://dummyimage.com/8x8/59C2C9/000000?text=+) | 0.0% ![](https://dummyimage.com/8x8/D1D5E4/000000?text=+)  |
 
 <sub>**Icon Set:** The name of the brand being analyzed.</sub>  
