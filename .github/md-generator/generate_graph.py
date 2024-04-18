@@ -144,7 +144,7 @@ def icons_equivalence_data_table(root_folder):
     markdown_table += "</sub>  "
     markdown_table += "\n"
     markdown_table += "<sub>"
-    markdown_table += "**Total:** The total number of icons found in a brand set."
+    markdown_table += "**Total:** The total number of icons found in a brand set. Counting light, regular and filled weights."
     markdown_table += "</sub>  "
     markdown_table += "\n"
     markdown_table += "<sub>"
