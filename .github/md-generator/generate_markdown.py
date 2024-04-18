@@ -1,7 +1,7 @@
 import os
 import sys
 from generate_icon_table import generate_icon_table
-from generate_graph import generate_bar_representation, icons_equivalence_data_table, count_total_icons, count_unique_icons, count_equivalent_icons, count_all_equivalent_icons, unique_color, equivalence_color, all_equivalence_color, missing_color
+from generate_graph import generate_bar_representation, icons_equivalence_data_table
 
 def main():
     BREAK = "\n"
