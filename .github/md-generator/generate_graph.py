@@ -150,7 +150,7 @@ def icons_equivalence_data_table(root_folder):
         unique_percent = f"{unique_count / total_icons * 100:.1f}%" + f" ![](https://dummyimage.com/8x8/{unique_color}/000000?text=+)" if total_icons > 0 else "0%"
         equivalent_percent = f"{equivalent_count:.1f}%" + f" ![](https://dummyimage.com/8x8/{equivalence_color}/000000?text=+)"
         all_equivalent_percent = f"{all_equivalent_count:.1f}%" + f" ![](https://dummyimage.com/8x8/{all_equivalence_color}/000000?text=+) "
-        missing_percent = f"{missing_count / total_count * 100:.1f}%" + f" ![](https://dummyimage.com/8x8/{missing_color}/000000?text=+) "  # Calculate missing percent
+        missing_percent = f"{missing_count / total_count * 100:.1f}%" + f" ![](https://dummyimage.com/8x8/{missing_color}/000000?text=+) "
         markdown_table += f"| {label} | {unique_count} | {total_count} | {all_equivalent_percent} | {equivalent_percent} | {unique_percent} | {missing_percent} |\n"
         print(f"Icon Set: {label}")
         print(f"Total Concepts: {unique_count}")
