@@ -1,34 +1,7 @@
 import os
 import sys
 from generate_icon_table import generate_icon_table
-from generate_graph import create_bar_representation, icons_equivalence_data_table, count_total_icons, count_unique_icons, count_equivalent_icons, count_all_equivalent_icons, unique_color, equivalence_color, all_equivalence_color, remaining_color
-
-def generate_bar_representation(icons_folder):
-    # Define the desired order of folders
-    desired_order = ["telefonica", "o2", "vivo-new", "blau"]  # Add more folders as needed
-    
-    # Create full paths for the folders in the desired order
-    folders = [os.path.join(icons_folder, folder) for folder in desired_order]
-    
-    # Extract labels from folder names
-    labels = desired_order
-    
-    total_counts = [count_total_icons(folder) for folder in folders]
-    unique_counts = [count_unique_icons(folder) for folder in folders]
-    equivalence_percentages = [count_equivalent_icons(folder, folders) for folder in folders]
-    all_equivalence_percentages = [count_all_equivalent_icons(folder, folders) for folder in folders]
-    total_icons = sum(total_counts)
-    bar_representation = create_bar_representation(unique_counts, equivalence_percentages, all_equivalence_percentages, total_icons)
-
-    # Concatenate bar representation to markdown table content
-    bar_content = ""
-    bar_content += "\n\n"
-    bar_content += "## Equivalence status\n\n"
-    for label, bar in zip(labels, bar_representation):
-        bar_content += f"{label}  \n {bar}\n\n"
-    
-    return bar_content
-
+from generate_graph import generate_bar_representation, icons_equivalence_data_table, count_total_icons, count_unique_icons, count_equivalent_icons, count_all_equivalent_icons, unique_color, equivalence_color, all_equivalence_color, remaining_color
 
 def main():
     BREAK = "\n"
@@ -46,13 +19,13 @@ def main():
         "Visit [Mistica Storybook](https://mistica-web.vercel.app/?path=/story/icons-catalog--catalog) to get all the detail about using Mistica Icons Library" + BREAK + BREAK + "### Design" + BREAK + BREAK + "Use Mística icons library in Figma!" + BREAK + BREAK
 
     # Generate bar representation
-    bar_content = generate_bar_representation(icons_folder)
+    bar_content = "## Equivalence status\n\n" + generate_bar_representation(icons_folder)
     
     # Generate icon equivalence table
     equivalence_table = icons_equivalence_data_table(icons_folder)
 
     # Generate icon table content
-    icon_table_content = generate_icon_table(icons_folder)
+    icon_table_content = "## Equivalence table\n\n" + generate_icon_table(icons_folder)
 
     # Print or write the contents to the output file
     with open(output_file_path, "w+") as file:

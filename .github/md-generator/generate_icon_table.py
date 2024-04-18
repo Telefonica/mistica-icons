@@ -18,7 +18,7 @@ def generate_icon_table(path):  # Renombrar la función para que coincida con el
     brands = [folder for folder in os.listdir(path) if os.path.isdir(os.path.join(path, folder))]
     root = os.path.basename(path)
     dictionary = {}
-    file_content = BREAK + "## Icons equivalence table" + BREAK + BREAK + "| ---BRANDS--- | icon name |" + \
+    file_content = BREAK + "| ---BRANDS--- | icon name |" + \
         BREAK + "| ---HEADER-BREAK--- |" + ":--- |" + BREAK
     for brand in brands:
         brand_folder = path + SLASH + brand

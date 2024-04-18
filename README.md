@@ -25,9 +25,9 @@ Visit [Mistica Storybook](https://mistica-web.vercel.app/?path=/story/icons-cata
 
 Use Mística icons library in Figma!
 
-
-
 ## Equivalence status
+
+
 
 telefonica  
  ![](https://dummyimage.com/4x8/0066FF/000000?text=+)![](https://dummyimage.com/190x8/EAC344/000000?text=+)![](https://dummyimage.com/93x8/59C2C9/000000?text=+)![](https://dummyimage.com/213x8/D1D5E4/000000?text=+)
@@ -58,8 +58,8 @@ blau
 <sub>**Unique Icons:** The percentage of unique icons relative to the total number of icons in the folder.</sub>  
 <sub>**Remaining:** The remaining percentage of icons after taking into account unique icons, icons with equivalence, and icons with equivalence in all folders. This percentage represents the icons that do not fall into any of these categories.</sub>
 
----
-## Icons equivalence table
+## Equivalence table
+
 
 | telefonica | vivo-new | o2 | blau | icon name |
 | :---: | :---: | :---: | :---: |:--- |
