@@ -43,20 +43,20 @@ blau
 
 <br/>
 
-| Icon Set | Concepts | Icons | All Equivalence | Some Equivalence | Unique | Remaining |
+| Icon Set | Concepts | Total | All Equivalence | Some Equivalence | Unique | Remaining |
 |:--------|-------------:|--------------:|----------:|------------------------:|---------------------------:|-------------:|
 | telefonica | 420 | 1193 | 0.9% ![](https://dummyimage.com/8x8/0066FF/000000?text=+)  | 38.1% ![](https://dummyimage.com/8x8/EAC344/000000?text=+) | 18.7% ![](https://dummyimage.com/8x8/59C2C9/000000?text=+) | 42.3% ![](https://dummyimage.com/8x8/D1D5E4/000000?text=+)  |
 | o2 | 302 | 894 | 1.2% ![](https://dummyimage.com/8x8/0066FF/000000?text=+)  | 49.9% ![](https://dummyimage.com/8x8/EAC344/000000?text=+) | 13.4% ![](https://dummyimage.com/8x8/59C2C9/000000?text=+) | 35.4% ![](https://dummyimage.com/8x8/D1D5E4/000000?text=+)  |
 | vivo-new | 52 | 99 | 11.1% ![](https://dummyimage.com/8x8/0066FF/000000?text=+)  | 45.5% ![](https://dummyimage.com/8x8/EAC344/000000?text=+) | 2.3% ![](https://dummyimage.com/8x8/59C2C9/000000?text=+) | 41.1% ![](https://dummyimage.com/8x8/D1D5E4/000000?text=+)  |
 | blau | 57 | 61 | 4.9% ![](https://dummyimage.com/8x8/0066FF/000000?text=+)  | 91.8% ![](https://dummyimage.com/8x8/EAC344/000000?text=+) | 2.5% ![](https://dummyimage.com/8x8/59C2C9/000000?text=+) | 0.7% ![](https://dummyimage.com/8x8/D1D5E4/000000?text=+)  |
 
-<sub>**Icon Set:** The name of the brand or folder being analyzed.</sub>  
+<sub>**Icon Set:** The name of the brand being analyzed.</sub>  
 <sub>**Concepts:** The number of unique icons in the set, i.e., those icons whose names do not repeat within the same brand.</sub>  
-<sub>**Total:** The total number of icons found in the folder.</sub>  
+<sub>**Total:** The total number of icons found in a brand set.</sub>  
 <sub>**All Equivalence:** The percentage of icons that have equivalence in all icon sets, relative to the total number of icons in a specific set.</sub>  
-<sub>**Some Equivalence:** The percentage of icons that have at least one equivalence with another icon in some other brand, relative to the total number of icons in the folder.</sub>  
-<sub>**Unique:** The percentage of unique icons relative to the total number of icons in the folder.</sub>  
-<sub>**Remaining:** The remaining percentage of icons after taking into account unique icons, icons with equivalence, and icons with equivalence in all folders. This percentage represents the icons that do not fall into any of these categories.</sub>
+<sub>**Some Equivalence:** The percentage of icons that have at least one equivalence with another icon in some other set, relative to the total number of icons in the set.</sub>  
+<sub>**Unique:** The percentage of unique icons relative to the total number of icons in the this set.</sub>  
+<sub>**Remaining:** The remaining percentage of icons after taking into account unique icons, icons with some equivalence, and icons with equivalence in all sets. This percentage represents the icons that do not fall into any of these categories.</sub>
 
 ## Equivalence table
 

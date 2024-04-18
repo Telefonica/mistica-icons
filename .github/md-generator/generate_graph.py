@@ -125,7 +125,7 @@ def icons_equivalence_data_table(root_folder):
     total_icons = sum(total_counts)
 
     markdown_table = "<br/>\n"
-    markdown_table += f"\n| Icon Set | Concepts | Icons | All Equivalence | Some Equivalence | Unique | Remaining |\n"
+    markdown_table += f"\n| Icon Set | Concepts | Total | All Equivalence | Some Equivalence | Unique | Remaining |\n"
     markdown_table += "|:--------|-------------:|--------------:|----------:|------------------------:|---------------------------:|-------------:|\n"
     for label, folder, total_count, unique_count, equivalent_count, all_equivalent_count in zip(labels, folders, total_counts, unique_counts, equivalent_counts, all_equivalent_counts):
         unique_percent = f"{unique_count / total_icons * 100:.1f}%" + f" ![](https://dummyimage.com/8x8/{unique_color}/000000?text=+)" if total_icons > 0 else "0%"
