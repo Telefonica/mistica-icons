@@ -113,7 +113,7 @@ def generate_bar_representation(data, folders, bar_width=400, bar_height=8):
 
 def generate_markdown_table(data, folders, all_concepts):
     """Generate markdown table representation of the data."""
-    markdown = "| <sub><sup>ICON SET</sup></sub> | <sub><sup>CONCEPTS</sup></sub> | <sub><sup>TOTAL</sup></sub> | <sub><sup>ALL EQUIVALENCE (%)</sup></sub> | <sub><sup>SOME EQUIVALENCE (%)</sup></sub> | <sub><sup>UNIQUE (%)</sup></sub> | <sub><sup>MISSING</sup></sub> |\n"
+    markdown = f"| <sub><sup>ICON SET</sup></sub> | <sub><sup>CONCEPTS ({len(all_concepts)})</sup></sub> | <sub><sup>TOTAL ({total_icons})</sup></sub> | <sub><sup>ALL EQUIVALENCE (%)</sup></sub> | <sub><sup>SOME EQUIVALENCE (%)</sup></sub> | <sub><sup>UNIQUE (%)</sup></sub> | <sub><sup>MISSING</sup></sub> |\n"
     markdown += "| :--------- | --------: | -----: | ----------: | -------------------: | -------------------: | ------------: |\n"
     
     for folder in folders:
@@ -134,7 +134,7 @@ def generate_markdown_table(data, folders, all_concepts):
         
         markdown += f"| {folder_name} | {len(folder_data['processed_names'])} | {folder_data['total']} | {all_equivalence_percent} | {some_equivalence_percent} | {unique_percent} | {missing_percent} |\n"
     
-    markdown += f"| | **{total_concepts}** | **{total_icons}** |  |  |  |  |\n"
+    # markdown += f"| | **{total_concepts}** | **{total_icons}** |  |  |  |  |\n"
     markdown += "\n"
     # markdown += f"<table><tr><th>Total concepts</th><td>{total_concepts}</td></tr><tr><th>Total icons</th><td>{total_icons}</td></tr></table>"
             
