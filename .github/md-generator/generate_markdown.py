@@ -89,23 +89,29 @@ def generate_bar_representation(data, folders, bar_width=400, bar_height=8):
         total_brand_icons = folder_data['total']
         
         all_equivalence_count = len(folder_data['all_equivalence'])
-        all_equivalence_percent = (all_equivalence_count * 100) / total_icons
+        # print(all_equivalence_count)
+        all_equivalence_percent = (all_equivalence_count * 100) / total_brand_icons
+
         some_equivalence_count = len(folder_data['some_equivalence'])
-        some_equivalence_percent = (some_equivalence_count * 100) / total_icons
+        some_equivalence_percent = (some_equivalence_count * 100) / total_brand_icons
+
         unique_count = len(folder_data['unique'])
-        unique_percent = (unique_count * 100) / total_icons
+        unique_percent = (unique_count * 100) / total_brand_icons
+
         missing_count = len(folder_data['missing'])
         missing_percent = (missing_count * 100) / total_icons
 
-        all_equivalence_width = int((all_equivalence_percent / 100) * bar_width)
+        all_equivalence_width = round(int((all_equivalence_percent / 100) * bar_width))
         if 0 < all_equivalence_percent < 1:
-            all_equivalence_width = 2
-        some_equivalence_width = int((some_equivalence_percent / 100) * bar_width)
-        if 0 < some_equivalence_percent < 1:
-            some_equivalence_width = 2
-        unique_width = int((unique_percent / 100) * bar_width)
-        if 0 < unique_percent < 1:
-            unique_width = 2
+            all_equivalence_width = 1
+        # print(all_equivalence_percent)
+        # print(all_equivalence_width)
+        some_equivalence_width = round(int((some_equivalence_percent / 100) * bar_width))
+        # if 0 < some_equivalence_percent < 1:
+        #     some_equivalence_width = 1
+        unique_width = round(int((unique_percent / 100) * bar_width))
+        # if 0 < unique_percent < 1:
+        #     unique_width = 1
         missing_width = bar_width - (unique_width + all_equivalence_width + some_equivalence_width)
         
         bar_parts = []
@@ -131,17 +137,24 @@ def generate_markdown_table(data, folders, all_concepts):
         folder_name = os.path.basename(folder).title()
         folder_data = data[folder]
         total_concepts = len(all_concepts)
-        # print(total_concepts)
+        
         total_brand_icons = folder_data['total']
-        # print(total_brand_icons)
+        
         all_equivalence_count = len(folder_data['all_equivalence'])
         all_equivalence_percent = f"{all_equivalence_count} ({all_equivalence_count * 100 / (total_brand_icons):.1f}%) ![All Equivalence](https://dummyimage.com/8x8/{bar_colors['all_equivalence']}/000&text=+)" if total_brand_icons > 0 else "0 (0%)"
         some_equivalence_count = len(folder_data['some_equivalence'])
         some_equivalence_percent = f"{some_equivalence_count} ({some_equivalence_count * 100 / total_brand_icons:.1f}%) ![Some Equivalence](https://dummyimage.com/8x8/{bar_colors['some_equivalence']}/000&text=+)" if total_brand_icons > 0 else "0 (0%)"
         unique_count = len(folder_data['unique'])
         unique_percent = f"{unique_count} ({unique_count * 100 / total_brand_icons:.1f}%) ![Unique](https://dummyimage.com/8x8/{bar_colors['unique']}/000&text=+)" if total_brand_icons > 0 else "0 (0%)"
-        missing_count = len(folder_data['missing'])
-        missing_percent = f"{missing_count}" #({missing_count * 100 / total_icons:.1f}%)" if total_icons > 0 else "0 (0%)"
+        
+        # ARCHIVE
+        # missing_count = len(folder_data['missing'])
+        # missing_percent = f"{missing_count}" #({missing_count * 100 / total_icons:.1f}%)" if total_icons > 0 else "0 (0%)"
+
+        # missing_percent = f"{missing_count} ({missing_count * 100 / total_icons:.1f}%) ![Missing](https://dummyimage.com/8x8/{bar_colors['missing']}/000&text=+)"
+        missing_count = total_icons - total_brand_icons
+        print(missing_count)
+        missing_percent = f"{total_icons - total_brand_icons} ({(missing_count * 100) / total_icons:.1f}%) ![Missing](https://dummyimage.com/8x8/{bar_colors['missing']}/000&text=+)"
         
         markdown += f"| {folder_name} | {len(folder_data['processed_names'])} | {folder_data['total']} | {all_equivalence_percent} | {some_equivalence_percent} | {unique_percent} | {missing_percent} |\n"
     
