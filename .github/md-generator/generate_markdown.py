@@ -9,28 +9,37 @@ BREAK = "\n"
 # Show or hide and reorder brands as needed
 brands = ["telefonica", "o2", "vivo-new", "blau"]
 
-colors = {
+# Define the colors for the bar representation
+bar_colors = {
     "unique": "59C2C9",
     "all_equivalence": "0066FF",
     "some_equivalence": "EAC344",
     "missing": "D1D5E4"
 }
 
-def preprocess_filename(filename):
-    """Normalize filenames by removing specific substrings."""
-    return filename.replace("-filled", "").replace("-light", "").replace("-regular", "")
+# List folders in icons directory
+def read_folder(folder):
+    if os.path.isdir(folder):
+        files = os.listdir(folder)
+        if ".DS_Store" in files:
+            files.remove(".DS_Store")
+        return files
+    return []
 
+def preprocess_filename(filename):
+    return filename.replace("-filled.svg", "").replace("-light.svg", "").replace("-regular.svg", "")
+
+# List all .svg files in the directory, including subdirectories.
 def list_svg_files(folder):
-    """List all .svg files in the directory, including subdirectories."""
     svg_files = []
     for root, dirs, files in os.walk(folder):
         svg_files.extend(os.path.join(root, file) for file in files if file.endswith('.svg') and not file.startswith('.'))
     return svg_files
 
-# Llama a la función para obtener la lista de archivos SVG
+# SVG List
 svg_files = list_svg_files("./icons")
 
-# El total de archivos SVG se obtiene simplemente contando los elementos de la lista retornada
+# Total number of icons
 total_icons = len(svg_files)
 
 def process_icon_sets(folders, all_concepts):
@@ -40,10 +49,10 @@ def process_icon_sets(folders, all_concepts):
         files = list_svg_files(folder)
         icons = {os.path.basename(file): file for file in files}
         
-        # no_processed_names is icons with -regular, -light, -filled
+        # no_processed_names are icons with -regular, -light, -filled
         no_processed_names = {(os.path.basename(file)): file for file in files}
 
-        # processed_names is icons without -regular, -light, -filled
+        # processed_names are icons without -regular, -light, -filled
         processed_names = {preprocess_filename(os.path.basename(file)): file for file in files}
         
         data[folder] = {
@@ -70,11 +79,13 @@ def process_icon_sets(folders, all_concepts):
 
     return data
 
+# Generate a color-coded bar representation for each icon set based on percentage data.
 def generate_bar_representation(data, folders, bar_width=400, bar_height=8):
-    """Generate a color-coded bar representation for each icon set based on percentage data."""
     bar_output = []
     for folder, metrics in data.items():
         folder_data = data[folder]
+        
+        # Total per brand
         total_brand_icons = folder_data['total']
         
         all_equivalence_count = len(folder_data['all_equivalence'])
@@ -99,13 +110,13 @@ def generate_bar_representation(data, folders, bar_width=400, bar_height=8):
         
         bar_parts = []
         if all_equivalence_width > 0:
-            bar_parts.append(f"<img src='https://dummyimage.com/{all_equivalence_width}x{bar_height}/{colors['all_equivalence']}/000&text=+' alt='All Equivalence'>")
+            bar_parts.append(f"<img src='https://dummyimage.com/{all_equivalence_width}x{bar_height}/{bar_colors['all_equivalence']}/000&text=+' alt='All Equivalence'>")
         if some_equivalence_width > 0:
-            bar_parts.append(f"<img src='https://dummyimage.com/{some_equivalence_width}x{bar_height}/{colors['some_equivalence']}/000&text=+' alt='Some Equivalence'>")
+            bar_parts.append(f"<img src='https://dummyimage.com/{some_equivalence_width}x{bar_height}/{bar_colors['some_equivalence']}/000&text=+' alt='Some Equivalence'>")
         if unique_width > 0:
-            bar_parts.append(f"<img src='https://dummyimage.com/{unique_width}x{bar_height}/{colors['unique']}/000&text=+' alt='Unique'>")
+            bar_parts.append(f"<img src='https://dummyimage.com/{unique_width}x{bar_height}/{bar_colors['unique']}/000&text=+' alt='Unique'>")
         if missing_width > 0:
-            bar_parts.append(f"<img src='https://dummyimage.com/{missing_width}x{bar_height}/{colors['missing']}/000&text=+' alt='Missing'>")
+            bar_parts.append(f"<img src='https://dummyimage.com/{missing_width}x{bar_height}/{bar_colors['missing']}/000&text=+' alt='Missing'>")
         
         bar_representation = f"{os.path.basename(folder).title()}  " + "\n" + "".join(bar_parts) + "\n"
         bar_output.append(bar_representation)
@@ -124,11 +135,11 @@ def generate_markdown_table(data, folders, all_concepts):
         total_brand_icons = folder_data['total']
         # print(total_brand_icons)
         all_equivalence_count = len(folder_data['all_equivalence'])
-        all_equivalence_percent = f"{all_equivalence_count} ({all_equivalence_count * 100 / (total_brand_icons):.1f}%) ![All Equivalence](https://dummyimage.com/8x8/{colors['all_equivalence']}/000&text=+)" if total_brand_icons > 0 else "0 (0%)"
+        all_equivalence_percent = f"{all_equivalence_count} ({all_equivalence_count * 100 / (total_brand_icons):.1f}%) ![All Equivalence](https://dummyimage.com/8x8/{bar_colors['all_equivalence']}/000&text=+)" if total_brand_icons > 0 else "0 (0%)"
         some_equivalence_count = len(folder_data['some_equivalence'])
-        some_equivalence_percent = f"{some_equivalence_count} ({some_equivalence_count * 100 / total_brand_icons:.1f}%) ![Some Equivalence](https://dummyimage.com/8x8/{colors['some_equivalence']}/000&text=+)" if total_brand_icons > 0 else "0 (0%)"
+        some_equivalence_percent = f"{some_equivalence_count} ({some_equivalence_count * 100 / total_brand_icons:.1f}%) ![Some Equivalence](https://dummyimage.com/8x8/{bar_colors['some_equivalence']}/000&text=+)" if total_brand_icons > 0 else "0 (0%)"
         unique_count = len(folder_data['unique'])
-        unique_percent = f"{unique_count} ({unique_count * 100 / total_brand_icons:.1f}%) ![Unique](https://dummyimage.com/8x8/{colors['unique']}/000&text=+)" if total_brand_icons > 0 else "0 (0%)"
+        unique_percent = f"{unique_count} ({unique_count * 100 / total_brand_icons:.1f}%) ![Unique](https://dummyimage.com/8x8/{bar_colors['unique']}/000&text=+)" if total_brand_icons > 0 else "0 (0%)"
         missing_count = len(folder_data['missing'])
         missing_percent = f"{missing_count}" #({missing_count * 100 / total_icons:.1f}%)" if total_icons > 0 else "0 (0%)"
         
@@ -141,13 +152,6 @@ def generate_markdown_table(data, folders, all_concepts):
     
     return markdown
 
-def read_folder(folder):
-    if os.path.isdir(folder):
-        files = os.listdir(folder)
-        if ".DS_Store" in files:
-            files.remove(".DS_Store")
-        return files
-    return []
 
 def generate_icon_table(path):  # Renombrar la función para que coincida con el nombre del módulo
     brands = [folder for folder in os.listdir(path) if os.path.isdir(os.path.join(path, folder))]
@@ -201,31 +205,28 @@ def generate_icon_table(path):  # Renombrar la función para que coincida con el
     return file_content  # Devolver el contenido de la tabla de iconos
 
 
-
 def main(root_folder):
-    """Main function to orchestrate the icon analysis and reporting."""
     folders = [os.path.join(root_folder, brand) for brand in brands]
     all_concepts = set()
     icon_data = process_icon_sets(folders, all_concepts)
     bars = generate_bar_representation(icon_data, all_concepts)
     
-    content_to_write = ""
+    markdown_content = ""
 
     # Add documentation
     documentation = "![Mistica Icons](.github/resources/mistica-icons-light.svg#gh-light-mode-only)" + BREAK + "![Mistica Icons](.github/resources/mistica-icons-dark.svg#gh-dark-mode-only)" + BREAK + BREAK + "Mística Icons is a multibrand icon system that contains all icons that is working in [Mistica Design System](https://github.com/Telefonica/mistica) now.  " + BREAK + BREAK + "Mistica support [Brand Factory icons](https://brandfactory.telefonica.com/document/1086#/nuestra-identidad/iconos). This set of icons are a big list of different icons and style that Brand Team worked to be used through Telefonica applications." + BREAK + BREAK + "If you have any question, please you can ask directly in the app of Microsoft Teams, in [Mistica Team](https://teams.microsoft.com/l/team/19%3ad2e3607a32ec411b8bf492f43cd0fe0c%40thread.tacv2/conversations?groupId=e265fe99-929f-45d1-8154-699649674a40&tenantId=9744600e-3e04-492e-baa1-25ec245c6f10).  " + \
         BREAK + BREAK + "## Documentation" + BREAK + BREAK + "### Develop" + BREAK + BREAK + "#### iOS and Android" + BREAK + BREAK + "You can get .pdf or .svg files from this repo." + BREAK + BREAK + "#### Web" + BREAK + BREAK + \
         "Visit [Mistica Storybook](https://mistica-web.vercel.app/?path=/story/icons-catalog--catalog) to get all the detail about using Mistica Icons Library" + BREAK + BREAK + "### Design" + BREAK + BREAK + "Use Mística icons library in Figma!" + BREAK + BREAK
-    content_to_write += documentation + BREAK
+    markdown_content += documentation + BREAK
     
-    # Preparar el contenido total para escribir en el README
-    content_to_write += "## Equivalence status\n\n"
+    markdown_content += "## Equivalence status\n\n"
     for bar in bars:
-        content_to_write += bar + "\n"
-    content_to_write += "  " + BREAK
+        markdown_content += bar + "\n"
+    markdown_content += "  " + BREAK
 
-    # Agregar la tabla en formato Markdown al contenido
+    # Add equivalence status table
     markdown_table = generate_markdown_table(icon_data, folders, all_concepts)
-    content_to_write += markdown_table + "\n"
+    markdown_content += markdown_table + "\n"
     
     legend = (
             "<sub>**Concepts**: Counts the different names of icons in the set excluding any variations in style or weight.</sub>  " 
@@ -241,16 +242,14 @@ def main(root_folder):
             "<sub>**Missing**: Missing icons with respect to other sets.</sub>"
             )
 
-    content_to_write += legend + "\n"
+    markdown_content += legend + "\n"
     
-    # Agregar el contenido de la tabla de iconos al contenido
-    content_to_write += "## Icon equivalence\n\n"
+    markdown_content += "## Icon equivalence\n\n"
     icon_table_output = generate_icon_table(root_folder)
-    content_to_write += icon_table_output + "\n"
+    markdown_content += icon_table_output + "\n"
     
-    # Sobreescribir el archivo README.md con el contenido generado
     with open("./README.md", "w") as file:
-        file.write(content_to_write)
+        file.write(markdown_content)
 
 if __name__ == "__main__":
     root_folder = "icons"
