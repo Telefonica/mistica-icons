@@ -158,20 +158,20 @@ def generate_markdown_table(data, folders):
         total_brand_icons = folder_data['total']
         
         all_equivalence_count = len(folder_data['all_equivalence'])
-        all_equivalence_percent = f"{all_equivalence_count} ({all_equivalence_count * 100 / (total_brand_icons):.1f}%) ![All Equivalence](https://dummyimage.com/8x8/{bar_colors['all_equivalence']}/000&text=+)" if total_brand_icons > 0 else "0 (0%)"
+        all_equivalence_percent = f"{all_equivalence_count} ({all_equivalence_count * 100 / (total_brand_icons):.1f}%) ![All Equivalence](https://dummyimage.com/4x12/{bar_colors['all_equivalence']}/000&text=+)" if total_brand_icons > 0 else "0 (0%)"
         some_equivalence_count = len(folder_data['some_equivalence'])
-        some_equivalence_percent = f"{some_equivalence_count} ({some_equivalence_count * 100 / total_brand_icons:.1f}%) ![Some Equivalence](https://dummyimage.com/8x8/{bar_colors['some_equivalence']}/000&text=+)" if total_brand_icons > 0 else "0 (0%)"
+        some_equivalence_percent = f"{some_equivalence_count} ({some_equivalence_count * 100 / total_brand_icons:.1f}%) ![Some Equivalence](https://dummyimage.com/4x12/{bar_colors['some_equivalence']}/000&text=+)" if total_brand_icons > 0 else "0 (0%)"
         unique_count = len(folder_data['unique'])
-        unique_percent = f"{unique_count} ({unique_count * 100 / total_brand_icons:.1f}%) ![Unique](https://dummyimage.com/8x8/{bar_colors['unique']}/000&text=+)" if total_brand_icons > 0 else "0 (0%)"
+        unique_percent = f"{unique_count} ({unique_count * 100 / total_brand_icons:.1f}%) ![Unique](https://dummyimage.com/4x12/{bar_colors['unique']}/000&text=+)" if total_brand_icons > 0 else "0 (0%)"
         
         # ARCHIVE
         # missing_count = len(folder_data['missing'])
         # missing_percent = f"{missing_count}" #({missing_count * 100 / total_icons:.1f}%)" if total_icons > 0 else "0 (0%)"
 
-        # missing_percent = f"{missing_count} ({missing_count * 100 / total_icons:.1f}%) ![Missing](https://dummyimage.com/8x8/{bar_colors['missing']}/000&text=+)"
+        # missing_percent = f"{missing_count} ({missing_count * 100 / total_icons:.1f}%) ![Missing](https://dummyimage.com/4x12/{bar_colors['missing']}/000&text=+)"
         missing_count = total_icons - total_brand_icons
         # print(missing_count)
-        missing_percent = f"{total_icons - total_brand_icons} ({(missing_count * 100) / total_icons:.1f}%) ![Missing](https://dummyimage.com/8x8/{bar_colors['missing']}/000&text=+)"
+        missing_percent = f"{total_icons - total_brand_icons} ({(missing_count * 100) / total_icons:.1f}%) ![Missing](https://dummyimage.com/4x12/{bar_colors['missing']}/000&text=+)"
         
         markdown += f"| {folder_name} | {len(folder_data['processed_names'])} | {folder_data['total']} | {all_equivalence_percent} | {some_equivalence_percent} | {unique_percent} | {missing_percent} |\n"
     
@@ -255,7 +255,7 @@ def main(root_folder):
     markdown_content += "  " + BREAK
 
     # Add equivalence status table
-    markdown_table = generate_markdown_table(icon_data, folders, all_concepts)
+    markdown_table = generate_markdown_table(icon_data, folders)
     markdown_content += markdown_table + "\n"
     
     legend = (
