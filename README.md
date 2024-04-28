@@ -27,16 +27,16 @@ Use Mística icons library in Figma!
 ## Equivalence status
 
 Telefonica  
-<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/151x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/247x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/1x8/D1D5E4/000&text=+' alt='Missing'>
+<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/151x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/247x8/59C2C9/000&text=+' alt='Unique'>
 
 O2  
-<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/198x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/200x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/1x8/D1D5E4/000&text=+' alt='Missing'>
+<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/198x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/200x8/59C2C9/000&text=+' alt='Unique'>
 
 Vivo-New  
-<img src='https://dummyimage.com/12x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/169x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/218x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/1x8/D1D5E4/000&text=+' alt='Missing'>
+<img src='https://dummyimage.com/12x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/169x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/218x8/59C2C9/000&text=+' alt='Unique'>
 
 Blau  
-<img src='https://dummyimage.com/19x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/347x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/32x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/2x8/D1D5E4/000&text=+' alt='Missing'>
+<img src='https://dummyimage.com/19x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/347x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/32x8/59C2C9/000&text=+' alt='Unique'>
 
   
 | <sub><sup>ICON SET</sup></sub> | <sub><sup>CONCEPTS (1709)</sup></sub> | <sub><sup>TOTAL (2247)</sup></sub> | <sub><sup>ALL EQUIVALENCE (%)</sup></sub> | <sub><sup>SOME EQUIVALENCE (%)</sup></sub> | <sub><sup>UNIQUE (%)</sup></sub> | <sub><sup>MISSING</sup></sub> |
