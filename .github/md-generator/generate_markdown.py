@@ -27,7 +27,19 @@ def read_folder(folder):
     return []
 
 def preprocess_filename(filename):
+    # Remove common style indicators from the filename and return
     return filename.replace("-filled.svg", "").replace("-light.svg", "").replace("-regular.svg", "")
+
+# Function to recursively list all unique SVG filenames without their paths
+def list_concepts(folder):
+    concepts = set()  # Use a set to avoid duplicates
+    for root, dirs, files in os.walk(folder):
+        # Filter and preprocess SVG filenames before adding to the set
+        for file in files:
+            if file.endswith('.svg') and not file.startswith('.'):
+                processed_file = preprocess_filename(file)
+                concepts.add(processed_file)
+    return list(concepts)  # Convert set to list before returning
 
 # List all .svg files in the directory, including subdirectories.
 def list_svg_files(folder):
@@ -35,6 +47,10 @@ def list_svg_files(folder):
     for root, dirs, files in os.walk(folder):
         svg_files.extend(os.path.join(root, file) for file in files if file.endswith('.svg') and not file.startswith('.'))
     return svg_files
+
+
+concepts = list_concepts("./icons")
+total_concepts = len(concepts)
 
 # SVG List
 svg_files = list_svg_files("./icons")
@@ -128,15 +144,16 @@ def generate_bar_representation(data, folders, bar_width=400, bar_height=8):
         bar_output.append(bar_representation)
     return bar_output
 
-def generate_markdown_table(data, folders, all_concepts):
+def generate_markdown_table(data, folders):
+    global total_concepts
+
     """Generate markdown table representation of the data."""
-    markdown = f"| <sub><sup>ICON SET</sup></sub> | <sub><sup>CONCEPTS ({len(all_concepts)})</sup></sub> | <sub><sup>TOTAL ({total_icons})</sup></sub> | <sub><sup>ALL EQUIVALENCE (%)</sup></sub> | <sub><sup>SOME EQUIVALENCE (%)</sup></sub> | <sub><sup>UNIQUE (%)</sup></sub> | <sub><sup>MISSING</sup></sub> |\n"
+    markdown = f"| <sub><sup>ICON SET</sup></sub> | <sub><sup>CONCEPTS ({total_concepts})</sup></sub> | <sub><sup>TOTAL ({total_icons})</sup></sub> | <sub><sup>ALL EQUIVALENCE (%)</sup></sub> | <sub><sup>SOME EQUIVALENCE (%)</sup></sub> | <sub><sup>UNIQUE (%)</sup></sub> | <sub><sup>MISSING</sup></sub> |\n"
     markdown += "| :--------- | --------: | -----: | ----------: | -------------------: | -------------------: | ------------: |\n"
     
     for folder in folders:
         folder_name = os.path.basename(folder).title()
         folder_data = data[folder]
-        total_concepts = len(all_concepts)
         
         total_brand_icons = folder_data['total']
         
