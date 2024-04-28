@@ -39,7 +39,7 @@ Blau
 <img src='https://dummyimage.com/19x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/347x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/32x8/59C2C9/000&text=+' alt='Unique'>
 
   
-| <sub><sup>ICON SET</sup></sub> | <sub><sup>CONCEPTS (599)</sup></sub> | <sub><sup>TOTAL (2247)</sup></sub> | <sub><sup>ALL EQUIVALENCE (%)</sup></sub> | <sub><sup>SOME EQUIVALENCE (%)</sup></sub> | <sub><sup>UNIQUE (%)</sup></sub> | <sub><sup>MISSING</sup></sub> |
+| <sub><sup>ICON SET</sup></sub> | <sub><sup>CONCEPTS (599)</sup></sub> | <sub><sup>TOTAL (2247)</sup></sub> | <sub><sup>ALL EQUIVALENCE</sup></sub> | <sub><sup>SOME EQUIVALENCE</sup></sub> | <sub><sup>UNIQUE</sup></sub> | <sub><sup>MISSING</sup></sub> |
 | :--------- | --------: | -----: | ----------: | -------------------: | -------------------: | ------------: |
 | Telefonica | 420 | 1193 | 3 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 451 (37.8%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 739 (61.9%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 1054 (46.9%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
 | O2 | 302 | 894 | 3 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 443 (49.6%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 448 (50.1%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 1353 (60.2%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |

@@ -148,7 +148,7 @@ def generate_markdown_table(data, folders):
     global total_concepts
 
     """Generate markdown table representation of the data."""
-    markdown = f"| <sub><sup>ICON SET</sup></sub> | <sub><sup>CONCEPTS ({total_concepts})</sup></sub> | <sub><sup>TOTAL ({total_icons})</sup></sub> | <sub><sup>ALL EQUIVALENCE (%)</sup></sub> | <sub><sup>SOME EQUIVALENCE (%)</sup></sub> | <sub><sup>UNIQUE (%)</sup></sub> | <sub><sup>MISSING</sup></sub> |\n"
+    markdown = f"| <sub><sup>ICON SET</sup></sub> | <sub><sup>CONCEPTS ({total_concepts})</sup></sub> | <sub><sup>TOTAL ({total_icons})</sup></sub> | <sub><sup>ALL EQUIVALENCE</sup></sub> | <sub><sup>SOME EQUIVALENCE</sup></sub> | <sub><sup>UNIQUE</sup></sub> | <sub><sup>MISSING</sup></sub> |\n"
     markdown += "| :--------- | --------: | -----: | ----------: | -------------------: | -------------------: | ------------: |\n"
     
     for folder in folders:
