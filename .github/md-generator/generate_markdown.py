@@ -109,9 +109,9 @@ def generate_bar_representation(data, folders, bar_width=400, bar_height=8):
         unique_count = len(folder_data['unique'])
         missing_count = len(folder_data['missing'])
         
-        all_equivalence_percent = (all_equivalence_count * 100) / total_brand_icons
-        some_equivalence_percent = (some_equivalence_count * 100) / total_brand_icons
-        unique_percent = (unique_count * 100) / total_brand_icons
+        all_equivalence_percent = (all_equivalence_count * 100) / total_icons
+        some_equivalence_percent = (some_equivalence_count * 100) / total_icons
+        unique_percent = (unique_count * 100) / total_icons
         missing_percent = (missing_count * 100) / total_icons
 
         all_equivalence_width = round(int((all_equivalence_percent / 100) * bar_width))
@@ -137,8 +137,8 @@ def generate_bar_representation(data, folders, bar_width=400, bar_height=8):
             bar_parts.append(f"<img src='https://dummyimage.com/{some_equivalence_width}x{bar_height}/{bar_colors['some_equivalence']}/000&text=+' alt='Some Equivalence'>")
         if unique_width > 0:
             bar_parts.append(f"<img src='https://dummyimage.com/{unique_width}x{bar_height}/{bar_colors['unique']}/000&text=+' alt='Unique'>")
-        # if missing_width > 0:
-        #     bar_parts.append(f"<img src='https://dummyimage.com/{missing_width}x{bar_height}/{bar_colors['missing']}/000&text=+' alt='Missing'>")
+        if missing_width > 0:
+            bar_parts.append(f"<img src='https://dummyimage.com/{missing_width}x{bar_height}/{bar_colors['missing']}/000&text=+' alt='Missing'>")
         
         bar_representation = f"{os.path.basename(folder).title()}  " + "\n" + "".join(bar_parts) + "\n"
         bar_output.append(bar_representation)
@@ -158,11 +158,11 @@ def generate_markdown_table(data, folders):
         total_brand_icons = folder_data['total']
         
         all_equivalence_count = len(folder_data['all_equivalence'])
-        all_equivalence_percent = f"{all_equivalence_count} ({all_equivalence_count * 100 / (total_brand_icons):.1f}%) ![All Equivalence](https://dummyimage.com/4x12/{bar_colors['all_equivalence']}/000&text=+)" if total_brand_icons > 0 else "0 (0%)"
+        all_equivalence_percent = f"{all_equivalence_count} ({all_equivalence_count * 100 / (total_icons):.1f}%) ![All Equivalence](https://dummyimage.com/4x12/{bar_colors['all_equivalence']}/000&text=+)" if total_icons > 0 else "0 (0%)"
         some_equivalence_count = len(folder_data['some_equivalence'])
-        some_equivalence_percent = f"{some_equivalence_count} ({some_equivalence_count * 100 / total_brand_icons:.1f}%) ![Some Equivalence](https://dummyimage.com/4x12/{bar_colors['some_equivalence']}/000&text=+)" if total_brand_icons > 0 else "0 (0%)"
+        some_equivalence_percent = f"{some_equivalence_count} ({some_equivalence_count * 100 / total_icons:.1f}%) ![Some Equivalence](https://dummyimage.com/4x12/{bar_colors['some_equivalence']}/000&text=+)" if total_icons > 0 else "0 (0%)"
         unique_count = len(folder_data['unique'])
-        unique_percent = f"{unique_count} ({unique_count * 100 / total_brand_icons:.1f}%) ![Unique](https://dummyimage.com/4x12/{bar_colors['unique']}/000&text=+)" if total_brand_icons > 0 else "0 (0%)"
+        unique_percent = f"{unique_count} ({unique_count * 100 / total_icons:.1f}%) ![Unique](https://dummyimage.com/4x12/{bar_colors['unique']}/000&text=+)" if total_icons > 0 else "0 (0%)"
         
         # ARCHIVE
         # missing_count = len(folder_data['missing'])
