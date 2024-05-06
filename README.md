@@ -1,8 +1,6 @@
 ![Mistica Icons](.github/resources/mistica-icons-light.svg#gh-light-mode-only)
 ![Mistica Icons](.github/resources/mistica-icons-dark.svg#gh-dark-mode-only)
 
-## What is this?  
-
 Mística Icons is a multibrand icon system that contains all icons that is working in [Mistica Design System](https://github.com/Telefonica/mistica) now.  
 
 Mistica support [Brand Factory icons](https://brandfactory.telefonica.com/document/1086#/nuestra-identidad/iconos). This set of icons are a big list of different icons and style that Brand Team worked to be used through Telefonica applications.
@@ -25,28 +23,38 @@ Visit [Mistica Storybook](https://mistica-web.vercel.app/?path=/story/icons-cata
 
 Use Mística icons library in Figma!
 
-## Icon equivalence status
 
-**Local** = Icon equivalence in this set  
-**Global** = Icon set equivalence with total icons
+## Equivalence status
 
-Telefónica set  
-![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)    37% (446 / 1193) `local`  
-![bar_filled](.github/resources/filled-s.png)![bar_filled](.github/resources/filled-s.png)![bar_filled](.github/resources/filled-s.png)![bar_filled](.github/resources/filled-s.png)![bar_filled](.github/resources/filled-s.png)![bar_filled](.github/resources/filled-s.png)![bar_filled](.github/resources/filled-s.png)![bar_filled](.github/resources/filled-s.png)![bar_filled](.github/resources/filled-s.png)![bar_filled](.github/resources/filled-s.png)![bar_filled](.github/resources/filled-s.png)![bar_filled](.github/resources/filled-s.png)![bar_filled](.github/resources/filled-s.png)![bar_filled](.github/resources/filled-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)    71% (1193 / 1679) `global`  
+Telefonica  
+<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/80x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/131x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/188x8/D1D5E4/000&text=+' alt='Missing'>
 
-O₂ set  
-![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)    49% (438 / 891) `local`  
-![bar_filled](.github/resources/filled-s.png)![bar_filled](.github/resources/filled-s.png)![bar_filled](.github/resources/filled-s.png)![bar_filled](.github/resources/filled-s.png)![bar_filled](.github/resources/filled-s.png)![bar_filled](.github/resources/filled-s.png)![bar_filled](.github/resources/filled-s.png)![bar_filled](.github/resources/filled-s.png)![bar_filled](.github/resources/filled-s.png)![bar_filled](.github/resources/filled-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)    53% (891 / 1679) `global`  
+O2  
+<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/78x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/79x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/242x8/D1D5E4/000&text=+' alt='Missing'>
 
-Blau set  
-![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)    91% (56 / 61) `local`  
-![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)    3% (61 / 1679) `global`  
+Vivo-New  
+<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/7x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/9x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/383x8/D1D5E4/000&text=+' alt='Missing'>
 
-Vivo set  
-![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_filled](.github/resources/filled.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)![bar_empty](.github/resources/empty.png)    56% (31 / 55) `local`  
-![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)![bar_empty](.github/resources/empty-s.png)    3% (55 / 1679) `global`  
+Blau  
+<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/9x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/1x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/389x8/D1D5E4/000&text=+' alt='Missing'>
 
-## Icons
+  
+| <sub><sup>ICON SET</sup></sub> | <sub><sup>CONCEPTS (599)</sup></sub> | <sub><sup>TOTAL (2247)</sup></sub> | <sub><sup>ALL EQUIVALENCE</sup></sub> | <sub><sup>SOME EQUIVALENCE</sup></sub> | <sub><sup>UNIQUE</sup></sub> | <sub><sup>MISSING</sup></sub> |
+| :--------- | --------: | -----: | ----------: | -------------------: | -------------------: | ------------: |
+| Telefonica | 420 | 1193 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 451 (20.1%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 739 (32.9%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 1054 (46.9%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| O2 | 302 | 894 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 443 (19.7%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 448 (19.9%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 1353 (60.2%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| Vivo-New | 52 | 99 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 42 (1.9%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 54 (2.4%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2148 (95.6%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| Blau | 57 | 61 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 53 (2.4%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 5 (0.2%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2186 (97.3%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+
+
+<sub>**Concepts**: Counts the different names of icons in the set excluding any variations in style or weight.</sub>  
+<sub>**Total**: The total number of icons found in a brand set. Counting light, regular and filled weights.</sub>  
+<sub>**All Equivalence**: Icons that are present in all sets.</sub>  
+<sub>**Some Equivalence**: Icons that are present in some sets.</sub>  
+<sub>**Unique**: Icons that only exists in this set.</sub>  
+<sub>**Missing**: Missing icons with respect to other sets.</sub>
+## Icon equivalence
+
 
 | telefonica | vivo-new | o2 | blau | icon name |
 | :---: | :---: | :---: | :---: |:--- |
@@ -113,6 +121,9 @@ Vivo set
 |![ambulance-filled](icons/telefonica/filled/ambulance-filled.svg) | | | |<a id='ambulance-filled'>`ambulance-filled`</a>[![ambulance-filled](.github/resources/anchor.svg)](#ambulance-filled)|
 |![ambulance-light](icons/telefonica/light/ambulance-light.svg) | | | |<a id='ambulance-light'>`ambulance-light`</a>[![ambulance-light](.github/resources/anchor.svg)](#ambulance-light)|
 |![ambulance-regular](icons/telefonica/regular/ambulance-regular.svg) | | | |<a id='ambulance-regular'>`ambulance-regular`</a>[![ambulance-regular](.github/resources/anchor.svg)](#ambulance-regular)|
+| |![amplifier-signal-filled](icons/vivo-new/filled/amplifier-signal-filled.svg) | | |<a id='amplifier-signal-filled'>`amplifier-signal-filled`</a>[![amplifier-signal-filled](.github/resources/anchor.svg)](#amplifier-signal-filled)|
+| |![amplifier-signal-light](icons/vivo-new/light/amplifier-signal-light.svg) | | |<a id='amplifier-signal-light'>`amplifier-signal-light`</a>[![amplifier-signal-light](.github/resources/anchor.svg)](#amplifier-signal-light)|
+| |![amplifier-signal-regular](icons/vivo-new/regular/amplifier-signal-regular.svg) | | |<a id='amplifier-signal-regular'>`amplifier-signal-regular`</a>[![amplifier-signal-regular](.github/resources/anchor.svg)](#amplifier-signal-regular)|
 | | |![angel-filled](icons/o2/filled/angel-filled.svg) | |<a id='angel-filled'>`angel-filled`</a>[![angel-filled](.github/resources/anchor.svg)](#angel-filled)|
 | | |![angel-light](icons/o2/light/angel-light.svg) | |<a id='angel-light'>`angel-light`</a>[![angel-light](.github/resources/anchor.svg)](#angel-light)|
 | | |![angel-regular](icons/o2/regular/angel-regular.svg) | |<a id='angel-regular'>`angel-regular`</a>[![angel-regular](.github/resources/anchor.svg)](#angel-regular)|
@@ -183,7 +194,7 @@ Vivo set
 |![arrows-left-and-right-regular](icons/telefonica/regular/arrows-left-and-right-regular.svg) | |![arrows-left-and-right-regular](icons/o2/regular/arrows-left-and-right-regular.svg) | |<a id='arrows-left-and-right-regular'>`arrows-left-and-right-regular`</a>[![arrows-left-and-right-regular](.github/resources/anchor.svg)](#arrows-left-and-right-regular)|
 |![audio-filled](icons/telefonica/filled/audio-filled.svg) | |![audio-filled](icons/o2/filled/audio-filled.svg) | |<a id='audio-filled'>`audio-filled`</a>[![audio-filled](.github/resources/anchor.svg)](#audio-filled)|
 |![audio-light](icons/telefonica/light/audio-light.svg) | |![audio-light](icons/o2/light/audio-light.svg) | |<a id='audio-light'>`audio-light`</a>[![audio-light](.github/resources/anchor.svg)](#audio-light)|
-|![audio-regular](icons/telefonica/regular/audio-regular.svg) | |![audio-regular](icons/o2/regular/audio-regular.svg) | |<a id='audio-regular'>`audio-regular`</a>[![audio-regular](.github/resources/anchor.svg)](#audio-regular)|
+|![audio-regular](icons/telefonica/regular/audio-regular.svg) |![audio-regular](icons/vivo-new/regular/audio-regular.svg) |![audio-regular](icons/o2/regular/audio-regular.svg) | |<a id='audio-regular'>`audio-regular`</a>[![audio-regular](.github/resources/anchor.svg)](#audio-regular)|
 |![aura-filled](icons/telefonica/filled/aura-filled.svg) | | | |<a id='aura-filled'>`aura-filled`</a>[![aura-filled](.github/resources/anchor.svg)](#aura-filled)|
 |![autentication-failure-filled](icons/telefonica/filled/autentication-failure-filled.svg) | | | |<a id='autentication-failure-filled'>`autentication-failure-filled`</a>[![autentication-failure-filled](.github/resources/anchor.svg)](#autentication-failure-filled)|
 |![autentication-failure-regular](icons/telefonica/regular/autentication-failure-regular.svg) | | | |<a id='autentication-failure-regular'>`autentication-failure-regular`</a>[![autentication-failure-regular](.github/resources/anchor.svg)](#autentication-failure-regular)|
@@ -327,15 +338,23 @@ Vivo set
 |![car-with-clock-filled](icons/telefonica/filled/car-with-clock-filled.svg) | | | |<a id='car-with-clock-filled'>`car-with-clock-filled`</a>[![car-with-clock-filled](.github/resources/anchor.svg)](#car-with-clock-filled)|
 |![car-with-clock-light](icons/telefonica/light/car-with-clock-light.svg) | | | |<a id='car-with-clock-light'>`car-with-clock-light`</a>[![car-with-clock-light](.github/resources/anchor.svg)](#car-with-clock-light)|
 |![car-with-clock-regular](icons/telefonica/regular/car-with-clock-regular.svg) | | | |<a id='car-with-clock-regular'>`car-with-clock-regular`</a>[![car-with-clock-regular](.github/resources/anchor.svg)](#car-with-clock-regular)|
+| |![care-bike-regular](icons/vivo-new/regular/care-bike-regular.svg) | | |<a id='care-bike-regular'>`care-bike-regular`</a>[![care-bike-regular](.github/resources/anchor.svg)](#care-bike-regular)|
+| |![care-briefcase-regular](icons/vivo-new/regular/care-briefcase-regular.svg) | | |<a id='care-briefcase-regular'>`care-briefcase-regular`</a>[![care-briefcase-regular](.github/resources/anchor.svg)](#care-briefcase-regular)|
+| |![care-check-regular](icons/vivo-new/regular/care-check-regular.svg) | | |<a id='care-check-regular'>`care-check-regular`</a>[![care-check-regular](.github/resources/anchor.svg)](#care-check-regular)|
 |![care-filled](icons/telefonica/filled/care-filled.svg) | | | |<a id='care-filled'>`care-filled`</a>[![care-filled](.github/resources/anchor.svg)](#care-filled)|
 |![care-health-filled](icons/telefonica/filled/care-health-filled.svg) | | | |<a id='care-health-filled'>`care-health-filled`</a>[![care-health-filled](.github/resources/anchor.svg)](#care-health-filled)|
 |![care-health-light](icons/telefonica/light/care-health-light.svg) | | | |<a id='care-health-light'>`care-health-light`</a>[![care-health-light](.github/resources/anchor.svg)](#care-health-light)|
 |![care-health-regular](icons/telefonica/regular/care-health-regular.svg) | | | |<a id='care-health-regular'>`care-health-regular`</a>[![care-health-regular](.github/resources/anchor.svg)](#care-health-regular)|
+| |![care-home-regular](icons/vivo-new/regular/care-home-regular.svg) | | |<a id='care-home-regular'>`care-home-regular`</a>[![care-home-regular](.github/resources/anchor.svg)](#care-home-regular)|
+| |![care-laptop-regular](icons/vivo-new/regular/care-laptop-regular.svg) | | |<a id='care-laptop-regular'>`care-laptop-regular`</a>[![care-laptop-regular](.github/resources/anchor.svg)](#care-laptop-regular)|
 |![care-light](icons/telefonica/light/care-light.svg) | | | |<a id='care-light'>`care-light`</a>[![care-light](.github/resources/anchor.svg)](#care-light)|
-|![care-regular](icons/telefonica/regular/care-regular.svg) | | | |<a id='care-regular'>`care-regular`</a>[![care-regular](.github/resources/anchor.svg)](#care-regular)|
+| |![care-mobile-regular](icons/vivo-new/regular/care-mobile-regular.svg) | | |<a id='care-mobile-regular'>`care-mobile-regular`</a>[![care-mobile-regular](.github/resources/anchor.svg)](#care-mobile-regular)|
+| |![care-pet-regular](icons/vivo-new/regular/care-pet-regular.svg) | | |<a id='care-pet-regular'>`care-pet-regular`</a>[![care-pet-regular](.github/resources/anchor.svg)](#care-pet-regular)|
+|![care-regular](icons/telefonica/regular/care-regular.svg) |![care-regular](icons/vivo-new/regular/care-regular.svg) | | |<a id='care-regular'>`care-regular`</a>[![care-regular](.github/resources/anchor.svg)](#care-regular)|
 |![care-shield-filled](icons/telefonica/filled/care-shield-filled.svg) | | | |<a id='care-shield-filled'>`care-shield-filled`</a>[![care-shield-filled](.github/resources/anchor.svg)](#care-shield-filled)|
 |![care-shield-light](icons/telefonica/light/care-shield-light.svg) | | | |<a id='care-shield-light'>`care-shield-light`</a>[![care-shield-light](.github/resources/anchor.svg)](#care-shield-light)|
 |![care-shield-regular](icons/telefonica/regular/care-shield-regular.svg) | | | |<a id='care-shield-regular'>`care-shield-regular`</a>[![care-shield-regular](.github/resources/anchor.svg)](#care-shield-regular)|
+| |![care-win-regular](icons/vivo-new/regular/care-win-regular.svg) | | |<a id='care-win-regular'>`care-win-regular`</a>[![care-win-regular](.github/resources/anchor.svg)](#care-win-regular)|
 |![casino-filled](icons/telefonica/filled/casino-filled.svg) | | | |<a id='casino-filled'>`casino-filled`</a>[![casino-filled](.github/resources/anchor.svg)](#casino-filled)|
 |![casino-light](icons/telefonica/light/casino-light.svg) | | | |<a id='casino-light'>`casino-light`</a>[![casino-light](.github/resources/anchor.svg)](#casino-light)|
 |![casino-regular](icons/telefonica/regular/casino-regular.svg) | | | |<a id='casino-regular'>`casino-regular`</a>[![casino-regular](.github/resources/anchor.svg)](#casino-regular)|
@@ -412,12 +431,12 @@ Vivo set
 |![cloud-distribution-filled](icons/telefonica/filled/cloud-distribution-filled.svg) | |![cloud-distribution-filled](icons/o2/filled/cloud-distribution-filled.svg) | |<a id='cloud-distribution-filled'>`cloud-distribution-filled`</a>[![cloud-distribution-filled](.github/resources/anchor.svg)](#cloud-distribution-filled)|
 |![cloud-distribution-light](icons/telefonica/light/cloud-distribution-light.svg) | |![cloud-distribution-light](icons/o2/light/cloud-distribution-light.svg) | |<a id='cloud-distribution-light'>`cloud-distribution-light`</a>[![cloud-distribution-light](.github/resources/anchor.svg)](#cloud-distribution-light)|
 |![cloud-distribution-regular](icons/telefonica/regular/cloud-distribution-regular.svg) | |![cloud-distribution-regular](icons/o2/regular/cloud-distribution-regular.svg) | |<a id='cloud-distribution-regular'>`cloud-distribution-regular`</a>[![cloud-distribution-regular](.github/resources/anchor.svg)](#cloud-distribution-regular)|
-|![cloud-filled](icons/telefonica/filled/cloud-filled.svg) | | | |<a id='cloud-filled'>`cloud-filled`</a>[![cloud-filled](.github/resources/anchor.svg)](#cloud-filled)|
+|![cloud-filled](icons/telefonica/filled/cloud-filled.svg) | |![cloud-filled](icons/o2/filled/cloud-filled.svg) | |<a id='cloud-filled'>`cloud-filled`</a>[![cloud-filled](.github/resources/anchor.svg)](#cloud-filled)|
 | | |![cloud-friends-filled](icons/o2/filled/cloud-friends-filled.svg) | |<a id='cloud-friends-filled'>`cloud-friends-filled`</a>[![cloud-friends-filled](.github/resources/anchor.svg)](#cloud-friends-filled)|
 | | |![cloud-friends-light](icons/o2/light/cloud-friends-light.svg) | |<a id='cloud-friends-light'>`cloud-friends-light`</a>[![cloud-friends-light](.github/resources/anchor.svg)](#cloud-friends-light)|
 | | |![cloud-friends-regular](icons/o2/regular/cloud-friends-regular.svg) | |<a id='cloud-friends-regular'>`cloud-friends-regular`</a>[![cloud-friends-regular](.github/resources/anchor.svg)](#cloud-friends-regular)|
-|![cloud-light](icons/telefonica/light/cloud-light.svg) | | | |<a id='cloud-light'>`cloud-light`</a>[![cloud-light](.github/resources/anchor.svg)](#cloud-light)|
-|![cloud-regular](icons/telefonica/regular/cloud-regular.svg) | | | |<a id='cloud-regular'>`cloud-regular`</a>[![cloud-regular](.github/resources/anchor.svg)](#cloud-regular)|
+|![cloud-light](icons/telefonica/light/cloud-light.svg) | |![cloud-light](icons/o2/light/cloud-light.svg) | |<a id='cloud-light'>`cloud-light`</a>[![cloud-light](.github/resources/anchor.svg)](#cloud-light)|
+|![cloud-regular](icons/telefonica/regular/cloud-regular.svg) | |![cloud-regular](icons/o2/regular/cloud-regular.svg) | |<a id='cloud-regular'>`cloud-regular`</a>[![cloud-regular](.github/resources/anchor.svg)](#cloud-regular)|
 |![cloud-upload-filled](icons/telefonica/filled/cloud-upload-filled.svg) | | | |<a id='cloud-upload-filled'>`cloud-upload-filled`</a>[![cloud-upload-filled](.github/resources/anchor.svg)](#cloud-upload-filled)|
 |![cloud-upload-light](icons/telefonica/light/cloud-upload-light.svg) | | | |<a id='cloud-upload-light'>`cloud-upload-light`</a>[![cloud-upload-light](.github/resources/anchor.svg)](#cloud-upload-light)|
 |![cloud-upload-regular](icons/telefonica/regular/cloud-upload-regular.svg) | | | |<a id='cloud-upload-regular'>`cloud-upload-regular`</a>[![cloud-upload-regular](.github/resources/anchor.svg)](#cloud-upload-regular)|
@@ -506,6 +525,7 @@ Vivo set
 |![credit-card-visa-filled](icons/telefonica/filled/credit-card-visa-filled.svg) | |![credit-card-visa-filled](icons/o2/filled/credit-card-visa-filled.svg) | |<a id='credit-card-visa-filled'>`credit-card-visa-filled`</a>[![credit-card-visa-filled](.github/resources/anchor.svg)](#credit-card-visa-filled)|
 |![credit-card-visa-light](icons/telefonica/light/credit-card-visa-light.svg) | |![credit-card-visa-light](icons/o2/light/credit-card-visa-light.svg) | |<a id='credit-card-visa-light'>`credit-card-visa-light`</a>[![credit-card-visa-light](.github/resources/anchor.svg)](#credit-card-visa-light)|
 |![credit-card-visa-regular](icons/telefonica/regular/credit-card-visa-regular.svg) | |![credit-card-visa-regular](icons/o2/regular/credit-card-visa-regular.svg) | |<a id='credit-card-visa-regular'>`credit-card-visa-regular`</a>[![credit-card-visa-regular](.github/resources/anchor.svg)](#credit-card-visa-regular)|
+| |![curtain-regular](icons/vivo-new/regular/curtain-regular.svg) | | |<a id='curtain-regular'>`curtain-regular`</a>[![curtain-regular](.github/resources/anchor.svg)](#curtain-regular)|
 |![cut-filled](icons/telefonica/filled/cut-filled.svg) | | | |<a id='cut-filled'>`cut-filled`</a>[![cut-filled](.github/resources/anchor.svg)](#cut-filled)|
 |![cut-light](icons/telefonica/light/cut-light.svg) | | | |<a id='cut-light'>`cut-light`</a>[![cut-light](.github/resources/anchor.svg)](#cut-light)|
 |![dartboard-filled](icons/telefonica/filled/dartboard-filled.svg) | |![dartboard-filled](icons/o2/filled/dartboard-filled.svg) | |<a id='dartboard-filled'>`dartboard-filled`</a>[![dartboard-filled](.github/resources/anchor.svg)](#dartboard-filled)|
@@ -607,6 +627,7 @@ Vivo set
 |![dollar-symbol-filled](icons/telefonica/filled/dollar-symbol-filled.svg) | | | |<a id='dollar-symbol-filled'>`dollar-symbol-filled`</a>[![dollar-symbol-filled](.github/resources/anchor.svg)](#dollar-symbol-filled)|
 |![dollar-symbol-light](icons/telefonica/light/dollar-symbol-light.svg) | | | |<a id='dollar-symbol-light'>`dollar-symbol-light`</a>[![dollar-symbol-light](.github/resources/anchor.svg)](#dollar-symbol-light)|
 |![dollar-symbol-regular](icons/telefonica/regular/dollar-symbol-regular.svg) | | | |<a id='dollar-symbol-regular'>`dollar-symbol-regular`</a>[![dollar-symbol-regular](.github/resources/anchor.svg)](#dollar-symbol-regular)|
+| |![door-lock-regular](icons/vivo-new/regular/door-lock-regular.svg) | | |<a id='door-lock-regular'>`door-lock-regular`</a>[![door-lock-regular](.github/resources/anchor.svg)](#door-lock-regular)|
 |![download-app-filled](icons/telefonica/filled/download-app-filled.svg) | | | |<a id='download-app-filled'>`download-app-filled`</a>[![download-app-filled](.github/resources/anchor.svg)](#download-app-filled)|
 |![download-app-light](icons/telefonica/light/download-app-light.svg) | | | |<a id='download-app-light'>`download-app-light`</a>[![download-app-light](.github/resources/anchor.svg)](#download-app-light)|
 |![download-app-regular](icons/telefonica/regular/download-app-regular.svg) | | | |<a id='download-app-regular'>`download-app-regular`</a>[![download-app-regular](.github/resources/anchor.svg)](#download-app-regular)|
@@ -659,6 +680,9 @@ Vivo set
 |![esim-filled](icons/telefonica/filled/esim-filled.svg) | |![esim-filled](icons/o2/filled/esim-filled.svg) | |<a id='esim-filled'>`esim-filled`</a>[![esim-filled](.github/resources/anchor.svg)](#esim-filled)|
 |![esim-light](icons/telefonica/light/esim-light.svg) | |![esim-light](icons/o2/light/esim-light.svg) | |<a id='esim-light'>`esim-light`</a>[![esim-light](.github/resources/anchor.svg)](#esim-light)|
 |![esim-regular](icons/telefonica/regular/esim-regular.svg) | |![esim-regular](icons/o2/regular/esim-regular.svg) | |<a id='esim-regular'>`esim-regular`</a>[![esim-regular](.github/resources/anchor.svg)](#esim-regular)|
+| |![ethernet-filled](icons/vivo-new/filled/ethernet-filled.svg) | | |<a id='ethernet-filled'>`ethernet-filled`</a>[![ethernet-filled](.github/resources/anchor.svg)](#ethernet-filled)|
+| |![ethernet-light](icons/vivo-new/light/ethernet-light.svg) | | |<a id='ethernet-light'>`ethernet-light`</a>[![ethernet-light](.github/resources/anchor.svg)](#ethernet-light)|
+| |![ethernet-regular](icons/vivo-new/regular/ethernet-regular.svg) | | |<a id='ethernet-regular'>`ethernet-regular`</a>[![ethernet-regular](.github/resources/anchor.svg)](#ethernet-regular)|
 |![euro-symbol-circle-filled](icons/telefonica/filled/euro-symbol-circle-filled.svg) | |![euro-symbol-circle-filled](icons/o2/filled/euro-symbol-circle-filled.svg) | |<a id='euro-symbol-circle-filled'>`euro-symbol-circle-filled`</a>[![euro-symbol-circle-filled](.github/resources/anchor.svg)](#euro-symbol-circle-filled)|
 |![euro-symbol-circle-light](icons/telefonica/light/euro-symbol-circle-light.svg) | |![euro-symbol-circle-light](icons/o2/light/euro-symbol-circle-light.svg) | |<a id='euro-symbol-circle-light'>`euro-symbol-circle-light`</a>[![euro-symbol-circle-light](.github/resources/anchor.svg)](#euro-symbol-circle-light)|
 |![euro-symbol-circle-regular](icons/telefonica/regular/euro-symbol-circle-regular.svg) | |![euro-symbol-circle-regular](icons/o2/regular/euro-symbol-circle-regular.svg) | |<a id='euro-symbol-circle-regular'>`euro-symbol-circle-regular`</a>[![euro-symbol-circle-regular](.github/resources/anchor.svg)](#euro-symbol-circle-regular)|
@@ -969,9 +993,10 @@ Vivo set
 | | |![lifts-filled](icons/o2/filled/lifts-filled.svg) | |<a id='lifts-filled'>`lifts-filled`</a>[![lifts-filled](.github/resources/anchor.svg)](#lifts-filled)|
 | | |![lifts-light](icons/o2/light/lifts-light.svg) | |<a id='lifts-light'>`lifts-light`</a>[![lifts-light](.github/resources/anchor.svg)](#lifts-light)|
 | | |![lifts-regular](icons/o2/regular/lifts-regular.svg) | |<a id='lifts-regular'>`lifts-regular`</a>[![lifts-regular](.github/resources/anchor.svg)](#lifts-regular)|
+| |![light-switch-regular](icons/vivo-new/regular/light-switch-regular.svg) | | |<a id='light-switch-regular'>`light-switch-regular`</a>[![light-switch-regular](.github/resources/anchor.svg)](#light-switch-regular)|
 |![lightbulb-filled](icons/telefonica/filled/lightbulb-filled.svg) | |![lightbulb-filled](icons/o2/filled/lightbulb-filled.svg) | |<a id='lightbulb-filled'>`lightbulb-filled`</a>[![lightbulb-filled](.github/resources/anchor.svg)](#lightbulb-filled)|
 |![lightbulb-light](icons/telefonica/light/lightbulb-light.svg) | |![lightbulb-light](icons/o2/light/lightbulb-light.svg) | |<a id='lightbulb-light'>`lightbulb-light`</a>[![lightbulb-light](.github/resources/anchor.svg)](#lightbulb-light)|
-|![lightbulb-regular](icons/telefonica/regular/lightbulb-regular.svg) | |![lightbulb-regular](icons/o2/regular/lightbulb-regular.svg) | |<a id='lightbulb-regular'>`lightbulb-regular`</a>[![lightbulb-regular](.github/resources/anchor.svg)](#lightbulb-regular)|
+|![lightbulb-regular](icons/telefonica/regular/lightbulb-regular.svg) |![lightbulb-regular](icons/vivo-new/regular/lightbulb-regular.svg) |![lightbulb-regular](icons/o2/regular/lightbulb-regular.svg) | |<a id='lightbulb-regular'>`lightbulb-regular`</a>[![lightbulb-regular](.github/resources/anchor.svg)](#lightbulb-regular)|
 |![lightning-filled](icons/telefonica/filled/lightning-filled.svg) | | | |<a id='lightning-filled'>`lightning-filled`</a>[![lightning-filled](.github/resources/anchor.svg)](#lightning-filled)|
 |![lightning-light](icons/telefonica/light/lightning-light.svg) | | | |<a id='lightning-light'>`lightning-light`</a>[![lightning-light](.github/resources/anchor.svg)](#lightning-light)|
 |![lightning-regular](icons/telefonica/regular/lightning-regular.svg) | | | |<a id='lightning-regular'>`lightning-regular`</a>[![lightning-regular](.github/resources/anchor.svg)](#lightning-regular)|
@@ -1090,7 +1115,7 @@ Vivo set
 |![money-rise-regular](icons/telefonica/regular/money-rise-regular.svg) | | | |<a id='money-rise-regular'>`money-rise-regular`</a>[![money-rise-regular](.github/resources/anchor.svg)](#money-rise-regular)|
 |![moon-filled](icons/telefonica/filled/moon-filled.svg) | | | |<a id='moon-filled'>`moon-filled`</a>[![moon-filled](.github/resources/anchor.svg)](#moon-filled)|
 |![moon-light](icons/telefonica/light/moon-light.svg) | | | |<a id='moon-light'>`moon-light`</a>[![moon-light](.github/resources/anchor.svg)](#moon-light)|
-|![moon-regular](icons/telefonica/regular/moon-regular.svg) | | | |<a id='moon-regular'>`moon-regular`</a>[![moon-regular](.github/resources/anchor.svg)](#moon-regular)|
+|![moon-regular](icons/telefonica/regular/moon-regular.svg) |![moon-regular](icons/vivo-new/regular/moon-regular.svg) | | |<a id='moon-regular'>`moon-regular`</a>[![moon-regular](.github/resources/anchor.svg)](#moon-regular)|
 |![mouse-filled](icons/telefonica/filled/mouse-filled.svg) | | | |<a id='mouse-filled'>`mouse-filled`</a>[![mouse-filled](.github/resources/anchor.svg)](#mouse-filled)|
 |![mouse-light](icons/telefonica/light/mouse-light.svg) | | | |<a id='mouse-light'>`mouse-light`</a>[![mouse-light](.github/resources/anchor.svg)](#mouse-light)|
 |![mouse-regular](icons/telefonica/regular/mouse-regular.svg) | | | |<a id='mouse-regular'>`mouse-regular`</a>[![mouse-regular](.github/resources/anchor.svg)](#mouse-regular)|
@@ -1112,6 +1137,7 @@ Vivo set
 | | |![mute-filled](icons/o2/filled/mute-filled.svg) | |<a id='mute-filled'>`mute-filled`</a>[![mute-filled](.github/resources/anchor.svg)](#mute-filled)|
 | | |![mute-light](icons/o2/light/mute-light.svg) | |<a id='mute-light'>`mute-light`</a>[![mute-light](.github/resources/anchor.svg)](#mute-light)|
 | | |![mute-regular](icons/o2/regular/mute-regular.svg) | |<a id='mute-regular'>`mute-regular`</a>[![mute-regular](.github/resources/anchor.svg)](#mute-regular)|
+| |![negative-film-regular](icons/vivo-new/regular/negative-film-regular.svg) | | |<a id='negative-film-regular'>`negative-film-regular`</a>[![negative-film-regular](.github/resources/anchor.svg)](#negative-film-regular)|
 | | |![network-hotspot-filled](icons/o2/filled/network-hotspot-filled.svg) | |<a id='network-hotspot-filled'>`network-hotspot-filled`</a>[![network-hotspot-filled](.github/resources/anchor.svg)](#network-hotspot-filled)|
 | | |![network-hotspot-light](icons/o2/light/network-hotspot-light.svg) | |<a id='network-hotspot-light'>`network-hotspot-light`</a>[![network-hotspot-light](.github/resources/anchor.svg)](#network-hotspot-light)|
 | | |![network-hotspot-regular](icons/o2/regular/network-hotspot-regular.svg) | |<a id='network-hotspot-regular'>`network-hotspot-regular`</a>[![network-hotspot-regular](.github/resources/anchor.svg)](#network-hotspot-regular)|
@@ -1180,6 +1206,7 @@ Vivo set
 |![outgoing-call-filled](icons/telefonica/filled/outgoing-call-filled.svg) | | | |<a id='outgoing-call-filled'>`outgoing-call-filled`</a>[![outgoing-call-filled](.github/resources/anchor.svg)](#outgoing-call-filled)|
 |![outgoing-call-light](icons/telefonica/light/outgoing-call-light.svg) | | | |<a id='outgoing-call-light'>`outgoing-call-light`</a>[![outgoing-call-light](.github/resources/anchor.svg)](#outgoing-call-light)|
 |![outgoing-call-regular](icons/telefonica/regular/outgoing-call-regular.svg) | | | |<a id='outgoing-call-regular'>`outgoing-call-regular`</a>[![outgoing-call-regular](.github/resources/anchor.svg)](#outgoing-call-regular)|
+| |![outlet-regular](icons/vivo-new/regular/outlet-regular.svg) | | |<a id='outlet-regular'>`outlet-regular`</a>[![outlet-regular](.github/resources/anchor.svg)](#outlet-regular)|
 |![pacifier-filled](icons/telefonica/filled/pacifier-filled.svg) | | | |<a id='pacifier-filled'>`pacifier-filled`</a>[![pacifier-filled](.github/resources/anchor.svg)](#pacifier-filled)|
 |![pacifier-light](icons/telefonica/light/pacifier-light.svg) | | | |<a id='pacifier-light'>`pacifier-light`</a>[![pacifier-light](.github/resources/anchor.svg)](#pacifier-light)|
 |![pacifier-regular](icons/telefonica/regular/pacifier-regular.svg) | | | |<a id='pacifier-regular'>`pacifier-regular`</a>[![pacifier-regular](.github/resources/anchor.svg)](#pacifier-regular)|
@@ -1303,6 +1330,7 @@ Vivo set
 | | |![queue-filled](icons/o2/filled/queue-filled.svg) | |<a id='queue-filled'>`queue-filled`</a>[![queue-filled](.github/resources/anchor.svg)](#queue-filled)|
 | | |![queue-light](icons/o2/light/queue-light.svg) | |<a id='queue-light'>`queue-light`</a>[![queue-light](.github/resources/anchor.svg)](#queue-light)|
 | | |![queue-regular](icons/o2/regular/queue-regular.svg) | |<a id='queue-regular'>`queue-regular`</a>[![queue-regular](.github/resources/anchor.svg)](#queue-regular)|
+| |![rain-regular](icons/vivo-new/regular/rain-regular.svg) | | |<a id='rain-regular'>`rain-regular`</a>[![rain-regular](.github/resources/anchor.svg)](#rain-regular)|
 |![rating-filled](icons/telefonica/filled/rating-filled.svg) | |![rating-filled](icons/o2/filled/rating-filled.svg) | |<a id='rating-filled'>`rating-filled`</a>[![rating-filled](.github/resources/anchor.svg)](#rating-filled)|
 |![rating-light](icons/telefonica/light/rating-light.svg) | |![rating-light](icons/o2/light/rating-light.svg) | |<a id='rating-light'>`rating-light`</a>[![rating-light](.github/resources/anchor.svg)](#rating-light)|
 |![rating-regular](icons/telefonica/regular/rating-regular.svg) | |![rating-regular](icons/o2/regular/rating-regular.svg) | |<a id='rating-regular'>`rating-regular`</a>[![rating-regular](.github/resources/anchor.svg)](#rating-regular)|
@@ -1342,6 +1370,7 @@ Vivo set
 |![robot-filled](icons/telefonica/filled/robot-filled.svg) | |![robot-filled](icons/o2/filled/robot-filled.svg) | |<a id='robot-filled'>`robot-filled`</a>[![robot-filled](.github/resources/anchor.svg)](#robot-filled)|
 |![robot-light](icons/telefonica/light/robot-light.svg) | |![robot-light](icons/o2/light/robot-light.svg) | |<a id='robot-light'>`robot-light`</a>[![robot-light](.github/resources/anchor.svg)](#robot-light)|
 |![robot-regular](icons/telefonica/regular/robot-regular.svg) | |![robot-regular](icons/o2/regular/robot-regular.svg) | |<a id='robot-regular'>`robot-regular`</a>[![robot-regular](.github/resources/anchor.svg)](#robot-regular)|
+| |![robot-vacuum-regular](icons/vivo-new/regular/robot-vacuum-regular.svg) | | |<a id='robot-vacuum-regular'>`robot-vacuum-regular`</a>[![robot-vacuum-regular](.github/resources/anchor.svg)](#robot-vacuum-regular)|
 |![rocket-filled](icons/telefonica/filled/rocket-filled.svg) | |![rocket-filled](icons/o2/filled/rocket-filled.svg) | |<a id='rocket-filled'>`rocket-filled`</a>[![rocket-filled](.github/resources/anchor.svg)](#rocket-filled)|
 |![rocket-light](icons/telefonica/light/rocket-light.svg) | |![rocket-light](icons/o2/light/rocket-light.svg) | |<a id='rocket-light'>`rocket-light`</a>[![rocket-light](.github/resources/anchor.svg)](#rocket-light)|
 |![rocket-regular](icons/telefonica/regular/rocket-regular.svg) | |![rocket-regular](icons/o2/regular/rocket-regular.svg) | |<a id='rocket-regular'>`rocket-regular`</a>[![rocket-regular](.github/resources/anchor.svg)](#rocket-regular)|
@@ -1353,7 +1382,10 @@ Vivo set
 |![route-regular](icons/telefonica/regular/route-regular.svg) | | | |<a id='route-regular'>`route-regular`</a>[![route-regular](.github/resources/anchor.svg)](#route-regular)|
 |![router-filled](icons/telefonica/filled/router-filled.svg) | |![router-filled](icons/o2/filled/router-filled.svg) | |<a id='router-filled'>`router-filled`</a>[![router-filled](.github/resources/anchor.svg)](#router-filled)|
 |![router-light](icons/telefonica/light/router-light.svg) | |![router-light](icons/o2/light/router-light.svg) | |<a id='router-light'>`router-light`</a>[![router-light](.github/resources/anchor.svg)](#router-light)|
-|![router-regular](icons/telefonica/regular/router-regular.svg) | |![router-regular](icons/o2/regular/router-regular.svg) | |<a id='router-regular'>`router-regular`</a>[![router-regular](.github/resources/anchor.svg)](#router-regular)|
+|![router-regular](icons/telefonica/regular/router-regular.svg) |![router-regular](icons/vivo-new/regular/router-regular.svg) |![router-regular](icons/o2/regular/router-regular.svg) | |<a id='router-regular'>`router-regular`</a>[![router-regular](.github/resources/anchor.svg)](#router-regular)|
+| |![routine-filled](icons/vivo-new/filled/routine-filled.svg) | | |<a id='routine-filled'>`routine-filled`</a>[![routine-filled](.github/resources/anchor.svg)](#routine-filled)|
+| |![routine-light](icons/vivo-new/light/routine-light.svg) | | |<a id='routine-light'>`routine-light`</a>[![routine-light](.github/resources/anchor.svg)](#routine-light)|
+| |![routine-regular](icons/vivo-new/regular/routine-regular.svg) | | |<a id='routine-regular'>`routine-regular`</a>[![routine-regular](.github/resources/anchor.svg)](#routine-regular)|
 |![ruler-filled](icons/telefonica/filled/ruler-filled.svg) | | | |<a id='ruler-filled'>`ruler-filled`</a>[![ruler-filled](.github/resources/anchor.svg)](#ruler-filled)|
 |![ruler-light](icons/telefonica/light/ruler-light.svg) | | | |<a id='ruler-light'>`ruler-light`</a>[![ruler-light](.github/resources/anchor.svg)](#ruler-light)|
 |![ruler-regular](icons/telefonica/regular/ruler-regular.svg) | | | |<a id='ruler-regular'>`ruler-regular`</a>[![ruler-regular](.github/resources/anchor.svg)](#ruler-regular)|
@@ -1429,6 +1461,9 @@ Vivo set
 |![shower-filled](icons/telefonica/filled/shower-filled.svg) | | | |<a id='shower-filled'>`shower-filled`</a>[![shower-filled](.github/resources/anchor.svg)](#shower-filled)|
 |![shower-light](icons/telefonica/light/shower-light.svg) | | | |<a id='shower-light'>`shower-light`</a>[![shower-light](.github/resources/anchor.svg)](#shower-light)|
 |![shower-regular](icons/telefonica/regular/shower-regular.svg) | | | |<a id='shower-regular'>`shower-regular`</a>[![shower-regular](.github/resources/anchor.svg)](#shower-regular)|
+| |![shuffle-circle-filled](icons/vivo-new/filled/shuffle-circle-filled.svg) | | |<a id='shuffle-circle-filled'>`shuffle-circle-filled`</a>[![shuffle-circle-filled](.github/resources/anchor.svg)](#shuffle-circle-filled)|
+| |![shuffle-circle-light](icons/vivo-new/light/shuffle-circle-light.svg) | | |<a id='shuffle-circle-light'>`shuffle-circle-light`</a>[![shuffle-circle-light](.github/resources/anchor.svg)](#shuffle-circle-light)|
+| |![shuffle-circle-regular](icons/vivo-new/regular/shuffle-circle-regular.svg) | | |<a id='shuffle-circle-regular'>`shuffle-circle-regular`</a>[![shuffle-circle-regular](.github/resources/anchor.svg)](#shuffle-circle-regular)|
 |![singleparent-family-filled](icons/telefonica/filled/singleparent-family-filled.svg) | | | |<a id='singleparent-family-filled'>`singleparent-family-filled`</a>[![singleparent-family-filled](.github/resources/anchor.svg)](#singleparent-family-filled)|
 |![singleparent-family-light](icons/telefonica/light/singleparent-family-light.svg) | | | |<a id='singleparent-family-light'>`singleparent-family-light`</a>[![singleparent-family-light](.github/resources/anchor.svg)](#singleparent-family-light)|
 |![singleparent-family-regular](icons/telefonica/regular/singleparent-family-regular.svg) | | | |<a id='singleparent-family-regular'>`singleparent-family-regular`</a>[![singleparent-family-regular](.github/resources/anchor.svg)](#singleparent-family-regular)|
@@ -1483,7 +1518,7 @@ Vivo set
 |![subtract-regular](icons/telefonica/regular/subtract-regular.svg) | |![subtract-regular](icons/o2/regular/subtract-regular.svg) |![subtract-regular](icons/blau/regular/subtract-regular.svg) |<a id='subtract-regular'>`subtract-regular`</a>[![subtract-regular](.github/resources/anchor.svg)](#subtract-regular)|
 |![sun-filled](icons/telefonica/filled/sun-filled.svg) | | | |<a id='sun-filled'>`sun-filled`</a>[![sun-filled](.github/resources/anchor.svg)](#sun-filled)|
 |![sun-light](icons/telefonica/light/sun-light.svg) | | | |<a id='sun-light'>`sun-light`</a>[![sun-light](.github/resources/anchor.svg)](#sun-light)|
-|![sun-regular](icons/telefonica/regular/sun-regular.svg) | | | |<a id='sun-regular'>`sun-regular`</a>[![sun-regular](.github/resources/anchor.svg)](#sun-regular)|
+|![sun-regular](icons/telefonica/regular/sun-regular.svg) |![sun-regular](icons/vivo-new/regular/sun-regular.svg) | | |<a id='sun-regular'>`sun-regular`</a>[![sun-regular](.github/resources/anchor.svg)](#sun-regular)|
 |![supermarket-filled](icons/telefonica/filled/supermarket-filled.svg) | | | |<a id='supermarket-filled'>`supermarket-filled`</a>[![supermarket-filled](.github/resources/anchor.svg)](#supermarket-filled)|
 |![supermarket-light](icons/telefonica/light/supermarket-light.svg) | | | |<a id='supermarket-light'>`supermarket-light`</a>[![supermarket-light](.github/resources/anchor.svg)](#supermarket-light)|
 |![supermarket-regular](icons/telefonica/regular/supermarket-regular.svg) | | | |<a id='supermarket-regular'>`supermarket-regular`</a>[![supermarket-regular](.github/resources/anchor.svg)](#supermarket-regular)|
@@ -1547,9 +1582,9 @@ Vivo set
 |![teddy-bear-filled](icons/telefonica/filled/teddy-bear-filled.svg) | | | |<a id='teddy-bear-filled'>`teddy-bear-filled`</a>[![teddy-bear-filled](.github/resources/anchor.svg)](#teddy-bear-filled)|
 |![teddy-bear-light](icons/telefonica/light/teddy-bear-light.svg) | | | |<a id='teddy-bear-light'>`teddy-bear-light`</a>[![teddy-bear-light](.github/resources/anchor.svg)](#teddy-bear-light)|
 |![teddy-bear-regular](icons/telefonica/regular/teddy-bear-regular.svg) | | | |<a id='teddy-bear-regular'>`teddy-bear-regular`</a>[![teddy-bear-regular](.github/resources/anchor.svg)](#teddy-bear-regular)|
-| | |![telephone-ip-filled](icons/o2/filled/telephone-ip-filled.svg) | |<a id='telephone-ip-filled'>`telephone-ip-filled`</a>[![telephone-ip-filled](.github/resources/anchor.svg)](#telephone-ip-filled)|
-| | |![telephone-ip-light](icons/o2/light/telephone-ip-light.svg) | |<a id='telephone-ip-light'>`telephone-ip-light`</a>[![telephone-ip-light](.github/resources/anchor.svg)](#telephone-ip-light)|
-| | |![telephone-ip-regular](icons/o2/regular/telephone-ip-regular.svg) | |<a id='telephone-ip-regular'>`telephone-ip-regular`</a>[![telephone-ip-regular](.github/resources/anchor.svg)](#telephone-ip-regular)|
+| |![telephone-ip-filled](icons/vivo-new/filled/telephone-ip-filled.svg) |![telephone-ip-filled](icons/o2/filled/telephone-ip-filled.svg) | |<a id='telephone-ip-filled'>`telephone-ip-filled`</a>[![telephone-ip-filled](.github/resources/anchor.svg)](#telephone-ip-filled)|
+| |![telephone-ip-light](icons/vivo-new/light/telephone-ip-light.svg) |![telephone-ip-light](icons/o2/light/telephone-ip-light.svg) | |<a id='telephone-ip-light'>`telephone-ip-light`</a>[![telephone-ip-light](.github/resources/anchor.svg)](#telephone-ip-light)|
+| |![telephone-ip-regular](icons/vivo-new/regular/telephone-ip-regular.svg) |![telephone-ip-regular](icons/o2/regular/telephone-ip-regular.svg) | |<a id='telephone-ip-regular'>`telephone-ip-regular`</a>[![telephone-ip-regular](.github/resources/anchor.svg)](#telephone-ip-regular)|
 | | |![telephone-pot-filled](icons/o2/filled/telephone-pot-filled.svg) | |<a id='telephone-pot-filled'>`telephone-pot-filled`</a>[![telephone-pot-filled](.github/resources/anchor.svg)](#telephone-pot-filled)|
 | | |![telephone-pot-light](icons/o2/light/telephone-pot-light.svg) | |<a id='telephone-pot-light'>`telephone-pot-light`</a>[![telephone-pot-light](.github/resources/anchor.svg)](#telephone-pot-light)|
 | | |![telephone-pot-regular](icons/o2/regular/telephone-pot-regular.svg) | |<a id='telephone-pot-regular'>`telephone-pot-regular`</a>[![telephone-pot-regular](.github/resources/anchor.svg)](#telephone-pot-regular)|
@@ -1558,7 +1593,7 @@ Vivo set
 |![theater-regular](icons/telefonica/regular/theater-regular.svg) | | | |<a id='theater-regular'>`theater-regular`</a>[![theater-regular](.github/resources/anchor.svg)](#theater-regular)|
 | | |![thermometer-filled](icons/o2/filled/thermometer-filled.svg) | |<a id='thermometer-filled'>`thermometer-filled`</a>[![thermometer-filled](.github/resources/anchor.svg)](#thermometer-filled)|
 | | |![thermometer-light](icons/o2/light/thermometer-light.svg) | |<a id='thermometer-light'>`thermometer-light`</a>[![thermometer-light](.github/resources/anchor.svg)](#thermometer-light)|
-| | |![thermometer-regular](icons/o2/regular/thermometer-regular.svg) | |<a id='thermometer-regular'>`thermometer-regular`</a>[![thermometer-regular](.github/resources/anchor.svg)](#thermometer-regular)|
+| |![thermometer-regular](icons/vivo-new/regular/thermometer-regular.svg) |![thermometer-regular](icons/o2/regular/thermometer-regular.svg) | |<a id='thermometer-regular'>`thermometer-regular`</a>[![thermometer-regular](.github/resources/anchor.svg)](#thermometer-regular)|
 |![throw-light-filled](icons/telefonica/filled/throw-light-filled.svg) | | | |<a id='throw-light-filled'>`throw-light-filled`</a>[![throw-light-filled](.github/resources/anchor.svg)](#throw-light-filled)|
 |![throw-light-light](icons/telefonica/light/throw-light-light.svg) | | | |<a id='throw-light-light'>`throw-light-light`</a>[![throw-light-light](.github/resources/anchor.svg)](#throw-light-light)|
 |![throw-light-regular](icons/telefonica/regular/throw-light-regular.svg) | | | |<a id='throw-light-regular'>`throw-light-regular`</a>[![throw-light-regular](.github/resources/anchor.svg)](#throw-light-regular)|
@@ -1625,7 +1660,7 @@ Vivo set
 |![tshirt-regular](icons/telefonica/regular/tshirt-regular.svg) | | | |<a id='tshirt-regular'>`tshirt-regular`</a>[![tshirt-regular](.github/resources/anchor.svg)](#tshirt-regular)|
 |![tv-content-filled](icons/telefonica/filled/tv-content-filled.svg) | |![tv-content-filled](icons/o2/filled/tv-content-filled.svg) | |<a id='tv-content-filled'>`tv-content-filled`</a>[![tv-content-filled](.github/resources/anchor.svg)](#tv-content-filled)|
 |![tv-content-light](icons/telefonica/light/tv-content-light.svg) | |![tv-content-light](icons/o2/light/tv-content-light.svg) | |<a id='tv-content-light'>`tv-content-light`</a>[![tv-content-light](.github/resources/anchor.svg)](#tv-content-light)|
-|![tv-content-regular](icons/telefonica/regular/tv-content-regular.svg) | |![tv-content-regular](icons/o2/regular/tv-content-regular.svg) | |<a id='tv-content-regular'>`tv-content-regular`</a>[![tv-content-regular](.github/resources/anchor.svg)](#tv-content-regular)|
+|![tv-content-regular](icons/telefonica/regular/tv-content-regular.svg) |![tv-content-regular](icons/vivo-new/regular/tv-content-regular.svg) |![tv-content-regular](icons/o2/regular/tv-content-regular.svg) | |<a id='tv-content-regular'>`tv-content-regular`</a>[![tv-content-regular](.github/resources/anchor.svg)](#tv-content-regular)|
 |![umbrella-filled](icons/telefonica/filled/umbrella-filled.svg) | | | |<a id='umbrella-filled'>`umbrella-filled`</a>[![umbrella-filled](.github/resources/anchor.svg)](#umbrella-filled)|
 |![umbrella-light](icons/telefonica/light/umbrella-light.svg) | | | |<a id='umbrella-light'>`umbrella-light`</a>[![umbrella-light](.github/resources/anchor.svg)](#umbrella-light)|
 |![umbrella-regular](icons/telefonica/regular/umbrella-regular.svg) | | | |<a id='umbrella-regular'>`umbrella-regular`</a>[![umbrella-regular](.github/resources/anchor.svg)](#umbrella-regular)|
@@ -1646,7 +1681,7 @@ Vivo set
 |![user-support-regular](icons/telefonica/regular/user-support-regular.svg) | |![user-support-regular](icons/o2/regular/user-support-regular.svg) | |<a id='user-support-regular'>`user-support-regular`</a>[![user-support-regular](.github/resources/anchor.svg)](#user-support-regular)|
 | | |![video-camera-filled](icons/o2/filled/video-camera-filled.svg) | |<a id='video-camera-filled'>`video-camera-filled`</a>[![video-camera-filled](.github/resources/anchor.svg)](#video-camera-filled)|
 | | |![video-camera-light](icons/o2/light/video-camera-light.svg) | |<a id='video-camera-light'>`video-camera-light`</a>[![video-camera-light](.github/resources/anchor.svg)](#video-camera-light)|
-| | |![video-camera-regular](icons/o2/regular/video-camera-regular.svg) | |<a id='video-camera-regular'>`video-camera-regular`</a>[![video-camera-regular](.github/resources/anchor.svg)](#video-camera-regular)|
+| |![video-camera-regular](icons/vivo-new/regular/video-camera-regular.svg) |![video-camera-regular](icons/o2/regular/video-camera-regular.svg) | |<a id='video-camera-regular'>`video-camera-regular`</a>[![video-camera-regular](.github/resources/anchor.svg)](#video-camera-regular)|
 | | |![video-chat-filled](icons/o2/filled/video-chat-filled.svg) | |<a id='video-chat-filled'>`video-chat-filled`</a>[![video-chat-filled](.github/resources/anchor.svg)](#video-chat-filled)|
 | | |![video-chat-light](icons/o2/light/video-chat-light.svg) | |<a id='video-chat-light'>`video-chat-light`</a>[![video-chat-light](.github/resources/anchor.svg)](#video-chat-light)|
 | | |![video-chat-regular](icons/o2/regular/video-chat-regular.svg) | |<a id='video-chat-regular'>`video-chat-regular`</a>[![video-chat-regular](.github/resources/anchor.svg)](#video-chat-regular)|
@@ -1656,8 +1691,9 @@ Vivo set
 |![video-filled](icons/telefonica/filled/video-filled.svg) | |![video-filled](icons/o2/filled/video-filled.svg) | |<a id='video-filled'>`video-filled`</a>[![video-filled](.github/resources/anchor.svg)](#video-filled)|
 |![video-light](icons/telefonica/light/video-light.svg) | |![video-light](icons/o2/light/video-light.svg) | |<a id='video-light'>`video-light`</a>[![video-light](.github/resources/anchor.svg)](#video-light)|
 |![video-regular](icons/telefonica/regular/video-regular.svg) | |![video-regular](icons/o2/regular/video-regular.svg) | |<a id='video-regular'>`video-regular`</a>[![video-regular](.github/resources/anchor.svg)](#video-regular)|
-|![video-surveillance-security-filled](icons/telefonica/filled/video-surveillance-security-filled.svg) | | | |<a id='video-surveillance-security-filled'>`video-surveillance-security-filled`</a>[![video-surveillance-security-filled](.github/resources/anchor.svg)](#video-surveillance-security-filled)|
-|![video-surveillance-security-light](icons/telefonica/light/video-surveillance-security-light.svg) | | | |<a id='video-surveillance-security-light'>`video-surveillance-security-light`</a>[![video-surveillance-security-light](.github/resources/anchor.svg)](#video-surveillance-security-light)|
+|![video-surveillance-security-filled](icons/telefonica/filled/video-surveillance-security-filled.svg) |![video-surveillance-security-filled](icons/vivo-new/filled/video-surveillance-security-filled.svg) | | |<a id='video-surveillance-security-filled'>`video-surveillance-security-filled`</a>[![video-surveillance-security-filled](.github/resources/anchor.svg)](#video-surveillance-security-filled)|
+|![video-surveillance-security-light](icons/telefonica/light/video-surveillance-security-light.svg) |![video-surveillance-security-light](icons/vivo-new/light/video-surveillance-security-light.svg) | | |<a id='video-surveillance-security-light'>`video-surveillance-security-light`</a>[![video-surveillance-security-light](.github/resources/anchor.svg)](#video-surveillance-security-light)|
+| |![video-surveillance-security-regular](icons/vivo-new/regular/video-surveillance-security-regular.svg) | | |<a id='video-surveillance-security-regular'>`video-surveillance-security-regular`</a>[![video-surveillance-security-regular](.github/resources/anchor.svg)](#video-surveillance-security-regular)|
 |![videogames-filled](icons/telefonica/filled/videogames-filled.svg) | |![videogames-filled](icons/o2/filled/videogames-filled.svg) | |<a id='videogames-filled'>`videogames-filled`</a>[![videogames-filled](.github/resources/anchor.svg)](#videogames-filled)|
 |![videogames-light](icons/telefonica/light/videogames-light.svg) | |![videogames-light](icons/o2/light/videogames-light.svg) | |<a id='videogames-light'>`videogames-light`</a>[![videogames-light](.github/resources/anchor.svg)](#videogames-light)|
 |![videogames-regular](icons/telefonica/regular/videogames-regular.svg) | |![videogames-regular](icons/o2/regular/videogames-regular.svg) | |<a id='videogames-regular'>`videogames-regular`</a>[![videogames-regular](.github/resources/anchor.svg)](#videogames-regular)|
@@ -1672,6 +1708,7 @@ Vivo set
 | | |![vod-filled](icons/o2/filled/vod-filled.svg) | |<a id='vod-filled'>`vod-filled`</a>[![vod-filled](.github/resources/anchor.svg)](#vod-filled)|
 | | |![vod-light](icons/o2/light/vod-light.svg) | |<a id='vod-light'>`vod-light`</a>[![vod-light](.github/resources/anchor.svg)](#vod-light)|
 | | |![vod-regular](icons/o2/regular/vod-regular.svg) | |<a id='vod-regular'>`vod-regular`</a>[![vod-regular](.github/resources/anchor.svg)](#vod-regular)|
+| |![voice-assistant-regular](icons/vivo-new/regular/voice-assistant-regular.svg) | | |<a id='voice-assistant-regular'>`voice-assistant-regular`</a>[![voice-assistant-regular](.github/resources/anchor.svg)](#voice-assistant-regular)|
 | | |![voicemail-filled](icons/o2/filled/voicemail-filled.svg) | |<a id='voicemail-filled'>`voicemail-filled`</a>[![voicemail-filled](.github/resources/anchor.svg)](#voicemail-filled)|
 | | |![voicemail-light](icons/o2/light/voicemail-light.svg) | |<a id='voicemail-light'>`voicemail-light`</a>[![voicemail-light](.github/resources/anchor.svg)](#voicemail-light)|
 | | |![voicemail-regular](icons/o2/regular/voicemail-regular.svg) | |<a id='voicemail-regular'>`voicemail-regular`</a>[![voicemail-regular](.github/resources/anchor.svg)](#voicemail-regular)|
@@ -1699,6 +1736,7 @@ Vivo set
 |![web-filled](icons/telefonica/filled/web-filled.svg) | | | |<a id='web-filled'>`web-filled`</a>[![web-filled](.github/resources/anchor.svg)](#web-filled)|
 |![web-light](icons/telefonica/light/web-light.svg) | | | |<a id='web-light'>`web-light`</a>[![web-light](.github/resources/anchor.svg)](#web-light)|
 |![web-regular](icons/telefonica/regular/web-regular.svg) | | | |<a id='web-regular'>`web-regular`</a>[![web-regular](.github/resources/anchor.svg)](#web-regular)|
+| |![webcam-regular](icons/vivo-new/regular/webcam-regular.svg) | | |<a id='webcam-regular'>`webcam-regular`</a>[![webcam-regular](.github/resources/anchor.svg)](#webcam-regular)|
 |![wifi-filled](icons/telefonica/filled/wifi-filled.svg) | |![wifi-filled](icons/o2/filled/wifi-filled.svg) | |<a id='wifi-filled'>`wifi-filled`</a>[![wifi-filled](.github/resources/anchor.svg)](#wifi-filled)|
 |![wifi-light](icons/telefonica/light/wifi-light.svg) | |![wifi-light](icons/o2/light/wifi-light.svg) | |<a id='wifi-light'>`wifi-light`</a>[![wifi-light](.github/resources/anchor.svg)](#wifi-light)|
 |![wifi-regular](icons/telefonica/regular/wifi-regular.svg) | |![wifi-regular](icons/o2/regular/wifi-regular.svg) |![wifi-regular](icons/blau/regular/wifi-regular.svg) |<a id='wifi-regular'>`wifi-regular`</a>[![wifi-regular](.github/resources/anchor.svg)](#wifi-regular)|
@@ -1729,3 +1767,4 @@ Vivo set
 | | |![world-device-filled](icons/o2/filled/world-device-filled.svg) | |<a id='world-device-filled'>`world-device-filled`</a>[![world-device-filled](.github/resources/anchor.svg)](#world-device-filled)|
 | | |![world-device-light](icons/o2/light/world-device-light.svg) | |<a id='world-device-light'>`world-device-light`</a>[![world-device-light](.github/resources/anchor.svg)](#world-device-light)|
 | | |![world-device-regular](icons/o2/regular/world-device-regular.svg) | |<a id='world-device-regular'>`world-device-regular`</a>[![world-device-regular](.github/resources/anchor.svg)](#world-device-regular)|
+
