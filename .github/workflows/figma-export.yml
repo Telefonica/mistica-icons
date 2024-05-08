@@ -97,7 +97,7 @@ jobs:
           for i in $(find icons -type f -name "*.pdf"); do echo $i && exiftool -overwrite_original_in_place -all:all= $i > /dev/null 2>&1 && qpdf --replace-input --deterministic-id $i; done # remove PDF metadata
 
       - name: Readme generator
-        run: sudo python3 .github/md-generator/md-generator.py icons
+        run: sudo python3 .github/md-generator/generate_markdown.py icons
 
       - name: Commit & Push
         env:
@@ -168,7 +168,7 @@ jobs:
           for i in $(find icons/telefonica -type f -name "*.pdf"); do echo $i && exiftool -overwrite_original_in_place -all:all= $i > /dev/null 2>&1 && qpdf --replace-input --deterministic-id $i; done # remove PDF metadata
 
       - name: Readme generator
-        run: sudo python3 .github/md-generator/md-generator.py icons
+        run: sudo python3 .github/md-generator/generate_markdown.py icons
 
       - name: Commit & Push
         env:
@@ -239,7 +239,7 @@ jobs:
           for i in $(find icons/o2 -type f -name "*.pdf"); do echo $i && exiftool -overwrite_original_in_place -all:all= $i > /dev/null 2>&1 && qpdf --replace-input --deterministic-id $i; done # remove PDF metadata
 
       - name: Readme generator
-        run: sudo python3 .github/md-generator/md-generator.py icons
+        run: sudo python3 .github/md-generator/generate_markdown.py icons
 
       - name: Commit & Push
         env:
@@ -308,7 +308,7 @@ jobs:
           for i in $(find icons/blau -type f -name "*.pdf"); do echo $i && exiftool -overwrite_original_in_place -all:all= $i > /dev/null 2>&1 && qpdf --replace-input --deterministic-id $i; done # remove PDF metadata
 
       - name: Readme generator
-        run: sudo python3 .github/md-generator/md-generator.py icons
+        run: sudo python3 .github/md-generator/generate_markdown.py icons
 
       - name: Commit & Push
         env:
@@ -379,7 +379,7 @@ jobs:
           for i in $(find icons/vivo-new -type f -name "*.pdf"); do echo $i && exiftool -overwrite_original_in_place -all:all= $i > /dev/null 2>&1 && qpdf --replace-input --deterministic-id $i; done # remove PDF metadata
 
       - name: Readme generator
-        run: sudo python3 .github/md-generator/md-generator.py icons
+        run: sudo python3 .github/md-generator/generate_markdown.py icons
 
       - name: Commit & Push
         env:
