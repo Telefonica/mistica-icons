@@ -27,10 +27,10 @@ Use Mística icons library in Figma!
 ## Equivalence status
 
 Telefonica  
-<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/80x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/131x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/188x8/D1D5E4/000&text=+' alt='Missing'>
+<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/80x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/130x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/189x8/D1D5E4/000&text=+' alt='Missing'>
 
 O2  
-<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/78x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/79x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/242x8/D1D5E4/000&text=+' alt='Missing'>
+<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/79x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/81x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/239x8/D1D5E4/000&text=+' alt='Missing'>
 
 Vivo-New  
 <img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/7x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/9x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/383x8/D1D5E4/000&text=+' alt='Missing'>
@@ -39,12 +39,12 @@ Blau
 <img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/9x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/1x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/389x8/D1D5E4/000&text=+' alt='Missing'>
 
   
-| <sub><sup>ICON SET</sup></sub> | <sub><sup>CONCEPTS (599)</sup></sub> | <sub><sup>TOTAL (2247)</sup></sub> | <sub><sup>ALL EQUIVALENCE</sup></sub> | <sub><sup>SOME EQUIVALENCE</sup></sub> | <sub><sup>UNIQUE</sup></sub> | <sub><sup>MISSING</sup></sub> |
+| <sub><sup>ICON SET</sup></sub> | <sub><sup>CONCEPTS (604)</sup></sub> | <sub><sup>TOTAL (2261)</sup></sub> | <sub><sup>ALL EQUIVALENCE</sup></sub> | <sub><sup>SOME EQUIVALENCE</sup></sub> | <sub><sup>UNIQUE</sup></sub> | <sub><sup>MISSING</sup></sub> |
 | :--------- | --------: | -----: | ----------: | -------------------: | -------------------: | ------------: |
-| Telefonica | 420 | 1193 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 451 (20.1%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 739 (32.9%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 1054 (46.9%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
-| O2 | 302 | 894 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 443 (19.7%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 448 (19.9%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 1353 (60.2%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
-| Vivo-New | 52 | 99 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 42 (1.9%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 54 (2.4%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2148 (95.6%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
-| Blau | 57 | 61 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 53 (2.4%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 5 (0.2%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2186 (97.3%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| Telefonica | 420 | 1193 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 453 (20.0%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 737 (32.6%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 1068 (47.2%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| O2 | 309 | 908 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 447 (19.8%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 458 (20.3%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 1353 (59.8%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| Vivo-New | 52 | 99 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 44 (1.9%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 52 (2.3%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2162 (95.6%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| Blau | 57 | 61 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 53 (2.3%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 5 (0.2%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2200 (97.3%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
 
 
 <sub>**Concepts**: Counts the different names of icons in the set excluding any variations in style or weight.</sub>  
@@ -643,6 +643,8 @@ Blau
 |![dumbbell-filled](icons/telefonica/filled/dumbbell-filled.svg) | | | |<a id='dumbbell-filled'>`dumbbell-filled`</a>[![dumbbell-filled](.github/resources/anchor.svg)](#dumbbell-filled)|
 |![dumbbell-light](icons/telefonica/light/dumbbell-light.svg) | | | |<a id='dumbbell-light'>`dumbbell-light`</a>[![dumbbell-light](.github/resources/anchor.svg)](#dumbbell-light)|
 |![dumbbell-regular](icons/telefonica/regular/dumbbell-regular.svg) | | | |<a id='dumbbell-regular'>`dumbbell-regular`</a>[![dumbbell-regular](.github/resources/anchor.svg)](#dumbbell-regular)|
+| | |![ear-plug-filled](icons/o2/filled/ear-plug-filled.svg) | |<a id='ear-plug-filled'>`ear-plug-filled`</a>[![ear-plug-filled](.github/resources/anchor.svg)](#ear-plug-filled)|
+| | |![ear-plug-regular](icons/o2/regular/ear-plug-regular.svg) | |<a id='ear-plug-regular'>`ear-plug-regular`</a>[![ear-plug-regular](.github/resources/anchor.svg)](#ear-plug-regular)|
 |![eco-filled](icons/telefonica/filled/eco-filled.svg) | |![eco-filled](icons/o2/filled/eco-filled.svg) | |<a id='eco-filled'>`eco-filled`</a>[![eco-filled](.github/resources/anchor.svg)](#eco-filled)|
 |![eco-light](icons/telefonica/light/eco-light.svg) | |![eco-light](icons/o2/light/eco-light.svg) | |<a id='eco-light'>`eco-light`</a>[![eco-light](.github/resources/anchor.svg)](#eco-light)|
 |![eco-regular](icons/telefonica/regular/eco-regular.svg) | |![eco-regular](icons/o2/regular/eco-regular.svg) | |<a id='eco-regular'>`eco-regular`</a>[![eco-regular](.github/resources/anchor.svg)](#eco-regular)|
@@ -1152,15 +1154,19 @@ Blau
 | | |![no-hidden-bills-filled](icons/o2/filled/no-hidden-bills-filled.svg) | |<a id='no-hidden-bills-filled'>`no-hidden-bills-filled`</a>[![no-hidden-bills-filled](.github/resources/anchor.svg)](#no-hidden-bills-filled)|
 | | |![no-hidden-bills-light](icons/o2/light/no-hidden-bills-light.svg) | |<a id='no-hidden-bills-light'>`no-hidden-bills-light`</a>[![no-hidden-bills-light](.github/resources/anchor.svg)](#no-hidden-bills-light)|
 | | |![no-hidden-bills-regular](icons/o2/regular/no-hidden-bills-regular.svg) | |<a id='no-hidden-bills-regular'>`no-hidden-bills-regular`</a>[![no-hidden-bills-regular](.github/resources/anchor.svg)](#no-hidden-bills-regular)|
+| | |![no-smoking-filled](icons/o2/filled/no-smoking-filled.svg) | |<a id='no-smoking-filled'>`no-smoking-filled`</a>[![no-smoking-filled](.github/resources/anchor.svg)](#no-smoking-filled)|
+| | |![no-smoking-regular](icons/o2/regular/no-smoking-regular.svg) | |<a id='no-smoking-regular'>`no-smoking-regular`</a>[![no-smoking-regular](.github/resources/anchor.svg)](#no-smoking-regular)|
+| | |![no-tickets-filled](icons/o2/filled/no-tickets-filled.svg) | |<a id='no-tickets-filled'>`no-tickets-filled`</a>[![no-tickets-filled](.github/resources/anchor.svg)](#no-tickets-filled)|
+| | |![no-tickets-regular](icons/o2/regular/no-tickets-regular.svg) | |<a id='no-tickets-regular'>`no-tickets-regular`</a>[![no-tickets-regular](.github/resources/anchor.svg)](#no-tickets-regular)|
 | | |![non-binary-toilet-filled](icons/o2/filled/non-binary-toilet-filled.svg) | |<a id='non-binary-toilet-filled'>`non-binary-toilet-filled`</a>[![non-binary-toilet-filled](.github/resources/anchor.svg)](#non-binary-toilet-filled)|
 | | |![non-binary-toilet-light](icons/o2/light/non-binary-toilet-light.svg) | |<a id='non-binary-toilet-light'>`non-binary-toilet-light`</a>[![non-binary-toilet-light](.github/resources/anchor.svg)](#non-binary-toilet-light)|
 | | |![non-binary-toilet-regular](icons/o2/regular/non-binary-toilet-regular.svg) | |<a id='non-binary-toilet-regular'>`non-binary-toilet-regular`</a>[![non-binary-toilet-regular](.github/resources/anchor.svg)](#non-binary-toilet-regular)|
 |![not-conexion-filled](icons/telefonica/filled/not-conexion-filled.svg) | | | |<a id='not-conexion-filled'>`not-conexion-filled`</a>[![not-conexion-filled](.github/resources/anchor.svg)](#not-conexion-filled)|
 |![not-conexion-light](icons/telefonica/light/not-conexion-light.svg) | | | |<a id='not-conexion-light'>`not-conexion-light`</a>[![not-conexion-light](.github/resources/anchor.svg)](#not-conexion-light)|
 |![not-conexion-regular](icons/telefonica/regular/not-conexion-regular.svg) | | | |<a id='not-conexion-regular'>`not-conexion-regular`</a>[![not-conexion-regular](.github/resources/anchor.svg)](#not-conexion-regular)|
-| |![not-photo-camera-filled](icons/vivo-new/filled/not-photo-camera-filled.svg) | | |<a id='not-photo-camera-filled'>`not-photo-camera-filled`</a>[![not-photo-camera-filled](.github/resources/anchor.svg)](#not-photo-camera-filled)|
+| |![not-photo-camera-filled](icons/vivo-new/filled/not-photo-camera-filled.svg) |![not-photo-camera-filled](icons/o2/filled/not-photo-camera-filled.svg) | |<a id='not-photo-camera-filled'>`not-photo-camera-filled`</a>[![not-photo-camera-filled](.github/resources/anchor.svg)](#not-photo-camera-filled)|
 | |![not-photo-camera-light](icons/vivo-new/light/not-photo-camera-light.svg) | | |<a id='not-photo-camera-light'>`not-photo-camera-light`</a>[![not-photo-camera-light](.github/resources/anchor.svg)](#not-photo-camera-light)|
-| |![not-photo-camera-regular](icons/vivo-new/regular/not-photo-camera-regular.svg) | | |<a id='not-photo-camera-regular'>`not-photo-camera-regular`</a>[![not-photo-camera-regular](.github/resources/anchor.svg)](#not-photo-camera-regular)|
+| |![not-photo-camera-regular](icons/vivo-new/regular/not-photo-camera-regular.svg) |![not-photo-camera-regular](icons/o2/regular/not-photo-camera-regular.svg) | |<a id='not-photo-camera-regular'>`not-photo-camera-regular`</a>[![not-photo-camera-regular](.github/resources/anchor.svg)](#not-photo-camera-regular)|
 |![notes-filled](icons/telefonica/filled/notes-filled.svg) | | | |<a id='notes-filled'>`notes-filled`</a>[![notes-filled](.github/resources/anchor.svg)](#notes-filled)|
 |![notes-light](icons/telefonica/light/notes-light.svg) | | | |<a id='notes-light'>`notes-light`</a>[![notes-light](.github/resources/anchor.svg)](#notes-light)|
 |![notes-regular](icons/telefonica/regular/notes-regular.svg) | | | |<a id='notes-regular'>`notes-regular`</a>[![notes-regular](.github/resources/anchor.svg)](#notes-regular)|
@@ -1258,6 +1264,8 @@ Blau
 |![photo-camera-filled](icons/telefonica/filled/photo-camera-filled.svg) | |![photo-camera-filled](icons/o2/filled/photo-camera-filled.svg) | |<a id='photo-camera-filled'>`photo-camera-filled`</a>[![photo-camera-filled](.github/resources/anchor.svg)](#photo-camera-filled)|
 |![photo-camera-light](icons/telefonica/light/photo-camera-light.svg) | |![photo-camera-light](icons/o2/light/photo-camera-light.svg) | |<a id='photo-camera-light'>`photo-camera-light`</a>[![photo-camera-light](.github/resources/anchor.svg)](#photo-camera-light)|
 |![photo-camera-regular](icons/telefonica/regular/photo-camera-regular.svg) | |![photo-camera-regular](icons/o2/regular/photo-camera-regular.svg) | |<a id='photo-camera-regular'>`photo-camera-regular`</a>[![photo-camera-regular](.github/resources/anchor.svg)](#photo-camera-regular)|
+| | |![pickpocket-filled](icons/o2/filled/pickpocket-filled.svg) | |<a id='pickpocket-filled'>`pickpocket-filled`</a>[![pickpocket-filled](.github/resources/anchor.svg)](#pickpocket-filled)|
+| | |![pickpocket-regular](icons/o2/regular/pickpocket-regular.svg) | |<a id='pickpocket-regular'>`pickpocket-regular`</a>[![pickpocket-regular](.github/resources/anchor.svg)](#pickpocket-regular)|
 |![pill-filled](icons/telefonica/filled/pill-filled.svg) | | | |<a id='pill-filled'>`pill-filled`</a>[![pill-filled](.github/resources/anchor.svg)](#pill-filled)|
 |![pill-light](icons/telefonica/light/pill-light.svg) | | | |<a id='pill-light'>`pill-light`</a>[![pill-light](.github/resources/anchor.svg)](#pill-light)|
 |![pill-regular](icons/telefonica/regular/pill-regular.svg) | | | |<a id='pill-regular'>`pill-regular`</a>[![pill-regular](.github/resources/anchor.svg)](#pill-regular)|
@@ -1464,6 +1472,8 @@ Blau
 | |![shuffle-circle-filled](icons/vivo-new/filled/shuffle-circle-filled.svg) | | |<a id='shuffle-circle-filled'>`shuffle-circle-filled`</a>[![shuffle-circle-filled](.github/resources/anchor.svg)](#shuffle-circle-filled)|
 | |![shuffle-circle-light](icons/vivo-new/light/shuffle-circle-light.svg) | | |<a id='shuffle-circle-light'>`shuffle-circle-light`</a>[![shuffle-circle-light](.github/resources/anchor.svg)](#shuffle-circle-light)|
 | |![shuffle-circle-regular](icons/vivo-new/regular/shuffle-circle-regular.svg) | | |<a id='shuffle-circle-regular'>`shuffle-circle-regular`</a>[![shuffle-circle-regular](.github/resources/anchor.svg)](#shuffle-circle-regular)|
+| | |![silence-filled](icons/o2/filled/silence-filled.svg) | |<a id='silence-filled'>`silence-filled`</a>[![silence-filled](.github/resources/anchor.svg)](#silence-filled)|
+| | |![silence-regular](icons/o2/regular/silence-regular.svg) | |<a id='silence-regular'>`silence-regular`</a>[![silence-regular](.github/resources/anchor.svg)](#silence-regular)|
 |![singleparent-family-filled](icons/telefonica/filled/singleparent-family-filled.svg) | | | |<a id='singleparent-family-filled'>`singleparent-family-filled`</a>[![singleparent-family-filled](.github/resources/anchor.svg)](#singleparent-family-filled)|
 |![singleparent-family-light](icons/telefonica/light/singleparent-family-light.svg) | | | |<a id='singleparent-family-light'>`singleparent-family-light`</a>[![singleparent-family-light](.github/resources/anchor.svg)](#singleparent-family-light)|
 |![singleparent-family-regular](icons/telefonica/regular/singleparent-family-regular.svg) | | | |<a id='singleparent-family-regular'>`singleparent-family-regular`</a>[![singleparent-family-regular](.github/resources/anchor.svg)](#singleparent-family-regular)|
@@ -1473,9 +1483,9 @@ Blau
 |![smart-wifi-filled](icons/telefonica/filled/smart-wifi-filled.svg) | | | |<a id='smart-wifi-filled'>`smart-wifi-filled`</a>[![smart-wifi-filled](.github/resources/anchor.svg)](#smart-wifi-filled)|
 |![smart-wifi-light](icons/telefonica/light/smart-wifi-light.svg) | | | |<a id='smart-wifi-light'>`smart-wifi-light`</a>[![smart-wifi-light](.github/resources/anchor.svg)](#smart-wifi-light)|
 |![smart-wifi-regular](icons/telefonica/regular/smart-wifi-regular.svg) | | | |<a id='smart-wifi-regular'>`smart-wifi-regular`</a>[![smart-wifi-regular](.github/resources/anchor.svg)](#smart-wifi-regular)|
-|![smiley-happy-filled](icons/telefonica/filled/smiley-happy-filled.svg) | | | |<a id='smiley-happy-filled'>`smiley-happy-filled`</a>[![smiley-happy-filled](.github/resources/anchor.svg)](#smiley-happy-filled)|
+|![smiley-happy-filled](icons/telefonica/filled/smiley-happy-filled.svg) | |![smiley-happy-filled](icons/o2/filled/smiley-happy-filled.svg) | |<a id='smiley-happy-filled'>`smiley-happy-filled`</a>[![smiley-happy-filled](.github/resources/anchor.svg)](#smiley-happy-filled)|
 |![smiley-happy-light](icons/telefonica/light/smiley-happy-light.svg) | | | |<a id='smiley-happy-light'>`smiley-happy-light`</a>[![smiley-happy-light](.github/resources/anchor.svg)](#smiley-happy-light)|
-|![smiley-happy-regular](icons/telefonica/regular/smiley-happy-regular.svg) | | | |<a id='smiley-happy-regular'>`smiley-happy-regular`</a>[![smiley-happy-regular](.github/resources/anchor.svg)](#smiley-happy-regular)|
+|![smiley-happy-regular](icons/telefonica/regular/smiley-happy-regular.svg) | |![smiley-happy-regular](icons/o2/regular/smiley-happy-regular.svg) | |<a id='smiley-happy-regular'>`smiley-happy-regular`</a>[![smiley-happy-regular](.github/resources/anchor.svg)](#smiley-happy-regular)|
 |![smiley-sad-filled](icons/telefonica/filled/smiley-sad-filled.svg) | | | |<a id='smiley-sad-filled'>`smiley-sad-filled`</a>[![smiley-sad-filled](.github/resources/anchor.svg)](#smiley-sad-filled)|
 |![smiley-sad-light](icons/telefonica/light/smiley-sad-light.svg) | | | |<a id='smiley-sad-light'>`smiley-sad-light`</a>[![smiley-sad-light](.github/resources/anchor.svg)](#smiley-sad-light)|
 |![smiley-sad-regular](icons/telefonica/regular/smiley-sad-regular.svg) | | | |<a id='smiley-sad-regular'>`smiley-sad-regular`</a>[![smiley-sad-regular](.github/resources/anchor.svg)](#smiley-sad-regular)|
