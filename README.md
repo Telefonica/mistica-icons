@@ -30,7 +30,10 @@ Telefonica
 <img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/57x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/92x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/250x8/D1D5E4/000&text=+' alt='Missing'>
 
 O2  
-<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/56x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/57x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/286x8/D1D5E4/000&text=+' alt='Missing'>
+<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/114x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/285x8/D1D5E4/000&text=+' alt='Missing'>
+
+O2-New  
+<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/114x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/1x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/284x8/D1D5E4/000&text=+' alt='Missing'>
 
 Vivo-New  
 <img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/5x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/6x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/388x8/D1D5E4/000&text=+' alt='Missing'>
@@ -42,7 +45,8 @@ Blau
 | <sub><sup>ICON SET</sup></sub> | <sub><sup>CONCEPTS (604)</sup></sub> | <sub><sup>TOTAL (3170)</sup></sub> | <sub><sup>ALL EQUIVALENCE</sup></sub> | <sub><sup>SOME EQUIVALENCE</sup></sub> | <sub><sup>UNIQUE</sup></sub> | <sub><sup>MISSING</sup></sub> |
 | :--------- | --------: | -----: | ----------: | -------------------: | -------------------: | ------------: |
 | Telefonica | 420 | 1193 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 453 (14.3%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 737 (23.2%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 1977 (62.4%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
-| O2 | 309 | 908 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 447 (14.1%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 458 (14.4%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2262 (71.4%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| O2 | 309 | 908 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 905 (28.5%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 0 (0.0%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2262 (71.4%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| O2-New | 309 | 909 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 905 (28.5%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 1 (0.0%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2261 (71.3%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
 | Vivo-New | 52 | 99 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 44 (1.4%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 52 (1.6%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 3071 (96.9%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
 | Blau | 57 | 61 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 53 (1.7%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 5 (0.2%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 3109 (98.1%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
 
