@@ -7,7 +7,7 @@ PDF_EXTENSION = ".pdf"
 BREAK = "\n"
 
 # Show or hide and reorder brands as needed
-brands = ["telefonica", "o2", "vivo-new", "blau"]
+brands = ["telefonica", "o2", "o2-new", "vivo-new", "blau"]
 
 # Define the colors for the bar representation
 bar_colors = {
