@@ -1,5 +1,9 @@
 name: 🚀 Release (Figma)
 
+# push:
+#   paths:
+#     - ".github/workflows/figma-export.yml"
+
 on:
   workflow_dispatch:
     inputs:
@@ -33,13 +37,14 @@ env:
   VIVO_FILE_URL: https://www.figma.com/file/IrcHGIgsF5Cq4ZX1LRhuis/Vivo-New-(Beta)?type=design&node-id=2625-199
 
 jobs:
-  export-icons:
+  export-all:
+    if: ${{ github.event.inputs.brand == 'all' }}
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        brand: [telefonica, o2, o2-new, blau, vivo]
     steps:
       - uses: actions/checkout@v3
+
+      # - name: Get branch name
+      #   uses: rlespinasse/github-slug-action@v3.x
 
       - name: Install packages
         run: |
@@ -55,51 +60,39 @@ jobs:
               git checkout -b import-figma-icons
           fi
 
-      - name: Set brand-specific environment variables
-        run: |
-          echo "BRAND=${{ matrix.brand }}" >> $GITHUB_ENV
-          case ${{ matrix.brand }} in
-            telefonica)
-              echo "FIGMA_ID=${{ env.TELEFONICA_FIGMA_ID }}" >> $GITHUB_ENV
-              echo "FRAMES=Filled Regular Light" >> $GITHUB_ENV
-              echo "PATHS=telefonica/filled telefonica/regular telefonica/light" >> $GITHUB_ENV
-              ;;
-            o2)
-              echo "FIGMA_ID=${{ env.O2_FIGMA_ID }}" >> $GITHUB_ENV
-              echo "FRAMES=Filled Regular Light" >> $GITHUB_ENV
-              echo "PATHS=o2/filled o2/regular o2/light" >> $GITHUB_ENV
-              ;;
-            o2-new)
-              echo "FIGMA_ID=${{ env.O2_NEW_FIGMA_ID }}" >> $GITHUB_ENV
-              echo "FRAMES=Filled Regular Light" >> $GITHUB_ENV
-              echo "PATHS=o2-new/filled o2-new/regular o2-new/light" >> $GITHUB_ENV
-              ;;
-            blau)
-              echo "FIGMA_ID=${{ env.BLAU_FIGMA_ID }}" >> $GITHUB_ENV
-              echo "FRAMES=Filled Regular" >> $GITHUB_ENV
-              echo "PATHS=blau/filled blau/regular" >> $GITHUB_ENV
-              ;;
-            vivo)
-              echo "FIGMA_ID=${{ env.VIVO_FIGMA_ID }}" >> $GITHUB_ENV
-              echo "FRAMES=Filled Regular Light" >> $GITHUB_ENV
-              echo "PATHS=vivo-new/filled vivo-new/regular vivo-new/light" >> $GITHUB_ENV
-              ;;
-          esac
-
       - name: Generate icon config
         run: |
-          IFS=' ' read -r -a frames <<< "$FRAMES"
-          IFS=' ' read -r -a paths <<< "$PATHS"
-          for i in ${!frames[@]}; do
-            sed -e "s/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/" -e "s/FILE_ID/${FIGMA_ID}/" -e "s/ICON_FRAME/${frames[i]}/" -e "s|ICON_PATH|icons/${paths[i]}|g" figma-export-icons.template.json > ${paths[i]}.json
-          done
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.TELEFONICA_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/telefonica/filled|g' figma-export-icons.template.json > telefonica-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.TELEFONICA_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/telefonica/regular|g' figma-export-icons.template.json > telefonica-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.TELEFONICA_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/telefonica/light|g' figma-export-icons.template.json > telefonica-light.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/o2/filled|g' figma-export-icons.template.json > o2-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/o2/regular|g' figma-export-icons.template.json > o2-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/o2/light|g' figma-export-icons.template.json > o2-light.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_NEW_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/o2-new/filled|g' figma-export-icons.template.json > o2-new-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_NEW_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/o2-new/regular|g' figma-export-icons.template.json > o2-new-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_NEW_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/o2-new/light|g' figma-export-icons.template.json > o2-new-light.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.BLAU_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/blau/regular|g' figma-export-icons.template.json > blau-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.BLAU_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/blau/filled|g' figma-export-icons.template.json > blau-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.VIVO_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/vivo-new/filled|g' figma-export-icons.template.json > vivo-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.VIVO_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/vivo-new/regular|g' figma-export-icons.template.json > vivo-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.VIVO_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/vivo-new/light|g' figma-export-icons.template.json > vivo-light.json
 
       - name: Export icons
         run: |
-          IFS=' ' read -r -a paths <<< "$PATHS"
-          for i in ${!paths[@]}; do
-            npm run export-${paths[i]//\//-}
-          done
+          npm run export-telefonica-filled
+          npm run export-telefonica-regular
+          npm run export-telefonica-light
+          npm run export-o2-filled
+          npm run export-o2-regular
+          npm run export-o2-light
+          npm run export-o2-new-filled
+          npm run export-o2-new-regular
+          npm run export-o2-new-light
+          npm run export-blau-regular
+          npm run export-blau-filled
+          npm run export-vivo-filled
+          npm run export-vivo-regular
+          npm run export-vivo-light
 
       - name: Install SVGO & convert
         run: |
@@ -130,9 +123,370 @@ jobs:
         with:
           source_branch: import-figma-icons
           destination_branch: "production"
-          pr_title: "Update ${{ matrix.brand }} icons"
-          pr_body: |
-            New version of icons exported from [Mistica Icons](${{ env.MISTICA_ICONS_FILE_URL }}), [O2](${{ env.O2_FILE_URL }}), [O2-new](${{ env.O2_NEW_FILE_URL }}), [Blau](${{ env.BLAU_FILE_URL }}), and [Vivo](${{ env.VIVO_FILE_URL }}).
-            - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)
+          pr_title: "Update Figma icons"
+          pr_body: "
+            New version of icons exported from [Mistica Icons](${{env.MISTICA_ICONS_FILE_URL}}), [O2](${{env.O2_FILE_URL}}), [O2-new](${{env.O2_NEW_FILE_URL}}), [Blau](${{env.BLAU_FILE_URL}}) & [Vivo](${{env.VIVO_FILE_URL}}) \n
+            - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
           pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
+
+  export-telefonica:
+    if: ${{ github.event.inputs.brand == 'telefonica' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      # - name: Get branch name
+      #   uses: rlespinasse/github-slug-action@v3.x
+
+      - name: Install packages
+        run: |
+          npm install figma-export-icons --save
+          sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
+
+      - name: Checkout branch or create new one
+        run: |
+          git fetch
+          if git branch -a | grep origin/import-figma-icons; then
+              git checkout import-figma-icons
+          else
+              git checkout -b import-figma-icons
+          fi
+
+      - name: Generate icon config
+        run: |
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.TELEFONICA_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/telefonica/filled|g' figma-export-icons.template.json > telefonica-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.TELEFONICA_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/telefonica/regular|g' figma-export-icons.template.json > telefonica-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.TELEFONICA_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/telefonica/light|g' figma-export-icons.template.json > telefonica-light.json
+
+      - name: Export icons
+        run: |
+          npm run export-telefonica-filled
+          npm run export-telefonica-regular
+          npm run export-telefonica-light
+
+      - name: Install SVGO & convert
+        run: |
+          yarn global add svgo
+          svgo -f icons/telefonica -r -o icons/telefonica
+
+      - name: Convert to PDF
+        run: |
+          sudo apt-get update && sudo apt-get install -y mat2
+          for i in $(find icons/telefonica -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
+          for i in $(find icons/telefonica -type f -name "*.pdf"); do echo $i && exiftool -overwrite_original_in_place -all:all= $i > /dev/null 2>&1 && qpdf --replace-input --deterministic-id $i; done # remove PDF metadata
+
+      - name: Readme generator
+        run: sudo python3 .github/md-generator/generate_markdown.py icons
+
+      - name: Commit & Push
+        env:
+          GITHUB_TOKEN: ${{ secrets.NOVUM_PRIVATE_REPOS }}
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Figma icons updated"
+          git push origin import-figma-icons
+
+      - name: Create Pull-Request
+        uses: repo-sync/pull-request@v2
+        with:
+          source_branch: import-figma-icons
+          destination_branch: "production"
+          pr_title: "Update Mística icons"
+          pr_body: "
+            New version of icons exported from [Mistica Icons](${{env.MISTICA_ICONS_FILE_URL}}) \n
+            - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
+          pr_draft: ${{ github.event.inputs.draft }}
+          github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
+
+  export-o2:
+    if: ${{ github.event.inputs.brand == 'o2' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      # - name: Get branch name
+      #   uses: rlespinasse/github-slug-action@v3.x
+
+      - name: Install packages
+        run: |
+          npm install figma-export-icons --save
+          sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
+
+      - name: Checkout branch or create new one
+        run: |
+          git fetch
+          if git branch -a | grep origin/import-figma-icons; then
+              git checkout import-figma-icons
+          else
+              git checkout -b import-figma-icons
+          fi
+
+      - name: Generate icon config
+        run: |
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/o2/filled|g' figma-export-icons.template.json > o2-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/o2/regular|g' figma-export-icons.template.json > o2-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/o2/light|g' figma-export-icons.template.json > o2-light.json
+
+      - name: Export icons
+        run: |
+          npm run export-o2-filled
+          npm run export-o2-regular
+          npm run export-o2-light
+
+      - name: Install SVGO & convert
+        run: |
+          yarn global add svgo
+          svgo -f icons/o2 -r -o icons/o2
+
+      - name: Convert to PDF
+        run: |
+          sudo apt-get update && sudo apt-get install -y mat2
+          for i in $(find icons/o2 -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
+          for i in $(find icons/o2 -type f -name "*.pdf"); do echo $i && exiftool -overwrite_original_in_place -all:all= $i > /dev/null 2>&1 && qpdf --replace-input --deterministic-id $i; done # remove PDF metadata
+
+      - name: Readme generator
+        run: sudo python3 .github/md-generator/generate_markdown.py icons
+
+      - name: Commit & Push
+        env:
+          GITHUB_TOKEN: ${{ secrets.NOVUM_PRIVATE_REPOS }}
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Figma icons updated"
+          git push origin import-figma-icons
+
+      - name: Create Pull-Request
+        uses: repo-sync/pull-request@v2
+        with:
+          source_branch: import-figma-icons
+          destination_branch: "production"
+          pr_title: "Update O2 icons"
+          pr_body: "
+            New version of icons exported from [O2](${{env.O2_FILE_URL}}) \n
+            - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
+          pr_draft: ${{ github.event.inputs.draft }}
+          github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
+
+  export-o2-new:
+    if: ${{ github.event.inputs.brand == 'o2-new' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      # - name: Get branch name
+      #   uses: rlespinasse/github-slug-action@v3.x
+
+      - name: Install packages
+        run: |
+          npm install figma-export-icons --save
+          sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
+
+      - name: Checkout branch or create new one
+        run: |
+          git fetch
+          if git branch -a | grep origin/import-figma-icons; then
+              git checkout import-figma-icons
+          else
+              git checkout -b import-figma-icons
+          fi
+
+      - name: Generate icon config
+        run: |
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_NEW_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/o2-new/filled|g' figma-export-icons.template.json > o2-new-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_NEW_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/o2-new/regular|g' figma-export-icons.template.json > o2-new-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_NEW_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/o2-new/light|g' figma-export-icons.template.json > o2-new-light.json
+
+      - name: Export icons
+        run: |
+          npm run export-o2-new-filled
+          npm run export-o2-new-regular
+          npm run export-o2-new-light
+
+      - name: Install SVGO & convert
+        run: |
+          yarn global add svgo
+          svgo -f icons/o2-new -r -o icons/o2-new
+
+      - name: Convert to PDF
+        run: |
+          sudo apt-get update && sudo apt-get install -y mat2
+          for i in $(find icons/o2-new -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
+          for i in $(find icons/o2-new -type f -name "*.pdf"); do echo $i && exiftool -overwrite_original_in_place -all:all= $i > /dev/null 2>&1 && qpdf --replace-input --deterministic-id $i; done # remove PDF metadata
+
+      - name: Readme generator
+        run: sudo python3 .github/md-generator/generate_markdown.py icons
+
+      - name: Commit & Push
+        env:
+          GITHUB_TOKEN: ${{ secrets.NOVUM_PRIVATE_REPOS }}
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Figma icons updated"
+          git push origin import-figma-icons
+
+      - name: Create Pull-Request
+        uses: repo-sync/pull-request@v2
+        with:
+          source_branch: import-figma-icons
+          destination_branch: "production"
+          pr_title: "Update O2-new icons"
+          pr_body: "
+            New version of icons exported from [O2-new](${{env.O2_FILE_URL}}) \n
+            - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
+          pr_draft: ${{ github.event.inputs.draft }}
+          github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
+
+  export-blau:
+    if: ${{ github.event.inputs.brand == 'blau' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      # - name: Get branch name
+      #   uses: rlespinasse/github-slug-action@v3.x
+
+      - name: Install packages
+        run: |
+          npm install figma-export-icons --save
+          sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
+
+      - name: Checkout branch or create new one
+        run: |
+          git fetch
+          if git branch -a | grep origin/import-figma-icons; then
+              git checkout import-figma-icons
+          else
+              git checkout -b import-figma-icons
+          fi
+
+      - name: Generate icon config
+        run: |
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.BLAU_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/blau/regular|g' figma-export-icons.template.json > blau-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.BLAU_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/blau/filled|g' figma-export-icons.template.json > blau-filled.json
+
+      - name: Export icons
+        run: |
+          npm run export-blau-regular
+          npm run export-blau-filled
+
+      - name: Install SVGO & convert
+        run: |
+          yarn global add svgo
+          svgo -f icons/blau -r -o icons/blau
+
+      - name: Convert to PDF
+        run: |
+          sudo apt-get update && sudo apt-get install -y mat2
+          for i in $(find icons/blau -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
+          for i in $(find icons/blau -type f -name "*.pdf"); do echo $i && exiftool -overwrite_original_in_place -all:all= $i > /dev/null 2>&1 && qpdf --replace-input --deterministic-id $i; done # remove PDF metadata
+
+      - name: Readme generator
+        run: sudo python3 .github/md-generator/generate_markdown.py icons
+
+      - name: Commit & Push
+        env:
+          GITHUB_TOKEN: ${{ secrets.NOVUM_PRIVATE_REPOS }}
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Figma icons updated"
+          git push origin import-figma-icons
+
+      - name: Create Pull-Request
+        uses: repo-sync/pull-request@v2
+        with:
+          source_branch: import-figma-icons
+          destination_branch: "production"
+          pr_title: "Update Blau icons"
+          pr_body: "
+            New version of icons exported from [Blau](${{env.BLAU_FILE_URL}}) \n
+            - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
+          pr_draft: ${{ github.event.inputs.draft }}
+          github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
+
+  export-vivo:
+    if: ${{ github.event.inputs.brand == 'vivo' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      # - name: Get branch name
+      #   uses: rlespinasse/github-slug-action@v3.x
+
+      - name: Install packages
+        run: |
+          npm install figma-export-icons --save
+          sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
+
+      - name: Checkout branch or create new one
+        run: |
+          git fetch
+          if git branch -a | grep origin/import-figma-icons; then
+              git checkout import-figma-icons
+          else
+              git checkout -b import-figma-icons
+          fi
+
+      - name: Generate icon config
+        run: |
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.VIVO_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/vivo-new/filled|g' figma-export-icons.template.json > vivo-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.VIVO_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/vivo-new/regular|g' figma-export-icons.template.json > vivo-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.VIVO_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/vivo-new/light|g' figma-export-icons.template.json > vivo-light.json
+
+      - name: Export icons
+        run: |
+          npm run export-vivo-filled
+          npm run export-vivo-regular
+          npm run export-vivo-light
+
+      - name: Install SVGO & convert
+        run: |
+          yarn global add svgo
+          svgo -f icons/vivo-new -r -o icons/vivo-new
+
+      - name: Convert to PDF
+        run: |
+          sudo apt-get update && sudo apt-get install -y mat2
+          for i in $(find icons/vivo-new -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
+          for i in $(find icons/vivo-new -type f -name "*.pdf"); do echo $i && exiftool -overwrite_original_in_place -all:all= $i > /dev/null 2>&1 && qpdf --replace-input --deterministic-id $i; done # remove PDF metadata
+
+      - name: Readme generator
+        run: sudo python3 .github/md-generator/generate_markdown.py icons
+
+      - name: Commit & Push
+        env:
+          GITHUB_TOKEN: ${{ secrets.NOVUM_PRIVATE_REPOS }}
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Figma icons updated"
+          git push origin import-figma-icons
+
+      - name: Create Pull-Request
+        uses: repo-sync/pull-request@v2
+        with:
+          source_branch: import-figma-icons
+          destination_branch: "production"
+          pr_title: "Update Vivo icons"
+          pr_body: "
+            New version of icons exported from [Vivo](${{env.VIVO_FILE_URL}}) \n
+            - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
+          pr_draft: ${{ github.event.inputs.draft }}
+          github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
+# pr_body: "
+#             New version of icons exported from [Mistica Icons][mistica-icons] & [O2][o2-icons] n\
+#             - [ ] [Review readme import-figma-icons][readme] n\
+
+#             [mistica-icons]: https://www.figma.com/file/${{env.TELEFONICA_FIGMA_ID}}/Mistica'-Icons?node-id=0%3A71 n\
+#             [o2-icons]: https://www.figma.com/file/${{env.O2_FIGMA_ID}}/?node-id=611%3A3298 n\
+#             [readme]: https://github.com/Telefonica/mistica-icons/tree/import-figma-icons"
+
