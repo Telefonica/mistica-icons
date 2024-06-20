@@ -37,8 +37,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        brand: [all, telefonica, o2, o2-new, blau, vivo]
-    if: ${{ matrix.brand == github.event.inputs.brand || github.event.inputs.brand == 'all' }}
+        brand: [telefonica, o2, o2-new, blau, vivo]
     steps:
       - uses: actions/checkout@v3
 
@@ -56,53 +55,50 @@ jobs:
               git checkout -b import-figma-icons
           fi
 
-      - name: Generate icon config
+      - name: Set brand-specific environment variables
         run: |
+          echo "BRAND=${{ matrix.brand }}" >> $GITHUB_ENV
           case ${{ matrix.brand }} in
             telefonica)
-              figma_ids=("${{ env.TELEFONICA_FIGMA_ID }}")
-              frames=("Filled" "Regular" "Light")
-              paths=("telefonica/filled" "telefonica/regular" "telefonica/light")
+              echo "FIGMA_ID=${{ env.TELEFONICA_FIGMA_ID }}" >> $GITHUB_ENV
+              echo "FRAMES=Filled Regular Light" >> $GITHUB_ENV
+              echo "PATHS=telefonica/filled telefonica/regular telefonica/light" >> $GITHUB_ENV
               ;;
             o2)
-              figma_ids=("${{ env.O2_FIGMA_ID }}")
-              frames=("Filled" "Regular" "Light")
-              paths=("o2/filled" "o2/regular" "o2/light")
+              echo "FIGMA_ID=${{ env.O2_FIGMA_ID }}" >> $GITHUB_ENV
+              echo "FRAMES=Filled Regular Light" >> $GITHUB_ENV
+              echo "PATHS=o2/filled o2/regular o2/light" >> $GITHUB_ENV
               ;;
             o2-new)
-              figma_ids=("${{ env.O2_NEW_FIGMA_ID }}")
-              frames=("Filled" "Regular" "Light")
-              paths=("o2-new/filled" "o2-new/regular" "o2-new/light")
+              echo "FIGMA_ID=${{ env.O2_NEW_FIGMA_ID }}" >> $GITHUB_ENV
+              echo "FRAMES=Filled Regular Light" >> $GITHUB_ENV
+              echo "PATHS=o2-new/filled o2-new/regular o2-new/light" >> $GITHUB_ENV
               ;;
             blau)
-              figma_ids=("${{ env.BLAU_FIGMA_ID }}")
-              frames=("Filled" "Regular")
-              paths=("blau/filled" "blau/regular")
+              echo "FIGMA_ID=${{ env.BLAU_FIGMA_ID }}" >> $GITHUB_ENV
+              echo "FRAMES=Filled Regular" >> $GITHUB_ENV
+              echo "PATHS=blau/filled blau/regular" >> $GITHUB_ENV
               ;;
             vivo)
-              figma_ids=("${{ env.VIVO_FIGMA_ID }}")
-              frames=("Filled" "Regular" "Light")
-              paths=("vivo-new/filled" "vivo-new/regular" "vivo-new/light")
-              ;;
-            all)
-              figma_ids=("${{ env.TELEFONICA_FIGMA_ID }}" "${{ env.O2_FIGMA_ID }}" "${{ env.O2_NEW_FIGMA_ID }}" "${{ env.BLAU_FIGMA_ID }}" "${{ env.VIVO_FIGMA_ID }}")
-              frames=("Filled" "Regular" "Light")
-              paths=("telefonica/filled" "telefonica/regular" "telefonica/light" "o2/filled" "o2/regular" "o2/light" "o2-new/filled" "o2-new/regular" "o2-new/light" "blau/filled" "blau/regular" "vivo-new/filled" "vivo-new/regular" "vivo-new/light")
+              echo "FIGMA_ID=${{ env.VIVO_FIGMA_ID }}" >> $GITHUB_ENV
+              echo "FRAMES=Filled Regular Light" >> $GITHUB_ENV
+              echo "PATHS=vivo-new/filled vivo-new/regular vivo-new/light" >> $GITHUB_ENV
               ;;
           esac
 
-          for i in ${!figma_ids[@]}; do
-            for j in ${!frames[@]}; do
-              sed -e "s/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/" -e "s/FILE_ID/${figma_ids[i]}/" -e "s/ICON_FRAME/${frames[j]}/" -e "s|ICON_PATH|icons/${paths[j]}|g" figma-export-icons.template.json > ${paths[j]}.json
-            done
+      - name: Generate icon config
+        run: |
+          IFS=' ' read -r -a frames <<< "$FRAMES"
+          IFS=' ' read -r -a paths <<< "$PATHS"
+          for i in ${!frames[@]}; do
+            sed -e "s/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/" -e "s/FILE_ID/${FIGMA_ID}/" -e "s/ICON_FRAME/${frames[i]}/" -e "s|ICON_PATH|icons/${paths[i]}|g" figma-export-icons.template.json > ${paths[i]}.json
           done
 
       - name: Export icons
         run: |
-          for i in ${!figma_ids[@]}; do
-            for j in ${!frames[@]}; do
-              npm run export-${paths[j]//\//-}
-            done
+          IFS=' ' read -r -a paths <<< "$PATHS"
+          for i in ${!paths[@]}; do
+            npm run export-${paths[i]//\//-}
           done
 
       - name: Install SVGO & convert
