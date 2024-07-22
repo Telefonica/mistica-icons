@@ -27,24 +27,28 @@ Use Mística icons library in Figma!
 ## Equivalence status
 
 Telefonica  
-<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/57x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/92x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/250x8/D1D5E4/000&text=+' alt='Missing'>
+<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/56x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/92x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/251x8/D1D5E4/000&text=+' alt='Missing'>
 
 O2  
-<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/56x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/57x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/286x8/D1D5E4/000&text=+' alt='Missing'>
+<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/113x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/286x8/D1D5E4/000&text=+' alt='Missing'>
+
+O2-New  
+<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/113x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/1x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/285x8/D1D5E4/000&text=+' alt='Missing'>
 
 Vivo-New  
-<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/5x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/6x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/388x8/D1D5E4/000&text=+' alt='Missing'>
+<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/5x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/7x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/387x8/D1D5E4/000&text=+' alt='Missing'>
 
 Blau  
 <img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/6x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/1x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/392x8/D1D5E4/000&text=+' alt='Missing'>
 
   
-| <sub><sup>ICON SET</sup></sub> | <sub><sup>CONCEPTS (604)</sup></sub> | <sub><sup>TOTAL (3170)</sup></sub> | <sub><sup>ALL EQUIVALENCE</sup></sub> | <sub><sup>SOME EQUIVALENCE</sup></sub> | <sub><sup>UNIQUE</sup></sub> | <sub><sup>MISSING</sup></sub> |
+| <sub><sup>ICON SET</sup></sub> | <sub><sup>CONCEPTS (607)</sup></sub> | <sub><sup>TOTAL (3179)</sup></sub> | <sub><sup>ALL EQUIVALENCE</sup></sub> | <sub><sup>SOME EQUIVALENCE</sup></sub> | <sub><sup>UNIQUE</sup></sub> | <sub><sup>MISSING</sup></sub> |
 | :--------- | --------: | -----: | ----------: | -------------------: | -------------------: | ------------: |
-| Telefonica | 420 | 1193 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 453 (14.3%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 737 (23.2%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 1977 (62.4%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
-| O2 | 309 | 908 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 447 (14.1%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 458 (14.4%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2262 (71.4%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
-| Vivo-New | 52 | 99 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 44 (1.4%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 52 (1.6%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 3071 (96.9%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
-| Blau | 57 | 61 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 53 (1.7%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 5 (0.2%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 3109 (98.1%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| Telefonica | 420 | 1193 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 453 (14.2%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 737 (23.2%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 1986 (62.5%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| O2 | 309 | 908 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 905 (28.5%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 0 (0.0%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2271 (71.4%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| O2-New | 309 | 909 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 905 (28.5%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 1 (0.0%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2270 (71.4%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| Vivo-New | 55 | 108 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 44 (1.4%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 61 (1.9%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 3071 (96.6%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| Blau | 57 | 61 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 53 (1.7%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 5 (0.2%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 3118 (98.1%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
 
 
 <sub>**Concepts**: Counts the different names of icons in the set excluding any variations in style or weight.</sub>  
@@ -272,6 +276,9 @@ Blau
 | | |![box-location-light](icons/o2-new/light/box-location-light.svg) |![box-location-light](icons/o2/light/box-location-light.svg) | |<a id='box-location-light'>`box-location-light`</a>[![box-location-light](.github/resources/anchor.svg)](#box-location-light)|
 | | |![box-location-regular](icons/o2-new/regular/box-location-regular.svg) |![box-location-regular](icons/o2/regular/box-location-regular.svg) | |<a id='box-location-regular'>`box-location-regular`</a>[![box-location-regular](.github/resources/anchor.svg)](#box-location-regular)|
 |![box-regular](icons/telefonica/regular/box-regular.svg) | |![box-regular](icons/o2-new/regular/box-regular.svg) |![box-regular](icons/o2/regular/box-regular.svg) | |<a id='box-regular'>`box-regular`</a>[![box-regular](.github/resources/anchor.svg)](#box-regular)|
+| |![box-star-filled](icons/vivo-new/filled/box-star-filled.svg) | | | |<a id='box-star-filled'>`box-star-filled`</a>[![box-star-filled](.github/resources/anchor.svg)](#box-star-filled)|
+| |![box-star-light](icons/vivo-new/light/box-star-light.svg) | | | |<a id='box-star-light'>`box-star-light`</a>[![box-star-light](.github/resources/anchor.svg)](#box-star-light)|
+| |![box-star-regular](icons/vivo-new/regular/box-star-regular.svg) | | | |<a id='box-star-regular'>`box-star-regular`</a>[![box-star-regular](.github/resources/anchor.svg)](#box-star-regular)|
 |![brain-filled](icons/telefonica/filled/brain-filled.svg) | | | | |<a id='brain-filled'>`brain-filled`</a>[![brain-filled](.github/resources/anchor.svg)](#brain-filled)|
 |![brain-light](icons/telefonica/light/brain-light.svg) | | | | |<a id='brain-light'>`brain-light`</a>[![brain-light](.github/resources/anchor.svg)](#brain-light)|
 |![brain-regular](icons/telefonica/regular/brain-regular.svg) | | | | |<a id='brain-regular'>`brain-regular`</a>[![brain-regular](.github/resources/anchor.svg)](#brain-regular)|
@@ -888,6 +895,9 @@ Blau
 |![heart-filled](icons/telefonica/filled/heart-filled.svg) |![heart-filled](icons/vivo-new/filled/heart-filled.svg) |![heart-filled](icons/o2-new/filled/heart-filled.svg) |![heart-filled](icons/o2/filled/heart-filled.svg) | |<a id='heart-filled'>`heart-filled`</a>[![heart-filled](.github/resources/anchor.svg)](#heart-filled)|
 |![heart-light](icons/telefonica/light/heart-light.svg) |![heart-light](icons/vivo-new/light/heart-light.svg) |![heart-light](icons/o2-new/light/heart-light.svg) |![heart-light](icons/o2/light/heart-light.svg) | |<a id='heart-light'>`heart-light`</a>[![heart-light](.github/resources/anchor.svg)](#heart-light)|
 |![heart-regular](icons/telefonica/regular/heart-regular.svg) |![heart-regular](icons/vivo-new/regular/heart-regular.svg) |![heart-regular](icons/o2-new/regular/heart-regular.svg) |![heart-regular](icons/o2/regular/heart-regular.svg) | |<a id='heart-regular'>`heart-regular`</a>[![heart-regular](.github/resources/anchor.svg)](#heart-regular)|
+| |![high-priority-filled](icons/vivo-new/filled/high-priority-filled.svg) | | | |<a id='high-priority-filled'>`high-priority-filled`</a>[![high-priority-filled](.github/resources/anchor.svg)](#high-priority-filled)|
+| |![high-priority-light](icons/vivo-new/light/high-priority-light.svg) | | | |<a id='high-priority-light'>`high-priority-light`</a>[![high-priority-light](.github/resources/anchor.svg)](#high-priority-light)|
+| |![high-priority-regular](icons/vivo-new/regular/high-priority-regular.svg) | | | |<a id='high-priority-regular'>`high-priority-regular`</a>[![high-priority-regular](.github/resources/anchor.svg)](#high-priority-regular)|
 | | |![hockey-filled](icons/o2-new/filled/hockey-filled.svg) |![hockey-filled](icons/o2/filled/hockey-filled.svg) | |<a id='hockey-filled'>`hockey-filled`</a>[![hockey-filled](.github/resources/anchor.svg)](#hockey-filled)|
 | | |![hockey-light](icons/o2-new/light/hockey-light.svg) |![hockey-light](icons/o2/light/hockey-light.svg) | |<a id='hockey-light'>`hockey-light`</a>[![hockey-light](.github/resources/anchor.svg)](#hockey-light)|
 | | |![hockey-regular](icons/o2-new/regular/hockey-regular.svg) |![hockey-regular](icons/o2/regular/hockey-regular.svg) | |<a id='hockey-regular'>`hockey-regular`</a>[![hockey-regular](.github/resources/anchor.svg)](#hockey-regular)|
@@ -1716,6 +1726,9 @@ Blau
 |![virus-scan-filled](icons/telefonica/filled/virus-scan-filled.svg) | | | | |<a id='virus-scan-filled'>`virus-scan-filled`</a>[![virus-scan-filled](.github/resources/anchor.svg)](#virus-scan-filled)|
 |![virus-scan-light](icons/telefonica/light/virus-scan-light.svg) | | | | |<a id='virus-scan-light'>`virus-scan-light`</a>[![virus-scan-light](.github/resources/anchor.svg)](#virus-scan-light)|
 |![virus-scan-regular](icons/telefonica/regular/virus-scan-regular.svg) | | | | |<a id='virus-scan-regular'>`virus-scan-regular`</a>[![virus-scan-regular](.github/resources/anchor.svg)](#virus-scan-regular)|
+| |![vivo-valoriza-filled](icons/vivo-new/filled/vivo-valoriza-filled.svg) | | | |<a id='vivo-valoriza-filled'>`vivo-valoriza-filled`</a>[![vivo-valoriza-filled](.github/resources/anchor.svg)](#vivo-valoriza-filled)|
+| |![vivo-valoriza-light](icons/vivo-new/light/vivo-valoriza-light.svg) | | | |<a id='vivo-valoriza-light'>`vivo-valoriza-light`</a>[![vivo-valoriza-light](.github/resources/anchor.svg)](#vivo-valoriza-light)|
+| |![vivo-valoriza-regular](icons/vivo-new/regular/vivo-valoriza-regular.svg) | | | |<a id='vivo-valoriza-regular'>`vivo-valoriza-regular`</a>[![vivo-valoriza-regular](.github/resources/anchor.svg)](#vivo-valoriza-regular)|
 | | |![vod-filled](icons/o2-new/filled/vod-filled.svg) |![vod-filled](icons/o2/filled/vod-filled.svg) | |<a id='vod-filled'>`vod-filled`</a>[![vod-filled](.github/resources/anchor.svg)](#vod-filled)|
 | | |![vod-light](icons/o2-new/light/vod-light.svg) |![vod-light](icons/o2/light/vod-light.svg) | |<a id='vod-light'>`vod-light`</a>[![vod-light](.github/resources/anchor.svg)](#vod-light)|
 | | |![vod-regular](icons/o2-new/regular/vod-regular.svg) |![vod-regular](icons/o2/regular/vod-regular.svg) | |<a id='vod-regular'>`vod-regular`</a>[![vod-regular](.github/resources/anchor.svg)](#vod-regular)|
