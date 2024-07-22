@@ -27,7 +27,7 @@ Use Mística icons library in Figma!
 ## Equivalence status
 
 Telefonica  
-<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/57x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/92x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/250x8/D1D5E4/000&text=+' alt='Missing'>
+<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/56x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/92x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/251x8/D1D5E4/000&text=+' alt='Missing'>
 
 O2  
 <img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/113x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/286x8/D1D5E4/000&text=+' alt='Missing'>
@@ -42,13 +42,13 @@ Blau
 <img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/6x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/1x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/392x8/D1D5E4/000&text=+' alt='Missing'>
 
   
-| <sub><sup>ICON SET</sup></sub> | <sub><sup>CONCEPTS (606)</sup></sub> | <sub><sup>TOTAL (3176)</sup></sub> | <sub><sup>ALL EQUIVALENCE</sup></sub> | <sub><sup>SOME EQUIVALENCE</sup></sub> | <sub><sup>UNIQUE</sup></sub> | <sub><sup>MISSING</sup></sub> |
+| <sub><sup>ICON SET</sup></sub> | <sub><sup>CONCEPTS (607)</sup></sub> | <sub><sup>TOTAL (3179)</sup></sub> | <sub><sup>ALL EQUIVALENCE</sup></sub> | <sub><sup>SOME EQUIVALENCE</sup></sub> | <sub><sup>UNIQUE</sup></sub> | <sub><sup>MISSING</sup></sub> |
 | :--------- | --------: | -----: | ----------: | -------------------: | -------------------: | ------------: |
-| Telefonica | 420 | 1193 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 453 (14.3%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 737 (23.2%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 1983 (62.4%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
-| O2 | 309 | 908 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 905 (28.5%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 0 (0.0%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2268 (71.4%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
-| O2-New | 309 | 909 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 905 (28.5%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 1 (0.0%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2267 (71.4%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
-| Vivo-New | 54 | 105 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 44 (1.4%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 58 (1.8%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 3071 (96.7%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
-| Blau | 57 | 61 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 53 (1.7%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 5 (0.2%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 3115 (98.1%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| Telefonica | 420 | 1193 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 453 (14.2%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 737 (23.2%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 1986 (62.5%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| O2 | 309 | 908 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 905 (28.5%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 0 (0.0%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2271 (71.4%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| O2-New | 309 | 909 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 905 (28.5%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 1 (0.0%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2270 (71.4%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| Vivo-New | 55 | 108 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 44 (1.4%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 61 (1.9%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 3071 (96.6%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| Blau | 57 | 61 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 53 (1.7%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 5 (0.2%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 3118 (98.1%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
 
 
 <sub>**Concepts**: Counts the different names of icons in the set excluding any variations in style or weight.</sub>  
@@ -1726,6 +1726,9 @@ Blau
 |![virus-scan-filled](icons/telefonica/filled/virus-scan-filled.svg) | | | | |<a id='virus-scan-filled'>`virus-scan-filled`</a>[![virus-scan-filled](.github/resources/anchor.svg)](#virus-scan-filled)|
 |![virus-scan-light](icons/telefonica/light/virus-scan-light.svg) | | | | |<a id='virus-scan-light'>`virus-scan-light`</a>[![virus-scan-light](.github/resources/anchor.svg)](#virus-scan-light)|
 |![virus-scan-regular](icons/telefonica/regular/virus-scan-regular.svg) | | | | |<a id='virus-scan-regular'>`virus-scan-regular`</a>[![virus-scan-regular](.github/resources/anchor.svg)](#virus-scan-regular)|
+| |![vivo-valoriza-filled](icons/vivo-new/filled/vivo-valoriza-filled.svg) | | | |<a id='vivo-valoriza-filled'>`vivo-valoriza-filled`</a>[![vivo-valoriza-filled](.github/resources/anchor.svg)](#vivo-valoriza-filled)|
+| |![vivo-valoriza-light](icons/vivo-new/light/vivo-valoriza-light.svg) | | | |<a id='vivo-valoriza-light'>`vivo-valoriza-light`</a>[![vivo-valoriza-light](.github/resources/anchor.svg)](#vivo-valoriza-light)|
+| |![vivo-valoriza-regular](icons/vivo-new/regular/vivo-valoriza-regular.svg) | | | |<a id='vivo-valoriza-regular'>`vivo-valoriza-regular`</a>[![vivo-valoriza-regular](.github/resources/anchor.svg)](#vivo-valoriza-regular)|
 | | |![vod-filled](icons/o2-new/filled/vod-filled.svg) |![vod-filled](icons/o2/filled/vod-filled.svg) | |<a id='vod-filled'>`vod-filled`</a>[![vod-filled](.github/resources/anchor.svg)](#vod-filled)|
 | | |![vod-light](icons/o2-new/light/vod-light.svg) |![vod-light](icons/o2/light/vod-light.svg) | |<a id='vod-light'>`vod-light`</a>[![vod-light](.github/resources/anchor.svg)](#vod-light)|
 | | |![vod-regular](icons/o2-new/regular/vod-regular.svg) |![vod-regular](icons/o2/regular/vod-regular.svg) | |<a id='vod-regular'>`vod-regular`</a>[![vod-regular](.github/resources/anchor.svg)](#vod-regular)|
