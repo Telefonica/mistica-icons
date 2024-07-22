@@ -9,6 +9,11 @@ on:
       - ".github/md-generator/generate_graph.py"
       - ".github/workflows/auto-generator.yml"
       - "icons/"
+  pull_request:
+    branches:
+      - production
+    paths:
+      - "icons/**"
 
 jobs:
   readme-generator:
