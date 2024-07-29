@@ -30,10 +30,10 @@ Telefonica
 <img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/56x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/92x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/251x8/D1D5E4/000&text=+' alt='Missing'>
 
 O2  
-<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/113x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/286x8/D1D5E4/000&text=+' alt='Missing'>
+<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/114x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/285x8/D1D5E4/000&text=+' alt='Missing'>
 
 O2-New  
-<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/113x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/1x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/285x8/D1D5E4/000&text=+' alt='Missing'>
+<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/114x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/1x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/284x8/D1D5E4/000&text=+' alt='Missing'>
 
 Vivo-New  
 <img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/5x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/7x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/387x8/D1D5E4/000&text=+' alt='Missing'>
@@ -42,13 +42,13 @@ Blau
 <img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/6x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/1x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/392x8/D1D5E4/000&text=+' alt='Missing'>
 
   
-| <sub><sup>ICON SET</sup></sub> | <sub><sup>CONCEPTS (607)</sup></sub> | <sub><sup>TOTAL (3179)</sup></sub> | <sub><sup>ALL EQUIVALENCE</sup></sub> | <sub><sup>SOME EQUIVALENCE</sup></sub> | <sub><sup>UNIQUE</sup></sub> | <sub><sup>MISSING</sup></sub> |
+| <sub><sup>ICON SET</sup></sub> | <sub><sup>CONCEPTS (608)</sup></sub> | <sub><sup>TOTAL (3185)</sup></sub> | <sub><sup>ALL EQUIVALENCE</sup></sub> | <sub><sup>SOME EQUIVALENCE</sup></sub> | <sub><sup>UNIQUE</sup></sub> | <sub><sup>MISSING</sup></sub> |
 | :--------- | --------: | -----: | ----------: | -------------------: | -------------------: | ------------: |
-| Telefonica | 420 | 1193 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 453 (14.2%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 737 (23.2%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 1986 (62.5%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
-| O2 | 309 | 908 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 905 (28.5%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 0 (0.0%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2271 (71.4%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
-| O2-New | 309 | 909 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 905 (28.5%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 1 (0.0%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2270 (71.4%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
-| Vivo-New | 55 | 108 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 44 (1.4%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 61 (1.9%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 3071 (96.6%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
-| Blau | 57 | 61 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 53 (1.7%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 5 (0.2%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 3118 (98.1%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| Telefonica | 420 | 1193 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 453 (14.2%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 737 (23.1%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 1992 (62.5%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| O2 | 310 | 911 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 908 (28.5%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 0 (0.0%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2274 (71.4%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| O2-New | 310 | 912 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 908 (28.5%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 1 (0.0%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2273 (71.4%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| Vivo-New | 55 | 108 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 44 (1.4%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 61 (1.9%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 3077 (96.6%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| Blau | 57 | 61 | 3 (0.1%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 53 (1.7%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 5 (0.2%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 3124 (98.1%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
 
 
 <sub>**Concepts**: Counts the different names of icons in the set excluding any variations in style or weight.</sub>  
@@ -1090,6 +1090,9 @@ Blau
 |![millenials-filled](icons/telefonica/filled/millenials-filled.svg) | |![millenials-filled](icons/o2-new/filled/millenials-filled.svg) |![millenials-filled](icons/o2/filled/millenials-filled.svg) | |<a id='millenials-filled'>`millenials-filled`</a>[![millenials-filled](.github/resources/anchor.svg)](#millenials-filled)|
 |![millenials-light](icons/telefonica/light/millenials-light.svg) | |![millenials-light](icons/o2-new/light/millenials-light.svg) |![millenials-light](icons/o2/light/millenials-light.svg) | |<a id='millenials-light'>`millenials-light`</a>[![millenials-light](.github/resources/anchor.svg)](#millenials-light)|
 |![millenials-regular](icons/telefonica/regular/millenials-regular.svg) | |![millenials-regular](icons/o2-new/regular/millenials-regular.svg) |![millenials-regular](icons/o2/regular/millenials-regular.svg) | |<a id='millenials-regular'>`millenials-regular`</a>[![millenials-regular](.github/resources/anchor.svg)](#millenials-regular)|
+| | |![mms-filled](icons/o2-new/filled/mms-filled.svg) |![mms-filled](icons/o2/filled/mms-filled.svg) | |<a id='mms-filled'>`mms-filled`</a>[![mms-filled](.github/resources/anchor.svg)](#mms-filled)|
+| | |![mms-light](icons/o2-new/light/mms-light.svg) |![mms-light](icons/o2/light/mms-light.svg) | |<a id='mms-light'>`mms-light`</a>[![mms-light](.github/resources/anchor.svg)](#mms-light)|
+| | |![mms-regular](icons/o2-new/regular/mms-regular.svg) |![mms-regular](icons/o2/regular/mms-regular.svg) | |<a id='mms-regular'>`mms-regular`</a>[![mms-regular](.github/resources/anchor.svg)](#mms-regular)|
 | | |![mobile-add-user-filled](icons/o2-new/filled/mobile-add-user-filled.svg) |![mobile-add-user-filled](icons/o2/filled/mobile-add-user-filled.svg) | |<a id='mobile-add-user-filled'>`mobile-add-user-filled`</a>[![mobile-add-user-filled](.github/resources/anchor.svg)](#mobile-add-user-filled)|
 | | |![mobile-add-user-light](icons/o2-new/light/mobile-add-user-light.svg) |![mobile-add-user-light](icons/o2/light/mobile-add-user-light.svg) | |<a id='mobile-add-user-light'>`mobile-add-user-light`</a>[![mobile-add-user-light](.github/resources/anchor.svg)](#mobile-add-user-light)|
 | | |![mobile-add-user-regular](icons/o2-new/regular/mobile-add-user-regular.svg) |![mobile-add-user-regular](icons/o2/regular/mobile-add-user-regular.svg) | |<a id='mobile-add-user-regular'>`mobile-add-user-regular`</a>[![mobile-add-user-regular](.github/resources/anchor.svg)](#mobile-add-user-regular)|
