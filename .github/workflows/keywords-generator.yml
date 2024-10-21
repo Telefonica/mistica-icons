@@ -24,13 +24,11 @@ jobs:
       - name: Upgrade pip, setuptools, and wheel
         run: |
           pip install --upgrade pip setuptools wheel
-          pip install --use-pep517
 
       # Paso 3: Instalar dependencias de Python
       - name: Install dependencies
         run: |
-          pip install openai
-          pip install dotenv
+          pip install openai python-dotenv --use-pep517
 
       - name: Install prettier
         run: npm install -g prettier
