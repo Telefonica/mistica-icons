@@ -23,7 +23,9 @@ jobs:
 
       # Paso 3: Instalar dependencias de Python
       - name: Install dependencies
-        run: pip install openai
+        run: |
+          pip install openai
+          pip install dotenv
 
       - name: Install prettier
         run: npm install -g prettier
