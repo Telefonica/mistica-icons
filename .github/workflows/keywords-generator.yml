@@ -24,6 +24,7 @@ jobs:
       - name: Upgrade pip, setuptools, and wheel
         run: |
           pip install --upgrade pip setuptools wheel
+          pip install --use-pep517
 
       # Paso 3: Instalar dependencias de Python
       - name: Install dependencies
