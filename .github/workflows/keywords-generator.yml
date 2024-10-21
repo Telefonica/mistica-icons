@@ -21,6 +21,10 @@ jobs:
         with:
           python-version: "3.x"
 
+      - name: Upgrade pip, setuptools, and wheel
+        run: |
+          pip install --upgrade pip setuptools wheel
+
       # Paso 3: Instalar dependencias de Python
       - name: Install dependencies
         run: |
