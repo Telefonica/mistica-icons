@@ -27,13 +27,13 @@ Use Mística icons library in Figma!
 ## Equivalence status
 
 Telefonica  
-<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/56x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/90x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/253x8/D1D5E4/000&text=+' alt='Missing'>
+<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/57x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/89x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/253x8/D1D5E4/000&text=+' alt='Missing'>
 
 O2  
 <img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/112x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/287x8/D1D5E4/000&text=+' alt='Missing'>
 
 O2-New  
-<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/112x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/1x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/286x8/D1D5E4/000&text=+' alt='Missing'>
+<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/113x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/1x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/285x8/D1D5E4/000&text=+' alt='Missing'>
 
 Vivo-New  
 <img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/6x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/7x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/386x8/D1D5E4/000&text=+' alt='Missing'>
@@ -42,11 +42,11 @@ Blau
 <img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/7x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/1x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/391x8/D1D5E4/000&text=+' alt='Missing'>
 
   
-| <sub><sup>ICON SET</sup></sub> | <sub><sup>CONCEPTS (612)</sup></sub> | <sub><sup>TOTAL (3248)</sup></sub> | <sub><sup>ALL EQUIVALENCE</sup></sub> | <sub><sup>SOME EQUIVALENCE</sup></sub> | <sub><sup>UNIQUE</sup></sub> | <sub><sup>MISSING</sup></sub> |
+| <sub><sup>ICON SET</sup></sub> | <sub><sup>CONCEPTS (611)</sup></sub> | <sub><sup>TOTAL (3248)</sup></sub> | <sub><sup>ALL EQUIVALENCE</sup></sub> | <sub><sup>SOME EQUIVALENCE</sup></sub> | <sub><sup>UNIQUE</sup></sub> | <sub><sup>MISSING</sup></sub> |
 | :--------- | --------: | -----: | ----------: | -------------------: | -------------------: | ------------: |
-| Telefonica | 423 | 1202 | 9 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 462 (14.2%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 731 (22.5%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2046 (63.0%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| Telefonica | 423 | 1202 | 9 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 463 (14.3%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 730 (22.5%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2046 (63.0%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
 | O2 | 314 | 924 | 9 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 911 (28.0%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 0 (0.0%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2324 (71.6%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
-| O2-New | 316 | 928 | 9 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 917 (28.2%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 2 (0.1%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2320 (71.4%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| O2-New | 315 | 928 | 9 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 918 (28.3%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 1 (0.0%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2320 (71.4%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
 | Vivo-New | 60 | 123 | 9 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 53 (1.6%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 61 (1.9%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 3125 (96.2%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
 | Blau | 62 | 71 | 9 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 57 (1.8%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 5 (0.2%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 3177 (97.8%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
 
@@ -1633,11 +1633,10 @@ Blau
 |![throw-light-regular](icons/telefonica/regular/throw-light-regular.svg) | | | | |<a id='throw-light-regular'>`throw-light-regular`</a>[![throw-light-regular](.github/resources/anchor.svg)](#throw-light-regular)|
 |![thumb-down-filled](icons/telefonica/filled/thumb-down-filled.svg) | |![thumb-down-filled](icons/o2-new/filled/thumb-down-filled.svg) | | |<a id='thumb-down-filled'>`thumb-down-filled`</a>[![thumb-down-filled](.github/resources/anchor.svg)](#thumb-down-filled)|
 |![thumb-down-light](icons/telefonica/light/thumb-down-light.svg) | |![thumb-down-light](icons/o2-new/light/thumb-down-light.svg) | | |<a id='thumb-down-light'>`thumb-down-light`</a>[![thumb-down-light](.github/resources/anchor.svg)](#thumb-down-light)|
-|![thumb-down-regular](icons/telefonica/regular/thumb-down-regular.svg) | | | | |<a id='thumb-down-regular'>`thumb-down-regular`</a>[![thumb-down-regular](.github/resources/anchor.svg)](#thumb-down-regular)|
+|![thumb-down-regular](icons/telefonica/regular/thumb-down-regular.svg) | |![thumb-down-regular](icons/o2-new/regular/thumb-down-regular.svg) | | |<a id='thumb-down-regular'>`thumb-down-regular`</a>[![thumb-down-regular](.github/resources/anchor.svg)](#thumb-down-regular)|
 |![thumb-up-filled](icons/telefonica/filled/thumb-up-filled.svg) | |![thumb-up-filled](icons/o2-new/filled/thumb-up-filled.svg) |![thumb-up-filled](icons/o2/filled/thumb-up-filled.svg) | |<a id='thumb-up-filled'>`thumb-up-filled`</a>[![thumb-up-filled](.github/resources/anchor.svg)](#thumb-up-filled)|
 |![thumb-up-light](icons/telefonica/light/thumb-up-light.svg) | |![thumb-up-light](icons/o2-new/light/thumb-up-light.svg) |![thumb-up-light](icons/o2/light/thumb-up-light.svg) | |<a id='thumb-up-light'>`thumb-up-light`</a>[![thumb-up-light](.github/resources/anchor.svg)](#thumb-up-light)|
 |![thumb-up-regular](icons/telefonica/regular/thumb-up-regular.svg) | |![thumb-up-regular](icons/o2-new/regular/thumb-up-regular.svg) |![thumb-up-regular](icons/o2/regular/thumb-up-regular.svg) | |<a id='thumb-up-regular'>`thumb-up-regular`</a>[![thumb-up-regular](.github/resources/anchor.svg)](#thumb-up-regular)|
-| | |![thumbDown-regular](icons/o2-new/regular/thumbDown-regular.svg) | | |<a id='thumbDown-regular'>`thumbDown-regular`</a>[![thumbDown-regular](.github/resources/anchor.svg)](#thumbDown-regular)|
 |![tickets-filled](icons/telefonica/filled/tickets-filled.svg) |![tickets-filled](icons/vivo-new/filled/tickets-filled.svg) |![tickets-filled](icons/o2-new/filled/tickets-filled.svg) |![tickets-filled](icons/o2/filled/tickets-filled.svg) | |<a id='tickets-filled'>`tickets-filled`</a>[![tickets-filled](.github/resources/anchor.svg)](#tickets-filled)|
 |![tickets-light](icons/telefonica/light/tickets-light.svg) |![tickets-light](icons/vivo-new/light/tickets-light.svg) |![tickets-light](icons/o2-new/light/tickets-light.svg) |![tickets-light](icons/o2/light/tickets-light.svg) | |<a id='tickets-light'>`tickets-light`</a>[![tickets-light](.github/resources/anchor.svg)](#tickets-light)|
 |![tickets-regular](icons/telefonica/regular/tickets-regular.svg) |![tickets-regular](icons/vivo-new/regular/tickets-regular.svg) |![tickets-regular](icons/o2-new/regular/tickets-regular.svg) |![tickets-regular](icons/o2/regular/tickets-regular.svg) |![tickets-regular](icons/blau/regular/tickets-regular.svg) |<a id='tickets-regular'>`tickets-regular`</a>[![tickets-regular](.github/resources/anchor.svg)](#tickets-regular)|
