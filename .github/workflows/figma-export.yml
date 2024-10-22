@@ -126,7 +126,7 @@ jobs:
           pr_title: "Update Figma icons"
           pr_body: "
             New version of icons exported from [Mistica Icons](${{env.MISTICA_ICONS_FILE_URL}}), [O2](${{env.O2_FILE_URL}}), [O2-new](${{env.O2_NEW_FILE_URL}}), [Blau](${{env.BLAU_FILE_URL}}) & [Vivo](${{env.VIVO_FILE_URL}}) \n
-            - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
+            - [ ] [Review icon table in import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
           pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
 
@@ -197,7 +197,7 @@ jobs:
           pr_title: "Update Mística icons"
           pr_body: "
             New version of icons exported from [Mistica Icons](${{env.MISTICA_ICONS_FILE_URL}}) \n
-            - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
+            - [ ] [Review icon table in import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
           pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
 
@@ -268,7 +268,7 @@ jobs:
           pr_title: "Update O2 icons"
           pr_body: "
             New version of icons exported from [O2](${{env.O2_FILE_URL}}) \n
-            - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
+            - [ ] [Review icon table in import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
           pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
 
@@ -339,7 +339,7 @@ jobs:
           pr_title: "Update O2-new icons"
           pr_body: "
             New version of icons exported from [O2-new](${{env.O2_FILE_URL}}) \n
-            - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
+            - [ ] [Review icon table in import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
           pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
 
@@ -408,7 +408,7 @@ jobs:
           pr_title: "Update Blau icons"
           pr_body: "
             New version of icons exported from [Blau](${{env.BLAU_FILE_URL}}) \n
-            - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
+            - [ ] [Review icon table in import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
           pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
 
@@ -479,12 +479,12 @@ jobs:
           pr_title: "Update Vivo icons"
           pr_body: "
             New version of icons exported from [Vivo](${{env.VIVO_FILE_URL}}) \n
-            - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
+            - [ ] [Review icon table in import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
           pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
 # pr_body: "
 #             New version of icons exported from [Mistica Icons][mistica-icons] & [O2][o2-icons] n\
-#             - [ ] [Review readme import-figma-icons][readme] n\
+#             - [ ] [Review icon table in import-figma-icons][readme] n\
 
 #             [mistica-icons]: https://www.figma.com/file/${{env.TELEFONICA_FIGMA_ID}}/Mistica'-Icons?node-id=0%3A71 n\
 #             [o2-icons]: https://www.figma.com/file/${{env.O2_FIGMA_ID}}/?node-id=611%3A3298 n\
