@@ -16,6 +16,7 @@ on:
           - all
           - telefonica
           - o2
+          - o2-new
           - blau
           - vivo
       draft:
@@ -24,14 +25,16 @@ on:
         description: Draft PR
 
 env:
-  TELEFONICA_FIGMA_ID: JHuzksh01yxExMeMQBvymq
+  TELEFONICA_FIGMA_ID: JXy7Y07eb0Axg0ThVRWKju
   O2_FIGMA_ID: wHTqJ7KDhGKrNSNpmMb9nW
-  BLAU_FIGMA_ID: 6TYIfq6EZJl7NcSbbYAo79
-  VIVO_FIGMA_ID: IrcHGIgsF5Cq4ZX1LRhuis
-  MISTICA_ICONS_FILE_URL: https://www.figma.com/file/JHuzksh01yxExMeMQBvymq/M%C3%ADstica-Icons?node-id=0%3A71&t=hqGKHvCEvRHET7YC-0
+  O2_NEW_FIGMA_ID: CjvgrHEIycSQ6exznxnFXT
+  BLAU_FIGMA_ID: czemeClWRGBI8oF7caNa5m
+  VIVO_FIGMA_ID: EApRpjaTyUOwW5VQU2ZqgP
+  MISTICA_ICONS_FILE_URL: https://www.figma.com/design/JXy7Y07eb0Axg0ThVRWKju/Default-Icons-Set?node-id=0-71&t=1nybaZ1fzHqRq80C-1
   O2_FILE_URL: https://www.figma.com/file/wHTqJ7KDhGKrNSNpmMb9nW/?node-id=611%3A3298
-  BLAU_FILE_URL: https://www.figma.com/file/6TYIfq6EZJl7NcSbbYAo79/Blau?node-id=0%3A1
-  VIVO_FILE_URL: https://www.figma.com/file/IrcHGIgsF5Cq4ZX1LRhuis/Vivo-New-(Beta)?type=design&node-id=2625-199
+  O2_NEW_FILE_URL: https://www.figma.com/design/CjvgrHEIycSQ6exznxnFXT/O2?m=auto&node-id=4-0&t=0HBFuR3VADUhh5Zr-1
+  BLAU_FILE_URL: https://www.figma.com/design/czemeClWRGBI8oF7caNa5m/Blau?node-id=0-1&node-type=canvas&t=CM2TIEBRzYVgRX5A-0
+  VIVO_FILE_URL: https://www.figma.com/design/EApRpjaTyUOwW5VQU2ZqgP/Vivo?node-id=4-0&node-type=canvas&t=pnjxXOX7B7hd3BmJ-0
 
 jobs:
   export-all:
@@ -65,6 +68,9 @@ jobs:
           sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/o2/filled|g' figma-export-icons.template.json > o2-filled.json
           sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/o2/regular|g' figma-export-icons.template.json > o2-regular.json
           sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/o2/light|g' figma-export-icons.template.json > o2-light.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_NEW_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/o2-new/filled|g' figma-export-icons.template.json > o2-new-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_NEW_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/o2-new/regular|g' figma-export-icons.template.json > o2-new-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_NEW_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/o2-new/light|g' figma-export-icons.template.json > o2-new-light.json
           sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.BLAU_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/blau/regular|g' figma-export-icons.template.json > blau-regular.json
           sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.BLAU_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/blau/filled|g' figma-export-icons.template.json > blau-filled.json
           sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.VIVO_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/vivo-new/filled|g' figma-export-icons.template.json > vivo-filled.json
@@ -79,6 +85,9 @@ jobs:
           npm run export-o2-filled
           npm run export-o2-regular
           npm run export-o2-light
+          npm run export-o2-new-filled
+          npm run export-o2-new-regular
+          npm run export-o2-new-light
           npm run export-blau-regular
           npm run export-blau-filled
           npm run export-vivo-filled
@@ -116,7 +125,7 @@ jobs:
           destination_branch: "production"
           pr_title: "Update Figma icons"
           pr_body: "
-            New version of icons exported from [Mistica Icons](${{env.MISTICA_ICONS_FILE_URL}}), [O2](${{env.O2_FILE_URL}}), [Blau](${{env.BLAU_FILE_URL}}) & [Vivo](${{env.VIVO_FILE_URL}}) \n
+            New version of icons exported from [Mistica Icons](${{env.MISTICA_ICONS_FILE_URL}}), [O2](${{env.O2_FILE_URL}}), [O2-new](${{env.O2_NEW_FILE_URL}}), [Blau](${{env.BLAU_FILE_URL}}) & [Vivo](${{env.VIVO_FILE_URL}}) \n
             - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
           pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
@@ -259,6 +268,77 @@ jobs:
           pr_title: "Update O2 icons"
           pr_body: "
             New version of icons exported from [O2](${{env.O2_FILE_URL}}) \n
+            - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
+          pr_draft: ${{ github.event.inputs.draft }}
+          github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
+
+  export-o2-new:
+    if: ${{ github.event.inputs.brand == 'o2-new' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      # - name: Get branch name
+      #   uses: rlespinasse/github-slug-action@v3.x
+
+      - name: Install packages
+        run: |
+          npm install figma-export-icons --save
+          sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
+
+      - name: Checkout branch or create new one
+        run: |
+          git fetch
+          if git branch -a | grep origin/import-figma-icons; then
+              git checkout import-figma-icons
+          else
+              git checkout -b import-figma-icons
+          fi
+
+      - name: Generate icon config
+        run: |
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_NEW_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/o2-new/filled|g' figma-export-icons.template.json > o2-new-filled.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_NEW_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/o2-new/regular|g' figma-export-icons.template.json > o2-new-regular.json
+          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_NEW_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/o2-new/light|g' figma-export-icons.template.json > o2-new-light.json
+
+      - name: Export icons
+        run: |
+          npm run export-o2-new-filled
+          npm run export-o2-new-regular
+          npm run export-o2-new-light
+
+      - name: Install SVGO & convert
+        run: |
+          yarn global add svgo
+          svgo -f icons/o2-new -r -o icons/o2-new
+
+      - name: Convert to PDF
+        run: |
+          sudo apt-get update && sudo apt-get install -y mat2
+          for i in $(find icons/o2-new -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
+          for i in $(find icons/o2-new -type f -name "*.pdf"); do echo $i && exiftool -overwrite_original_in_place -all:all= $i > /dev/null 2>&1 && qpdf --replace-input --deterministic-id $i; done # remove PDF metadata
+
+      - name: Readme generator
+        run: sudo python3 .github/md-generator/generate_markdown.py icons
+
+      - name: Commit & Push
+        env:
+          GITHUB_TOKEN: ${{ secrets.NOVUM_PRIVATE_REPOS }}
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Figma icons updated"
+          git push origin import-figma-icons
+
+      - name: Create Pull-Request
+        uses: repo-sync/pull-request@v2
+        with:
+          source_branch: import-figma-icons
+          destination_branch: "production"
+          pr_title: "Update O2-new icons"
+          pr_body: "
+            New version of icons exported from [O2-new](${{env.O2_FILE_URL}}) \n
             - [ ] [Review readme import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
           pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
