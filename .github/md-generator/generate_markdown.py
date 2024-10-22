@@ -272,8 +272,15 @@ def main(root_folder):
             "<sub>**Missing**: Missing icons with respect to other sets.</sub>"
             )
 
-    readme_content += legend + "\n"
-    
+    icon_table_readme = (
+                        "## Icon table equivalence\n\n"
+                        + "This table shows the equivalence of icons between the different brands.\n\n"
+                        + "[View icon table →](ICON_TABLE.md)\n\n"
+                        + "[![Icon Table Preview](.github/resources/icon_table.png)](ICON_TABLE.md)"
+                        )
+    readme_content += legend + "\n\n" + icon_table_readme + "\n\n"
+
+
     icon_table_content = ""
     icon_table_content += "# Icon table equivalence\n\n"
     icon_table_output = generate_icon_table(root_folder)
