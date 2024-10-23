@@ -1,20 +1,20 @@
 import os
 import json
-import openai
 import subprocess 
+from openai import OpenAI
 from dotenv import load_dotenv
 
 # Load environment variables from the .env file
 load_dotenv()
 
 # Set up the OpenAI API key
-openai.api_key = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # Path to the main folder (the "icons" folder)
 main_folder = "./icons"
 
 # JSON file where synonyms will be stored
-synonyms_json_file = "icons/icons-keywords.json"
+synonyms_json_file = "./icons/icons-keywords.json"
 
 # Load the JSON file if it already exists
 if os.path.exists(synonyms_json_file):
@@ -42,22 +42,20 @@ def list_concepts(folder):
 def generate_synonyms(concept):
     prompt = f"Generate 12 synonyms for the concept '{concept}' mixing English, Spanish, Portuguese, and German (in this order). Return them as a plain list of words, without quotes, numbering, or separation by language. the order of the synonyms should be English, Spanish, Portuguese, and German. For example: alert lamp cross, warning light plus, signal illumination cross, luz de alarma cruz, luz de advertencia plus, iluminación de señal cruz, Alarmleuchte Kreuz, Warnlicht plus, Signalbeleuchtung Kreuz"
 
-    response = openai.ChatCompletion.create(
-        model="gpt-4", 
-        messages=[
-            {"role": "system", "content": "You are a helpful assistant."},
-            {"role": "user", "content": prompt}
-        ],
-        max_tokens=100,
-        temperature=0.7,
-    )
-    
+    response = client.chat.completions.create(model="gpt-4", 
+    messages=[
+        {"role": "system", "content": "You are a helpful assistant."},
+        {"role": "user", "content": prompt}
+    ],
+    max_tokens=100,
+    temperature=0.7)
+
     # Get the generated response
-    raw_synonyms = response['choices'][0]['message']['content'].strip()
+    raw_synonyms = response.choices[0].message.content.strip()
 
     # Clean the output, removing unnecessary characters and convert it to a list
     synonyms = [synonym.strip(' "[]') for synonym in raw_synonyms.split(',')]
-    
+
     return synonyms
 
 # Get concepts from the icons folder
