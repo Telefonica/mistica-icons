@@ -43,10 +43,10 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python3 .github/keywords/keywords-generator.py
 
-      - name: Commit & Push in ${{ env.GITHUB_REF_SLUG_URL }}
+      - name: Commit & Push in ${{ env.GITHUB_REF_SLUG }}
         run: |
           git add .
           git config user.name "github-actions"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git commit -am "update changelog"
-          git push origin ${{ env.GITHUB_REF_SLUG_URL }}
+          git push origin ${{ env.GITHUB_REF_SLUG }}
