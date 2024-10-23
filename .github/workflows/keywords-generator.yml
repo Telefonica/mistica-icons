@@ -38,10 +38,12 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python3 .github/keywords/keywords-generator.py
 
-      - name: Commit & Push in import-figma-icons
+      - name: Commit & Push
+        env:
+          GITHUB_TOKEN: ${{ secrets.NOVUM_PRIVATE_REPOS }}
         run: |
-          git add .
           git config user.name "github-actions"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git commit -am "update changelog"
+          git add .
+          git commit -m "Figma icons updated"
           git push origin import-figma-icons
