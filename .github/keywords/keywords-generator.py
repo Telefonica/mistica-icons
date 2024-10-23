@@ -43,7 +43,7 @@ def generate_synonyms(concept):
     prompt = f"Generate 9 synonyms for the word '{concept}' mixing English, Spanish, Portuguese, and German. Return them as a plain list of words, without quotes, numbering, or separation by language."
 
     response = openai.ChatCompletion.create(
-        model="gpt-4",  # Or you can use 'gpt-3.5-turbo' depending on the model you prefer
+        model="gpt-3.5-turbo", 
         messages=[
             {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": prompt}
