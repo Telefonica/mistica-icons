@@ -42,13 +42,7 @@ jobs:
         working-directory: .github/keywords
         run: python3 keywords-generator.py
 
-      - name: Check for changes
-        id: git_status
-        run: |
-          git diff --exit-code || echo "changes"
-
       - name: Commit & Push in ${{ env.GITHUB_REF_SLUG_URL }}
-        if: steps.git_status.outputs.result == 'changes'
         run: |
           git add .
           git config user.name "github-actions"
