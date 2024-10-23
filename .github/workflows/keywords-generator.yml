@@ -16,6 +16,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Get branch name
+        uses: rlespinasse/github-slug-action@v3.x
+
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
@@ -38,3 +41,11 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         working-directory: .github/keywords
         run: python3 keywords-generator.py
+
+      - name: Commit & Push in ${{ env.GITHUB_REF_SLUG_URL }}
+        run: |
+          git add .
+          git config user.name "github-actions"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git commit -am "update changelog"
+          git push origin ${{ env.GITHUB_REF_SLUG_URL }}
