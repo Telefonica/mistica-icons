@@ -45,12 +45,7 @@ jobs:
       - name: Check for changes
         id: git_status
         run: |
-          git diff --quiet || echo "changes detected"
-
-      # Si no hay cambios, se marca el job como skipped.
-      - name: Skip if no changes
-        if: steps.git_status.outcome == 'changes'
-        run: echo "No changes detected, skipping the job." && exit 0
+          git diff --exit-code || echo "changes"
 
       - name: Commit & Push in ${{ env.GITHUB_REF_SLUG_URL }}
         if: steps.git_status.outputs.result == 'changes'
