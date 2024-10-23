@@ -14,7 +14,16 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
+
+      - name: Checkout branch or create new one
+        run: |
+          git fetch
+          if git branch -a | grep origin/import-figma-icons; then
+              git checkout import-figma-icons
+          else
+              git checkout -b import-figma-icons
+          fi
 
       - name: Set up Python
         uses: actions/setup-python@v2
@@ -44,8 +53,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git checkout -b import-figma-icons || git checkout import-figma-icons
-          git pull origin import-figma-icons --rebase  
           git add .
-          git commit -m "Icons keywords updated"
-          git push origin ${{ github.head_ref }}
+          git commit -m "Figma icons updated"
+          git push origin import-figma-icons
