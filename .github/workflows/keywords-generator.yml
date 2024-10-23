@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
 
       - name: Get branch name
         uses: rlespinasse/github-slug-action@v3.x
@@ -39,8 +41,7 @@ jobs:
       - name: Run keywords generator
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        working-directory: .github/keywords
-        run: python3 keywords-generator.py
+        run: python3 .github/keywords/keywords-generator.py
 
       - name: Commit & Push in ${{ env.GITHUB_REF_SLUG_URL }}
         run: |
