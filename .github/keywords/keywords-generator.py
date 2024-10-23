@@ -14,7 +14,7 @@ openai.api_key = os.getenv("OPENAI_API_KEY")
 main_folder = "./icons"
 
 # JSON file where synonyms will be stored
-synonyms_json_file = "icons/icons-keywords.json"
+synonyms_json_file = "./icons/icons-keywords.json"
 
 # Load the JSON file if it already exists
 if os.path.exists(synonyms_json_file):
