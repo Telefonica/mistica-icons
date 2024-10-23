@@ -40,10 +40,10 @@ def list_concepts(folder):
 
 # Function to generate synonyms using GPT
 def generate_synonyms(concept):
-    prompt = f"Generate 9 synonyms for the word '{concept}' mixing English, Spanish, Portuguese, and German. Return them as a plain list of words, without quotes, numbering, or separation by language."
+    prompt = f"Generate 12 synonyms for the concept '{concept}' mixing English, Spanish, Portuguese, and German (in this order). Return them as a plain list of words, without quotes, numbering, or separation by language. the order of the synonyms should be English, Spanish, Portuguese, and German. For example: alert lamp cross, warning light plus, signal illumination cross, luz de alarma cruz, luz de advertencia plus, iluminación de señal cruz, Alarmleuchte Kreuz, Warnlicht plus, Signalbeleuchtung Kreuz"
 
     response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo", 
+        model="gpt-4", 
         messages=[
             {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": prompt}
