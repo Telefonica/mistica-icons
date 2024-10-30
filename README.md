@@ -30,7 +30,7 @@ Telefonica
 <img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/56x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/90x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/253x8/D1D5E4/000&text=+' alt='Missing'>
 
 O2  
-<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/112x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/287x8/D1D5E4/000&text=+' alt='Missing'>
+<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/111x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/288x8/D1D5E4/000&text=+' alt='Missing'>
 
 O2-New  
 <img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/112x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/1x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/286x8/D1D5E4/000&text=+' alt='Missing'>
@@ -39,7 +39,7 @@ Vivo-New
 <img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/6x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/7x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/386x8/D1D5E4/000&text=+' alt='Missing'>
 
 Blau  
-<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/7x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/1x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/391x8/D1D5E4/000&text=+' alt='Missing'>
+<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/6x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/1x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/392x8/D1D5E4/000&text=+' alt='Missing'>
 
   
 | <sub><sup>ICON SET</sup></sub> | <sub><sup>CONCEPTS (611)</sup></sub> | <sub><sup>TOTAL (3245)</sup></sub> | <sub><sup>ALL EQUIVALENCE</sup></sub> | <sub><sup>SOME EQUIVALENCE</sup></sub> | <sub><sup>UNIQUE</sup></sub> | <sub><sup>MISSING</sup></sub> |
