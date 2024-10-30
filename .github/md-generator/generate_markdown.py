@@ -241,22 +241,22 @@ def main(root_folder):
     icon_data = process_icon_sets(folders, all_concepts)
     bars = generate_bar_representation(icon_data, all_concepts)
     
-    markdown_content = ""
+    readme_content = ""
 
     # Add documentation
     documentation = "![Mistica Icons](.github/resources/mistica-icons-light.svg#gh-light-mode-only)" + BREAK + "![Mistica Icons](.github/resources/mistica-icons-dark.svg#gh-dark-mode-only)" + BREAK + BREAK + "Mística Icons is a multibrand icon system that contains all icons that is working in [Mistica Design System](https://github.com/Telefonica/mistica) now.  " + BREAK + BREAK + "Mistica support [Brand Factory icons](https://brandfactory.telefonica.com/document/1086#/nuestra-identidad/iconos). This set of icons are a big list of different icons and style that Brand Team worked to be used through Telefonica applications." + BREAK + BREAK + "If you have any question, please you can ask directly in the app of Microsoft Teams, in [Mistica Team](https://teams.microsoft.com/l/team/19%3ad2e3607a32ec411b8bf492f43cd0fe0c%40thread.tacv2/conversations?groupId=e265fe99-929f-45d1-8154-699649674a40&tenantId=9744600e-3e04-492e-baa1-25ec245c6f10).  " + \
         BREAK + BREAK + "## Documentation" + BREAK + BREAK + "### Develop" + BREAK + BREAK + "#### iOS and Android" + BREAK + BREAK + "You can get .pdf or .svg files from this repo." + BREAK + BREAK + "#### Web" + BREAK + BREAK + \
         "Visit [Mistica Storybook](https://mistica-web.vercel.app/?path=/story/icons-catalog--catalog) to get all the detail about using Mistica Icons Library" + BREAK + BREAK + "### Design" + BREAK + BREAK + "Use Mística icons library in Figma!" + BREAK + BREAK
-    markdown_content += documentation + BREAK
+    readme_content += documentation + BREAK
     
-    markdown_content += "## Equivalence status\n\n"
+    readme_content += "## Equivalence status\n\n"
     for bar in bars:
-        markdown_content += bar + "\n"
-    markdown_content += "  " + BREAK
+        readme_content += bar + "\n"
+    readme_content += "  " + BREAK
 
     # Add equivalence status table
     markdown_table = generate_markdown_table(icon_data, folders)
-    markdown_content += markdown_table + "\n"
+    readme_content += markdown_table + "\n"
     
     legend = (
             "<sub>**Concepts**: Counts the different names of icons in the set excluding any variations in style or weight.</sub>  " 
@@ -272,14 +272,25 @@ def main(root_folder):
             "<sub>**Missing**: Missing icons with respect to other sets.</sub>"
             )
 
-    markdown_content += legend + "\n"
-    
-    markdown_content += "## Icon equivalence\n\n"
+    icon_table_readme = (
+                        "## Icon table equivalence\n\n"
+                        + "This table shows the equivalence of icons between the different brands.\n\n"
+                        + "[View icon table →](ICON_TABLE.md)\n\n"
+                        + "[![Icon Table Preview](.github/resources/icon_table.png)](ICON_TABLE.md)"
+                        )
+    readme_content += legend + "\n\n" + icon_table_readme + "\n\n"
+
+
+    icon_table_content = ""
+    icon_table_content += "# Icon table equivalence\n\n"
     icon_table_output = generate_icon_table(root_folder)
-    markdown_content += icon_table_output + "\n"
+    icon_table_content += icon_table_output + "\n"
     
     with open("./README.md", "w") as file:
-        file.write(markdown_content)
+        file.write(readme_content)
+    
+    with open("./ICON_TABLE.md", "w") as file:
+        file.write(icon_table_content)
 
 if __name__ == "__main__":
     root_folder = "icons"
