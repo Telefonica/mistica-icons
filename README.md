@@ -1,11 +1,11 @@
 ![Mistica Icons](.github/resources/mistica-icons-light.svg#gh-light-mode-only)
 ![Mistica Icons](.github/resources/mistica-icons-dark.svg#gh-dark-mode-only)
 
-Mística Icons is a multibrand icon system that contains all icons that is working in [Mistica Design System](https://github.com/Telefonica/mistica) now.  
+Mística Icons is a multibrand icon system that contains all icons that is working in [Mistica Design System](https://github.com/Telefonica/mistica) now.
 
 Mistica support [Brand Factory icons](https://brandfactory.telefonica.com/document/1086#/nuestra-identidad/iconos). This set of icons are a big list of different icons and style that Brand Team worked to be used through Telefonica applications.
 
-If you have any question, please you can ask directly in the app of Microsoft Teams, in [Mistica Team](https://teams.microsoft.com/l/team/19%3ad2e3607a32ec411b8bf492f43cd0fe0c%40thread.tacv2/conversations?groupId=e265fe99-929f-45d1-8154-699649674a40&tenantId=9744600e-3e04-492e-baa1-25ec245c6f10).  
+If you have any question, please you can ask directly in the app of Microsoft Teams, in [Mistica Team](https://teams.microsoft.com/l/team/19%3ad2e3607a32ec411b8bf492f43cd0fe0c%40thread.tacv2/conversations?groupId=e265fe99-929f-45d1-8154-699649674a40&tenantId=9744600e-3e04-492e-baa1-25ec245c6f10).
 
 ## Documentation
 
@@ -22,7 +22,6 @@ Visit [Mistica Storybook](https://mistica-web.vercel.app/?path=/story/icons-cata
 ### Design
 
 Use Mística icons library in Figma!
-
 
 ## Equivalence status
 
@@ -41,15 +40,13 @@ Vivo-New
 Blau  
 <img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/6x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/1x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/392x8/D1D5E4/000&text=+' alt='Missing'>
 
-  
-| <sub><sup>ICON SET</sup></sub> | <sub><sup>CONCEPTS (616)</sup></sub> | <sub><sup>TOTAL (3272)</sup></sub> | <sub><sup>ALL EQUIVALENCE</sup></sub> | <sub><sup>SOME EQUIVALENCE</sup></sub> | <sub><sup>UNIQUE</sup></sub> | <sub><sup>MISSING</sup></sub> |
-| :--------- | --------: | -----: | ----------: | -------------------: | -------------------: | ------------: |
-| Telefonica | 429 | 1220 | 9 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 472 (14.4%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 739 (22.6%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2052 (62.7%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
-| O2 | 314 | 924 | 9 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 911 (27.8%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 0 (0.0%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2348 (71.8%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
-| O2-New | 317 | 934 | 9 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 921 (28.1%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 4 (0.1%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2338 (71.5%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
-| Vivo-New | 60 | 123 | 9 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 53 (1.6%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 61 (1.9%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 3149 (96.2%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
-| Blau | 62 | 71 | 9 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 57 (1.7%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 5 (0.2%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 3201 (97.8%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
-
+| <sub><sup>ICON SET</sup></sub> | <sub><sup>CONCEPTS (616)</sup></sub> | <sub><sup>TOTAL (3272)</sup></sub> |                                      <sub><sup>ALL EQUIVALENCE</sup></sub> |                                         <sub><sup>SOME EQUIVALENCE</sup></sub> |                                         <sub><sup>UNIQUE</sup></sub> |                                          <sub><sup>MISSING</sup></sub> |
+| :----------------------------- | -----------------------------------: | ---------------------------------: | -------------------------------------------------------------------------: | -----------------------------------------------------------------------------: | -------------------------------------------------------------------: | ---------------------------------------------------------------------: |
+| Telefonica                     |                                  429 |                               1220 | 9 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 472 (14.4%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 739 (22.6%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2052 (62.7%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| O2                             |                                  314 |                                924 | 9 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 911 (27.8%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) |    0 (0.0%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2348 (71.8%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| O2-New                         |                                  317 |                                934 | 9 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 921 (28.1%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) |    4 (0.1%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2338 (71.5%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| Vivo-New                       |                                   60 |                                123 | 9 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) |   53 (1.6%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) |   61 (1.9%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 3149 (96.2%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| Blau                           |                                   62 |                                 71 | 9 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) |   57 (1.7%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) |    5 (0.2%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 3201 (97.8%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
 
 <sub>**Concepts**: Counts the different names of icons in the set excluding any variations in style or weight.</sub>  
 <sub>**Total**: The total number of icons found in a brand set. Counting light, regular and filled weights.</sub>  
@@ -65,4 +62,3 @@ This table shows the equivalence of icons between the different brands.
 [View icon table →](ICON_TABLE.md)
 
 [![Icon Table Preview](.github/resources/icon_table.png)](ICON_TABLE.md)
-
