@@ -772,6 +772,9 @@
 | | |![floorplan-filled](icons/o2-new/filled/floorplan-filled.svg) |![floorplan-filled](icons/o2/filled/floorplan-filled.svg) | |<a id='floorplan-filled'>`floorplan-filled`</a>[![floorplan-filled](.github/resources/anchor.svg)](#floorplan-filled)|
 | | |![floorplan-light](icons/o2-new/light/floorplan-light.svg) |![floorplan-light](icons/o2/light/floorplan-light.svg) | |<a id='floorplan-light'>`floorplan-light`</a>[![floorplan-light](.github/resources/anchor.svg)](#floorplan-light)|
 | | |![floorplan-regular](icons/o2-new/regular/floorplan-regular.svg) |![floorplan-regular](icons/o2/regular/floorplan-regular.svg) | |<a id='floorplan-regular'>`floorplan-regular`</a>[![floorplan-regular](.github/resources/anchor.svg)](#floorplan-regular)|
+| | |![floppy-disk-filled](icons/o2-new/filled/floppy-disk-filled.svg) | | |<a id='floppy-disk-filled'>`floppy-disk-filled`</a>[![floppy-disk-filled](.github/resources/anchor.svg)](#floppy-disk-filled)|
+| | |![floppy-disk-light](icons/o2-new/light/floppy-disk-light.svg) | | |<a id='floppy-disk-light'>`floppy-disk-light`</a>[![floppy-disk-light](.github/resources/anchor.svg)](#floppy-disk-light)|
+| | |![floppy-disk-regular](icons/o2-new/regular/floppy-disk-regular.svg) | | |<a id='floppy-disk-regular'>`floppy-disk-regular`</a>[![floppy-disk-regular](.github/resources/anchor.svg)](#floppy-disk-regular)|
 |![flower-filled](icons/telefonica/filled/flower-filled.svg) | | | | |<a id='flower-filled'>`flower-filled`</a>[![flower-filled](.github/resources/anchor.svg)](#flower-filled)|
 |![flower-light](icons/telefonica/light/flower-light.svg) | | | | |<a id='flower-light'>`flower-light`</a>[![flower-light](.github/resources/anchor.svg)](#flower-light)|
 |![flower-regular](icons/telefonica/regular/flower-regular.svg) | | | | |<a id='flower-regular'>`flower-regular`</a>[![flower-regular](.github/resources/anchor.svg)](#flower-regular)|
