@@ -46,19 +46,16 @@ jobs:
       # - name: Get branch name
       #   uses: rlespinasse/github-slug-action@v3.x
 
-      - name: Install packages
+      - name: Install required tools
         run: |
+          sudo apt-get update
+          sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf mat2
           npm install figma-export-icons --save
-          sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
 
       - name: Checkout branch or create new one
         run: |
           git fetch
-          if git branch -a | grep origin/import-figma-icons; then
-              git checkout import-figma-icons
-          else
-              git checkout -b import-figma-icons
-          fi
+          git checkout import-figma-icons || git checkout -b import-figma-icons
 
       - name: Generate icon config
         run: |
@@ -99,11 +96,18 @@ jobs:
           yarn global add svgo
           svgo -f icons -r -o icons
 
-      - name: Convert to PDF
+      - name: Convert SVG to PDF
         run: |
-          sudo apt-get update && sudo apt-get install -y mat2
-          for i in $(find icons -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
-          for i in $(find icons -type f -name "*.pdf"); do echo $i && exiftool -overwrite_original_in_place -all:all= $i > /dev/null 2>&1 && qpdf --replace-input --deterministic-id $i; done # remove PDF metadata
+          for i in $(find icons -type f -name "*.svg"); do
+              if ! rsvg-convert -f pdf -o "${i%.*}.pdf" "$i"; then
+                  echo "Warning: Failed to convert $i" >&2
+              fi
+          done
+          for i in $(find icons -type f -name "*.pdf"); do
+              echo "Processing $i"
+              exiftool -overwrite_original_in_place -all:all= "$i" > /dev/null 2>&1 || echo "Exiftool failed for $i"
+              qpdf --replace-input --deterministic-id "$i" || echo "QPDF failed for $i"
+          done
 
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
