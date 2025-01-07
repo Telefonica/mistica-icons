@@ -102,19 +102,10 @@ jobs:
       - name: Convert to PDF
         run: |
           sudo apt-get update && sudo apt-get install -y mat2
-
-          for pdf in $(find icons -type f -name "*.pdf"); do
-              echo "Repairing $pdf"
-              gs -q -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -sOutputFile="$pdf" "$pdf" || echo "Failed to repair $pdf"
-          done
-
-          for pdf in $(find icons -type f -name "*.pdf"); do
-              echo "Processing $pdf"
-              exiftool -overwrite_original_in_place -all:all= "$pdf" > /dev/null 2>&1 || echo "Exiftool failed for $pdf"
-              qpdf --replace-input --deterministic-id "$pdf" || echo "QPDF failed for $pdf"
-          done
-
-      - name: Readme generator
+          for i in $(find icons -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
+          for i in $(find icons -type f -name "*.pdf"); do echo $i && exiftool -overwrite_original_in_place -all:all= $i > /dev/null 2>&1; done
+      
+          - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
 
       - name: Commit & Push
