@@ -46,35 +46,10 @@ jobs:
       # - name: Get branch name
       #   uses: rlespinasse/github-slug-action@v3.x
 
-      - name: Install dependencies
+      - name: Install packages
         run: |
           npm install figma-export-icons --save
-          sudo apt-get update
-          sudo apt-get install -y \
-            librsvg2-bin \
-            libimage-exiftool-perl \
-            wget \
-            tar \
-            cmake \
-            make \
-            g++ \
-            libjpeg-dev \
-            libgnutls28-dev \
-            npm \
-            yarn
-
-      - name: Install qpdf 11.8.0
-        run: |
-          wget https://github.com/qpdf/qpdf/releases/download/v11.8.0/qpdf-11.8.0.tar.gz
-          tar -xzf qpdf-11.8.0.tar.gz
-          cd qpdf-11.8.0
-          mkdir build && cd build
-          cmake ..
-          make
-          sudo make install
-          echo "/usr/local/lib" | sudo tee -a /etc/ld.so.conf.d/qpdf.conf
-          sudo ldconfig
-          qpdf --version
+          sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
 
       - name: Checkout branch or create new one
         run: |
@@ -339,9 +314,39 @@ jobs:
 
       - name: Convert to PDF
         run: |
+          echo "Starting conversion of SVG files to PDF..."
           sudo apt-get update && sudo apt-get install -y mat2
-          for i in $(find icons/o2-new -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
-          for i in $(find icons/o2-new -type f -name "*.pdf"); do echo $i && exiftool -overwrite_original_in_place -all:all= $i > /dev/null 2>&1 && qpdf --replace-input --deterministic-id $i; done # remove PDF metadata
+          echo "Installed mat2 for metadata removal."
+
+          echo "Converting SVG files to PDF:"
+          find icons -type f -name "*.svg" | while read -r svg_file; do
+            pdf_file="${svg_file%.*}.pdf"
+            echo "Converting $svg_file to $pdf_file..."
+            if rsvg-convert -f pdf -o "$pdf_file" "$svg_file"; then
+              echo "Successfully converted $svg_file to $pdf_file."
+            else
+              echo "ERROR: Failed to convert $svg_file to $pdf_file." >&2
+            fi
+          done
+
+          echo "Removing metadata from PDF files:"
+          find icons -type f -name "*.pdf" | while read -r pdf_file; do
+            echo "Processing $pdf_file..."
+            if exiftool -overwrite_original_in_place -all:all= "$pdf_file" > /dev/null 2>&1; then
+              echo "Metadata successfully removed from $pdf_file."
+            else
+              echo "ERROR: Failed to remove metadata from $pdf_file." >&2
+            fi
+
+            echo "Optimizing $pdf_file with QPDF..."
+            if qpdf --replace-input --deterministic-id "$pdf_file"; then
+              echo "Successfully optimized $pdf_file with QPDF."
+            else
+              echo "ERROR: Failed to optimize $pdf_file with QPDF." >&2
+            fi
+          done
+
+          echo "SVG to PDF conversion and metadata cleanup complete."
 
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
