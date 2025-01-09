@@ -53,7 +53,7 @@ jobs:
 
       - name: Install qpdf 11.8.0
         run: |
-          wget https://github.com/qpdf/qpdf/releases/download/release-qpdf-11.8.0/qpdf-11.8.0.tar.gz
+          wget https://github.com/qpdf/qpdf/releases/download/v11.8.0/qpdf-11.8.0.tar.gz
           tar -xzf qpdf-11.8.0.tar.gz
           cd qpdf-11.8.0
           mkdir build && cd build
