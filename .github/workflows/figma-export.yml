@@ -51,6 +51,11 @@ jobs:
           npm install figma-export-icons --save
           sudo apt-get install -y librsvg2-bin libimage-exiftool-perl wget tar cmake make g++ npm yarn
 
+      - name: Install required libraries
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libjpeg-dev libgnutls28-dev
+
       - name: Install qpdf 11.8.0
         run: |
           wget https://github.com/qpdf/qpdf/releases/download/v11.8.0/qpdf-11.8.0.tar.gz
