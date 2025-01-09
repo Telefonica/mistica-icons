@@ -46,15 +46,21 @@ jobs:
       # - name: Get branch name
       #   uses: rlespinasse/github-slug-action@v3.x
 
-      - name: Install packages
-        run: |
-          npm install figma-export-icons --save
-          sudo apt-get install -y librsvg2-bin libimage-exiftool-perl wget tar cmake make g++ npm yarn
-
-      - name: Install required libraries
+      - name: Install dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y libjpeg-dev libgnutls28-dev
+          sudo apt-get install -y \
+            librsvg2-bin \
+            libimage-exiftool-perl \
+            wget \
+            tar \
+            cmake \
+            make \
+            g++ \
+            libjpeg-dev \
+            libgnutls28-dev \
+            npm \
+            yarn
 
       - name: Install qpdf 11.8.0
         run: |
@@ -65,6 +71,8 @@ jobs:
           cmake ..
           make
           sudo make install
+          echo "/usr/local/lib" | sudo tee -a /etc/ld.so.conf.d/qpdf.conf
+          sudo ldconfig
           qpdf --version
 
       - name: Checkout branch or create new one
