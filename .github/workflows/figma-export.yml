@@ -314,39 +314,12 @@ jobs:
 
       - name: Convert to PDF
         run: |
-          echo "Starting conversion of SVG files to PDF..."
           sudo apt-get update && sudo apt-get install -y mat2
-          echo "Installed mat2 for metadata removal."
-
-          echo "Converting SVG files to PDF:"
-          find icons -type f -name "*.svg" | while read -r svg_file; do
-            pdf_file="${svg_file%.*}.pdf"
-            echo "Converting $svg_file to $pdf_file..."
-            if rsvg-convert -f pdf -o "$pdf_file" "$svg_file"; then
-              echo "Successfully converted $svg_file to $pdf_file."
-            else
-              echo "ERROR: Failed to convert $svg_file to $pdf_file." >&2
-            fi
+          for i in $(find icons -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
+          find icons -type f -name "*.pdf" | while IFS= read -r file; do
+            echo "$file"
+            exiftool -overwrite_original_in_place -all:all= "$file" > /dev/null 2>&1
           done
-
-          echo "Removing metadata from PDF files:"
-          find icons -type f -name "*.pdf" | while read -r pdf_file; do
-            echo "Processing $pdf_file..."
-            if exiftool -overwrite_original_in_place -all:all= "$pdf_file" > /dev/null 2>&1; then
-              echo "Metadata successfully removed from $pdf_file."
-            else
-              echo "ERROR: Failed to remove metadata from $pdf_file." >&2
-            fi
-
-            echo "Optimizing $pdf_file with QPDF..."
-            if qpdf --replace-input --deterministic-id "$pdf_file"; then
-              echo "Successfully optimized $pdf_file with QPDF."
-            else
-              echo "ERROR: Failed to optimize $pdf_file with QPDF." >&2
-            fi
-          done
-
-          echo "SVG to PDF conversion and metadata cleanup complete."
 
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
