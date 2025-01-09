@@ -101,12 +101,19 @@ jobs:
 
       - name: Convert to PDF
         run: |
-          sudo apt-get update && sudo apt-get install -y mat2
-          for i in $(find icons -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
-          for i in $(find icons -type f -name "*.pdf"); do echo $i && exiftool -overwrite_original_in_place -all:all= $i > /dev/null 2>&1 && qpdf --replace-input --deterministic-id --linearize $i; done # remove PDF metadata
+          sudo apt-get update && sudo apt-get install -y mat2 librsvg2-bin exiftool qpdf
+          # Convert SVG files to PDF
+          for i in $(find icons -type f -name "*.svg"); do
+            rsvg-convert -f pdf -o "${i%.*}.pdf" "$i"
+          done
+
+          # Remove metadata from PDFs and optimize them
+          for file in $(find icons -type f -name "*.pdf"); do
             echo "$file"
             exiftool -overwrite_original_in_place -all:all= "$file" > /dev/null 2>&1
+            qpdf --replace-input --deterministic-id --linearize "$file"
           done
+
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
 
