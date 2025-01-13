@@ -23,6 +23,9 @@ on:
         type: boolean
         default: true
         description: Draft PR
+      branch_name:
+        required: false
+        description: Branch to create PR (for test)
 
 env:
   TELEFONICA_FIGMA_ID: JXy7Y07eb0Axg0ThVRWKju
@@ -35,7 +38,7 @@ env:
   O2_NEW_FILE_URL: https://www.figma.com/design/CjvgrHEIycSQ6exznxnFXT/O2?m=auto&node-id=4-0&t=0HBFuR3VADUhh5Zr-1
   BLAU_FILE_URL: https://www.figma.com/design/czemeClWRGBI8oF7caNa5m/Blau?node-id=0-1&node-type=canvas&t=CM2TIEBRzYVgRX5A-0
   VIVO_FILE_URL: https://www.figma.com/design/EApRpjaTyUOwW5VQU2ZqgP/Vivo?node-id=4-0&node-type=canvas&t=pnjxXOX7B7hd3BmJ-0
-  BRANCH_NAME: import-figma-icons-test2
+  BRANCH_NAME: ${{github.event.inputs.branch_name}}
 
 jobs:
   export-all:
@@ -50,7 +53,7 @@ jobs:
       - name: Install packages
         run: |
           npm install figma-export-icons --save
-          sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
+          sudo apt-get install -y librsvg2-bin libimage-exiftool-perl
       - name: Checkout branch or create new one
         run: |
           git fetch
@@ -102,6 +105,7 @@ jobs:
           for i in $(find icons -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
           find icons -type f -name "*.pdf" | while IFS= read -r file; do
             echo "Processing $file"
+            exiftool -overwrite_original_in_place -all:all= "$file" > /dev/null 2>&1
             mutool clean -d "$file"
           done
       - name: Readme generator
