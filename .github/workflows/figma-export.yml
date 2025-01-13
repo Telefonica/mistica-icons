@@ -35,6 +35,7 @@ env:
   O2_NEW_FILE_URL: https://www.figma.com/design/CjvgrHEIycSQ6exznxnFXT/O2?m=auto&node-id=4-0&t=0HBFuR3VADUhh5Zr-1
   BLAU_FILE_URL: https://www.figma.com/design/czemeClWRGBI8oF7caNa5m/Blau?node-id=0-1&node-type=canvas&t=CM2TIEBRzYVgRX5A-0
   VIVO_FILE_URL: https://www.figma.com/design/EApRpjaTyUOwW5VQU2ZqgP/Vivo?node-id=4-0&node-type=canvas&t=pnjxXOX7B7hd3BmJ-0
+  BRANCH_NAME: import-figma-icons-test
 
 jobs:
   export-all:
@@ -53,10 +54,10 @@ jobs:
       - name: Checkout branch or create new one
         run: |
           git fetch
-          if git branch -a | grep origin/import-figma-icons; then
-              git checkout import-figma-icons
+          if git branch -a | grep origin/${{env.BRANCH_NAME}}; then
+              git checkout ${{env.BRANCH_NAME}}
           else
-              git checkout -b import-figma-icons
+              git checkout -b ${{env.BRANCH_NAME}}
           fi
       - name: Generate icon config
         run: |
@@ -114,16 +115,16 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "Figma icons updated"
-          git push origin import-figma-icons
+          git push origin ${{env.BRANCH_NAME}}
       - name: Create Pull-Request
         uses: repo-sync/pull-request@v2
         with:
-          source_branch: import-figma-icons
+          source_branch: ${{env.BRANCH_NAME}}
           destination_branch: "production"
           pr_title: "Update Figma icons"
           pr_body: "
             New version of icons exported from [Mistica Icons](${{env.MISTICA_ICONS_FILE_URL}}), [O2](${{env.O2_FILE_URL}}), [O2-new](${{env.O2_NEW_FILE_URL}}), [Blau](${{env.BLAU_FILE_URL}}) & [Vivo](${{env.VIVO_FILE_URL}}) \n
-            - [ ] [Review icon table in import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
+            - [ ] [Review icon table in ${{env.BRANCH_NAME}}](https://github.com/Telefonica/mistica-icons/tree/${{env.BRANCH_NAME}})"
           pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
 
@@ -143,10 +144,10 @@ jobs:
       - name: Checkout branch or create new one
         run: |
           git fetch
-          if git branch -a | grep origin/import-figma-icons; then
-              git checkout import-figma-icons
+          if git branch -a | grep origin/${{env.BRANCH_NAME}}; then
+              git checkout ${{env.BRANCH_NAME}}
           else
-              git checkout -b import-figma-icons
+              git checkout -b ${{env.BRANCH_NAME}}
           fi
       - name: Generate icon config
         run: |
@@ -178,16 +179,16 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "Figma icons updated"
-          git push origin import-figma-icons
+          git push origin ${{env.BRANCH_NAME}}
       - name: Create Pull-Request
         uses: repo-sync/pull-request@v2
         with:
-          source_branch: import-figma-icons
+          source_branch: ${{env.BRANCH_NAME}}
           destination_branch: "production"
           pr_title: "Update Mística icons"
           pr_body: "
             New version of icons exported from [Mistica Icons](${{env.MISTICA_ICONS_FILE_URL}}) \n
-            - [ ] [Review icon table in import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
+            - [ ] [Review icon table in ${{env.BRANCH_NAME}}](https://github.com/Telefonica/mistica-icons/tree/${{env.BRANCH_NAME}})"
           pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
 
@@ -207,10 +208,10 @@ jobs:
       - name: Checkout branch or create new one
         run: |
           git fetch
-          if git branch -a | grep origin/import-figma-icons; then
-              git checkout import-figma-icons
+          if git branch -a | grep origin/${{env.BRANCH_NAME}}; then
+              git checkout ${{env.BRANCH_NAME}}
           else
-              git checkout -b import-figma-icons
+              git checkout -b ${{env.BRANCH_NAME}}
           fi
       - name: Generate icon config
         run: |
@@ -242,16 +243,16 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "Figma icons updated"
-          git push origin import-figma-icons
+          git push origin ${{env.BRANCH_NAME}}
       - name: Create Pull-Request
         uses: repo-sync/pull-request@v2
         with:
-          source_branch: import-figma-icons
+          source_branch: ${{env.BRANCH_NAME}}
           destination_branch: "production"
           pr_title: "Update O2 icons"
           pr_body: "
             New version of icons exported from [O2](${{env.O2_FILE_URL}}) \n
-            - [ ] [Review icon table in import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
+            - [ ] [Review icon table in ${{env.BRANCH_NAME}}](https://github.com/Telefonica/mistica-icons/tree/${{env.BRANCH_NAME}})"
           pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
 
@@ -271,10 +272,10 @@ jobs:
       - name: Checkout branch or create new one
         run: |
           git fetch
-          if git branch -a | grep origin/import-figma-icons; then
-              git checkout import-figma-icons
+          if git branch -a | grep origin/${{env.BRANCH_NAME}}; then
+              git checkout ${{env.BRANCH_NAME}}
           else
-              git checkout -b import-figma-icons
+              git checkout -b ${{env.BRANCH_NAME}}
           fi
       - name: Generate icon config
         run: |
@@ -306,16 +307,16 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "Figma icons updated"
-          git push origin import-figma-icons
+          git push origin ${{env.BRANCH_NAME}}
       - name: Create Pull-Request
         uses: repo-sync/pull-request@v2
         with:
-          source_branch: import-figma-icons
+          source_branch: ${{env.BRANCH_NAME}}
           destination_branch: "production"
           pr_title: "Update O2-new icons"
           pr_body: "
             New version of icons exported from [O2-new](${{env.O2_FILE_URL}}) \n
-            - [ ] [Review icon table in import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
+            - [ ] [Review icon table in ${{env.BRANCH_NAME}}](https://github.com/Telefonica/mistica-icons/tree/${{env.BRANCH_NAME}})"
           pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
 
@@ -335,10 +336,10 @@ jobs:
       - name: Checkout branch or create new one
         run: |
           git fetch
-          if git branch -a | grep origin/import-figma-icons; then
-              git checkout import-figma-icons
+          if git branch -a | grep origin/${{env.BRANCH_NAME}}; then
+              git checkout ${{env.BRANCH_NAME}}
           else
-              git checkout -b import-figma-icons
+              git checkout -b ${{env.BRANCH_NAME}}
           fi
       - name: Generate icon config
         run: |
@@ -368,16 +369,16 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "Figma icons updated"
-          git push origin import-figma-icons
+          git push origin ${{env.BRANCH_NAME}}
       - name: Create Pull-Request
         uses: repo-sync/pull-request@v2
         with:
-          source_branch: import-figma-icons
+          source_branch: ${{env.BRANCH_NAME}}
           destination_branch: "production"
           pr_title: "Update Blau icons"
           pr_body: "
             New version of icons exported from [Blau](${{env.BLAU_FILE_URL}}) \n
-            - [ ] [Review icon table in import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
+            - [ ] [Review icon table in ${{env.BRANCH_NAME}}](https://github.com/Telefonica/mistica-icons/tree/${{env.BRANCH_NAME}})"
           pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
 
@@ -397,10 +398,10 @@ jobs:
       - name: Checkout branch or create new one
         run: |
           git fetch
-          if git branch -a | grep origin/import-figma-icons; then
-              git checkout import-figma-icons
+          if git branch -a | grep origin/${{env.BRANCH_NAME}}; then
+              git checkout ${{env.BRANCH_NAME}}
           else
-              git checkout -b import-figma-icons
+              git checkout -b ${{env.BRANCH_NAME}}
           fi
       - name: Generate icon config
         run: |
@@ -432,22 +433,22 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "Figma icons updated"
-          git push origin import-figma-icons
+          git push origin ${{env.BRANCH_NAME}}
       - name: Create Pull-Request
         uses: repo-sync/pull-request@v2
         with:
-          source_branch: import-figma-icons
+          source_branch: ${{env.BRANCH_NAME}}
           destination_branch: "production"
           pr_title: "Update Vivo icons"
           pr_body: "
             New version of icons exported from [Vivo](${{env.VIVO_FILE_URL}}) \n
-            - [ ] [Review icon table in import-figma-icons](https://github.com/Telefonica/mistica-icons/tree/import-figma-icons)"
+            - [ ] [Review icon table in ${{env.BRANCH_NAME}}](https://github.com/Telefonica/mistica-icons/tree/${{env.BRANCH_NAME}})"
           pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
 # pr_body: "
 #             New version of icons exported from [Mistica Icons][mistica-icons] & [O2][o2-icons] n\
-#             - [ ] [Review icon table in import-figma-icons][readme] n\
+#             - [ ] [Review icon table in ${{env.BRANCH_NAME}}][readme] n\
 
 #             [mistica-icons]: https://www.figma.com/file/${{env.TELEFONICA_FIGMA_ID}}/Mistica'-Icons?node-id=0%3A71 n\
 #             [o2-icons]: https://www.figma.com/file/${{env.O2_FIGMA_ID}}/?node-id=611%3A3298 n\
-#             [readme]: https://github.com/Telefonica/mistica-icons/tree/import-figma-icons"
+#             [readme]: https://github.com/Telefonica/mistica-icons/tree/${{env.BRANCH_NAME}}"
