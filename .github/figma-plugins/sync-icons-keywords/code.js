@@ -15,39 +15,46 @@ fetch(jsonUrl)
         return response.json();
     })
     .then((data) => {
-        figma
-            .loadAllPagesAsync() // Load all pages as documentAccess is set to dynamic-page
-            .then(() => {
-                const selection = figma.currentPage.selection;
+        // Only load the current page instead of all pages
+        const currentPage = figma.currentPage;
+        const selection = currentPage.selection;
 
-                // Find components within the selection (including within frames or groups)
-                const scope =
-                    selection.length > 0
-                        ? selection.flatMap((node) =>
-                              node.findAll
-                                  ? node.findAll(
-                                        (child) => child.type === "COMPONENT"
-                                    )
-                                  : node.type === "COMPONENT"
-                                  ? [node]
-                                  : []
-                          )
-                        : figma.root.findAll(
+        // Find components within the selection or entire page (including within frames or groups)
+        const scope =
+            selection.length > 0
+                ? selection.flatMap((node) =>
+                      node.findAll
+                          ? node.findAll((child) => child.type === "COMPONENT")
+                          : node.type === "COMPONENT"
+                          ? [node]
+                          : []
+                  )
+                : currentPage
+                      .findAll(
+                          (node) =>
+                              node.type === "COMPONENT" ||
+                              node.type === "FRAME" ||
+                              node.type === "GROUP"
+                      )
+                      .flatMap((node) =>
+                          node.findAll
+                              ? node.findAll(
+                                    (child) => child.type === "COMPONENT"
+                                )
+                              : node.type === "COMPONENT"
+                              ? [node]
+                              : []
+                      )
+                      .concat(
+                          currentPage.findAll(
                               (node) => node.type === "COMPONENT"
-                          );
+                          )
+                      );
 
-                const { updatedCount, totalCount } = syncDescriptions(
-                    data,
-                    scope
-                );
-                figma.closePlugin(
-                    `Synchronization complete: ${updatedCount} of ${totalCount} components updated.`
-                );
-            })
-            .catch((error) => {
-                console.error("Error loading all pages:", error);
-                figma.closePlugin(`Error: ${error.message}`);
-            });
+        const { updatedCount, totalCount } = syncDescriptions(data, scope);
+        figma.closePlugin(
+            `Synchronization complete: ${updatedCount} of ${totalCount} components updated.`
+        );
     })
     .catch((error) => {
         console.error("Error loading JSON:", error);
