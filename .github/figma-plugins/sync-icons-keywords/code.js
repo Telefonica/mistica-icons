@@ -10,7 +10,7 @@ const jsonUrl =
 fetch(jsonUrl)
     .then((response) => {
         if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
+            throw new Error(`The url is not valid: ${jsonUrl}`);
         }
         return response.json();
     })

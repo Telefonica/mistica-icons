@@ -1,40 +1,57 @@
-Below are the steps to get your plugin running. You can also find instructions at:
+# Sync Icon Descriptions (figma plugin)
 
-  https://www.figma.com/plugin-docs/plugin-quickstart-guide/
+This Figma plugin synchronizes the descriptions of components in the current page using data from a remote JSON file. The plugin ensures descriptions are updated consistently for all components, whether they are inside frames/groups or free-standing on the page.
 
-This plugin template uses Typescript and NPM, two standard tools in creating JavaScript applications.
+## Features
 
-First, download Node.js which comes with NPM. This will allow you to install TypeScript and other
-libraries. You can find the download link here:
+- **Selective Processing**: Operates only on components within the current page.
+- **JSON Integration**: Fetches descriptions from a remote JSON file hosted on GitHub.
+- **Batch Processing**: Optimized to handle large numbers of components efficiently.
+- **Support for Nested Components**: Processes components inside frames, groups, and other containers.
+- **Fallback Logic**: Handles components with missing descriptions gracefully.
 
-  https://nodejs.org/en/download/
+## How It Works
 
-Next, install TypeScript using the command:
+1. The plugin fetches a JSON file containing descriptions for components.
+2. It processes components on the current page, updating their descriptions based on the JSON data.
+3. If a match is found in the JSON, the description is updated along with a link to additional documentation.
+4. The plugin provides a summary of how many components were updated.
 
-  npm install -g typescript
+## Installation
 
-Finally, in the directory of your plugin, get the latest type definitions for the plugin API by running:
+1. Clone or download the repository.
+2. Open Figma and go to `Plugins > Development > New Plugin`.
+3. Choose the `Manifest` option and select the plugin's manifest file.
 
-  npm install --save-dev @figma/plugin-typings
+## Usage
 
-If you are familiar with JavaScript, TypeScript will look very familiar. In fact, valid JavaScript code
-is already valid Typescript code.
+1. Open a Figma file and navigate to the desired page.
+2. Run the plugin.
+3. The plugin will update descriptions for all components in the page, whether selected, nested, or free-standing.
 
-TypeScript adds type annotations to variables. This allows code editors such as Visual Studio Code
-to provide information about the Figma API while you are writing code, as well as help catch bugs
-you previously didn't notice.
+## JSON Structure
 
-For more information, visit https://www.typescriptlang.org/
+The JSON file should be structured as follows:
 
-Using TypeScript requires a compiler to convert TypeScript (code.ts) into JavaScript (code.js)
-for the browser to run.
+```json
+{
+  "ComponentName": ["Description part 1", "Description part 2"],
+  "AnotherComponent": ["Another description"]
+}
+```
 
-We recommend writing TypeScript code using Visual Studio code:
+- The keys represent the base names of the components.
+- Values are arrays of description strings that will be concatenated.
 
-1. Download Visual Studio Code if you haven't already: https://code.visualstudio.com/.
-2. Open this directory in Visual Studio Code.
-3. Compile TypeScript to JavaScript: Run the "Terminal > Run Build Task..." menu item,
-    then select "npm: watch". You will have to do this again every time
-    you reopen Visual Studio Code.
+## Development
 
-That's it! Visual Studio Code will regenerate the JavaScript file every time you save.
+The main logic is in `code.js`. Just import manifest.json to Figma and run plugin in Figma.
+
+## Debugging
+
+- Open the Figma Console (`Cmd + Option + I` on Mac or `Ctrl + Shift + I` on Windows) to view debug logs.
+- Logs include information about processed components, updated descriptions, and any errors encountered.
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
