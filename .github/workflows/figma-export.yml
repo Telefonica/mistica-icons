@@ -102,13 +102,24 @@ jobs:
 
       - name: Convert to PDF
         run: |
-          sudo apt-get update && sudo apt-get install -y mat2 && sudo apt install mupdf-tools
-          for i in $(find icons -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
-          find icons -type f -name "*.pdf" | while IFS= read -r file; do
-            echo "Processing $file"
-            exiftool -overwrite_original_in_place -all:all= "$file" > /dev/null 2>&1
-            mutool clean -d "$file"
+          sudo apt-get update && sudo apt-get install -y mat2
+          # Primero convertir SVG a PDF
+          for i in $(find icons -type f -name "*.svg"); do 
+            rsvg-convert -f pdf -o ${i%.*}.pdf $i
           done
+
+          # Luego eliminar todos los metadatos de forma más exhaustiva
+          find icons -type f -name "*.pdf" | while IFS= read -r file; do
+            # Eliminar todos los metadatos con exiftool
+            exiftool -overwrite_original -all:all= "$file" > /dev/null 2>&1
+            
+            # Usar qpdf para crear un PDF completamente determinista
+            qpdf --linearize --object-streams=disable --encryption-method=None --replace-input "$file"
+            
+            # Normalizar fechas y otros metadatos variables
+            qpdf --linearize --deterministic-id --static-id --replace-input "$file"
+          done
+
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
 
