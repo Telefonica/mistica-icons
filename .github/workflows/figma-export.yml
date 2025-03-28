@@ -104,22 +104,26 @@ jobs:
       - name: Convert to PDF
         run: |
           sudo apt-get update && sudo apt-get install -y mat2
-          # Primero convertir SVG a PDF
+
+          # Primero convertir SVG a PDF con opciones específicas para asegurar consistencia
           for i in $(find icons -type f -name "*.svg"); do 
-            rsvg-convert -f pdf -o ${i%.*}.pdf $i
+            rsvg-convert -f pdf --keep-aspect-ratio -o ${i%.*}.pdf $i
           done
 
-          # Procesar PDFs con opciones compatibles de qpdf
+          # Limpiar metadatos y normalizar
           find icons -type f -name "*.pdf" | while read file; do
-            # Eliminar metadatos con exiftool
+            # Eliminar metadatos con exiftool (esto funciona bien)
             exiftool -overwrite_original -all:all= "$file" > /dev/null 2>&1
             
-            # Usar qpdf con opciones simples y compatibles
-            qpdf --linearize --deterministic-id --replace-input "$file" || echo "QPDF falló en $file"
+            # Usar qpdf solo con opciones básicas
+            qpdf --linearize --replace-input "$file" 2>/dev/null || echo "QPDF falló en $file"
           done
 
           # Normalizar marcas de tiempo
           find icons -type f -exec touch -t 202501010000 {} \;
+
+          # Eliminar archivos de respaldo creados por qpdf
+          find icons -name "*.pdf.~qpdf-orig" -delete
 
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
