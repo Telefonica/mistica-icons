@@ -97,11 +97,8 @@ jobs:
       - name: Convert to PDF
         run: |
           sudo apt-get update && sudo apt-get install -y mat2
-          for i in $(find icons -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
-          find icons -type f -name "*.pdf" | while IFS= read -r file; do
-            echo "$file"
-            exiftool -overwrite_original_in_place -all:all= "$file" > /dev/null 2>&1
-          done
+          for i in $(find icons/telefonica -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
+          for i in $(find icons/telefonica -type f -name "*.pdf"); do echo $i && exiftool -overwrite_original_in_place -all:all= $i > /dev/null 2>&1 && qpdf --replace-input --deterministic-id $i; done # remove PDF metadata
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
 
@@ -392,7 +389,7 @@ jobs:
       - name: Install packages
         run: |
           npm install figma-export-icons --save
-          sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
+          sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf=11.7.0
       - name: Checkout branch or create new one
         run: |
           git fetch
