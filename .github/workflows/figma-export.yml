@@ -109,17 +109,17 @@ jobs:
             rsvg-convert -f pdf -o ${i%.*}.pdf $i
           done
 
-          # Luego eliminar todos los metadatos de forma más exhaustiva
-          find icons -type f -name "*.pdf" | while IFS= read -r file; do
-            # Eliminar todos los metadatos con exiftool
+          # Procesar PDFs con opciones compatibles de qpdf
+          find icons -type f -name "*.pdf" | while read file; do
+            # Eliminar metadatos con exiftool
             exiftool -overwrite_original -all:all= "$file" > /dev/null 2>&1
             
-            # Usar qpdf para crear un PDF completamente determinista
-            qpdf --linearize --object-streams=disable --encryption-method=None --replace-input "$file"
-            
-            # Normalizar fechas y otros metadatos variables
-            qpdf --linearize --deterministic-id --static-id --replace-input "$file"
+            # Usar qpdf con opciones simples y compatibles
+            qpdf --linearize --deterministic-id --replace-input "$file" || echo "QPDF falló en $file"
           done
+
+          # Normalizar marcas de tiempo
+          find icons -type f -exec touch -t 202501010000 {} \;
 
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
