@@ -96,10 +96,6 @@ jobs:
           npm run export-vivo-filled
           npm run export-vivo-regular
           npm run export-vivo-light
-      - name: Install SVGO & convert
-        run: |
-          yarn global add svgo
-          svgo -f icons -r -o icons
 
       - name: Convert to PDF
         run: |
@@ -107,16 +103,16 @@ jobs:
 
           # Primero convertir SVG a PDF con opciones específicas para asegurar consistencia
           for i in $(find icons -type f -name "*.svg"); do 
-            rsvg-convert -f pdf --keep-aspect-ratio -o ${i%.*}.pdf $i
+          rsvg-convert -f pdf --keep-aspect-ratio -o ${i%.*}.pdf $i
           done
 
           # Limpiar metadatos y normalizar
           find icons -type f -name "*.pdf" | while read file; do
-            # Eliminar metadatos con exiftool (esto funciona bien)
-            exiftool -overwrite_original -all:all= "$file" > /dev/null 2>&1
-            
-            # Usar qpdf solo con opciones básicas
-            qpdf --linearize --replace-input "$file" 2>/dev/null || echo "QPDF falló en $file"
+          # Eliminar metadatos con exiftool (esto funciona bien)
+          exiftool -overwrite_original -all:all= "$file" > /dev/null 2>&1
+
+          # Usar qpdf solo con opciones básicas
+          qpdf --linearize --replace-input "$file" 2>/dev/null || echo "QPDF falló en $file"
           done
 
           # Normalizar marcas de tiempo
@@ -125,6 +121,10 @@ jobs:
           # Eliminar archivos de respaldo creados por qpdf
           find icons -name "*.pdf.~qpdf-orig" -delete
 
+      - name: Install SVGO & convert
+        run: |
+          yarn global add svgo
+          svgo -f icons -r -o icons
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
 
