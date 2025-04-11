@@ -27,7 +27,7 @@ Use Mística icons library in Figma!
 ## Equivalence status
 
 Telefonica  
-<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/57x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/90x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/252x8/D1D5E4/000&text=+' alt='Missing'>
+<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/57x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/89x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/253x8/D1D5E4/000&text=+' alt='Missing'>
 
 O2  
 <img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/110x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/289x8/D1D5E4/000&text=+' alt='Missing'>
@@ -39,16 +39,16 @@ Vivo-New
 <img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/6x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/8x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/385x8/D1D5E4/000&text=+' alt='Missing'>
 
 Blau  
-<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/6x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/1x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/392x8/D1D5E4/000&text=+' alt='Missing'>
+<img src='https://dummyimage.com/1x8/0066FF/000&text=+' alt='All Equivalence'><img src='https://dummyimage.com/7x8/EAC344/000&text=+' alt='Some Equivalence'><img src='https://dummyimage.com/1x8/59C2C9/000&text=+' alt='Unique'><img src='https://dummyimage.com/391x8/D1D5E4/000&text=+' alt='Missing'>
 
   
-| <sub><sup>ICON SET</sup></sub> | <sub><sup>CONCEPTS (621)</sup></sub> | <sub><sup>TOTAL (3286)</sup></sub> | <sub><sup>ALL EQUIVALENCE</sup></sub> | <sub><sup>SOME EQUIVALENCE</sup></sub> | <sub><sup>UNIQUE</sup></sub> | <sub><sup>MISSING</sup></sub> |
+| <sub><sup>ICON SET</sup></sub> | <sub><sup>CONCEPTS (621)</sup></sub> | <sub><sup>TOTAL (3298)</sup></sub> | <sub><sup>ALL EQUIVALENCE</sup></sub> | <sub><sup>SOME EQUIVALENCE</sup></sub> | <sub><sup>UNIQUE</sup></sub> | <sub><sup>MISSING</sup></sub> |
 | :--------- | --------: | -----: | ----------: | -------------------: | -------------------: | ------------: |
-| Telefonica | 430 | 1223 | 9 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 472 (14.4%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 742 (22.6%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2063 (62.8%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
-| O2 | 314 | 924 | 9 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 911 (27.7%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 0 (0.0%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2362 (71.9%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
-| O2-New | 318 | 937 | 9 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 921 (28.0%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 7 (0.2%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2349 (71.5%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
-| Vivo-New | 62 | 131 | 9 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 52 (1.6%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 70 (2.1%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 3155 (96.0%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
-| Blau | 62 | 71 | 9 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 57 (1.7%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 5 (0.2%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 3215 (97.8%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| Telefonica | 430 | 1227 | 9 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 476 (14.4%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 742 (22.5%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2071 (62.8%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| O2 | 314 | 924 | 9 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 911 (27.6%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 0 (0.0%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2374 (72.0%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| O2-New | 318 | 941 | 9 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 925 (28.0%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 7 (0.2%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 2357 (71.5%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| Vivo-New | 62 | 131 | 9 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 52 (1.6%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 70 (2.1%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 3167 (96.0%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
+| Blau | 62 | 75 | 9 (0.3%) ![All Equivalence](https://dummyimage.com/4x12/0066FF/000&text=+) | 61 (1.8%) ![Some Equivalence](https://dummyimage.com/4x12/EAC344/000&text=+) | 5 (0.2%) ![Unique](https://dummyimage.com/4x12/59C2C9/000&text=+) | 3223 (97.7%) ![Missing](https://dummyimage.com/4x12/D1D5E4/000&text=+) |
 
 
 <sub>**Concepts**: Counts the different names of icons in the set excluding any variations in style or weight.</sub>  
