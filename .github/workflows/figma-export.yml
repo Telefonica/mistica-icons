@@ -102,8 +102,34 @@ jobs:
 
       - name: Convert to PDF
         run: |
-          git update-index --chmod=+x ./.github/md-generator/convert_svg_to_pdf.sh
-          ./.github/md-generator/convert_svg_to_pdf.sh
+          sudo apt-get update && sudo apt-get install -y libimage-exiftool-perl librsvg2-bin
+              
+              # Set reproducible timestamp
+              export SOURCE_DATE_EPOCH=0
+              
+              echo "Converting SVG files to PDF..."
+              for i in $(find icons -type f -name "*.svg"); do 
+                echo "Converting: $i -> ${i%.*}.pdf"
+                rsvg-convert -f pdf -o "${i%.*}.pdf" "$i"
+              done
+              
+              echo "Cleaning metadata from PDF files in parallel..."
+              find icons -type f -name "*.pdf" -print0 | xargs -0 -r exiftool \
+                -overwrite_original_in_place \
+                -all:all= \
+                -Creator= \
+                -Producer= \
+                -CreationDate= \
+                -ModDate= \
+                -Title= \
+                -Subject= \
+                -Keywords= \
+                > /dev/null 2>&1
+              
+              echo "Setting fixed timestamps..."
+              find icons -type f -name "*.pdf" -print0 | xargs -0 -r touch -t 197001010000.00
+              
+              echo "Conversion completed successfully!"
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
 
@@ -165,8 +191,34 @@ jobs:
           svgo -f icons/telefonica -r -o icons/telefonica
       - name: Convert to PDF
         run: |
-          git update-index --chmod=+x ./.github/md-generator/convert_svg_to_pdf.sh
-          ./.github/md-generator/convert_svg_to_pdf.sh
+          sudo apt-get update && sudo apt-get install -y libimage-exiftool-perl librsvg2-bin
+
+          # Set reproducible timestamp
+          export SOURCE_DATE_EPOCH=0
+
+          echo "Converting SVG files to PDF..."
+          for i in $(find icons -type f -name "*.svg"); do 
+            echo "Converting: $i -> ${i%.*}.pdf"
+            rsvg-convert -f pdf -o "${i%.*}.pdf" "$i"
+          done
+
+          echo "Cleaning metadata from PDF files in parallel..."
+          find icons -type f -name "*.pdf" -print0 | xargs -0 -r exiftool \
+            -overwrite_original_in_place \
+            -all:all= \
+            -Creator= \
+            -Producer= \
+            -CreationDate= \
+            -ModDate= \
+            -Title= \
+            -Subject= \
+            -Keywords= \
+            > /dev/null 2>&1
+
+          echo "Setting fixed timestamps..."
+          find icons -type f -name "*.pdf" -print0 | xargs -0 -r touch -t 197001010000.00
+
+          echo "Conversion completed successfully!"
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
 
@@ -228,8 +280,34 @@ jobs:
           svgo -f icons/o2 -r -o icons/o2
       - name: Convert to PDF
         run: |
-          git update-index --chmod=+x ./.github/md-generator/convert_svg_to_pdf.sh
-          ./.github/md-generator/convert_svg_to_pdf.sh
+          sudo apt-get update && sudo apt-get install -y libimage-exiftool-perl librsvg2-bin
+
+          # Set reproducible timestamp
+          export SOURCE_DATE_EPOCH=0
+
+          echo "Converting SVG files to PDF..."
+          for i in $(find icons -type f -name "*.svg"); do 
+            echo "Converting: $i -> ${i%.*}.pdf"
+            rsvg-convert -f pdf -o "${i%.*}.pdf" "$i"
+          done
+
+          echo "Cleaning metadata from PDF files in parallel..."
+          find icons -type f -name "*.pdf" -print0 | xargs -0 -r exiftool \
+            -overwrite_original_in_place \
+            -all:all= \
+            -Creator= \
+            -Producer= \
+            -CreationDate= \
+            -ModDate= \
+            -Title= \
+            -Subject= \
+            -Keywords= \
+            > /dev/null 2>&1
+
+          echo "Setting fixed timestamps..."
+          find icons -type f -name "*.pdf" -print0 | xargs -0 -r touch -t 197001010000.00
+
+          echo "Conversion completed successfully!"
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
 
@@ -291,8 +369,34 @@ jobs:
           svgo -f icons/o2-new -r -o icons/o2-new
       - name: Convert to PDF
         run: |
-          git update-index --chmod=+x ./.github/md-generator/convert_svg_to_pdf.sh
-          ./.github/md-generator/convert_svg_to_pdf.sh
+          sudo apt-get update && sudo apt-get install -y libimage-exiftool-perl librsvg2-bin
+
+          # Set reproducible timestamp
+          export SOURCE_DATE_EPOCH=0
+
+          echo "Converting SVG files to PDF..."
+          for i in $(find icons -type f -name "*.svg"); do 
+            echo "Converting: $i -> ${i%.*}.pdf"
+            rsvg-convert -f pdf -o "${i%.*}.pdf" "$i"
+          done
+
+          echo "Cleaning metadata from PDF files in parallel..."
+          find icons -type f -name "*.pdf" -print0 | xargs -0 -r exiftool \
+            -overwrite_original_in_place \
+            -all:all= \
+            -Creator= \
+            -Producer= \
+            -CreationDate= \
+            -ModDate= \
+            -Title= \
+            -Subject= \
+            -Keywords= \
+            > /dev/null 2>&1
+
+          echo "Setting fixed timestamps..."
+          find icons -type f -name "*.pdf" -print0 | xargs -0 -r touch -t 197001010000.00
+
+          echo "Conversion completed successfully!"
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
 
@@ -352,8 +456,34 @@ jobs:
           svgo -f icons/blau -r -o icons/blau
       - name: Convert to PDF
         run: |
-          git update-index --chmod=+x ./.github/md-generator/convert_svg_to_pdf.sh
-          ./.github/md-generator/convert_svg_to_pdf.sh
+          sudo apt-get update && sudo apt-get install -y libimage-exiftool-perl librsvg2-bin
+
+          # Set reproducible timestamp
+          export SOURCE_DATE_EPOCH=0
+
+          echo "Converting SVG files to PDF..."
+          for i in $(find icons -type f -name "*.svg"); do 
+            echo "Converting: $i -> ${i%.*}.pdf"
+            rsvg-convert -f pdf -o "${i%.*}.pdf" "$i"
+          done
+
+          echo "Cleaning metadata from PDF files in parallel..."
+          find icons -type f -name "*.pdf" -print0 | xargs -0 -r exiftool \
+            -overwrite_original_in_place \
+            -all:all= \
+            -Creator= \
+            -Producer= \
+            -CreationDate= \
+            -ModDate= \
+            -Title= \
+            -Subject= \
+            -Keywords= \
+            > /dev/null 2>&1
+
+          echo "Setting fixed timestamps..."
+          find icons -type f -name "*.pdf" -print0 | xargs -0 -r touch -t 197001010000.00
+
+          echo "Conversion completed successfully!"
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
 
@@ -415,8 +545,34 @@ jobs:
           svgo -f icons/vivo-new -r -o icons/vivo-new
       - name: Convert to PDF
         run: |
-          git update-index --chmod=+x ./.github/md-generator/convert_svg_to_pdf.sh
-          ./.github/md-generator/convert_svg_to_pdf.sh
+          sudo apt-get update && sudo apt-get install -y libimage-exiftool-perl librsvg2-bin
+
+          # Set reproducible timestamp
+          export SOURCE_DATE_EPOCH=0
+
+          echo "Converting SVG files to PDF..."
+          for i in $(find icons -type f -name "*.svg"); do 
+            echo "Converting: $i -> ${i%.*}.pdf"
+            rsvg-convert -f pdf -o "${i%.*}.pdf" "$i"
+          done
+
+          echo "Cleaning metadata from PDF files in parallel..."
+          find icons -type f -name "*.pdf" -print0 | xargs -0 -r exiftool \
+            -overwrite_original_in_place \
+            -all:all= \
+            -Creator= \
+            -Producer= \
+            -CreationDate= \
+            -ModDate= \
+            -Title= \
+            -Subject= \
+            -Keywords= \
+            > /dev/null 2>&1
+
+          echo "Setting fixed timestamps..."
+          find icons -type f -name "*.pdf" -print0 | xargs -0 -r touch -t 197001010000.00
+
+          echo "Conversion completed successfully!"
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
 
