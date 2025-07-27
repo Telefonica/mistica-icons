@@ -103,8 +103,8 @@ jobs:
 
       - name: Convert to PDF
         run: |
-          chmod +x convert_svg_to_pdf.sh
-          ./,github/md-generator/convert_svg_to_pdf.sh
+          chmod +x ./.github/md-generator/convert_svg_to_pdf.sh
+          ./.github/md-generator/convert_svg_to_pdf.sh
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
 
@@ -166,8 +166,8 @@ jobs:
           svgo -f icons/telefonica -r -o icons/telefonica
       - name: Convert to PDF
         run: |
-          chmod +x convert_svg_to_pdf.sh
-          ./,github/md-generator/convert_svg_to_pdf.sh
+          chmod +x ./.github/md-generator/convert_svg_to_pdf.sh
+          ./.github/md-generator/convert_svg_to_pdf.sh
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
 
@@ -229,8 +229,8 @@ jobs:
           svgo -f icons/o2 -r -o icons/o2
       - name: Convert to PDF
         run: |
-          chmod +x convert_svg_to_pdf.sh
-          ./,github/md-generator/convert_svg_to_pdf.sh
+          chmod +x ./.github/md-generator/convert_svg_to_pdf.sh
+          ./.github/md-generator/convert_svg_to_pdf.sh
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
 
@@ -292,8 +292,8 @@ jobs:
           svgo -f icons/o2-new -r -o icons/o2-new
       - name: Convert to PDF
         run: |
-          chmod +x convert_svg_to_pdf.sh
-          ./,github/md-generator/convert_svg_to_pdf.sh
+          chmod +x ./.github/md-generator/convert_svg_to_pdf.sh
+          ./.github/md-generator/convert_svg_to_pdf.sh
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
 
@@ -353,8 +353,8 @@ jobs:
           svgo -f icons/blau -r -o icons/blau
       - name: Convert to PDF
         run: |
-          chmod +x convert_svg_to_pdf.sh
-          ./,github/md-generator/convert_svg_to_pdf.sh
+          chmod +x ./.github/md-generator/convert_svg_to_pdf.sh
+          ./.github/md-generator/convert_svg_to_pdf.sh
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
 
@@ -416,8 +416,8 @@ jobs:
           svgo -f icons/vivo-new -r -o icons/vivo-new
       - name: Convert to PDF
         run: |
-          chmod +x convert_svg_to_pdf.sh
-          ./,github/md-generator/convert_svg_to_pdf.sh
+          chmod +x ./.github/md-generator/convert_svg_to_pdf.sh
+          ./.github/md-generator/convert_svg_to_pdf.sh
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
 
