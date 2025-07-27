@@ -98,11 +98,11 @@ jobs:
 
       - name: Convert to PDF
         run: |
-          sudo apt-get update && sudo apt-get install -y mat2 && sudo apt install mupdf-tools
+          sudo apt-get update && sudo apt-get install -y libimage-exiftool-perl
           for i in $(find icons -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
           find icons -type f -name "*.pdf" | while IFS= read -r file; do
-            echo "Processing $file"
-            mutool clean -d "$file"
+            echo "$file"
+            exiftool -overwrite_original_in_place -all:all= "$file" > /dev/null 2>&1
           done
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
