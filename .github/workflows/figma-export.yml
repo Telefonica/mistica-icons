@@ -23,6 +23,11 @@ on:
         type: boolean
         default: true
         description: Draft PR
+      branch:
+        type: string
+        description: Branch to export icons to
+        default: "import-figma-icons-test"
+        required: false
 
 env:
   TELEFONICA_FIGMA_ID: JXy7Y07eb0Axg0ThVRWKju
