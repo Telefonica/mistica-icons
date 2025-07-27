@@ -104,10 +104,26 @@ jobs:
       - name: Convert to PDF
         run: |
           sudo apt-get update && sudo apt-get install -y libimage-exiftool-perl
-          for i in $(find icons -type f -name "*.svg"); do rsvg-convert -f pdf -o ${i%.*}.pdf $i; done
+          # Set reproducible timestamp
+          export SOURCE_DATE_EPOCH=0
+          for i in $(find icons -type f -name "*.svg"); do 
+            rsvg-convert -f pdf -o ${i%.*}.pdf $i
+          done
           find icons -type f -name "*.pdf" | while IFS= read -r file; do
-            echo "$file"
-            exiftool -overwrite_original_in_place -all:all= "$file" > /dev/null 2>&1
+            echo "Cleaning metadata from $file"
+            # Remove all metadata including creation/modification dates
+            exiftool -overwrite_original_in_place \
+              -all:all= \
+              -Creator= \
+              -Producer= \
+              -CreationDate= \
+              -ModDate= \
+              -Title= \
+              -Subject= \
+              -Keywords= \
+              "$file" > /dev/null 2>&1
+            # Set fixed timestamps for reproducibility
+            touch -t 197001010000.00 "$file"
           done
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
