@@ -58,10 +58,13 @@ jobs:
       - name: Checkout branch or create new one
         run: |
           git fetch
-          if git branch -a | grep origin/${{github.event.inputs.branch}}; then
+          if git branch -a | grep -q "origin/${{github.event.inputs.branch}}"; then
+              # Branch exists remotely, checkout the remote branch
               git checkout ${{github.event.inputs.branch}}
           else
+              # Branch doesn't exist remotely, create new branch and push it
               git checkout -b ${{github.event.inputs.branch}}
+              git push -u origin ${{github.event.inputs.branch}}
           fi
       - name: Generate icon config
         run: |
