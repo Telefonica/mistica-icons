@@ -58,7 +58,8 @@ jobs:
       - name: Checkout branch or create new one
         run: |
           git fetch
-          if git branch -a | grep -q "origin/${{github.event.inputs.branch}}"; then
+          # Check if remote branch exists using ls-remote (more reliable)
+          if git ls-remote --heads origin ${{github.event.inputs.branch}} | grep -q ${{github.event.inputs.branch}}; then
               # Branch exists remotely, checkout the remote branch
               git checkout ${{github.event.inputs.branch}}
           else
