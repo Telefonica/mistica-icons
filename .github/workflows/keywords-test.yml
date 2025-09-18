@@ -12,6 +12,77 @@ on:
       - "icons/**"
 
 jobs:
+  check-concepts:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: List SVG files
+        run: |
+          ICONS_DIR="icons"
+          echo "Listing SVG files..."
+
+          # Use 'find' to get all SVG files in the icons directory
+          find $ICONS_DIR -type f -name "*.svg" |
+
+          # Use 'basename' to get the file names without the path
+          xargs -I {} basename {} |
+
+          # Use 'sed' to remove the "-filled", "-light", "-regular" parts and the ".svg" extension
+          sed 's/\(-filled\|-light\|-regular\)\.svg//' |
+
+          # Use 'sort -u' to get a unique list of file names
+          sort -u > icons.txt
+
+          # Show the contents of the icons.txt file in the console
+          echo "Found $(cat icons.txt | wc -l) unique icons"
+        continue-on-error: false
+
+      - name: Read JSON file
+        run: |
+          JSON_FILE="icons/icons-keywords.json"
+          echo "Reading JSON file..."
+          if [ -f "$JSON_FILE" ]; then
+            cat $JSON_FILE > data.json
+            echo "JSON file loaded successfully"
+          else
+            echo "Keywords JSON file not found!"
+            exit 1
+          fi
+        continue-on-error: false
+
+      - name: Check for missing icons in JSON
+        id: check-concepts
+        run: |
+          echo "Checking for icons missing in JSON..."
+          missing_icons=""
+
+          for icon_name in $(cat icons.txt); do
+            # Check if icon exists in JSON
+            if ! grep -q "\"$icon_name\":" data.json; then
+              missing_icons="$missing_icons\n\033[0;31m× $icon_name\033[0m"
+            fi
+          done
+
+          # Show the complete list of missing icons
+          if [ -n "$missing_icons" ]; then
+            echo -e "\n\033[4mIcons Missing in JSON\033[0m"
+            echo -e "$missing_icons \n"
+            echo "❌ Found icons not present in icons-keywords.json. Please add these icon concepts to the JSON file."
+            exit 1  # End the execution with an error code
+          else
+            echo "✅ All icons are present in icons-keywords.json!"
+          fi
+        continue-on-error: false
+
+      - name: Cleanup
+        run: |
+          rm data.json
+          rm icons.txt
+        continue-on-error: true
+
   check-keywords:
     runs-on: ubuntu-latest
 
@@ -27,7 +98,7 @@ jobs:
           # Use 'find' to get all SVG files in the icons directory
           find $ICONS_DIR -type f -name "*.svg" |
 
-          # Use 'basemame' to get the file names without the path
+          # Use 'basename' to get the file names without the path
           xargs -I {} basename {} |
 
           # Use 'sed' to remove the "-filled", "-light", "-regular" parts and the ".svg" extension
@@ -37,43 +108,46 @@ jobs:
           sort -u > icons.txt
 
           # Show the contents of the icons.txt file in the console
-          cat icons.txt
+          echo "Found $(cat icons.txt | wc -l) unique icons"
         continue-on-error: false
 
       - name: Read JSON file
         run: |
           JSON_FILE="icons/icons-keywords.json"
           echo "Reading JSON file..."
-          cat $JSON_FILE > data.json
-        continue-on-error: true
+          if [ -f "$JSON_FILE" ]; then
+            cat $JSON_FILE > data.json
+            echo "JSON file loaded successfully"
+          else
+            echo "Keywords JSON file not found!"
+            exit 1
+          fi
+        continue-on-error: false
 
-      - name: Extract keywords
+      - name: Check for empty keywords
+        id: check-keywords
         run: |
-          echo "Extracting keywords from JSON..."
+          echo "Checking for icons with empty keywords..."
+          empty_keywords=""
 
-          # Use 'jq' to extract the keys from the JSON and save them to keywords.txt
-          cat data.json | jq -r 'keys[]' > keywords.txt
-
-          # Show the contents of the keywords.txt file in the console
-          cat keywords.txt
-        continue-on-error: true
-
-      - name: Compare with Keywords
-        id: compare
-        run: |
-          # echo "Comparing icon names with keywords from JSON..."
-          missing_keywords=""
           for icon_name in $(cat icons.txt); do
-            if ! grep -q "\"$icon_name\":" data.json; then
-              missing_keywords="$missing_keywords\n\033[0;31m× $icon_name\033[0m"
+            # Check if icon exists in JSON and has empty keywords array
+            if grep -q "\"$icon_name\":" data.json; then
+              keywords_check=$(cat data.json | jq -r ".[\"$icon_name\"].keywords | length")
+              if [ "$keywords_check" -eq 0 ]; then
+                empty_keywords="$empty_keywords\n\033[0;33m× $icon_name\033[0m"
+              fi
             fi
           done
 
-          # Show the complete list of missing elements
-          if [ -n "$missing_keywords" ]; then
-            echo -e "\n\033[4mMissing Keywords\033[0m"
-            echo -e "$missing_keywords \n"
+          # Show the complete list of icons with empty keywords
+          if [ -n "$empty_keywords" ]; then
+            echo -e "\n\033[4mIcons with Empty Keywords\033[0m"
+            echo -e "$empty_keywords \n"
+            echo "❌ Found icons with empty keywords arrays. Please add keywords to these icons in icons-keywords.json."
             exit 1  # End the execution with an error code
+          else
+            echo "✅ All icons have keywords assigned!"
           fi
         continue-on-error: false
 
@@ -81,5 +155,152 @@ jobs:
         run: |
           rm data.json
           rm icons.txt
-          rm keywords.txt
+        continue-on-error: true
+
+  check-categories:
+    runs-on: ubuntu-latest
+    env:
+      VALID_CATEGORIES: |
+        Actions and system
+        Activities
+        Alerts and feedbacks
+        Arrows
+        Business and finance
+        Development
+        Files
+        Health
+        Home and devices
+        Maps and vehicles
+        Media
+        Nature and sustainability
+        Others
+        People and users
+        Security
+        Telco and comms
+        Time
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: List SVG files
+        run: |
+          ICONS_DIR="icons"
+          echo "Listing SVG files..."
+
+          # Use 'find' to get all SVG files in the icons directory
+          find $ICONS_DIR -type f -name "*.svg" |
+
+          # Use 'basename' to get the file names without the path
+          xargs -I {} basename {} |
+
+          # Use 'sed' to remove the "-filled", "-light", "-regular" parts and the ".svg" extension
+          sed 's/\(-filled\|-light\|-regular\)\.svg//' |
+
+          # Use 'sort -u' to get a unique list of file names
+          sort -u > icons.txt
+
+          # Show the contents of the icons.txt file in the console
+          echo "Found $(cat icons.txt | wc -l) unique icons"
+        continue-on-error: false
+
+      - name: Read JSON file
+        run: |
+          JSON_FILE="icons/icons-keywords.json"
+          echo "Reading JSON file..."
+          if [ -f "$JSON_FILE" ]; then
+            cat $JSON_FILE > data.json
+            echo "JSON file loaded successfully"
+          else
+            echo "Keywords JSON file not found!"
+            exit 1
+          fi
+        continue-on-error: false
+
+      - name: Check for uncategorized icons
+        id: check-categories
+        run: |
+          echo "Checking for icons without categories and invalid categories..."
+
+          # Define valid categories
+          valid_categories=(
+            "Actions and system"
+            "Activities"
+            "Alerts and feedbacks"
+            "Arrows"
+            "Business and finance"
+            "Development"
+            "Files"
+            "Health"
+            "Home and devices"
+            "Maps and vehicles"
+            "Media"
+            "Nature and sustainability"
+            "Others"
+            "People and users"
+            "Security"
+            "Telco and comms"
+            "Time"
+          )
+
+          uncategorized_icons=""
+          invalid_categories=""
+
+          for icon_name in $(cat icons.txt); do
+            # Check if icon exists in JSON and has a non-empty category array
+            category_check=$(cat data.json | jq -r "if has(\"$icon_name\") then .[\"$icon_name\"].category | length else 0 end")
+            
+            if [ "$category_check" -eq 0 ]; then
+              uncategorized_icons="$uncategorized_icons\n\033[0;31m× $icon_name\033[0m"
+            else
+              # Check if categories are valid - using a different approach to handle spaces
+              while IFS= read -r category; do
+                # Check if category is in valid list
+                valid=false
+                for valid_cat in "${valid_categories[@]}"; do
+                  if [ "$category" = "$valid_cat" ]; then
+                    valid=true
+                    break
+                  fi
+                done
+                
+                if [ "$valid" = false ]; then
+                  invalid_categories="$invalid_categories\n\033[0;33m× $icon_name\033[0m - Invalid category: '$category'"
+                fi
+              done < <(cat data.json | jq -r ".[\"$icon_name\"].category[]")
+            fi
+          done
+
+          # Show the complete list of issues
+          has_errors=false
+
+          if [ -n "$uncategorized_icons" ]; then
+            echo -e "\n\033[4mIcons without categories\033[0m"
+            echo -e "$uncategorized_icons \n"
+            has_errors=true
+          fi
+
+          if [ -n "$invalid_categories" ]; then
+            echo -e "\n\033[4mIcons with invalid categories\033[0m"
+            echo -e "$invalid_categories \n"
+            echo "Valid categories are:"
+            for valid_cat in "${valid_categories[@]}"; do
+              echo "  - $valid_cat"
+            done
+            echo ""
+            has_errors=true
+          fi
+
+          if [ "$has_errors" = true ]; then
+            echo "❌ Found icons with missing or invalid categories in icons-keywords.json."
+            exit 1  # End the execution with an error code
+          else
+            echo "✅ All icons have valid categories assigned in icons-keywords.json!"
+          fi
+        continue-on-error: false
+
+      - name: Cleanup
+        run: |
+          rm icons.txt
+          rm data.json
         continue-on-error: true
