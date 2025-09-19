@@ -1,7 +1,7 @@
 import json
 import re
 
-# El archivo de icons-categories.txt tiene líneas en el formato:
+# Crea un archivo de icons-categories.txt para categorizar iconos siguiendo esta estructura:
 # iconName (category)
 # Sin -regular / -light / -filled
 # Ejemplo:
