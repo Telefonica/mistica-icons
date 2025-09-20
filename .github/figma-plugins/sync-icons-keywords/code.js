@@ -1,6 +1,6 @@
 // main.js
 
-const branch = "icons-categorization";
+const branch = "production";
 const documentationLink = "https://github.com/Telefonica/mistica-icons";
 
 // Define the URL of the JSON file (replace with your raw GitHub URL)
