@@ -61,7 +61,7 @@ fetch(jsonUrl)
             components
         );
 
-        let message = `Synchronization complete: ${updatedCount} of ${totalCount} components updated.`;
+        let message = `Sync completed: ${updatedCount} of ${totalCount} components updated.`;
         if (errorCount > 0) {
             message += ` ${errorCount} errors encountered - check console for details.`;
         }
@@ -87,11 +87,11 @@ fetch(jsonUrl)
     });
 
 function syncDescriptions(jsonDescriptions, components) {
-    console.log(
-        "Starting synchronization with",
-        components.length,
-        "components"
-    );
+    // console.log(
+    //     "Starting synchronization with",
+    //     components.length,
+    //     "components"
+    // );
 
     const updatedComponents = []; // Keep track of updated components
     const nonUpdatedComponents = []; // Keep track of non-updated components
@@ -115,20 +115,48 @@ function syncDescriptions(jsonDescriptions, components) {
                     ""
                 );
 
-                console.log(
-                    `[${i + index + 1}/${components.length}] Processing: ${
-                        component.name
-                    } -> Base: ${baseName}`
-                );
+                // console.log(
+                //     `[${i + index + 1}/${components.length}] Processing: ${
+                //         component.name
+                //     } -> Base: ${baseName}`
+                // );
 
                 // Find matching description in the JSON file
                 if (jsonDescriptions[baseName]) {
-                    // Join all descriptions for the component and update the description
-                    const descriptions = jsonDescriptions[baseName].join(", ");
+                    const iconData = jsonDescriptions[baseName];
+
+                    // Validate the structure of the icon data
+                    if (typeof iconData !== "object" || iconData === null) {
+                        console.warn(
+                            `⚠ Unexpected data structure for ${baseName}:`,
+                            iconData
+                        );
+                        nonUpdatedComponents.push({
+                            name: component.name,
+                            baseName: baseName,
+                            reason: "Invalid data structure",
+                        });
+                        return;
+                    }
+
+                    // Create description with category and keywords
+                    let description = "";
+                    if (iconData.category) {
+                        description += `Category: ${iconData.category}\n\n`;
+                    }
+                    if (iconData.keywords && Array.isArray(iconData.keywords)) {
+                        description += iconData.keywords.join(", ");
+                    } else if (iconData.keywords) {
+                        console.warn(
+                            `⚠ Keywords for ${baseName} are not an array:`,
+                            iconData.keywords
+                        );
+                        description += String(iconData.keywords);
+                    }
 
                     // Check if component is editable
                     if (component.description !== undefined) {
-                        component.description = descriptions;
+                        component.description = description;
                         component.documentationLinks = [
                             {
                                 uri: documentationLink,
@@ -136,17 +164,18 @@ function syncDescriptions(jsonDescriptions, components) {
                         ];
 
                         console.log(
-                            `✓ Updated: ${
-                                component.name
-                            } with description: ${descriptions.substring(
+                            `✓ Updated: ${component.name} with category: ${
+                                iconData.category || "N/A"
+                            } and description: ${description.substring(
                                 0,
-                                50
+                                80
                             )}...`
                         );
 
                         updatedComponents.push({
                             name: component.name,
-                            description: descriptions,
+                            description: description,
+                            category: iconData.category || "N/A",
                         });
                     } else {
                         console.error(
@@ -191,10 +220,20 @@ function syncDescriptions(jsonDescriptions, components) {
     console.log(`No matches found: ${nonUpdatedComponents.length}`);
     console.log(`Errors encountered: ${errorComponents.length}`);
 
+    // Show categories statistics
+    if (updatedComponents.length > 0) {
+        const categoriesCount = {};
+        updatedComponents.forEach((c) => {
+            categoriesCount[c.category] =
+                (categoriesCount[c.category] || 0) + 1;
+        });
+        console.log(`\nCategories found:`, categoriesCount);
+    }
+
     if (updatedComponents.length > 0) {
         console.log(
             `\nUpdated components:`,
-            updatedComponents.map((c) => c.name)
+            updatedComponents.map((c) => `${c.name} (${c.category})`)
         );
     }
 
@@ -206,7 +245,7 @@ function syncDescriptions(jsonDescriptions, components) {
         console.log(`\nError components:`, errorComponents);
     }
 
-    console.log("Descriptions synchronized successfully");
+    console.log("Descriptions synch successfully");
 
     return {
         updatedCount: updatedComponents.length,
