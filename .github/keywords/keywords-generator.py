@@ -61,8 +61,8 @@ def generate_synonyms(concept):
 # Get concepts from the icons folder
 concepts = set(list_concepts(main_folder))  # Convert to set for efficiency
 
-# Counter to know how many new concepts have been processed
-new_concepts = 0
+# Counter to know how many concepts have been processed (new or updated)
+updated_concepts = 0
 
 # Remove entries in synonyms_dictionary that no longer have corresponding icons
 keys_to_remove = [key for key in synonyms_dictionary if key not in concepts]
@@ -70,32 +70,55 @@ for key in keys_to_remove:
     del synonyms_dictionary[key]
     print(f"Concept removed: {key}")
 
-# Update the JSON file only with new concepts
+# Update the JSON file only with new concepts or concepts with empty keywords
 for concept in concepts:
-    if concept not in synonyms_dictionary:
+    # Check if concept doesn't exist OR if it exists but has empty keywords
+    needs_keywords = (concept not in synonyms_dictionary or 
+                     (concept in synonyms_dictionary and 
+                      isinstance(synonyms_dictionary[concept], dict) and 
+                      "keywords" in synonyms_dictionary[concept] and 
+                      len(synonyms_dictionary[concept]["keywords"]) == 0))
+    
+    if needs_keywords:
         print(f"Generating synonyms for: {concept}")
         try:
             # Generate synonyms using GPT
             generated_synonyms = generate_synonyms(concept)
-            # Save the synonyms in the dictionary
-            synonyms_dictionary[concept] = generated_synonyms
-            new_concepts += 1
-            print(f"Concept generated: {concept} - Synonyms: {generated_synonyms}")
+            # Get the category for this concept from the mapping, or preserve existing category
+            if concept in synonyms_dictionary and "category" in synonyms_dictionary[concept]:
+                concept_category = synonyms_dictionary[concept]["category"]
+            else:
+                concept_category = []
+            
+            # Save the synonyms in the dictionary with the new structure
+            synonyms_dictionary[concept] = {
+                "category": concept_category,
+                "keywords": generated_synonyms
+            }
+            updated_concepts += 1
+            print(f"Concept generated: {concept} - Category: {concept_category} - Synonyms: {generated_synonyms}")
         except Exception as e:
             print(f"Error generating synonyms for {concept}: {e}")
             # In case of error, save generic synonyms to avoid leaving it empty
-            synonyms_dictionary[concept] = ["synonym1", "synonym2", "synonym3"]
+            if concept in synonyms_dictionary and "category" in synonyms_dictionary[concept]:
+                concept_category = synonyms_dictionary[concept]["category"]
+            else:
+                concept_category = []
+            synonyms_dictionary[concept] = {
+                "category": concept_category,
+                "keywords": ["synonym1", "synonym2", "synonym3"]
+            }
             print(f"Concept generated with generic synonyms: {concept}")
 
-# Only save if there are new concepts or if concepts have been removed
-if new_concepts > 0 or keys_to_remove:
+# Only save if there are updated concepts or if concepts have been removed
+if updated_concepts > 0 or keys_to_remove:
     # Save the updated and alphabetically sorted dictionary in the JSON file
     with open(synonyms_json_file, "w", encoding="utf-8") as f:
         json.dump(synonyms_dictionary, f, ensure_ascii=False, indent=4, sort_keys=True)
-    print(f"{new_concepts} new concepts have been generated.")
+    print(f"{updated_concepts} concepts have been updated/generated.")
     print(f"{len(keys_to_remove)} obsolete concepts have been removed.")
 else:
-    print("No new concepts or obsolete concepts found.")
+    print("No concepts to update or obsolete concepts found.")
 
 # Run Prettier to format the JSON file
 try:
