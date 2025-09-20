@@ -16,26 +16,6 @@ main_folder = "./icons"
 # JSON file where synonyms will be stored
 synonyms_json_file = "./icons/icons-keywords.json"
 
-# Categories file where icon categories are defined
-categories_file = "./icons/icons-categories.txt"
-
-# Load the categories mapping
-def load_categories_mapping():
-    categories_map = {}
-    if os.path.exists(categories_file):
-        with open(categories_file, "r", encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if line and "(" in line and ")" in line:
-                    # Extract icon name and category from the format: icon-name (Category)
-                    icon_name = line.split(" (")[0].strip()
-                    category = line.split("(")[1].replace(")", "").strip()
-                    categories_map[icon_name] = category
-    return categories_map
-
-# Load categories mapping
-categories_mapping = load_categories_mapping()
-
 # Load the JSON file if it already exists
 if os.path.exists(synonyms_json_file):
     with open(synonyms_json_file, "r", encoding="utf-8") as f:
@@ -108,7 +88,7 @@ for concept in concepts:
             if concept in synonyms_dictionary and "category" in synonyms_dictionary[concept]:
                 concept_category = synonyms_dictionary[concept]["category"]
             else:
-                concept_category = [categories_mapping.get(concept, "Others")]
+                concept_category = []
             
             # Save the synonyms in the dictionary with the new structure
             synonyms_dictionary[concept] = {
@@ -123,7 +103,7 @@ for concept in concepts:
             if concept in synonyms_dictionary and "category" in synonyms_dictionary[concept]:
                 concept_category = synonyms_dictionary[concept]["category"]
             else:
-                concept_category = [categories_mapping.get(concept, "Others")]
+                concept_category = []
             synonyms_dictionary[concept] = {
                 "category": concept_category,
                 "keywords": ["synonym1", "synonym2", "synonym3"]
