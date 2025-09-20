@@ -7,6 +7,8 @@ This script:
 2. Extracts concepts by removing style suffixes (-regular, -light, -filled)
 3. Identifies missing concepts not present in icons-keywords.json
 4. Adds them to the JSON with empty keywords and category arrays
+5. Saves the updated JSON, ensuring keys are sorted alphabetically
+6. Formats the JSON file using prettier if available
 """
 
 import json
