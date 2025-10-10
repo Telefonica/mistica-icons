@@ -170,7 +170,7 @@ jobs:
       - name: Convert to PDF
         run: |
           git update-index --chmod=+x ./.github/md-generator/convert_svg_to_pdf.sh
-          ./.github/md-generator/convert_svg_to_pdf.sh
+          ./.github/md-generator/convert_svg_to_pdf.sh -f telefonica
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
 
@@ -233,7 +233,7 @@ jobs:
       - name: Convert to PDF
         run: |
           git update-index --chmod=+x ./.github/md-generator/convert_svg_to_pdf.sh
-          ./.github/md-generator/convert_svg_to_pdf.sh
+          ./.github/md-generator/convert_svg_to_pdf.sh -f o2
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
 
@@ -296,7 +296,7 @@ jobs:
       - name: Convert to PDF
         run: |
           git update-index --chmod=+x ./.github/md-generator/convert_svg_to_pdf.sh
-          ./.github/md-generator/convert_svg_to_pdf.sh
+          ./.github/md-generator/convert_svg_to_pdf.sh -f o2-new
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
 
@@ -357,7 +357,7 @@ jobs:
       - name: Convert to PDF
         run: |
           git update-index --chmod=+x ./.github/md-generator/convert_svg_to_pdf.sh
-          ./.github/md-generator/convert_svg_to_pdf.sh
+          ./.github/md-generator/convert_svg_to_pdf.sh -f blau
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
 
@@ -420,7 +420,7 @@ jobs:
       - name: Convert to PDF
         run: |
           git update-index --chmod=+x ./.github/md-generator/convert_svg_to_pdf.sh
-          ./.github/md-generator/convert_svg_to_pdf.sh
+          ./.github/md-generator/convert_svg_to_pdf.sh -f vivo
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
 
