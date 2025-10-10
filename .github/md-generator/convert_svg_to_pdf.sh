@@ -1,9 +1,38 @@
 #!/bin/bash
 
 # Script to convert SVG files to PDF with reproducible checksums
-# Usage: ./convert_svg_to_pdf.sh
+# Usage: ./convert_svg_to_pdf.sh [-f|--folder FOLDER]
+# Options:
+#   -f, --folder FOLDER    Specify subfolder within icons/ to convert (e.g., blau, o2, etc.)
+#                         If not specified, converts all folders in icons/
 
 set -e
+
+# Default values
+FOLDER=""
+
+# Parse command line arguments
+while [[ $# -gt 0 ]]; do
+    case $1 in
+        -f|--folder)
+            FOLDER="$2"
+            shift # past argument
+            shift # past value
+            ;;
+        -h|--help)
+            echo "Usage: $0 [-f|--folder FOLDER]"
+            echo "Options:"
+            echo "  -f, --folder FOLDER    Specify subfolder within icons/ to convert"
+            echo "  -h, --help            Show this help message"
+            exit 0
+            ;;
+        *)
+            echo "Unknown option $1"
+            echo "Use -h or --help for usage information"
+            exit 1
+            ;;
+    esac
+done
 
 echo "Installing required dependencies..."
 
@@ -36,16 +65,29 @@ export SOURCE_DATE_EPOCH=0
 
 echo "Converting SVG files to PDF..."
 
+# Determine the target directory
+if [[ -n "$FOLDER" ]]; then
+    TARGET_DIR="icons/$FOLDER"
+    if [[ ! -d "$TARGET_DIR" ]]; then
+        echo "Error: Directory '$TARGET_DIR' does not exist"
+        exit 1
+    fi
+    echo "Converting SVG files in: $TARGET_DIR"
+else
+    TARGET_DIR="icons"
+    echo "Converting all SVG files in: $TARGET_DIR"
+fi
+
 # Convert all SVG files to PDF
-for i in $(find icons -type f -name "*.svg" 2>/dev/null); do 
+for i in $(find "$TARGET_DIR" -type f -name "*.svg" 2>/dev/null); do 
     echo "Converting: $i -> ${i%.*}.pdf"
     rsvg-convert -f pdf -o "${i%.*}.pdf" "$i"
 done
 
 echo "Cleaning metadata from PDF files..."
 
-# Clean metadata from all PDF files
-find icons -type f -name "*.pdf" 2>/dev/null | while IFS= read -r file; do
+# Clean metadata from all PDF files in the target directory
+find "$TARGET_DIR" -type f -name "*.pdf" 2>/dev/null | while IFS= read -r file; do
     echo "Cleaning metadata from $file"
     
     # Remove all metadata including creation/modification dates
