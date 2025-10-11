@@ -6,9 +6,6 @@ SVG_EXTENSION = ".svg"
 PDF_EXTENSION = ".pdf"
 BREAK = "\n"
 
-# Show or hide and reorder brands as needed
-brands = ["telefonica", "o2", "o2-new", "vivo-new", "blau"]
-
 # Define the colors for the bar representation
 bar_colors = {
     "unique": "59C2C9",
@@ -24,6 +21,16 @@ def read_folder(folder):
         if ".DS_Store" in files:
             files.remove(".DS_Store")
         return files
+    return []
+
+# Get brand names from icons directory
+def get_brands_from_icons_dir(icons_path="./icons"):
+    """Read brand names from the icons directory"""
+    if os.path.isdir(icons_path):
+        brands = [folder for folder in os.listdir(icons_path) 
+                 if os.path.isdir(os.path.join(icons_path, folder)) 
+                 and not folder.startswith('.')]
+        return sorted(brands)
     return []
 
 def preprocess_filename(filename):
@@ -98,7 +105,7 @@ def process_icon_sets(folders, all_concepts):
 # Generate a color-coded bar representation for each icon set based on percentage data.
 def generate_bar_representation(data, folders, bar_width=400, bar_height=8):
     bar_output = []
-    for folder, metrics in data.items():
+    for folder in folders:
         folder_data = data[folder]
         
         # Total per brand
@@ -209,8 +216,16 @@ def generate_icon_table(path):  # Renombrar la función para que coincida con el
                         style: {brand: file_path}
                     }
 
-    brands.remove("telefonica")
-    brands = ["telefonica"] + sorted(brands, reverse=True)
+    # Sort brands by total number of icons (descending)
+    brand_icon_counts = {}
+    for brand in brands:
+        brand_folder = path + SLASH + brand
+        count = 0
+        for root_dir, dirs, files in os.walk(brand_folder):
+            count += len([f for f in files if f.endswith('.svg')])
+        brand_icon_counts[brand] = count
+    
+    brands = sorted(brands, key=lambda brand: brand_icon_counts[brand], reverse=True)
     separator = " " + PIPE + " "
     file_content = file_content.replace("---BRANDS---", separator.join(brands))
     file_content = file_content.replace("---HEADER-BREAK---", separator.join(
@@ -236,10 +251,16 @@ def generate_icon_table(path):  # Renombrar la función para que coincida con el
 
 
 def main(root_folder):
+    # Get brands dynamically from icons directory
+    brands = get_brands_from_icons_dir(root_folder)
+    
     folders = [os.path.join(root_folder, brand) for brand in brands]
     all_concepts = set()
     icon_data = process_icon_sets(folders, all_concepts)
-    bars = generate_bar_representation(icon_data, all_concepts)
+    
+    # Sort folders by total number of icons (descending)
+    folders_sorted = sorted(folders, key=lambda folder: icon_data[folder]['total'], reverse=True)
+    bars = generate_bar_representation(icon_data, folders_sorted)
     
     readme_content = ""
 
@@ -255,7 +276,7 @@ def main(root_folder):
     readme_content += "  " + BREAK
 
     # Add equivalence status table
-    markdown_table = generate_markdown_table(icon_data, folders)
+    markdown_table = generate_markdown_table(icon_data, folders_sorted)
     readme_content += markdown_table + "\n"
     
     legend = (
