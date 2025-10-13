@@ -1869,7 +1869,7 @@
 |![subwoofer-light](icons/telefonica/light/subwoofer-light.svg) | | | | |<a id='subwoofer-light'>`subwoofer-light`</a>[![subwoofer-light](.github/resources/anchor.svg)](#subwoofer-light)|
 |![subwoofer-off-filled](icons/telefonica/filled/subwoofer-off-filled.svg) | | | | |<a id='subwoofer-off-filled'>`subwoofer-off-filled`</a>[![subwoofer-off-filled](.github/resources/anchor.svg)](#subwoofer-off-filled)|
 |![subwoofer-off-light](icons/telefonica/light/subwoofer-off-light.svg) | | | | |<a id='subwoofer-off-light'>`subwoofer-off-light`</a>[![subwoofer-off-light](.github/resources/anchor.svg)](#subwoofer-off-light)|
-|![subwoofer-off-regular](icons/telefonica/regular/subwoofer-off-regular.svg) | | | | |<a id='subwoofer-off-regular'>`subwoofer-off-regular`</a>[![subwoofer-off-regular](.github/resources/anchor.svg)](#subwoofer-off-regular)|
+|![subwoofer-off-light](icons/telefonica/regular/subwoofer-off-light.svg) | | | | |<a id='subwoofer-off-light'>`subwoofer-off-light`</a>[![subwoofer-off-light](.github/resources/anchor.svg)](#subwoofer-off-light)|
 |![subwoofer-regular](icons/telefonica/regular/subwoofer-regular.svg) | | | | |<a id='subwoofer-regular'>`subwoofer-regular`</a>[![subwoofer-regular](.github/resources/anchor.svg)](#subwoofer-regular)|
 |![sun-filled](icons/telefonica/filled/sun-filled.svg) |![sun-filled](icons/vivo-new/filled/sun-filled.svg) | | | |<a id='sun-filled'>`sun-filled`</a>[![sun-filled](.github/resources/anchor.svg)](#sun-filled)|
 |![sun-light](icons/telefonica/light/sun-light.svg) |![sun-light](icons/vivo-new/light/sun-light.svg) | | | |<a id='sun-light'>`sun-light`</a>[![sun-light](.github/resources/anchor.svg)](#sun-light)|
