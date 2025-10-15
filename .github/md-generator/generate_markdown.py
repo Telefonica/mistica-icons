@@ -98,7 +98,9 @@ def process_icon_sets(folders, all_concepts):
             if other_folder != folder:
                 data[folder]["some_equivalence"].update(current_no_processed_names & data[other_folder]["no_processed_names"])
         data[folder]["some_equivalence"] -= data[folder]["all_equivalence"]
-        data[folder]["missing"] = all_concepts - (data[folder]["unique"] | data[folder]["all_equivalence"] | data[folder]["some_equivalence"])
+        # Calculate missing icons correctly: icons present in other sets but not in current set
+        other_sets_icons = set.union(*(data[f]["no_processed_names"] for f in folders if f != folder))
+        data[folder]["missing"] = other_sets_icons - data[folder]["no_processed_names"]
 
     return data
 
@@ -116,26 +118,33 @@ def generate_bar_representation(data, folders, bar_width=400, bar_height=8):
         unique_count = len(folder_data['unique'])
         missing_count = len(folder_data['missing'])
         
+        # Calculate percentages based on total_icons (global total) for consistency
         all_equivalence_percent = (all_equivalence_count * 100) / total_icons
         some_equivalence_percent = (some_equivalence_count * 100) / total_icons
         unique_percent = (unique_count * 100) / total_icons
         missing_percent = (missing_count * 100) / total_icons
 
-        all_equivalence_width = round(int((all_equivalence_percent / 100) * bar_width))
-        if 0 < all_equivalence_percent < 1:
-            all_equivalence_width = 1
-
-        some_equivalence_width = round(int((some_equivalence_percent / 100) * bar_width))
-        if 0 < some_equivalence_percent < 1:
-            some_equivalence_width = 1
-
-        unique_width = round(int((unique_percent / 100) * bar_width))
-        if 0 < unique_percent < 1:
-            unique_width = 1
+        # Calculate bar widths proportionally to ensure total width equals bar_width
+        total_count = all_equivalence_count + some_equivalence_count + unique_count + missing_count
+        
+        if total_count > 0:
+            all_equivalence_width = round((all_equivalence_count / total_count) * bar_width)
+            some_equivalence_width = round((some_equivalence_count / total_count) * bar_width)
+            unique_width = round((unique_count / total_count) * bar_width)
+            # Ensure total width doesn't exceed bar_width due to rounding
+            missing_width = bar_width - (all_equivalence_width + some_equivalence_width + unique_width)
             
-        missing_width = bar_width - (unique_width + all_equivalence_width + some_equivalence_width)
-        if 0 < missing_percent < 1:
-            missing_width = 1
+            # Handle minimum width for very small percentages
+            if 0 < all_equivalence_percent < 1 and all_equivalence_width == 0:
+                all_equivalence_width = 1
+            if 0 < some_equivalence_percent < 1 and some_equivalence_width == 0:
+                some_equivalence_width = 1
+            if 0 < unique_percent < 1 and unique_width == 0:
+                unique_width = 1
+            if 0 < missing_percent < 1 and missing_width == 0:
+                missing_width = 1
+        else:
+            all_equivalence_width = some_equivalence_width = unique_width = missing_width = 0
         
         bar_parts = []
         if all_equivalence_width > 0:
@@ -171,14 +180,9 @@ def generate_markdown_table(data, folders):
         unique_count = len(folder_data['unique'])
         unique_percent = f"{unique_count} ({unique_count * 100 / total_icons:.1f}%) ![Unique](https://dummyimage.com/4x12/{bar_colors['unique']}/000&text=+)" if total_icons > 0 else "0 (0%)"
         
-        # ARCHIVE
-        # missing_count = len(folder_data['missing'])
-        # missing_percent = f"{missing_count}" #({missing_count * 100 / total_icons:.1f}%)" if total_icons > 0 else "0 (0%)"
-
-        # missing_percent = f"{missing_count} ({missing_count * 100 / total_icons:.1f}%) ![Missing](https://dummyimage.com/4x12/{bar_colors['missing']}/000&text=+)"
-        missing_count = total_icons - total_brand_icons
-        # print(missing_count)
-        missing_percent = f"{total_icons - total_brand_icons} ({(missing_count * 100) / total_icons:.1f}%) ![Missing](https://dummyimage.com/4x12/{bar_colors['missing']}/000&text=+)"
+        # Calculate missing correctly based on icons in other sets
+        missing_count = len(folder_data['missing'])
+        missing_percent = f"{missing_count} ({missing_count * 100 / total_icons:.1f}%) ![Missing](https://dummyimage.com/4x12/{bar_colors['missing']}/000&text=+)" if total_icons > 0 else "0 (0%)"
         
         markdown += f"| {folder_name} | {len(folder_data['processed_names'])} | {folder_data['total']} | {all_equivalence_percent} | {some_equivalence_percent} | {unique_percent} | {missing_percent} |\n"
     
