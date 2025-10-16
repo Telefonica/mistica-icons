@@ -62,8 +62,11 @@ total_concepts = len(concepts)
 # SVG List
 svg_files = list_svg_files("./icons")
 
-# Total number of icons
-total_icons = len(svg_files)
+# Total number of unique icons in the ecosystem (for percentage calculations)
+all_unique_icons = set()
+for file in svg_files:
+    all_unique_icons.add(os.path.basename(file))
+total_icons = len(all_unique_icons)
 
 def process_icon_sets(folders, all_concepts):
     """Process each icon set to compute various metrics, update all_concepts with unique processed names."""
@@ -124,24 +127,24 @@ def generate_bar_representation(data, folders, bar_width=400, bar_height=8):
         unique_percent = (unique_count * 100) / total_icons
         missing_percent = (missing_count * 100) / total_icons
 
-        # Calculate bar widths proportionally to ensure total width equals bar_width
+        # Calculate bar widths proportionally within each brand (each bar totals 400px)
         total_count = all_equivalence_count + some_equivalence_count + unique_count + missing_count
         
         if total_count > 0:
             all_equivalence_width = round((all_equivalence_count / total_count) * bar_width)
             some_equivalence_width = round((some_equivalence_count / total_count) * bar_width)
             unique_width = round((unique_count / total_count) * bar_width)
-            # Ensure total width doesn't exceed bar_width due to rounding
+            # Ensure total width equals bar_width
             missing_width = bar_width - (all_equivalence_width + some_equivalence_width + unique_width)
             
             # Handle minimum width for very small percentages
-            if 0 < all_equivalence_percent < 1 and all_equivalence_width == 0:
+            if all_equivalence_count > 0 and all_equivalence_width == 0:
                 all_equivalence_width = 1
-            if 0 < some_equivalence_percent < 1 and some_equivalence_width == 0:
+            if some_equivalence_count > 0 and some_equivalence_width == 0:
                 some_equivalence_width = 1
-            if 0 < unique_percent < 1 and unique_width == 0:
+            if unique_count > 0 and unique_width == 0:
                 unique_width = 1
-            if 0 < missing_percent < 1 and missing_width == 0:
+            if missing_count > 0 and missing_width <= 0:
                 missing_width = 1
         else:
             all_equivalence_width = some_equivalence_width = unique_width = missing_width = 0
