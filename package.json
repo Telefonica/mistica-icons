@@ -20,10 +20,15 @@
     "export-blau-filled": "export-icons --config=blau-filled.json",
     "export-vivo-light": "export-icons --config=vivo-light.json",
     "export-vivo-regular": "export-icons --config=vivo-regular.json",
-    "export-vivo-filled": "export-icons --config=vivo-filled.json"
+    "export-vivo-filled": "export-icons --config=vivo-filled.json",
+    "figma-export": "node .github/scripts/figma-export-local.js"
   },
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^16.4.7",
     "figma-export-icons": "^1.5.0"
+  },
+  "devDependencies": {
+    "svgo": "^3.3.2"
   }
 }

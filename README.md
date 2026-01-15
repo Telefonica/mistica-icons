@@ -23,6 +23,26 @@ Visit [Mistica Storybook](https://mistica-web.vercel.app/?path=/story/icons-cata
 
 Use Mística icons library in Figma!
 
+### Export icons locally
+
+Run the same export pipeline used in CI locally with `npm run figma-export`, which executes [.github/scripts/figma-export-local.js](.github/scripts/figma-export-local.js).
+
+1. Install the system tools (only once):
+   - macOS: `brew install librsvg exiftool qpdf`
+   - Ubuntu: `sudo apt-get install librsvg2-bin libimage-exiftool-perl qpdf`
+2. Install JS dependencies: `npm install`
+3. Provide your Figma personal token via `export FIGMA_TOKEN=xxxxx` (or pass `--token <value>` when running the command).
+4. Export the desired brand(s), for example `npm run figma-export -- --brand telefonica`.
+
+Notes:
+
+- `--brand` accepts `telefonica`, `o2`, `o2-new`, `blau`, `vivo`, any comma-separated combination, or `all` (default).
+- Optional flags: `--skip-svgo`, `--skip-pdf`, `--skip-readme`.
+- `npm run figma-export -- --help` prints the full list of options.
+- Override default Figma files by exporting `TELEFONICA_FIGMA_ID`, `O2_FIGMA_ID`, `O2_NEW_FIGMA_ID`, `BLAU_FIGMA_ID`, or `VIVO_FIGMA_ID` before running the script.
+- The script regenerates `README.md` and `ICON_TABLE.md` but leaves committing and pushing to you.
+- Environment variables declared in a repo-level `.env` file are loaded automatically.
+
 
 ## Equivalence status
 
