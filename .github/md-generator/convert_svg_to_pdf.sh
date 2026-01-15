@@ -69,8 +69,15 @@ find icons -type f -name "*.svg" -print0 2>/dev/null | while IFS= read -r -d '' 
         -Keywords= \
         "$tmp_pdf" > /dev/null 2>&1
 
-    # Normalize trailer IDs for reproducibility
-    "${QPDF_CMD[@]}" --replace-input --object-streams=preserve --stream-data=preserve --deterministic-id --static-id "$tmp_pdf"
+    # Normalize trailer IDs and accept exit code 3 (warnings) without failing the pipeline
+    if ! "${QPDF_CMD[@]}" --replace-input --object-streams=preserve --stream-data=preserve --deterministic-id --static-id "$tmp_pdf"; then
+        qpdf_status=$?
+        if [[ $qpdf_status -ne 3 ]]; then
+            echo "Error: qpdf failed for $tmp_pdf (exit code $qpdf_status)"
+            exit $qpdf_status
+        fi
+        echo "qpdf reported warnings for $tmp_pdf; continuing."
+    fi
 
     # Set fixed timestamps so identical PDFs stay untouched
     touch -t 197001010000.00 "$tmp_pdf"
