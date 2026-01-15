@@ -25,7 +25,6 @@ export SOURCE_DATE_EPOCH=0
 
 echo "Converting SVG files to PDF..."
 
-# Crear directorio temporal
 tmp_dir=$(mktemp -d)
 cleanup() {
     rm -rf "$tmp_dir"
@@ -57,20 +56,23 @@ while IFS= read -r -d '' svg; do
         -Keywords= \
         "$tmp_pdf" > /dev/null 2>&1
 
-    # 3. Normalizar con qpdf (SOLUCIÓN DEFINITIVA AL ERROR 3)
-    # Al poner el comando dentro del 'if', Bash NO aborta el script aunque devuelva error (set -e se pausa)
-    if ! "$QPDF_BIN" --replace-input --object-streams=preserve --stream-data=preserve --deterministic-id --static-id "$tmp_pdf"; then
-        qpdf_status=$?
-        
-        # El código 3 significa "Warnings" (éxito parcial). Lo aceptamos.
-        if [[ $qpdf_status -eq 3 ]]; then
-            echo "Aviso: qpdf completó con advertencias (exit code 3). Continuando..."
-            # qpdf suele dejar un archivo .~qpdf-orig cuando da warnings, lo borramos
+    # 3. Normalizar con qpdf
+    # Inicializamos la variable de estado en 0
+    qpdf_exit_code=0
+    
+    # ESTA ES LA CLAVE:
+    # Usamos "|| qpdf_exit_code=$?"
+    # Esto evita que 'set -e' mate el script inmediatamente si qpdf devuelve 3.
+    "$QPDF_BIN" --replace-input --object-streams=preserve --stream-data=preserve --deterministic-id --static-id "$tmp_pdf" || qpdf_exit_code=$?
+
+    if [[ $qpdf_exit_code -ne 0 ]]; then
+        if [[ $qpdf_exit_code -eq 3 ]]; then
+            echo "Aviso: qpdf terminó con advertencias (código 3). Esto es aceptable."
+            # Borramos el backup que genera qpdf cuando hay warnings
             rm -f "${tmp_pdf}.~qpdf-orig"
         else
-            # Cualquier otro código es un error real
-            echo "Error Crítico: qpdf falló con código $qpdf_status"
-            exit $qpdf_status
+            echo "Error Crítico: qpdf falló con código $qpdf_exit_code"
+            exit $qpdf_exit_code
         fi
     fi
 
@@ -90,5 +92,4 @@ done < <(find icons -type f -name "*.svg" -print0 2>/dev/null)
 
 echo "--------------------------------"
 echo "Conversion completed successfully!"
-# Forzamos un exit 0 limpio al final
 exit 0
