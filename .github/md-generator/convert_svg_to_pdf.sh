@@ -29,13 +29,15 @@ else
     exit 1
 fi
 
-# Ensure qpdf is reachable and prepared to downgrade warnings to exit code 0.
+# Ensure qpdf is reachable
 QPDF_BIN=$(command -v qpdf || true)
 if [[ -z "$QPDF_BIN" ]]; then
     echo "Error: qpdf binary not found"
     exit 1
 fi
-QPDF_CMD=("$QPDF_BIN" --warning-exit-0)
+
+# Note: We handle the exit code 3 manually in the loop logic
+QPDF_CMD=("$QPDF_BIN")
 
 echo "Setting up reproducible build environment..."
 
@@ -50,14 +52,20 @@ cleanup() {
 }
 trap cleanup EXIT
 
-find icons -type f -name "*.svg" -print0 2>/dev/null | while IFS= read -r -d '' svg; do
+# We use process substitution < <(find...) to avoid subshell issues with 'exit' and 'set -e'
+while IFS= read -r -d '' svg; do
     target_pdf="${svg%.*}.pdf"
     tmp_pdf=$(mktemp "${tmp_dir}/pdf-XXXXXX.pdf")
 
     echo "Converting: $svg -> $target_pdf"
-    rsvg-convert -f pdf -o "$tmp_pdf" "$svg"
+    
+    # 1. Convert SVG to PDF
+    if ! rsvg-convert -f pdf -o "$tmp_pdf" "$svg"; then
+        echo "Error: rsvg-convert failed for $svg"
+        exit 1
+    fi
 
-    # Strip metadata before diffing to avoid spurious git changes
+    # 2. Strip metadata
     exiftool -overwrite_original_in_place \
         -all:all= \
         -Creator= \
@@ -69,29 +77,37 @@ find icons -type f -name "*.svg" -print0 2>/dev/null | while IFS= read -r -d '' 
         -Keywords= \
         "$tmp_pdf" > /dev/null 2>&1
 
-    # Normalize trailer IDs and accept exit code 3 (warnings) without failing the pipeline
+    # 3. Normalize with qpdf
+    # We disable 'set -e' specifically for this command to handle exit code 3 (warnings)
     set +e
     "${QPDF_CMD[@]}" --replace-input --object-streams=preserve --stream-data=preserve --deterministic-id --static-id "$tmp_pdf"
     qpdf_status=$?
     set -e
+
     if [[ $qpdf_status -ne 0 ]]; then
-        if [[ $qpdf_status -ne 3 ]]; then
-            echo "Error: qpdf failed for $tmp_pdf (exit code $qpdf_status)"
+        # Exit code 3 means "success with warnings" (usually malformed input that was fixed)
+        if [[ $qpdf_status -eq 3 ]]; then
+            echo "qpdf: optimization succeeded with warnings for $svg (ignoring exit code 3)"
+        else
+            echo "Error: qpdf failed for $svg (exit code $qpdf_status)"
             exit $qpdf_status
         fi
-        echo "qpdf reported warnings for $tmp_pdf; continuing."
     fi
 
-    # Set fixed timestamps so identical PDFs stay untouched
+    # 4. Set fixed timestamps for reproducibility
     touch -t 197001010000.00 "$tmp_pdf"
 
+    # 5. Only replace the file if it actually changed (binary diff)
     if [[ -f "$target_pdf" ]] && cmp -s "$tmp_pdf" "$target_pdf"; then
         echo "No changes detected for $target_pdf"
         rm "$tmp_pdf"
     else
+        echo "Updating/Creating $target_pdf"
         mv "$tmp_pdf" "$target_pdf"
     fi
-done
 
+done < <(find icons -type f -name "*.svg" -print0 2>/dev/null)
+
+echo "---"
 echo "Conversion completed successfully!"
 echo "PDF files only update when their SVG source actually changes."
