@@ -17,12 +17,12 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     fi
     
     # Install dependencies
-    brew install exiftool librsvg
+    brew install exiftool librsvg qpdf
     
 elif [[ "$OSTYPE" == "linux-gnu"* ]]; then
     # Linux (Ubuntu/Debian)
     sudo apt-get update
-    sudo apt-get install -y libimage-exiftool-perl librsvg2-bin
+    sudo apt-get install -y libimage-exiftool-perl librsvg2-bin qpdf
     
 else
     echo "Error: Unsupported operating system"
@@ -36,19 +36,17 @@ export SOURCE_DATE_EPOCH=0
 
 echo "Converting SVG files to PDF..."
 
-# Convert all SVG files to PDF
-for i in $(find icons -type f -name "*.svg" 2>/dev/null); do 
-    echo "Converting: $i -> ${i%.*}.pdf"
-    rsvg-convert -f pdf -o "${i%.*}.pdf" "$i"
-done
+tmp_dir=$(mktemp -d)
+trap 'rm -rf "$tmp_dir"' EXIT
 
-echo "Cleaning metadata from PDF files..."
+find icons -type f -name "*.svg" -print0 2>/dev/null | while IFS= read -r -d '' svg; do
+    target_pdf="${svg%.*}.pdf"
+    tmp_pdf=$(mktemp "${tmp_dir}/pdf-XXXXXX.pdf")
 
-# Clean metadata from all PDF files
-find icons -type f -name "*.pdf" 2>/dev/null | while IFS= read -r file; do
-    echo "Cleaning metadata from $file"
-    
-    # Remove all metadata including creation/modification dates
+    echo "Converting: $svg -> $target_pdf"
+    rsvg-convert -f pdf -o "$tmp_pdf" "$svg"
+
+    # Strip metadata before diffing to avoid spurious git changes
     exiftool -overwrite_original_in_place \
         -all:all= \
         -Creator= \
@@ -58,11 +56,21 @@ find icons -type f -name "*.pdf" 2>/dev/null | while IFS= read -r file; do
         -Title= \
         -Subject= \
         -Keywords= \
-        "$file" > /dev/null 2>&1
-    
-    # Set fixed timestamps for reproducibility
-    touch -t 197001010000.00 "$file"
+        "$tmp_pdf" > /dev/null 2>&1
+
+    # Normalize trailer IDs for reproducibility
+    qpdf --replace-input --object-streams=preserve --stream-data=preserve --deterministic-id --static-id "$tmp_pdf"
+
+    # Set fixed timestamps so identical PDFs stay untouched
+    touch -t 197001010000.00 "$tmp_pdf"
+
+    if [[ -f "$target_pdf" ]] && cmp -s "$tmp_pdf" "$target_pdf"; then
+        echo "No changes detected for $target_pdf"
+        rm "$tmp_pdf"
+    else
+        mv "$tmp_pdf" "$target_pdf"
+    fi
 done
 
 echo "Conversion completed successfully!"
-echo "All PDF files now have reproducible checksums."
+echo "PDF files only update when their SVG source actually changes."
