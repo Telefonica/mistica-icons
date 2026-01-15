@@ -29,20 +29,13 @@ else
     exit 1
 fi
 
-# When qpdf is available (CI installs it), wrap it so warnings don't break the build.
+# Ensure qpdf is reachable and prepared to downgrade warnings to exit code 0.
 QPDF_BIN=$(command -v qpdf || true)
-if [[ -n "$QPDF_BIN" ]]; then
-    echo "Configuring qpdf to ignore warning exit codes..."
-    QPDF_WRAPPER_DIR=$(mktemp -d)
-    QPDF_WRAPPER="$QPDF_WRAPPER_DIR/qpdf-wrapper.sh"
-    cat <<EOF > "$QPDF_WRAPPER"
-#!/bin/bash
-"$QPDF_BIN" --warning-exit-0 "\$@"
-EOF
-    chmod +x "$QPDF_WRAPPER"
-    export QPDF="$QPDF_WRAPPER"
-    trap '[[ -n "$QPDF_WRAPPER_DIR" ]] && rm -rf "$QPDF_WRAPPER_DIR"' EXIT
+if [[ -z "$QPDF_BIN" ]]; then
+    echo "Error: qpdf binary not found"
+    exit 1
 fi
+QPDF_CMD=("$QPDF_BIN" --warning-exit-0)
 
 echo "Setting up reproducible build environment..."
 
@@ -52,7 +45,10 @@ export SOURCE_DATE_EPOCH=0
 echo "Converting SVG files to PDF..."
 
 tmp_dir=$(mktemp -d)
-trap 'rm -rf "$tmp_dir"' EXIT
+cleanup() {
+    rm -rf "$tmp_dir"
+}
+trap cleanup EXIT
 
 find icons -type f -name "*.svg" -print0 2>/dev/null | while IFS= read -r -d '' svg; do
     target_pdf="${svg%.*}.pdf"
@@ -74,7 +70,7 @@ find icons -type f -name "*.svg" -print0 2>/dev/null | while IFS= read -r -d '' 
         "$tmp_pdf" > /dev/null 2>&1
 
     # Normalize trailer IDs for reproducibility
-    qpdf --replace-input --object-streams=preserve --stream-data=preserve --deterministic-id --static-id "$tmp_pdf"
+    "${QPDF_CMD[@]}" --replace-input --object-streams=preserve --stream-data=preserve --deterministic-id --static-id "$tmp_pdf"
 
     # Set fixed timestamps so identical PDFs stay untouched
     touch -t 197001010000.00 "$tmp_pdf"
