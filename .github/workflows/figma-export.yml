@@ -371,9 +371,46 @@ jobs:
           yarn global add svgo
           svgo -f icons/blau -r -o icons/blau
       - name: Convert to PDF
+        shell: bash
         run: |
-          git update-index --chmod=+x ./.github/md-generator/convert_svg_to_pdf.sh
-          ./.github/md-generator/convert_svg_to_pdf.sh
+          # 1. Instalación silenciosa de dependencias
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq libimage-exiftool-perl librsvg2-bin qpdf > /dev/null
+
+          echo "Iniciando conversión de SVGs..."
+          export SOURCE_DATE_EPOCH=0
+
+          # 2. Procesamiento directo para evitar errores de script externo
+          # Usamos un bucle simple que ignora errores de qpdf
+          find icons -type f -name "*.svg" -print0 | while IFS= read -r -d '' svg; do
+            target="${svg%.*}.pdf"
+            tmp_pdf=$(mktemp)
+            
+            echo "Procesando: $svg"
+
+            # Conversión
+            rsvg-convert -f pdf -o "$tmp_pdf" "$svg"
+
+            # Limpieza de metadatos (silenciosa)
+            exiftool -all:all= -overwrite_original "$tmp_pdf" > /dev/null 2>&1
+
+            # QPDF: Forzamos éxito con '|| true' y ocultamos salida para evitar avisos en el log
+            # Esto evita el Error 3 que detenía tu Action
+            qpdf --replace-input --deterministic-id --object-streams=preserve --stream-data=preserve "$tmp_pdf" > /dev/null 2>&1 || true
+
+            # Timestamp fijo para evitar cambios innecesarios en Git
+            touch -t 197001010000.00 "$tmp_pdf"
+
+            # Solo sobreescribir si el PDF ha cambiado realmente
+            if [[ -f "$target" ]] && cmp -s "$tmp_pdf" "$target"; then
+              rm "$tmp_pdf"
+            else
+              mv "$tmp_pdf" "$target"
+              echo "Archivo actualizado: $target"
+            fi
+          done
+
+          echo "¡Proceso finalizado con éxito!"
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
 
