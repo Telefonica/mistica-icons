@@ -366,14 +366,14 @@ jobs:
         run: |
           npm run export-blau-regular
           npm run export-blau-filled
-      - name: Convert to PDF
-        run: |
-          git update-index --chmod=+x ./.github/md-generator/convert_svg_to_pdf.sh
-          ./.github/md-generator/convert_svg_to_pdf.sh
       - name: Install SVGO & convert
         run: |
           yarn global add svgo
           svgo -f icons/blau -r -o icons/blau
+      - name: Convert to PDF
+        run: |
+          git update-index --chmod=+x ./.github/md-generator/convert_svg_to_pdf.sh
+          ./.github/md-generator/convert_svg_to_pdf.sh
       - name: Readme generator
         run: sudo python3 .github/md-generator/generate_markdown.py icons
 

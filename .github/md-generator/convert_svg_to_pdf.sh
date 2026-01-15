@@ -25,26 +25,22 @@ export SOURCE_DATE_EPOCH=0
 
 echo "Converting SVG files to PDF..."
 
-tmp_dir=$(mktemp -d)
-cleanup() {
-    rm -rf "$tmp_dir"
-}
-trap cleanup EXIT
-
-# Usamos process substitution para evitar subshells
-while IFS= read -r -d '' svg; do
+find icons -type f -name "*.svg" -print0 2>/dev/null | while IFS= read -r -d '' svg; do
     target_pdf="${svg%.*}.pdf"
-    tmp_pdf=$(mktemp "${tmp_dir}/pdf-XXXXXX.pdf")
-
     echo "Converting: $svg -> $target_pdf"
-    
-    # 1. Convertir SVG a PDF
-    if ! rsvg-convert -f pdf -o "$tmp_pdf" "$svg"; then
+
+    if ! rsvg-convert -f pdf -o "$target_pdf" "$svg"; then
         echo "Error: rsvg-convert failed for $svg"
         exit 1
     fi
+done
 
-    # 2. Limpiar Metadatos
+echo "Cleaning metadata and normalizing PDFs..."
+
+find icons -type f -name "*.pdf" -print0 2>/dev/null | while IFS= read -r -d '' file; do
+    echo "Processing $file"
+
+    # Remove variable metadata that would otherwise produce diff noise
     exiftool -overwrite_original_in_place \
         -all:all= \
         -Creator= \
@@ -54,41 +50,24 @@ while IFS= read -r -d '' svg; do
         -Title= \
         -Subject= \
         -Keywords= \
-        "$tmp_pdf" > /dev/null 2>&1
+        "$file" > /dev/null 2>&1
 
-    # 3. Normalizar con qpdf
-    # Inicializamos la variable de estado en 0
+    # Normalize trailer IDs so the binary stays deterministic
     qpdf_exit_code=0
-    
-    # ESTA ES LA CLAVE:
-    # Usamos "|| qpdf_exit_code=$?"
-    # Esto evita que 'set -e' mate el script inmediatamente si qpdf devuelve 3.
-    "$QPDF_BIN" --replace-input --object-streams=preserve --stream-data=preserve --deterministic-id --static-id "$tmp_pdf" || qpdf_exit_code=$?
+    "$QPDF_BIN" --replace-input --object-streams=preserve --stream-data=preserve --deterministic-id --static-id "$file" || qpdf_exit_code=$?
 
     if [[ $qpdf_exit_code -ne 0 ]]; then
         if [[ $qpdf_exit_code -eq 3 ]]; then
-            echo "Aviso: qpdf terminó con advertencias (código 3). Esto es aceptable."
-            # Borramos el backup que genera qpdf cuando hay warnings
-            rm -f "${tmp_pdf}.~qpdf-orig"
+            echo "Aviso: qpdf terminó con warnings (código 3). Continuando."
+            rm -f "${file}.~qpdf-orig"
         else
             echo "Error Crítico: qpdf falló con código $qpdf_exit_code"
             exit $qpdf_exit_code
         fi
     fi
 
-    # 4. Establecer fecha fija para reproducibilidad
-    touch -t 197001010000.00 "$tmp_pdf"
-
-    # 5. Comparar y mover si es necesario
-    if [[ -f "$target_pdf" ]] && cmp -s "$tmp_pdf" "$target_pdf"; then
-        echo "No changes detected for $target_pdf"
-        rm "$tmp_pdf"
-    else
-        echo "Updating $target_pdf"
-        mv "$tmp_pdf" "$target_pdf"
-    fi
-
-done < <(find icons -type f -name "*.svg" -print0 2>/dev/null)
+    touch -t 197001010000.00 "$file"
+done
 
 echo "--------------------------------"
 echo "Conversion completed successfully!"
