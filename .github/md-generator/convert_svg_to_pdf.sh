@@ -29,6 +29,21 @@ else
     exit 1
 fi
 
+# When qpdf is available (CI installs it), wrap it so warnings don't break the build.
+QPDF_BIN=$(command -v qpdf || true)
+if [[ -n "$QPDF_BIN" ]]; then
+    echo "Configuring qpdf to ignore warning exit codes..."
+    QPDF_WRAPPER_DIR=$(mktemp -d)
+    QPDF_WRAPPER="$QPDF_WRAPPER_DIR/qpdf-wrapper.sh"
+    cat <<EOF > "$QPDF_WRAPPER"
+#!/bin/bash
+"$QPDF_BIN" --warning-exit-0 "\$@"
+EOF
+    chmod +x "$QPDF_WRAPPER"
+    export QPDF="$QPDF_WRAPPER"
+    trap '[[ -n "$QPDF_WRAPPER_DIR" ]] && rm -rf "$QPDF_WRAPPER_DIR"' EXIT
+fi
+
 echo "Setting up reproducible build environment..."
 
 # Set reproducible timestamp
