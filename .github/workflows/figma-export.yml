@@ -22,7 +22,7 @@ on:
       branch:
         type: string
         description: Branch to export icons to
-        default: "import-figma-icons"
+        default: "figma-export-locally"
         required: false
 
 env:
@@ -38,6 +38,11 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install SVG/PDF tooling
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
+
       - name: Ensure Yarn CLI is available
         run: npm install -g yarn
 
@@ -52,15 +57,10 @@ jobs:
 
       - name: Checkout branch or create new one
         env:
-          TARGET_BRANCH: ${{ github.event.inputs.branch || 'import-figma-icons' }}
+          TARGET_BRANCH: ${{ github.event.inputs.branch || 'figma-export-locally' }}
         run: |
-          git fetch origin
-          if git ls-remote --heads origin "$TARGET_BRANCH" | grep -q "$TARGET_BRANCH"; then
-            git checkout "$TARGET_BRANCH"
-          else
-            git checkout -b "$TARGET_BRANCH"
-            git push -u origin "$TARGET_BRANCH"
-          fi
+          git fetch origin "$TARGET_BRANCH" || true
+          git checkout -B "$TARGET_BRANCH"
 
       - name: Run figma export
         env:
@@ -82,9 +82,9 @@ jobs:
         id: pr
         env:
           BRAND: ${{ github.event.inputs.brand }}
-          BRANCH_NAME: ${{ github.event.inputs.branch || 'import-figma-icons' }}
+          BRANCH_NAME: ${{ github.event.inputs.branch || 'figma-export-locally' }}
           REPO_SLUG: ${{ github.repository }}
-          MISTICA_URL: ${{ env.MISTICA_ICONS_FILE_URL }}
+          DEFAULT_URL: ${{ env.MISTICA_ICONS_FILE_URL }}
           O2_URL: ${{ env.O2_FILE_URL }}
           O2_NEW_URL: ${{ env.O2_NEW_FILE_URL }}
           BLAU_URL: ${{ env.BLAU_FILE_URL }}
@@ -93,12 +93,12 @@ jobs:
           case "$BRAND" in
             all)
               TITLE="Update Figma icons"
-              BODY="New version of icons exported from [Mistica Icons]($MISTICA_URL), [O2]($O2_URL), [O2-new]($O2_NEW_URL), [Blau]($BLAU_URL) & [Vivo]($VIVO_URL)
+              BODY="New version of icons exported from [Mistica Icons]($DEFAULT_URL), [O2]($O2_URL), [O2-new]($O2_NEW_URL), [Blau]($BLAU_URL) & [Vivo]($VIVO_URL)
               - [ ] [Review icon table in $BRANCH_NAME](https://github.com/$REPO_SLUG/tree/$BRANCH_NAME)"
               ;;
             telefonica)
               TITLE="Update Mística icons"
-              BODY="New version of icons exported from [Mistica Icons]($MISTICA_URL)
+              BODY="New version of icons exported from [Mistica Icons]($DEFAULT_URL)
               - [ ] [Review icon table in $BRANCH_NAME](https://github.com/$REPO_SLUG/tree/$BRANCH_NAME)"
               ;;
             o2)
@@ -139,19 +139,19 @@ jobs:
         if: ${{ steps.changes.outputs.changed == 'true' }}
         env:
           GITHUB_TOKEN: ${{ secrets.NOVUM_PRIVATE_REPOS }}
-          TARGET_BRANCH: ${{ github.event.inputs.branch || 'import-figma-icons' }}
+          TARGET_BRANCH: ${{ github.event.inputs.branch || 'figma-export-locally' }}
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "Figma icons updated"
-          git push origin "$TARGET_BRANCH"
+          git push --force-with-lease origin "$TARGET_BRANCH"
 
       - name: Create Pull-Request
         if: ${{ steps.changes.outputs.changed == 'true' }}
         uses: repo-sync/pull-request@v2
         with:
-          source_branch: ${{ github.event.inputs.branch || 'import-figma-icons' }}
+          source_branch: ${{ github.event.inputs.branch || 'figma-export-locally' }}
           destination_branch: production
           pr_title: ${{ steps.pr.outputs.title }}
           pr_body: ${{ steps.pr.outputs.body }}

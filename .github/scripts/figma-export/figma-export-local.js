@@ -6,11 +6,18 @@ const os = require("os");
 const { spawn, spawnSync } = require("child_process");
 const dotenv = require("dotenv");
 
-const ROOT = path.resolve(__dirname, "..", "..");
+const ROOT = path.resolve(__dirname, "..", "..", "..");
 dotenv.config({ path: path.join(ROOT, ".env") });
 
-const TEMPLATE_PATH = path.join(ROOT, "figma-export-icons.template.json");
+const TEMPLATE_PATH = path.join(
+    ROOT,
+    "./.github/scripts/figma-export/figma-export-icons.template.json"
+);
 const ICONS_ROOT = path.join(ROOT, "icons");
+const README_GENERATOR_PATH = path.join(
+    ROOT,
+    ".github/md-generator/generate_markdown.py"
+);
 const BRAND_ORDER = ["telefonica", "o2", "o2-new", "blau", "vivo"];
 
 const BRANDS = {
@@ -555,7 +562,8 @@ async function maybeReplaceFile(source, target) {
         return false;
     }
 
-    await fs.rename(source, target);
+    // copy instead of rename so we work across filesystems (/tmp vs repo path)
+    await fs.copyFile(source, target);
     return true;
 }
 
@@ -611,11 +619,15 @@ async function cleanupConfigs(files) {
 }
 
 async function runReadmeGenerator() {
+    if (!(await fileExists(README_GENERATOR_PATH))) {
+        console.warn(
+            "README generator script not found; skipping markdown update."
+        );
+        return;
+    }
+
     console.log("\nRe-generating markdown catalog");
-    await runCommand("python3", [
-        ".github/md-generator/generate_markdown.py",
-        "icons",
-    ]);
+    await runCommand("python3", [README_GENERATOR_PATH, "icons"]);
 }
 
 function runCommand(command, args, options = {}) {
