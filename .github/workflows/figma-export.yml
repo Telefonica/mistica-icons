@@ -22,7 +22,7 @@ on:
       branch:
         type: string
         description: Branch to export icons to
-        default: "figma-export-locally"
+        default: "import-figma-icons"
         required: false
 
 env:
@@ -57,7 +57,7 @@ jobs:
 
       - name: Checkout branch or create new one
         env:
-          TARGET_BRANCH: ${{ github.event.inputs.branch || 'figma-export-locally' }}
+          TARGET_BRANCH: ${{ github.event.inputs.branch || 'import-figma-icons' }}
         run: |
           git fetch origin "$TARGET_BRANCH" || true
           git checkout -B "$TARGET_BRANCH"
@@ -82,7 +82,7 @@ jobs:
         id: pr
         env:
           BRAND: ${{ github.event.inputs.brand }}
-          BRANCH_NAME: ${{ github.event.inputs.branch || 'figma-export-locally' }}
+          BRANCH_NAME: ${{ github.event.inputs.branch || 'import-figma-icons' }}
           REPO_SLUG: ${{ github.repository }}
           DEFAULT_URL: ${{ env.MISTICA_ICONS_FILE_URL }}
           O2_URL: ${{ env.O2_FILE_URL }}
@@ -139,7 +139,7 @@ jobs:
         if: ${{ steps.changes.outputs.changed == 'true' }}
         env:
           GITHUB_TOKEN: ${{ secrets.NOVUM_PRIVATE_REPOS }}
-          TARGET_BRANCH: ${{ github.event.inputs.branch || 'figma-export-locally' }}
+          TARGET_BRANCH: ${{ github.event.inputs.branch || 'import-figma-icons' }}
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -151,7 +151,7 @@ jobs:
         if: ${{ steps.changes.outputs.changed == 'true' }}
         uses: repo-sync/pull-request@v2
         with:
-          source_branch: ${{ github.event.inputs.branch || 'figma-export-locally' }}
+          source_branch: ${{ github.event.inputs.branch || 'import-figma-icons' }}
           destination_branch: production
           pr_title: ${{ steps.pr.outputs.title }}
           pr_body: ${{ steps.pr.outputs.body }}
