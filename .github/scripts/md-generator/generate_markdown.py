@@ -323,4 +323,3 @@ def main(root_folder):
 if __name__ == "__main__":
     root_folder = "icons"
     main(root_folder)
-

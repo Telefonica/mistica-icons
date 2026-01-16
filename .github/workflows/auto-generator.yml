@@ -25,7 +25,7 @@ jobs:
       - name: Get branch name
         uses: rlespinasse/github-slug-action@v3.x
 
-      - run: sudo python3 .github/md-generator/generate_markdown.py icons
+      - run: sudo python3 .github/scripts/md-generator/generate_markdown.py icons
 
       - name: Check for changes
         id: git_status
