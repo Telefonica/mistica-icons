@@ -64,7 +64,7 @@ jobs:
 
       - name: Run figma export
         env:
-          FIGMA_TOKEN: "figd_PIDmDG-me58jOIy5N3Ef4gxCNTZiaKblji-9gWK7"
+          FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
           BRAND: ${{ github.event.inputs.brand }}
         run: yarn figma-export -- --brand "$BRAND"
 
