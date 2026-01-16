@@ -1,4 +1,12 @@
-const BRAND_ORDER = ["telefonica", "o2", "o2-new", "blau", "vivo"];
+// Vivo Brand is disabled for now until the next major version in mistica-web
+
+const BRAND_ORDER = [
+    "telefonica",
+    "o2",
+    "o2-new",
+    "blau",
+    // "vivo",
+];
 
 const BRANDS = {
     telefonica: {
