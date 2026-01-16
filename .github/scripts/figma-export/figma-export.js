@@ -370,18 +370,24 @@ async function convertSvgToPdf(sourceDirs, hasQpdf) {
     let updatedCount = 0;
     let processedCount = 0;
     const total = svgFiles.length;
-    const progressEnabled = Boolean(process.stdout.isTTY) && total > 1;
+    const progressMode = process.stdout.isTTY
+        ? "interactive"
+        : process.env.CI
+        ? "ci"
+        : "off";
+    const progressEnabled = progressMode !== "off" && total > 1;
     let progressActive = false;
+    let lastPercentLogged = -1;
 
     const clearProgress = () => {
-        if (!progressEnabled || !progressActive) {
+        if (progressMode !== "interactive" || !progressActive) {
             return;
         }
         process.stdout.write("\r\x1B[K");
         progressActive = false;
     };
 
-    const renderProgress = () => {
+    const renderProgress = (forceLog = false) => {
         if (!progressEnabled) {
             return;
         }
@@ -389,20 +395,33 @@ async function convertSvgToPdf(sourceDirs, hasQpdf) {
         const width = 30;
         const filled = Math.round((percent / 100) * width);
         const bar = "#".repeat(filled).padEnd(width, "-");
-        process.stdout.write(
-            `\r[${bar}] ${percent}% (${processedCount}/${total})`
-        );
-        progressActive = true;
+        if (progressMode === "interactive") {
+            process.stdout.write(
+                `\r[${bar}] ${percent}% (${processedCount}/${total})`
+            );
+            progressActive = true;
+            return;
+        }
+
+        if (percent !== lastPercentLogged || forceLog) {
+            console.log(`[${bar}] ${percent}% (${processedCount}/${total})`);
+            lastPercentLogged = percent;
+        }
     };
 
     const logWithProgress = (message) => {
-        clearProgress();
+        if (progressMode === "interactive") {
+            clearProgress();
+            console.log(message);
+            renderProgress(true);
+            return;
+        }
+
         console.log(message);
-        renderProgress();
     };
 
     if (progressEnabled) {
-        renderProgress();
+        renderProgress(true);
     }
 
     for (const svgPath of svgFiles) {
@@ -453,7 +472,7 @@ async function convertSvgToPdf(sourceDirs, hasQpdf) {
         renderProgress();
     }
 
-    if (progressEnabled) {
+    if (progressMode === "interactive" && progressActive) {
         clearProgress();
         process.stdout.write("\n");
     }
