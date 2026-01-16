@@ -157,11 +157,7 @@ const BRANDS = {
         }
 
         const brands = resolveBrandSelection(options.brand);
-        const token =
-            options.token ||
-            process.env.FIGMA_TOKEN ||
-            process.env.FIGMA_PERSONAL_TOKEN ||
-            process.env.MISTICA_FIGMA_TOKEN;
+        const token = options.token || process.env.FIGMA_TOKEN;
 
         if (!token) {
             throw new Error(
