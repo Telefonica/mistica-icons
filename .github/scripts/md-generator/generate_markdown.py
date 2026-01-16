@@ -274,22 +274,7 @@ def main(root_folder):
     # Add documentation
     documentation = "![Mistica Icons](.github/resources/mistica-icons-light.svg#gh-light-mode-only)" + BREAK + "![Mistica Icons](.github/resources/mistica-icons-dark.svg#gh-dark-mode-only)" + BREAK + BREAK + "Mística Icons is a multibrand icon system that contains all icons that is working in [Mistica Design System](https://github.com/Telefonica/mistica) now.  " + BREAK + BREAK + "Mistica support [Brand Factory icons](https://brandfactory.telefonica.com/document/1086#/nuestra-identidad/iconos). This set of icons are a big list of different icons and style that Brand Team worked to be used through Telefonica applications." + BREAK + BREAK + "If you have any question, please you can ask directly in the app of Microsoft Teams, in [Mistica Team](https://teams.microsoft.com/l/team/19%3ad2e3607a32ec411b8bf492f43cd0fe0c%40thread.tacv2/conversations?groupId=e265fe99-929f-45d1-8154-699649674a40&tenantId=9744600e-3e04-492e-baa1-25ec245c6f10).  " + \
         BREAK + BREAK + "## Documentation" + BREAK + BREAK + "### Develop" + BREAK + BREAK + "#### iOS and Android" + BREAK + BREAK + "You can get .pdf or .svg files from this repo." + BREAK + BREAK + "#### Web" + BREAK + BREAK + \
-        "Visit [Mistica Storybook](https://mistica-web.vercel.app/?path=/story/icons-catalog--catalog) to get all the detail about using Mistica Icons Library" + BREAK + BREAK + "### Design" + BREAK + BREAK + "Use Mística icons library in Figma!" + BREAK + BREAK + \
-        "### Export icons locally" + BREAK + BREAK + \
-        "Run the same export pipeline used in CI locally with `npm run figma-export`, which executes [.github/scripts/figma-export-local.js](.github/scripts/figma-export-local.js)." + BREAK + BREAK + \
-        "1. Install the system tools (only once):" + BREAK + \
-        "   - macOS: `brew install librsvg exiftool qpdf`" + BREAK + \
-        "   - Ubuntu: `sudo apt-get install librsvg2-bin libimage-exiftool-perl qpdf`" + BREAK + \
-        "2. Install JS dependencies: `npm install`" + BREAK + \
-        "3. Provide your Figma personal token via `export FIGMA_TOKEN=xxxxx` (or pass `--token <value>` when running the command)." + BREAK + \
-        "4. Export the desired brand(s), for example `npm run figma-export -- --brand telefonica`." + BREAK + BREAK + \
-        "Notes:" + BREAK + BREAK + \
-        "- `--brand` accepts `telefonica`, `o2`, `o2-new`, `blau`, `vivo`, any comma-separated combination, or `all` (default)." + BREAK + \
-        "- Optional flags: `--skip-svgo`, `--skip-pdf`, `--skip-readme`." + BREAK + \
-        "- `npm run figma-export -- --help` prints the full list of options." + BREAK + \
-        "- Override default Figma files by exporting `TELEFONICA_FIGMA_ID`, `O2_FIGMA_ID`, `O2_NEW_FIGMA_ID`, `BLAU_FIGMA_ID`, or `VIVO_FIGMA_ID` before running the script." + BREAK + \
-        "- The script regenerates `README.md` and `ICON_TABLE.md` but leaves committing and pushing to you." + BREAK + \
-        "- Environment variables declared in a repo-level `.env` file are loaded automatically." + BREAK + BREAK
+        "Visit [Mistica Storybook](https://mistica-web.vercel.app/?path=/story/icons-catalog--catalog) to get all the detail about using Mistica Icons Library" + BREAK + BREAK + "### Design" + BREAK + BREAK + "Use Mística icons library in Figma!" + BREAK + BREAK
     readme_content += documentation + BREAK
     
     readme_content += "## Equivalence status\n\n"
@@ -338,4 +323,3 @@ def main(root_folder):
 if __name__ == "__main__":
     root_folder = "icons"
     main(root_folder)
-

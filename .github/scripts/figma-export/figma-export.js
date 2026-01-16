@@ -159,13 +159,16 @@ const BRANDS = {
         const brands = resolveBrandSelection(options.brand);
         const token = options.token || process.env.FIGMA_TOKEN;
 
-        if (!token) {
+        if (!options.skipExport && !token) {
             throw new Error(
                 "Missing FIGMA_TOKEN. Pass --token <value> or export FIGMA_TOKEN in your shell."
             );
         }
 
-        const template = await loadTemplate();
+        let template = null;
+        if (!options.skipExport) {
+            template = await loadTemplate();
+        }
         const generatedConfigFiles = new Set();
 
         console.log(
@@ -175,14 +178,18 @@ const BRANDS = {
         );
 
         try {
-            for (const brandKey of brands) {
-                await prepareConfigsForBrand(
-                    brandKey,
-                    token,
-                    template,
-                    generatedConfigFiles
-                );
-                await runExportsForBrand(brandKey);
+            if (!options.skipExport) {
+                for (const brandKey of brands) {
+                    await prepareConfigsForBrand(
+                        brandKey,
+                        token,
+                        template,
+                        generatedConfigFiles
+                    );
+                    await runExportsForBrand(brandKey);
+                }
+            } else {
+                console.log("Skipping Figma export step");
             }
 
             if (!options.skipSvgo) {
@@ -233,6 +240,7 @@ const BRANDS = {
 function parseArgs(argv) {
     const options = {
         brand: "all",
+        skipExport: false,
         skipSvgo: false,
         skipPdf: false,
         skipReadme: false,
@@ -259,6 +267,11 @@ function parseArgs(argv) {
             const { value, offset } = readOptionValue(arg, argv, i);
             options.token = value.trim();
             i += offset;
+            continue;
+        }
+
+        if (arg === "--skip-export") {
+            options.skipExport = true;
             continue;
         }
 
@@ -310,6 +323,7 @@ Options:
   --brand <name[,name,...]>   Brand(s) to export (${BRAND_ORDER.join(
       ", "
   )}, or "all")
+    --skip-export              Skip downloading from Figma (post-process only)
   --token <value>             Figma personal token (or set FIGMA_TOKEN)
   --skip-svgo                 Skip SVG optimization
   --skip-pdf                  Skip PDF generation
