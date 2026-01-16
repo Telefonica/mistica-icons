@@ -18,16 +18,18 @@ yarn figma-export [options] --token your_figma_token
 
 ## Flags
 
-| Flag                    | What it does                                                                                          | Example                                              |
-| ----------------------- | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| `--brand <value>`       | Restrict export to specific brands (`telefonica`, `o2`, `o2-new`, `blau`, `vivo`) or `all` (default). | `yarn figma-export --brand blau,o2`                  |
-| `--token <FIGMA_TOKEN>` | Provide a token explicitly instead of relying on `FIGMA_TOKEN` env/.env.                              | `yarn figma-export --token figd_xxx`                 |
-| `--skip-export`         | Skip the Figma download step and only run SVGO/PDF/README post-processing.                            | `yarn figma-export --skip-export --brand telefonica` |
-| `--skip-svgo`           | Skip SVGO optimization if you already processed SVGs.                                                 | `yarn figma-export --skip-svgo --brand vivo`         |
-| `--skip-pdf`            | Skip SVG→PDF conversion.                                                                              | `yarn figma-export --skip-pdf`                       |
-| `--skip-readme`         | Skip README/ICON_TABLE regeneration.                                                                  | `yarn figma-export --skip-readme`                    |
+| Flag                    | What it does                                                                                          | Example                              |
+| ----------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------ |
+| `--brand <value>`       | Restrict export to specific brands (`telefonica`, `o2`, `o2-new`, `blau`, `vivo`) or `all` (default). | `yarn figma-export --brand blau,o2`  |
+| `--token <FIGMA_TOKEN>` | Provide a token explicitly instead of relying on `FIGMA_TOKEN` env/.env.                              | `yarn figma-export --token figd_xxx` |
+| `--skip-export`         | Skip the Figma download step and only run SVGO/PDF/README post-processing.                            | `yarn figma-export --skip-export`    |
+| `--skip-svgo`           | Skip SVGO optimization if you already processed SVGs.                                                 | `yarn figma-export --skip-svgo`      |
+| `--skip-pdf`            | Skip SVG→PDF conversion.                                                                              | `yarn figma-export --skip-pdf`       |
+| `--skip-readme`         | Skip README/ICON_TABLE regeneration.                                                                  | `yarn figma-export --skip-readme`    |
 
 Run `yarn figma-export --help` for the complete option list.
+
+**Important:** Figma Token is mandatory to use export feature.
 
 ## What the script does
 
