@@ -16,7 +16,7 @@ const TEMPLATE_PATH = path.join(
 const ICONS_ROOT = path.join(ROOT, "icons");
 const README_GENERATOR_PATH = path.join(
     ROOT,
-    ".github/md-generator/generate_markdown.py"
+    ".github/scripts/md-generator/generate_markdown.py"
 );
 const BRAND_ORDER = ["telefonica", "o2", "o2-new", "blau", "vivo"];
 
@@ -495,6 +495,40 @@ async function convertSvgToPdf(sourceDirs, hasQpdf) {
     }
 
     let updatedCount = 0;
+    let processedCount = 0;
+    const total = svgFiles.length;
+    const progressEnabled = Boolean(process.stdout.isTTY) && total > 1;
+    let progressActive = false;
+
+    const clearProgress = () => {
+        if (!progressEnabled || !progressActive) {
+            return;
+        }
+        process.stdout.write("\r\x1B[K");
+        progressActive = false;
+    };
+
+    const renderProgress = () => {
+        if (!progressEnabled) {
+            return;
+        }
+        const percent = Math.floor((processedCount / total) * 100);
+        const width = 30;
+        const filled = Math.round((percent / 100) * width);
+        const bar = "#".repeat(filled).padEnd(width, "-");
+        process.stdout.write(`\r[${bar}] ${percent}% (${processedCount}/${total})`);
+        progressActive = true;
+    };
+
+    const logWithProgress = (message) => {
+        clearProgress();
+        console.log(message);
+        renderProgress();
+    };
+
+    if (progressEnabled) {
+        renderProgress();
+    }
 
     for (const svgPath of svgFiles) {
         const tmpDir = await fs.mkdtemp(
@@ -535,10 +569,18 @@ async function convertSvgToPdf(sourceDirs, hasQpdf) {
 
         if (changed) {
             updatedCount += 1;
-            console.log(`Updated ${path.relative(ROOT, targetPdf)}`);
+            logWithProgress(`Updated ${path.relative(ROOT, targetPdf)}`);
         }
 
         await fs.rm(tmpDir, { recursive: true, force: true });
+
+        processedCount += 1;
+        renderProgress();
+    }
+
+    if (progressEnabled) {
+        clearProgress();
+        process.stdout.write("\n");
     }
 
     if (!updatedCount) {
