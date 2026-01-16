@@ -1,9 +1,5 @@
 name: 🚀 Release (Figma)
 
-# push:
-#   paths:
-#     - ".github/workflows/figma-export.yml"
-
 on:
   workflow_dispatch:
     inputs:
@@ -30,11 +26,6 @@ on:
         required: false
 
 env:
-  TELEFONICA_FIGMA_ID: JXy7Y07eb0Axg0ThVRWKju
-  O2_FIGMA_ID: wHTqJ7KDhGKrNSNpmMb9nW
-  O2_NEW_FIGMA_ID: CjvgrHEIycSQ6exznxnFXT
-  BLAU_FIGMA_ID: czemeClWRGBI8oF7caNa5m
-  VIVO_FIGMA_ID: EApRpjaTyUOwW5VQU2ZqgP
   MISTICA_ICONS_FILE_URL: https://www.figma.com/design/JXy7Y07eb0Axg0ThVRWKju/Default-Icons-Set?node-id=0-71&t=1nybaZ1fzHqRq80C-1
   O2_FILE_URL: https://www.figma.com/file/wHTqJ7KDhGKrNSNpmMb9nW/?node-id=611%3A3298
   O2_NEW_FILE_URL: https://www.figma.com/design/CjvgrHEIycSQ6exznxnFXT/O2?m=auto&node-id=4-0&t=0HBFuR3VADUhh5Zr-1
@@ -42,657 +33,127 @@ env:
   VIVO_FILE_URL: https://www.figma.com/design/EApRpjaTyUOwW5VQU2ZqgP/Vivo?node-id=4-0&node-type=canvas&t=pnjxXOX7B7hd3BmJ-0
 
 jobs:
-  export-all:
-    if: ${{ github.event.inputs.brand == 'all' }}
+  export-icons:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      # - name: Get branch name
-      #   uses: rlespinasse/github-slug-action@v3.x
-
-      - name: Install packages
+      - name: Install SVG/PDF tooling
         run: |
-          npm install figma-export-icons --save
+          sudo apt-get update
           sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
+
+      - name: Ensure Yarn CLI is available
+        run: npm install -g yarn
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: yarn
+
+      - name: Install project dependencies
+        run: yarn install --frozen-lockfile
+
       - name: Checkout branch or create new one
+        env:
+          TARGET_BRANCH: ${{ github.event.inputs.branch || 'import-figma-icons' }}
         run: |
-          git fetch
-          # Check if remote branch exists using ls-remote (more reliable)
-          if git ls-remote --heads origin ${{github.event.inputs.branch}} | grep -q ${{github.event.inputs.branch}}; then
-              # Branch exists remotely, checkout the remote branch
-              git checkout ${{github.event.inputs.branch}}
+          git fetch origin "$TARGET_BRANCH" || true
+          git checkout -B "$TARGET_BRANCH"
+
+      - name: Run figma export
+        env:
+          FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
+          BRAND: ${{ github.event.inputs.brand }}
+        run: yarn figma-export -- --brand "$BRAND"
+
+      - name: Detect changes
+        id: changes
+        run: |
+          if git diff --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
           else
-              # Branch doesn't exist remotely, create new branch and push it
-              git checkout -b ${{github.event.inputs.branch}}
-              git push -u origin ${{github.event.inputs.branch}}
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
-      - name: Generate icon config
+
+      - name: Prepare PR metadata
+        if: ${{ steps.changes.outputs.changed == 'true' }}
+        id: pr
+        env:
+          BRAND: ${{ github.event.inputs.brand }}
+          BRANCH_NAME: ${{ github.event.inputs.branch || 'import-figma-icons' }}
+          REPO_SLUG: ${{ github.repository }}
+          DEFAULT_URL: ${{ env.MISTICA_ICONS_FILE_URL }}
+          O2_URL: ${{ env.O2_FILE_URL }}
+          O2_NEW_URL: ${{ env.O2_NEW_FILE_URL }}
+          BLAU_URL: ${{ env.BLAU_FILE_URL }}
+          VIVO_URL: ${{ env.VIVO_FILE_URL }}
         run: |
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.TELEFONICA_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/telefonica/filled|g' figma-export-icons.template.json > telefonica-filled.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.TELEFONICA_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/telefonica/regular|g' figma-export-icons.template.json > telefonica-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.TELEFONICA_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/telefonica/light|g' figma-export-icons.template.json > telefonica-light.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/o2/filled|g' figma-export-icons.template.json > o2-filled.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/o2/regular|g' figma-export-icons.template.json > o2-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/o2/light|g' figma-export-icons.template.json > o2-light.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_NEW_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/o2-new/filled|g' figma-export-icons.template.json > o2-new-filled.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_NEW_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/o2-new/regular|g' figma-export-icons.template.json > o2-new-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_NEW_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/o2-new/light|g' figma-export-icons.template.json > o2-new-light.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.BLAU_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/blau/regular|g' figma-export-icons.template.json > blau-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.BLAU_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/blau/filled|g' figma-export-icons.template.json > blau-filled.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.VIVO_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/vivo-new/filled|g' figma-export-icons.template.json > vivo-filled.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.VIVO_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/vivo-new/regular|g' figma-export-icons.template.json > vivo-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.VIVO_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/vivo-new/light|g' figma-export-icons.template.json > vivo-light.json
-      - name: Export icons
-        run: |
-          npm run export-telefonica-filled
-          npm run export-telefonica-regular
-          npm run export-telefonica-light
-          npm run export-o2-filled
-          npm run export-o2-regular
-          npm run export-o2-light
-          npm run export-o2-new-filled
-          npm run export-o2-new-regular
-          npm run export-o2-new-light
-          npm run export-blau-regular
-          npm run export-blau-filled
-          npm run export-vivo-filled
-          npm run export-vivo-regular
-          npm run export-vivo-light
-      - name: Install SVGO & convert
-        run: |
-          yarn global add svgo
-          svgo -f icons -r -o icons
+          case "$BRAND" in
+            all)
+              TITLE="Update Figma icons"
+              BODY="New version of icons exported from [Mistica Icons]($DEFAULT_URL), [O2]($O2_URL), [O2-new]($O2_NEW_URL), [Blau]($BLAU_URL) & [Vivo]($VIVO_URL)
+              - [ ] [Review icon table in $BRANCH_NAME](https://github.com/$REPO_SLUG/tree/$BRANCH_NAME/ICON_TABLE.md)"
+              ;;
+            telefonica)
+              TITLE="Update Mística icons"
+              BODY="New version of icons exported from [Mistica Icons]($DEFAULT_URL)
+              - [ ] [Review icon table in $BRANCH_NAME](https://github.com/$REPO_SLUG/tree/$BRANCH_NAME/ICON_TABLE.md)"
+              ;;
+            o2)
+              TITLE="Update O2 icons"
+              BODY="New version of icons exported from [O2]($O2_URL)
+              - [ ] [Review icon table in $BRANCH_NAME](https://github.com/$REPO_SLUG/tree/$BRANCH_NAME/ICON_TABLE.md)"
+              ;;
+            o2-new)
+              TITLE="Update O2-new icons"
+              BODY="New version of icons exported from [O2-new]($O2_NEW_URL)
+              - [ ] [Review icon table in $BRANCH_NAME](https://github.com/$REPO_SLUG/tree/$BRANCH_NAME/ICON_TABLE.md)"
+              ;;
+            blau)
+              TITLE="Update Blau icons"
+              BODY="New version of icons exported from [Blau]($BLAU_URL)
+              - [ ] [Review icon table in $BRANCH_NAME](https://github.com/$REPO_SLUG/tree/$BRANCH_NAME/ICON_TABLE.md)"
+              ;;
+            vivo)
+              TITLE="Update Vivo icons"
+              BODY="New version of icons exported from [Vivo]($VIVO_URL)
+              - [ ] [Review icon table in $BRANCH_NAME](https://github.com/$REPO_SLUG/tree/$BRANCH_NAME/ICON_TABLE.md)"
+              ;;
+            *)
+              TITLE="Update icons"
+              BODY="New icons exported.
+              - [ ] [Review icon table in $BRANCH_NAME](https://github.com/$REPO_SLUG/tree/$BRANCH_NAME/ICON_TABLE.md)"
+              ;;
+          esac
 
-      - name: Convert to PDF
-        shell: bash
-        run: |
-          # 1. Instalación silenciosa de dependencias
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq libimage-exiftool-perl librsvg2-bin qpdf > /dev/null
-
-          echo "Iniciando conversión de SVGs..."
-          export SOURCE_DATE_EPOCH=0
-
-          # 2. Procesamiento directo para evitar errores de script externo
-          # Usamos un bucle simple que ignora errores de qpdf
-          find icons -type f -name "*.svg" -print0 | while IFS= read -r -d '' svg; do
-            target="${svg%.*}.pdf"
-            tmp_pdf=$(mktemp)
-            
-            echo "Procesando: $svg"
-
-            # Conversión
-            rsvg-convert -f pdf -o "$tmp_pdf" "$svg"
-
-            # Limpieza de metadatos (silenciosa)
-            exiftool -all:all= -overwrite_original "$tmp_pdf" > /dev/null 2>&1
-
-            # QPDF: Forzamos éxito con '|| true' y ocultamos salida para evitar avisos en el log
-            # Esto evita el Error 3 que detenía tu Action
-            qpdf --replace-input --deterministic-id --object-streams=preserve --stream-data=preserve "$tmp_pdf" > /dev/null 2>&1 || true
-
-            # Timestamp fijo para evitar cambios innecesarios en Git
-            touch -t 197001010000.00 "$tmp_pdf"
-
-            # Solo sobreescribir si el PDF ha cambiado realmente
-            if [[ -f "$target" ]] && cmp -s "$tmp_pdf" "$target"; then
-              rm "$tmp_pdf"
-            else
-              mv "$tmp_pdf" "$target"
-              echo "Archivo actualizado: $target"
-            fi
-          done
-
-          echo "¡Proceso finalizado con éxito!"
-      - name: Readme generator
-        run: sudo python3 .github/md-generator/generate_markdown.py icons
+          echo "title=$TITLE" >> "$GITHUB_OUTPUT"
+          {
+            echo "body<<EOF"
+            echo "$BODY"
+            echo "EOF"
+          } >> "$GITHUB_OUTPUT"
 
       - name: Commit & Push
+        if: ${{ steps.changes.outputs.changed == 'true' }}
         env:
           GITHUB_TOKEN: ${{ secrets.NOVUM_PRIVATE_REPOS }}
+          TARGET_BRANCH: ${{ github.event.inputs.branch || 'import-figma-icons' }}
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "Figma icons updated"
-          git push origin ${{github.event.inputs.branch}}
+          git push --force-with-lease origin "$TARGET_BRANCH"
+
       - name: Create Pull-Request
+        if: ${{ steps.changes.outputs.changed == 'true' }}
         uses: repo-sync/pull-request@v2
         with:
-          source_branch: ${{github.event.inputs.branch}}
-          destination_branch: "production"
-          pr_title: "Update Figma icons"
-          pr_body: "
-            New version of icons exported from [Mistica Icons](${{env.MISTICA_ICONS_FILE_URL}}), [O2](${{env.O2_FILE_URL}}), [O2-new](${{env.O2_NEW_FILE_URL}}), [Blau](${{env.BLAU_FILE_URL}}) & [Vivo](${{env.VIVO_FILE_URL}}) \n
-            - [ ] [Review icon table in ${{github.event.inputs.branch}}](https://github.com/Telefonica/mistica-icons/tree/${{github.event.inputs.branch}})"
+          source_branch: ${{ github.event.inputs.branch || 'import-figma-icons' }}
+          destination_branch: production
+          pr_title: ${{ steps.pr.outputs.title }}
+          pr_body: ${{ steps.pr.outputs.body }}
           pr_draft: ${{ github.event.inputs.draft }}
           github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
-
-  export-telefonica:
-    if: ${{ github.event.inputs.brand == 'telefonica' }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-
-      # - name: Get branch name
-      #   uses: rlespinasse/github-slug-action@v3.x
-
-      - name: Install packages
-        run: |
-          npm install figma-export-icons --save
-          sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
-      - name: Checkout branch or create new one
-        run: |
-          git fetch
-          # Check if remote branch exists using ls-remote (more reliable)
-          if git ls-remote --heads origin ${{github.event.inputs.branch}} | grep -q ${{github.event.inputs.branch}}; then
-              # Branch exists remotely, checkout the remote branch
-              git checkout ${{github.event.inputs.branch}}
-          else
-              # Branch doesn't exist remotely, create new branch and push it
-              git checkout -b ${{github.event.inputs.branch}}
-              git push -u origin ${{github.event.inputs.branch}}
-          fi
-      - name: Generate icon config
-        run: |
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.TELEFONICA_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/telefonica/filled|g' figma-export-icons.template.json > telefonica-filled.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.TELEFONICA_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/telefonica/regular|g' figma-export-icons.template.json > telefonica-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.TELEFONICA_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/telefonica/light|g' figma-export-icons.template.json > telefonica-light.json
-      - name: Export icons
-        run: |
-          npm run export-telefonica-filled
-          npm run export-telefonica-regular
-          npm run export-telefonica-light
-      - name: Install SVGO & convert
-        run: |
-          yarn global add svgo
-          svgo -f icons/telefonica -r -o icons/telefonica
-      - name: Convert to PDF
-        shell: bash
-        run: |
-          # 1. Instalación silenciosa de dependencias
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq libimage-exiftool-perl librsvg2-bin qpdf > /dev/null
-
-          echo "Iniciando conversión de SVGs..."
-          export SOURCE_DATE_EPOCH=0
-
-          # 2. Procesamiento directo para evitar errores de script externo
-          # Usamos un bucle simple que ignora errores de qpdf
-          find icons -type f -name "*.svg" -print0 | while IFS= read -r -d '' svg; do
-            target="${svg%.*}.pdf"
-            tmp_pdf=$(mktemp)
-            
-            echo "Procesando: $svg"
-
-            # Conversión
-            rsvg-convert -f pdf -o "$tmp_pdf" "$svg"
-
-            # Limpieza de metadatos (silenciosa)
-            exiftool -all:all= -overwrite_original "$tmp_pdf" > /dev/null 2>&1
-
-            # QPDF: Forzamos éxito con '|| true' y ocultamos salida para evitar avisos en el log
-            # Esto evita el Error 3 que detenía tu Action
-            qpdf --replace-input --deterministic-id --object-streams=preserve --stream-data=preserve "$tmp_pdf" > /dev/null 2>&1 || true
-
-            # Timestamp fijo para evitar cambios innecesarios en Git
-            touch -t 197001010000.00 "$tmp_pdf"
-
-            # Solo sobreescribir si el PDF ha cambiado realmente
-            if [[ -f "$target" ]] && cmp -s "$tmp_pdf" "$target"; then
-              rm "$tmp_pdf"
-            else
-              mv "$tmp_pdf" "$target"
-              echo "Archivo actualizado: $target"
-            fi
-          done
-
-          echo "¡Proceso finalizado con éxito!"
-
-      - name: Readme generator
-        run: sudo python3 .github/md-generator/generate_markdown.py icons
-
-      - name: Commit & Push
-        env:
-          GITHUB_TOKEN: ${{ secrets.NOVUM_PRIVATE_REPOS }}
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "Figma icons updated"
-          git push origin ${{github.event.inputs.branch}}
-      - name: Create Pull-Request
-        uses: repo-sync/pull-request@v2
-        with:
-          source_branch: ${{github.event.inputs.branch}}
-          destination_branch: "production"
-          pr_title: "Update Mística icons"
-          pr_body: "
-            New version of icons exported from [Mistica Icons](${{env.MISTICA_ICONS_FILE_URL}}) \n
-            - [ ] [Review icon table in ${{github.event.inputs.branch}}](https://github.com/Telefonica/mistica-icons/tree/${{github.event.inputs.branch}})"
-          pr_draft: ${{ github.event.inputs.draft }}
-          github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
-
-  export-o2:
-    if: ${{ github.event.inputs.brand == 'o2' }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-
-      # - name: Get branch name
-      #   uses: rlespinasse/github-slug-action@v3.x
-
-      - name: Install packages
-        run: |
-          npm install figma-export-icons --save
-          sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
-      - name: Checkout branch or create new one
-        run: |
-          git fetch
-          # Check if remote branch exists using ls-remote (more reliable)
-          if git ls-remote --heads origin ${{github.event.inputs.branch}} | grep -q ${{github.event.inputs.branch}}; then
-              # Branch exists remotely, checkout the remote branch
-              git checkout ${{github.event.inputs.branch}}
-          else
-              # Branch doesn't exist remotely, create new branch and push it
-              git checkout -b ${{github.event.inputs.branch}}
-              git push -u origin ${{github.event.inputs.branch}}
-          fi
-      - name: Generate icon config
-        run: |
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/o2/filled|g' figma-export-icons.template.json > o2-filled.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/o2/regular|g' figma-export-icons.template.json > o2-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/o2/light|g' figma-export-icons.template.json > o2-light.json
-      - name: Export icons
-        run: |
-          npm run export-o2-filled
-          npm run export-o2-regular
-          npm run export-o2-light
-      - name: Install SVGO & convert
-        run: |
-          yarn global add svgo
-          svgo -f icons/o2 -r -o icons/o2
-      - name: Convert to PDF
-        shell: bash
-        run: |
-          # 1. Instalación silenciosa de dependencias
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq libimage-exiftool-perl librsvg2-bin qpdf > /dev/null
-
-          echo "Iniciando conversión de SVGs..."
-          export SOURCE_DATE_EPOCH=0
-
-          # 2. Procesamiento directo para evitar errores de script externo
-          # Usamos un bucle simple que ignora errores de qpdf
-          find icons -type f -name "*.svg" -print0 | while IFS= read -r -d '' svg; do
-            target="${svg%.*}.pdf"
-            tmp_pdf=$(mktemp)
-            
-            echo "Procesando: $svg"
-
-            # Conversión
-            rsvg-convert -f pdf -o "$tmp_pdf" "$svg"
-
-            # Limpieza de metadatos (silenciosa)
-            exiftool -all:all= -overwrite_original "$tmp_pdf" > /dev/null 2>&1
-
-            # QPDF: Forzamos éxito con '|| true' y ocultamos salida para evitar avisos en el log
-            # Esto evita el Error 3 que detenía tu Action
-            qpdf --replace-input --deterministic-id --object-streams=preserve --stream-data=preserve "$tmp_pdf" > /dev/null 2>&1 || true
-
-            # Timestamp fijo para evitar cambios innecesarios en Git
-            touch -t 197001010000.00 "$tmp_pdf"
-
-            # Solo sobreescribir si el PDF ha cambiado realmente
-            if [[ -f "$target" ]] && cmp -s "$tmp_pdf" "$target"; then
-              rm "$tmp_pdf"
-            else
-              mv "$tmp_pdf" "$target"
-              echo "Archivo actualizado: $target"
-            fi
-          done
-
-          echo "¡Proceso finalizado con éxito!"
-
-      - name: Readme generator
-        run: sudo python3 .github/md-generator/generate_markdown.py icons
-
-      - name: Commit & Push
-        env:
-          GITHUB_TOKEN: ${{ secrets.NOVUM_PRIVATE_REPOS }}
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "Figma icons updated"
-          git push origin ${{github.event.inputs.branch}}
-      - name: Create Pull-Request
-        uses: repo-sync/pull-request@v2
-        with:
-          source_branch: ${{github.event.inputs.branch}}
-          destination_branch: "production"
-          pr_title: "Update O2 icons"
-          pr_body: "
-            New version of icons exported from [O2](${{env.O2_FILE_URL}}) \n
-            - [ ] [Review icon table in ${{github.event.inputs.branch}}](https://github.com/Telefonica/mistica-icons/tree/${{github.event.inputs.branch}})"
-          pr_draft: ${{ github.event.inputs.draft }}
-          github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
-
-  export-o2-new:
-    if: ${{ github.event.inputs.brand == 'o2-new' }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-
-      # - name: Get branch name
-      #   uses: rlespinasse/github-slug-action@v3.x
-
-      - name: Install packages
-        run: |
-          npm install figma-export-icons --save
-          sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
-      - name: Checkout branch or create new one
-        run: |
-          git fetch
-          # Check if remote branch exists using ls-remote (more reliable)
-          if git ls-remote --heads origin ${{github.event.inputs.branch}} | grep -q ${{github.event.inputs.branch}}; then
-              # Branch exists remotely, checkout the remote branch
-              git checkout ${{github.event.inputs.branch}}
-          else
-              # Branch doesn't exist remotely, create new branch and push it
-              git checkout -b ${{github.event.inputs.branch}}
-              git push -u origin ${{github.event.inputs.branch}}
-          fi
-      - name: Generate icon config
-        run: |
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_NEW_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/o2-new/filled|g' figma-export-icons.template.json > o2-new-filled.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_NEW_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/o2-new/regular|g' figma-export-icons.template.json > o2-new-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.O2_NEW_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/o2-new/light|g' figma-export-icons.template.json > o2-new-light.json
-      - name: Export icons
-        run: |
-          npm run export-o2-new-filled
-          npm run export-o2-new-regular
-          npm run export-o2-new-light
-      - name: Install SVGO & convert
-        run: |
-          yarn global add svgo
-          svgo -f icons/o2-new -r -o icons/o2-new
-      - name: Convert to PDF
-        shell: bash
-        run: |
-          # 1. Instalación silenciosa de dependencias
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq libimage-exiftool-perl librsvg2-bin qpdf > /dev/null
-
-          echo "Iniciando conversión de SVGs..."
-          export SOURCE_DATE_EPOCH=0
-
-          # 2. Procesamiento directo para evitar errores de script externo
-          # Usamos un bucle simple que ignora errores de qpdf
-          find icons -type f -name "*.svg" -print0 | while IFS= read -r -d '' svg; do
-            target="${svg%.*}.pdf"
-            tmp_pdf=$(mktemp)
-            
-            echo "Procesando: $svg"
-
-            # Conversión
-            rsvg-convert -f pdf -o "$tmp_pdf" "$svg"
-
-            # Limpieza de metadatos (silenciosa)
-            exiftool -all:all= -overwrite_original "$tmp_pdf" > /dev/null 2>&1
-
-            # QPDF: Forzamos éxito con '|| true' y ocultamos salida para evitar avisos en el log
-            # Esto evita el Error 3 que detenía tu Action
-            qpdf --replace-input --deterministic-id --object-streams=preserve --stream-data=preserve "$tmp_pdf" > /dev/null 2>&1 || true
-
-            # Timestamp fijo para evitar cambios innecesarios en Git
-            touch -t 197001010000.00 "$tmp_pdf"
-
-            # Solo sobreescribir si el PDF ha cambiado realmente
-            if [[ -f "$target" ]] && cmp -s "$tmp_pdf" "$target"; then
-              rm "$tmp_pdf"
-            else
-              mv "$tmp_pdf" "$target"
-              echo "Archivo actualizado: $target"
-            fi
-          done
-
-          echo "¡Proceso finalizado con éxito!"
-      - name: Readme generator
-        run: sudo python3 .github/md-generator/generate_markdown.py icons
-
-      - name: Commit & Push
-        env:
-          GITHUB_TOKEN: ${{ secrets.NOVUM_PRIVATE_REPOS }}
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "Figma icons updated"
-          git push origin ${{github.event.inputs.branch}}
-      - name: Create Pull-Request
-        uses: repo-sync/pull-request@v2
-        with:
-          source_branch: ${{github.event.inputs.branch}}
-          destination_branch: "production"
-          pr_title: "Update O2-new icons"
-          pr_body: "
-            New version of icons exported from [O2-new](${{env.O2_FILE_URL}}) \n
-            - [ ] [Review icon table in ${{github.event.inputs.branch}}](https://github.com/Telefonica/mistica-icons/tree/${{github.event.inputs.branch}})"
-          pr_draft: ${{ github.event.inputs.draft }}
-          github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
-
-  export-blau:
-    if: ${{ github.event.inputs.brand == 'blau' }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-
-      # - name: Get branch name
-      #   uses: rlespinasse/github-slug-action@v3.x
-
-      - name: Install packages
-        run: |
-          npm install figma-export-icons --save
-          sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
-      - name: Checkout branch or create new one
-        run: |
-          git fetch
-          # Check if remote branch exists using ls-remote (more reliable)
-          if git ls-remote --heads origin ${{github.event.inputs.branch}} | grep -q ${{github.event.inputs.branch}}; then
-              # Branch exists remotely, checkout the remote branch
-              git checkout ${{github.event.inputs.branch}}
-          else
-              # Branch doesn't exist remotely, create new branch and push it
-              git checkout -b ${{github.event.inputs.branch}}
-              git push -u origin ${{github.event.inputs.branch}}
-          fi
-      - name: Generate icon config
-        run: |
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.BLAU_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/blau/regular|g' figma-export-icons.template.json > blau-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.BLAU_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/blau/filled|g' figma-export-icons.template.json > blau-filled.json
-      - name: Export icons
-        run: |
-          npm run export-blau-regular
-          npm run export-blau-filled
-      - name: Install SVGO & convert
-        run: |
-          yarn global add svgo
-          svgo -f icons/blau -r -o icons/blau
-      - name: Convert to PDF
-        shell: bash
-        run: |
-          # 1. Instalación silenciosa de dependencias
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq libimage-exiftool-perl librsvg2-bin qpdf > /dev/null
-
-          echo "Iniciando conversión de SVGs..."
-          export SOURCE_DATE_EPOCH=0
-
-          # 2. Procesamiento directo para evitar errores de script externo
-          # Usamos un bucle simple que ignora errores de qpdf
-          find icons -type f -name "*.svg" -print0 | while IFS= read -r -d '' svg; do
-            target="${svg%.*}.pdf"
-            tmp_pdf=$(mktemp)
-            
-            echo "Procesando: $svg"
-
-            # Conversión
-            rsvg-convert -f pdf -o "$tmp_pdf" "$svg"
-
-            # Limpieza de metadatos (silenciosa)
-            exiftool -all:all= -overwrite_original "$tmp_pdf" > /dev/null 2>&1
-
-            # QPDF: Forzamos éxito con '|| true' y ocultamos salida para evitar avisos en el log
-            # Esto evita el Error 3 que detenía tu Action
-            qpdf --replace-input --deterministic-id --object-streams=preserve --stream-data=preserve "$tmp_pdf" > /dev/null 2>&1 || true
-
-            # Timestamp fijo para evitar cambios innecesarios en Git
-            touch -t 197001010000.00 "$tmp_pdf"
-
-            # Solo sobreescribir si el PDF ha cambiado realmente
-            if [[ -f "$target" ]] && cmp -s "$tmp_pdf" "$target"; then
-              rm "$tmp_pdf"
-            else
-              mv "$tmp_pdf" "$target"
-              echo "Archivo actualizado: $target"
-            fi
-          done
-
-          echo "¡Proceso finalizado con éxito!"
-
-      - name: Readme generator
-        run: sudo python3 .github/md-generator/generate_markdown.py icons
-
-      - name: Commit & Push
-        env:
-          GITHUB_TOKEN: ${{ secrets.NOVUM_PRIVATE_REPOS }}
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "Figma icons updated"
-          git push origin ${{github.event.inputs.branch}}
-      - name: Create Pull-Request
-        uses: repo-sync/pull-request@v2
-        with:
-          source_branch: ${{github.event.inputs.branch}}
-          destination_branch: "production"
-          pr_title: "Update Blau icons"
-          pr_body: "
-            New version of icons exported from [Blau](${{env.BLAU_FILE_URL}}) \n
-            - [ ] [Review icon table in ${{github.event.inputs.branch}}](https://github.com/Telefonica/mistica-icons/tree/${{github.event.inputs.branch}})"
-          pr_draft: ${{ github.event.inputs.draft }}
-          github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
-
-  export-vivo:
-    if: ${{ github.event.inputs.brand == 'vivo' }}
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-
-      # - name: Get branch name
-      #   uses: rlespinasse/github-slug-action@v3.x
-
-      - name: Install packages
-        run: |
-          npm install figma-export-icons --save
-          sudo apt-get install -y librsvg2-bin libimage-exiftool-perl qpdf
-      - name: Checkout branch or create new one
-        run: |
-          git fetch
-          # Check if remote branch exists using ls-remote (more reliable)
-          if git ls-remote --heads origin ${{github.event.inputs.branch}} | grep -q ${{github.event.inputs.branch}}; then
-              # Branch exists remotely, checkout the remote branch
-              git checkout ${{github.event.inputs.branch}}
-          else
-              # Branch doesn't exist remotely, create new branch and push it
-              git checkout -b ${{github.event.inputs.branch}}
-              git push -u origin ${{github.event.inputs.branch}}
-          fi
-      - name: Generate icon config
-        run: |
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.VIVO_FIGMA_ID}}/' -e 's/ICON_FRAME/Filled/' -e 's|ICON_PATH|icons/vivo-new/filled|g' figma-export-icons.template.json > vivo-filled.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.VIVO_FIGMA_ID}}/' -e 's/ICON_FRAME/Regular/' -e 's|ICON_PATH|icons/vivo-new/regular|g' figma-export-icons.template.json > vivo-regular.json
-          sed -e 's/YOUR_PERSONAL_TOKEN/${{secrets.FIGMA_TOKEN}}/' -e 's/FILE_ID/${{env.VIVO_FIGMA_ID}}/' -e 's/ICON_FRAME/Light/' -e 's|ICON_PATH|icons/vivo-new/light|g' figma-export-icons.template.json > vivo-light.json
-      - name: Export icons
-        run: |
-          npm run export-vivo-filled
-          npm run export-vivo-regular
-          npm run export-vivo-light
-      - name: Install SVGO & convert
-        run: |
-          yarn global add svgo
-          svgo -f icons/vivo-new -r -o icons/vivo-new
-      - name: Convert to PDF
-        shell: bash
-        run: |
-          # 1. Instalación silenciosa de dependencias
-          sudo apt-get update -qq
-          sudo apt-get install -y -qq libimage-exiftool-perl librsvg2-bin qpdf > /dev/null
-
-          echo "Iniciando conversión de SVGs..."
-          export SOURCE_DATE_EPOCH=0
-
-          # 2. Procesamiento directo para evitar errores de script externo
-          # Usamos un bucle simple que ignora errores de qpdf
-          find icons -type f -name "*.svg" -print0 | while IFS= read -r -d '' svg; do
-            target="${svg%.*}.pdf"
-            tmp_pdf=$(mktemp)
-            
-            echo "Procesando: $svg"
-
-            # Conversión
-            rsvg-convert -f pdf -o "$tmp_pdf" "$svg"
-
-            # Limpieza de metadatos (silenciosa)
-            exiftool -all:all= -overwrite_original "$tmp_pdf" > /dev/null 2>&1
-
-            # QPDF: Forzamos éxito con '|| true' y ocultamos salida para evitar avisos en el log
-            # Esto evita el Error 3 que detenía tu Action
-            qpdf --replace-input --deterministic-id --object-streams=preserve --stream-data=preserve "$tmp_pdf" > /dev/null 2>&1 || true
-
-            # Timestamp fijo para evitar cambios innecesarios en Git
-            touch -t 197001010000.00 "$tmp_pdf"
-
-            # Solo sobreescribir si el PDF ha cambiado realmente
-            if [[ -f "$target" ]] && cmp -s "$tmp_pdf" "$target"; then
-              rm "$tmp_pdf"
-            else
-              mv "$tmp_pdf" "$target"
-              echo "Archivo actualizado: $target"
-            fi
-          done
-
-          echo "¡Proceso finalizado con éxito!"
-      - name: Readme generator
-        run: sudo python3 .github/md-generator/generate_markdown.py icons
-
-      - name: Commit & Push
-        env:
-          GITHUB_TOKEN: ${{ secrets.NOVUM_PRIVATE_REPOS }}
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add .
-          git commit -m "Figma icons updated"
-          git push origin ${{github.event.inputs.branch}}
-      - name: Create Pull-Request
-        uses: repo-sync/pull-request@v2
-        with:
-          source_branch: ${{github.event.inputs.branch}}
-          destination_branch: "production"
-          pr_title: "Update Vivo icons"
-          pr_body: "
-            New version of icons exported from [Vivo](${{env.VIVO_FILE_URL}}) \n
-            - [ ] [Review icon table in ${{github.event.inputs.branch}}](https://github.com/Telefonica/mistica-icons/tree/${{github.event.inputs.branch}})"
-          pr_draft: ${{ github.event.inputs.draft }}
-          github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
-# pr_body: "
-#             New version of icons exported from [Mistica Icons][mistica-icons] & [O2][o2-icons] n\
-#             - [ ] [Review icon table in ${{github.event.inputs.branch}}][readme] n\
-
-#             [mistica-icons]: https://www.figma.com/file/${{env.TELEFONICA_FIGMA_ID}}/Mistica'-Icons?node-id=0%3A71 n\
-#             [o2-icons]: https://www.figma.com/file/${{env.O2_FIGMA_ID}}/?node-id=611%3A3298 n\
-#             [readme]: https://github.com/Telefonica/mistica-icons/tree/${{github.event.inputs.branch}}"
