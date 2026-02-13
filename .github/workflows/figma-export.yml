@@ -1,5 +1,9 @@
 name: 🚀 Release (Figma)
 
+permissions:
+  contents: write
+  pull-requests: write
+
 on:
   workflow_dispatch:
     inputs:
@@ -36,7 +40,9 @@ jobs:
   export-icons:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
 
       - name: Install SVG/PDF tooling
         run: |
@@ -138,7 +144,7 @@ jobs:
       - name: Commit & Push
         if: ${{ steps.changes.outputs.changed == 'true' }}
         env:
-          GITHUB_TOKEN: ${{ secrets.NOVUM_PRIVATE_REPOS }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TARGET_BRANCH: ${{ github.event.inputs.branch || 'import-figma-icons' }}
         run: |
           git config user.name "github-actions"
@@ -156,4 +162,4 @@ jobs:
           pr_title: ${{ steps.pr.outputs.title }}
           pr_body: ${{ steps.pr.outputs.body }}
           pr_draft: ${{ github.event.inputs.draft }}
-          github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}

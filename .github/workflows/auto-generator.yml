@@ -1,5 +1,8 @@
 name: Readme Generator
 
+permissions:
+  contents: write
+
 on:
   workflow_dispatch:
   push:
@@ -20,7 +23,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
 
       - name: Get branch name
         uses: rlespinasse/github-slug-action@v3.x

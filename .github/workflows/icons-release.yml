@@ -1,5 +1,8 @@
 name: Publish Release
 
+permissions:
+  contents: write
+
 on:
   pull_request:
     types: [closed]
@@ -14,7 +17,9 @@ jobs:
     if: github.event.pull_request.merged
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
       - name: Create a Release
         uses: elgohr/Github-Release-Action@v4
         env:
