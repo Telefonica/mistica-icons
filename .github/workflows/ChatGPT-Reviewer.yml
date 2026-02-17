@@ -13,6 +13,8 @@ concurrency:
 
 jobs:
   chatgpt:
+    # Only run on PRs from the same repository, not from forks (protects OPENAI_API_KEY)
+    if: github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     steps:
       - uses: platisd/openai-pr-description@master

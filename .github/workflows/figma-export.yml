@@ -39,7 +39,24 @@ env:
 jobs:
   export-icons:
     runs-on: ubuntu-latest
+    environment:
+      name: figma-import
     steps:
+      - name: Validate inputs
+        id: inputs
+        env:
+          INPUT_BRANCH: ${{ github.event.inputs.branch || 'import-figma-icons' }}
+        run: |
+          # Validate branch: only alphanumeric, hyphens, slashes, dots and underscores
+          if ! printf '%s' "$INPUT_BRANCH" | grep -Eq '^[a-zA-Z0-9/_.-]+$'; then
+            echo "❌ Invalid branch name: $INPUT_BRANCH"
+            echo "Only alphanumeric, hyphens, slashes, dots and underscores allowed"
+            exit 1
+          fi
+
+          echo "✅ Valid branch: $INPUT_BRANCH"
+          echo "branch=$INPUT_BRANCH" >> "$GITHUB_OUTPUT"
+
       - uses: actions/checkout@v6
         with:
           persist-credentials: false
@@ -63,8 +80,9 @@ jobs:
 
       - name: Checkout branch or create new one
         env:
-          TARGET_BRANCH: ${{ github.event.inputs.branch || 'import-figma-icons' }}
+          TARGET_BRANCH: ${{ steps.inputs.outputs.branch }}
         run: |
+          # Use validated branch variable
           git fetch origin "$TARGET_BRANCH" || true
           git checkout -B "$TARGET_BRANCH"
 
@@ -72,7 +90,9 @@ jobs:
         env:
           FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
           BRAND: ${{ github.event.inputs.brand }}
-        run: yarn figma-export -- --brand "$BRAND"
+        run: |
+          # Brand is safe (validated by type: choice)
+          yarn figma-export -- --brand "$BRAND"
 
       - name: Detect changes
         id: changes
@@ -88,7 +108,7 @@ jobs:
         id: pr
         env:
           BRAND: ${{ github.event.inputs.brand }}
-          BRANCH_NAME: ${{ github.event.inputs.branch || 'import-figma-icons' }}
+          BRANCH_NAME: ${{ steps.inputs.outputs.branch }}
           REPO_SLUG: ${{ github.repository }}
           DEFAULT_URL: ${{ env.MISTICA_ICONS_FILE_URL }}
           O2_URL: ${{ env.O2_FILE_URL }}
@@ -96,6 +116,7 @@ jobs:
           BLAU_URL: ${{ env.BLAU_FILE_URL }}
           VIVO_URL: ${{ env.VIVO_FILE_URL }}
         run: |
+          # Use validated variables
           case "$BRAND" in
             all)
               TITLE="Update Figma icons"
@@ -145,19 +166,20 @@ jobs:
         if: ${{ steps.changes.outputs.changed == 'true' }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          TARGET_BRANCH: ${{ github.event.inputs.branch || 'import-figma-icons' }}
+          TARGET_BRANCH: ${{ steps.inputs.outputs.branch }}
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add .
           git commit -m "Figma icons updated"
+          # Use validated branch variable
           git push --force-with-lease origin "$TARGET_BRANCH"
 
       - name: Create Pull-Request
         if: ${{ steps.changes.outputs.changed == 'true' }}
         uses: repo-sync/pull-request@v2
         with:
-          source_branch: ${{ github.event.inputs.branch || 'import-figma-icons' }}
+          source_branch: ${{ steps.inputs.outputs.branch }}
           destination_branch: production
           pr_title: ${{ steps.pr.outputs.title }}
           pr_body: ${{ steps.pr.outputs.body }}
