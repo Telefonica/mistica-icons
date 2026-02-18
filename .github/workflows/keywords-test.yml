@@ -212,7 +212,7 @@ jobs:
 
       - name: Commit & Push
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN_MISTICA }}
           HEAD_REF: ${{ steps.validate_ref.outputs.ref }}
         run: |
           # Configure git credentials using GITHUB_TOKEN
