@@ -165,7 +165,7 @@ jobs:
       - name: Commit & Push
         if: ${{ steps.changes.outputs.changed == 'true' }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN_MISTICA }}
           TARGET_BRANCH: ${{ steps.inputs.outputs.branch }}
         run: |
           # Configure git credentials using GITHUB_TOKEN
@@ -187,4 +187,4 @@ jobs:
           pr_title: ${{ steps.pr.outputs.title }}
           pr_body: ${{ steps.pr.outputs.body }}
           pr_draft: ${{ github.event.inputs.draft }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GH_TOKEN_MISTICA }}
