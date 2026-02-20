@@ -13,11 +13,13 @@ concurrency:
 
 jobs:
   chatgpt:
+    # Only run on PRs from the same repository, not from forks (protects OPENAI_API_KEY)
+    if: github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     steps:
       - uses: platisd/openai-pr-description@master
         with:
-          github_token: ${{ secrets.NOVUM_PRIVATE_REPOS }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           openai_api_key: ${{ secrets.OPENAI_API_KEY }}
           sample_prompt: |
             You are a design system designer and your function is create a table with all the changes for a GitHub Pull Request in Markdown format.
