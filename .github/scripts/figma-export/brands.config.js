@@ -1,10 +1,9 @@
-// Vivo Brand is disabled for now until the next major version in mistica-web
-
 const BRAND_ORDER = [
     "telefonica",
     "o2",
     "o2-new",
     "blau",
+    // Vivo brand is disabled for now until the next major version in mistica-web to avoid replace the current vivo icons with the new default icon set until new vivo icons set is ready.
     // "vivo",
 ];
 
