@@ -3,7 +3,7 @@ const BRAND_ORDER = [
     "o2",
     "o2-new",
     "blau",
-    // "vivo", this brand is disabled for now until the next major version in mistica-web to avoid replace the current vivo icons with the new ones, which have a different design and could cause confusion for users
+    // "vivo", this brand is disabled for now until the next major version in mistica-web to avoid replace the current vivo icons with the new default icon set until new vivo icons set is ready.
 ];
 
 const BRANDS = {
