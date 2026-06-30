@@ -3,8 +3,7 @@ const BRAND_ORDER = [
     "o2",
     "o2-new",
     "blau",
-    // Vivo brand is disabled for now until the next major version in mistica-web to avoid replace the current vivo icons with the new default icon set until new vivo icons set is ready.
-    // "vivo",
+    "vivo",
 ];
 
 const BRANDS = {
@@ -110,24 +109,24 @@ const BRANDS = {
         label: "Vivo",
         figmaEnv: "VIVO_FIGMA_ID",
         defaultFileId: "EApRpjaTyUOwW5VQU2ZqgP",
-        svgoTargets: ["icons/vivo-new"],
+        svgoTargets: ["icons/vivo"],
         variants: [
             {
                 configName: "vivo-filled.json",
                 frame: "Filled",
-                iconsPath: "icons/vivo-new/filled",
+                iconsPath: "icons/vivo/filled",
                 script: "export-vivo-filled",
             },
             {
                 configName: "vivo-regular.json",
                 frame: "Regular",
-                iconsPath: "icons/vivo-new/regular",
+                iconsPath: "icons/vivo/regular",
                 script: "export-vivo-regular",
             },
             {
                 configName: "vivo-light.json",
                 frame: "Light",
-                iconsPath: "icons/vivo-new/light",
+                iconsPath: "icons/vivo/light",
                 script: "export-vivo-light",
             },
         ],
