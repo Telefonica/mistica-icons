@@ -4,6 +4,7 @@ const BRAND_ORDER = [
     "o2-new",
     "blau",
     "vivo",
+    "vivo-evolution",
 ];
 
 const BRANDS = {
@@ -128,6 +129,33 @@ const BRANDS = {
                 frame: "Light",
                 iconsPath: "icons/vivo/light",
                 script: "export-vivo-light",
+            },
+        ],
+    },
+    "vivo-evolution": {
+        label: "Vivo-evolution",
+        figmaEnv: "VIVO_EVOLUTION_FIGMA_ID",
+        // TODO: replace with the dedicated Vivo-evolution Figma file id.
+        defaultFileId: "REPLACE_WITH_VIVO_EVOLUTION_FILE_ID",
+        svgoTargets: ["icons/vivo-evolution"],
+        variants: [
+            {
+                configName: "vivo-evolution-filled.json",
+                frame: "Filled",
+                iconsPath: "icons/vivo-evolution/filled",
+                script: "export-vivo-evolution-filled",
+            },
+            {
+                configName: "vivo-evolution-regular.json",
+                frame: "Regular",
+                iconsPath: "icons/vivo-evolution/regular",
+                script: "export-vivo-evolution-regular",
+            },
+            {
+                configName: "vivo-evolution-light.json",
+                frame: "Light",
+                iconsPath: "icons/vivo-evolution/light",
+                script: "export-vivo-evolution-light",
             },
         ],
     },
