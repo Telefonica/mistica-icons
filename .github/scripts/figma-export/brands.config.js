@@ -1,7 +1,6 @@
 const BRAND_ORDER = [
     "telefonica",
     "o2",
-    "o2-new",
     "blau",
     // Vivo brand is disabled for now until the next major version in mistica-web to avoid replace the current vivo icons with the new default icon set until new vivo icons set is ready.
     // "vivo",
@@ -37,7 +36,7 @@ const BRANDS = {
     o2: {
         label: "O2",
         figmaEnv: "O2_FIGMA_ID",
-        defaultFileId: "wHTqJ7KDhGKrNSNpmMb9nW",
+        defaultFileId: "CjvgrHEIycSQ6exznxnFXT",
         svgoTargets: ["icons/o2"],
         variants: [
             {
@@ -57,32 +56,6 @@ const BRANDS = {
                 frame: "Light",
                 iconsPath: "icons/o2/light",
                 script: "export-o2-light",
-            },
-        ],
-    },
-    "o2-new": {
-        label: "O2-new",
-        figmaEnv: "O2_NEW_FIGMA_ID",
-        defaultFileId: "CjvgrHEIycSQ6exznxnFXT",
-        svgoTargets: ["icons/o2-new"],
-        variants: [
-            {
-                configName: "o2-new-filled.json",
-                frame: "Filled",
-                iconsPath: "icons/o2-new/filled",
-                script: "export-o2-new-filled",
-            },
-            {
-                configName: "o2-new-regular.json",
-                frame: "Regular",
-                iconsPath: "icons/o2-new/regular",
-                script: "export-o2-new-regular",
-            },
-            {
-                configName: "o2-new-light.json",
-                frame: "Light",
-                iconsPath: "icons/o2-new/light",
-                script: "export-o2-new-light",
             },
         ],
     },
