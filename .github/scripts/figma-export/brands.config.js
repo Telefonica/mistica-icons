@@ -135,7 +135,7 @@ const BRANDS = {
     "vivo-evolution": {
         label: "Vivo-evolution",
         figmaEnv: "VIVO_EVOLUTION_FIGMA_ID",
-        // TODO: replace with the dedicated Vivo-evolution Figma file id.
+        // TODO https://github.com/Telefonica/mistica-design/issues/2687 replace with the dedicated Vivo-evolution Figma file id.
         defaultFileId: "REPLACE_WITH_VIVO_EVOLUTION_FILE_ID",
         svgoTargets: ["icons/vivo-evolution"],
         variants: [
