@@ -53,12 +53,15 @@ const { BRAND_ORDER, BRANDS } = require("./brands.config");
         try {
             if (!options.skipExport) {
                 for (const brandKey of brands) {
-                    await prepareConfigsForBrand(
+                    const ready = await prepareConfigsForBrand(
                         brandKey,
                         token,
                         template,
                         generatedConfigFiles
                     );
+
+                    if (!ready) continue;
+
                     await runExportsForBrand(brandKey);
                 }
             } else {
@@ -267,6 +270,11 @@ async function prepareConfigsForBrand(
     }
 
     const fileId = process.env[brand.figmaEnv] || brand.defaultFileId;
+
+    if (!fileId) {
+        console.log(`\nSkipping ${brand.label}: no Figma file ID configured`);
+        return false;
+    }
 
     console.log(`\nSetting up configs for ${brand.label}`);
 
