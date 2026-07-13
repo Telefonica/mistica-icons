@@ -16,7 +16,6 @@ on:
           - all
           - telefonica
           - o2
-          - o2-new
           - blau
           - vivo
           - vivo-evolution
@@ -32,8 +31,7 @@ on:
 
 env:
   MISTICA_ICONS_FILE_URL: https://www.figma.com/design/JXy7Y07eb0Axg0ThVRWKju/Default-Icons-Set?node-id=0-71&t=1nybaZ1fzHqRq80C-1
-  O2_FILE_URL: https://www.figma.com/file/wHTqJ7KDhGKrNSNpmMb9nW/?node-id=611%3A3298
-  O2_NEW_FILE_URL: https://www.figma.com/design/CjvgrHEIycSQ6exznxnFXT/O2?m=auto&node-id=4-0&t=0HBFuR3VADUhh5Zr-1
+  O2_FILE_URL: https://www.figma.com/design/CjvgrHEIycSQ6exznxnFXT/O2?m=auto&node-id=4-0&t=0HBFuR3VADUhh5Zr-1
   BLAU_FILE_URL: https://www.figma.com/design/czemeClWRGBI8oF7caNa5m/Blau?node-id=0-1&node-type=canvas&t=CM2TIEBRzYVgRX5A-0
   VIVO_FILE_URL: https://www.figma.com/design/EApRpjaTyUOwW5VQU2ZqgP/Vivo?node-id=4-0&node-type=canvas&t=pnjxXOX7B7hd3BmJ-0
   # TODO: replace with the dedicated Vivo-evolution Figma file URL.
@@ -115,7 +113,6 @@ jobs:
           REPO_SLUG: ${{ github.repository }}
           DEFAULT_URL: ${{ env.MISTICA_ICONS_FILE_URL }}
           O2_URL: ${{ env.O2_FILE_URL }}
-          O2_NEW_URL: ${{ env.O2_NEW_FILE_URL }}
           BLAU_URL: ${{ env.BLAU_FILE_URL }}
           VIVO_URL: ${{ env.VIVO_FILE_URL }}
           VIVO_EVOLUTION_URL: ${{ env.VIVO_EVOLUTION_FILE_URL }}
@@ -124,7 +121,7 @@ jobs:
           case "$BRAND" in
             all)
               TITLE="Update Figma icons"
-              BODY="New version of icons exported from [Mistica Icons]($DEFAULT_URL), [O2]($O2_URL), [O2-new]($O2_NEW_URL), [Blau]($BLAU_URL), [Vivo]($VIVO_URL) & [Vivo-evolution]($VIVO_EVOLUTION_URL)
+              BODY="New version of icons exported from [Mistica Icons]($DEFAULT_URL), [O2]($O2_URL), [Blau]($BLAU_URL), [Vivo]($VIVO_URL) & [Vivo-evolution]($VIVO_EVOLUTION_URL)
               - [ ] [Review icon table in $BRANCH_NAME](https://github.com/$REPO_SLUG/tree/$BRANCH_NAME/ICON_TABLE.md)"
               ;;
             telefonica)
@@ -135,11 +132,6 @@ jobs:
             o2)
               TITLE="Update O2 icons"
               BODY="New version of icons exported from [O2]($O2_URL)
-              - [ ] [Review icon table in $BRANCH_NAME](https://github.com/$REPO_SLUG/tree/$BRANCH_NAME/ICON_TABLE.md)"
-              ;;
-            o2-new)
-              TITLE="Update O2-new icons"
-              BODY="New version of icons exported from [O2-new]($O2_NEW_URL)
               - [ ] [Review icon table in $BRANCH_NAME](https://github.com/$REPO_SLUG/tree/$BRANCH_NAME/ICON_TABLE.md)"
               ;;
             blau)
