@@ -18,7 +18,7 @@ const README_GENERATOR_PATH = path.join(
     ROOT,
     ".github/scripts/md-generator/generate_markdown.py"
 );
-const { BRAND_ORDER, BRANDS } = require("./brands.config");
+const { BRANDS } = require("./brands.config");
 
 (async () => {
     try {
@@ -196,9 +196,7 @@ function printHelp() {
     console.log(`Usage: npm run figma-export -- [options]
 
 Options:
-  --brand <name[,name,...]>   Brand(s) to export (${BRAND_ORDER.join(
-      ", "
-  )}, or "all")
+  --brand <name[,name,...]>   Brand(s) to export (${Object.keys(BRANDS).join(", ")}, or "all")
     --skip-export              Skip downloading from Figma (post-process only)
   --token <value>             Figma personal token (or set FIGMA_TOKEN)
   --skip-svgo                 Skip SVG optimization
@@ -215,7 +213,7 @@ Examples:
 
 function resolveBrandSelection(value) {
     if (!value || value.toLowerCase() === "all") {
-        return [...BRAND_ORDER];
+        return Object.keys(BRANDS);
     }
 
     const requested = value
@@ -234,7 +232,7 @@ function resolveBrandSelection(value) {
         throw new Error(`Unknown brand(s): ${invalid.join(", ")}`);
     }
 
-    return BRAND_ORDER.filter((brand) => unique.includes(brand));
+    return Object.keys(BRANDS).filter((brand) => unique.includes(brand));
 }
 
 function dedupe(items) {
