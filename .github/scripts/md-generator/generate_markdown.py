@@ -1,0 +1,325 @@
+import os
+
+PIPE = "|"
+SLASH = "/"
+SVG_EXTENSION = ".svg"
+PDF_EXTENSION = ".pdf"
+BREAK = "\n"
+
+# Define the colors for the bar representation
+bar_colors = {
+    "unique": "59C2C9",
+    "all_equivalence": "0066FF",
+    "some_equivalence": "EAC344",
+    "missing": "D1D5E4"
+}
+
+# List folders in icons directory
+def read_folder(folder):
+    if os.path.isdir(folder):
+        files = os.listdir(folder)
+        if ".DS_Store" in files:
+            files.remove(".DS_Store")
+        return files
+    return []
+
+# Get brand names from icons directory
+def get_brands_from_icons_dir(icons_path="./icons"):
+    """Read brand names from the icons directory"""
+    if os.path.isdir(icons_path):
+        brands = [folder for folder in os.listdir(icons_path) 
+                 if os.path.isdir(os.path.join(icons_path, folder)) 
+                 and not folder.startswith('.')]
+        return sorted(brands)
+    return []
+
+def preprocess_filename(filename):
+    # Remove common style indicators from the filename and return
+    return filename.replace("-filled.svg", "").replace("-light.svg", "").replace("-regular.svg", "")
+
+# Function to recursively list all unique SVG filenames without their paths
+def list_concepts(folder):
+    concepts = set()  # Use a set to avoid duplicates
+    for root, dirs, files in os.walk(folder):
+        # Filter and preprocess SVG filenames before adding to the set
+        for file in files:
+            if file.endswith('.svg') and not file.startswith('.'):
+                processed_file = preprocess_filename(file)
+                concepts.add(processed_file)
+    return list(concepts)  # Convert set to list before returning
+
+# List all .svg files in the directory, including subdirectories.
+def list_svg_files(folder):
+    svg_files = []
+    for root, dirs, files in os.walk(folder):
+        svg_files.extend(os.path.join(root, file) for file in files if file.endswith('.svg') and not file.startswith('.'))
+    return svg_files
+
+
+concepts = list_concepts("./icons")
+total_concepts = len(concepts)
+
+# SVG List
+svg_files = list_svg_files("./icons")
+
+# Total number of unique icons in the ecosystem (for percentage calculations)
+all_unique_icons = set()
+for file in svg_files:
+    all_unique_icons.add(os.path.basename(file))
+total_icons = len(all_unique_icons)
+
+def process_icon_sets(folders, all_concepts):
+    """Process each icon set to compute various metrics, update all_concepts with unique processed names."""
+    data = {}
+    for folder in folders:
+        files = list_svg_files(folder)
+        icons = {os.path.basename(file): file for file in files}
+        
+        # no_processed_names are icons with -regular, -light, -filled
+        no_processed_names = {(os.path.basename(file)): file for file in files}
+
+        # processed_names are icons without -regular, -light, -filled
+        processed_names = {preprocess_filename(os.path.basename(file)): file for file in files}
+        
+        data[folder] = {
+            "total": len(files),
+            "icons": set(icons.keys()),
+            "no_processed_names": set(no_processed_names.keys()),
+            "processed_names": set(processed_names.keys()),
+            "unique": set(),
+            "all_equivalence": set(),
+            "some_equivalence": set(),
+            "missing": set()
+        }
+        all_concepts.update(data[folder]["no_processed_names"])
+
+    for folder in folders:
+        current_no_processed_names = data[folder]["no_processed_names"]
+        data[folder]["unique"] = current_no_processed_names - set.union(*(data[f]["no_processed_names"] for f in folders if f != folder))
+        data[folder]["all_equivalence"] = set.intersection(*(data[f]["no_processed_names"] for f in folders))
+        for other_folder in folders:
+            if other_folder != folder:
+                data[folder]["some_equivalence"].update(current_no_processed_names & data[other_folder]["no_processed_names"])
+        data[folder]["some_equivalence"] -= data[folder]["all_equivalence"]
+        # Calculate missing icons correctly: icons present in other sets but not in current set
+        other_sets_icons = set.union(*(data[f]["no_processed_names"] for f in folders if f != folder))
+        data[folder]["missing"] = other_sets_icons - data[folder]["no_processed_names"]
+
+    return data
+
+# Generate a color-coded bar representation for each icon set based on percentage data.
+def generate_bar_representation(data, folders, bar_width=400, bar_height=8):
+    bar_output = []
+    for folder in folders:
+        folder_data = data[folder]
+        
+        # Total per brand
+        total_brand_icons = folder_data['total']
+        
+        all_equivalence_count = len(folder_data['all_equivalence'])
+        some_equivalence_count = len(folder_data['some_equivalence'])
+        unique_count = len(folder_data['unique'])
+        missing_count = len(folder_data['missing'])
+        
+        # Calculate percentages based on total_icons (global total) for consistency
+        all_equivalence_percent = (all_equivalence_count * 100) / total_icons
+        some_equivalence_percent = (some_equivalence_count * 100) / total_icons
+        unique_percent = (unique_count * 100) / total_icons
+        missing_percent = (missing_count * 100) / total_icons
+
+        # Calculate bar widths proportionally within each brand (each bar totals 400px)
+        total_count = all_equivalence_count + some_equivalence_count + unique_count + missing_count
+        
+        if total_count > 0:
+            all_equivalence_width = round((all_equivalence_count / total_count) * bar_width)
+            some_equivalence_width = round((some_equivalence_count / total_count) * bar_width)
+            unique_width = round((unique_count / total_count) * bar_width)
+            # Ensure total width equals bar_width
+            missing_width = bar_width - (all_equivalence_width + some_equivalence_width + unique_width)
+            
+            # Handle minimum width for very small percentages
+            if all_equivalence_count > 0 and all_equivalence_width == 0:
+                all_equivalence_width = 1
+            if some_equivalence_count > 0 and some_equivalence_width == 0:
+                some_equivalence_width = 1
+            if unique_count > 0 and unique_width == 0:
+                unique_width = 1
+            if missing_count > 0 and missing_width <= 0:
+                missing_width = 1
+        else:
+            all_equivalence_width = some_equivalence_width = unique_width = missing_width = 0
+        
+        bar_parts = []
+        if all_equivalence_width > 0:
+            bar_parts.append(f"<img src='https://dummyimage.com/{all_equivalence_width}x{bar_height}/{bar_colors['all_equivalence']}/000&text=+' alt='All Equivalence'>")
+        if some_equivalence_width > 0:
+            bar_parts.append(f"<img src='https://dummyimage.com/{some_equivalence_width}x{bar_height}/{bar_colors['some_equivalence']}/000&text=+' alt='Some Equivalence'>")
+        if unique_width > 0:
+            bar_parts.append(f"<img src='https://dummyimage.com/{unique_width}x{bar_height}/{bar_colors['unique']}/000&text=+' alt='Unique'>")
+        if missing_width > 0:
+            bar_parts.append(f"<img src='https://dummyimage.com/{missing_width}x{bar_height}/{bar_colors['missing']}/000&text=+' alt='Missing'>")
+        
+        bar_representation = f"{os.path.basename(folder).title()}  " + "\n" + "".join(bar_parts) + "\n"
+        bar_output.append(bar_representation)
+    return bar_output
+
+def generate_markdown_table(data, folders):
+    global total_concepts
+
+    """Generate markdown table representation of the data."""
+    markdown = f"| <sub><sup>ICON SET</sup></sub> | <sub><sup>CONCEPTS ({total_concepts})</sup></sub> | <sub><sup>TOTAL ({total_icons})</sup></sub> | <sub><sup>ALL EQUIVALENCE</sup></sub> | <sub><sup>SOME EQUIVALENCE</sup></sub> | <sub><sup>UNIQUE</sup></sub> | <sub><sup>MISSING</sup></sub> |\n"
+    markdown += "| :--------- | --------: | -----: | ----------: | -------------------: | -------------------: | ------------: |\n"
+    
+    for folder in folders:
+        folder_name = os.path.basename(folder).title()
+        folder_data = data[folder]
+        
+        total_brand_icons = folder_data['total']
+        
+        all_equivalence_count = len(folder_data['all_equivalence'])
+        all_equivalence_percent = f"{all_equivalence_count} ({all_equivalence_count * 100 / (total_icons):.1f}%) ![All Equivalence](https://dummyimage.com/4x12/{bar_colors['all_equivalence']}/000&text=+)" if total_icons > 0 else "0 (0%)"
+        some_equivalence_count = len(folder_data['some_equivalence'])
+        some_equivalence_percent = f"{some_equivalence_count} ({some_equivalence_count * 100 / total_icons:.1f}%) ![Some Equivalence](https://dummyimage.com/4x12/{bar_colors['some_equivalence']}/000&text=+)" if total_icons > 0 else "0 (0%)"
+        unique_count = len(folder_data['unique'])
+        unique_percent = f"{unique_count} ({unique_count * 100 / total_icons:.1f}%) ![Unique](https://dummyimage.com/4x12/{bar_colors['unique']}/000&text=+)" if total_icons > 0 else "0 (0%)"
+        
+        # Calculate missing correctly based on icons in other sets
+        missing_count = len(folder_data['missing'])
+        missing_percent = f"{missing_count} ({missing_count * 100 / total_icons:.1f}%) ![Missing](https://dummyimage.com/4x12/{bar_colors['missing']}/000&text=+)" if total_icons > 0 else "0 (0%)"
+        
+        markdown += f"| {folder_name} | {len(folder_data['processed_names'])} | {folder_data['total']} | {all_equivalence_percent} | {some_equivalence_percent} | {unique_percent} | {missing_percent} |\n"
+    
+    # markdown += f"| | **{total_concepts}** | **{total_icons}** |  |  |  |  |\n"
+    markdown += "\n"
+    # markdown += f"<table><tr><th>Total concepts</th><td>{total_concepts}</td></tr><tr><th>Total icons</th><td>{total_icons}</td></tr></table>"
+            
+    
+    return markdown
+
+
+def generate_icon_table(path):  # Renombrar la función para que coincida con el nombre del módulo
+    brands = [folder for folder in os.listdir(path) if os.path.isdir(os.path.join(path, folder))]
+    root = os.path.basename(path)
+    dictionary = {}
+    file_content = BREAK + "| ---BRANDS--- | icon name |" + \
+        BREAK + "| ---HEADER-BREAK--- |" + ":--- |" + BREAK
+    for brand in brands:
+        brand_folder = path + SLASH + brand
+        styles = read_folder(brand_folder)
+        for style in styles:
+            style_folder = brand_folder + SLASH + style
+            icons = read_folder(style_folder)
+            for icon in icons:
+                icon_name = os.path.splitext(icon)[0]
+                file_path = root + SLASH + brand + SLASH + \
+                    style + SLASH + icon_name + SVG_EXTENSION
+                if icon_name in dictionary:
+                    if style not in dictionary[icon_name]:
+                        dictionary[icon_name][style] = {brand: file_path}
+                    else:
+                        dictionary[icon_name][style][brand] = file_path
+                else:
+                    dictionary[icon_name] = {
+                        style: {brand: file_path}
+                    }
+
+    # Sort brands by total number of icons (descending)
+    brand_icon_counts = {}
+    for brand in brands:
+        brand_folder = path + SLASH + brand
+        count = 0
+        for root_dir, dirs, files in os.walk(brand_folder):
+            count += len([f for f in files if f.endswith('.svg')])
+        brand_icon_counts[brand] = count
+    
+    brands = sorted(brands, key=lambda brand: brand_icon_counts[brand], reverse=True)
+    separator = " " + PIPE + " "
+    file_content = file_content.replace("---BRANDS---", separator.join(brands))
+    file_content = file_content.replace("---HEADER-BREAK---", separator.join(
+        [":---:"] * (len(brands))))  # add (len(brands) + 2) to add svg & pdf download
+
+    for icon_name in sorted(dictionary.keys()):
+        icon = dictionary[icon_name]
+        for style in sorted(icon.keys()):
+            icon_images = []
+            for brand in brands:
+                icon_image = "![" + icon_name + \
+                    "](" + icon[style][brand] + \
+                    ") " if brand in icon[style] else " "
+                icon_images.append(icon_image)
+            row = PIPE + PIPE.join(icon_images) + PIPE + \
+                "<a id=" + "'" + icon_name + "'>"+ "`" + icon_name + "`"  + "</a>" + \
+                "[" + "![" + icon_name + "]" + \
+                "(.github/resources/anchor.svg)" + \
+                "]" + "(" + "#" + icon_name + ")" + PIPE
+            file_content += row + BREAK
+
+    return file_content  # Devolver el contenido de la tabla de iconos
+
+
+def main(root_folder):
+    # Get brands dynamically from icons directory
+    brands = get_brands_from_icons_dir(root_folder)
+    
+    folders = [os.path.join(root_folder, brand) for brand in brands]
+    all_concepts = set()
+    icon_data = process_icon_sets(folders, all_concepts)
+    
+    # Sort folders by total number of icons (descending)
+    folders_sorted = sorted(folders, key=lambda folder: icon_data[folder]['total'], reverse=True)
+    bars = generate_bar_representation(icon_data, folders_sorted)
+    
+    readme_content = ""
+
+    # Add documentation
+    documentation = "![Mistica Icons](.github/resources/mistica-icons-light.svg#gh-light-mode-only)" + BREAK + "![Mistica Icons](.github/resources/mistica-icons-dark.svg#gh-dark-mode-only)" + BREAK + BREAK + "Mística Icons is a multibrand icon system that contains all icons that is working in [Mistica Design System](https://github.com/Telefonica/mistica) now.  " + BREAK + BREAK + "Mistica support [Brand Factory icons](https://brandfactory.telefonica.com/document/1086#/nuestra-identidad/iconos). This set of icons are a big list of different icons and style that Brand Team worked to be used through Telefonica applications." + BREAK + BREAK + "If you have any question, please you can ask directly in the app of Microsoft Teams, in [Mistica Team](https://teams.microsoft.com/l/team/19%3ad2e3607a32ec411b8bf492f43cd0fe0c%40thread.tacv2/conversations?groupId=e265fe99-929f-45d1-8154-699649674a40&tenantId=9744600e-3e04-492e-baa1-25ec245c6f10).  " + \
+        BREAK + BREAK + "## Documentation" + BREAK + BREAK + "### Develop" + BREAK + BREAK + "#### iOS and Android" + BREAK + BREAK + "You can get .pdf or .svg files from this repo." + BREAK + BREAK + "#### Web" + BREAK + BREAK + \
+        "Visit [Mistica Storybook](https://mistica-web.vercel.app/?path=/story/icons-catalog--catalog) to get all the detail about using Mistica Icons Library" + BREAK + BREAK + "### Design" + BREAK + BREAK + "Use Mística icons library in Figma!" + BREAK + BREAK
+    readme_content += documentation + BREAK
+    
+    readme_content += "## Equivalence status\n\n"
+    for bar in bars:
+        readme_content += bar + "\n"
+    readme_content += "  " + BREAK
+
+    # Add equivalence status table
+    markdown_table = generate_markdown_table(icon_data, folders_sorted)
+    readme_content += markdown_table + "\n"
+    
+    legend = (
+            "<sub>**Concepts**: Counts the different names of icons in the set excluding any variations in style or weight.</sub>  " 
+            + BREAK +
+            "<sub>**Total**: The total number of icons found in a brand set. Counting light, regular and filled weights.</sub>  "
+            + BREAK +
+            "<sub>**All Equivalence**: Icons that are present in all sets.</sub>  " 
+            + BREAK +
+            "<sub>**Some Equivalence**: Icons that are present in some sets.</sub>  " 
+            + BREAK +
+            "<sub>**Unique**: Icons that only exists in this set.</sub>  " 
+            + BREAK +
+            "<sub>**Missing**: Missing icons with respect to other sets.</sub>"
+            )
+
+    icon_table_readme = (
+                        "## Icon table equivalence\n\n"
+                        + "This table shows the equivalence of icons between the different brands.\n\n"
+                        + "[View icon table →](ICON_TABLE.md)\n\n"
+                        + "[![Icon Table Preview](.github/resources/icon_table.png)](ICON_TABLE.md)"
+                        )
+    readme_content += legend + "\n\n" + icon_table_readme + "\n\n"
+
+
+    icon_table_content = ""
+    icon_table_content += "# Icon table equivalence\n\n"
+    icon_table_output = generate_icon_table(root_folder)
+    icon_table_content += icon_table_output + "\n"
+    
+    with open("./README.md", "w") as file:
+        file.write(readme_content)
+    
+    with open("./ICON_TABLE.md", "w") as file:
+        file.write(icon_table_content)
+
+if __name__ == "__main__":
+    root_folder = "icons"
+    main(root_folder)

@@ -4,26 +4,31 @@
   "description": "Icon repository for Mística Design System",
   "main": "index.js",
   "repository": "https://github.com/Telefonica/mistica-icons.git",
-  "author": "Yayo <yceballost@gmail.com>",
+  "author": "Design Core Team <3 Telefonica",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "figma-export": "node .github/scripts/figma-export/figma-export.js",
     "export-telefonica-light": "export-icons --config=telefonica-light.json",
     "export-telefonica-regular": "export-icons --config=telefonica-regular.json",
     "export-telefonica-filled": "export-icons --config=telefonica-filled.json",
     "export-o2-light": "export-icons --config=o2-light.json",
     "export-o2-regular": "export-icons --config=o2-regular.json",
     "export-o2-filled": "export-icons --config=o2-filled.json",
-    "export-o2-new-light": "export-icons --config=o2-new-light.json",
-    "export-o2-new-regular": "export-icons --config=o2-new-regular.json",
-    "export-o2-new-filled": "export-icons --config=o2-new-filled.json",
     "export-blau-regular": "export-icons --config=blau-regular.json",
     "export-blau-filled": "export-icons --config=blau-filled.json",
     "export-vivo-light": "export-icons --config=vivo-light.json",
     "export-vivo-regular": "export-icons --config=vivo-regular.json",
-    "export-vivo-filled": "export-icons --config=vivo-filled.json"
+    "export-vivo-filled": "export-icons --config=vivo-filled.json",
+    "export-vivo-evolution-light": "export-icons --config=vivo-evolution-light.json",
+    "export-vivo-evolution-regular": "export-icons --config=vivo-evolution-regular.json",
+    "export-vivo-evolution-filled": "export-icons --config=vivo-evolution-filled.json"
   },
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^16.4.7",
     "figma-export-icons": "^1.5.0"
+  },
+  "devDependencies": {
+    "svgo": "^3.3.2"
   }
 }
