@@ -35,7 +35,7 @@ jobs:
       - name: Check for changes
         id: git_status
         run: |
-          git diff --exit-code || echo "changes"
+          git diff --exit-code || echo "result=changes" >> $GITHUB_OUTPUT
 
       - name: Commit & Push in ${{ env.GITHUB_REF_SLUG_URL }}
         if: steps.git_status.outputs.result == 'changes'
