@@ -14,6 +14,12 @@ bar_colors = {
     "missing": "D1D5E4"
 }
 
+def has_svg_files(folder):
+    for _, _, files in os.walk(folder):
+        if any(f.endswith('.svg') and not f.startswith('.') for f in files):
+            return True
+    return False
+
 # List folders in icons directory
 def read_folder(folder):
     if os.path.isdir(folder):
@@ -27,9 +33,10 @@ def read_folder(folder):
 def get_brands_from_icons_dir(icons_path="./icons"):
     """Read brand names from the icons directory"""
     if os.path.isdir(icons_path):
-        brands = [folder for folder in os.listdir(icons_path) 
-                 if os.path.isdir(os.path.join(icons_path, folder)) 
-                 and not folder.startswith('.')]
+        brands = [folder for folder in os.listdir(icons_path)
+                 if os.path.isdir(os.path.join(icons_path, folder))
+                 and not folder.startswith('.')
+                 and has_svg_files(os.path.join(icons_path, folder))]
         return sorted(brands)
     return []
 
@@ -198,7 +205,10 @@ def generate_markdown_table(data, folders):
 
 
 def generate_icon_table(path):  # Renombrar la función para que coincida con el nombre del módulo
-    brands = [folder for folder in os.listdir(path) if os.path.isdir(os.path.join(path, folder))]
+    brands = [folder for folder in os.listdir(path)
+              if os.path.isdir(os.path.join(path, folder))
+              and not folder.startswith('.')
+              and has_svg_files(os.path.join(path, folder))]
     root = os.path.basename(path)
     dictionary = {}
     file_content = BREAK + "| ---BRANDS--- | icon name |" + \
