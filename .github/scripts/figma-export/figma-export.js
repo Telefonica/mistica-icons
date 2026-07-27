@@ -292,6 +292,8 @@ async function prepareConfigsForBrand(
         );
         generatedFiles.add(destination);
     }
+
+    return true;
 }
 
 async function runExportsForBrand(brandKey) {
