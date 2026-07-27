@@ -63,17 +63,9 @@ def list_svg_files(folder):
     return svg_files
 
 
-concepts = list_concepts("./icons")
-total_concepts = len(concepts)
-
-# SVG List
-svg_files = list_svg_files("./icons")
-
-# Total number of unique icons in the ecosystem (for percentage calculations)
-all_unique_icons = set()
-for file in svg_files:
-    all_unique_icons.add(os.path.basename(file))
-total_icons = len(all_unique_icons)
+# Global totals, computed in main() once the icons folder is resolved.
+total_concepts = 0
+total_icons = 0
 
 def process_icon_sets(folders, all_concepts):
     """Process each icon set to compute various metrics, update all_concepts with unique processed names."""
@@ -268,9 +260,15 @@ def generate_icon_table(path):  # Renombrar la función para que coincida con el
 
 
 def main(root_folder):
+    # Compute global totals from the resolved icons folder
+    global total_concepts, total_icons
+    total_concepts = len(list_concepts(root_folder))
+    all_unique_icons = {os.path.basename(f) for f in list_svg_files(root_folder)}
+    total_icons = len(all_unique_icons)
+
     # Get brands dynamically from icons directory
     brands = get_brands_from_icons_dir(root_folder)
-    
+
     folders = [os.path.join(root_folder, brand) for brand in brands]
     all_concepts = set()
     icon_data = process_icon_sets(folders, all_concepts)
@@ -323,13 +321,44 @@ def main(root_folder):
     icon_table_content += "# Icon table equivalence\n\n"
     icon_table_output = generate_icon_table(root_folder)
     icon_table_content += icon_table_output + "\n"
-    
-    with open("./README.md", "w") as file:
+
+    # Write outputs to the parent of the icons folder (the repo root)
+    output_dir = os.path.dirname(root_folder)
+    readme_path = os.path.join(output_dir, "README.md")
+    icon_table_path = os.path.join(output_dir, "ICON_TABLE.md")
+
+    with open(readme_path, "w") as file:
         file.write(readme_content)
-    
-    with open("./ICON_TABLE.md", "w") as file:
+
+    with open(icon_table_path, "w") as file:
         file.write(icon_table_content)
 
+    print(f"Generated {readme_path}")
+    print(f"Generated {icon_table_path}")
+
 if __name__ == "__main__":
-    root_folder = "icons"
+    import sys
+
+    # The repo root, three levels up from .github/scripts/md-generator/
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    repo_root = os.path.abspath(os.path.join(script_dir, "..", "..", ".."))
+
+    if len(sys.argv) > 1:
+        arg = sys.argv[1]
+        # Prefer the path relative to the current directory, but fall back
+        # to resolving it against the repo root when that does not exist.
+        cwd_path = os.path.abspath(arg)
+        repo_path = os.path.join(repo_root, arg)
+        root_folder = cwd_path if os.path.isdir(cwd_path) else repo_path
+    else:
+        # Default: the 'icons' folder at the repo root
+        root_folder = os.path.join(repo_root, "icons")
+
+    root_folder = os.path.normpath(root_folder)
+
+    if not os.path.isdir(root_folder):
+        print(f"Error: icons folder not found at {root_folder}")
+        print("Usage: python3 generate_markdown.py [path_to_icons_folder]")
+        sys.exit(1)
+
     main(root_folder)
