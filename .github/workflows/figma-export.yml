@@ -79,6 +79,35 @@ jobs:
       - name: Install project dependencies
         run: yarn install --frozen-lockfile
 
+      - name: Validate Figma Token
+        env:
+          FIGMA_TOKEN: ${{ secrets.FIGMA_TOKEN }}
+        run: |
+          if [ -z "$FIGMA_TOKEN" ]; then
+            echo "❌ FIGMA_TOKEN secret is not configured"
+            exit 1
+          fi
+
+          echo "✅ FIGMA_TOKEN is configured"
+          echo "Validating token with Figma API..."
+
+          # Try to get the authenticated user's info to validate the token
+          RESPONSE=$(curl -s -w "\n%{http_code}" \
+            -H "X-Figma-Token: $FIGMA_TOKEN" \
+            "https://api.figma.com/v1/me")
+
+          HTTP_CODE=$(echo "$RESPONSE" | tail -n1)
+          BODY=$(echo "$RESPONSE" | head -n-1)
+
+          if [ "$HTTP_CODE" = "200" ]; then
+            echo "✅ Figma token is valid"
+            echo "User: $(echo "$BODY" | grep -o '"email":"[^"]*"' | cut -d'"' -f4)"
+          else
+            echo "❌ Figma token validation failed (HTTP $HTTP_CODE)"
+            echo "Response: $BODY"
+            exit 1
+          fi
+
       - name: Checkout branch or create new one
         env:
           TARGET_BRANCH: ${{ steps.inputs.outputs.branch }}
@@ -95,10 +124,25 @@ jobs:
           # Brand is safe (validated by type: choice)
           yarn figma-export -- --brand "$BRAND"
 
+      - name: Debug git status
+        run: |
+          echo "=== Git Status ==="
+          git status
+          echo ""
+          echo "=== Modified files ==="
+          git diff --name-only || echo "No modified files"
+          echo ""
+          echo "=== Untracked files ==="
+          git ls-files --others --exclude-standard || echo "No untracked files"
+          echo ""
+          echo "=== Staged files ==="
+          git diff --cached --name-only || echo "No staged files"
+
       - name: Detect changes
         id: changes
         run: |
-          if git diff --quiet; then
+          # Check both tracked changes and untracked files
+          if git diff --quiet && git diff --cached --quiet && [ -z "$(git ls-files --others --exclude-standard)" ]; then
             echo "changed=false" >> "$GITHUB_OUTPUT"
           else
             echo "changed=true" >> "$GITHUB_OUTPUT"
