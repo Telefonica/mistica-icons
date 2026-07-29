@@ -97,33 +97,32 @@ const BRANDS = {
             },
         ],
     },
-    // todo https://github.com/Telefonica/mistica-design/issues/2689 Vivo brand is disabled for now until the next major version in mistica-web to avoid replacing the current vivo icons with the new default icon set, until new vivo icons set is ready.
-    // "vivo-evolution": {
-    //     label: "Vivo-evolution",
-    //     figmaEnv: "VIVO_EVOLUTION_FIGMA_ID",
-    //     defaultFileId: null,
-    //     svgoTargets: ["icons/vivo-evolution"],
-    //     variants: [
-    //         {
-    //             configName: "vivo-evolution-filled.json",
-    //             frame: "Filled",
-    //             iconsPath: "icons/vivo-evolution/filled",
-    //             script: "export-vivo-evolution-filled",
-    //         },
-    //         {
-    //             configName: "vivo-evolution-regular.json",
-    //             frame: "Regular",
-    //             iconsPath: "icons/vivo-evolution/regular",
-    //             script: "export-vivo-evolution-regular",
-    //         },
-    //         {
-    //             configName: "vivo-evolution-light.json",
-    //             frame: "Light",
-    //             iconsPath: "icons/vivo-evolution/light",
-    //             script: "export-vivo-evolution-light",
-    //         },
-    //     ],
-    // },
+    "vivo-evolution": {
+         label: "Vivo-evolution",
+         figmaEnv: "VIVO_EVOLUTION_FIGMA_ID",
+         defaultFileId: null,
+         svgoTargets: ["icons/vivo-evolution"],
+         variants: [
+             {
+                 configName: "vivo-evolution-filled.json",
+                 frame: "Filled",
+                 iconsPath: "icons/vivo-evolution/filled",
+                 script: "export-vivo-evolution-filled",
+             },
+             {
+                 configName: "vivo-evolution-regular.json",
+                 frame: "Regular",
+                 iconsPath: "icons/vivo-evolution/regular",
+                 script: "export-vivo-evolution-regular",
+             },
+             {
+                 configName: "vivo-evolution-light.json",
+                 frame: "Light",
+                 iconsPath: "icons/vivo-evolution/light",
+                 script: "export-vivo-evolution-light",
+             },
+         ],
+     },
 };
 
 module.exports = { BRANDS };
