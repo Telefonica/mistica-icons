@@ -71,6 +71,34 @@ const BRANDS = {
             },
         ],
     },
+// Legacy Vivo exports are disabled. New icons must be exported to Vivo Evolution.
+// vivo: {
+//    vivo: {
+//        label: "Vivo",
+//        figmaEnv: "VIVO_FIGMA_ID",
+//        defaultFileId: "EApRpjaTyUOwW5VQU2ZqgP",
+//        svgoTargets: ["icons/vivo"],
+//        variants: [
+//            {
+//                configName: "vivo-filled.json",
+//                frame: "Filled",
+//                iconsPath: "icons/vivo/filled",
+//                script: "export-vivo-filled",
+//            },
+//            {
+//                configName: "vivo-regular.json",
+//                frame: "Regular",
+//                iconsPath: "icons/vivo/regular",
+//                script: "export-vivo-regular",
+//            },
+//            {
+//                configName: "vivo-light.json",
+//                frame: "Light",
+//                iconsPath: "icons/vivo/light",
+//                script: "export-vivo-light",
+//            },
+//        ],
+//    },
     "vivo-evolution": {
          label: "Vivo-evolution",
          figmaEnv: "VIVO_EVOLUTION_FIGMA_ID",
