@@ -72,7 +72,6 @@ const BRANDS = {
         ],
     },
 // Legacy Vivo exports are disabled. New icons must be exported to Vivo Evolution.
-// vivo: {
 //    vivo: {
 //        label: "Vivo",
 //        figmaEnv: "VIVO_FIGMA_ID",
