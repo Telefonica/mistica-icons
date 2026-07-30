@@ -314,7 +314,15 @@ async function optimizeWithSvgo(targets) {
     console.log("\nOptimizing SVGs with SVGO");
 
     for (const target of targets) {
-        await fs.mkdir(path.resolve(ROOT, target), { recursive: true });
+        const absoluteTarget = path.resolve(ROOT, target);
+        await fs.mkdir(absoluteTarget, { recursive: true });
+
+        const svgFiles = await collectSvgFiles(absoluteTarget);
+        if (!svgFiles.length) {
+            console.log(`Skipping ${target}: no SVG files found.`);
+            continue;
+        }
+
         await runCommand("npx", ["svgo", "-f", target, "-r", "-o", target]);
     }
 }
