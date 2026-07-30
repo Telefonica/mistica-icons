@@ -314,6 +314,7 @@ async function optimizeWithSvgo(targets) {
     console.log("\nOptimizing SVGs with SVGO");
 
     for (const target of targets) {
+        await fs.mkdir(path.resolve(ROOT, target), { recursive: true });
         await runCommand("npx", ["svgo", "-f", target, "-r", "-o", target]);
     }
 }
