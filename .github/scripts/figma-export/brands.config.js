@@ -71,59 +71,59 @@ const BRANDS = {
             },
         ],
     },
-// Legacy Vivo exports are disabled. New icons must be exported to Vivo Evolution.
-//    vivo: {
-//        label: "Vivo",
-//        figmaEnv: "VIVO_FIGMA_ID",
-//        defaultFileId: "EApRpjaTyUOwW5VQU2ZqgP",
-//        svgoTargets: ["icons/vivo"],
-//        variants: [
-//            {
-//                configName: "vivo-filled.json",
-//                frame: "Filled",
-//                iconsPath: "icons/vivo/filled",
-//                script: "export-vivo-filled",
-//            },
-//            {
-//                configName: "vivo-regular.json",
-//                frame: "Regular",
-//                iconsPath: "icons/vivo/regular",
-//                script: "export-vivo-regular",
-//            },
-//            {
-//                configName: "vivo-light.json",
-//                frame: "Light",
-//                iconsPath: "icons/vivo/light",
-//                script: "export-vivo-light",
-//            },
-//        ],
-//    },
+    // Legacy Vivo exports are disabled. New icons must be exported to Vivo Evolution.
+    //    vivo: {
+    //        label: "Vivo",
+    //        figmaEnv: "VIVO_FIGMA_ID",
+    //        defaultFileId: "EApRpjaTyUOwW5VQU2ZqgP",
+    //        svgoTargets: ["icons/vivo"],
+    //        variants: [
+    //            {
+    //                configName: "vivo-filled.json",
+    //                frame: "Filled",
+    //                iconsPath: "icons/vivo/filled",
+    //                script: "export-vivo-filled",
+    //            },
+    //            {
+    //                configName: "vivo-regular.json",
+    //                frame: "Regular",
+    //                iconsPath: "icons/vivo/regular",
+    //                script: "export-vivo-regular",
+    //            },
+    //            {
+    //                configName: "vivo-light.json",
+    //                frame: "Light",
+    //                iconsPath: "icons/vivo/light",
+    //                script: "export-vivo-light",
+    //            },
+    //        ],
+    //    },
     "vivo-evolution": {
-         label: "Vivo-evolution",
-         figmaEnv: "VIVO_EVOLUTION_FIGMA_ID",
-         defaultFileId: null,
-         svgoTargets: ["icons/vivo-evolution"],
-         variants: [
-             {
-                 configName: "vivo-evolution-filled.json",
-                 frame: "Filled",
-                 iconsPath: "icons/vivo-evolution/filled",
-                 script: "export-vivo-evolution-filled",
-             },
-             {
-                 configName: "vivo-evolution-regular.json",
-                 frame: "Regular",
-                 iconsPath: "icons/vivo-evolution/regular",
-                 script: "export-vivo-evolution-regular",
-             },
-             {
-                 configName: "vivo-evolution-light.json",
-                 frame: "Light",
-                 iconsPath: "icons/vivo-evolution/light",
-                 script: "export-vivo-evolution-light",
-             },
-         ],
-     },
+        label: "Vivo-evolution",
+        figmaEnv: "VIVO_EVOLUTION_FIGMA_ID",
+        defaultFileId: "sDxRJeu0D7OEX5FjJsORbu",
+        svgoTargets: ["icons/vivo-evolution"],
+        variants: [
+            {
+                configName: "vivo-evolution-filled.json",
+                frame: "Filled",
+                iconsPath: "icons/vivo-evolution/filled",
+                script: "export-vivo-evolution-filled",
+            },
+            {
+                configName: "vivo-evolution-regular.json",
+                frame: "Regular",
+                iconsPath: "icons/vivo-evolution/regular",
+                script: "export-vivo-evolution-regular",
+            },
+            {
+                configName: "vivo-evolution-light.json",
+                frame: "Light",
+                iconsPath: "icons/vivo-evolution/light",
+                script: "export-vivo-evolution-light",
+            },
+        ],
+    },
 };
 
 module.exports = { BRANDS };
