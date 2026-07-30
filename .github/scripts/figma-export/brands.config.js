@@ -71,59 +71,59 @@ const BRANDS = {
             },
         ],
     },
-    vivo: {
-        label: "Vivo",
-        figmaEnv: "VIVO_FIGMA_ID",
-        defaultFileId: "EApRpjaTyUOwW5VQU2ZqgP",
-        svgoTargets: ["icons/vivo"],
-        variants: [
-            {
-                configName: "vivo-filled.json",
-                frame: "Filled",
-                iconsPath: "icons/vivo/filled",
-                script: "export-vivo-filled",
-            },
-            {
-                configName: "vivo-regular.json",
-                frame: "Regular",
-                iconsPath: "icons/vivo/regular",
-                script: "export-vivo-regular",
-            },
-            {
-                configName: "vivo-light.json",
-                frame: "Light",
-                iconsPath: "icons/vivo/light",
-                script: "export-vivo-light",
-            },
-        ],
-    },
-    // todo https://github.com/Telefonica/mistica-design/issues/2689 Vivo brand is disabled for now until the next major version in mistica-web to avoid replacing the current vivo icons with the new default icon set, until new vivo icons set is ready.
-    // "vivo-evolution": {
-    //     label: "Vivo-evolution",
-    //     figmaEnv: "VIVO_EVOLUTION_FIGMA_ID",
-    //     defaultFileId: null,
-    //     svgoTargets: ["icons/vivo-evolution"],
-    //     variants: [
-    //         {
-    //             configName: "vivo-evolution-filled.json",
-    //             frame: "Filled",
-    //             iconsPath: "icons/vivo-evolution/filled",
-    //             script: "export-vivo-evolution-filled",
-    //         },
-    //         {
-    //             configName: "vivo-evolution-regular.json",
-    //             frame: "Regular",
-    //             iconsPath: "icons/vivo-evolution/regular",
-    //             script: "export-vivo-evolution-regular",
-    //         },
-    //         {
-    //             configName: "vivo-evolution-light.json",
-    //             frame: "Light",
-    //             iconsPath: "icons/vivo-evolution/light",
-    //             script: "export-vivo-evolution-light",
-    //         },
-    //     ],
-    // },
+// Legacy Vivo exports are disabled. New icons must be exported to Vivo Evolution.
+//    vivo: {
+//        label: "Vivo",
+//        figmaEnv: "VIVO_FIGMA_ID",
+//        defaultFileId: "EApRpjaTyUOwW5VQU2ZqgP",
+//        svgoTargets: ["icons/vivo"],
+//        variants: [
+//            {
+//                configName: "vivo-filled.json",
+//                frame: "Filled",
+//                iconsPath: "icons/vivo/filled",
+//                script: "export-vivo-filled",
+//            },
+//            {
+//                configName: "vivo-regular.json",
+//                frame: "Regular",
+//                iconsPath: "icons/vivo/regular",
+//                script: "export-vivo-regular",
+//            },
+//            {
+//                configName: "vivo-light.json",
+//                frame: "Light",
+//                iconsPath: "icons/vivo/light",
+//                script: "export-vivo-light",
+//            },
+//        ],
+//    },
+    "vivo-evolution": {
+         label: "Vivo-evolution",
+         figmaEnv: "VIVO_EVOLUTION_FIGMA_ID",
+         defaultFileId: null,
+         svgoTargets: ["icons/vivo-evolution"],
+         variants: [
+             {
+                 configName: "vivo-evolution-filled.json",
+                 frame: "Filled",
+                 iconsPath: "icons/vivo-evolution/filled",
+                 script: "export-vivo-evolution-filled",
+             },
+             {
+                 configName: "vivo-evolution-regular.json",
+                 frame: "Regular",
+                 iconsPath: "icons/vivo-evolution/regular",
+                 script: "export-vivo-evolution-regular",
+             },
+             {
+                 configName: "vivo-evolution-light.json",
+                 frame: "Light",
+                 iconsPath: "icons/vivo-evolution/light",
+                 script: "export-vivo-evolution-light",
+             },
+         ],
+     },
 };
 
 module.exports = { BRANDS };
