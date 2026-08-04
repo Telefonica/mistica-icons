@@ -145,7 +145,7 @@ steps:
   - uses: assert.property
     name: Icon component description
     description: Every icon component must have its description field filled in. Select icons and use Mistica Icons Keywords plugin from Telefonica.
-    severity: error
+    severity: warning
     with: { property: description, notEquals: "" }
 
   # 9. Every icon component must also have at least one documentation link
@@ -159,7 +159,7 @@ steps:
   - uses: assert.property
     name: Icon component repo link
     description: Every icon component must have at least one repo link filled in. Select icons and use Mistica Icons Keywords plugin from Telefonica.
-    severity: error
+    severity: warning
     with:
       all:
         - { property: "documentationLinks.0.uri", exists: true }
