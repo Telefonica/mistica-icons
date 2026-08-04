@@ -1,4 +1,4 @@
-# Sync Icon Descriptions (figma plugin)
+# Mística icons keywords (figma plugin)
 
 This Figma plugin synchronizes the descriptions of components in the current page using data from a remote JSON file. The plugin ensures descriptions are updated consistently for all components, whether they are inside frames/groups or free-standing on the page.
 
@@ -17,11 +17,12 @@ This Figma plugin synchronizes the descriptions of components in the current pag
 3. If a match is found in the JSON, the description is updated along with a link to additional documentation.
 4. The plugin provides a summary of how many components were updated.
 
-## Installation
+## Development
 
 1. Clone or download the repository.
 2. Open Figma and go to `Plugins > Development > New Plugin`.
 3. Choose the `Manifest` option and select the plugin's manifest file.
+4. Modify things.
 
 ## Usage
 
