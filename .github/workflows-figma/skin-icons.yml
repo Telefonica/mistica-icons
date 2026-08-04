@@ -1,0 +1,135 @@
+# Checks apply only to components whose name ends in -regular, -filled or -light.
+name: Brand set icon validation
+version: 1
+scope: page:"Icons" # current-page | current-file | selection | page:"Name"
+
+steps:
+  - uses: select
+    with:
+      types: [FRAME]
+      scope: top-level
+  - uses: assert.nameMatches
+    name: Icon style frames
+    description: Every top-level frame must be named "Light", "Regular" or "Filled". Not all three need to exist, but no other frame names are allowed.
+    severity: error
+    with: { pattern: "^(Light|Regular|Filled)$" }
+
+  - uses: select
+    with:
+      types: [FRAME]
+      scope: top-level
+      nameMatches: "^(Light|Regular|Filled)$"
+  - uses: select.children
+  - uses: assert.property
+    name: Only components in frames
+    description: Everything directly inside the Light, Regular and Filled frames must be a Component — no stray instances, groups, or un-componentised frames.
+    severity: error
+    with: { property: type, equals: COMPONENT }
+
+  - uses: select
+    with:
+      types: [COMPONENT]
+      scope: descendants
+  - uses: assert.nameMatches
+    name: Component naming
+    description: Every component must be named ending in -regular, -light or -filled, which marks its icon style variant.
+    severity: error
+    with: { pattern: "(-regular|-filled|-light)$" }
+
+  - uses: select
+    with:
+      types: [COMPONENT]
+      scope: descendants
+  - uses: assert.property
+    name: Icon size
+    description: Every icon component must be 24x24. If an icon that looks 24x24 still fails, its actual size is slightly off (sub-pixel) — Figma rounds the W/H it displays, so a value like 24.01 shows as "24".
+    severity: error
+    with:
+      all:
+        - { property: width, equals: 24 }
+        - { property: height, equals: 24 }
+
+  - uses: assert.uniqueName
+    name: No duplicate icon names
+    description: No two icon components may share the exact same name. A duplicate usually means an accidental copy-paste that was never renamed.
+    severity: error
+
+  - uses: select
+    with:
+      types: [COMPONENT]
+      nameMatches: "(-regular|-filled|-light)$"
+      scope: descendants
+  - uses: select.children
+  - uses: assert.property
+    name: Evenodd values
+    description: Icon vector layers must not use the EVENODD fill rule. Use NONZERO instead, so the shape does not clip or invert when the icon is scaled.
+    severity: error
+    with: { property: windingRule, notEquals: EVENODD }
+
+  - uses: select
+    with:
+      types: [COMPONENT]
+      nameMatches: "(-regular|-filled|-light)$"
+      scope: descendants
+  - uses: select.children
+  - uses: assert.property
+    name: Sizing
+    description: Icon layers must have both horizontal and vertical constraints set to SCALE, so the artwork resizes proportionally with the component.
+    severity: error
+    with:
+      all:
+        - { property: constraints.horizontal, equals: SCALE }
+        - { property: constraints.vertical, equals: SCALE }
+
+  - uses: select
+    with:
+      types: [COMPONENT]
+      nameMatches: "(-regular|-filled|-light)$"
+      scope: descendants
+  - uses: assert.childCount
+    name: Children layers
+    description: Each icon component must contain exactly one layer inside. More than one layer usually means ungrouped or leftover shapes.
+    severity: error
+    with: { equals: 1 }
+
+  - uses: select
+    with:
+      types: [COMPONENT]
+      nameMatches: "(-regular|-filled|-light)$"
+      scope: descendants
+  - uses: select.children
+  - uses: assert.nameMatches
+    name: Children layer name
+    description: The single inner layer of each icon must be named exactly "icon", so downstream tooling can find it reliably.
+    severity: error
+    with: { pattern: "^icon$" }
+
+  - uses: select
+    with:
+      types: [COMPONENT]
+      nameMatches: "(-regular|-filled|-light)$"
+      scope: descendants
+  - uses: select.children
+  - uses: assert.property
+    name: Icon fill color
+    description: The inner "icon" vector must have a solid black fill (#000000). Colour is applied elsewhere, so no variables/tokens are used here to keep icons lightweight.
+    severity: error
+    with:
+      all:
+        - { property: fills.0.type, equals: SOLID }
+        - { property: fills.0.color.r, equals: 0 }
+        - { property: fills.0.color.g, equals: 0 }
+        - { property: fills.0.color.b, equals: 0 }
+        - { property: fills.0.boundVariables.color, exists: false }
+
+  - uses: select
+    with:
+      types: [COMPONENT]
+      nameMatches: "(-regular|-filled|-light)$"
+      scope: descendants
+  - uses: select.children
+  - uses: assert.property
+    name: Flattened vector
+    description: The inner "icon" layer must be a single flattened vector (type VECTOR), not a live boolean operation (union, subtract, intersect or exclude).
+    severity: error
+    with: { property: type, equals: VECTOR }
