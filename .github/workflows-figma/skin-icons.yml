@@ -51,9 +51,9 @@ steps:
       scope: descendants
   - uses: assert.nameMatches
     name: Component naming
-    description: Every component must be named ending in -regular, -light or -filled, which marks its icon style variant.
+    description: Every component must be named in lowercase with pattern icon-name-regular, icon-name-light or icon-name-filled (no uppercase letters allowed).
     severity: error
-    with: { pattern: "(-regular|-filled|-light)$" }
+    with: { pattern: "^[a-z0-9-]*(-regular|-filled|-light)$" }
 
   # 4. Same page-wide selection: every icon component must be exactly 24x24.
   - uses: select
