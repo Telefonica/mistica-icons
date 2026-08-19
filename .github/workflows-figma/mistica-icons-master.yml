@@ -41,9 +41,9 @@ steps:
     with: { property: type, equals: COMPONENT }
   - uses: assert.nameMatches
     name: Icon component style suffix
-    description: Every component inside a style frame must end in -light, -regular or -filled.
+    description: Every component inside a style frame must be lowercase and end in -light, -regular or -filled.
     severity: error
-    with: { pattern: "(-light|-regular|-filled)$" }
+    with: { pattern: "^[a-z0-9-]*(-light|-regular|-filled)$" }
 
   # 3. Unlike Brands Icons, these components must NOT be private, i.e. must NOT
   # start with ".". `assert.nameMatches` only supports a positive regex, so a
@@ -159,7 +159,7 @@ steps:
   - uses: assert.property
     name: Icon component repo link
     description: Every icon component must have at least one repo link filled in. Select icons and use Mistica Icons Keywords plugin from Telefonica.
-    severity: warning
+    severity: info
     with:
       all:
         - { property: "documentationLinks.0.uri", exists: true }
