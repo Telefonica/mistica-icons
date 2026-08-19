@@ -39,9 +39,9 @@ steps:
     with: { property: type, equals: COMPONENT_SET }
   - uses: assert.nameMatches
     name: Icon component style suffix
-    description: Every component inside a style frame must end in -light, -regular or -filled.
+    description: Every component inside a style frame must be lowercase and end in -light, -regular or -filled.
     severity: error
-    with: { pattern: "(-light|-regular|-filled)$" }
+    with: { pattern: "^\\.[a-z0-9-]*(-light|-regular|-filled)$" }
 
   # 3. Those components must be private (name starts with ".")
   - uses: assert.nameMatches
@@ -100,6 +100,6 @@ steps:
   # 6. That instance's name must carry the same style suffix
   - uses: assert.nameMatches
     name: Instance naming
-    description: The instance inside each brand variant must end in -light, -regular or -filled.
+    description: The instance inside each brand variant must be lowercase and end in -light, -regular or -filled.
     severity: error
-    with: { pattern: "(-light|-regular|-filled)$" }
+    with: { pattern: "^[a-z0-9-]*(-light|-regular|-filled)$" }
